@@ -10,7 +10,7 @@ import { ComparisonSlider } from "@/components/ComparisonSlider";
 
 const moods = [
   {
-    id: "golden", label: "Golden", number: "01", before: "golden_hour_before.jpg", beforeAlt: "The original portrait by a wooden fence, under a flat afternoon sky", title: "Stay a little longer.",
+    id: "golden", label: "Golden", before: "golden_hour_before.jpg", beforeAlt: "The original portrait by a wooden fence, under a flat afternoon sky", title: "Stay a little longer.",
     description: "That last light of the afternoon. Warm tones, soft edges, and the feeling that there’s nowhere else to be.",
     photos: [
       { file: "golden_hour_after.jpg", title: "Golden hour", alt: "A portrait in a white dress by a wooden fence, lit with warm sunset light" },
@@ -19,7 +19,7 @@ const moods = [
     ],
   },
   {
-    id: "after-dark", label: "After dark", number: "02", before: "red_flash_before.jpg", beforeAlt: "The original portrait on concrete steps in natural daylight", title: "Let the night in.",
+    id: "after-dark", label: "After dark", before: "red_flash_before.jpg", beforeAlt: "The original portrait on concrete steps in natural daylight", title: "Let the night in.",
     description: "A little flash. A deeper shadow. Turn an ordinary moment into the photo that feels like the whole night.",
     photos: [
       { file: "red_flash_after.jpg", title: "Red flash", alt: "The same portrait on concrete steps lit by vivid red flash" },
@@ -28,7 +28,7 @@ const moods = [
     ],
   },
   {
-    id: "nostalgia", label: "Nostalgia", number: "03", before: null, beforeAlt: "", title: "A familiar kind of magic.",
+    id: "nostalgia", label: "Nostalgia", before: null, beforeAlt: "", title: "A familiar kind of magic.",
     description: "Photobooth memories and early-digital charm. Looks with a little character, like something you’d keep in a shoebox.",
     photos: [
       { file: "vintage_after.jpg", title: "Photobooth", alt: "A black-and-white photobooth strip with playful portrait poses" },

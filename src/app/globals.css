@@ -123,8 +123,6 @@ h2 { font-size: 30px; line-height: 36px; font-weight: 700; letter-spacing: -.035
 .choice-tabs button:hover { color: white; background: rgb(255 255 255 / 5%); }
 .choice-tabs button[aria-selected='true'] { background: #f5fbff; color: #06080c; box-shadow: 0 1px 12px rgb(108 194 233 / 15%), inset 0 0 0 1px white; }
 .choice-tabs button:active { transform: scale(.97); }
-.choice-number { color: #73899b; font-size: 10px; line-height: 1; font-weight: 500; }
-.choice-tabs button[aria-selected='true'] .choice-number { color: #52718a; }
 .moodboard-panels { display: grid; margin-top: 32px; }
 .mood-panel { grid-area: 1 / 1; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.6fr); gap: 64px; align-items: center; visibility: hidden; opacity: 0; transform: translateY(8px); transition: opacity .32s var(--ease), transform .32s var(--ease), visibility 0s .32s; }
 .mood-panel.is-selected { visibility: visible; opacity: 1; transform: none; transition-delay: 0s; }
@@ -297,7 +295,6 @@ footer nav a:hover { color: var(--cyan); }
   .section-intro br { display: none; }
   .choice-tabs { gap: 2px; }
   .choice-tabs button { padding-inline: 12px; font-size: 13px; gap: 6px; }
-  .choice-number { font-size: 9px; }
   .moodboard-panels { margin-top: 24px; }
   .mood-panel { grid-template-columns: 1fr; gap: 16px; }
   .mood-description { order: 2; padding: 8px 4px 0; }
