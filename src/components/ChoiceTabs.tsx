@@ -2,7 +2,7 @@
 
 import { useRef, type KeyboardEvent } from "react";
 
-type Option = { id: string; label: string };
+type Option = { id: string; label: string; number?: string };
 
 type ChoiceTabsProps = {
   options: readonly Option[];
@@ -40,6 +40,6 @@ export function ChoiceTabs({ options, value, onChange, idPrefix, label, classNam
       tabIndex={value === option.id ? 0 : -1}
       onClick={() => onChange(option.id)}
       onKeyDown={(event) => onKeyDown(event, index)}
-    >{option.label}</button>)}
+    >{option.number && <span className="choice-number" aria-hidden="true">{option.number}</span>}{option.label}</button>)}
   </div>;
 }

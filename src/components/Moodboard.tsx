@@ -1,15 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, MoveHorizontal, Image as ImageIcon } from "lucide-react";
 import { useState } from "react";
 import { assetPath } from "@/lib/assets";
 import { ChoiceTabs } from "@/components/ChoiceTabs";
 import { Reveal } from "@/components/Reveal";
+import { ComparisonSlider } from "@/components/ComparisonSlider";
 
 const moods = [
   {
-    id: "golden", label: "Golden", number: "01", title: "Stay a little longer.",
+    id: "golden", label: "Golden", number: "01", before: "golden_hour_before.jpg", beforeAlt: "The original portrait by a wooden fence, under a flat afternoon sky", title: "Stay a little longer.",
     description: "That last light of the afternoon. Warm tones, soft edges, and the feeling that there’s nowhere else to be.",
     note: "SUNLIT / SOFT / UNHURRIED",
     photos: [
@@ -19,17 +20,17 @@ const moods = [
     ],
   },
   {
-    id: "after-dark", label: "After dark", number: "02", title: "Let the night in.",
+    id: "after-dark", label: "After dark", number: "02", before: "red_flash_before.jpg", beforeAlt: "The original portrait on concrete steps in natural daylight", title: "Let the night in.",
     description: "A little flash. A deeper shadow. Turn an ordinary moment into the photo that feels like the whole night.",
     note: "FLASH / CONTRAST / ATTITUDE",
     photos: [
+      { file: "red_flash_after.jpg", title: "Red flash", alt: "The same portrait on concrete steps lit by vivid red flash" },
       { file: "flash_dark_after.jpg", title: "Night flash", alt: "A direct-flash portrait with a baseball cap and a deep green background" },
-      { file: "red_flash_after.jpg", title: "Red flash", alt: "A portrait on concrete steps lit by vivid red flash" },
       { file: "canon_g7x_after.jpg", title: "Digicam", alt: "A warm digicam-flash portrait at a restaurant table" },
     ],
   },
   {
-    id: "nostalgia", label: "Nostalgia", number: "03", title: "A familiar kind of magic.",
+    id: "nostalgia", label: "Nostalgia", number: "03", before: null, beforeAlt: "", title: "A familiar kind of magic.",
     description: "Photobooth memories and early-digital charm. Looks with a little character, like something you’d keep in a shoebox.",
     note: "GRAIN / MEMORY / CHARACTER",
     photos: [
@@ -53,6 +54,7 @@ export function Moodboard() {
         {moods.map((mood) => <div
           key={mood.id}
           className={`mood-panel${selected === mood.id ? " is-selected" : ""}`}
+          data-mood={mood.id}
           role="tabpanel"
           id={`mood-panel-${mood.id}`}
           aria-labelledby={`mood-tab-${mood.id}`}
@@ -68,9 +70,10 @@ export function Moodboard() {
           </div>
           <div className="mood-photos">
             {mood.photos.map((photo, index) => <figure className={`mood-photo mood-photo-${index + 1}`} key={photo.file}>
-              <Image src={assetPath(`/img/${photo.file}`)} alt={photo.alt} fill sizes={index === 0 ? "(min-width: 900px) 380px, 58vw" : "(min-width: 900px) 240px, 34vw"} loading="eager" />
+              {index === 0 && mood.before ? <ComparisonSlider id={`mood-compare-${mood.id}`} variant="mood" before={mood.before} after={photo.file} beforeAlt={mood.beforeAlt} afterAlt={photo.alt} label={`${photo.title}: reveal the original photo and Meluvya look`} /> : <Image src={assetPath(`/img/${photo.file}`)} alt={photo.alt} fill sizes={index === 0 ? "(min-width: 900px) 380px, 58vw" : "(min-width: 900px) 240px, 34vw"} loading="eager" />}
               <figcaption>{photo.title}</figcaption>
             </figure>)}
+            <p className="mood-photo-instruction">{mood.before ? <><MoveHorizontal size={16} aria-hidden="true" /> Drag the divider. See what changes.</> : <><ImageIcon size={15} aria-hidden="true" /> A little character. A different era.</>}</p>
           </div>
         </div>)}
       </div>

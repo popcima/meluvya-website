@@ -55,3 +55,7 @@ NEXT_PUBLIC_BASE_PATH=/meluvya-website npm run build
 ```
 
 Update the site by editing the source, committing, and pushing to `main`. Store buttons show a coming-soon dialog until the real App Store and Google Play links are supplied.
+
+The moodboard now offers real, manually controlled before/after previews for Golden hour and Red flash. Nostalgia is a static look, without a fabricated comparison. Each slider has a unique accessible label and supports dragging, touch and arrow keys; inactive mood panels remain inert. Header section links are available on wider screens. Supporting-photo hover depth is limited to fine-pointer devices, and all new motion respects reduced motion.
+
+The app showcase loads lossless WebP transcodes of the supplied screenshots (3.77 MB combined instead of 6.68 MB); the original PNGs are retained. There is no resize, crop or compositing in the assets.

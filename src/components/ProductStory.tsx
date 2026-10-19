@@ -1,14 +1,15 @@
 "use client";
 
 import Image from "next/image";
+import { Layers, ScanFace } from "lucide-react";
 import { useState } from "react";
 import { assetPath } from "@/lib/assets";
 import { ChoiceTabs } from "@/components/ChoiceTabs";
 import { Reveal } from "@/components/Reveal";
 
 const views = [
-  { id: "explore", label: "Explore", image: "meluvya-app-explore.png", heading: "A little inspiration goes a long way.", description: "Browse effects for a change of light and mood, or discover portrait templates that take you somewhere new.", alt: "Meluvya Explore screen showing Effects and Templates, the Midnight Flash look, and portrait effects" },
-  { id: "create", label: "Create", image: "meluvya-app-create.png", heading: "You bring the photo. And the point of view.", description: "Choose a photo and the look you want to create. You decide when to make it happen; your photo stays local until you choose Create.", alt: "Meluvya Create screen with Choose photo, portrait templates, and the Add your photo button" },
+  { id: "explore", label: "Explore", image: "meluvya-app-explore.webp", heading: "A little inspiration goes a long way.", description: "Browse effects for a change of light and mood, or discover portrait templates that take you somewhere new.", alt: "Meluvya Explore screen showing Effects and Templates, the Midnight Flash look, and portrait effects" },
+  { id: "create", label: "Create", image: "meluvya-app-create.webp", heading: "You bring the photo. And the point of view.", description: "Choose a photo and the look you want to create. You decide when to make it happen; your photo stays local until you choose Create.", alt: "Meluvya Create screen with Choose photo, portrait templates, and the Add your photo button" },
 ] as const;
 
 const workflow = [
@@ -23,8 +24,12 @@ export function ProductStory() {
     <div className="wrap studio-layout">
       <Reveal className="studio-device-column">
         <div className="studio-phone-halo" aria-hidden="true" />
+        <div className="studio-product-stage">
+        <div className="studio-callout callout-effects"><Layers size={16} aria-hidden="true" /><span>Effects + templates</span></div>
         <div className="studio-phone">
           {views.map((view) => <Image key={view.id} className={`studio-screen${selected === view.id ? " is-selected" : ""}`} src={assetPath(`/img/${view.image}`)} alt={selected === view.id ? view.alt : ""} aria-hidden={selected !== view.id} width={1320} height={2868} sizes="(min-width: 900px) 290px, 260px" loading="eager" />)}
+        </div>
+        <div className="studio-callout callout-personal"><ScanFace size={16} aria-hidden="true" /><span>Made for your photos</span></div>
         </div>
         <ChoiceTabs options={views} value={selected} onChange={setSelected} idPrefix="studio" label="See inside Meluvya" className="studio-tabs" />
         <p className="studio-device-caption">A little creative space. Always with you.</p>
