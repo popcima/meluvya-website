@@ -34,6 +34,8 @@ jobs:
         run: npm run build
         env:
           NEXT_PUBLIC_BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
           NEXT_TELEMETRY_DISABLED: '1'
       - name: Typecheck
         run: npm run typecheck
