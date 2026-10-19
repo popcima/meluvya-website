@@ -1,17 +1,3 @@
-export const looks = [
-  { image: "golden_hour_after.jpg", name: "Golden hour" },
-  { image: "flash_dark_after.jpg", name: "Night flash" },
-  { image: "vintage_after.jpg", name: "Vintage photobooth" },
-  { image: "red_flash_after.jpg", name: "Red flash" },
-  { image: "y2k_digicam_after.jpg", name: "Y2K digicam" },
-  { image: "stardust_after.jpg", name: "Stardust" },
-  { image: "canon_g7x_after.jpg", name: "Digicam" },
-  { image: "flash_daylight_after.jpg", name: "Day flash" },
-  { image: "macbook_after.jpg", name: "Webcam aesthetic" },
-  { image: "warm_vintage_after.jpg", name: "Lumicam" },
-  { image: "canon_pro_after.jpg", name: "Powershot flash" },
-] as const;
-
 export const questions = [
   { question: "How do I create a new look?", answer: "Explore the effects and portrait templates, pick a look you like, and add your photo. When you’re ready, choose Create to make it yours." },
   { question: "Can I use a photo from my camera roll?", answer: "Yes. Choose a photo already on your phone, then pair it with a look from the gallery." },

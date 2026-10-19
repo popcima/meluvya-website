@@ -28,8 +28,8 @@ python3 -m http.server 3000 --directory out
 ## Structure
 
 - `src/app/`: page composition, metadata and responsive styles.
-- `src/components/`: navigation, hero, image comparison, gallery, steps, FAQ, download panel and accessible download dialog.
-- `src/lib/content.ts`: gallery and FAQ content.
+- `src/components/`: navigation, stacked hero, image comparison, interactive moodboard, real app showcase, FAQ and accessible download dialog.
+- `src/lib/content.ts`: factual FAQ content.
 - `public/img/`, `public/fonts/`: local photographs, the native Meluvya app icon and Manrope fonts.
 
 ## Brand and interactions
@@ -38,7 +38,7 @@ The native Meluvya app icon appears in the header, download panel and dialog, an
 
 The store buttons retain their App Store and Google Play labels and silhouettes. Until the app's store links are provided, they open a native accessible coming-soon dialog. Escape and both close buttons dismiss it, returning focus to the button that opened it. The header button scrolls to the download panel.
 
-The before/after comparison supports pointer, touch and keyboard controls. The photo gallery pauses on hover. Motion respects the reduced-motion preference. FAQs use native `details` and `summary` controls. Footer links navigate to sections within this page.
+The original stacked hero and before/after comparison support pointer, touch and keyboard controls. The moodboard offers three manually selected edits—Golden, After dark and Nostalgia—with a large photo and two supporting examples. Explore / Create controls switch between intact screenshots of the real app and their accompanying explanation. Both sets of tabs support arrow keys, Home and End, and preserve the section height while switching. Motion respects reduced-motion preferences. FAQs use native `details` and `summary` controls. Footer links navigate to sections within this page.
 
 The landing page retains the existing sample photographs. It does not upload user photos or perform AI generation. No tracking or analytics is included.
 
