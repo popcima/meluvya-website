@@ -18,7 +18,6 @@ export function Hero() {
         <div className="back l"><Image src={assetPath("/img/stardust_after.jpg")} alt="Stardust look: a selfie in a field restyled with warm golden haze and soft star flares" fill sizes="260px" priority /></div>
         <div className="back r"><Image src={assetPath("/img/flash_dark_after.jpg")} alt="Night flash look: a selfie restyled with harsh digicam flash against a dark background" fill sizes="260px" priority /></div>
         <ComparisonSlider />
-        <p className="stage-caption"><span aria-hidden="true">✳</span> A new perspective <span className="stage-caption-rule" aria-hidden="true" /> Golden hour / 01</p>
       </div>
     </div>
   </section>;

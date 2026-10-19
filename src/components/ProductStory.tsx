@@ -35,7 +35,7 @@ export function ProductStory() {
         <p className="studio-device-caption">A little creative space. Always with you.</p>
       </Reveal>
       <div className="studio-copy">
-        <Reveal><p className="section-kicker">02 / INSIDE MELUVYA</p><h2 id="studio-heading">A whole studio.<br />Already in your pocket.</h2></Reveal>
+        <Reveal><h2 id="studio-heading">A whole studio.<br />Already in your pocket.</h2></Reveal>
         <div className="studio-view-panels">
           {views.map((view) => <div key={view.id} className={`studio-view-panel${selected === view.id ? " is-selected" : ""}`} role="tabpanel" id={`studio-panel-${view.id}`} aria-labelledby={`studio-tab-${view.id}`} aria-hidden={selected !== view.id} inert={selected !== view.id} tabIndex={selected === view.id ? 0 : -1}>
             <h3>{view.heading}</h3><p>{view.description}</p>
