@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { Layers, ScanFace } from "lucide-react";
 import { useState } from "react";
 import { assetPath } from "@/lib/assets";
 import { ChoiceTabs } from "@/components/ChoiceTabs";
@@ -25,14 +24,11 @@ export function ProductStory() {
       <Reveal className="studio-device-column">
         <div className="studio-phone-halo" aria-hidden="true" />
         <div className="studio-product-stage">
-        <div className="studio-callout callout-effects"><Layers size={16} aria-hidden="true" /><span>Effects + templates</span></div>
         <div className="studio-phone">
           {views.map((view) => <Image key={view.id} className={`studio-screen${selected === view.id ? " is-selected" : ""}`} src={assetPath(`/img/${view.image}`)} alt={selected === view.id ? view.alt : ""} aria-hidden={selected !== view.id} width={1320} height={2868} sizes="(min-width: 900px) 290px, 260px" loading="eager" />)}
         </div>
-        <div className="studio-callout callout-personal"><ScanFace size={16} aria-hidden="true" /><span>Made for your photos</span></div>
         </div>
         <ChoiceTabs options={views} value={selected} onChange={setSelected} idPrefix="studio" label="See inside Meluvya" className="studio-tabs" />
-        <p className="studio-device-caption">A little creative space. Always with you.</p>
       </Reveal>
       <div className="studio-copy">
         <Reveal><h2 id="studio-heading">A whole studio.<br />Already in your pocket.</h2></Reveal>
