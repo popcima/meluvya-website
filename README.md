@@ -113,13 +113,13 @@ The GitHub Pages custom domain is `meluvya.com`. Namecheap BasicDNS serves the f
 
 Verify HTTPS for both hostnames, the `www` redirect, and redirects from the old `https://popcima.github.io/meluvya-website/` URLs, including article paths. A canonical tag is not a redirect. Keep all article slugs and publication dates when migrating domains. A domain change alone does not establish ranking gains. Follow [Google’s site-move guidance](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes) when migrating URLs.
 
-### Search Console, when the domain is ready
+### Search Console
 
-Verification and submission are deferred until the user chooses to proceed. For a custom domain, a Domain property uses DNS verification. For a specific hosted path, a URL-prefix property can cover that exact HTTPS prefix. See [Google’s property setup guide](https://support.google.com/webmasters/answer/34592) and [ownership verification methods](https://support.google.com/webmasters/answer/9008080).
+The `meluvya.com` Domain property was verified through a Namecheap DNS TXT record on 2026-10-20. Keep that Google verification record in place. No HTML verification tag is needed for this method. See [Google’s property setup guide](https://support.google.com/webmasters/answer/34592) and [ownership verification methods](https://support.google.com/webmasters/answer/9008080).
 
 If using HTML-tag verification for a URL-prefix property, put the supplied content value in `GOOGLE_SITE_VERIFICATION`, rebuild, confirm the live homepage meta tag, and complete verification in Search Console. Do not remove a working verification token after verification unless switching methods deliberately.
 
-After verification, submit the actual sitemap URL: currently `https://meluvya.com/sitemap.xml`. Use URL Inspection for a few representative guides and monitor indexing, not just whether a sitemap was accepted. Google’s [sitemap documentation](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap) explains submission; a sitemap is a discovery signal and does not guarantee indexing.
+Google successfully read `https://meluvya.com/sitemap.xml` on 2026-10-20 and reported 39 discovered pages: the homepage, three blog index/archive pages, and 35 articles. Discovered pages are not confirmed indexed pages. The existing sitemap updates with the article collection, and Google periodically processes the submitted sitemap. Use URL Inspection for representative guides and the Pages report to monitor actual indexing; avoid repeated submissions for the same unchanged URL. Google’s [sitemap documentation](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap) explains submission; a sitemap is a discovery signal and does not guarantee indexing.
 
 The root-domain deployment emits `https://meluvya.com/robots.txt`, allows public crawling, and advertises the canonical sitemap. The pages do not send a noindex directive.
 

@@ -9,7 +9,7 @@ Publish useful English photo guides for a worldwide audience. The owner approved
 - Free web research can establish relevant questions and verify facts. Search results alone do not establish search volume. Google Trends scores are relative interest, not monthly searches. Mark missing metrics `null` with an explanation, never zero or a made-up estimate.
 - The native app shows Effects, Templates, Create, Editor, and My photos. Do not claim specific editing controls, speed, prices, free credits, no-account usage, privacy guarantees, or supported devices without verified product evidence.
 - Store URLs are not supplied. Every article uses the shared `ArticleDownloadCTA` and its honest coming-soon dialog. Keep both existing store button labels; replace their behavior only when the owner provides real links.
-- The owner selected `meluvya.com` on 2026-10-20. The canonical root is `https://meluvya.com` with an empty deployment base path. Search Console remains deferred. Do not buy services, create paid accounts, or submit verification tokens.
+- The owner selected `meluvya.com` on 2026-10-20. The canonical root is `https://meluvya.com` with an empty deployment base path. On the same date, the owner authorized Search Console setup: the Domain property was verified using a Namecheap TXT record, and Google successfully read the sitemap with 39 discovered pages. Preserve the verification record and submitted sitemap. Do not buy services or create paid accounts.
 
 ## Run the daily batch
 
@@ -44,7 +44,7 @@ The blog automatically shows 12 guides per archive page. Keep `/blog/` as page 1
 
 The daily recurring task lives in the Codex desktop app, attached to the existing chat. The website and GitHub Pages do not generate articles themselves. The desktop computer must be on, Codex running, and this repository plus GitHub access available. Runs use the account's available Codex usage; exhaustion or access failures can prevent publishing. A daily schedule does not guarantee 30 articles.
 
-Record meaningful new publications and failures in the chat. Do not send emails, social posts, or unsolicited outreach. When the owner supplies a domain and enables Search Console later, use impressions, query positions, clicks, and CTR to revise priorities. Until then, do not claim ranking improvements or traffic outcomes.
+Record meaningful new publications and failures in the chat. Do not send emails, social posts, or unsolicited outreach. Search Console is connected, but a newly verified property may not have performance data yet. Use actual impressions, query positions, clicks, and CTR to revise priorities when available; record the reporting period and never invent missing data. Sitemap success means Google read the URL list, not that every page is indexed. Do not claim ranking improvements or traffic outcomes without evidence.
 
 ## Reference policies
 
