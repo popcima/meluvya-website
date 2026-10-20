@@ -30,6 +30,8 @@ jobs:
         run: npm ci --no-audit --no-fund
       - name: Lint
         run: npm run lint
+      - name: Validate article dates, links, and daily limit
+        run: node scripts/check-content.mjs
       - name: Build static website
         run: npm run build
         env:
@@ -39,6 +41,10 @@ jobs:
           NEXT_TELEMETRY_DISABLED: '1'
       - name: Typecheck
         run: npm run typecheck
+      - name: Validate exported pages and internal links
+        run: python3 scripts/check-export.py
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
       - name: Upload website
         uses: actions/upload-pages-artifact@v4
         with:

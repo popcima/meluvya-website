@@ -352,6 +352,16 @@ footer nav a:hover { color: var(--cyan); }
 .journal-card h2 { margin: 11px 0 13px; font-size: 21px; line-height: 28px; letter-spacing: -.025em; }
 .journal-card-description { color: var(--secondary); font-size: 13px; line-height: 22px; }
 .journal-card-arrow { display: inline-flex; margin-top: 16px; color: #a6d6e9; }
+.journal-pagination { display: flex; align-items: center; justify-content: center; gap: 24px; margin-top: 48px; }
+.journal-pagination ol { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 4px; margin: 0; padding: 0; list-style: none; }
+.journal-pagination a { text-decoration: none; }
+.journal-page-step { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: 8px; color: #bed7e5; font-size: 13px; }
+.journal-page-step[aria-disabled] { color: #728796; }
+.journal-page-number { display: flex; align-items: center; justify-content: center; min-width: 44px; height: 44px; border: 1px solid transparent; border-radius: 50%; font-size: 13px; color: #b1c5d4; }
+.journal-page-number[aria-current] { border-color: #507b8a; color: #e3f7ff; background: #101f28; }
+.journal-page-gap { display: flex; width: 20px; height: 44px; align-items: center; justify-content: center; color: #93a9bb; }
+.journal-pagination a:hover { color: white; }
+.journal-page-number:hover { background: #111d25; }
 .article-header { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, .85fr); gap: 72px; align-items: center; padding-bottom: 64px; }
 .article-header h1 { color: #f7fbff; background: none; font-size: clamp(37px, 4.2vw, 56px); line-height: 1.12; letter-spacing: -.04em; text-wrap: pretty; }
 .article-summary { margin-top: 26px; color: var(--secondary); font-size: 17px; line-height: 29px; }
@@ -396,10 +406,15 @@ footer nav a:hover { color: var(--cyan); }
 .article-sources a { color: #a9d9ec; font-size: 14px; text-underline-offset: 4px; }
 .article-sources li p { margin-top: 6px; color: #90a4b5; font-size: 13px; line-height: 22px; }
 .article-sources .editorial-note { padding-top: 4px; color: #8397a9; font-size: 12px; line-height: 21px; }
-.article-app-link { padding: 28px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.article-app-link h2 { margin-bottom: 8px; font-size: 24px; line-height: 32px; }
-.article-app-link p { font-size: 14px; line-height: 24px; }
-.article-app-link .text-link { margin-top: 14px; }
+.article-content .article-download { margin-bottom: 0; padding: 32px; border: 1px solid rgb(104 200 221 / 20%); border-top: 2px solid #68a9bb; border-radius: 18px; background: #0c171e; }
+.article-download-brand { display: flex; align-items: center; gap: 13px; margin-bottom: 26px; }
+.article-download-brand .wordmark { font-size: 22px; }
+.article-download h2 { max-width: 470px; margin-bottom: 12px; font-size: 30px; line-height: 38px; letter-spacing: -.035em; }
+.article-download p { max-width: 460px; font-size: 15px; line-height: 26px; }
+.article-download .actions { gap: 12px; margin-top: 26px; }
+.article-download .actions .btn { flex: 0 1 auto; min-height: 62px; padding-inline: 24px; }
+.article-download .article-download-availability { margin-top: 14px; color: #96adbc; font-size: 12px; line-height: 20px; }
+.article-download .text-link { margin-top: 12px; color: #b4dfec; font-size: 13px; }
 .related-guides { padding-top: 70px; padding-bottom: 76px; }
 .related-guides > h2 { font-size: 28px; margin-bottom: 28px; }
 .related-guides > div { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 40px; }
@@ -439,6 +454,10 @@ footer nav a:hover { color: var(--cyan); }
   .related-guides > div > a { font-size: 18px; line-height: 26px; }
 }
 @media (max-width: 639px) {
+  .journal-pagination { display: grid; grid-template-columns: 1fr 1fr; column-gap: 16px; row-gap: 12px; margin-top: 32px; }
+  .journal-pagination ol { grid-row: 2; grid-column: 1 / -1; justify-content: center; gap: 2px; }
+  .journal-page-step:first-child { justify-self: start; }
+  .journal-page-step:last-child { justify-self: end; }
   .journal-heading h1 { font-size: 48px; }
   .breadcrumbs { margin-bottom: 24px; }
   .journal-feature { grid-template-columns: minmax(0, 1fr); gap: 26px; padding-bottom: 32px; }
@@ -465,8 +484,12 @@ footer nav a:hover { color: var(--cyan); }
   .article-questions h3 { font-size: 17px; line-height: 26px; }
   .article-sources li p { font-size: 13px; line-height: 22px; }
   .article-sources .editorial-note { font-size: 12px; line-height: 21px; }
-  .article-app-link h2 { font-size: 23px; }
-  .article-app-link p { font-size: 14px; line-height: 24px; }
+  .article-content .article-download { padding: 25px 22px 20px; margin-bottom: 0; border-radius: 15px; }
+  .article-download-brand { margin-bottom: 23px; }
+  .article-download h2 { font-size: 27px; line-height: 35px; }
+  .article-download p { font-size: 14px; line-height: 25px; }
+  .article-download .actions .btn { flex: 1 1 180px; }
+  .article-download .article-download-availability { font-size: 12px; line-height: 20px; }
   .related-guides { padding-top: 46px; padding-bottom: 56px; }
   .related-guides > div { grid-template-columns: 1fr; gap: 0; }
 }

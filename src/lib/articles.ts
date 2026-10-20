@@ -29,6 +29,372 @@ const illustration = "Illustrative style example.";
 
 export const articles: Article[] = [
   {
+    "slug": "window-light-portraits-at-home",
+    "title": "How to take window-light portraits at home",
+    "description": "Make a simple portrait beside a window. Compare front and side light, soften harsh sun, choose a background, and check your photo before editing.",
+    "summary": "One window, a clear background, and a few deliberate changes in position can give you a more useful starting photo.",
+    "published": "2026-10-20",
+    "modified": "2026-10-20",
+    "image": "canon_g7x_after.jpg",
+    "imageAlt": "An indoor portrait of a woman resting her face on her hands at a restaurant table",
+    "imagePosition": "50% 34%",
+    "caption": "Illustrative portrait. The lighting setup described below is a separate exercise.",
+    "quickAnswer": "Start beside a window with indirect daylight and turn off nearby room lights for a simpler setup. Photograph the face turned toward the window, then slightly away. Compare the shadows and eye detail before choosing your position. A sheer curtain can soften direct sun, but it also reduces the available light.",
+    "sections": [
+      {
+        "id": "choose-the-window",
+        "title": "Choose the light you actually have",
+        "paragraphs": [
+          "Look at the shadow beside your nose or on a hand held near your face. A sharp edge suggests a harder source; a gentler transition gives you a different portrait mood. Do this at the time you plan to take the photo. A window that works in the morning can look very different later.",
+          "Adobe describes indirect window light and translucent curtains as accessible ways to create softer indoor light. There is no compass direction that works best in every location and season. Start with the visible light, rather than a rule about which wall your window should be on."
+        ]
+      },
+      {
+        "id": "simple-setup",
+        "title": "Make the room easier to work with",
+        "list": {
+          "ordered": true,
+          "items": [
+            {
+              "title": "Simplify the light.",
+              "text": "Switch off nearby ceiling lights and lamps for your first comparison. Nikon’s window-light advice uses this approach to make the relationship between light and shadow more deliberate."
+            },
+            {
+              "title": "Pick a quiet background.",
+              "text": "Look through the camera for doorframes, bright screens, and objects crossing the outline of the head. Move the camera or subject until the background supports the portrait."
+            },
+            {
+              "title": "Start with a comfortable position.",
+              "text": "Sit or stand beside the window with the face turned partly toward it. Leave room around the head and shoulders. Avoid choosing a pose that is difficult to hold while checking the photograph."
+            },
+            {
+              "title": "Check the bright cheek.",
+              "text": "Take a frame and inspect both sides of the face. If the lit side looks blank, adjust exposure if your camera permits, or change position. Keep some shadow if it helps show shape."
+            }
+          ]
+        }
+      },
+      {
+        "id": "compare-three-frames",
+        "title": "Try a three-frame comparison",
+        "paragraphs": [
+          "Treat this as a small exercise, not a fixed lighting formula. Keep the same crop and expression while changing one thing. Save all three versions so you can compare them together."
+        ],
+        "table": {
+          "headers": [
+            "Frame",
+            "Change to try",
+            "Question to ask"
+          ],
+          "rows": [
+            [
+              "A: toward the window",
+              "Turn the face more toward the light.",
+              "Can you read both eyes without the face looking flat?"
+            ],
+            [
+              "B: across the window",
+              "Turn slightly so light travels across the face.",
+              "Does the shadow add shape or hide an important feature?"
+            ],
+            [
+              "C: a different distance",
+              "Move closer to or farther from the window and repeat your preferred angle.",
+              "Which position balances face brightness, background, and comfort?"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "solve-common-problems",
+        "title": "Solve the problem before adding a filter",
+        "paragraphs": [
+          "If a stripe of direct sun crosses the face, try another position or a sheer curtain. Check the result again after adding the curtain: less light may mean you need to hold steadier. If the shaded cheek disappears, turn toward the window a little rather than automatically brightening the entire photograph.",
+          "For a useful selection process, score your three frames on four simple questions: are the eyes readable, does the expression feel comfortable, is the background distracting, and is the crop usable? Pick the frame with the fewest problems to solve. A photograph does not need perfectly even illumination to be worth keeping.",
+          "Once you choose a frame, keep an untouched copy. You can then explore a different mood while comparing the result with the light and features that were present in the source."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do I need a professional camera?",
+        "answer": "This exercise is about the position of the face and light. You can try it with a phone; the exposure and focus controls available will depend on your device."
+      },
+      {
+        "question": "Should the window be behind me?",
+        "answer": "For this starting exercise, place it in front of or beside the face. A window behind the subject creates a different exposure problem and can turn the face into a silhouette."
+      },
+      {
+        "question": "Does soft light mean no shadows?",
+        "answer": "No. Look for a gentle transition at the shadow edge. You can still keep a darker side of the face to create shape."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Adobe: diffused light photography",
+        "url": "https://www.adobe.com/uk/creativecloud/photography/technique/diffused-light.html",
+        "note": "Background on indirect window light, diffusion, and the loss of light through diffusion material."
+      },
+      {
+        "title": "Nikon: using shadows and light",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/using-shadows-and-light-in-your-photographs",
+        "note": "Window-only lighting as a deliberate portrait approach. The three-frame exercise is our editorial guidance."
+      }
+    ],
+    "related": [
+      "choose-photo-for-ai-portraits",
+      "golden-hour-photo-editing"
+    ]
+  },
+  {
+    "slug": "why-night-phone-photos-are-blurry",
+    "title": "Why your night phone photos are blurry—and what to try",
+    "description": "Diagnose camera shake, moving subjects and missed focus in night phone photos. Use a simple comparison to choose a better capture before editing.",
+    "summary": "A bright night photo can still be blurred. First find out whether the camera, the subject, or the focus caused the problem.",
+    "published": "2026-10-20",
+    "modified": "2026-10-20",
+    "image": "canon_pro_after.jpg",
+    "imageAlt": "A portrait of a woman beside a balustrade with water and city lights behind her at night",
+    "imagePosition": "50% 40%",
+    "caption": "Illustrative night portrait; not a before-and-after sharpness test.",
+    "quickAnswer": "Compare a stationary edge in the background with the person’s face. Blur across both can suggest camera movement; a clearer background with a smeared person suggests subject movement. A sharp object at a different distance can point to missed focus. These are clues, not a certain diagnosis. Try a steadier phone, a still subject, and better light before reaching for sharpening.",
+    "sections": [
+      {
+        "id": "read-the-blur",
+        "title": "Use the blur pattern as a clue",
+        "paragraphs": [
+          "Look at the original file rather than a screenshot of a small preview. Inspect an eye, a fixed object, and a distant light. More than one cause can appear in the same image, so change one variable at a time."
+        ],
+        "table": {
+          "headers": [
+            "What you notice",
+            "Possible cause",
+            "Next comparison"
+          ],
+          "rows": [
+            [
+              "Similar streaks across the face and fixed objects",
+              "Camera movement during capture",
+              "Support the phone and repeat the same frame."
+            ],
+            [
+              "A moving face or hand is smeared but fixed objects are clearer",
+              "Subject movement",
+              "Ask the person to pause and compare another capture."
+            ],
+            [
+              "An object behind the person is sharper than the face",
+              "Focus may be on a different distance",
+              "Select the face for focus if the camera allows, then retake."
+            ],
+            [
+              "Speckled color or softened texture without a clear streak",
+              "Noise or processing may be involved",
+              "Compare a capture in brighter light; do not assume every softness is motion."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "why-night-is-different",
+        "title": "Why the same technique struggles after dark",
+        "paragraphs": [
+          "Longer exposure gives movement more time to affect a photograph. Adobe’s explanation of shutter speed distinguishes movement of the camera from movement in the scene. Supporting the camera addresses one of those problems; it does not make a moving person stand still.",
+          "Apple notes that a Night mode capture can take several seconds and recommends keeping the iPhone steady until it finishes. Availability and controls vary by model. Use the capture indicator on your phone instead of moving it as soon as you press the shutter."
+        ]
+      },
+      {
+        "id": "retake-sequence",
+        "title": "Retake with one change at a time",
+        "list": {
+          "ordered": true,
+          "items": [
+            {
+              "title": "Choose a reference detail.",
+              "text": "Pick an eye and a fixed edge in the same composition. Use those two details to judge every version rather than choosing whichever preview looks brightest."
+            },
+            {
+              "title": "Support the phone.",
+              "text": "Try a stable surface or a secure tripod position. Keep the framing similar, wait until the capture ends, and compare the fixed edge first."
+            },
+            {
+              "title": "Give the subject a clear cue.",
+              "text": "Explain when to pause and when the photograph has finished. A relaxed seated pose may be easier to repeat than a walking pose."
+            },
+            {
+              "title": "Look for more useful light.",
+              "text": "Try a nearby continuous light that illuminates the face. Adobe’s night-photography guidance emphasizes light, focus, and motion together. Recheck the background when you move."
+            },
+            {
+              "title": "Compare the actual files.",
+              "text": "Choose the version that keeps the expression and important details. A brighter result with indistinct eyes is not automatically the stronger portrait."
+            }
+          ]
+        }
+      },
+      {
+        "id": "editing-limits",
+        "title": "Decide what editing can reasonably do",
+        "paragraphs": [
+          "If a favorite frame is only slightly soft, a restrained edit may make it more pleasant at a small sharing size. Preserve the original and compare at the size you intend to use. Stop if stronger edges make the face look outlined or skin texture becomes distracting.",
+          "If an eye or expression is no longer readable, do not treat a plausible generated replacement as proof of what was there. When the person’s actual appearance matters, choose a clearer frame or retake it. For an intentionally dreamy photo, you may prefer to keep some blur and judge it as a creative choice."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Will a tripod fix a blurry person?",
+        "answer": "It can reduce camera movement, but the person can still move during capture. Compare the face and a fixed background detail to see which problem remains."
+      },
+      {
+        "question": "Should I always use the longest Night mode time?",
+        "answer": "No single capture time fits every scene. A stationary scene and a moving person present different problems. Use the available controls and compare actual results."
+      },
+      {
+        "question": "Can I use flash and Night mode together on an iPhone?",
+        "answer": "Apple’s guidance says enabling flash deactivates Night mode. Treat a flash photo as a separate lighting choice and check the instructions for your device."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Apple: use Night mode on your iPhone",
+        "url": "https://support.apple.com/en-ie/102519",
+        "note": "Capture duration, steady support, and the interaction between Night mode and flash."
+      },
+      {
+        "title": "Adobe: how to shoot a sharp photo",
+        "url": "https://www.adobe.com/learn/photoshop/web/adjust-shutter-speed-for-sharp-photo",
+        "note": "How shutter duration relates to camera and subject motion."
+      },
+      {
+        "title": "Adobe: night photography",
+        "url": "https://www.adobe.com/creativecloud/photography/type/night-photography.html",
+        "note": "Background on balancing light, focus, stability, and subject movement. The comparison sequence is editorial guidance."
+      }
+    ],
+    "related": [
+      "digicam-photo-effect-on-phone",
+      "choose-photo-for-ai-portraits"
+    ]
+  },
+  {
+    "slug": "reduce-glasses-glare-in-portraits",
+    "title": "How to reduce glasses glare in portrait photos",
+    "description": "Keep eyes visible in portraits with glasses. Learn what to change during capture, how to compare reflections, and when an existing photo needs a retake.",
+    "summary": "Treat glare as a light-and-angle problem first. Small changes during capture can be easier to judge than rebuilding an eye afterward.",
+    "published": "2026-10-20",
+    "modified": "2026-10-20",
+    "image": "y2k_digicam_after.jpg",
+    "imageAlt": "A woman in sunglasses and a baseball cap holding a drink on a city street",
+    "imagePosition": "50% 30%",
+    "caption": "Illustrative eyewear portrait. This image does not demonstrate clear-lens glare removal.",
+    "quickAnswer": "Look at the glasses through the camera while changing the angle of the face, camera, or light in small steps. Choose a position that moves the bright reflection away from the eyes while keeping the pose comfortable. If glare already hides the eyes in a saved photo, a darker patch is not the same as recovered eye detail.",
+    "sections": [
+      {
+        "id": "identify-the-reflection",
+        "title": "Find the reflected light before changing the pose",
+        "paragraphs": [
+          "Adobe explains glasses glare as light reflected from the lenses. A window, lamp, or flash can therefore appear as a bright area even when the face is otherwise well exposed. Look at both lenses separately: the reflection does not have to cover them equally.",
+          "For a quick diagnosis, take one reference frame and note where the reflection crosses an eye. Decide what would count as an improvement: a readable pupil, less distraction near the eyebrow, or simply a smaller bright patch. This keeps you from solving one problem while losing the expression you liked."
+        ]
+      },
+      {
+        "id": "adjust-at-capture",
+        "title": "Try a small angle change",
+        "paragraphs": [
+          "In his portrait-photography guide, Erik Valind demonstrates changing the direction of the face so reflected light misses the camera. Use that principle as a starting point, not a promise that one angle will work for every pair of glasses."
+        ],
+        "list": {
+          "ordered": true,
+          "items": [
+            {
+              "title": "Keep the camera position for the first comparison.",
+              "text": "Ask for a slight turn of the face, then inspect both eyes. Give one direction at a time so the change is easy to understand and repeat."
+            },
+            {
+              "title": "Compare another camera angle.",
+              "text": "Return to a comfortable pose and move the camera a little. Review the whole face as well as the lenses; a reflection-free view is not useful if the framing no longer works."
+            },
+            {
+              "title": "Reconsider the light position.",
+              "text": "If you can move the light or your position relative to a window, make a small change and take another reference. Avoid changing the face, camera, and light all at once."
+            },
+            {
+              "title": "Choose together.",
+              "text": "Show the person the alternatives. Keep the version that preserves their expression, visible eyes, and comfortable posture."
+            }
+          ]
+        }
+      },
+      {
+        "id": "saved-photo",
+        "title": "For a saved photo, inspect what remains visible",
+        "table": {
+          "headers": [
+            "What remains under the glare",
+            "Reasonable next step"
+          ],
+          "rows": [
+            [
+              "The eye is still readable beneath a light veil",
+              "Try a gentle local brightness or contrast adjustment in an editor that supports it."
+            ],
+            [
+              "A small reflection covers an unimportant area",
+              "Consider leaving it, or make a limited cleanup while checking nearby edges."
+            ],
+            [
+              "A bright patch completely hides eye detail",
+              "Look for another frame or retake. Reconstructed detail should be treated as an interpretation."
+            ]
+          ]
+        },
+        "paragraphs": [
+          "Adobe documents local adjustments and cloning as ways to reduce glare in Photoshop. Those are examples of editing methods, not a claim that every photo app provides them. If you try a local correction, inspect the boundary around the glasses and compare the two eyes at the same zoom.",
+          "Our practical stopping rule is to ask whether the correction changes the person more than the reflection distracts from them. A copied, mirrored, or generated eye can look tidy without matching the original expression. Keep the source so the decision remains reversible."
+        ]
+      },
+      {
+        "id": "final-comparison",
+        "title": "Use a simple keep-or-retake check",
+        "paragraphs": [
+          "Look at the portrait first at its intended sharing size, then enlarge the eyes. Can you still read the expression? Are the frame edges intact? Does one lens look strangely darker or sharper than the other? If a correction makes any of those harder to judge, compare the untouched version again.",
+          "A small reflection can be part of a natural portrait. The aim is to make the photograph work for the person wearing the glasses, rather than to erase every trace of reflective glass."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Do glasses have to come off for a portrait?",
+        "answer": "No. Start by adjusting the light and angle while the person wears their glasses normally. Their comfort and preferred appearance matter."
+      },
+      {
+        "question": "Will lowering the whole photo’s brightness remove glare?",
+        "answer": "It also darkens the face and background. A smaller bright patch may become less noticeable, but reducing brightness does not recreate detail hidden by the reflection."
+      },
+      {
+        "question": "Should I remove every reflection?",
+        "answer": "Not necessarily. Prioritize visible eyes and a convincing expression. A small reflection away from important features may not need correction."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Erik Valind: Portrait Photography, publisher sample (PDF)",
+        "url": "https://www.pearson.de/media/muster/ext/9780133579901.pdf",
+        "note": "The section on minimizing glasses glare explains changing the face angle relative to the light and camera."
+      },
+      {
+        "title": "Adobe: reducing glare from glasses",
+        "url": "https://www.adobe.com/products/photoshop/remove-glasses-glare.html",
+        "note": "Reflected-light explanation and examples of local editing methods. The decision checklist and stopping rule are editorial guidance."
+      }
+    ],
+    "related": [
+      "window-light-portraits-at-home",
+      "choose-photo-for-ai-portraits"
+    ]
+  },
+  {
     slug: "golden-hour-photo-editing",
     title: "How to give a photo a golden-hour look",
     description: "Give a photo a warmer golden-hour look while keeping natural skin tones. Learn what to adjust, what light cannot be fixed, and when to stop.",

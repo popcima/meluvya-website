@@ -1,0 +1,403 @@
+{
+  "version": 1,
+  "updated": "2026-10-20",
+  "language": "en",
+  "audience": "Worldwide",
+  "metricsStatus": "No verified search volume or keyword difficulty available. Null means unknown, not zero. Candidate order is editorial, not a search-demand ranking.",
+  "clusters": [
+    {
+      "id": "golden-hour-photo-editing",
+      "primaryKeyword": "golden hour photo effect",
+      "relatedKeywords": [
+        "golden hour filter",
+        "warm sunset photo editing"
+      ],
+      "intent": "Create a warm edit while preserving believable light and skin.",
+      "status": "published",
+      "articleSlug": "golden-hour-photo-editing",
+      "validation": "Existing editorial coverage; demand not measured",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "digicam-photo-effect-on-phone",
+      "primaryKeyword": "digicam effect on phone",
+      "relatedKeywords": [
+        "digicam filter",
+        "Y2K photo effect"
+      ],
+      "intent": "Build an early-digital look through capture and restrained editing.",
+      "status": "published",
+      "articleSlug": "digicam-photo-effect-on-phone",
+      "validation": "Existing editorial coverage; demand not measured",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "vintage-photo-effects-guide",
+      "primaryKeyword": "vintage photo effects",
+      "relatedKeywords": [
+        "retro photo filter",
+        "film look photo edit"
+      ],
+      "intent": "Choose a coherent retro style without piling on effects.",
+      "status": "published",
+      "articleSlug": "vintage-photo-effects-guide",
+      "validation": "Existing editorial coverage; demand not measured",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "choose-photo-for-ai-portraits",
+      "primaryKeyword": "best photo for AI portraits",
+      "relatedKeywords": [
+        "AI portrait source photo",
+        "photo for AI generator"
+      ],
+      "intent": "Select an input with readable features and suitable lighting.",
+      "status": "published",
+      "articleSlug": "choose-photo-for-ai-portraits",
+      "validation": "Existing editorial coverage; demand not measured",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "ai-photo-effects-vs-filters",
+      "primaryKeyword": "AI photo effects vs filters",
+      "relatedKeywords": [
+        "AI restyling vs photo filter"
+      ],
+      "intent": "Understand what changes and what to inspect.",
+      "status": "published",
+      "articleSlug": "ai-photo-effects-vs-filters",
+      "validation": "Existing editorial coverage; demand not measured",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "window-light-portraits",
+      "primaryKeyword": "window light portrait at home",
+      "relatedKeywords": [
+        "indoor portrait without studio lights"
+      ],
+      "intent": "Set up a single-window portrait; compare subject positions.",
+      "status": "approved_for_publication",
+      "articleSlug": "window-light-portraits-at-home",
+      "validation": "AI editorial review and technical checks passed on 2026-10-20; demand unmeasured. See the dated research record and GitHub deployment before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "blurry-night-photos",
+      "primaryKeyword": "why are my night photos blurry",
+      "relatedKeywords": [
+        "sharp low light phone portraits"
+      ],
+      "intent": "Distinguish camera shake, subject motion, and missed focus.",
+      "status": "approved_for_publication",
+      "articleSlug": "why-night-phone-photos-are-blurry",
+      "validation": "AI editorial review and technical checks passed on 2026-10-20; demand unmeasured. See the dated research record and GitHub deployment before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "mixed-lighting-skin-tones",
+      "primaryKeyword": "fix skin color in mixed lighting",
+      "relatedKeywords": [
+        "orange face blue background photo"
+      ],
+      "intent": "Identify different light sources and choose capture or editing fixes.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "glasses-reflections",
+      "primaryKeyword": "avoid reflections in glasses photos",
+      "relatedKeywords": [
+        "glasses glare portrait lighting"
+      ],
+      "intent": "Change light and camera angles without hiding the eyes.",
+      "status": "approved_for_publication",
+      "articleSlug": "reduce-glasses-glare-in-portraits",
+      "validation": "AI editorial review and technical checks passed on 2026-10-20; demand unmeasured. See the dated research record and GitHub deployment before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "direct-flash-portraits",
+      "primaryKeyword": "direct flash portrait tips",
+      "relatedKeywords": [
+        "phone flash portrait at night"
+      ],
+      "intent": "Place a subject and background for deliberate flash, with glare checks.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "harsh-midday-portraits",
+      "primaryKeyword": "portrait photos in harsh sunlight",
+      "relatedKeywords": [
+        "midday shadows face photo"
+      ],
+      "intent": "Choose shade, orientation, and exposure for hard daylight.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "black-and-white-portraits",
+      "primaryKeyword": "black and white portrait editing",
+      "relatedKeywords": [
+        "monochrome phone portrait"
+      ],
+      "intent": "Use tonal separation rather than simply removing saturation.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "overedited-skin",
+      "primaryKeyword": "why edited photos look unnatural",
+      "relatedKeywords": [
+        "avoid plastic skin in portraits"
+      ],
+      "intent": "Spot excessive smoothing, local contrast, and color shifts.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "portrait-crop",
+      "primaryKeyword": "how to crop a portrait photo",
+      "relatedKeywords": [
+        "portrait headroom crop tips"
+      ],
+      "intent": "Choose framing deliberately without cutting at distracting places.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "phone-perspective",
+      "primaryKeyword": "why close selfies look different",
+      "relatedKeywords": [
+        "selfie camera perspective distortion"
+      ],
+      "intent": "Explain camera distance and perspective without beauty judgments.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "portrait-backgrounds",
+      "primaryKeyword": "choose a background for portraits",
+      "relatedKeywords": [
+        "avoid distracting portrait background"
+      ],
+      "intent": "Separate subject, colors, edges, and background brightness.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "underexposed-portraits",
+      "primaryKeyword": "brighten a dark face in a photo",
+      "relatedKeywords": [
+        "underexposed portrait editing"
+      ],
+      "intent": "Recover usable tone while recognizing noise and missing detail.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "overexposed-portraits",
+      "primaryKeyword": "can you fix an overexposed portrait",
+      "relatedKeywords": [
+        "recover blown highlights photo"
+      ],
+      "intent": "Check whether highlight information remains before promising recovery.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "color-cast",
+      "primaryKeyword": "remove a color cast from photos",
+      "relatedKeywords": [
+        "white balance portrait photo"
+      ],
+      "intent": "Use neutral references and explain limits of global correction.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "photo-noise-and-grain",
+      "primaryKeyword": "photo noise vs film grain",
+      "relatedKeywords": [
+        "grainy portrait photo meaning"
+      ],
+      "intent": "Distinguish capture noise from intentional texture.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "sharpness-and-resolution",
+      "primaryKeyword": "photo sharpening vs resolution",
+      "relatedKeywords": [
+        "can sharpening fix blurry photos"
+      ],
+      "intent": "Separate edge contrast, pixel count, and genuine detail.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "portrait-consistency",
+      "primaryKeyword": "consistent editing for a photo set",
+      "relatedKeywords": [
+        "matching colors across portraits"
+      ],
+      "intent": "Match exposure and color across varying source conditions.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "photo-export-quality",
+      "primaryKeyword": "why saved edited photos lose quality",
+      "relatedKeywords": [
+        "avoid compression when sharing photos"
+      ],
+      "intent": "Explain originals, repeated exports, and practical file handling.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "jpeg-heic-png",
+      "primaryKeyword": "JPEG vs HEIC vs PNG for photos",
+      "relatedKeywords": [
+        "best photo file format for editing"
+      ],
+      "intent": "Compare photo formats and compatibility without inventing Meluvya support.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "non-destructive-editing",
+      "primaryKeyword": "how to edit photos without losing original",
+      "relatedKeywords": [
+        "revert photo edits"
+      ],
+      "intent": "Keep originals and understand reversible and flattened edits.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "mirror-selfies",
+      "primaryKeyword": "mirror selfie photo tips",
+      "relatedKeywords": [
+        "clean mirror selfie background"
+      ],
+      "intent": "Handle reflections, framing, and distracting objects at capture.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "couple-portraits",
+      "primaryKeyword": "how to take couple photos with a phone",
+      "relatedKeywords": [
+        "two person portrait lighting"
+      ],
+      "intent": "Keep both faces readable, in focus, and coherently lit.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "rainy-day-portraits",
+      "primaryKeyword": "portrait photos on a cloudy day",
+      "relatedKeywords": [
+        "overcast portrait lighting"
+      ],
+      "intent": "Use soft light while controlling flat tone and dull backgrounds.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "backlit-portraits",
+      "primaryKeyword": "backlit portrait phone tips",
+      "relatedKeywords": [
+        "face dark against bright sky"
+      ],
+      "intent": "Choose the subject exposure and manage silhouette tradeoffs.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "ai-portrait-detail-review",
+      "primaryKeyword": "what to check in AI generated portraits",
+      "relatedKeywords": [
+        "AI portrait hands hair reflections"
+      ],
+      "intent": "Review changed details before sharing without claiming detection certainty.",
+      "status": "needs_research",
+      "articleSlug": null,
+      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    }
+  ]
+}

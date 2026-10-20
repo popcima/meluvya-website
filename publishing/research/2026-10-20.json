@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Africa/Casablanca",
+  "language": "en",
+  "audience": "Worldwide",
+  "startingCommit": "b3cc453bfad738890a44c355c60b746bff4bba6c",
+  "newArticles": 3,
+  "newArticlesAlreadyPublishedToday": 0,
+  "dailyMaximum": 30,
+  "status": "validated_for_deployment",
+  "metricStatus": {
+    "provider": "Free public web search and primary-source pages",
+    "searchGeography": "Not controlled; English queries with selected publisher domains, not a worldwide volume dataset",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "reason": "No accessible volume provider; qualitative topic relevance only."
+  },
+  "setupRecovery": "Previous authorized CTA, archive pagination, content validator, and publishing guidance remained uncommitted after an interrupted setup. Included in this batch after validation. No unrelated edits identified.",
+  "reviewType": "AI editorial review; no human approval or hands-on camera testing claimed",
+  "articles": [
+    {
+      "slug": "window-light-portraits-at-home",
+      "keywordCluster": "window-light-portraits",
+      "decision": "approved_for_publication",
+      "distinctIntent": "Set up a single-window portrait; compare subject positions.",
+      "contribution": "A repeatable three-frame comparison and selection checklist.",
+      "overlapReview": "Compared against all five existing guides; this is a separate capture or troubleshooting task, not another keyword variant of the existing style/input guides.",
+      "sources": [
+        {
+          "url": "https://www.adobe.com/uk/creativecloud/photography/technique/diffused-light.html",
+          "accessed": "2026-10-20",
+          "supports": "Background on indirect window light, diffusion, and the loss of light through diffusion material."
+        },
+        {
+          "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/using-shadows-and-light-in-your-photographs",
+          "accessed": "2026-10-20",
+          "supports": "Window-only lighting as a deliberate portrait approach. The three-frame exercise is our editorial guidance."
+        }
+      ],
+      "checks": [
+        "No invented search metrics or hands-on results",
+        "No new claims about Meluvya controls or availability",
+        "Source paraphrases kept limited; original decision exercise added",
+        "Real publication date and existing illustrative assets disclosed",
+        "Shared app promotion inherited from article template"
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "reviewOutcome": "Distinct reader task, original troubleshooting guidance, source-supported factual background, and shared app promotion. Technical checks passed."
+    },
+    {
+      "slug": "why-night-phone-photos-are-blurry",
+      "keywordCluster": "blurry-night-photos",
+      "decision": "approved_for_publication",
+      "distinctIntent": "Distinguish camera shake, subject motion, and missed focus.",
+      "contribution": "A symptom-to-comparison table separating camera motion, subject motion, and focus.",
+      "overlapReview": "Compared against all five existing guides; this is a separate capture or troubleshooting task, not another keyword variant of the existing style/input guides.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-ie/102519",
+          "accessed": "2026-10-20",
+          "supports": "Capture duration, steady support, and the interaction between Night mode and flash."
+        },
+        {
+          "url": "https://www.adobe.com/learn/photoshop/web/adjust-shutter-speed-for-sharp-photo",
+          "accessed": "2026-10-20",
+          "supports": "How shutter duration relates to camera and subject motion."
+        },
+        {
+          "url": "https://www.adobe.com/creativecloud/photography/type/night-photography.html",
+          "accessed": "2026-10-20",
+          "supports": "Background on balancing light, focus, stability, and subject movement. The comparison sequence is editorial guidance."
+        }
+      ],
+      "checks": [
+        "No invented search metrics or hands-on results",
+        "No new claims about Meluvya controls or availability",
+        "Source paraphrases kept limited; original decision exercise added",
+        "Real publication date and existing illustrative assets disclosed",
+        "Shared app promotion inherited from article template"
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "reviewOutcome": "Distinct reader task, original troubleshooting guidance, source-supported factual background, and shared app promotion. Technical checks passed."
+    },
+    {
+      "slug": "reduce-glasses-glare-in-portraits",
+      "keywordCluster": "glasses-reflections",
+      "decision": "approved_for_publication",
+      "distinctIntent": "Change light and camera angles without hiding the eyes.",
+      "contribution": "A capture-first sequence and keep-or-retake decision based on visible eye detail.",
+      "overlapReview": "Compared against all five existing guides; this is a separate capture or troubleshooting task, not another keyword variant of the existing style/input guides.",
+      "sources": [
+        {
+          "url": "https://www.pearson.de/media/muster/ext/9780133579901.pdf",
+          "accessed": "2026-10-20",
+          "supports": "The section on minimizing glasses glare explains changing the face angle relative to the light and camera."
+        },
+        {
+          "url": "https://www.adobe.com/products/photoshop/remove-glasses-glare.html",
+          "accessed": "2026-10-20",
+          "supports": "Reflected-light explanation and examples of local editing methods. The decision checklist and stopping rule are editorial guidance."
+        }
+      ],
+      "checks": [
+        "No invented search metrics or hands-on results",
+        "No new claims about Meluvya controls or availability",
+        "Source paraphrases kept limited; original decision exercise added",
+        "Real publication date and existing illustrative assets disclosed",
+        "Shared app promotion inherited from article template"
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "reviewOutcome": "Distinct reader task, original troubleshooting guidance, source-supported factual background, and shared app promotion. Technical checks passed."
+    }
+  ],
+  "technicalValidation": {
+    "date": "2026-10-20",
+    "contentCheck": {
+      "command": "node scripts/check-content.mjs --base b3cc453bfad738890a44c355c60b746bff4bba6c",
+      "result": "PASS",
+      "articles": 8,
+      "newToday": 3
+    },
+    "lint": "PASS",
+    "productionBuild": "PASS with NEXT_PUBLIC_BASE_PATH=/meluvya-website",
+    "typecheck": "PASS",
+    "exportCheck": {
+      "command": "python3 scripts/check-export.py",
+      "result": "PASS",
+      "routes": 10,
+      "articlePages": 8,
+      "internalLinksAndAssets": 389,
+      "checks": [
+        "canonicals",
+        "unique titles and descriptions",
+        "article and breadcrumb schema",
+        "source HTML",
+        "shared CTA and dialog",
+        "internal anchors",
+        "sitemap routes"
+      ]
+    },
+    "mobileCheck": "All three new article URLs checked at 390px without horizontal overflow. App Store and Google Play buttons on the window-light guide open the coming-soon dialog; Escape closes it and restores focus.",
+    "pagination": "Implementation validation used an isolated 25-article fixture: archive distribution 12/12/1, real canonicals and sitemap entries, invalid archives excluded. No fixture content is included in this batch.",
+    "environment": "Dependency reads in the iCloud-backed checkout timed out. A clean temporary copy passed npm ci and all checks. SHA-256 comparison confirmed 60 source, public, configuration and validation files matched the working repository.",
+    "deployment": "GitHub Actions for the commit containing this record is the deployment source of truth. Check its status and live URLs before retrying publication.",
+    "designEvaluation": "PASS: independent desktop/mobile evaluation of the shared CTA, archive navigation, and current guide."
+  }
+}

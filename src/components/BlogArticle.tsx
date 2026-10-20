@@ -1,29 +1,18 @@
 import Image from "next/image";
-import { notFound } from "next/navigation";
 import { ArrowUpRight } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { articles, getArticle, readingMinutes, articleWordCount } from "@/lib/articles";
+import { ArticleDownloadCTA } from "@/components/ArticleDownloadCTA";
+import { StoreDialog } from "@/components/StoreDialog";
+import { type Article, getArticle, readingMinutes, articleWordCount } from "@/lib/articles";
 import { assetPath } from "@/lib/assets";
-import { absoluteUrl, jsonLd, pageMetadata } from "@/lib/site";
-
-type Props = { params: Promise<{ slug: string }> };
-export const dynamicParams = false;
-export function generateStaticParams() { return articles.map(({ slug }) => ({ slug })); }
-
-export async function generateMetadata({ params }: Props) {
-  const article = getArticle((await params).slug);
-  if (!article) notFound();
-  return pageMetadata({ title: `${article.title} | Meluvya`, description: article.description, path: `/blog/${article.slug}/`, image: article.image, article });
-}
+import { absoluteUrl, jsonLd } from "@/lib/site";
 
 function displayDate(date: string) {
   return new Intl.DateTimeFormat("en", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(`${date}T00:00:00Z`));
 }
 
-export default async function ArticlePage({ params }: Props) {
-  const article = getArticle((await params).slug);
-  if (!article) notFound();
+export function BlogArticle({ article }: { article: Article }) {
   const url = absoluteUrl(`/blog/${article.slug}/`);
   const organization = { "@type": "Organization", name: "Meluvya", url: absoluteUrl("/") };
   const structuredData = [
@@ -56,13 +45,14 @@ export default async function ArticlePage({ params }: Props) {
             </section>)}
             <section className="article-section article-questions" id="questions"><h2>Common questions</h2>{article.faq.map((item) => <div key={item.question}><h3>{item.question}</h3><p>{item.answer}</p></div>)}</section>
             <section className="article-section article-sources" id="sources"><h2>Sources</h2><ul>{article.sources.map((source) => <li key={source.url}><a href={source.url}>{source.title}</a><p>{source.note}</p></li>)}</ul><p className="editorial-note">Drafted with AI assistance. Technical background was checked against the sources above.</p></section>
-            <div className="article-app-link"><div><h2>Find your own direction.</h2><p>Explore Meluvya’s effects, portrait templates, and photo tools.</p></div><a className="text-link" href={assetPath("/#how-it-works")}>See inside Meluvya <ArrowUpRight size={18} aria-hidden="true" /></a></div>
+            <ArticleDownloadCTA />
           </div>
         </div>
       </article>
       <section className="wrap related-guides" aria-labelledby="related-heading"><h2 id="related-heading">Keep exploring</h2><div>{article.related.map((slug) => { const related = getArticle(slug)!; return <a href={assetPath(`/blog/${related.slug}/`)} key={slug}><span>{related.title}</span><ArrowUpRight size={20} aria-hidden="true" /></a>; })}</div><a className="text-link" href={assetPath("/blog/")}>All photo editing guides <ArrowUpRight size={17} aria-hidden="true" /></a></section>
     </main>
     <Footer subPage />
+    <StoreDialog />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLd(structuredData) }} />
   </>;
 }

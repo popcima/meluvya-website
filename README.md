@@ -63,11 +63,16 @@ The app showcase loads lossless WebP transcodes of the supplied screenshots (3.7
 
 ## Blog and technical SEO
 
-`/blog/` and five `/blog/[slug]/` guides are fully rendered into static HTML. `trailingSlash: true` creates nested `index.html` files for fresh GitHub Pages navigation. Unknown article slugs are not generated and return a 404 on the static host.
+`/blog/` and all `/blog/[slug]/` guides are fully rendered into static HTML. `trailingSlash: true` creates nested `index.html` files for fresh GitHub Pages navigation. Unknown article slugs are not generated and return a 404 on the static host.
+
+The index shows at most 12 articles per page, including the featured guide on page 1. Additional articles create crawlable `/blog/page/2/`, `/blog/page/3/` archives with their own metadata, canonical URLs, breadcrumbs and sitemap entries. Page 1 exists only at `/blog/`; `/blog/page/1/` and out-of-range archives are not generated. Until the library exceeds 12 articles, no archive page or pagination is rendered. Previous/next links and a compact page-number list keep navigation usable as the library grows.
 
 - `src/lib/articles.ts`: typed article content, stable dates, sources, related guides and calculated reading time (200 words/minute).
 - `src/lib/site.ts`: canonical root, absolute URL helper and shared page metadata.
-- `src/app/blog/`: index and article templates. Article text is server rendered, not loaded through a client-only request.
+- `src/lib/blog.ts`: 12-article page slicing, archive URLs, pagination links and archive metadata.
+- `src/components/BlogIndex.tsx` and `BlogArticle.tsx`: shared server-rendered templates. Article text is not loaded through a client-only request.
+- `src/app/blog/[...slug]/`: resolves existing one-segment article URLs and two-segment archive URLs. Combining these in one static route avoids an empty `generateStaticParams` result when the library has only one index page; no placeholder archive is emitted.
+- `src/components/ArticleDownloadCTA.tsx`: the shared Meluvya promotion after each article’s sources, before related guides. It appears automatically on current and future articles. Its App Store and Google Play buttons reuse the existing coming-soon dialog (one instance per article) until real store links are provided; the visible availability note makes that limitation clear.
 - `src/app/sitemap.ts`: homepage, blog and article canonical URLs with explicit content dates.
 - Every page has a unique title, description, canonical and social metadata. Articles include accurate BlogPosting and BreadcrumbList JSON-LD, with Meluvya as the organization author. No ratings, invented reviewer credentials, or FAQ rich-result claims are included.
 
@@ -87,11 +92,13 @@ Possible next questions are hypotheses to validate, not demonstrated keyword opp
 
 ### Content maintenance
 
-Add an `Article` to `src/lib/articles.ts` with a distinct slug, specific title/description, actual publication date, image/alt/caption, quick answer, practical sections, sources and related slugs. Keep photographs labelled as illustrative examples unless an actual documented test supports a stronger claim. The route, sitemap and index are generated from this list. Check all related slugs exist.
+See [the publishing process](publishing/README.md) for daily research, editorial quality checks, and the approved publishing limits.
+
+Add an `Article` to `src/lib/articles.ts` with a distinct slug, specific title/description, actual publication date, image/alt/caption, quick answer, practical sections, sources and related slugs. Keep photographs labelled as illustrative examples unless an actual documented test supports a stronger claim. The routes, sitemap, index, archives and end-of-article promotion are generated from this list. Check all related slugs exist. Use unique single-segment slugs; reserve `page` for archive navigation. The array order is the editorial display order: put new approved guides at the beginning, and keep that order stable between publications. Do not insert drafts or filler to reach a daily quota.
 
 Update `modified` only after a meaningful content revision. Do not refresh dates automatically with each build. Recheck product instructions against the actual app and external technical claims against primary sources. Source links should support the nearby subject; do not copy their text or present a competitor’s capabilities as Meluvya’s. Keep the original dates when fixing only presentation.
 
-Before publication, run lint, typecheck and a prefixed build. Check the exported HTML for one H1, correct metadata, valid JSON-LD, usable internal links and the full article text. Inspect a phone-sized page, its contents links, and any horizontally scrollable table. Verify fresh navigation to every article and a missing slug.
+Before publication, run lint, typecheck and a prefixed build. Check the exported HTML for one H1, correct metadata, valid JSON-LD, usable internal links and the full article text. Inspect a phone-sized page, its contents links, and any horizontally scrollable table. Verify fresh navigation to every article and a missing slug. After each batch, check that every article appears on exactly one index/archive page, none contains more than 12 articles, archive previous/next links and self-canonicals work, and the sitemap contains only existing archive pages. Confirm the shared store buttons still open the availability dialog. No schedule or automatic publisher is configured by the website itself.
 
 ### Configuration for the current site and a future domain
 
