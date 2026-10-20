@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { BlogImage } from "@/components/BlogImage";
 import { ArrowUpRight } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -24,13 +24,13 @@ export function BlogIndex({ page = 1 }: { page?: number }) {
           {page === 1 ? <p>Find the look you want. Understand what changes.<br />Practical ideas for more considered photos.</p> : <p>Page {page} of {totalPages}.<br />More practical ideas for more considered photos.</p>}
         </header>
         {featured && <a className="journal-feature" href={assetPath(`/blog/${featured.slug}/`)}>
-          <div className="journal-feature-image"><Image src={assetPath(`/img/${featured.image}`)} alt={featured.imageAlt} fill sizes="(min-width: 900px) 480px, (min-width: 640px) 45vw, 100vw" style={{ objectPosition: featured.imagePosition }} priority /></div>
+          <div className="journal-feature-image"><BlogImage article={featured} sizes="(min-width: 900px) 480px, (min-width: 640px) 45vw, 100vw" eager /></div>
           <div className="journal-feature-copy"><p className="reading-time">{readingMinutes(featured)} min read</p><h2>{featured.title}</h2><p>{featured.summary}</p><span className="journal-read">Read the guide <ArrowUpRight size={19} aria-hidden="true" /></span></div>
         </a>}
         <div className="journal-grid">
           {more.map((article) => <article className="journal-card" key={article.slug}>
             <a href={assetPath(`/blog/${article.slug}/`)}>
-              <div className="journal-card-image"><Image src={assetPath(`/img/${article.image}`)} alt={article.imageAlt} fill sizes="(min-width: 900px) 170px, (min-width: 640px) 160px, 112px" style={{ objectPosition: article.imagePosition }} /></div>
+              <div className="journal-card-image"><BlogImage article={article} sizes="(min-width: 900px) 170px, (min-width: 640px) 160px, 112px" /></div>
               <div><p className="reading-time">{readingMinutes(article)} min read</p><h2>{article.title}</h2><p className="journal-card-description">{article.summary}</p><span className="journal-card-arrow" aria-hidden="true"><ArrowUpRight size={19} /></span></div>
             </a>
           </article>)}

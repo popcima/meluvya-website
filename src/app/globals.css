@@ -371,6 +371,7 @@ footer nav a:hover { color: var(--cyan); }
 .article-hero { margin: 0; }
 .article-hero > div { position: relative; aspect-ratio: .85; overflow: hidden; border-radius: 18px; }
 .article-hero figcaption { margin-top: 12px; color: #8498aa; font-size: 11px; line-height: 18px; }
+.article-hero figcaption a { text-decoration: underline; text-underline-offset: 3px; }
 .article-layout { display: grid; grid-template-columns: minmax(0, 240px) minmax(0, 680px); grid-template-areas: "toc answer" "toc body"; justify-content: space-between; column-gap: 72px; padding-top: 44px; border-top: 1px solid var(--line); }
 .article-toc { grid-area: toc; align-self: start; position: sticky; top: 118px; }
 .article-layout > .article-content:last-child { grid-area: body; }

@@ -1,0 +1,1587 @@
+{
+  "updated": "2026-10-20",
+  "purpose": "Distinct illustrative editorial photographs for the existing 35 Meluvya guides.",
+  "licenseReview": {
+    "url": "https://www.pexels.com/license/",
+    "checked": "2026-10-20",
+    "notes": "Pexels permits free website/blog use and modification. Photographer credits link to each source. These are illustrative stock photos, not Meluvya outputs, endorsements, or technique tests."
+  },
+  "processing": "Auto-orient, convert to sRGB WebP, strip metadata, and resize without upscaling. Masters have a 3840-pixel long edge; responsive derivatives use widths 480, 960, and 1600. No generative edits.",
+  "images": [
+    {
+      "slug": "fix-mixed-lighting-in-portraits",
+      "provider": "Pexels",
+      "photoId": "30244807",
+      "source": "https://www.pexels.com/photo/vibrant-portrait-with-neon-lighting-30244807/",
+      "photographer": "Marcus",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/30244807/pexels-photo-30244807.jpeg?cs=srgb&dl=pexels-marcus-80608062-30244807.jpg&fm=jpg",
+      "original": {
+        "width": 3058,
+        "height": 4585,
+        "bytes": 1144551,
+        "sha256": "d588864a43378995205b53a01ae940fc30d9236e782c19b85d8712edc56bc1f9"
+      },
+      "master": "blog/pexels-30244807-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-30244807-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 19712
+        },
+        {
+          "src": "blog/pexels-30244807-960.webp",
+          "width": 960,
+          "height": 1439,
+          "bytes": 58060
+        },
+        {
+          "src": "blog/pexels-30244807-1600.webp",
+          "width": 1600,
+          "height": 2399,
+          "bytes": 144666
+        },
+        {
+          "src": "blog/pexels-30244807-4k.webp",
+          "width": 2561,
+          "height": 3840,
+          "bytes": 519024
+        }
+      ],
+      "alt": "Portrait lit by contrasting blue and pink lights",
+      "position": "50% 35%"
+    },
+    {
+      "slug": "direct-flash-portrait-tips",
+      "provider": "Pexels",
+      "photoId": "19723159",
+      "source": "https://www.pexels.com/photo/beautiful-brunette-woman-in-flashlight-19723159/",
+      "photographer": "Tolga Aslantürk",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/19723159/pexels-photo-19723159.jpeg?cs=srgb&dl=pexels-tolgaaslanturk-19723159.jpg&fm=jpg",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 2402385,
+        "sha256": "5e89724020d3f40a7e76fac0b740dbb6ae5e6c170807834b4be722b0bff2a4d4"
+      },
+      "master": "blog/pexels-19723159-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-19723159-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 16562
+        },
+        {
+          "src": "blog/pexels-19723159-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 65712
+        },
+        {
+          "src": "blog/pexels-19723159-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 244854
+        },
+        {
+          "src": "blog/pexels-19723159-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 805324
+        }
+      ],
+      "alt": "Woman with her hands near her face, brightly lit against a dark background",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "portrait-photos-in-harsh-sunlight",
+      "provider": "Pexels",
+      "photoId": "33507990",
+      "source": "https://www.pexels.com/photo/portrait-of-woman-in-sunlight-against-rustic-background-33507990/",
+      "photographer": "Amar Preciado",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/33507990/pexels-photo-33507990.jpeg?cs=srgb&dl=pexels-amar-33507990.jpg&fm=jpg",
+      "original": {
+        "width": 6000,
+        "height": 4000,
+        "bytes": 2403941,
+        "sha256": "ab965fc1822d71dea8d58b11a4e37cf5b6b9ac9d0608891d3682e8f0c4d722bd"
+      },
+      "master": "blog/pexels-33507990-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-33507990-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 10808
+        },
+        {
+          "src": "blog/pexels-33507990-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 30082
+        },
+        {
+          "src": "blog/pexels-33507990-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 69850
+        },
+        {
+          "src": "blog/pexels-33507990-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 750550
+        }
+      ],
+      "alt": "Woman raising her arms in sunlight beside a shaded wall",
+      "position": "50% 35%"
+    },
+    {
+      "slug": "why-close-selfies-look-different",
+      "provider": "Pexels",
+      "photoId": "9253767",
+      "source": "https://www.pexels.com/photo/close-up-photo-of-woman-9253767/",
+      "photographer": "Ron Lach",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/9253767/pexels-photo-9253767.jpeg?cs=srgb&dl=pexels-ron-lach-9253767.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 1252497,
+        "sha256": "2ed6360ed711dac3f9443981123f3338a545bd8a4059da42ed27e29c7e172810"
+      },
+      "master": "blog/pexels-9253767-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-9253767-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 14512
+        },
+        {
+          "src": "blog/pexels-9253767-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 37656
+        },
+        {
+          "src": "blog/pexels-9253767-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 75652
+        },
+        {
+          "src": "blog/pexels-9253767-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 228416
+        }
+      ],
+      "alt": "Close-up portrait showing a woman's natural skin texture",
+      "position": "50% 40%"
+    },
+    {
+      "slug": "choose-portrait-background",
+      "provider": "Pexels",
+      "photoId": "19158754",
+      "source": "https://www.pexels.com/photo/young-woman-posing-outside-in-sunlight-19158754/",
+      "photographer": "apertur 2.8",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/19158754/pexels-photo-19158754.jpeg?cs=srgb&dl=pexels-aperture-19158754.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 1363501,
+        "sha256": "25d095921965af70769479a57b8026aeb715d86d30e3579c4ed4532977517304"
+      },
+      "master": "blog/pexels-19158754-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-19158754-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 16176
+        },
+        {
+          "src": "blog/pexels-19158754-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 54966
+        },
+        {
+          "src": "blog/pexels-19158754-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 143746
+        },
+        {
+          "src": "blog/pexels-19158754-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 431398
+        }
+      ],
+      "alt": "Woman standing in sunlight against a darker outdoor background",
+      "position": "50% 40%"
+    },
+    {
+      "slug": "mirror-selfie-photo-tips",
+      "provider": "Pexels",
+      "photoId": "6598911",
+      "source": "https://www.pexels.com/photo/a-woman-taking-selfie-in-front-of-the-mirror-6598911/",
+      "photographer": "Thirdman",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/6598911/pexels-photo-6598911.jpeg?cs=srgb&dl=pexels-thirdman-6598911.jpg&fm=jpg",
+      "original": {
+        "width": 4228,
+        "height": 6342,
+        "bytes": 2167835,
+        "sha256": "648fa29ac73c2800f356afc834592c928831457ea45c9028a4c8d35a3c39a62d"
+      },
+      "master": "blog/pexels-6598911-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-6598911-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 26724
+        },
+        {
+          "src": "blog/pexels-6598911-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 63854
+        },
+        {
+          "src": "blog/pexels-6598911-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 124204
+        },
+        {
+          "src": "blog/pexels-6598911-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 398144
+        }
+      ],
+      "alt": "Woman taking a phone selfie in a full-length mirror",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "take-couple-photos-with-phone",
+      "provider": "Pexels",
+      "photoId": "39820803",
+      "source": "https://www.pexels.com/photo/romantic-outdoor-portrait-of-couple-in-nature-39820803/",
+      "photographer": "Helena Jankovičová Kováčová",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/39820803/pexels-photo-39820803.jpeg?cs=srgb&dl=pexels-helen1-39820803.jpg&fm=jpg",
+      "original": {
+        "width": 6720,
+        "height": 4480,
+        "bytes": 3908494,
+        "sha256": "8381ac3f288cbd213fe7e68709f534fc71f839029c1c970702edb82c435e396f"
+      },
+      "master": "blog/pexels-39820803-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-39820803-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 37048
+        },
+        {
+          "src": "blog/pexels-39820803-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 122382
+        },
+        {
+          "src": "blog/pexels-39820803-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 293228
+        },
+        {
+          "src": "blog/pexels-39820803-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 1433846
+        }
+      ],
+      "alt": "Couple standing together beneath leafy trees",
+      "position": "35% 55%"
+    },
+    {
+      "slug": "cloudy-day-portrait-photo-tips",
+      "provider": "Pexels",
+      "photoId": "28678652",
+      "source": "https://www.pexels.com/photo/portrait-of-a-woman-in-outdoor-setting-28678652/",
+      "photographer": "R.O.Y",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/28678652/pexels-photo-28678652.jpeg?cs=srgb&dl=pexels-roy-photos-28678652.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 1685776,
+        "sha256": "8b64018a8cdfc3051000eedd9f9e02ca589a4e23d531ebea853d4f4e4e6acb9a"
+      },
+      "master": "blog/pexels-28678652-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-28678652-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 27368
+        },
+        {
+          "src": "blog/pexels-28678652-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 73804
+        },
+        {
+          "src": "blog/pexels-28678652-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 154582
+        },
+        {
+          "src": "blog/pexels-28678652-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 444038
+        }
+      ],
+      "alt": "Black-and-white outdoor portrait with softly blurred foliage",
+      "position": "50% 35%"
+    },
+    {
+      "slug": "backlit-phone-portraits",
+      "provider": "Pexels",
+      "photoId": "37728399",
+      "source": "https://www.pexels.com/photo/back-view-portrait-in-golden-hour-light-37728399/",
+      "photographer": "Alef Morais",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/37728399/pexels-photo-37728399.jpeg?cs=srgb&dl=pexels-alef-morais-336305364-37728399.jpg&fm=jpg",
+      "original": {
+        "width": 3790,
+        "height": 4737,
+        "bytes": 2833781,
+        "sha256": "7eff11d4231070f1dadb492b652ff29e4cfb35eca1c6e82effb7fead129fa2eb"
+      },
+      "master": "blog/pexels-37728399-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-37728399-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 14568
+        },
+        {
+          "src": "blog/pexels-37728399-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 52056
+        },
+        {
+          "src": "blog/pexels-37728399-1600.webp",
+          "width": 1600,
+          "height": 2000,
+          "bytes": 292528
+        },
+        {
+          "src": "blog/pexels-37728399-4k.webp",
+          "width": 3072,
+          "height": 3840,
+          "bytes": 1903578
+        }
+      ],
+      "alt": "Man seen from behind with warm sunlight outlining his hair",
+      "position": "50% 40%"
+    },
+    {
+      "slug": "black-and-white-portrait-editing",
+      "provider": "Pexels",
+      "photoId": "28529737",
+      "source": "https://www.pexels.com/photo/monochrome-portrait-of-man-in-sunlight-28529737/",
+      "photographer": "David Underland",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/28529737/pexels-photo-28529737.jpeg?cs=srgb&dl=pexels-david-underland-28529737.jpg&fm=jpg",
+      "original": {
+        "width": 3168,
+        "height": 5000,
+        "bytes": 1299004,
+        "sha256": "922c4eb2185f06af321ebbcfb8d05c7e4e7e75ca76add5f605e0a3b3c4fc12cc"
+      },
+      "master": "blog/pexels-28529737-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-28529737-480.webp",
+          "width": 480,
+          "height": 758,
+          "bytes": 44780
+        },
+        {
+          "src": "blog/pexels-28529737-960.webp",
+          "width": 960,
+          "height": 1515,
+          "bytes": 156896
+        },
+        {
+          "src": "blog/pexels-28529737-1600.webp",
+          "width": 1600,
+          "height": 2525,
+          "bytes": 331726
+        },
+        {
+          "src": "blog/pexels-28529737-4k.webp",
+          "width": 2433,
+          "height": 3840,
+          "bytes": 652174
+        }
+      ],
+      "alt": "Black-and-white portrait of a man looking up into the light",
+      "position": "50% 35%"
+    },
+    {
+      "slug": "why-edited-portraits-look-unnatural",
+      "provider": "Pexels",
+      "photoId": "15558373",
+      "source": "https://www.pexels.com/photo/man-editing-photos-with-use-of-laptop-and-tablet-15558373/",
+      "photographer": "Kawê Rodrigues",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/15558373/pexels-photo-15558373.jpeg?cs=srgb&dl=pexels-kawerodriguess-15558373.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 4605920,
+        "sha256": "a8d6f76b4da0cab981af929b506e6cf56d9c229b4b7ff042a21f4f5278589e73"
+      },
+      "master": "blog/pexels-15558373-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-15558373-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 21124
+        },
+        {
+          "src": "blog/pexels-15558373-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 88178
+        },
+        {
+          "src": "blog/pexels-15558373-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 380198
+        },
+        {
+          "src": "blog/pexels-15558373-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 1886282
+        }
+      ],
+      "alt": "Photographer working beside a laptop, drawing tablet, and camera",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "how-to-crop-portrait-photos",
+      "provider": "Pexels",
+      "photoId": "15758649",
+      "source": "https://www.pexels.com/photo/woman-taking-a-mirror-selfie-with-a-camera-15758649/",
+      "photographer": "Elif Çöküç",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/15758649/pexels-photo-15758649.jpeg?cs=srgb&dl=pexels-elif-15758649.jpg&fm=jpg",
+      "original": {
+        "width": 2592,
+        "height": 3872,
+        "bytes": 493155,
+        "sha256": "031ec239aec8ba766105d8102456a9645aadd0fa6693e3e73a4f0ca79bb94657"
+      },
+      "master": "blog/pexels-15758649-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-15758649-480.webp",
+          "width": 480,
+          "height": 717,
+          "bytes": 19674
+        },
+        {
+          "src": "blog/pexels-15758649-960.webp",
+          "width": 960,
+          "height": 1434,
+          "bytes": 50252
+        },
+        {
+          "src": "blog/pexels-15758649-1600.webp",
+          "width": 1600,
+          "height": 2390,
+          "bytes": 100350
+        },
+        {
+          "src": "blog/pexels-15758649-4k.webp",
+          "width": 2571,
+          "height": 3840,
+          "bytes": 258424
+        }
+      ],
+      "alt": "Photographer holding a camera in front of a mirror",
+      "position": "50% 40%"
+    },
+    {
+      "slug": "brighten-dark-face-in-photo",
+      "provider": "Pexels",
+      "photoId": "18109722",
+      "source": "https://www.pexels.com/photo/portrait-of-woman-at-night-18109722/",
+      "photographer": "Alex Paz",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/18109722/pexels-photo-18109722.jpeg?cs=srgb&dl=pexels-alex-paz-619370337-18109722.jpg&fm=jpg",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 6228474,
+        "sha256": "03086030d52dd34ed8a901b2f01b668cc45118bee67ad5e0abd495ed2ffb1539"
+      },
+      "master": "blog/pexels-18109722-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-18109722-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 35574
+        },
+        {
+          "src": "blog/pexels-18109722-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 120736
+        },
+        {
+          "src": "blog/pexels-18109722-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 465430
+        },
+        {
+          "src": "blog/pexels-18109722-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 2330770
+        }
+      ],
+      "alt": "Woman standing beneath string lights at night",
+      "position": "50% 40%"
+    },
+    {
+      "slug": "can-you-fix-overexposed-portraits",
+      "provider": "Pexels",
+      "photoId": "18259251",
+      "source": "https://www.pexels.com/photo/portrait-of-young-man-in-sunlight-18259251/",
+      "photographer": "yaroslav -",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/18259251/pexels-photo-18259251.jpeg?cs=srgb&dl=pexels-marsianin-18259251.jpg&fm=jpg",
+      "original": {
+        "width": 5184,
+        "height": 2912,
+        "bytes": 757483,
+        "sha256": "e7147f738a6904336ca19e62484bf390f2181fadf6f65c4f6ccd525131c21ae9"
+      },
+      "master": "blog/pexels-18259251-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-18259251-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 8106
+        },
+        {
+          "src": "blog/pexels-18259251-960.webp",
+          "width": 960,
+          "height": 539,
+          "bytes": 19786
+        },
+        {
+          "src": "blog/pexels-18259251-1600.webp",
+          "width": 1600,
+          "height": 899,
+          "bytes": 41178
+        },
+        {
+          "src": "blog/pexels-18259251-4k.webp",
+          "width": 3840,
+          "height": 2157,
+          "bytes": 223164
+        }
+      ],
+      "alt": "Man in a white shirt with bright sunlight across his face",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "remove-color-cast-from-photos",
+      "provider": "Pexels",
+      "photoId": "31654390",
+      "source": "https://www.pexels.com/photo/creative-portrait-in-neon-lighting-31654390/",
+      "photographer": "Nadya Ketler",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/31654390/pexels-photo-31654390.jpeg?cs=srgb&dl=pexels-nadya-ketler-2151401532-31654390.jpg&fm=jpg",
+      "original": {
+        "width": 3488,
+        "height": 4640,
+        "bytes": 648512,
+        "sha256": "6a074fda64b5aabb28dd7ac98c1a5adadf826d9e357f1c605d3169fa899e7f06"
+      },
+      "master": "blog/pexels-31654390-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-31654390-480.webp",
+          "width": 480,
+          "height": 639,
+          "bytes": 11656
+        },
+        {
+          "src": "blog/pexels-31654390-960.webp",
+          "width": 960,
+          "height": 1277,
+          "bytes": 30280
+        },
+        {
+          "src": "blog/pexels-31654390-1600.webp",
+          "width": 1600,
+          "height": 2128,
+          "bytes": 58660
+        },
+        {
+          "src": "blog/pexels-31654390-4k.webp",
+          "width": 2887,
+          "height": 3840,
+          "bytes": 215002
+        }
+      ],
+      "alt": "Portrait of a woman under purple and pink lighting",
+      "position": "50% 35%"
+    },
+    {
+      "slug": "photo-noise-vs-film-grain",
+      "provider": "Pexels",
+      "photoId": "4992637",
+      "source": "https://www.pexels.com/photo/vintage-camera-near-lens-and-camera-roll-on-table-4992637/",
+      "photographer": "Rachel Claire",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/4992637/pexels-photo-4992637.jpeg?cs=srgb&dl=pexels-rachel-claire-4992637.jpg&fm=jpg",
+      "original": {
+        "width": 5472,
+        "height": 3648,
+        "bytes": 1948371,
+        "sha256": "b22ff48606b2b30fc4770f9315d91d820d644ae52e19da829ad44c97bee1fabf"
+      },
+      "master": "blog/pexels-4992637-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-4992637-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24936
+        },
+        {
+          "src": "blog/pexels-4992637-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 94796
+        },
+        {
+          "src": "blog/pexels-4992637-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 246914
+        },
+        {
+          "src": "blog/pexels-4992637-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 1203240
+        }
+      ],
+      "alt": "Film cameras, lenses, and film rolls on a wooden table",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "photo-sharpening-vs-resolution",
+      "provider": "Pexels",
+      "photoId": "31743037",
+      "source": "https://www.pexels.com/photo/portrait-of-photographer-with-camera-in-hand-31743037/",
+      "photographer": "Anil Sharma",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/31743037/pexels-photo-31743037.jpeg?cs=srgb&dl=pexels-shootsaga-31743037.jpg&fm=jpg",
+      "original": {
+        "width": 6720,
+        "height": 4480,
+        "bytes": 1870823,
+        "sha256": "95bf94b279759accebb3ffd29cc7378cff3c2390532a2908253e33247db1d44c"
+      },
+      "master": "blog/pexels-31743037-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-31743037-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 8450
+        },
+        {
+          "src": "blog/pexels-31743037-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 22348
+        },
+        {
+          "src": "blog/pexels-31743037-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 52716
+        },
+        {
+          "src": "blog/pexels-31743037-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 510172
+        }
+      ],
+      "alt": "Black-and-white portrait of a photographer holding a camera",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "vibrance-vs-saturation-portraits",
+      "provider": "Pexels",
+      "photoId": "31544926",
+      "source": "https://www.pexels.com/photo/young-woman-holding-bouquet-on-pink-background-31544926/",
+      "photographer": "frank minjarez",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/31544926/pexels-photo-31544926.jpeg?cs=srgb&dl=pexels-frank-minjarez-333886454-31544926.jpg&fm=jpg",
+      "original": {
+        "width": 6000,
+        "height": 6000,
+        "bytes": 1820494,
+        "sha256": "a7cd0fe8c3f13c56b6b5f1ccc2f5b2d87fe973a515573cb6b04a4380c1d888a6"
+      },
+      "master": "blog/pexels-31544926-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-31544926-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 14816
+        },
+        {
+          "src": "blog/pexels-31544926-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 40794
+        },
+        {
+          "src": "blog/pexels-31544926-1600.webp",
+          "width": 1600,
+          "height": 1600,
+          "bytes": 91596
+        },
+        {
+          "src": "blog/pexels-31544926-4k.webp",
+          "width": 3840,
+          "height": 3840,
+          "bytes": 538644
+        }
+      ],
+      "alt": "Woman holding flowers against a pink studio backdrop",
+      "position": "50% 40%"
+    },
+    {
+      "slug": "consistent-editing-for-photo-set",
+      "provider": "Pexels",
+      "photoId": "7129664",
+      "source": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/",
+      "photographer": "Michael Burrows",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/7129664/pexels-photo-7129664.jpeg?cs=srgb&dl=pexels-michael-burrows-7129664.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 2294239,
+        "sha256": "c93aeac107555e03f277b1fe270fb05d4d8731c58f4f6b0378533bc08cdfe133"
+      },
+      "master": "blog/pexels-7129664-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-7129664-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 24308
+        },
+        {
+          "src": "blog/pexels-7129664-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 60970
+        },
+        {
+          "src": "blog/pexels-7129664-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 134290
+        },
+        {
+          "src": "blog/pexels-7129664-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 624266
+        }
+      ],
+      "alt": "Hands at a laptop displaying a set of portrait photographs",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "why-saved-photos-lose-quality",
+      "provider": "Pexels",
+      "photoId": "34225009",
+      "source": "https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/",
+      "photographer": "Julio Lopez",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/34225009/pexels-photo-34225009.jpeg?cs=srgb&dl=pexels-julio-lopez-75309646-34225009.jpg&fm=jpg",
+      "original": {
+        "width": 6196,
+        "height": 4131,
+        "bytes": 2852035,
+        "sha256": "0ca46d1aac488154b80bc2bb8f4348e52b83a6150877deb41f2fb18e3eac434a"
+      },
+      "master": "blog/pexels-34225009-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-34225009-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 12544
+        },
+        {
+          "src": "blog/pexels-34225009-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 29792
+        },
+        {
+          "src": "blog/pexels-34225009-1600.webp",
+          "width": 1600,
+          "height": 1066,
+          "bytes": 56830
+        },
+        {
+          "src": "blog/pexels-34225009-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 714334
+        }
+      ],
+      "alt": "Photographer holding a memory card beside a card reader and laptop",
+      "position": "60% 50%"
+    },
+    {
+      "slug": "jpeg-heic-png-photo-formats",
+      "provider": "Pexels",
+      "photoId": "1203803",
+      "source": "https://www.pexels.com/photo/black-and-grey-camera-1203803/",
+      "photographer": "Alex Andrews",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?cs=srgb&dl=pexels-alex-andrews-271121-1203803.jpg&fm=jpg",
+      "original": {
+        "width": 6938,
+        "height": 4609,
+        "bytes": 2015257,
+        "sha256": "70e92644d6ea51fb692bd9515d7d0797a3c0d810f1f84d9a2e54f132fd8724cd"
+      },
+      "master": "blog/pexels-1203803-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-1203803-480.webp",
+          "width": 480,
+          "height": 319,
+          "bytes": 7222
+        },
+        {
+          "src": "blog/pexels-1203803-960.webp",
+          "width": 960,
+          "height": 638,
+          "bytes": 26926
+        },
+        {
+          "src": "blog/pexels-1203803-1600.webp",
+          "width": 1600,
+          "height": 1063,
+          "bytes": 67920
+        },
+        {
+          "src": "blog/pexels-1203803-4k.webp",
+          "width": 3840,
+          "height": 2551,
+          "bytes": 396862
+        }
+      ],
+      "alt": "Silver and black camera on a pale background",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "edit-photos-without-losing-original",
+      "provider": "Pexels",
+      "photoId": "29065464",
+      "source": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-29065464/",
+      "photographer": "Leticia Curvelo",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/29065464/pexels-photo-29065464.jpeg?cs=srgb&dl=pexels-leticiacurveloph-29065464.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 1926793,
+        "sha256": "d02756d442b4e39b01495f5b2e8e0d4657485b042a6f7e38f727b5ee175b3d7d"
+      },
+      "master": "blog/pexels-29065464-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-29065464-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 13824
+        },
+        {
+          "src": "blog/pexels-29065464-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 39102
+        },
+        {
+          "src": "blog/pexels-29065464-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 89938
+        },
+        {
+          "src": "blog/pexels-29065464-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 370406
+        }
+      ],
+      "alt": "Photographer using a laptop with a camera resting nearby",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "check-ai-portrait-details",
+      "provider": "Pexels",
+      "photoId": "30861211",
+      "source": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/",
+      "photographer": "Ebahir",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/30861211/pexels-photo-30861211.jpeg?cs=srgb&dl=pexels-ebahir-30861211.jpg&fm=jpg",
+      "original": {
+        "width": 3413,
+        "height": 5120,
+        "bytes": 1710986,
+        "sha256": "c09ec057711d3e825021df8a3664cefc1291a1aa945820846a4f3067cda31f2b"
+      },
+      "master": "blog/pexels-30861211-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-30861211-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 46754
+        },
+        {
+          "src": "blog/pexels-30861211-960.webp",
+          "width": 960,
+          "height": 1441,
+          "bytes": 121540
+        },
+        {
+          "src": "blog/pexels-30861211-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 264336
+        },
+        {
+          "src": "blog/pexels-30861211-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 887014
+        }
+      ],
+      "alt": "Camera beside a laptop displaying photographs for review",
+      "position": "50% 40%"
+    },
+    {
+      "slug": "hdr-phone-photos-explained",
+      "provider": "Pexels",
+      "photoId": "37728401",
+      "source": "https://www.pexels.com/photo/golden-hour-portrait-of-young-man-outdoors-37728401/",
+      "photographer": "Alef Morais",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/37728401/pexels-photo-37728401.jpeg?cs=srgb&dl=pexels-alef-morais-336305364-37728401.jpg&fm=jpg",
+      "original": {
+        "width": 3790,
+        "height": 4737,
+        "bytes": 2798544,
+        "sha256": "43bf548f584656eaee37c9d8c7296bd28781aeb4cfc48e7b9b49f196417cd0ac"
+      },
+      "master": "blog/pexels-37728401-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-37728401-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 14160
+        },
+        {
+          "src": "blog/pexels-37728401-960.webp",
+          "width": 960,
+          "height": 1200,
+          "bytes": 53412
+        },
+        {
+          "src": "blog/pexels-37728401-1600.webp",
+          "width": 1600,
+          "height": 2000,
+          "bytes": 293180
+        },
+        {
+          "src": "blog/pexels-37728401-4k.webp",
+          "width": 3072,
+          "height": 3840,
+          "bytes": 1864126
+        }
+      ],
+      "alt": "Close portrait of a man in warm outdoor light",
+      "position": "50% 35%"
+    },
+    {
+      "slug": "why-photos-look-different-on-screens",
+      "provider": "Pexels",
+      "photoId": "16313502",
+      "source": "https://www.pexels.com/photo/woman-editing-photos-on-laptop-16313502/",
+      "photographer": "Kawê Rodrigues",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/16313502/pexels-photo-16313502.jpeg?cs=srgb&dl=pexels-kawerodriguess-16313502.jpg&fm=jpg",
+      "original": {
+        "width": 3609,
+        "height": 5414,
+        "bytes": 2309292,
+        "sha256": "08f217049b3ed81eee73c2ddb907825232c1149ca52e0558924e7488385cad7b"
+      },
+      "master": "blog/pexels-16313502-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-16313502-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 20458
+        },
+        {
+          "src": "blog/pexels-16313502-960.webp",
+          "width": 960,
+          "height": 1441,
+          "bytes": 48844
+        },
+        {
+          "src": "blog/pexels-16313502-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 145600
+        },
+        {
+          "src": "blog/pexels-16313502-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 895532
+        }
+      ],
+      "alt": "Photo-editing workspace with a laptop, camera, and drawing tablet",
+      "position": "50% 40%"
+    },
+    {
+      "slug": "self-timer-portraits-with-phone",
+      "provider": "Pexels",
+      "photoId": "13929353",
+      "source": "https://www.pexels.com/photo/woman-fixing-a-smart-phone-on-a-tripod-13929353/",
+      "photographer": "Mizuno K",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/13929353/pexels-photo-13929353.jpeg?cs=srgb&dl=pexels-mizunokozuki-13929353.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 3256534,
+        "sha256": "9705a7b30c8950d6ba41fdf4b23fc2996794286884ca5f251990cf4dab423c2b"
+      },
+      "master": "blog/pexels-13929353-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-13929353-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 28176
+        },
+        {
+          "src": "blog/pexels-13929353-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 72132
+        },
+        {
+          "src": "blog/pexels-13929353-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 185216
+        },
+        {
+          "src": "blog/pexels-13929353-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 1015212
+        }
+      ],
+      "alt": "Woman adjusting a phone mounted on a ring-light tripod",
+      "position": "55% 40%"
+    },
+    {
+      "slug": "portrait-mode-blur-mistakes",
+      "provider": "Pexels",
+      "photoId": "10551192",
+      "source": "https://www.pexels.com/photo/portrait-of-a-woman-at-night-10551192/",
+      "photographer": "Marlon Alves",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/10551192/pexels-photo-10551192.jpeg?cs=srgb&dl=pexels-marlon-alves-2016519-10551192.jpg&fm=jpg",
+      "original": {
+        "width": 6000,
+        "height": 4000,
+        "bytes": 3645470,
+        "sha256": "05731486c65b46989c4c8887559420b3d84d4a0e32baa648e065af97693654aa"
+      },
+      "master": "blog/pexels-10551192-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-10551192-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 18038
+        },
+        {
+          "src": "blog/pexels-10551192-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 44984
+        },
+        {
+          "src": "blog/pexels-10551192-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 95766
+        },
+        {
+          "src": "blog/pexels-10551192-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 1279248
+        }
+      ],
+      "alt": "Woman resting her face on her hand with blurred lights behind her",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "window-light-portraits-at-home",
+      "provider": "Pexels",
+      "photoId": "36627004",
+      "source": "https://www.pexels.com/photo/casual-portrait-of-a-woman-indoors-by-window-36627004/",
+      "photographer": "Patricia Bozan",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/36627004/pexels-photo-36627004.jpeg?cs=srgb&dl=pexels-patricia-bozan-2151752743-36627004.jpg&fm=jpg",
+      "original": {
+        "width": 3928,
+        "height": 5904,
+        "bytes": 925775,
+        "sha256": "f4a7f9d5c30cd623c146f95064b588bcf8a0a82217fd55f01ad958ef80e7cb13"
+      },
+      "master": "blog/pexels-36627004-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-36627004-480.webp",
+          "width": 480,
+          "height": 721,
+          "bytes": 17880
+        },
+        {
+          "src": "blog/pexels-36627004-960.webp",
+          "width": 960,
+          "height": 1443,
+          "bytes": 42920
+        },
+        {
+          "src": "blog/pexels-36627004-1600.webp",
+          "width": 1600,
+          "height": 2405,
+          "bytes": 85846
+        },
+        {
+          "src": "blog/pexels-36627004-4k.webp",
+          "width": 2555,
+          "height": 3840,
+          "bytes": 212772
+        }
+      ],
+      "alt": "Woman standing beside a window in a softly lit room",
+      "position": "50% 35%"
+    },
+    {
+      "slug": "why-night-phone-photos-are-blurry",
+      "provider": "Pexels",
+      "photoId": "29894331",
+      "source": "https://www.pexels.com/photo/portrait-of-woman-with-neon-lights-at-night-29894331/",
+      "photographer": "Everton Silva",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/29894331/pexels-photo-29894331.jpeg?cs=srgb&dl=pexels-veveto-29894331.jpg&fm=jpg",
+      "original": {
+        "width": 3072,
+        "height": 4608,
+        "bytes": 1058194,
+        "sha256": "fc34958fde1052531f57e097f4a815878aef80348febbdb12f7154c81ad0dc9b"
+      },
+      "master": "blog/pexels-29894331-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-29894331-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 21682
+        },
+        {
+          "src": "blog/pexels-29894331-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 58552
+        },
+        {
+          "src": "blog/pexels-29894331-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 135870
+        },
+        {
+          "src": "blog/pexels-29894331-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 500266
+        }
+      ],
+      "alt": "Portrait beside glowing turquoise lights at night",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "reduce-glasses-glare-in-portraits",
+      "provider": "Pexels",
+      "photoId": "1338413",
+      "source": "https://www.pexels.com/photo/woman-standing-near-window-1338413/",
+      "photographer": "Martin Kirigua",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/1338413/pexels-photo-1338413.jpeg?cs=srgb&dl=pexels-martinkirigua-1338413.jpg&fm=jpg",
+      "original": {
+        "width": 5760,
+        "height": 3840,
+        "bytes": 732077,
+        "sha256": "efca7bbf21c9d71bd3929b5b1877b7d19e718a29e00bfc914e40f18abfc96a7f"
+      },
+      "master": "blog/pexels-1338413-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-1338413-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 4350
+        },
+        {
+          "src": "blog/pexels-1338413-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 12334
+        },
+        {
+          "src": "blog/pexels-1338413-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 28054
+        },
+        {
+          "src": "blog/pexels-1338413-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 164442
+        }
+      ],
+      "alt": "Side-lit portrait of a woman with reflections in her glasses",
+      "position": "55% 45%"
+    },
+    {
+      "slug": "golden-hour-photo-editing",
+      "provider": "Pexels",
+      "photoId": "33301143",
+      "source": "https://www.pexels.com/photo/golden-hour-portrait-in-sundrenched-field-33301143/",
+      "photographer": "Mohammad Kashkooli",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/33301143/pexels-photo-33301143.jpeg?cs=srgb&dl=pexels-mamadkashkooli-33301143.jpg&fm=jpg",
+      "original": {
+        "width": 6336,
+        "height": 9504,
+        "bytes": 8255513,
+        "sha256": "bb503d61109067972bab2a49ef906d4491d5fd8e48a45cba5c066c1f24449829"
+      },
+      "master": "blog/pexels-33301143-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-33301143-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 82316
+        },
+        {
+          "src": "blog/pexels-33301143-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 268140
+        },
+        {
+          "src": "blog/pexels-33301143-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 615160
+        },
+        {
+          "src": "blog/pexels-33301143-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 1659284
+        }
+      ],
+      "alt": "Man standing beneath a tree in warm golden light",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "digicam-photo-effect-on-phone",
+      "provider": "Pexels",
+      "photoId": "30753213",
+      "source": "https://www.pexels.com/photo/vintage-camera-with-assorted-accessories-flat-lay-30753213/",
+      "photographer": "Thanh Thiện Tô",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/30753213/pexels-photo-30753213.jpeg?cs=srgb&dl=pexels-thanh-thi-n-to-1645597541-30753213.jpg&fm=jpg",
+      "original": {
+        "width": 3000,
+        "height": 4000,
+        "bytes": 1709596,
+        "sha256": "a3365e6c64c24470f8aa703c1b825f94f22e4265f8c5059e5ecd223a3e52e3b7"
+      },
+      "master": "blog/pexels-30753213-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-30753213-480.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 62994
+        },
+        {
+          "src": "blog/pexels-30753213-960.webp",
+          "width": 960,
+          "height": 1280,
+          "bytes": 223310
+        },
+        {
+          "src": "blog/pexels-30753213-1600.webp",
+          "width": 1600,
+          "height": 2133,
+          "bytes": 469978
+        },
+        {
+          "src": "blog/pexels-30753213-4k.webp",
+          "width": 2880,
+          "height": 3840,
+          "bytes": 1265956
+        }
+      ],
+      "alt": "Compact camera and accessories arranged on a tabletop",
+      "position": "50% 50%"
+    },
+    {
+      "slug": "vintage-photo-effects-guide",
+      "provider": "Pexels",
+      "photoId": "12182725",
+      "source": "https://www.pexels.com/photo/portrait-of-a-woman-at-night-12182725/",
+      "photographer": "Connor McManus",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/12182725/pexels-photo-12182725.jpeg?cs=srgb&dl=pexels-alteredsnaps-12182725.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 5244554,
+        "sha256": "eaac54f5c801faf1064d12e7964c2086dfca069310734e8afe29b5f7d9d3462b"
+      },
+      "master": "blog/pexels-12182725-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-12182725-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 19340
+        },
+        {
+          "src": "blog/pexels-12182725-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 151336
+        },
+        {
+          "src": "blog/pexels-12182725-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 757884
+        },
+        {
+          "src": "blog/pexels-12182725-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 2723580
+        }
+      ],
+      "alt": "Black-and-white portrait beside glass with reflected lights",
+      "position": "50% 45%"
+    },
+    {
+      "slug": "choose-photo-for-ai-portraits",
+      "provider": "Pexels",
+      "photoId": "32644860",
+      "source": "https://www.pexels.com/photo/portrait-of-smiling-woman-at-window-in-abuja-32644860/",
+      "photographer": "Muhammad-Taha Ibrahim",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/32644860/pexels-photo-32644860.jpeg?cs=srgb&dl=pexels-planeteelevene-32644860.jpg&fm=jpg",
+      "original": {
+        "width": 3960,
+        "height": 2640,
+        "bytes": 1072122,
+        "sha256": "8472ec7a4ef05a98111ef3437a1efda7f14d51779ce5e67dde824502c19f07ec"
+      },
+      "master": "blog/pexels-32644860-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-32644860-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 21402
+        },
+        {
+          "src": "blog/pexels-32644860-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 54444
+        },
+        {
+          "src": "blog/pexels-32644860-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 116918
+        },
+        {
+          "src": "blog/pexels-32644860-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 706778
+        }
+      ],
+      "alt": "Woman in a pink shirt and red cap leaning through an open window",
+      "position": "50% 40%"
+    },
+    {
+      "slug": "ai-photo-effects-vs-filters",
+      "provider": "Pexels",
+      "photoId": "24601834",
+      "source": "https://www.pexels.com/photo/portrait-of-woman-at-night-24601834/",
+      "photographer": "Yusuf Çelik",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/24601834/pexels-photo-24601834.jpeg?cs=srgb&dl=pexels-zandatsu-24601834.jpg&fm=jpg",
+      "original": {
+        "width": 5152,
+        "height": 7728,
+        "bytes": 1936182,
+        "sha256": "e514924002212ce97ee05bce65e46988d2a7fe65a01969e13d4449ffe0554a4d"
+      },
+      "master": "blog/pexels-24601834-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-24601834-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 12452
+        },
+        {
+          "src": "blog/pexels-24601834-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 33462
+        },
+        {
+          "src": "blog/pexels-24601834-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 71668
+        },
+        {
+          "src": "blog/pexels-24601834-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 219906
+        }
+      ],
+      "alt": "Portrait of a woman illuminated by green and blue light at night",
+      "position": "50% 35%"
+    }
+  ]
+}

@@ -39,6 +39,8 @@ class Page(HTMLParser):
             self.links.append(a['href'])
         if tag in ('img', 'script') and a.get('src'):
             self.assets.append(a['src'])
+        if tag in ('source', 'img') and a.get('srcset'):
+            self.assets.extend(candidate.strip().split()[0] for candidate in a['srcset'].split(',') if candidate.strip())
         if tag == 'link' and a.get('rel') in ('stylesheet', 'icon', 'apple-touch-icon'):
             self.assets.append(a['href'])
         if tag in ('title', 'h1') or (tag == 'script' and a.get('type') == 'application/ld+json'):

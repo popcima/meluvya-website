@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { BlogImage } from "@/components/BlogImage";
 import { ArrowUpRight } from "lucide-react";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -31,7 +31,7 @@ export function BlogArticle({ article }: { article: Article }) {
             <p className="article-summary">{article.summary}</p>
             <div className="article-meta"><a href={assetPath("/")} rel="author">Meluvya</a><span aria-hidden="true">·</span><time dateTime={article.published}>{displayDate(article.published)}</time><span aria-hidden="true">·</span><span>{readingMinutes(article)} min read</span></div>
           </div>
-          <figure className="article-hero"><div><Image src={assetPath(`/img/${article.image}`)} alt={article.imageAlt} fill sizes="(min-width: 900px) 380px, (min-width: 640px) 42vw, 100vw" style={{ objectPosition: article.imagePosition }} priority /></div><figcaption>{article.caption}</figcaption></figure>
+          <figure className="article-hero"><div><BlogImage article={article} sizes="(min-width: 900px) 380px, (min-width: 640px) 42vw, 100vw" eager /></div><figcaption>{article.caption}{article.imageCredit && <> Photo by <a href={article.imageCredit.url}>{article.imageCredit.name} / Pexels</a>.</>}</figcaption></figure>
         </header>
         <div className="wrap article-layout">
           <section className="article-answer article-content" id="quick-answer"><h2>The quick answer</h2><p>{article.quickAnswer}</p></section>

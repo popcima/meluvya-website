@@ -16,6 +16,8 @@ export type Article = {
   image: string;
   imageAlt: string;
   imagePosition?: string;
+  imageVariants?: { src: string; width: number }[];
+  imageCredit?: { name: string; url: string };
   caption: string;
   quickAnswer: string;
   sections: ArticleSection[];
@@ -25,7 +27,6 @@ export type Article = {
 };
 
 const date = "2026-10-19";
-const illustration = "Illustrative style example.";
 
 export const articles: Article[] = [
   {
@@ -35,9 +36,12 @@ export const articles: Article[] = [
     "summary": "One cheek orange and the other blue? Find the competing light sources, simplify the setup, or make a targeted correction without flattening the scene.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "A woman resting her face on her hands at a restaurant table",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-30244807-4k.webp",
+    "imageAlt": "Portrait lit by contrasting blue and pink lights",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 35%",
+    imageVariants: [{"src":"blog/pexels-30244807-480.webp","width":480},{"src":"blog/pexels-30244807-960.webp","width":960},{"src":"blog/pexels-30244807-1600.webp","width":1600},{"src":"blog/pexels-30244807-4k.webp","width":2561}],
+    imageCredit: {"name":"Marcus","url":"https://www.pexels.com/photo/vibrant-portrait-with-neon-lighting-30244807/"},
     "quickAnswer": "When different light sources color different parts of a face, one white-balance adjustment usually cannot neutralize every area. If you can retake the photo, remove or avoid one source first. For an existing image, choose a believable overall balance, then correct the remaining area locally if your editor supports masks.",
     "sections": [
       {
@@ -147,9 +151,12 @@ export const articles: Article[] = [
     "summary": "Build a direct-flash portrait around distance, background, reflections, and exposure. A short capture checklist helps you avoid accidental glare.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_pro_after.jpg",
-    "imageAlt": "A woman beside a balustrade with water and city lights behind her at night",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-19723159-4k.webp",
+    "imageAlt": "Woman with her hands near her face, brightly lit against a dark background",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 45%",
+    imageVariants: [{"src":"blog/pexels-19723159-480.webp","width":480},{"src":"blog/pexels-19723159-960.webp","width":960},{"src":"blog/pexels-19723159-1600.webp","width":1600},{"src":"blog/pexels-19723159-4k.webp","width":2560}],
+    imageCredit: {"name":"Tolga Aslantürk","url":"https://www.pexels.com/photo/beautiful-brunette-woman-in-flashlight-19723159/"},
     "quickAnswer": "For a deliberate direct-flash portrait, start with one person, a simple background, and a comfortable camera distance. Take a flash-on test, check the face and reflective objects, then change one position at a time. A dark background is a creative choice, but a blank white face is a reason to adjust or retake.",
     "sections": [
       {
@@ -256,9 +263,12 @@ export const articles: Article[] = [
     "summary": "Make midday portraits easier with open shade, cleaner shadow patterns, and a useful exposure check. Learn when hard light can work as part of the picture.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "y2k_digicam_after.jpg",
-    "imageAlt": "A woman wearing a cap and sunglasses on a city street",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-33507990-4k.webp",
+    "imageAlt": "Woman raising her arms in sunlight beside a shaded wall",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 35%",
+    imageVariants: [{"src":"blog/pexels-33507990-480.webp","width":480},{"src":"blog/pexels-33507990-960.webp","width":960},{"src":"blog/pexels-33507990-1600.webp","width":1600},{"src":"blog/pexels-33507990-4k.webp","width":3840}],
+    imageCredit: {"name":"Amar Preciado","url":"https://www.pexels.com/photo/portrait-of-woman-in-sunlight-against-rustic-background-33507990/"},
     "quickAnswer": "Start by finding even shade with a view toward the bright sky. Avoid placing the face under scattered leaf shadows. If you stay in direct sun, choose its direction deliberately and check the brightest facial areas before taking more photos. A comfortable expression matters more than forcing a particular angle.",
     "sections": [
       {
@@ -365,9 +375,12 @@ export const articles: Article[] = [
     "summary": "Understand why a close camera changes facial proportions, why cropping is different from moving, and how to compare selfies without beauty judgments.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "A woman resting her face on her hands at a restaurant table",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-9253767-4k.webp",
+    "imageAlt": "Close-up portrait showing a woman's natural skin texture",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 40%",
+    imageVariants: [{"src":"blog/pexels-9253767-480.webp","width":480},{"src":"blog/pexels-9253767-960.webp","width":960},{"src":"blog/pexels-9253767-1600.webp","width":1600},{"src":"blog/pexels-9253767-4k.webp","width":2560}],
+    imageCredit: {"name":"Ron Lach","url":"https://www.pexels.com/photo/close-up-photo-of-woman-9253767/"},
     "quickAnswer": "A close camera sees nearer parts of the face as relatively larger than parts farther away. Moving the camera back changes that perspective; cropping a close photo afterward does not undo it. Compare pictures taken from different distances with similar framing before deciding which presentation you prefer.",
     "sections": [
       {
@@ -469,9 +482,12 @@ export const articles: Article[] = [
     "summary": "Use brightness, edges, color, and context to choose a portrait background. A quick check helps remove distractions before you reach for background blur.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "y2k_digicam_after.jpg",
-    "imageAlt": "A woman wearing a cap and sunglasses on a city street",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-19158754-4k.webp",
+    "imageAlt": "Woman standing in sunlight against a darker outdoor background",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 40%",
+    imageVariants: [{"src":"blog/pexels-19158754-480.webp","width":480},{"src":"blog/pexels-19158754-960.webp","width":960},{"src":"blog/pexels-19158754-1600.webp","width":1600},{"src":"blog/pexels-19158754-4k.webp","width":2560}],
+    imageCredit: {"name":"apertur 2.8","url":"https://www.pexels.com/photo/young-woman-posing-outside-in-sunlight-19158754/"},
     "quickAnswer": "Choose a background that supports the person and the story. Check for bright patches, objects crossing the head, and colors competing with the face. Move the camera a little before changing the location: a small shift can remove a distracting edge while keeping the setting.",
     "sections": [
       {
@@ -578,9 +594,12 @@ export const articles: Article[] = [
     "summary": "Plan a mirror selfie around two frames: the mirror and the final photo. Check phone placement, reflected light, background clutter, and crop before sharing.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "A woman resting her face on her hands at a restaurant table",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-6598911-4k.webp",
+    "imageAlt": "Woman taking a phone selfie in a full-length mirror",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 45%",
+    imageVariants: [{"src":"blog/pexels-6598911-480.webp","width":480},{"src":"blog/pexels-6598911-960.webp","width":960},{"src":"blog/pexels-6598911-1600.webp","width":1600},{"src":"blog/pexels-6598911-4k.webp","width":2560}],
+    imageCredit: {"name":"Thirdman","url":"https://www.pexels.com/photo/a-woman-taking-selfie-in-front-of-the-mirror-6598911/"},
     "quickAnswer": "Clean the mirror, inspect everything visible in its reflection, and decide whether the phone is part of the composition. Use the mirror edges deliberately or exclude them. Take a test, check face visibility and reflected lights, then adjust the phone position before taking a longer series.",
     "sections": [
       {
@@ -686,9 +705,12 @@ export const articles: Article[] = [
     "summary": "Keep both people readable in a phone portrait with shared light, a balanced camera position, and a two-face focus check before choosing a favorite.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "golden_hour_after.jpg",
-    "imageAlt": "A woman in a white dress beside a wooden fence in warm evening light",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-39820803-4k.webp",
+    "imageAlt": "Couple standing together beneath leafy trees",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "35% 55%",
+    imageVariants: [{"src":"blog/pexels-39820803-480.webp","width":480},{"src":"blog/pexels-39820803-960.webp","width":960},{"src":"blog/pexels-39820803-1600.webp","width":1600},{"src":"blog/pexels-39820803-4k.webp","width":3840}],
+    imageCredit: {"name":"Helena Jankovičová Kováčová","url":"https://www.pexels.com/photo/romantic-outdoor-portrait-of-couple-in-nature-39820803/"},
     "quickAnswer": "Start with both people at a similar distance from the phone and in the same patch of light. Use ordinary photo mode for a baseline, check both faces in the saved frame, and take a short series with small changes in expression. Choose a picture both people like before applying a shared edit.",
     "sections": [
       {
@@ -795,9 +817,12 @@ export const articles: Article[] = [
     "summary": "Use overcast light without making portraits feel flat. Find direction, separate the background, and choose color deliberately instead of adding fake sunshine.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "golden_hour_after.jpg",
-    "imageAlt": "A woman in a white dress beside a wooden fence in warm evening light",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-28678652-4k.webp",
+    "imageAlt": "Black-and-white outdoor portrait with softly blurred foliage",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 35%",
+    imageVariants: [{"src":"blog/pexels-28678652-480.webp","width":480},{"src":"blog/pexels-28678652-960.webp","width":960},{"src":"blog/pexels-28678652-1600.webp","width":1600},{"src":"blog/pexels-28678652-4k.webp","width":2560}],
+    imageCredit: {"name":"R.O.Y","url":"https://www.pexels.com/photo/portrait-of-a-woman-in-outdoor-setting-28678652/"},
     "quickAnswer": "On a cloudy day, look for the brightest part of the sky and turn the face toward it. Choose a background that separates from the person, then check the eyes and shadow shape. Overcast light can be soft, but its direction and the surrounding buildings still affect the portrait.",
     "sections": [
       {
@@ -900,9 +925,12 @@ export const articles: Article[] = [
     "summary": "Balance a bright background with a readable face. Choose between a portrait and a silhouette, control flare, and check the capture before editing.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "golden_hour_after.jpg",
-    "imageAlt": "A woman in a white dress beside a wooden fence in warm evening light",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-37728399-4k.webp",
+    "imageAlt": "Man seen from behind with warm sunlight outlining his hair",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 40%",
+    imageVariants: [{"src":"blog/pexels-37728399-480.webp","width":480},{"src":"blog/pexels-37728399-960.webp","width":960},{"src":"blog/pexels-37728399-1600.webp","width":1600},{"src":"blog/pexels-37728399-4k.webp","width":3072}],
+    imageCredit: {"name":"Alef Morais","url":"https://www.pexels.com/photo/back-view-portrait-in-golden-hour-light-37728399/"},
     "quickAnswer": "When light comes from behind the person, decide whether the face or silhouette is the priority. For a readable face, try focusing and metering on it, then inspect the saved photo for lost background detail. If the contrast is too strong, change position or include less bright sky instead of relying on an edit to fix everything.",
     "sections": [
       {
@@ -1009,9 +1037,12 @@ export const articles: Article[] = [
     "summary": "Make a monochrome portrait with readable skin, hair, and clothing. Learn when color mixing helps and when a color original is the stronger picture.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "A woman resting her face on her hands at a restaurant table",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-28529737-4k.webp",
+    "imageAlt": "Black-and-white portrait of a man looking up into the light",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 35%",
+    imageVariants: [{"src":"blog/pexels-28529737-480.webp","width":480},{"src":"blog/pexels-28529737-960.webp","width":960},{"src":"blog/pexels-28529737-1600.webp","width":1600},{"src":"blog/pexels-28529737-4k.webp","width":2433}],
+    imageCredit: {"name":"David Underland","url":"https://www.pexels.com/photo/monochrome-portrait-of-man-in-sunlight-28529737/"},
     "quickAnswer": "A useful black-and-white edit needs separation between important tones, not just zero saturation. Start with a clear portrait, convert a copy, and compare the face against hair, clothing, and background. Adjust brightness and contrast gently; if your editor offers a black-and-white mix, use it to change how original colors become gray.",
     "sections": [
       {
@@ -1117,9 +1148,12 @@ export const articles: Article[] = [
     "summary": "Diagnose plastic skin, bright edge halos, odd color, and disconnected local edits. Use a reversible audit instead of stacking more effects.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "A woman resting her face on her hands at a restaurant table",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-15558373-4k.webp",
+    "imageAlt": "Photographer working beside a laptop, drawing tablet, and camera",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 50%",
+    imageVariants: [{"src":"blog/pexels-15558373-480.webp","width":480},{"src":"blog/pexels-15558373-960.webp","width":960},{"src":"blog/pexels-15558373-1600.webp","width":1600},{"src":"blog/pexels-15558373-4k.webp","width":2560}],
+    imageCredit: {"name":"Kawê Rodrigues","url":"https://www.pexels.com/photo/man-editing-photos-with-use-of-laptop-and-tablet-15558373/"},
     "quickAnswer": "Compare the edit with the original at the same size. Undo or reduce one group of changes at a time: smoothing, local contrast, color, then targeted retouching. Keep the least aggressive version that solves the actual problem. More editing is rarely a useful first response when you cannot identify what went wrong.",
     "sections": [
       {
@@ -1235,9 +1269,12 @@ export const articles: Article[] = [
     "summary": "Choose a portrait crop around the image's purpose, expression, hands, and headroom. Compare square and tall versions without losing your original.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "y2k_digicam_after.jpg",
-    "imageAlt": "A woman wearing a cap and sunglasses on a city street",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-15758649-4k.webp",
+    "imageAlt": "Photographer holding a camera in front of a mirror",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 40%",
+    imageVariants: [{"src":"blog/pexels-15758649-480.webp","width":480},{"src":"blog/pexels-15758649-960.webp","width":960},{"src":"blog/pexels-15758649-1600.webp","width":1600},{"src":"blog/pexels-15758649-4k.webp","width":2571}],
+    imageCredit: {"name":"Elif Çöküç","url":"https://www.pexels.com/photo/woman-taking-a-mirror-selfie-with-a-camera-15758649/"},
     "quickAnswer": "Choose the intended use before cropping. Place the face where it reads clearly, inspect every edge for accidental cuts, and keep enough context to explain the pose. Compare the cropped result with the full image; a tighter crop should solve a specific distraction rather than simply make the face larger.",
     "sections": [
       {
@@ -1347,9 +1384,12 @@ export const articles: Article[] = [
     "summary": "Lift a dark portrait carefully without washing out the background. Check shadow detail, noise, and local adjustment edges before saving.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_pro_after.jpg",
-    "imageAlt": "A woman beside a balustrade with water and city lights behind her at night",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-18109722-4k.webp",
+    "imageAlt": "Woman standing beneath string lights at night",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 40%",
+    imageVariants: [{"src":"blog/pexels-18109722-480.webp","width":480},{"src":"blog/pexels-18109722-960.webp","width":960},{"src":"blog/pexels-18109722-1600.webp","width":1600},{"src":"blog/pexels-18109722-4k.webp","width":2560}],
+    imageCredit: {"name":"Alex Paz","url":"https://www.pexels.com/photo/portrait-of-woman-at-night-18109722/"},
     "quickAnswer": "First check whether the face contains usable detail in the original. If the whole photo is dark, try a modest overall brightness adjustment. If only the face is dark, use a local adjustment when your editor offers it, then inspect noise and the transition into hair and neck. Stop when further brightening reveals artifacts rather than useful detail.",
     "sections": [
       {
@@ -1456,9 +1496,12 @@ export const articles: Article[] = [
     "summary": "Check whether bright skin still contains detail before trying highlight recovery. Learn the difference between revealing recorded tones and inventing replacements.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "golden_hour_after.jpg",
-    "imageAlt": "A woman in a white dress beside a wooden fence in warm evening light",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-18259251-4k.webp",
+    "imageAlt": "Man in a white shirt with bright sunlight across his face",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 45%",
+    imageVariants: [{"src":"blog/pexels-18259251-480.webp","width":480},{"src":"blog/pexels-18259251-960.webp","width":960},{"src":"blog/pexels-18259251-1600.webp","width":1600},{"src":"blog/pexels-18259251-4k.webp","width":3840}],
+    imageCredit: {"name":"yaroslav -","url":"https://www.pexels.com/photo/portrait-of-young-man-in-sunlight-18259251/"},
     "quickAnswer": "Sometimes. Lowering exposure or highlights can reveal bright detail that remains in the file. If the important area was clipped to uniform white with no recoverable information, making it darker will not restore the original texture. Test the original file before deciding whether to edit, choose another frame, or retake.",
     "sections": [
       {
@@ -1569,9 +1612,12 @@ export const articles: Article[] = [
     "summary": "Correct an overall orange, blue, green, or magenta cast with a sensible reference. Keep natural skin differences and know when white balance is not enough.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "A woman resting her face on her hands at a restaurant table",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-31654390-4k.webp",
+    "imageAlt": "Portrait of a woman under purple and pink lighting",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 35%",
+    imageVariants: [{"src":"blog/pexels-31654390-480.webp","width":480},{"src":"blog/pexels-31654390-960.webp","width":960},{"src":"blog/pexels-31654390-1600.webp","width":1600},{"src":"blog/pexels-31654390-4k.webp","width":2887}],
+    imageCredit: {"name":"Nadya Ketler","url":"https://www.pexels.com/photo/creative-portrait-in-neon-lighting-31654390/"},
     "quickAnswer": "If the whole image shares an unwanted tint, start with white balance. Use a known neutral object under the same light as the face when possible, then refine temperature and tint by eye. If different areas need opposite corrections, stop treating the problem as one global cast and investigate mixed lighting.",
     "sections": [
       {
@@ -1673,9 +1719,12 @@ export const articles: Article[] = [
     "summary": "Tell unwanted digital noise from a deliberate grain effect. Balance cleanup and texture without smoothing away useful portrait detail.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_pro_after.jpg",
-    "imageAlt": "A woman beside a balustrade with water and city lights behind her at night",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-4992637-4k.webp",
+    "imageAlt": "Film cameras, lenses, and film rolls on a wooden table",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 50%",
+    imageVariants: [{"src":"blog/pexels-4992637-480.webp","width":480},{"src":"blog/pexels-4992637-960.webp","width":960},{"src":"blog/pexels-4992637-1600.webp","width":1600},{"src":"blog/pexels-4992637-4k.webp","width":3840}],
+    imageCredit: {"name":"Rachel Claire","url":"https://www.pexels.com/photo/vintage-camera-near-lens-and-camera-roll-on-table-4992637/"},
     "quickAnswer": "Digital noise is variation in the captured or processed image that can appear as brightness speckles or colored blotches. Film grain comes from photographic film; a grain effect imitates a chosen texture. For a portrait, diagnose unwanted noise first, make only the cleanup needed, then decide separately whether intentional grain supports the style.",
     "sections": [
       {
@@ -1791,9 +1840,12 @@ export const articles: Article[] = [
     "summary": "Separate edge contrast, pixel dimensions, missed focus, and enlargement. Learn when sharpening helps and when it only makes a damaged photo look harsher.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "y2k_digicam_after.jpg",
-    "imageAlt": "A woman wearing a cap and sunglasses on a city street",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-31743037-4k.webp",
+    "imageAlt": "Black-and-white portrait of a photographer holding a camera",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 45%",
+    imageVariants: [{"src":"blog/pexels-31743037-480.webp","width":480},{"src":"blog/pexels-31743037-960.webp","width":960},{"src":"blog/pexels-31743037-1600.webp","width":1600},{"src":"blog/pexels-31743037-4k.webp","width":3840}],
+    imageCredit: {"name":"Anil Sharma","url":"https://www.pexels.com/photo/portrait-of-photographer-with-camera-in-hand-31743037/"},
     "quickAnswer": "Sharpening makes existing edges more prominent; resolution describes image dimensions or sampling in context. More sharpening does not add a new capture, and enlarging a file does not prove that new detail is authentic. Diagnose whether the problem is soft edges, too few pixels, motion, or missed focus before choosing a tool.",
     "sections": [
       {
@@ -1910,9 +1962,12 @@ export const articles: Article[] = [
     "summary": "Compare vibrance and saturation without overdoing skin or clothing. A simple side-by-side edit helps you choose the control that solves the actual color problem.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "golden_hour_after.jpg",
-    "imageAlt": "A woman in a white dress beside a wooden fence in warm evening light",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-31544926-4k.webp",
+    "imageAlt": "Woman holding flowers against a pink studio backdrop",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 40%",
+    imageVariants: [{"src":"blog/pexels-31544926-480.webp","width":480},{"src":"blog/pexels-31544926-960.webp","width":960},{"src":"blog/pexels-31544926-1600.webp","width":1600},{"src":"blog/pexels-31544926-4k.webp","width":3840}],
+    imageCredit: {"name":"frank minjarez","url":"https://www.pexels.com/photo/young-woman-holding-bouquet-on-pink-background-31544926/"},
     "quickAnswer": "In Adobe's tools, saturation changes color intensity broadly, while vibrance gives less-saturated colors more attention and is designed to reduce oversaturation of skin tones. Start with a small adjustment and compare skin, clothing, and background. Neither slider corrects an underlying white-balance problem.",
     "sections": [
       {
@@ -2024,9 +2079,12 @@ export const articles: Article[] = [
     "summary": "Build a coherent portrait set with a reference image, individual exposure corrections, and selective style adjustments. Avoid copying mistakes across different light.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "y2k_digicam_after.jpg",
-    "imageAlt": "A woman wearing a cap and sunglasses on a city street",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-7129664-4k.webp",
+    "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 50%",
+    imageVariants: [{"src":"blog/pexels-7129664-480.webp","width":480},{"src":"blog/pexels-7129664-960.webp","width":960},{"src":"blog/pexels-7129664-1600.webp","width":1600},{"src":"blog/pexels-7129664-4k.webp","width":2560}],
+    imageCredit: {"name":"Michael Burrows","url":"https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"},
     "quickAnswer": "Choose a representative reference photo, correct each image's exposure and color balance, then apply a restrained shared style. Compare the set together and adjust outliers individually. Consistency means the pictures belong together; it does not mean every frame must use identical settings or make different skin tones look the same.",
     "sections": [
       {
@@ -2136,9 +2194,12 @@ export const articles: Article[] = [
     "summary": "Trace lost photo quality through editing, export, messaging, and display. Check pixel dimensions and compression before applying more sharpening.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "A woman resting her face on her hands at a restaurant table",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-34225009-4k.webp",
+    "imageAlt": "Photographer holding a memory card beside a card reader and laptop",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "60% 50%",
+    imageVariants: [{"src":"blog/pexels-34225009-480.webp","width":480},{"src":"blog/pexels-34225009-960.webp","width":960},{"src":"blog/pexels-34225009-1600.webp","width":1600},{"src":"blog/pexels-34225009-4k.webp","width":3840}],
+    imageCredit: {"name":"Julio Lopez","url":"https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/"},
     "quickAnswer": "Compare the original, the exported file, and the received copy. If the export is already smaller or damaged, inspect export dimensions and compression. If the export is good but the received image is worse, investigate the sharing path. Avoid repeatedly editing a compressed copy when an original or editable master is available.",
     "sections": [
       {
@@ -2255,9 +2316,12 @@ export const articles: Article[] = [
     "summary": "Choose a photo format for sharing, preserving an original, or keeping transparency. Compare compatibility and compression without assuming one format always wins.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "golden_hour_after.jpg",
-    "imageAlt": "A woman in a white dress beside a wooden fence in warm evening light",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-1203803-4k.webp",
+    "imageAlt": "Silver and black camera on a pale background",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 50%",
+    imageVariants: [{"src":"blog/pexels-1203803-480.webp","width":480},{"src":"blog/pexels-1203803-960.webp","width":960},{"src":"blog/pexels-1203803-1600.webp","width":1600},{"src":"blog/pexels-1203803-4k.webp","width":3840}],
+    imageCredit: {"name":"Alex Andrews","url":"https://www.pexels.com/photo/black-and-grey-camera-1203803/"},
     "quickAnswer": "JPEG is a practical sharing choice when broad compatibility matters. Keep an original HEIC file if it is your camera source and your workflow supports it; convert a copy when needed. PNG is useful for lossless image storage and transparency, but can be much larger for photographs. None of these choices restores detail already missing from a source.",
     "sections": [
       {
@@ -2369,9 +2433,12 @@ export const articles: Article[] = [
     "summary": "Separate originals, editable working files, and exports. Understand what undo, revert, and cloud sync can—and cannot—preserve.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "A woman resting her face on her hands at a restaurant table",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-29065464-4k.webp",
+    "imageAlt": "Photographer using a laptop with a camera resting nearby",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 50%",
+    imageVariants: [{"src":"blog/pexels-29065464-480.webp","width":480},{"src":"blog/pexels-29065464-960.webp","width":960},{"src":"blog/pexels-29065464-1600.webp","width":1600},{"src":"blog/pexels-29065464-4k.webp","width":2560}],
+    imageCredit: {"name":"Leticia Curvelo","url":"https://www.pexels.com/photo/photographer-editing-photos-on-laptop-29065464/"},
     "quickAnswer": "Keep the original capture, an editable working version when supported, and a separate delivery export. Before committing to an unfamiliar editor, test whether you can reopen and revise an edit. Undo history, a revert command, and an independent backup are different protections; do not assume one provides all three.",
     "sections": [
       {
@@ -2483,9 +2550,12 @@ export const articles: Article[] = [
     "summary": "Review likeness, hands, hair, accessories, text, and reflections against the source. Use a practical checklist without pretending visual inspection proves authenticity.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "A woman resting her face on her hands at a restaurant table",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-30861211-4k.webp",
+    "imageAlt": "Camera beside a laptop displaying photographs for review",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 40%",
+    imageVariants: [{"src":"blog/pexels-30861211-480.webp","width":480},{"src":"blog/pexels-30861211-960.webp","width":960},{"src":"blog/pexels-30861211-1600.webp","width":1600},{"src":"blog/pexels-30861211-4k.webp","width":2560}],
+    imageCredit: {"name":"Ebahir","url":"https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/"},
     "quickAnswer": "Compare the generated portrait with its source, first at normal size and then in important details. Check recognizable features, hands, accessories, text, and the relationship between reflections and objects. Decide whether the changes fit your intended use. A convincing-looking image is not proof that every detail is accurate.",
     "sections": [
       {
@@ -2596,9 +2666,12 @@ export const articles: Article[] = [
     "summary": "Understand HDR capture, bright backgrounds, movement, and HDR display. Learn what to inspect instead of assuming HDR always makes a better portrait.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "golden_hour_after.jpg",
-    "imageAlt": "A woman in a white dress beside a wooden fence in warm evening light",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-37728401-4k.webp",
+    "imageAlt": "Close portrait of a man in warm outdoor light",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 35%",
+    imageVariants: [{"src":"blog/pexels-37728401-480.webp","width":480},{"src":"blog/pexels-37728401-960.webp","width":960},{"src":"blog/pexels-37728401-1600.webp","width":1600},{"src":"blog/pexels-37728401-4k.webp","width":3072}],
+    imageCredit: {"name":"Alef Morais","url":"https://www.pexels.com/photo/golden-hour-portrait-of-young-man-outdoors-37728401/"},
     "quickAnswer": "HDR capture combines information from different exposures to retain more of a scene's bright and dark areas. It can help with a bright background and a darker face, but moving subjects and strong contrast still need checking. HDR display and HDR video are related terms with different controls; do not assume one setting governs them all.",
     "sections": [
       {
@@ -2701,9 +2774,12 @@ export const articles: Article[] = [
     "summary": "Troubleshoot color and brightness differences using the same file, comparable display settings, and embedded profiles before changing the edit again.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "y2k_digicam_after.jpg",
-    "imageAlt": "A woman wearing a cap and sunglasses on a city street",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-16313502-4k.webp",
+    "imageAlt": "Photo-editing workspace with a laptop, camera, and drawing tablet",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 40%",
+    imageVariants: [{"src":"blog/pexels-16313502-480.webp","width":480},{"src":"blog/pexels-16313502-960.webp","width":960},{"src":"blog/pexels-16313502-1600.webp","width":1600},{"src":"blog/pexels-16313502-4k.webp","width":2560}],
+    imageCredit: {"name":"Kawê Rodrigues","url":"https://www.pexels.com/photo/woman-editing-photos-on-laptop-16313502/"},
     "quickAnswer": "The file, viewer, display, and room all affect how a photo appears. First confirm both screens are showing the same exported file. Then compare brightness and color-altering display settings, and inspect the export's color-profile options. Do not repeatedly change skin color until you have separated an editing problem from a viewing problem.",
     "sections": [
       {
@@ -2815,9 +2891,12 @@ export const articles: Article[] = [
     "summary": "Plan framing, focus, timing, and a safe camera position before stepping into the shot. A short test sequence makes solo portraits easier.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "A woman resting her face on her hands at a restaurant table",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-13929353-4k.webp",
+    "imageAlt": "Woman adjusting a phone mounted on a ring-light tripod",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "55% 40%",
+    imageVariants: [{"src":"blog/pexels-13929353-480.webp","width":480},{"src":"blog/pexels-13929353-960.webp","width":960},{"src":"blog/pexels-13929353-1600.webp","width":1600},{"src":"blog/pexels-13929353-4k.webp","width":2560}],
+    imageCredit: {"name":"Mizuno K","url":"https://www.pexels.com/photo/woman-fixing-a-smart-phone-on-a-tripod-13929353/"},
     "quickAnswer": "Put the phone on a stable support, frame your intended position, and take a test before committing to a pose. Choose a timer delay that gives you time to settle. Review focus and crop after each small set, changing one thing at a time rather than repeating the same setup unchecked.",
     "sections": [
       {
@@ -2924,9 +3003,12 @@ export const articles: Article[] = [
     "summary": "Check hair, glasses, hands, and gaps for unwanted background blur. Learn when reducing the effect or keeping an ordinary photo produces a better portrait.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "golden_hour_after.jpg",
-    "imageAlt": "A woman in a white dress beside a wooden fence in warm evening light",
-    "caption": "Illustrative portrait from the Meluvya style gallery; not a demonstration or test of the technique below.",
+    "image": "blog/pexels-10551192-4k.webp",
+    "imageAlt": "Woman resting her face on her hand with blurred lights behind her",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imagePosition: "50% 45%",
+    imageVariants: [{"src":"blog/pexels-10551192-480.webp","width":480},{"src":"blog/pexels-10551192-960.webp","width":960},{"src":"blog/pexels-10551192-1600.webp","width":1600},{"src":"blog/pexels-10551192-4k.webp","width":3840}],
+    imageCredit: {"name":"Marlon Alves","url":"https://www.pexels.com/photo/portrait-of-a-woman-at-night-10551192/"},
     "quickAnswer": "Inspect the outline around hair, glasses, hands, and the spaces between limbs. If your phone lets you revise Portrait mode blur, reduce it and compare the result with the ordinary or unblurred version. For a new capture, simplify the background and take a normal-photo backup. Stronger blur is not automatically more convincing.",
     "sections": [
       {
@@ -3037,10 +3119,12 @@ export const articles: Article[] = [
     "summary": "One window, a clear background, and a few deliberate changes in position can give you a more useful starting photo.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_g7x_after.jpg",
-    "imageAlt": "An indoor portrait of a woman resting her face on her hands at a restaurant table",
-    "imagePosition": "50% 34%",
-    "caption": "Illustrative portrait. The lighting setup described below is a separate exercise.",
+    "image": "blog/pexels-36627004-4k.webp",
+    "imageAlt": "Woman standing beside a window in a softly lit room",
+    "imagePosition": "50% 35%",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imageVariants: [{"src":"blog/pexels-36627004-480.webp","width":480},{"src":"blog/pexels-36627004-960.webp","width":960},{"src":"blog/pexels-36627004-1600.webp","width":1600},{"src":"blog/pexels-36627004-4k.webp","width":2555}],
+    imageCredit: {"name":"Patricia Bozan","url":"https://www.pexels.com/photo/casual-portrait-of-a-woman-indoors-by-window-36627004/"},
     "quickAnswer": "Start beside a window with indirect daylight and turn off nearby room lights for a simpler setup. Photograph the face turned toward the window, then slightly away. Compare the shadows and eye detail before choosing your position. A sheer curtain can soften direct sun, but it also reduces the available light.",
     "sections": [
       {
@@ -3155,10 +3239,12 @@ export const articles: Article[] = [
     "summary": "A bright night photo can still be blurred. First find out whether the camera, the subject, or the focus caused the problem.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "canon_pro_after.jpg",
-    "imageAlt": "A portrait of a woman beside a balustrade with water and city lights behind her at night",
-    "imagePosition": "50% 40%",
-    "caption": "Illustrative night portrait; not a before-and-after sharpness test.",
+    "image": "blog/pexels-29894331-4k.webp",
+    "imageAlt": "Portrait beside glowing turquoise lights at night",
+    "imagePosition": "50% 45%",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imageVariants: [{"src":"blog/pexels-29894331-480.webp","width":480},{"src":"blog/pexels-29894331-960.webp","width":960},{"src":"blog/pexels-29894331-1600.webp","width":1600},{"src":"blog/pexels-29894331-4k.webp","width":2560}],
+    imageCredit: {"name":"Everton Silva","url":"https://www.pexels.com/photo/portrait-of-woman-with-neon-lights-at-night-29894331/"},
     "quickAnswer": "Compare a stationary edge in the background with the person’s face. Blur across both can suggest camera movement; a clearer background with a smeared person suggests subject movement. A sharp object at a different distance can point to missed focus. These are clues, not a certain diagnosis. Try a steadier phone, a still subject, and better light before reaching for sharpening.",
     "sections": [
       {
@@ -3286,10 +3372,12 @@ export const articles: Article[] = [
     "summary": "Treat glare as a light-and-angle problem first. Small changes during capture can be easier to judge than rebuilding an eye afterward.",
     "published": "2026-10-20",
     "modified": "2026-10-20",
-    "image": "y2k_digicam_after.jpg",
-    "imageAlt": "A woman in sunglasses and a baseball cap holding a drink on a city street",
-    "imagePosition": "50% 30%",
-    "caption": "Illustrative eyewear portrait. This image does not demonstrate clear-lens glare removal.",
+    "image": "blog/pexels-1338413-4k.webp",
+    "imageAlt": "Side-lit portrait of a woman with reflections in her glasses",
+    "imagePosition": "55% 45%",
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imageVariants: [{"src":"blog/pexels-1338413-480.webp","width":480},{"src":"blog/pexels-1338413-960.webp","width":960},{"src":"blog/pexels-1338413-1600.webp","width":1600},{"src":"blog/pexels-1338413-4k.webp","width":3840}],
+    imageCredit: {"name":"Martin Kirigua","url":"https://www.pexels.com/photo/woman-standing-near-window-1338413/"},
     "quickAnswer": "Look at the glasses through the camera while changing the angle of the face, camera, or light in small steps. Choose a position that moves the bright reflection away from the eyes while keeping the pose comfortable. If glare already hides the eyes in a saved photo, a darker patch is not the same as recovered eye detail.",
     "sections": [
       {
@@ -3402,7 +3490,9 @@ export const articles: Article[] = [
     description: "Give a photo a warmer golden-hour look while keeping natural skin tones. Learn what to adjust, what light cannot be fixed, and when to stop.",
     summary: "Warm light, believable skin, and shadows that still make sense. A practical guide to editing for a golden-hour feeling.",
     published: date, modified: date,
-    image: "golden_hour_after.jpg", imageAlt: "A portrait beside a wooden fence in warm sunset light", imagePosition: "50% 42%", caption: illustration,
+    image: "blog/pexels-33301143-4k.webp", imageAlt: "Man standing beneath a tree in warm golden light", imagePosition: "50% 50%", caption: "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imageVariants: [{"src":"blog/pexels-33301143-480.webp","width":480},{"src":"blog/pexels-33301143-960.webp","width":960},{"src":"blog/pexels-33301143-1600.webp","width":1600},{"src":"blog/pexels-33301143-4k.webp","width":2560}],
+    imageCredit: {"name":"Mohammad Kashkooli","url":"https://www.pexels.com/photo/golden-hour-portrait-in-sundrenched-field-33301143/"},
     quickAnswer: "Start with a photo whose light already suits the mood. Balance brightness, add warmth gradually, and compare skin and neutral clothing with the original. A warmer color does not move the sun or change the direction of a shadow.",
     sections: [
       { id: "read-the-light", title: "Look at the light before the color", paragraphs: [
@@ -3441,7 +3531,9 @@ export const articles: Article[] = [
     description: "Create a digicam-inspired phone photo with intentional flash, candid framing and restrained editing. Keep skin clear and avoid muddy colors or excessive texture.",
     summary: "The early-digital feeling comes from a combination of light, framing, and editing. It is not one magic filter.",
     published: date, modified: date,
-    image: "y2k_digicam_after.jpg", imageAlt: "A candid street portrait with sunglasses and an early-digital camera aesthetic", imagePosition: "50% 38%", caption: illustration,
+    image: "blog/pexels-30753213-4k.webp", imageAlt: "Compact camera and accessories arranged on a tabletop", imagePosition: "50% 50%", caption: "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imageVariants: [{"src":"blog/pexels-30753213-480.webp","width":480},{"src":"blog/pexels-30753213-960.webp","width":960},{"src":"blog/pexels-30753213-1600.webp","width":1600},{"src":"blog/pexels-30753213-4k.webp","width":2880}],
+    imageCredit: {"name":"Thanh Thiện Tô","url":"https://www.pexels.com/photo/vintage-camera-with-assorted-accessories-flat-lay-30753213/"},
     quickAnswer: "Try direct flash where appropriate, keep the subject distinct from the background, and use a casual frame. Then edit lightly: preserve face detail, choose a clear contrast direction, and avoid stacking grain, blur, and heavy color shifts.",
     sections: [
       { id: "define-the-look", title: "Choose the kind of digicam look you mean", paragraphs: [
@@ -3483,7 +3575,9 @@ export const articles: Article[] = [
     description: "Compare warm film-inspired, crisp digicam and monochrome photobooth looks. Choose a vintage effect that fits your lighting, framing and intended mood.",
     summary: "Faded film, crisp flash, and a playful photobooth sequence tell different stories. Start by choosing the right one.",
     published: date, modified: date,
-    image: "vintage_after.jpg", imageAlt: "Black-and-white photobooth-style portraits with a curtain background", imagePosition: "50% 35%", caption: illustration,
+    image: "blog/pexels-12182725-4k.webp", imageAlt: "Black-and-white portrait beside glass with reflected lights", imagePosition: "50% 45%", caption: "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imageVariants: [{"src":"blog/pexels-12182725-480.webp","width":480},{"src":"blog/pexels-12182725-960.webp","width":960},{"src":"blog/pexels-12182725-1600.webp","width":1600},{"src":"blog/pexels-12182725-4k.webp","width":2560}],
+    imageCredit: {"name":"Connor McManus","url":"https://www.pexels.com/photo/portrait-of-a-woman-at-night-12182725/"},
     quickAnswer: "Choose a retro direction before choosing an effect. Warm and faded can suggest an old print; crisp flash can suggest an early digital snapshot; consistent framing and a sequence of expressions can suggest a photobooth. Grain is optional, not a universal requirement.",
     sections: [
       { id: "compare-looks", title: "Three looks that are easy to confuse", paragraphs: [
@@ -3522,7 +3616,9 @@ export const articles: Article[] = [
     description: "Choose a clearer starting photo for AI portraits, avoid common input problems, and check likeness, details and lighting in the result.",
     summary: "Start with a photo you can actually read. Then judge the result with the same care you used to choose it.",
     published: date, modified: date,
-    image: "canon_g7x_after.jpg", imageAlt: "A clear portrait at a restaurant table with the face visible", imagePosition: "50% 34%", caption: illustration,
+    image: "blog/pexels-32644860-4k.webp", imageAlt: "Woman in a pink shirt and red cap leaning through an open window", imagePosition: "50% 40%", caption: "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imageVariants: [{"src":"blog/pexels-32644860-480.webp","width":480},{"src":"blog/pexels-32644860-960.webp","width":960},{"src":"blog/pexels-32644860-1600.webp","width":1600},{"src":"blog/pexels-32644860-4k.webp","width":3840}],
+    imageCredit: {"name":"Muhammad-Taha Ibrahim","url":"https://www.pexels.com/photo/portrait-of-smiling-woman-at-window-in-abuja-32644860/"},
     quickAnswer: "Choose a sharp, unobstructed photo with visible facial features and enough room for your intended crop. Keep the original, avoid heavily filtered copies, and inspect the result for changes to likeness and small details. A stronger input is a sensible starting point, not a guarantee.",
     sections: [
       { id: "clear-starting-point", title: "Choose clarity over a dramatic source", paragraphs: [
@@ -3564,7 +3660,9 @@ export const articles: Article[] = [
     description: "Understand color filters, AI-assisted editing and generative restyling. Choose the right approach for warmth, a new scene, or preserving exact appearance.",
     summary: "A filter, an assisted edit, and a generated scene can change a photo in very different ways. Choose based on what you want to keep.",
     published: date, modified: date,
-    image: "red_flash_after.jpg", imageAlt: "A portrait on concrete steps with a vivid red lighting treatment", imagePosition: "50% 40%", caption: illustration,
+    image: "blog/pexels-24601834-4k.webp", imageAlt: "Portrait of a woman illuminated by green and blue light at night", imagePosition: "50% 35%", caption: "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+    imageVariants: [{"src":"blog/pexels-24601834-480.webp","width":480},{"src":"blog/pexels-24601834-960.webp","width":960},{"src":"blog/pexels-24601834-1600.webp","width":1600},{"src":"blog/pexels-24601834-4k.webp","width":2560}],
+    imageCredit: {"name":"Yusuf Çelik","url":"https://www.pexels.com/photo/portrait-of-woman-at-night-24601834/"},
     quickAnswer: "Use color and tone adjustments when you want to keep the photographed scene. Use AI-assisted tools for specific tasks, checking what each tool actually does. Choose generative restyling for a new interpretation, and inspect any details or features it may change.",
     sections: [
       { id: "three-approaches", title: "Three different meanings of a photo effect", paragraphs: [
