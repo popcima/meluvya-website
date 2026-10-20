@@ -9,7 +9,7 @@ Publish useful English photo guides for a worldwide audience. The owner approved
 - Free web research can establish relevant questions and verify facts. Search results alone do not establish search volume. Google Trends scores are relative interest, not monthly searches. Mark missing metrics `null` with an explanation, never zero or a made-up estimate.
 - The native app shows Effects, Templates, Create, Editor, and My photos. Do not claim specific editing controls, speed, prices, free credits, no-account usage, privacy guarantees, or supported devices without verified product evidence.
 - Store URLs are not supplied. Every article uses the shared `ArticleDownloadCTA` and its honest coming-soon dialog. Keep both existing store button labels; replace their behavior only when the owner provides real links.
-- The custom domain and Search Console setup are explicitly deferred. Keep the current canonical root until the owner supplies a domain. Do not buy services, create paid accounts, or submit verification tokens.
+- The owner selected `meluvya.com` on 2026-10-20. The canonical root is `https://meluvya.com` with an empty deployment base path. Search Console remains deferred. Do not buy services, create paid accounts, or submit verification tokens.
 
 ## Run the daily batch
 
@@ -31,7 +31,7 @@ Use Node 20.9 or later (the current desktop runtime is available at `/Users/hass
 ```sh
 node scripts/check-content.mjs --base <starting-commit>
 npm run lint
-NEXT_PUBLIC_BASE_PATH=/meluvya-website npm run build
+SITE_URL=https://meluvya.com NEXT_PUBLIC_BASE_PATH= npm run build
 npm run typecheck
 python3 scripts/check-export.py
 ```

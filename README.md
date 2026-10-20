@@ -44,14 +44,14 @@ The landing page retains the existing sample photographs. It does not upload use
 
 ## GitHub Pages
 
-Live website: https://popcima.github.io/meluvya-website/
+Live website: https://meluvya.com/
 
 Every push to `main` runs the GitHub Pages workflow: install the lockfile, lint, build, typecheck, and deploy `out/`. GitHub Pages uses GitHub Actions as its publishing source.
 
-The workflow reads the Pages base path and passes it as `NEXT_PUBLIC_BASE_PATH`, so images, fonts, icons and scripts work under the repository URL. Local development stays at the root URL. To build for the current Pages path locally:
+The workflow reads the Pages base path and passes it as `NEXT_PUBLIC_BASE_PATH`. The custom domain uses an empty base path, so images, fonts, icons, and scripts resolve from the domain root. To build the production configuration locally:
 
 ```sh
-NEXT_PUBLIC_BASE_PATH=/meluvya-website npm run build
+SITE_URL=https://meluvya.com NEXT_PUBLIC_BASE_PATH= npm run build
 ```
 
 Update the site by editing the source, committing, and pushing to `main`. Store buttons show a coming-soon dialog until the real App Store and Google Play links are supplied.
@@ -98,18 +98,20 @@ Add an `Article` to `src/lib/articles.ts` with a distinct slug, specific title/d
 
 Update `modified` only after a meaningful content revision. Do not refresh dates automatically with each build. Recheck product instructions against the actual app and external technical claims against primary sources. Source links should support the nearby subject; do not copy their text or present a competitor’s capabilities as Meluvya’s. Keep the original dates when fixing only presentation.
 
-Before publication, run lint, typecheck and a prefixed build. Check the exported HTML for one H1, correct metadata, valid JSON-LD, usable internal links and the full article text. Inspect a phone-sized page, its contents links, and any horizontally scrollable table. Verify fresh navigation to every article and a missing slug. After each batch, check that every article appears on exactly one index/archive page, none contains more than 12 articles, archive previous/next links and self-canonicals work, and the sitemap contains only existing archive pages. Confirm the shared store buttons still open the availability dialog. No schedule or automatic publisher is configured by the website itself.
+Before publication, run lint, typecheck and a production build with an empty base path. Check the exported HTML for one H1, correct metadata, valid JSON-LD, usable internal links and the full article text. Inspect a phone-sized page, its contents links, and any horizontally scrollable table. Verify fresh navigation to every article and a missing slug. After each batch, check that every article appears on exactly one index/archive page, none contains more than 12 articles, archive previous/next links and self-canonicals work, and the sitemap contains only existing archive pages. Confirm the shared store buttons still open the availability dialog. No schedule or automatic publisher is configured by the website itself.
 
-### Configuration for the current site and a future domain
+### Custom-domain configuration
 
 The deployment workflow reads two optional GitHub **repository Actions variables** from Settings → Secrets and variables → Actions → Variables:
 
-- `SITE_URL`: absolute public root. Empty or unset uses `https://popcima.github.io/meluvya-website`. It controls canonicals, sitemap URLs and social/schema URLs. Local builds use the same environment-variable name.
+- `SITE_URL`: absolute public root. Empty or unset uses `https://meluvya.com`. It controls canonicals, sitemap URLs and social/schema URLs. Local builds use the same environment-variable name.
 - `GOOGLE_SITE_VERIFICATION`: only the `content` value from a Google HTML verification tag, when you choose that method. Empty or unset renders no verification meta tag. No token is configured or verification performed by this project.
 
-`NEXT_PUBLIC_BASE_PATH` remains supplied by `actions/configure-pages` in the workflow. It controls route and asset paths, while `SITE_URL` controls public absolute URLs. They must describe the same deployed location. For the current site, the build uses base path `/meluvya-website` and the default canonical root above.
+`NEXT_PUBLIC_BASE_PATH` remains supplied by `actions/configure-pages` in the workflow. It controls route and asset paths, while `SITE_URL` controls public absolute URLs. They must describe the same deployed location. For the current site, the build uses an empty base path and canonical root `https://meluvya.com`. The repository Actions variable `SITE_URL` matches this root.
 
-When the chosen custom domain is ready, configure its DNS and GitHub Pages custom-domain/HTTPS settings, then set `SITE_URL` to that actual HTTPS root. Confirm the Pages configuration outputs an empty base path when serving at the domain root; for an equivalent local build, leave `NEXT_PUBLIC_BASE_PATH` empty. Redeploy, then check fresh article URLs, assets, canonical tags and sitemap URLs together. Check what happens to each old GitHub Pages article URL and maintain appropriate redirects where hosting permits; a canonical tag is not a redirect. Do not point canonicals at a domain before it serves the matching pages. A domain change alone does not establish ranking gains. Follow [Google’s site-move guidance](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes) when migrating URLs.
+The GitHub Pages custom domain is `meluvya.com`. Namecheap BasicDNS serves the four GitHub Pages A records (`185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`) at `@`; `www` is a CNAME to `popcima.github.io`. The previous parking CNAME and URL redirect must not remain. Email forwarding and its MX/TXT records are independent of the website records. GitHub Actions publishing uses the repository Pages setting; a CNAME file is not needed.
+
+Verify HTTPS for both hostnames, the `www` redirect, and redirects from the old `https://popcima.github.io/meluvya-website/` URLs, including article paths. A canonical tag is not a redirect. Keep all article slugs and publication dates when migrating domains. A domain change alone does not establish ranking gains. Follow [Google’s site-move guidance](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes) when migrating URLs.
 
 ### Search Console, when the domain is ready
 
@@ -117,8 +119,8 @@ Verification and submission are deferred until the user chooses to proceed. For 
 
 If using HTML-tag verification for a URL-prefix property, put the supplied content value in `GOOGLE_SITE_VERIFICATION`, rebuild, confirm the live homepage meta tag, and complete verification in Search Console. Do not remove a working verification token after verification unless switching methods deliberately.
 
-After verification, submit the actual sitemap URL: currently `https://popcima.github.io/meluvya-website/sitemap.xml`, or the equivalent at the new canonical root. Use URL Inspection for a few representative guides and monitor indexing, not just whether a sitemap was accepted. Google’s [sitemap documentation](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap) explains submission; a sitemap is a discovery signal and does not guarantee indexing.
+After verification, submit the actual sitemap URL: currently `https://meluvya.com/sitemap.xml`. Use URL Inspection for a few representative guides and monitor indexing, not just whether a sitemap was accepted. Google’s [sitemap documentation](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap) explains submission; a sitemap is a discovery signal and does not guarantee indexing.
 
-No project-level robots file is emitted. `https://popcima.github.io/meluvya-website/robots.txt` would not control the host: robots rules belong at `https://popcima.github.io/robots.txt`, outside this project. A root-domain deployment can add a genuine root robots file later. The current pages do not send a noindex directive.
+The root-domain deployment emits `https://meluvya.com/robots.txt`, allows public crawling, and advertises the canonical sitemap. The pages do not send a noindex directive.
 
 Once real Search Console data is available, review queries and landing pages monthly. Distinguish no impressions from impressions with few clicks; inspect indexing and relevance first, then improve an unhelpful title or answer. Prioritize useful additions from recurring reader questions rather than publishing a fixed volume of articles. Record substantive changes and compare subsequent impressions, clicks, CTR and query mix without treating average position as a promised result. No tracking script or analytics account has been added.

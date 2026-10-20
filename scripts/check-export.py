@@ -7,7 +7,7 @@ from urllib.parse import unquote, urljoin, urlparse
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1] / 'out'
-SITE = (os.environ.get('SITE_URL') or 'https://popcima.github.io/meluvya-website').rstrip('/') + '/'
+SITE = (os.environ.get('SITE_URL') or 'https://meluvya.com').rstrip('/') + '/'
 PREFIX = urlparse(SITE).path.rstrip('/')
 
 class Page(HTMLParser):
@@ -75,6 +75,9 @@ def schema_items(item):
             yield from schema_items(item['@graph'])
 
 tree = ET.parse(ROOT / 'sitemap.xml')
+robots = (ROOT / 'robots.txt').read_text()
+assert f'Sitemap: {SITE}sitemap.xml' in robots, 'Robots sitemap does not match canonical root'
+assert 'User-Agent: *' in robots and 'Allow: /' in robots, 'Missing public crawler rules'
 urls = [n.text for n in tree.findall('.//{*}loc')]
 assert len(urls) == len(set(urls)) and len(urls) >= 3, urls
 article_count = 0

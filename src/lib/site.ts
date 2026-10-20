@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
-/** Public canonical root, including the project path but never a trailing slash. */
-export const siteUrl = (process.env.SITE_URL?.trim() || "https://popcima.github.io/meluvya-website").replace(/\/+$/, "");
+/** Public canonical root, without a trailing slash. */
+export const siteUrl = (process.env.SITE_URL?.trim() || "https://meluvya.com").replace(/\/+$/, "");
 export const siteName = "Meluvya";
 export const homeDescription = "Make your photos your own with Meluvya. Explore AI photo effects, portrait templates, and editing tools to create a whole new mood.";
 export const contentDate = "2026-10-19";
