@@ -4,7 +4,8 @@ Publish useful English photo guides for a worldwide audience. The owner approved
 
 ## Current access and product facts
 
-- No paid SEO subscription is connected. On 2026-10-19, Semrush required authentication; the Supermetrics Google Trends query failed because its trial expired; the public Ahrefs generator required human verification. No search-volume or keyword-difficulty figures were retrieved. Do not repeatedly retry those blocked services without new access.
+- No paid SEO subscription is connected. On 2026-10-19, Semrush required authentication; the Supermetrics Google Trends query failed because its trial expired; the public Ahrefs generator required human verification. Those attempts returned no metrics. Do not repeatedly retry those blocked services without new access.
+- On 2026-10-20, the public SEMScoop tool returned two broad seed datasets (all countries; photo editing in all languages, portrait photography in English), then reached its anonymous daily limit. Exploding Topics failed reCAPTCHA. Stop at access limits. See `research/2026-10-20-keyword-evidence/metrics.json`; the seed estimates do not establish volume or organic difficulty for article-specific queries, which remain unknown.
 - Free web research can establish relevant questions and verify facts. Search results alone do not establish search volume. Google Trends scores are relative interest, not monthly searches. Mark missing metrics `null` with an explanation, never zero or a made-up estimate.
 - The native app shows Effects, Templates, Create, Editor, and My photos. Do not claim specific editing controls, speed, prices, free credits, no-account usage, privacy guarantees, or supported devices without verified product evidence.
 - Store URLs are not supplied. Every article uses the shared `ArticleDownloadCTA` and its honest coming-soon dialog. Keep both existing store button labels; replace their behavior only when the owner provides real links.

@@ -1,0 +1,902 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Africa/Casablanca",
+  "language": "en",
+  "audience": "Worldwide",
+  "startingCommit": "efbf07fae029e82806f16cab4a7d03f66766bd66",
+  "newArticles": 27,
+  "newArticlesAlreadyPublishedToday": 3,
+  "dailyMaximum": 30,
+  "status": "validated_for_deployment",
+  "reviewType": "AI editorial review; no human approval or hands-on photo testing claimed",
+  "keywordResearch": "2026-10-20-keyword-evidence/metrics.json",
+  "metricCaveat": "The available free data establish broad demand only. Exact long-tail volume and organic difficulty are unknown. Low advertising competition was not substituted for organic difficulty.",
+  "selection": "27 separate capture, editing, and file-workflow questions from the existing intent plan plus five complementary gaps. Rejected local studio/near-me keywords, branded competitors, and tool-only queries despite their volumes because these articles do not fulfill that intent.",
+  "existingLibraryReview": "Eight published guides were preserved. New pages answer separate operational questions; no synonym-only URLs were added. Similar questions are grouped within each guide and cross-linked.",
+  "primarySourceResearch": {
+    "provider": "Free web search and publisher documentation",
+    "geography": "Not geo-controlled; English primary-source searches",
+    "accessed": "2026-10-20",
+    "queryFamilies": [
+      "portrait lighting and focus",
+      "mixed-illuminant white balance",
+      "photo sharpening and resolution",
+      "JPEG HEIC PNG compression and compatibility",
+      "HDR and Portrait mode documentation",
+      "color management and display differences",
+      "nondestructive editing and copy settings",
+      "generative image limitations"
+    ]
+  },
+  "articles": [
+    {
+      "slug": "fix-mixed-lighting-in-portraits",
+      "keywordCluster": "mixed-lighting-skin-tones",
+      "decision": "approved_for_publication",
+      "contribution": "Spatial diagnosis and a capture-versus-local-edit decision table.",
+      "overlapReview": "Separate from global color-cast correction: the reader has competing colors in different regions.",
+      "sources": [
+        {
+          "url": "https://arxiv.org/abs/2109.08750",
+          "accessed": "2026-10-20",
+          "supports": "Explains the limits of assuming one illuminant across a scene."
+        },
+        {
+          "url": "https://helpx.adobe.com/lightroom/mobile/masks-and-selective-adjustments/create-masks.html",
+          "accessed": "2026-10-20",
+          "supports": "Masks allow targeted changes instead of altering the whole frame."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "fix skin color in mixed lighting",
+      "keywordVariants": [
+        "orange face blue background photo"
+      ],
+      "distinctIntent": "Identify different light sources and choose capture or editing fixes.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "direct-flash-portrait-tips",
+      "keywordCluster": "direct-flash-portraits",
+      "decision": "approved_for_publication",
+      "contribution": "A flash-specific capture sequence with reflection and background decisions.",
+      "overlapReview": "Capture with a real light source, rather than recreating the existing digicam style-edit guide.",
+      "sources": [
+        {
+          "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/flash-photography-the-easy-way",
+          "accessed": "2026-10-20",
+          "supports": "Flash lighting can be considered separately from the ambient background."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "direct flash portrait tips",
+      "keywordVariants": [
+        "phone flash portrait at night"
+      ],
+      "distinctIntent": "Place a subject and background for deliberate flash, with glare checks.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "portrait-photos-in-harsh-sunlight",
+      "keywordCluster": "harsh-midday-portraits",
+      "decision": "approved_for_publication",
+      "contribution": "A shade-versus-hard-light choice and symptom-specific capture fixes.",
+      "overlapReview": "Addresses midday capture constraints, not golden-hour color editing or cloudy-day lighting.",
+      "sources": [
+        {
+          "url": "https://www.adobe.com/creativecloud/photography/discover/portrait-lighting.html",
+          "accessed": "2026-10-20",
+          "supports": "Hard and soft light, direction, and portrait mood."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "portrait photos in harsh sunlight",
+      "keywordVariants": [
+        "midday shadows face photo"
+      ],
+      "distinctIntent": "Choose shade, orientation, and exposure for hard daylight.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "why-close-selfies-look-different",
+      "keywordCluster": "phone-perspective",
+      "decision": "approved_for_publication",
+      "contribution": "A controlled distance comparison separating crop, viewpoint, and familiarity.",
+      "overlapReview": "An optical viewpoint explanation rather than general source-photo selection.",
+      "sources": [
+        {
+          "url": "https://research.adobe.com/news/how-to-get-rid-of-your-big-nose-in-selfies/",
+          "accessed": "2026-10-20",
+          "supports": "Explains why close camera positions change facial perspective."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "why close selfies look different",
+      "keywordVariants": [
+        "selfie camera perspective distortion"
+      ],
+      "distinctIntent": "Explain camera distance and perspective without beauty judgments.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "choose-portrait-background",
+      "keywordCluster": "portrait-backgrounds",
+      "decision": "approved_for_publication",
+      "contribution": "Four-pass background inspection plus a camera-position experiment.",
+      "overlapReview": "Choosing the environment at capture differs from cropping an existing image or repairing simulated blur.",
+      "sources": [
+        {
+          "url": "https://blog.adobe.com/en/publish/2022/12/21/how-to-use-backgrounds-to-level-up-your-headshots",
+          "accessed": "2026-10-20",
+          "supports": "Portrait backgrounds should support the subject; photographer guidance."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "choose a background for portraits",
+      "keywordVariants": [
+        "avoid distracting portrait background"
+      ],
+      "distinctIntent": "Separate subject, colors, edges, and background brightness.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "mirror-selfie-photo-tips",
+      "keywordCluster": "mirror-selfies",
+      "decision": "approved_for_publication",
+      "contribution": "Two-frame composition and a reflected-content review checklist.",
+      "overlapReview": "Reflection composition is different from avoiding glare on eyeglasses or choosing ordinary backgrounds.",
+      "sources": [
+        {
+          "url": "https://www.adobe.com/creativecloud/photography/discover/reflection-photography.html",
+          "accessed": "2026-10-20",
+          "supports": "Reflections and viewing angles as composition tools."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "mirror selfie photo tips",
+      "keywordVariants": [
+        "clean mirror selfie background"
+      ],
+      "distinctIntent": "Handle reflections, framing, and distracting objects at capture.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "take-couple-photos-with-phone",
+      "keywordCluster": "couple-portraits",
+      "decision": "approved_for_publication",
+      "contribution": "Two-subject capture and selection checks, including unequal light and focus.",
+      "overlapReview": "A shared portrait task rather than general solo capture or a separate page for each couple-pose synonym.",
+      "sources": [
+        {
+          "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/quick-tips-for-taking-better-portraits",
+          "accessed": "2026-10-20",
+          "supports": "Eye focus, depth of field, and examples of fill light."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "how to take couple photos with a phone",
+      "keywordVariants": [
+        "two person portrait lighting"
+      ],
+      "distinctIntent": "Keep both faces readable, in focus, and coherently lit.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "cloudy-day-portrait-photo-tips",
+      "keywordCluster": "rainy-day-portraits",
+      "decision": "approved_for_publication",
+      "contribution": "An open-sky versus covered-edge comparison and restrained color decisions.",
+      "overlapReview": "Outdoor overcast capture differs from the existing single-window indoor exercise.",
+      "sources": [
+        {
+          "url": "https://www.nikonusa.com/learn-and-explore/c/nikon-creators/exploring-the-human-element-in-portraiture-with-robert-vasquez",
+          "accessed": "2026-10-20",
+          "supports": "Cloudy-day light and attention to a portrait subject's eyes."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "portrait photos on a cloudy day",
+      "keywordVariants": [
+        "overcast portrait lighting"
+      ],
+      "distinctIntent": "Use soft light while controlling flat tone and dull backgrounds.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "backlit-phone-portraits",
+      "keywordCluster": "backlit-portraits",
+      "decision": "approved_for_publication",
+      "contribution": "A face-versus-silhouette decision with a four-location capture review.",
+      "overlapReview": "Capture exposure choices differ from editing an already underexposed face.",
+      "sources": [
+        {
+          "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/quick-tips-for-taking-better-portraits",
+          "accessed": "2026-10-20",
+          "supports": "Eye focus, depth of field, and examples of fill light."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "backlit portrait phone tips",
+      "keywordVariants": [
+        "face dark against bright sky"
+      ],
+      "distinctIntent": "Choose the subject exposure and manage silhouette tradeoffs.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "black-and-white-portrait-editing",
+      "keywordCluster": "black-and-white-portraits",
+      "decision": "approved_for_publication",
+      "contribution": "A tonal-separation workflow with specific color-mix warning signs.",
+      "overlapReview": "Monochrome tonal construction differs from the existing broad vintage-style guide.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/lightroom-classic/desktop/process-and-develop-photos/image-tone-color.html",
+          "accessed": "2026-10-20",
+          "supports": "Tonal adjustments and black-and-white mixing."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "black and white portrait editing",
+      "keywordVariants": [
+        "monochrome phone portrait"
+      ],
+      "distinctIntent": "Use tonal separation rather than simply removing saturation.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "why-edited-portraits-look-unnatural",
+      "keywordCluster": "overedited-skin",
+      "decision": "approved_for_publication",
+      "contribution": "A symptom-based undo audit with reversible checkpoints.",
+      "overlapReview": "Diagnoses excessive edits, rather than explaining general filter categories or skin appearance.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/lightroom-classic/desktop/process-and-develop-photos/masking.html",
+          "accessed": "2026-10-20",
+          "supports": "Local adjustments and the distinction between texture and clarity."
+        },
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/effects-filters/smart-filters/sharpening-overview.html",
+          "accessed": "2026-10-20",
+          "supports": "Sharpening increases contrast at edges."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "why edited photos look unnatural",
+      "keywordVariants": [
+        "avoid plastic skin in portraits"
+      ],
+      "distinctIntent": "Spot excessive smoothing, local contrast, and color shifts.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "how-to-crop-portrait-photos",
+      "keywordCluster": "portrait-crop",
+      "decision": "approved_for_publication",
+      "contribution": "A purpose-based three-crop comparison and edge review.",
+      "overlapReview": "Reframing an existing photograph differs from capture background selection and export format choice.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/in/photoshop/desktop/crop-resize-transform/crop-straighten/crop-photos.html",
+          "accessed": "2026-10-20",
+          "supports": "Cropping changes framing and trims image content."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "how to crop a portrait photo",
+      "keywordVariants": [
+        "portrait headroom crop tips"
+      ],
+      "distinctIntent": "Choose framing deliberately without cutting at distracting places.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "brighten-dark-face-in-photo",
+      "keywordCluster": "underexposed-portraits",
+      "decision": "approved_for_publication",
+      "contribution": "Global-versus-local recovery steps with explicit stopping criteria.",
+      "overlapReview": "Saved dark-face recovery differs from capture backlighting choices and overexposed highlights.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/repair-retouch/adjust-light-tone/adjust-shadow-and-highlight-detail.html",
+          "accessed": "2026-10-20",
+          "supports": "Targeted tonal corrections and preservation of an original."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "brighten a dark face in a photo",
+      "keywordVariants": [
+        "underexposed portrait editing"
+      ],
+      "distinctIntent": "Recover usable tone while recognizing noise and missing detail.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "can-you-fix-overexposed-portraits",
+      "keywordCluster": "overexposed-portraits",
+      "decision": "approved_for_publication",
+      "contribution": "A recoverability test that separates recorded information from generated replacement.",
+      "overlapReview": "Highlight loss has different diagnosis and limits from shadow brightening.",
+      "sources": [
+        {
+          "url": "https://www.adobe.com/learn/lightroom-classic/web/fix-overexposed-photo",
+          "accessed": "2026-10-20",
+          "supports": "Highlights and clipping checks in an example editing workflow."
+        },
+        {
+          "url": "https://helpx.adobe.com/camera-raw/desktop/using/make-color-tonal-adjustments-camera.html",
+          "accessed": "2026-10-20",
+          "supports": "White-balance references, temperature and tint, and clipping."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "can you fix an overexposed portrait",
+      "keywordVariants": [
+        "recover blown highlights photo"
+      ],
+      "distinctIntent": "Check whether highlight information remains before promising recovery.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "remove-color-cast-from-photos",
+      "keywordCluster": "color-cast",
+      "decision": "approved_for_publication",
+      "contribution": "Reference selection and a three-area verification loop.",
+      "overlapReview": "Global cast correction is explicitly separated from spatially mixed illumination and display color.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/camera-raw/desktop/using/make-color-tonal-adjustments-camera.html",
+          "accessed": "2026-10-20",
+          "supports": "White-balance references, temperature and tint, and clipping."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "remove a color cast from photos",
+      "keywordVariants": [
+        "white balance portrait photo"
+      ],
+      "distinctIntent": "Use neutral references and explain limits of global correction.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "photo-noise-vs-film-grain",
+      "keywordCluster": "photo-noise-and-grain",
+      "decision": "approved_for_publication",
+      "contribution": "A pattern diagnosis separating color noise, luminance variation, compression, and chosen grain.",
+      "overlapReview": "Texture troubleshooting rather than another general vintage-filter recipe.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/effects-filters/artistic-stylize-filters/reduce-image-noise-and-jpeg-artifacts.html",
+          "accessed": "2026-10-20",
+          "supports": "Luminance noise, color noise, and the detail tradeoff."
+        },
+        {
+          "url": "https://blog.adobe.com/en/publish/2023/04/18/denoise-demystified",
+          "accessed": "2026-10-20",
+          "supports": "Technical background on noise reduction and texture."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "photo noise vs film grain",
+      "keywordVariants": [
+        "grainy portrait photo meaning"
+      ],
+      "distinctIntent": "Distinguish capture noise from intentional texture.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "photo-sharpening-vs-resolution",
+      "keywordCluster": "sharpness-and-resolution",
+      "decision": "approved_for_publication",
+      "contribution": "A symptom-to-operation table and distinction between sharpening, resampling, and authentic detail.",
+      "overlapReview": "Editing capabilities and pixel dimensions rather than the existing night-capture blur diagnosis.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/effects-filters/smart-filters/sharpening-overview.html",
+          "accessed": "2026-10-20",
+          "supports": "Sharpening increases contrast at edges."
+        },
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/image-size-resolution-and-resampling.html",
+          "accessed": "2026-10-20",
+          "supports": "Pixel dimensions and resampling; not proof of recovered scene detail."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "photo sharpening vs resolution",
+      "keywordVariants": [
+        "can sharpening fix blurry photos"
+      ],
+      "distinctIntent": "Separate edge contrast, pixel count, and genuine detail.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "vibrance-vs-saturation-portraits",
+      "keywordCluster": "vibrance-vs-saturation",
+      "decision": "approved_for_publication",
+      "contribution": "A tool-choice table and matched-baseline comparison with skin and clothing checks.",
+      "overlapReview": "Color intensity controls are distinct from global white balance and a sunset-style recipe.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/photoshop/using/adjust-vibrance.html",
+          "accessed": "2026-10-20",
+          "supports": "How Adobe distinguishes vibrance from saturation."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "vibrance vs saturation for portraits",
+      "keywordVariants": [
+        "vibrance or saturation for skin"
+      ],
+      "distinctIntent": "Choose a color-intensity control and inspect its effect on skin and vivid objects.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "consistent-editing-for-photo-set",
+      "keywordCluster": "portrait-consistency",
+      "decision": "approved_for_publication",
+      "contribution": "Anchor-image selection, lighting groups, and a selective-copy matrix.",
+      "overlapReview": "A multi-image consistency task, not another single-image style recipe.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/lightroom/web/get-set-up/preferences-and-settings/copy-and-paste-edits.html",
+          "accessed": "2026-10-20",
+          "supports": "Selected settings can be copied without copying every adjustment."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "consistent editing for a photo set",
+      "keywordVariants": [
+        "matching colors across portraits"
+      ],
+      "distinctIntent": "Match exposure and color across varying source conditions.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "why-saved-photos-lose-quality",
+      "keywordCluster": "photo-export-quality",
+      "decision": "approved_for_publication",
+      "contribution": "A three-file diagnostic that locates the loss in the export/delivery chain.",
+      "overlapReview": "Delivery troubleshooting differs from choosing formats or preserving an editable original.",
+      "sources": [
+        {
+          "url": "https://www.adobe.com/uk/creativecloud/file-types/image/comparison/jpeg-vs-png.html",
+          "accessed": "2026-10-20",
+          "supports": "Lossy JPEG, lossless PNG, transparency, and file-size tradeoffs."
+        },
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/image-size-resolution-and-resampling.html",
+          "accessed": "2026-10-20",
+          "supports": "Pixel dimensions and resampling; not proof of recovered scene detail."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "why saved edited photos lose quality",
+      "keywordVariants": [
+        "avoid compression when sharing photos"
+      ],
+      "distinctIntent": "Explain originals, repeated exports, and practical file handling.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "jpeg-heic-png-photo-formats",
+      "keywordCluster": "jpeg-heic-png",
+      "decision": "approved_for_publication",
+      "contribution": "A destination-first format matrix and conversion acceptance check.",
+      "overlapReview": "Format selection, not another compression troubleshooting URL.",
+      "sources": [
+        {
+          "url": "https://www.adobe.com/uk/creativecloud/file-types/image/comparison/jpeg-vs-png.html",
+          "accessed": "2026-10-20",
+          "supports": "Lossy JPEG, lossless PNG, transparency, and file-size tradeoffs."
+        },
+        {
+          "url": "https://support.apple.com/en-nz/116944",
+          "accessed": "2026-10-20",
+          "supports": "High-efficiency media, compatibility, and format conversion."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "JPEG vs HEIC vs PNG for photos",
+      "keywordVariants": [
+        "best photo file format for editing"
+      ],
+      "distinctIntent": "Compare photo formats and compatibility without inventing Meluvya support.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "edit-photos-without-losing-original",
+      "keywordCluster": "non-destructive-editing",
+      "decision": "approved_for_publication",
+      "contribution": "Three-version file roles and a small reversibility test before valuable edits.",
+      "overlapReview": "Preservation and recovery workflow rather than format selection or delivery quality.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/create-manage-layers/create-layer-compositions/non-destructive-editing-techniques.html",
+          "accessed": "2026-10-20",
+          "supports": "Editable adjustments preserve flexibility without changing original pixels."
+        },
+        {
+          "url": "https://support.apple.com/guide/iphone/undo-and-revert-photo-edits-iph2413db0ab/27/ios/27",
+          "accessed": "2026-10-20",
+          "supports": "Reverting in Apple Photos and synchronized edits; controls depend on software version."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "how to edit photos without losing original",
+      "keywordVariants": [
+        "revert photo edits"
+      ],
+      "distinctIntent": "Keep originals and understand reversible and flattened edits.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "check-ai-portrait-details",
+      "keywordCluster": "ai-portrait-detail-review",
+      "decision": "approved_for_publication",
+      "contribution": "A purpose-sensitive output acceptance checklist, explicitly not an AI detector.",
+      "overlapReview": "Detailed post-generation review complements the existing input-selection and conceptual comparison guides.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/uk/firefly/web/troubleshoot/known-limitations-in-firefly.html",
+          "accessed": "2026-10-20",
+          "supports": "One generator's documented text and anatomy limitations; not a Meluvya feature specification."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "what to check in AI generated portraits",
+      "keywordVariants": [
+        "AI portrait hands hair reflections"
+      ],
+      "distinctIntent": "Review changed details before sharing without claiming detection certainty.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "hdr-phone-photos-explained",
+      "keywordCluster": "hdr-phone-photos",
+      "decision": "approved_for_publication",
+      "contribution": "A capture/display/video distinction and output review checklist.",
+      "overlapReview": "Explains multi-exposure capture and viewing, rather than another highlight-recovery article.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/guide/iphone/adjust-hdr-camera-settings-iph2cafe2ebc/27/ios/27",
+          "accessed": "2026-10-20",
+          "supports": "Combining exposures and model-dependent HDR controls."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "what does HDR do in phone photos",
+      "keywordVariants": [
+        "HDR portrait photo meaning"
+      ],
+      "distinctIntent": "Distinguish multi-exposure capture from display and video, then inspect the result.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "why-photos-look-different-on-screens",
+      "keywordCluster": "display-color",
+      "decision": "approved_for_publication",
+      "contribution": "A comparison matrix isolating file, viewer, device, and environment.",
+      "overlapReview": "Color-management troubleshooting is distinct from an actual color cast recorded in the portrait.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-profiles/color-management-in-photoshop.html",
+          "accessed": "2026-10-20",
+          "supports": "Display, gamut, profiles, and viewing-condition differences."
+        },
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/choose-colors/color-profiles/color-profiles-for-imported-images.html",
+          "accessed": "2026-10-20",
+          "supports": "Embedded color profiles and working-space interpretation."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "why photos look different on different screens",
+      "keywordVariants": [
+        "photo color changes between devices"
+      ],
+      "distinctIntent": "Isolate file, viewer, display, and environment before changing the edit.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "self-timer-portraits-with-phone",
+      "keywordCluster": "self-timer-portraits",
+      "decision": "approved_for_publication",
+      "contribution": "A solo-capture setup test and controlled three-set practice plan.",
+      "overlapReview": "Timer logistics and iterative capture are separate from optical selfie perspective.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-ie/guide/iphone/iph3dc593597/27/ios/27",
+          "accessed": "2026-10-20",
+          "supports": "Timer, grid, and level controls; availability depends on software."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "how to take self timer portraits with phone",
+      "keywordVariants": [
+        "solo portrait timer tips"
+      ],
+      "distinctIntent": "Set up stable solo capture and review focus and framing between attempts.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    },
+    {
+      "slug": "portrait-mode-blur-mistakes",
+      "keywordCluster": "portrait-mode-blur",
+      "decision": "approved_for_publication",
+      "contribution": "A boundary-specific diagnosis with reduce/off/retake choices.",
+      "overlapReview": "Computational depth boundaries differ from motion blur, missed focus, and ordinary sharpening.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-ie/guide/iphone/iphd7d3a91a2/27/ios/27",
+          "accessed": "2026-10-20",
+          "supports": "Portrait depth controls and model-dependent post-capture adjustments."
+        }
+      ],
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "primaryKeyword": "portrait mode blur mistakes",
+      "keywordVariants": [
+        "portrait mode hair edges blurry"
+      ],
+      "distinctIntent": "Inspect computational depth boundaries and choose reduce, disable, or retake.",
+      "demandEvidence": "Qualitative relevance within photo-editing or portrait-photography topics. Broad SEMScoop seed metrics are context only, not this query's volume or difficulty.",
+      "reviewOutcome": "Original task-specific guidance, a direct answer, relevant primary-source support, explicit limits, and distinct intent compared with the eight existing guides and the other 26 drafts.",
+      "checks": [
+        "No invented product features, measurements, hands-on tests, or ranking promises",
+        "No copied quotations or competitor outlines; practical exercises are editorial suggestions, not reported experiments",
+        "Source notes identify what the references support; generator/tool examples are not presented as Meluvya specifications",
+        "New publication date is 2026-10-20; image is explicitly illustrative",
+        "Related links connect to complementary questions; shared end-of-article Meluvya promotion retained"
+      ]
+    }
+  ],
+  "validation": {
+    "contentCheck": "PASS: node scripts/check-content.mjs --base efbf07fae029e82806f16cab4a7d03f66766bd66; 35 total, 30 dated today, zero remaining daily capacity",
+    "lint": "PASS",
+    "productionBuild": "PASS with NEXT_PUBLIC_BASE_PATH=/meluvya-website",
+    "typecheck": "PASS",
+    "export": "PASS: 39 sitemap routes, 35 article pages, 1540 internal links/assets checked, unique titles/descriptions/canonicals, Article and Breadcrumb schema",
+    "archive": "PASS: 12/12/11 entries across three pages; all 35 article URLs included once",
+    "mobile": "PASS: 390x844; clicked page 1 to 2 to 3, article header and CTA screenshots inspected, document width 390, comparison table scrolls within its own region, images load",
+    "downloadCTA": "PASS: shared CTA structurally present on all 35 pages; App Store and Google Play buttons open the coming-soon dialog; Escape closes it and restores focus in the mobile browser",
+    "desktop": "PASS: representative article checked at 1440x1000",
+    "environment": "Repository dependency reads stalled during lint/build. Those attempts were stopped; lint, prefixed build, typecheck and export checks passed in a temporary validation copy with all 66 copied tracked files hash-matched before testing.",
+    "articleSourceSHA256": "682ae701b2cc2e5d39a8902ef89cc58dc8f5ab3c8aa0204ea65b5612e36e3e89",
+    "deployment": "Pending push and GitHub Pages verification. Inspect Actions for this commit before a retry."
+  }
+}

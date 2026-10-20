@@ -1,0 +1,773 @@
+{
+  "retrieved": "2026-10-20",
+  "measurements": [
+    {
+      "provider": "SEMScoop public keyword research tool",
+      "url": "https://semscoop.com/keyword-tool?keyword=photo%20editing&country=all&language=all",
+      "keyword": "photo editing",
+      "geography": "All countries",
+      "language": "All languages",
+      "retrieved": "2026-10-20",
+      "period": "Average monthly Google searches over the preceding 12 months; exact dataset end date not exposed",
+      "monthlySearchVolume": 368000,
+      "volumeUnits": "estimated searches/month",
+      "organicDifficulty": 31,
+      "difficultyUnits": "provider score, 0\u2013100; not ranking probability",
+      "difficultyPeriod": "SERP analysis returned at retrieval; exact crawl timestamp not exposed",
+      "evidenceFile": "semscoop-photo-editing-all-languages.txt",
+      "ideas": [
+        {
+          "keyword": "photo editing",
+          "monthlySearchVolume": 368000,
+          "cpcUSD": 0.1,
+          "advertisingCompetition": 12,
+          "organicDifficulty": 31
+        },
+        {
+          "keyword": "ai photo editor",
+          "monthlySearchVolume": 2240000,
+          "cpcUSD": 0.04,
+          "advertisingCompetition": 27,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "picture editor",
+          "monthlySearchVolume": 60500,
+          "cpcUSD": 0.08,
+          "advertisingCompetition": 31,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "facetune",
+          "monthlySearchVolume": 60500,
+          "cpcUSD": 0.52,
+          "advertisingCompetition": 38,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "image editor",
+          "monthlySearchVolume": 368000,
+          "cpcUSD": 0.15,
+          "advertisingCompetition": 15,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "luminar ai",
+          "monthlySearchVolume": 12100,
+          "cpcUSD": 0.3,
+          "advertisingCompetition": 53,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "picmonkey",
+          "monthlySearchVolume": 110000,
+          "cpcUSD": 0.4,
+          "advertisingCompetition": 13,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photodirector",
+          "monthlySearchVolume": 33100,
+          "cpcUSD": 0.25,
+          "advertisingCompetition": 38,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "lightroom photo editing",
+          "monthlySearchVolume": 8100,
+          "cpcUSD": 0.27,
+          "advertisingCompetition": 25,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photo editor for pc",
+          "monthlySearchVolume": 9900,
+          "cpcUSD": 0.06,
+          "advertisingCompetition": 29,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "pixlr editor",
+          "monthlySearchVolume": 110000,
+          "cpcUSD": 0.1,
+          "advertisingCompetition": 4,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photo editing services",
+          "monthlySearchVolume": 2900,
+          "cpcUSD": 1.75,
+          "advertisingCompetition": 16,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "snapseed",
+          "monthlySearchVolume": 368000,
+          "cpcUSD": 0.06,
+          "advertisingCompetition": 14,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photoshop services",
+          "monthlySearchVolume": 590,
+          "cpcUSD": 1.67,
+          "advertisingCompetition": 36,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "best photo editor",
+          "monthlySearchVolume": 8100,
+          "cpcUSD": 0.24,
+          "advertisingCompetition": 45,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "ai image editor",
+          "monthlySearchVolume": 550000,
+          "cpcUSD": 0.21,
+          "advertisingCompetition": 28,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photo retouching services",
+          "monthlySearchVolume": 1000,
+          "cpcUSD": 1.48,
+          "advertisingCompetition": 21,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "gimp photo editor",
+          "monthlySearchVolume": 40500,
+          "cpcUSD": 0.29,
+          "advertisingCompetition": 19,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "professional photo editor",
+          "monthlySearchVolume": 4400,
+          "cpcUSD": 0.23,
+          "advertisingCompetition": 31,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "adobe lightroom photo editor",
+          "monthlySearchVolume": 60500,
+          "cpcUSD": 0.51,
+          "advertisingCompetition": 0,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "luminar 4",
+          "monthlySearchVolume": 1300,
+          "cpcUSD": 0.83,
+          "advertisingCompetition": 65,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "adobe photo editor",
+          "monthlySearchVolume": 6600,
+          "cpcUSD": 0.99,
+          "advertisingCompetition": 26,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "picsart editor",
+          "monthlySearchVolume": 1900,
+          "cpcUSD": 0.15,
+          "advertisingCompetition": 12,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photo retouching",
+          "monthlySearchVolume": 12100,
+          "cpcUSD": 0.24,
+          "advertisingCompetition": 26,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "change color of image",
+          "monthlySearchVolume": 40500,
+          "cpcUSD": 0.3,
+          "advertisingCompetition": 9,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "ai picture editor",
+          "monthlySearchVolume": 74000,
+          "cpcUSD": 0.17,
+          "advertisingCompetition": 49,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "edit photos on iphone",
+          "monthlySearchVolume": 14800,
+          "cpcUSD": 0.64,
+          "advertisingCompetition": 21,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photoshop editor",
+          "monthlySearchVolume": 5400,
+          "cpcUSD": 0.28,
+          "advertisingCompetition": 22,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "movavi photo editor",
+          "monthlySearchVolume": 1900,
+          "cpcUSD": 0.5,
+          "advertisingCompetition": 99,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photo director",
+          "monthlySearchVolume": 33100,
+          "cpcUSD": 0.25,
+          "advertisingCompetition": 38,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photo filters",
+          "monthlySearchVolume": 60500,
+          "cpcUSD": 0.28,
+          "advertisingCompetition": 15,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photographers edit",
+          "monthlySearchVolume": 720,
+          "cpcUSD": 0.89,
+          "advertisingCompetition": 13,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "real estate photo editing",
+          "monthlySearchVolume": 1600,
+          "cpcUSD": 2.51,
+          "advertisingCompetition": 33,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "cartoonify an image",
+          "monthlySearchVolume": 14800,
+          "cpcUSD": 0.28,
+          "advertisingCompetition": 34,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "edit someone out of a photo",
+          "monthlySearchVolume": 720,
+          "cpcUSD": 0.78,
+          "advertisingCompetition": 65,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "blurry photo fix",
+          "monthlySearchVolume": 8100,
+          "cpcUSD": 0.22,
+          "advertisingCompetition": 40,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "passport photo maker",
+          "monthlySearchVolume": 110000,
+          "cpcUSD": 0.07,
+          "advertisingCompetition": 9,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "pixlr",
+          "monthlySearchVolume": 1000000,
+          "cpcUSD": 0.11,
+          "advertisingCompetition": 4,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photo editing programs",
+          "monthlySearchVolume": 301000,
+          "cpcUSD": 0.88,
+          "advertisingCompetition": 3,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "edit text on picture",
+          "monthlySearchVolume": 49500,
+          "cpcUSD": 0.05,
+          "advertisingCompetition": 16,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "facetune 2",
+          "monthlySearchVolume": 880,
+          "cpcUSD": 0.33,
+          "advertisingCompetition": 24,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "lightroom editing",
+          "monthlySearchVolume": 3600,
+          "cpcUSD": 0.7,
+          "advertisingCompetition": 30,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photo editing ai",
+          "monthlySearchVolume": 27100,
+          "cpcUSD": 0.05,
+          "advertisingCompetition": 31,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photoscape x",
+          "monthlySearchVolume": 27100,
+          "cpcUSD": 0.09,
+          "advertisingCompetition": 7,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "passport photo editor",
+          "monthlySearchVolume": 22200,
+          "cpcUSD": 0.08,
+          "advertisingCompetition": 15,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "inpixio photo editor",
+          "monthlySearchVolume": 390,
+          "cpcUSD": 0.52,
+          "advertisingCompetition": 95,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "edit text in image",
+          "monthlySearchVolume": 49500,
+          "cpcUSD": 0.05,
+          "advertisingCompetition": 16,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "jpg editor",
+          "monthlySearchVolume": 60500,
+          "cpcUSD": 0.02,
+          "advertisingCompetition": 11,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photo editor ai",
+          "monthlySearchVolume": 246000,
+          "cpcUSD": 0.09,
+          "advertisingCompetition": 21,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "best ai photo enhancer",
+          "monthlySearchVolume": 2400,
+          "cpcUSD": 0.42,
+          "advertisingCompetition": 53,
+          "organicDifficulty": null
+        }
+      ],
+      "limitations": "Broad seed data do not establish demand or difficulty for narrower article queries. Advertising competition is not organic difficulty. Unanalyzed idea rows displayed 0%; their organic difficulty is recorded as null."
+    },
+    {
+      "provider": "SEMScoop public keyword research tool",
+      "url": "https://semscoop.com/keyword-tool?keyword=portrait%20photography&country=all&language=en",
+      "keyword": "portrait photography",
+      "geography": "All countries",
+      "language": "English",
+      "retrieved": "2026-10-20",
+      "period": "Average monthly Google searches over the preceding 12 months; exact dataset end date not exposed",
+      "monthlySearchVolume": 74000,
+      "volumeUnits": "estimated searches/month",
+      "organicDifficulty": 28,
+      "difficultyUnits": "provider score, 0\u2013100; not ranking probability",
+      "difficultyPeriod": "SERP analysis returned at retrieval; exact crawl timestamp not exposed",
+      "evidenceFile": "semscoop-portrait-photography-en.txt",
+      "ideas": [
+        {
+          "keyword": "portrait photography",
+          "monthlySearchVolume": 74000,
+          "cpcUSD": 0.56,
+          "advertisingCompetition": 2,
+          "organicDifficulty": 28
+        },
+        {
+          "keyword": "headshots near me",
+          "monthlySearchVolume": 12100,
+          "cpcUSD": 1.63,
+          "advertisingCompetition": 57,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "professional headshots",
+          "monthlySearchVolume": 60500,
+          "cpcUSD": 1.52,
+          "advertisingCompetition": 33,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "professional headshots near me",
+          "monthlySearchVolume": 9900,
+          "cpcUSD": 1.69,
+          "advertisingCompetition": 63,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "ai headshots",
+          "monthlySearchVolume": 12100,
+          "cpcUSD": 1.74,
+          "advertisingCompetition": 61,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "headshots",
+          "monthlySearchVolume": 165000,
+          "cpcUSD": 1.84,
+          "advertisingCompetition": 10,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "family photoshoot",
+          "monthlySearchVolume": 110000,
+          "cpcUSD": 0.56,
+          "advertisingCompetition": 20,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "family portraits near me",
+          "monthlySearchVolume": 3600,
+          "cpcUSD": 0.87,
+          "advertisingCompetition": 63,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "portrait",
+          "monthlySearchVolume": 1220000,
+          "cpcUSD": 0.65,
+          "advertisingCompetition": 6,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "portrait studio near me",
+          "monthlySearchVolume": 8100,
+          "cpcUSD": 0.82,
+          "advertisingCompetition": 36,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "family photos",
+          "monthlySearchVolume": 110000,
+          "cpcUSD": 0.56,
+          "advertisingCompetition": 20,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "senior pictures near me",
+          "monthlySearchVolume": 3600,
+          "cpcUSD": 0.83,
+          "advertisingCompetition": 38,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "family pictures near me",
+          "monthlySearchVolume": 6600,
+          "cpcUSD": 0.66,
+          "advertisingCompetition": 69,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "headshot photography near me",
+          "monthlySearchVolume": 2400,
+          "cpcUSD": 1.33,
+          "advertisingCompetition": 46,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "corporate headshots",
+          "monthlySearchVolume": 8100,
+          "cpcUSD": 1.7,
+          "advertisingCompetition": 25,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "family photos near me",
+          "monthlySearchVolume": 6600,
+          "cpcUSD": 0.66,
+          "advertisingCompetition": 69,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "senior photographers near me",
+          "monthlySearchVolume": 6600,
+          "cpcUSD": 0.86,
+          "advertisingCompetition": 36,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "family photography near me",
+          "monthlySearchVolume": 2900,
+          "cpcUSD": 0.82,
+          "advertisingCompetition": 22,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "family photography",
+          "monthlySearchVolume": 5400,
+          "cpcUSD": 0.74,
+          "advertisingCompetition": 20,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "family photographer near me",
+          "monthlySearchVolume": 5400,
+          "cpcUSD": 0.87,
+          "advertisingCompetition": 21,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "pet portraits from photos",
+          "monthlySearchVolume": 1600,
+          "cpcUSD": 0.95,
+          "advertisingCompetition": 100,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "family photoshoot near me",
+          "monthlySearchVolume": 6600,
+          "cpcUSD": 0.66,
+          "advertisingCompetition": 69,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "business headshots",
+          "monthlySearchVolume": 4400,
+          "cpcUSD": 1.9,
+          "advertisingCompetition": 26,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "portraits near me",
+          "monthlySearchVolume": 2400,
+          "cpcUSD": 1.14,
+          "advertisingCompetition": 38,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "portrait photography near me",
+          "monthlySearchVolume": 1900,
+          "cpcUSD": 0.91,
+          "advertisingCompetition": 22,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "painted portraits from photos",
+          "monthlySearchVolume": 880,
+          "cpcUSD": 0.87,
+          "advertisingCompetition": 100,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "target portrait studio",
+          "monthlySearchVolume": 1300,
+          "cpcUSD": 0.21,
+          "advertisingCompetition": 18,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "headshot photographer near me",
+          "monthlySearchVolume": 3600,
+          "cpcUSD": 1.5,
+          "advertisingCompetition": 22,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "family portrait photography",
+          "monthlySearchVolume": 2400,
+          "cpcUSD": 0.55,
+          "advertisingCompetition": 67,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "senior portraits near me",
+          "monthlySearchVolume": 1300,
+          "cpcUSD": 0.87,
+          "advertisingCompetition": 43,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "senior photos near me",
+          "monthlySearchVolume": 6600,
+          "cpcUSD": 0.86,
+          "advertisingCompetition": 36,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "jc penney portrait studio",
+          "monthlySearchVolume": 9900,
+          "cpcUSD": 1.26,
+          "advertisingCompetition": 43,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "cheap family portrait studios near me",
+          "monthlySearchVolume": 210,
+          "cpcUSD": 0.51,
+          "advertisingCompetition": 43,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "portrait studio",
+          "monthlySearchVolume": 12100,
+          "cpcUSD": 0.73,
+          "advertisingCompetition": 7,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "jcpenney newborn photography",
+          "monthlySearchVolume": 590,
+          "cpcUSD": 1.19,
+          "advertisingCompetition": 42,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "portrait photo",
+          "monthlySearchVolume": 60500,
+          "cpcUSD": 0.38,
+          "advertisingCompetition": 22,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "headshot photographer",
+          "monthlySearchVolume": 8100,
+          "cpcUSD": 1.44,
+          "advertisingCompetition": 23,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "business headshots near me",
+          "monthlySearchVolume": 1000,
+          "cpcUSD": 1.87,
+          "advertisingCompetition": 23,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "portrait photographers near me",
+          "monthlySearchVolume": 880,
+          "cpcUSD": 0.89,
+          "advertisingCompetition": 53,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "prestige photography by lifetouch",
+          "monthlySearchVolume": 1300,
+          "cpcUSD": 1.58,
+          "advertisingCompetition": 10,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "corporate headshots near me",
+          "monthlySearchVolume": 1900,
+          "cpcUSD": 1.66,
+          "advertisingCompetition": 19,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "senior photos",
+          "monthlySearchVolume": 14800,
+          "cpcUSD": 1.0,
+          "advertisingCompetition": 10,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "headshots for acting",
+          "monthlySearchVolume": 14800,
+          "cpcUSD": 1.05,
+          "advertisingCompetition": 10,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "senior picture photographers near me",
+          "monthlySearchVolume": 2400,
+          "cpcUSD": 0.82,
+          "advertisingCompetition": 42,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "head shot near me",
+          "monthlySearchVolume": 12100,
+          "cpcUSD": 1.63,
+          "advertisingCompetition": 57,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "photo to portrait",
+          "monthlySearchVolume": 720,
+          "cpcUSD": 0.85,
+          "advertisingCompetition": 100,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "cheap headshots near me",
+          "monthlySearchVolume": 480,
+          "cpcUSD": 1.17,
+          "advertisingCompetition": 72,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "portrait pictures",
+          "monthlySearchVolume": 14800,
+          "cpcUSD": 1.31,
+          "advertisingCompetition": 47,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "professional family photos",
+          "monthlySearchVolume": 1900,
+          "cpcUSD": 0.57,
+          "advertisingCompetition": 58,
+          "organicDifficulty": null
+        },
+        {
+          "keyword": "corporate photographer",
+          "monthlySearchVolume": 1900,
+          "cpcUSD": 1.66,
+          "advertisingCompetition": 28,
+          "organicDifficulty": null
+        }
+      ],
+      "limitations": "Broad seed data do not establish demand or difficulty for narrower article queries. Advertising competition is not organic difficulty. Unanalyzed idea rows displayed 0%; their organic difficulty is recorded as null."
+    }
+  ],
+  "otherAccess": [
+    {
+      "provider": "Exploding Topics public keyword tool",
+      "query": "photo editing",
+      "geography": "US database requested by tool redirect",
+      "result": "reCAPTCHA verification failed; stopped without retry or bypass",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    }
+  ],
+  "editorialUse": "Use as broad-topic context only. No new article's exact query has verified volume or organic difficulty. Local-service, near-me, branded competitor, and tool-only intents were excluded.",
+  "metricDefinitions": {
+    "inheritance": "Each idea inherits provider, geography, language, retrieval date, and volume period from its parent seed dataset.",
+    "monthlySearchVolume": {
+      "units": "estimated Google searches/month",
+      "period": "average of preceding 12 months; exact end date unknown"
+    },
+    "organicDifficulty": {
+      "units": "SEMScoop score on a 0\u2013100 scale",
+      "period": "analysis returned at retrieval; exact SERP collection date unknown"
+    },
+    "advertisingCompetition": {
+      "units": "Google advertiser index, 0\u2013100",
+      "period": "not exposed by provider; retrieved 2026-10-20",
+      "use": "not used to infer organic competition"
+    },
+    "cpcUSD": {
+      "units": "USD per click; provider low-range bid estimate",
+      "period": "not exposed by provider; retrieved 2026-10-20",
+      "use": "context only; not used for publication selection"
+    }
+  }
+}

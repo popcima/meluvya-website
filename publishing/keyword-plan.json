@@ -3,7 +3,7 @@
   "updated": "2026-10-20",
   "language": "en",
   "audience": "Worldwide",
-  "metricsStatus": "No verified search volume or keyword difficulty available. Null means unknown, not zero. Candidate order is editorial, not a search-demand ranking.",
+  "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
   "clusters": [
     {
       "id": "golden-hour-photo-editing",
@@ -81,9 +81,9 @@
         "indoor portrait without studio lights"
       ],
       "intent": "Set up a single-window portrait; compare subject positions.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "window-light-portraits-at-home",
-      "validation": "AI editorial review and technical checks passed on 2026-10-20; demand unmeasured. See the dated research record and GitHub deployment before retrying.",
+      "validation": "Published in efbf07f; GitHub Pages deployment 39429281333 verified successful. Exact query metrics remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null
     },
@@ -94,9 +94,9 @@
         "sharp low light phone portraits"
       ],
       "intent": "Distinguish camera shake, subject motion, and missed focus.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "why-night-phone-photos-are-blurry",
-      "validation": "AI editorial review and technical checks passed on 2026-10-20; demand unmeasured. See the dated research record and GitHub deployment before retrying.",
+      "validation": "Published in efbf07f; GitHub Pages deployment 39429281333 verified successful. Exact query metrics remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null
     },
@@ -107,11 +107,12 @@
         "orange face blue background photo"
       ],
       "intent": "Identify different light sources and choose capture or editing fixes.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "fix-mixed-lighting-in-portraits",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "glasses-reflections",
@@ -120,9 +121,9 @@
         "glasses glare portrait lighting"
       ],
       "intent": "Change light and camera angles without hiding the eyes.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "reduce-glasses-glare-in-portraits",
-      "validation": "AI editorial review and technical checks passed on 2026-10-20; demand unmeasured. See the dated research record and GitHub deployment before retrying.",
+      "validation": "Published in efbf07f; GitHub Pages deployment 39429281333 verified successful. Exact query metrics remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null
     },
@@ -133,11 +134,12 @@
         "phone flash portrait at night"
       ],
       "intent": "Place a subject and background for deliberate flash, with glare checks.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "direct-flash-portrait-tips",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "harsh-midday-portraits",
@@ -146,11 +148,12 @@
         "midday shadows face photo"
       ],
       "intent": "Choose shade, orientation, and exposure for hard daylight.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "portrait-photos-in-harsh-sunlight",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "black-and-white-portraits",
@@ -159,11 +162,12 @@
         "monochrome phone portrait"
       ],
       "intent": "Use tonal separation rather than simply removing saturation.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "black-and-white-portrait-editing",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "overedited-skin",
@@ -172,11 +176,12 @@
         "avoid plastic skin in portraits"
       ],
       "intent": "Spot excessive smoothing, local contrast, and color shifts.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "why-edited-portraits-look-unnatural",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "portrait-crop",
@@ -185,11 +190,12 @@
         "portrait headroom crop tips"
       ],
       "intent": "Choose framing deliberately without cutting at distracting places.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "how-to-crop-portrait-photos",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "phone-perspective",
@@ -198,11 +204,12 @@
         "selfie camera perspective distortion"
       ],
       "intent": "Explain camera distance and perspective without beauty judgments.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "why-close-selfies-look-different",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "portrait-backgrounds",
@@ -211,11 +218,12 @@
         "avoid distracting portrait background"
       ],
       "intent": "Separate subject, colors, edges, and background brightness.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "choose-portrait-background",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "underexposed-portraits",
@@ -224,11 +232,12 @@
         "underexposed portrait editing"
       ],
       "intent": "Recover usable tone while recognizing noise and missing detail.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "brighten-dark-face-in-photo",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "overexposed-portraits",
@@ -237,11 +246,12 @@
         "recover blown highlights photo"
       ],
       "intent": "Check whether highlight information remains before promising recovery.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "can-you-fix-overexposed-portraits",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "color-cast",
@@ -250,11 +260,12 @@
         "white balance portrait photo"
       ],
       "intent": "Use neutral references and explain limits of global correction.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "remove-color-cast-from-photos",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "photo-noise-and-grain",
@@ -263,11 +274,12 @@
         "grainy portrait photo meaning"
       ],
       "intent": "Distinguish capture noise from intentional texture.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "photo-noise-vs-film-grain",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "sharpness-and-resolution",
@@ -276,11 +288,12 @@
         "can sharpening fix blurry photos"
       ],
       "intent": "Separate edge contrast, pixel count, and genuine detail.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "photo-sharpening-vs-resolution",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "portrait-consistency",
@@ -289,11 +302,12 @@
         "matching colors across portraits"
       ],
       "intent": "Match exposure and color across varying source conditions.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "consistent-editing-for-photo-set",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "photo-export-quality",
@@ -302,11 +316,12 @@
         "avoid compression when sharing photos"
       ],
       "intent": "Explain originals, repeated exports, and practical file handling.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "why-saved-photos-lose-quality",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "jpeg-heic-png",
@@ -315,11 +330,12 @@
         "best photo file format for editing"
       ],
       "intent": "Compare photo formats and compatibility without inventing Meluvya support.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "jpeg-heic-png-photo-formats",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "non-destructive-editing",
@@ -328,11 +344,12 @@
         "revert photo edits"
       ],
       "intent": "Keep originals and understand reversible and flattened edits.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "edit-photos-without-losing-original",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "mirror-selfies",
@@ -341,11 +358,12 @@
         "clean mirror selfie background"
       ],
       "intent": "Handle reflections, framing, and distracting objects at capture.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "mirror-selfie-photo-tips",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "couple-portraits",
@@ -354,11 +372,12 @@
         "two person portrait lighting"
       ],
       "intent": "Keep both faces readable, in focus, and coherently lit.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "take-couple-photos-with-phone",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "rainy-day-portraits",
@@ -367,11 +386,12 @@
         "overcast portrait lighting"
       ],
       "intent": "Use soft light while controlling flat tone and dull backgrounds.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "cloudy-day-portrait-photo-tips",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "backlit-portraits",
@@ -380,11 +400,12 @@
         "face dark against bright sky"
       ],
       "intent": "Choose the subject exposure and manage silhouette tradeoffs.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "backlit-phone-portraits",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
     },
     {
       "id": "ai-portrait-detail-review",
@@ -393,11 +414,82 @@
         "AI portrait hands hair reflections"
       ],
       "intent": "Review changed details before sharing without claiming detection certainty.",
-      "status": "needs_research",
-      "articleSlug": null,
-      "validation": "Editorial hypothesis; validate relevance, distinct intent, sources, and demand evidence before drafting",
+      "status": "approved_for_publication",
+      "articleSlug": "check-ai-portrait-details",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-20-expansion.json"
+    },
+    {
+      "id": "vibrance-vs-saturation",
+      "primaryKeyword": "vibrance vs saturation for portraits",
+      "relatedKeywords": [
+        "vibrance or saturation for skin"
+      ],
+      "intent": "Choose a color-intensity control and inspect its effect on skin and vivid objects.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "status": "approved_for_publication",
+      "articleSlug": "vibrance-vs-saturation-portraits",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "researchRecord": "2026-10-20-expansion.json"
+    },
+    {
+      "id": "hdr-phone-photos",
+      "primaryKeyword": "what does HDR do in phone photos",
+      "relatedKeywords": [
+        "HDR portrait photo meaning"
+      ],
+      "intent": "Distinguish multi-exposure capture from display and video, then inspect the result.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "status": "approved_for_publication",
+      "articleSlug": "hdr-phone-photos-explained",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "researchRecord": "2026-10-20-expansion.json"
+    },
+    {
+      "id": "display-color",
+      "primaryKeyword": "why photos look different on different screens",
+      "relatedKeywords": [
+        "photo color changes between devices"
+      ],
+      "intent": "Isolate file, viewer, display, and environment before changing the edit.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "status": "approved_for_publication",
+      "articleSlug": "why-photos-look-different-on-screens",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "researchRecord": "2026-10-20-expansion.json"
+    },
+    {
+      "id": "self-timer-portraits",
+      "primaryKeyword": "how to take self timer portraits with phone",
+      "relatedKeywords": [
+        "solo portrait timer tips"
+      ],
+      "intent": "Set up stable solo capture and review focus and framing between attempts.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "status": "approved_for_publication",
+      "articleSlug": "self-timer-portraits-with-phone",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "researchRecord": "2026-10-20-expansion.json"
+    },
+    {
+      "id": "portrait-mode-blur",
+      "primaryKeyword": "portrait mode blur mistakes",
+      "relatedKeywords": [
+        "portrait mode hair edges blurry"
+      ],
+      "intent": "Inspect computational depth boundaries and choose reduce, disable, or retake.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "status": "approved_for_publication",
+      "articleSlug": "portrait-mode-blur-mistakes",
+      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "researchRecord": "2026-10-20-expansion.json"
     }
   ]
 }
