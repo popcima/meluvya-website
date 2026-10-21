@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -107,9 +107,9 @@
         "orange face blue background photo"
       ],
       "intent": "Identify different light sources and choose capture or editing fixes.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "fix-mixed-lighting-in-portraits",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -134,9 +134,9 @@
         "phone flash portrait at night"
       ],
       "intent": "Place a subject and background for deliberate flash, with glare checks.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "direct-flash-portrait-tips",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -148,9 +148,9 @@
         "midday shadows face photo"
       ],
       "intent": "Choose shade, orientation, and exposure for hard daylight.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "portrait-photos-in-harsh-sunlight",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -162,9 +162,9 @@
         "monochrome phone portrait"
       ],
       "intent": "Use tonal separation rather than simply removing saturation.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "black-and-white-portrait-editing",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -176,9 +176,9 @@
         "avoid plastic skin in portraits"
       ],
       "intent": "Spot excessive smoothing, local contrast, and color shifts.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "why-edited-portraits-look-unnatural",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -190,9 +190,9 @@
         "portrait headroom crop tips"
       ],
       "intent": "Choose framing deliberately without cutting at distracting places.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "how-to-crop-portrait-photos",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -204,9 +204,9 @@
         "selfie camera perspective distortion"
       ],
       "intent": "Explain camera distance and perspective without beauty judgments.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "why-close-selfies-look-different",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -218,9 +218,9 @@
         "avoid distracting portrait background"
       ],
       "intent": "Separate subject, colors, edges, and background brightness.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "choose-portrait-background",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -232,9 +232,9 @@
         "underexposed portrait editing"
       ],
       "intent": "Recover usable tone while recognizing noise and missing detail.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "brighten-dark-face-in-photo",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -246,9 +246,9 @@
         "recover blown highlights photo"
       ],
       "intent": "Check whether highlight information remains before promising recovery.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "can-you-fix-overexposed-portraits",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -260,9 +260,9 @@
         "white balance portrait photo"
       ],
       "intent": "Use neutral references and explain limits of global correction.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "remove-color-cast-from-photos",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -274,9 +274,9 @@
         "grainy portrait photo meaning"
       ],
       "intent": "Distinguish capture noise from intentional texture.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "photo-noise-vs-film-grain",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -288,9 +288,9 @@
         "can sharpening fix blurry photos"
       ],
       "intent": "Separate edge contrast, pixel count, and genuine detail.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "photo-sharpening-vs-resolution",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -302,9 +302,9 @@
         "matching colors across portraits"
       ],
       "intent": "Match exposure and color across varying source conditions.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "consistent-editing-for-photo-set",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -316,9 +316,9 @@
         "avoid compression when sharing photos"
       ],
       "intent": "Explain originals, repeated exports, and practical file handling.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "why-saved-photos-lose-quality",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -330,9 +330,9 @@
         "best photo file format for editing"
       ],
       "intent": "Compare photo formats and compatibility without inventing Meluvya support.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "jpeg-heic-png-photo-formats",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -344,9 +344,9 @@
         "revert photo edits"
       ],
       "intent": "Keep originals and understand reversible and flattened edits.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "edit-photos-without-losing-original",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -358,9 +358,9 @@
         "clean mirror selfie background"
       ],
       "intent": "Handle reflections, framing, and distracting objects at capture.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "mirror-selfie-photo-tips",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -372,9 +372,9 @@
         "two person portrait lighting"
       ],
       "intent": "Keep both faces readable, in focus, and coherently lit.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "take-couple-photos-with-phone",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -386,9 +386,9 @@
         "overcast portrait lighting"
       ],
       "intent": "Use soft light while controlling flat tone and dull backgrounds.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "cloudy-day-portrait-photo-tips",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -400,9 +400,9 @@
         "face dark against bright sky"
       ],
       "intent": "Choose the subject exposure and manage silhouette tradeoffs.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "backlit-phone-portraits",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -414,9 +414,9 @@
         "AI portrait hands hair reflections"
       ],
       "intent": "Review changed details before sharing without claiming detection certainty.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "check-ai-portrait-details",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-20-expansion.json"
@@ -430,9 +430,9 @@
       "intent": "Choose a color-intensity control and inspect its effect on skin and vivid objects.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "vibrance-vs-saturation-portraits",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "researchRecord": "2026-10-20-expansion.json"
     },
     {
@@ -444,9 +444,9 @@
       "intent": "Distinguish multi-exposure capture from display and video, then inspect the result.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "hdr-phone-photos-explained",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "researchRecord": "2026-10-20-expansion.json"
     },
     {
@@ -458,9 +458,9 @@
       "intent": "Isolate file, viewer, display, and environment before changing the edit.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "why-photos-look-different-on-screens",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "researchRecord": "2026-10-20-expansion.json"
     },
     {
@@ -472,9 +472,9 @@
       "intent": "Set up stable solo capture and review focus and framing between attempts.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "self-timer-portraits-with-phone",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "researchRecord": "2026-10-20-expansion.json"
     },
     {
@@ -486,10 +486,58 @@
       "intent": "Inspect computational depth boundaries and choose reduce, disable, or retake.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "portrait-mode-blur-mistakes",
-      "validation": "AI editorial review and local technical checks passed on 2026-10-20. Exact-query volume and difficulty remain unknown. See research record and GitHub deployment before retrying.",
+      "validation": "Confirmed present in deployed starting commit dbec96e3250d9f3bcee978cb7da37290b98d9cc9; GitHub Pages run 39468578498 succeeded. Exact-query volume and organic difficulty remain unknown.",
       "researchRecord": "2026-10-20-expansion.json"
+    },
+    {
+      "id": "iphone-photo-location",
+      "primaryKeyword": "remove location from iPhone photos",
+      "relatedKeywords": [
+        "remove photo geotag iPhone",
+        "share iPhone photo without location",
+        "stop iPhone camera saving location"
+      ],
+      "intent": "Choose between per-share location omission, saved-photo location removal, and future Camera permissions.",
+      "status": "approved_for_publication",
+      "articleSlug": "remove-location-from-iphone-photos",
+      "validation": "AI editorial review, content baseline validation, lint, root production build, typecheck, export checks, and mobile browser checks passed on 2026-10-21. See research record and GitHub deployment before retrying. Exact-query volume and difficulty remain unknown.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-21.json"
+    },
+    {
+      "id": "iphone-selfie-mirroring",
+      "primaryKeyword": "why does my iPhone selfie flip",
+      "relatedKeywords": [
+        "mirror front camera iPhone",
+        "stop iPhone selfie flipping",
+        "flip selfie in Photos"
+      ],
+      "intent": "Diagnose horizontal reversal and choose a future-capture setting or an existing-photo edit.",
+      "status": "approved_for_publication",
+      "articleSlug": "why-iphone-selfies-flip",
+      "validation": "AI editorial review, content baseline validation, lint, root production build, typecheck, export checks, and mobile browser checks passed on 2026-10-21. See research record and GitHub deployment before retrying. Exact-query volume and difficulty remain unknown.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-21.json"
+    },
+    {
+      "id": "portrait-histogram",
+      "primaryKeyword": "how to read a histogram for portraits",
+      "relatedKeywords": [
+        "portrait histogram clipping",
+        "portrait histogram shape",
+        "Lightroom histogram shadows highlights"
+      ],
+      "intent": "Read a tonal distribution and locate clipping before deciding which portrait areas need correction.",
+      "status": "approved_for_publication",
+      "articleSlug": "read-histogram-for-portraits",
+      "validation": "AI editorial review, content baseline validation, lint, root production build, typecheck, export checks, and mobile browser checks passed on 2026-10-21. See research record and GitHub deployment before retrying. Exact-query volume and difficulty remain unknown.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-21.json"
     }
   ]
 }

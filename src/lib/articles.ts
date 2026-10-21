@@ -30,6 +30,506 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
   {
+    "slug": "remove-location-from-iphone-photos",
+    "title": "How to remove location data from iPhone photos before sharing",
+    "description": "Choose between hiding location for a share, removing a photo's saved location, and stopping future geotags. Check the copy you actually send.",
+    "summary": "A photo's location can travel separately from what you see in the picture. Choose the right control, then review the version you plan to share.",
+    "published": "2026-10-21",
+    "modified": "2026-10-21",
+    "quickAnswer": "For a share from iPhone Photos, select the picture, tap Share, open Options, and switch Location off before choosing the destination. This is different from changing the location attached to the library photo or disabling location access for future pictures. Review the outgoing copy and the visible scene as separate checks.",
+    "sections": [
+      {
+        "id": "choose-control",
+        "title": "Choose what you want to change",
+        "paragraphs": [
+          "Apple documents separate controls for a photo's saved location, location in a share, and Camera's access to Location Services. Pick the one that matches your goal. You do not have to remove a useful travel memory from your own library just to leave its coordinates out of one message."
+        ],
+        "table": {
+          "headers": [
+            "Your goal",
+            "Where to start",
+            "What to check afterward"
+          ],
+          "rows": [
+            [
+              "Share a picture without its location",
+              "Photos → Share → Options → Location off",
+              "The copy delivered through that sharing route"
+            ],
+            [
+              "Remove a library photo's location",
+              "Photo's More menu → Adjust Location → No Location",
+              "The photo's information panel"
+            ],
+            [
+              "Stop Camera recording future locations",
+              "Settings → Privacy & Security → Location Services → Camera → Never",
+              "A new test picture, not an old one"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "share",
+        "title": "Turn off location for the share you are making",
+        "list": {
+          "ordered": true,
+          "items": [
+            {
+              "title": "Select the intended pictures in Photos.",
+              "text": "Start from the library so you can review the outgoing options before picking a destination."
+            },
+            {
+              "title": "Open Share, then Options.",
+              "text": "Switch Location off and tap Done. Apple's sharing guide documents this control separately from file-format choices."
+            },
+            {
+              "title": "Choose how to send the pictures.",
+              "text": "Use the method you intended, such as Messages or Mail. Do not assume a different app's upload picker applies the same Photos share options."
+            },
+            {
+              "title": "Avoid sending extra original data unintentionally.",
+              "text": "Apple's All Photos Data option shares the original with edit history and metadata through supported methods. Leave it off when that extra information is not part of what you intend to send."
+            }
+          ]
+        },
+        "paragraphs": [
+          "These share-sheet paths follow Apple's iOS 26 guide. Menu labels can differ on other versions. If Location is absent, review the saved-location controls below and check your version's documentation before assuming the outgoing file has no location."
+        ]
+      },
+      {
+        "id": "library-and-camera",
+        "title": "Change a saved location or future capture settings",
+        "paragraphs": [
+          "For an existing picture, open it in Photos and use the More menu to find Adjust Location, then choose No Location. Some iOS versions place this under Adjust Info. To inspect the result, swipe up on the picture or open its Info panel.",
+          "To stop Apple's Camera app collecting location for future captures, set its Location Services permission to Never. That setting does not retroactively remove locations from old pictures. A different camera app has its own permissions; check it separately if you use one."
+        ]
+      },
+      {
+        "id": "verify-copy",
+        "title": "Use a harmless practice picture to check your workflow",
+        "paragraphs": [
+          "Before relying on a sharing routine for a sensitive picture, try it with an unimportant photo. Send it only to a destination you control using the same route you will use later. Download or save the delivered file and inspect that file's information, rather than reopening the original beside it.",
+          "Write down which route you checked: for example, Photos share sheet to email, followed by saving the attachment. An app update, a different export option, or selecting the original again can change the workflow. One successful check is evidence about that copy, not a guarantee about every future upload.",
+          "If the receiving app does not expose enough information to inspect location metadata, treat the result as unverified. Do not upload a private image to an unfamiliar online checker just to find out. Changing your library today also does not recall independent copies someone already saved."
+        ]
+      },
+      {
+        "id": "visible-clues",
+        "title": "Review the scene and caption too",
+        "paragraphs": [
+          "A location toggle changes data associated with the photo; it does not erase what the camera saw. Before posting, make a separate visual pass. These are suggested review questions, not a claim that every location can be hidden."
+        ],
+        "list": {
+          "items": [
+            {
+              "text": "Can a street sign, house number, school name, or distinctive landmark identify the place?"
+            },
+            {
+              "text": "Does a window or mirror reveal a detail you missed in the main subject?"
+            },
+            {
+              "text": "Does the post's caption, location tag, or surrounding story give away the information you meant to omit?"
+            },
+            {
+              "text": "Would a tighter crop or a different photograph communicate the same moment with less unwanted context?"
+            }
+          ]
+        }
+      }
+    ],
+    "faq": [
+      {
+        "question": "Does switching Location off remove every kind of metadata?",
+        "answer": "No. Location is one category. Apple's sharing guide also describes date, time, device information, and captions. Do not treat the Location switch as a complete metadata scrubber."
+      },
+      {
+        "question": "Will turning off Camera location change my older photos?",
+        "answer": "No. Review older pictures separately and use the saved-location controls when needed."
+      },
+      {
+        "question": "Do these steps apply to Android too?",
+        "answer": "These menu paths are for Apple's Camera and Photos on iPhone. For Android or another photo app, use that app's current documentation and verify a delivered copy; the names and behavior may differ."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Apple: Manage location metadata in Photos",
+        "url": "https://support.apple.com/en-ie/guide/personal-safety/ips0d7a5df82/web",
+        "note": "Documents saved-location removal and Camera location permissions. Menu grouping can vary by software version."
+      },
+      {
+        "title": "Apple: Share photos and videos on iPhone (iOS 26)",
+        "url": "https://support.apple.com/guide/iphone/share-photos-and-videos-iphf28f17237/26/ios/26",
+        "note": "Explains Location and All Photos Data sharing options. The practice-copy and visual review checklists are editorial guidance."
+      },
+      {
+        "title": "Apple: See photo and video information on iPhone",
+        "url": "https://support.apple.com/guide/iphone/see-photo-and-video-information-iph0edb9c18f/27/ios/27",
+        "note": "Describes inspecting stored photo information and adjusting its location."
+      }
+    ],
+    "related": [
+      "edit-photos-without-losing-original",
+      "how-to-crop-portrait-photos",
+      "why-saved-photos-lose-quality"
+    ],
+    "image": "blog/pexels-4429463-4k.webp",
+    "imageAlt": "Passenger holding a smartphone beside a car window",
+    "imagePosition": "60% 45%",
+    "imageVariants": [
+      {
+        "src": "blog/pexels-4429463-480.webp",
+        "width": 480
+      },
+      {
+        "src": "blog/pexels-4429463-960.webp",
+        "width": 960
+      },
+      {
+        "src": "blog/pexels-4429463-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "blog/pexels-4429463-4k.webp",
+        "width": 3840
+      }
+    ],
+    "imageCredit": {
+      "name": "Ketut Subiyanto",
+      "url": "https://www.pexels.com/photo/anonymous-female-tourist-taking-photo-on-smartphone-sitting-in-car-4429463/"
+    },
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+  },
+  {
+    "slug": "why-iphone-selfies-flip",
+    "title": "Why iPhone selfies flip and how to keep the mirrored view",
+    "description": "Make saved iPhone selfies match the front-camera preview, flip an existing picture, and distinguish a reversed image from perspective changes.",
+    "summary": "If the saved selfie looks reversed, check mirroring before changing your pose. A quick lettering test makes the difference easy to spot.",
+    "published": "2026-10-21",
+    "modified": "2026-10-21",
+    "quickAnswer": "To keep the mirrored front-camera view in a saved iPhone selfie, go to Settings → Camera and turn on Mirror Front Camera. For a picture already taken, open it in Photos, choose Edit → Crop, use Flip, and tap Done. Flipping reverses the picture horizontally; it does not change the viewpoint or undo close-camera perspective.",
+    "sections": [
+      {
+        "id": "check-reversal",
+        "title": "Check whether the picture is actually reversed",
+        "paragraphs": [
+          "A hair part moving to the opposite side between preview and saved photo can be distracting. Instead of judging from a face alone, compare something that has a clear direction: lettering on a shirt, a book cover, or a sign. Reversed letters are a more useful clue than deciding that one face looks unfamiliar.",
+          "Mirroring is a horizontal reversal of the entire image. A tighter crop, a different expression, brighter skin, or a change in the relative size of facial features is a different issue. Those changes can happen alongside a flip, which makes a simple before-and-after glance misleading."
+        ],
+        "table": {
+          "headers": [
+            "What you notice",
+            "What to investigate"
+          ],
+          "rows": [
+            [
+              "Letters and every left/right detail are reversed",
+              "Mirroring or a horizontal flip"
+            ],
+            [
+              "The scene is sideways or upside down",
+              "Rotation rather than mirroring"
+            ],
+            [
+              "The face fills more of the frame but letters read the same",
+              "Framing, crop, or zoom"
+            ],
+            [
+              "Nearer features look larger relative to the rest of the face",
+              "Camera distance and viewpoint"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "future-selfies",
+        "title": "Make future iPhone Camera selfies match the preview",
+        "paragraphs": [
+          "Apple documents Mirror Front Camera in Settings → Camera. Turn it on to save the front-camera shot as shown in the camera frame. This is a setting for future captures in Apple's Camera app; it is not an instruction to rewrite your existing library.",
+          "After changing the setting, take one new test selfie and open the saved result. If you take selfies inside a social or messaging app, check that app's own camera settings and saved output. Do not assume Apple's setting controls every app that uses the front camera."
+        ]
+      },
+      {
+        "id": "existing-photo",
+        "title": "Flip a photo you already saved",
+        "list": {
+          "ordered": true,
+          "items": [
+            {
+              "title": "Open the picture in Photos and choose Edit.",
+              "text": "Use the saved image you intend to keep, rather than a screenshot of its preview."
+            },
+            {
+              "title": "Choose Crop, then Flip.",
+              "text": "Apple's Flip control reverses the image horizontally. The nearby Rotate control performs a different operation."
+            },
+            {
+              "title": "Review the whole frame before tapping Done.",
+              "text": "Check text, clothing details, and background signs as well as your face. Choose Cancel if the reversal does not suit the picture."
+            }
+          ]
+        },
+        "paragraphs": [
+          "For a straightforward correction, change orientation first and leave your color treatment alone. That makes the comparison easier to understand and avoids accidentally using an exposure change as evidence that mirroring helped."
+        ]
+      },
+      {
+        "id": "letter-test",
+        "title": "Try a two-picture lettering test",
+        "paragraphs": [
+          "Use a piece of paper with a short ordinary word written on it. Hold it beside you in even light, without including addresses or personal information. Keep the phone in one position. Make a capture with Mirror Front Camera off, then another with it on, and compare the saved files.",
+          "Look at the word first. Decide which saved orientation matches your preview and which makes the word readable. Then compare the portraits. This is a suggested way to learn your camera's behavior, not a reported device test or a measure of which photograph is more attractive.",
+          "If the face also looks stretched, repeat the comparison from farther away with similar framing. Flipping a close image only reverses the same captured geometry. Moving the camera changes the viewpoint, so treat that as a separate comparison."
+        ]
+      },
+      {
+        "id": "choose-orientation",
+        "title": "Choose orientation for the picture's purpose",
+        "paragraphs": [
+          "For a casual selfie without important text, either orientation may suit your preference. For a picture meant to show a design, a sign, or how a room is arranged, check that the final image communicates those details accurately. A horizontally reversed logo or word can matter more than the orientation you are used to seeing.",
+          "Keep one chosen orientation through your final edits so later comparisons remain useful. If a photo will be used as an AI portrait source, review the returned details independently; the source's orientation is not a guarantee about a generated result."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Is a mirrored selfie the only correct version of my face?",
+        "answer": "No single two-dimensional picture is a complete account of your appearance. This setting controls orientation. Lighting, distance, expression, and camera position still affect the photograph."
+      },
+      {
+        "question": "Will Mirror Front Camera flip photos I have already taken?",
+        "answer": "Use the Photos editing controls for saved pictures. Change the Camera setting when you want future selfies to keep the mirrored preview."
+      },
+      {
+        "question": "Can I fix backwards text without mirroring the whole photo?",
+        "answer": "The ordinary Flip control reverses everything. If both the portrait orientation and readable text matter, use another capture or compose the photo around that requirement rather than assuming a global flip fixes both."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Apple: Take a selfie with your iPhone camera",
+        "url": "https://support.apple.com/en-ca/guide/iphone/iph1b88429a6/ios",
+        "note": "Documents Mirror Front Camera and its relationship to the front-camera frame. The lettering comparison is an editorial exercise."
+      },
+      {
+        "title": "Apple: Crop, rotate, flip, or straighten photos and videos",
+        "url": "https://support.apple.com/en-ie/guide/iphone/iph0f3ebb1dd/ios",
+        "note": "Documents the horizontal Flip operation in Photos and the separate Rotate control."
+      }
+    ],
+    "related": [
+      "why-close-selfies-look-different",
+      "mirror-selfie-photo-tips",
+      "choose-photo-for-ai-portraits"
+    ],
+    "image": "blog/pexels-17502436-4k.webp",
+    "imageAlt": "Woman holding a phone in front of her face for a selfie",
+    "imagePosition": "50% 35%",
+    "imageVariants": [
+      {
+        "src": "blog/pexels-17502436-480.webp",
+        "width": 480
+      },
+      {
+        "src": "blog/pexels-17502436-960.webp",
+        "width": 960
+      },
+      {
+        "src": "blog/pexels-17502436-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "blog/pexels-17502436-4k.webp",
+        "width": 2560
+      }
+    ],
+    "imageCredit": {
+      "name": "olga Volkovitskaia",
+      "url": "https://www.pexels.com/photo/a-woman-taking-a-selfie-with-her-phone-17502436/"
+    },
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+  },
+  {
+    "slug": "read-histogram-for-portraits",
+    "title": "How to read a histogram when editing portraits",
+    "description": "Understand histogram peaks, shadows, highlights, and clipping warnings without forcing every portrait into the same brightness pattern.",
+    "summary": "A histogram helps explain a photograph's tones. Use it to find a problem in the picture, then decide whether that problem matters.",
+    "published": "2026-10-21",
+    "modified": "2026-10-21",
+    "quickAnswer": "On a conventional photo histogram, dark tones are on the left and bright tones on the right; taller areas mean more pixels at those values. Check the ends for possible clipping, then use a clipping overlay to locate the affected parts of the portrait. Do not brighten a dark scene just to move its graph toward the center.",
+    "sections": [
+      {
+        "id": "read-axes",
+        "title": "Read the axes before interpreting the shape",
+        "paragraphs": [
+          "Adobe's Camera Raw documentation describes a histogram as a count of pixels at different tonal values. The horizontal position describes the tone, and the height describes how common it is. A tall peak is not a tall object, and the graph's left side does not represent the left side of the photograph.",
+          "A large dark wall can dominate the graph even when the smaller face is comfortably lit. Similarly, a bright backdrop can account for much of the right side. Start by connecting the distribution to the contents of the frame rather than treating a peak as an automatic instruction to move a slider."
+        ],
+        "table": {
+          "headers": [
+            "Graph feature",
+            "Useful reading",
+            "What it cannot tell you alone"
+          ],
+          "rows": [
+            [
+              "Most values toward the left",
+              "Much of the image is dark",
+              "Whether the face needs brightening"
+            ],
+            [
+              "Most values toward the right",
+              "Much of the image is bright",
+              "Whether the bright background is intentional"
+            ],
+            [
+              "Values crowded at an endpoint",
+              "Inspect possible clipping",
+              "Which detail matters or can be recovered"
+            ],
+            [
+              "Different colored ribbons",
+              "Separate red, green, and blue channel distributions",
+              "Whether a particular skin tone looks appropriate"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "find-clipping",
+        "title": "Locate the warning on the photograph",
+        "paragraphs": [
+          "Clipping means values have reached the limit of what the image representation can show. In a conventional rendering, that can leave areas at output black or white. Check a warning against the image itself: a tiny light source and a broad blank patch across a cheek deserve different decisions.",
+          "In Lightroom desktop, Adobe documents Show Histogram in the Edit panel's three-dot menu. Its left clipping indicator can display a blue shadow overlay, and the right indicator can display a red highlight overlay. The J key toggles these warnings. These are Lightroom desktop instructions, not a claim about controls available in Meluvya.",
+          "An editor's warning describes the current rendering. It is not, by itself, proof that the original capture contains no recoverable information. Undo an aggressive edit or test the original before deciding that the missing texture is permanently absent."
+        ]
+      },
+      {
+        "id": "portrait-priorities",
+        "title": "Decide which areas need detail",
+        "paragraphs": [
+          "Use a short priority list for the particular portrait. The following are suggested decisions, not fixed exposure rules or measurements taken from the illustrative photograph."
+        ],
+        "list": {
+          "items": [
+            {
+              "title": "Expression first.",
+              "text": "If a warning covers an eye or a large part of the face, zoom in and compare with the original before continuing."
+            },
+            {
+              "title": "Clothing when it carries the story.",
+              "text": "A white outfit might need visible folds for a fashion picture, while a tiny jewelry reflection may be less important."
+            },
+            {
+              "title": "Background according to intent.",
+              "text": "A dark doorway can stay dark if the subject is clear. Lifting it solely to spread the histogram may weaken the picture."
+            },
+            {
+              "title": "Color as well as brightness.",
+              "text": "If skin color becomes strange after a strong edit, inspect the color channels and reduce the responsible change. A useful-looking overall graph is not a color-quality score."
+            }
+          ]
+        }
+      },
+      {
+        "id": "controlled-comparison",
+        "title": "Use a three-version comparison",
+        "list": {
+          "ordered": true,
+          "items": [
+            {
+              "title": "Start with the unedited version.",
+              "text": "Note the area you want to improve in plain language, such as 'the shaded eye is hard to read.' Avoid goals such as 'make the graph more balanced.'"
+            },
+            {
+              "title": "Make one restrained adjustment.",
+              "text": "Change the relevant tonal control and watch both the warning overlay and the face. Keep track of whether the intended detail becomes easier to see."
+            },
+            {
+              "title": "Make a stronger comparison version.",
+              "text": "Check whether it adds useful information or only produces flat skin, noisy shadows, or a dull background. Return to the milder version when the extra movement does not help."
+            },
+            {
+              "title": "Hide the warnings for the final decision.",
+              "text": "Look at the photograph at its intended display size. Keep the original available and select the version that communicates the expression and atmosphere best."
+            }
+          ]
+        }
+      },
+      {
+        "id": "limits",
+        "title": "Know what the graph leaves out",
+        "paragraphs": [
+          "A histogram is not a map of facial features. Two different pictures can have similar tonal distributions while one has a blurred eye or an awkward crop. You still need to inspect focus, edges, expression, and framing directly.",
+          "This guide concerns a conventional still-photo histogram. HDR editing can use additional brightness ranges and different displays. Check your editor's documentation rather than applying the same endpoint rule to every HDR view. If your editor has no histogram, compare the original and edited image carefully instead of assuming an unseen graph is necessary for a good portrait."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "question": "Should a portrait histogram form a bell curve?",
+        "answer": "No. A portrait against a dark wall and one against a bright window can have different useful distributions. Choose the intended tonal result and inspect important detail rather than copying a graph shape."
+      },
+      {
+        "question": "Does a clipping warning mean my photo is ruined?",
+        "answer": "No. Find the warned area and decide whether it affects something important. Then check the original and a restrained adjustment. A warning alone cannot establish whether a retake is necessary."
+      },
+      {
+        "question": "Can a histogram prove an image is sharp?",
+        "answer": "No. It summarizes tones rather than where fine detail occurs. Inspect the eyes and other important edges directly, ideally in the original file."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Adobe: Color and tonal adjustments in Camera Raw",
+        "url": "https://helpx.adobe.com/camera-raw/desktop/using/make-color-tonal-adjustments-camera.html",
+        "note": "Explains histogram values, RGB ribbons, clipping, and how adjustments change the graph. The portrait priority list and comparison exercise are editorial guidance."
+      },
+      {
+        "title": "Adobe: Edit photos in Lightroom desktop",
+        "url": "https://helpx.adobe.com/lightroom/desktop/edit-photos/edit-photos.html",
+        "note": "Documents Show Histogram, shadow and highlight overlays, and the J shortcut in Lightroom desktop."
+      },
+      {
+        "title": "Adobe: How to read a histogram",
+        "url": "https://www.adobe.com/creativecloud/photography/discover/how-to-read-a-histogram.html",
+        "note": "Explains why different subjects and lighting produce different histogram shapes; there is no single correct shape."
+      }
+    ],
+    "related": [
+      "can-you-fix-overexposed-portraits",
+      "brighten-dark-face-in-photo",
+      "hdr-phone-photos-explained"
+    ],
+    "image": "blog/pexels-34806640-4k.webp",
+    "imageAlt": "Portrait of a woman with bright light across one side of her face and deep shadows around her",
+    "imagePosition": "50% 35%",
+    "imageVariants": [
+      {
+        "src": "blog/pexels-34806640-480.webp",
+        "width": 480
+      },
+      {
+        "src": "blog/pexels-34806640-960.webp",
+        "width": 960
+      },
+      {
+        "src": "blog/pexels-34806640-1600.webp",
+        "width": 1600
+      },
+      {
+        "src": "blog/pexels-34806640-4k.webp",
+        "width": 2560
+      }
+    ],
+    "imageCredit": {
+      "name": "elif s.",
+      "url": "https://www.pexels.com/photo/moody-portrait-of-woman-in-dramatic-lighting-34806640/"
+    },
+    "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+  },
+  {
     "slug": "fix-mixed-lighting-in-portraits",
     "title": "How to fix mixed lighting in portrait photos",
     "description": "One cheek orange and the other blue? Find the competing light sources, simplify the setup, or make a targeted correction without flattening the scene.",
@@ -374,7 +874,7 @@ export const articles: Article[] = [
     "description": "Understand why a close camera changes facial proportions, why cropping is different from moving, and how to compare selfies without beauty judgments.",
     "summary": "Understand why a close camera changes facial proportions, why cropping is different from moving, and how to compare selfies without beauty judgments.",
     "published": "2026-10-20",
-    "modified": "2026-10-20",
+    "modified": "2026-10-21",
     "image": "blog/pexels-9253767-4k.webp",
     "imageAlt": "Close-up portrait showing a woman's natural skin texture",
     "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
@@ -471,6 +971,7 @@ export const articles: Article[] = [
       }
     ],
     "related": [
+      "why-iphone-selfies-flip",
       "self-timer-portraits-with-phone",
       "choose-photo-for-ai-portraits"
     ]
@@ -1495,7 +1996,7 @@ export const articles: Article[] = [
     "description": "Check whether bright skin still contains detail before trying highlight recovery. Learn the difference between revealing recorded tones and inventing replacements.",
     "summary": "Check whether bright skin still contains detail before trying highlight recovery. Learn the difference between revealing recorded tones and inventing replacements.",
     "published": "2026-10-20",
-    "modified": "2026-10-20",
+    "modified": "2026-10-21",
     "image": "blog/pexels-18259251-4k.webp",
     "imageAlt": "Man in a white shirt with bright sunlight across his face",
     "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
@@ -1601,6 +2102,7 @@ export const articles: Article[] = [
       }
     ],
     "related": [
+      "read-histogram-for-portraits",
       "brighten-dark-face-in-photo",
       "portrait-photos-in-harsh-sunlight"
     ]
@@ -2432,7 +2934,7 @@ export const articles: Article[] = [
     "description": "Separate originals, editable working files, and exports. Understand what undo, revert, and cloud sync can—and cannot—preserve.",
     "summary": "Separate originals, editable working files, and exports. Understand what undo, revert, and cloud sync can—and cannot—preserve.",
     "published": "2026-10-20",
-    "modified": "2026-10-20",
+    "modified": "2026-10-21",
     "image": "blog/pexels-29065464-4k.webp",
     "imageAlt": "Photographer using a laptop with a camera resting nearby",
     "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
@@ -2539,6 +3041,7 @@ export const articles: Article[] = [
       }
     ],
     "related": [
+      "remove-location-from-iphone-photos",
       "why-saved-photos-lose-quality",
       "consistent-editing-for-photo-set"
     ]

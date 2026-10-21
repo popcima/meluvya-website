@@ -1,13 +1,148 @@
 {
-  "updated": "2026-10-20",
-  "purpose": "Distinct illustrative editorial photographs for the existing 35 Meluvya guides.",
+  "updated": "2026-10-21",
+  "purpose": "Distinct illustrative editorial photographs for the Meluvya guide library.",
   "licenseReview": {
     "url": "https://www.pexels.com/license/",
-    "checked": "2026-10-20",
+    "checked": "2026-10-21",
     "notes": "Pexels permits free website/blog use and modification. Photographer credits link to each source. These are illustrative stock photos, not Meluvya outputs, endorsements, or technique tests."
   },
   "processing": "Auto-orient, convert to sRGB WebP, strip metadata, and resize without upscaling. Masters have a 3840-pixel long edge; responsive derivatives use widths 480, 960, and 1600. No generative edits.",
   "images": [
+    {
+      "slug": "remove-location-from-iphone-photos",
+      "provider": "Pexels",
+      "photoId": "4429463",
+      "source": "https://www.pexels.com/photo/anonymous-female-tourist-taking-photo-on-smartphone-sitting-in-car-4429463/",
+      "photographer": "Ketut Subiyanto",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-21",
+      "download": "https://images.pexels.com/photos/4429463/pexels-photo-4429463.jpeg?cs=srgb&dl=pexels-ketut-subiyanto-4429463.jpg&fm=jpg",
+      "original": {
+        "width": 6000,
+        "height": 4000,
+        "bytes": 1558180,
+        "sha256": "1eea74cca5e060dcb977f5d19a88d67200ac43399b19accceef887d70dffd35c"
+      },
+      "master": "blog/pexels-4429463-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-4429463-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 11492
+        },
+        {
+          "src": "blog/pexels-4429463-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 27122
+        },
+        {
+          "src": "blog/pexels-4429463-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 55880
+        },
+        {
+          "src": "blog/pexels-4429463-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 367944
+        }
+      ],
+      "alt": "Passenger holding a smartphone beside a car window",
+      "position": "60% 45%"
+    },
+    {
+      "slug": "why-iphone-selfies-flip",
+      "provider": "Pexels",
+      "photoId": "17502436",
+      "source": "https://www.pexels.com/photo/a-woman-taking-a-selfie-with-her-phone-17502436/",
+      "photographer": "olga Volkovitskaia",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-21",
+      "download": "https://images.pexels.com/photos/17502436/pexels-photo-17502436.jpeg?cs=srgb&dl=pexels-olga-volkovitskaia-131638009-17502436.jpg&fm=jpg",
+      "original": {
+        "width": 3264,
+        "height": 4896,
+        "bytes": 2109619,
+        "sha256": "22ee80b4422180b1e282e70f8a4fcc7834b0b45349cddcab6efe7b62d3d183d8"
+      },
+      "master": "blog/pexels-17502436-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-17502436-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 12240
+        },
+        {
+          "src": "blog/pexels-17502436-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 31320
+        },
+        {
+          "src": "blog/pexels-17502436-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 90984
+        },
+        {
+          "src": "blog/pexels-17502436-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 1138170
+        }
+      ],
+      "alt": "Woman holding a phone in front of her face for a selfie",
+      "position": "50% 35%"
+    },
+    {
+      "slug": "read-histogram-for-portraits",
+      "provider": "Pexels",
+      "photoId": "34806640",
+      "source": "https://www.pexels.com/photo/moody-portrait-of-woman-in-dramatic-lighting-34806640/",
+      "photographer": "elif s.",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-21",
+      "download": "https://images.pexels.com/photos/34806640/pexels-photo-34806640.jpeg?cs=srgb&dl=pexels-elif-s-986907269-34806640.jpg&fm=jpg",
+      "original": {
+        "width": 3456,
+        "height": 5184,
+        "bytes": 1263319,
+        "sha256": "1b24d66fff57d131c2ccfbc26d04ef5fe1607911a46e1ecb93a0593faab06080"
+      },
+      "master": "blog/pexels-34806640-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-34806640-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 18330
+        },
+        {
+          "src": "blog/pexels-34806640-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 48560
+        },
+        {
+          "src": "blog/pexels-34806640-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 112396
+        },
+        {
+          "src": "blog/pexels-34806640-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 423578
+        }
+      ],
+      "alt": "Portrait of a woman with bright light across one side of her face and deep shadows around her",
+      "position": "50% 35%"
+    },
     {
       "slug": "fix-mixed-lighting-in-portraits",
       "provider": "Pexels",

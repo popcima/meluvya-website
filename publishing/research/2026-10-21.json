@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Africa/Casablanca",
+  "language": "en",
+  "audience": "Worldwide",
+  "startingCommit": "dbec96e3250d9f3bcee978cb7da37290b98d9cc9",
+  "startingDeployment": {
+    "runId": 39468578498,
+    "conclusion": "success",
+    "site": "https://meluvya.com"
+  },
+  "newArticles": 3,
+  "newArticlesAlreadyPublishedToday": 0,
+  "dailyMaximum": 30,
+  "status": "validated_for_deployment",
+  "reviewType": "AI editorial review; no human approval or hands-on phone/photography testing claimed",
+  "selection": "Publish three distinct workflow/diagnostic gaps rather than another quota-sized expansion. Variants remain within one page per reader intent. Deferred a RAW-versus-JPEG article because the existing formats guide needs closer overlap review; did not create a synonym page.",
+  "libraryReview": "Reviewed all 35 published slugs, section outlines, keyword mappings, and recent research. Read the complete close-selfie, dark-face, and overexposure articles for the nearest overlaps.",
+  "metrics": {
+    "provider": "Free web search and Apple/Adobe primary-source documentation",
+    "geography": "Not geo-controlled; English queries. Worldwide is intended audience, not measured demand geography.",
+    "period": null,
+    "retrieved": "2026-10-21",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "note": "No exact-query volume or organic difficulty available. Prior broad SEMScoop estimates were not applied to these queries. No paid tools or CAPTCHA retries."
+  },
+  "searchConsole": {
+    "property": "sc-domain:meluvya.com",
+    "retrieved": "2026-10-21",
+    "surface": "Overview, authenticated browser",
+    "performance": "Processing data, please check again in a day or so",
+    "indexing": "Processing data, please check again in a day or so",
+    "queryDataAvailable": false,
+    "action": "No repeated indexing requests or sitemap resubmission. Existing verified Domain property and automatically generated sitemap preserved.",
+    "note": "No ranking, traffic, or indexed-page count inferred from processing status."
+  },
+  "articles": [
+    {
+      "slug": "remove-location-from-iphone-photos",
+      "keywordCluster": "iphone-photo-location",
+      "primaryKeyword": "remove location from iPhone photos",
+      "keywordVariants": [
+        "remove photo geotag iPhone",
+        "share iPhone photo without location",
+        "stop iPhone camera saving location"
+      ],
+      "distinctIntent": "Choose between per-share location omission, saved-photo location removal, and future Camera permissions.",
+      "decision": "approved_for_publication",
+      "overlapReview": "The existing file-format, original-preservation, and export-quality guides do not cover geotags or the three distinct location controls.",
+      "contribution": "A goal-to-control table, harmless delivered-copy verification routine, and separate visual-clue checklist.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-ie/guide/personal-safety/ips0d7a5df82/web",
+          "accessed": "2026-10-21",
+          "supports": "Documents saved-location removal and Camera location permissions. Menu grouping can vary by software version."
+        },
+        {
+          "url": "https://support.apple.com/guide/iphone/share-photos-and-videos-iphf28f17237/26/ios/26",
+          "accessed": "2026-10-21",
+          "supports": "Explains Location and All Photos Data sharing options. The practice-copy and visual review checklists are editorial guidance."
+        },
+        {
+          "url": "https://support.apple.com/guide/iphone/see-photo-and-video-information-iph0edb9c18f/27/ios/27",
+          "accessed": "2026-10-21",
+          "supports": "Describes inspecting stored photo information and adjusting its location."
+        }
+      ],
+      "editorialChecks": [
+        "Direct answer matches the question; synonym queries share this URL",
+        "Source claims checked; Apple sharing path explicitly scoped to iOS 26 after current guide differences were observed",
+        "Suggested exercises labeled as guidance, not fabricated test results",
+        "Limitations distinguish outgoing files from originals, reversal from perspective, and rendered clipping from capture loss as applicable",
+        "No new Meluvya features, availability, privacy guarantees, or ranking promises",
+        "Unique licensed photo with 3840-pixel long edge, responsive derivatives, credit, and illustrative caption",
+        "Related guides and inherited end-of-article Meluvya CTA retained"
+      ],
+      "reviewOutcome": "Approved after primary-source editorial review and passing structural, export, and browser checks. No measured volume, competition, traffic, or ranking claim."
+    },
+    {
+      "slug": "why-iphone-selfies-flip",
+      "keywordCluster": "iphone-selfie-mirroring",
+      "primaryKeyword": "why does my iPhone selfie flip",
+      "keywordVariants": [
+        "mirror front camera iPhone",
+        "stop iPhone selfie flipping",
+        "flip selfie in Photos"
+      ],
+      "distinctIntent": "Diagnose horizontal reversal and choose a future-capture setting or an existing-photo edit.",
+      "decision": "approved_for_publication",
+      "overlapReview": "Read the complete close-selfie perspective guide and mirror-selfie composition guide outline. The former mentions mirroring but teaches distance; the latter concerns a physical mirror. Neither walks through saved-image reversal.",
+      "contribution": "A lettering-based comparison and symptom table distinguishing mirroring, rotation, crop, and perspective.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-ca/guide/iphone/iph1b88429a6/ios",
+          "accessed": "2026-10-21",
+          "supports": "Documents Mirror Front Camera and its relationship to the front-camera frame. The lettering comparison is an editorial exercise."
+        },
+        {
+          "url": "https://support.apple.com/en-ie/guide/iphone/iph0f3ebb1dd/ios",
+          "accessed": "2026-10-21",
+          "supports": "Documents the horizontal Flip operation in Photos and the separate Rotate control."
+        }
+      ],
+      "editorialChecks": [
+        "Direct answer matches the question; synonym queries share this URL",
+        "Source claims checked; Apple sharing path explicitly scoped to iOS 26 after current guide differences were observed",
+        "Suggested exercises labeled as guidance, not fabricated test results",
+        "Limitations distinguish outgoing files from originals, reversal from perspective, and rendered clipping from capture loss as applicable",
+        "No new Meluvya features, availability, privacy guarantees, or ranking promises",
+        "Unique licensed photo with 3840-pixel long edge, responsive derivatives, credit, and illustrative caption",
+        "Related guides and inherited end-of-article Meluvya CTA retained"
+      ],
+      "reviewOutcome": "Approved after primary-source editorial review and passing structural, export, and browser checks. No measured volume, competition, traffic, or ranking claim."
+    },
+    {
+      "slug": "read-histogram-for-portraits",
+      "keywordCluster": "portrait-histogram",
+      "primaryKeyword": "how to read a histogram for portraits",
+      "keywordVariants": [
+        "portrait histogram clipping",
+        "portrait histogram shape",
+        "Lightroom histogram shadows highlights"
+      ],
+      "distinctIntent": "Read a tonal distribution and locate clipping before deciding which portrait areas need correction.",
+      "decision": "approved_for_publication",
+      "overlapReview": "Read the complete dark-face and overexposure guides. Those answer specific recovery problems; this teaches graph interpretation and a location-based warning decision.",
+      "contribution": "A graph-feature table, face/clothing/background priority checklist, and controlled three-version comparison.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/camera-raw/desktop/using/make-color-tonal-adjustments-camera.html",
+          "accessed": "2026-10-21",
+          "supports": "Explains histogram values, RGB ribbons, clipping, and how adjustments change the graph. The portrait priority list and comparison exercise are editorial guidance."
+        },
+        {
+          "url": "https://helpx.adobe.com/lightroom/desktop/edit-photos/edit-photos.html",
+          "accessed": "2026-10-21",
+          "supports": "Documents Show Histogram, shadow and highlight overlays, and the J shortcut in Lightroom desktop."
+        },
+        {
+          "url": "https://www.adobe.com/creativecloud/photography/discover/how-to-read-a-histogram.html",
+          "accessed": "2026-10-21",
+          "supports": "Explains why different subjects and lighting produce different histogram shapes; there is no single correct shape."
+        }
+      ],
+      "editorialChecks": [
+        "Direct answer matches the question; synonym queries share this URL",
+        "Source claims checked; Apple sharing path explicitly scoped to iOS 26 after current guide differences were observed",
+        "Suggested exercises labeled as guidance, not fabricated test results",
+        "Limitations distinguish outgoing files from originals, reversal from perspective, and rendered clipping from capture loss as applicable",
+        "No new Meluvya features, availability, privacy guarantees, or ranking promises",
+        "Unique licensed photo with 3840-pixel long edge, responsive derivatives, credit, and illustrative caption",
+        "Related guides and inherited end-of-article Meluvya CTA retained"
+      ],
+      "reviewOutcome": "Approved after primary-source editorial review and passing structural, export, and browser checks. No measured volume, competition, traffic, or ranking claim."
+    }
+  ],
+  "validation": {
+    "startingCommit": "dbec96e3250d9f3bcee978cb7da37290b98d9cc9",
+    "contentBaseline": "PASS; 38 total, 3 published 2026-10-21, daily cap respected; existing publication dates preserved",
+    "lint": "PASS",
+    "build": "PASS; Next.js 16.4.2 production static export, SITE_URL=https://meluvya.com, NEXT_PUBLIC_BASE_PATH empty",
+    "typecheck": "PASS",
+    "export": "PASS; 43 routes, 38 articles, 2004 local link/asset checks; unique canonicals, titles, descriptions, valid Article and Breadcrumb JSON-LD",
+    "pagination": {
+      "pageCounts": [
+        12,
+        12,
+        12,
+        2
+      ],
+      "uniqueArticles": 38,
+      "page4": "Generated, canonical correct, browser navigation verified"
+    },
+    "robots": "Allows / and names https://meluvya.com/sitemap.xml",
+    "images": "Three unique Pexels originals above 3840 pixels; 3840-long-edge masters and 480/960/1600-width derivatives; visually reviewed; metadata and credits in image-sources.json",
+    "browser": "Chrome mobile: all three new articles inspected; 390px and 320px widths without page overflow; histogram table scrolls horizontally by keyboard; article CTA both store buttons open coming-soon dialog; Escape restores App Store button focus; page 4 navigation works. Desktop article header also inspected.",
+    "localEvidence": "work/blog-publishing-20261021/cta-mobile.png (outside public repository)",
+    "pending": [
+      "normal main push",
+      "GitHub Actions success",
+      "live HTTPS pages, images, and sitemap verification"
+    ]
+  },
+  "existingArticleUpdates": [
+    {
+      "slug": "why-close-selfies-look-different",
+      "change": "Added related link to selfie mirroring guide"
+    },
+    {
+      "slug": "can-you-fix-overexposed-portraits",
+      "change": "Added related link to histogram guide"
+    },
+    {
+      "slug": "edit-photos-without-losing-original",
+      "change": "Added related link to location-sharing guide"
+    }
+  ]
+}
