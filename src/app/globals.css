@@ -497,3 +497,16 @@ footer nav a:hover { color: var(--cyan); }
 @media (prefers-reduced-motion: reduce) {
   .journal-read svg, .journal-card-arrow svg, .related-guides svg { transition: none; }
 }
+
+/* Crawlable topic navigation and editorial transparency. */
+.guide-directory { margin-top: 90px; padding-top: 50px; border-top: 1px solid rgba(180,220,240,.16); scroll-margin-top: 130px; }
+.guide-directory > h2 { font-size: clamp(28px,4vw,44px); letter-spacing: -.035em; }
+.guide-directory p { color: #a9b5c4; line-height: 1.7; max-width: 68ch; }
+.guide-topic-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 40px; margin-top: 36px; }
+.guide-topic-grid h3 { font-size: 23px; margin: 0 0 12px; }
+.guide-topic-grid ul { list-style: none; padding: 0; }
+.guide-topic-grid li { border-top: 1px solid rgba(180,220,240,.12); }
+.guide-topic-grid a { display: block; padding: 13px 0; line-height: 1.5; color: #c2e8f2; text-decoration: underline; text-underline-offset: 4px; }
+.guide-topic-grid a:hover { color: white; }
+.editorial-content { max-width: 780px; margin: 0 auto 100px; }
+@media (max-width: 640px) { .guide-topic-grid { grid-template-columns: 1fr; gap: 24px; } .guide-directory { margin-top: 60px; } }

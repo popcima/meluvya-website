@@ -52,3 +52,7 @@ Record meaningful new publications and failures in the chat. Do not send emails,
 - [Google scaled-content policy](https://developers.google.com/search/docs/essentials/spam-policies#scaled-content): volume without added value can be spam; there is no numeric daily publishing limit in this policy.
 - [Google Trends data](https://support.google.com/trends/answer/4365533?hl=en): relative normalized interest is not absolute volume.
 - [Desktop scheduled tasks](https://learn.chatgpt.com/docs/automations?surface=app): local tasks need the computer and app running.
+
+## Installed SEO suites
+
+Read [seo-workflow.md](seo-workflow.md) for the four installed suites, verified corrections, topic mapping and additional export checks. Their general heuristics supplement this project contract.

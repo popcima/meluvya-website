@@ -14,7 +14,7 @@ function displayDate(date: string) {
 
 export function BlogArticle({ article }: { article: Article }) {
   const url = absoluteUrl(`/blog/${article.slug}/`);
-  const organization = { "@type": "Organization", name: "Meluvya", url: absoluteUrl("/") };
+  const organization = { "@type": "Organization", "@id": absoluteUrl("/#organization"), name: "Meluvya", url: absoluteUrl("/editorial/") };
   const structuredData = [
     { "@context": "https://schema.org", "@type": "BlogPosting", "@id": `${url}#article`, headline: article.title, description: article.description, image: absoluteUrl(`/img/${article.image}`), datePublished: article.published, dateModified: article.modified, author: organization, publisher: { ...organization, logo: { "@type": "ImageObject", url: absoluteUrl("/img/meluvya-icon.png") } }, mainEntityOfPage: { "@type": "WebPage", "@id": url }, inLanguage: "en", wordCount: articleWordCount(article) },
     { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Home", item: absoluteUrl("/") }, { "@type": "ListItem", position: 2, name: "Blog", item: absoluteUrl("/blog/") }, { "@type": "ListItem", position: 3, name: article.title, item: url }] },
@@ -29,7 +29,7 @@ export function BlogArticle({ article }: { article: Article }) {
             <nav className="breadcrumbs" aria-label="Breadcrumb"><a href={assetPath("/")}>Home</a><span aria-hidden="true">/</span><a href={assetPath("/blog/")}>Blog</a></nav>
             <h1>{article.title}</h1>
             <p className="article-summary">{article.summary}</p>
-            <div className="article-meta"><a href={assetPath("/")} rel="author">Meluvya</a><span aria-hidden="true">·</span><time dateTime={article.published}>{displayDate(article.published)}</time><span aria-hidden="true">·</span><span>{readingMinutes(article)} min read</span></div>
+            <div className="article-meta"><a href={assetPath("/editorial/")} rel="author">Meluvya</a><span aria-hidden="true">·</span><time dateTime={article.published}>{displayDate(article.published)}</time><span aria-hidden="true">·</span><span>{readingMinutes(article)} min read</span>{article.modified !== article.published && <><span aria-hidden="true">·</span><span>Updated <time dateTime={article.modified}>{displayDate(article.modified)}</time></span></>}</div>
           </div>
           <figure className="article-hero"><div><BlogImage article={article} sizes="(min-width: 900px) 380px, (min-width: 640px) 42vw, 100vw" eager /></div><figcaption>{article.caption}{article.imageCredit && <> Photo by <a href={article.imageCredit.url}>{article.imageCredit.name} / Pexels</a>.</>}</figcaption></figure>
         </header>
@@ -44,7 +44,7 @@ export function BlogArticle({ article }: { article: Article }) {
               {section.table && <div className="article-table-wrap" role="region" aria-label={`${section.title} comparison table`} tabIndex={0}><table><thead><tr>{section.table.headers.map((heading) => <th key={heading} scope="col">{heading}</th>)}</tr></thead><tbody>{section.table.rows.map((row) => <tr key={row[0]}>{row.map((cell, index) => index === 0 ? <th scope="row" key={cell}>{cell}</th> : <td key={cell}>{cell}</td>)}</tr>)}</tbody></table></div>}
             </section>)}
             <section className="article-section article-questions" id="questions"><h2>Common questions</h2>{article.faq.map((item) => <div key={item.question}><h3>{item.question}</h3><p>{item.answer}</p></div>)}</section>
-            <section className="article-section article-sources" id="sources"><h2>Sources</h2><ul>{article.sources.map((source) => <li key={source.url}><a href={source.url}>{source.title}</a><p>{source.note}</p></li>)}</ul><p className="editorial-note">Drafted with AI assistance. Technical background was checked against the sources above.</p></section>
+            <section className="article-section article-sources" id="sources"><h2>Sources</h2><ul>{article.sources.map((source) => <li key={source.url}><a href={source.url}>{source.title}</a><p>{source.note}</p></li>)}</ul><p className="editorial-note">Drafted with AI assistance. Technical background was checked against the sources above. <a href={assetPath("/editorial/")}>How we create our guides</a>.</p></section>
             <ArticleDownloadCTA />
           </div>
         </div>

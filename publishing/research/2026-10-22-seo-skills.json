@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-22",
+  "request": "Analyze, install and apply four SEO/marketing repositories",
+  "baseline": "ab0023ba0f3d2f6fa35cf54031248f3f544948e2",
+  "editorialDecision": "Improve discovery and transparency for the existing 38 guides rather than create duplicate keyword pages. No new blog articles in this change.",
+  "findings": [
+    {
+      "finding": "Archive groups posts chronologically without a complete topic directory",
+      "action": "Add crawlable topic directory on blog page one, with every guide and an unmapped-content fallback."
+    },
+    {
+      "finding": "Organization byline leads to homepage; AI disclosure has no detailed policy",
+      "action": "Add a truthful editorial policy and link from bylines, disclosures and footer."
+    },
+    {
+      "finding": "Modified dates exist in schema but are not visible",
+      "action": "Display Updated date only when modified differs from first publication."
+    },
+    {
+      "finding": "GEO skill incorrectly equates GPTBot with ChatGPT Search",
+      "action": "Document official crawler correction in adapters and project workflow; keep existing allow-all robots policy."
+    }
+  ],
+  "metrics": {
+    "searchVolume": null,
+    "keywordDifficulty": null,
+    "rankings": null,
+    "reason": "No metrics provider or new Search Console performance measurement used in this implementation."
+  },
+  "sources": [
+    {
+      "url": "https://developers.openai.com/api/docs/bots",
+      "retrieved": "2026-10-22"
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "retrieved": "2026-10-22"
+    }
+  ],
+  "validation": {
+    "content": "Passed against starting commit; 38 articles, zero new articles today.",
+    "lint": "Passed",
+    "productionBuild": "Passed with Next.js Webpack; local Turbopack worker port binding was denied even on escalated retry. Deployment uses normal Turbopack build on GitHub.",
+    "typecheck": "Passed",
+    "export": "44 canonical sitemap routes; full exported-link/schema checks and new SEO foundation checks passed.",
+    "mobile": "390px: topic directory, editorial page and modified article checked without horizontal overflow; topic jump and editorial links worked. Both app buttons opened coming-soon dialog; Escape restored Google Play focus.",
+    "deployment": "Pending commit and GitHub Actions verification."
+  }
+}

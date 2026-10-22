@@ -20,7 +20,7 @@ export function pageMetadata({ title, description, path = "/", image = "golden_h
     openGraph: {
       title, description, url, siteName, type: article ? "article" : "website",
       images: [{ url: imageUrl, alt: title }],
-      ...(article ? { publishedTime: article.published, modifiedTime: article.modified, authors: [absoluteUrl("/")] } : {}),
+      ...(article ? { publishedTime: article.published, modifiedTime: article.modified, authors: [absoluteUrl("/editorial/")] } : {}),
     },
     twitter: { card: "summary_large_image", title, description, images: [imageUrl] },
   };

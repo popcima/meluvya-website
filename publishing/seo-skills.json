@@ -1,0 +1,31 @@
+{
+  "installedOn": "2026-10-22",
+  "host": "Codex",
+  "installation": "Four Codex adapters with complete pinned upstream sources, licenses and references. Optional runtime dependencies, paid integrations and Claude hooks are not activated.",
+  "repositories": [
+    {
+      "repo": "AgriciDaniel/claude-seo",
+      "path": "skills/seo",
+      "name": "claude-seo",
+      "sha": "6be93f45064ffbadced572b5d5c95f55fd263af0"
+    },
+    {
+      "repo": "zubair-trabzada/geo-seo-claude",
+      "path": "geo",
+      "name": "geo-seo-claude",
+      "sha": "989cae01e8ebbc42a9ec798eb9e7cb423f5ec89c"
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "path": "skills/seo-audit",
+      "name": "marketingskills",
+      "sha": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b"
+    },
+    {
+      "repo": "AgriciDaniel/claude-blog",
+      "path": "skills/blog",
+      "name": "claude-blog",
+      "sha": "354442348815a7f0327077ad89af2c43cf4b4ab4"
+    }
+  ]
+}

@@ -41,8 +41,8 @@ jobs:
           NEXT_TELEMETRY_DISABLED: '1'
       - name: Typecheck
         run: npm run typecheck
-      - name: Validate exported pages and internal links
-        run: python3 scripts/check-export.py
+      - name: Validate exported pages, internal links, and SEO foundations
+        run: python3 scripts/check-seo-foundations.py
         env:
           SITE_URL: ${{ vars.SITE_URL }}
       - name: Upload website
