@@ -1,6 +1,47 @@
 import { articles } from "@/lib/articles";
 
 const topics = [
+{
+  "id": "camera-techniques",
+  "title": "Camera controls and capture",
+  "description": "Choose the right capture mode, focus point and moment before you edit.",
+  "slugs": [
+    "iphone-ae-af-lock",
+    "change-live-photo-key-photo",
+    "iphone-burst-photos-select-best-frame",
+    "iphone-macro-close-up-focus",
+    "iphone-photographic-styles-vs-filters",
+    "iphone-live-photo-long-exposure",
+    "phone-panorama-stitching-tips"
+  ]
+},
+{
+  "id": "photo-workflows",
+  "title": "Sharing, printing and preserving photos",
+  "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
+  "slugs": [
+    "raw-vs-jpeg-phone-photography",
+    "photo-print-size-pixels-ppi",
+    "resize-vs-compress-photos-for-upload",
+    "srgb-vs-display-p3-photo-export",
+    "google-photos-original-vs-storage-saver",
+    "icloud-photos-sync-vs-backup",
+    "airdrop-photos-original-data"
+  ]
+},
+{
+  "id": "creative-workflows",
+  "title": "Practical fixes and creative techniques",
+  "description": "Scan a print, correct a distraction or make a deliberate photographic effect.",
+  "slugs": [
+    "scan-printed-photos-with-phone",
+    "clean-phone-camera-lens",
+    "remove-red-eye-from-photos",
+    "fix-perspective-in-phone-photos",
+    "intentional-motion-blur-photography",
+    "selective-color-photo-effect"
+  ]
+},
   {
     "id": "lighting",
     "title": "Light and exposure",

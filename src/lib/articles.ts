@@ -29,6 +29,2870 @@ export type Article = {
 const date = "2026-10-19";
 
 export const articles: Article[] = [
+{
+  "slug": "iphone-ae-af-lock",
+  "title": "How to use AE/AF Lock on iPhone for steadier photo settings",
+  "description": "Learn when to lock iPhone focus and exposure, when to reset them, and why AE/AF Lock cannot keep a moving subject sharp.",
+  "summary": "Learn when to lock iPhone focus and exposure, when to reset them, and why AE/AF Lock cannot keep a moving subject sharp.",
+  "quickAnswer": "Touch and hold your subject in the iPhone Camera preview until AE/AF Lock appears. Adjust brightness with the control beside the focus area, then take the picture. Tap the preview to unlock. Use the lock when the subject distance and lighting stay similar; refocus when either changes.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "what-the-lock-does",
+      "title": "What you are holding steady",
+      "paragraphs": [
+        "AE refers to automatic exposure and AF to autofocus. Apple documents the touchscreen lock as a way to hold focus and exposure settings for subsequent photographs. It gives you a repeatable starting point when you take several pictures of the same setup.",
+        "Think of a seated person beside a window. You might want to compare a relaxed expression with a smile without also changing the camera’s selected focus area. That is a useful situation for a lock. A person walking toward the phone presents a different task because their distance keeps changing."
+      ]
+    },
+    {
+      "id": "set-and-check",
+      "title": "Set the lock, then inspect a saved picture",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Compose first. Decide which face or object is important and keep the phone at the distance you intend to use."
+          },
+          {
+            "text": "Touch and hold that area until the AE/AF Lock indicator appears. Use the nearby brightness control if the preview needs adjustment."
+          },
+          {
+            "text": "Take one picture before starting the full sequence. Enlarge the important detail in Photos and check bright areas as well as the overall appearance."
+          },
+          {
+            "text": "Keep the setup similar for the next frames. If you change seats, move closer, or turn toward a different light, release the lock and establish it again."
+          }
+        ]
+      }
+    },
+    {
+      "id": "three-shot-exercise",
+      "title": "Try a three-shot exercise at a table",
+      "paragraphs": [
+        "Place a mug with lettering beside a window and frame it against the room. Make the lettering your reference detail. Photograph it once with your chosen lock, then make a second frame with a small composition change while keeping the camera-to-mug distance similar.",
+        "For the third frame, move closer and set focus again before photographing. Compare the lettering across the three saved files. The purpose is to learn when your setup needs refreshing, not to prove that locking is always better than automatic operation.",
+        "Use a stationary object for this practice so facial movement does not complicate the comparison. Once the gesture feels familiar, repeat it with a willing seated subject and review the eyes instead of the mug. These are suggested exercises, not reported device tests."
+      ]
+    },
+    {
+      "id": "when-to-unlock",
+      "title": "When the lock becomes the problem",
+      "paragraphs": [
+        "A locked setting can remain inappropriate after the scene changes. If a face becomes soft while the background looks clear, check whether the person or camera moved before reaching for an editing tool. If a cloud passes or someone turns away from the window, reconsider the brightness setting too.",
+        "Locking also does not remove camera shake or subject motion during an exposure. For a night portrait, keep the phone supported and the subject comfortably still; use the separate night-photo guide if motion is the main issue. Do not mistake an AE/AF indicator for a guarantee that the photograph will be sharp."
+      ]
+    },
+    {
+      "id": "different-controls",
+      "title": "Distinguish the touchscreen lock from other controls",
+      "paragraphs": [
+        "Apple also documents an Exposure control and a Preserve Settings option for retaining an exposure adjustment. That preference is not a promise to preserve focus on a person after you reopen Camera.",
+        "On supported iPhones, Camera Control has its own Lock Focus and Exposure setting. With it enabled, a light press and hold maintains the lock; releasing the control ends it. This differs from leaving a touchscreen lock active. Follow the instructions for the control you actually use, and check the visible indicator rather than assuming both gestures behave alike."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I leave AE/AF Lock on for every photo?",
+      "answer": "Use it for a stable setup that benefits from repeated settings. Reconsider it when distance, framing, or illumination changes; automatic focusing may suit a changing scene better."
+    },
+    {
+      "question": "Will it fix a photo that is already blurry?",
+      "answer": "No. This is a capture control. It cannot restore detail missing from an existing photograph."
+    },
+    {
+      "question": "Why do the controls look different on my phone?",
+      "answer": "The cited touchscreen instructions follow Apple’s iOS 26 guide. Camera layout and hardware controls depend on your software and model; use the corresponding version of Apple’s guide."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: iPhone camera tools and exposure lock",
+      "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+      "note": "Touchscreen focus/exposure lock, brightness adjustment, and the separate exposure-preservation control."
+    },
+    {
+      "title": "Apple: Camera Control focus and exposure lock",
+      "url": "https://support.apple.com/en-afri/guide/iphone/iph0c397b154/26/ios/26",
+      "note": "Supported hardware uses a light press-and-hold lock that ends when released. The table exercise is original editorial guidance."
+    }
+  ],
+  "related": [
+    "backlit-phone-portraits",
+    "why-night-phone-photos-are-blurry",
+    "self-timer-portraits-with-phone"
+  ],
+  "image": "blog/pexels-4429463-4k.webp",
+  "imageAlt": "Passenger holding a smartphone beside a car window",
+  "imagePosition": "60% 45%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-4429463-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-4429463-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-4429463-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-4429463-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Ketut Subiyanto",
+    "url": "https://www.pexels.com/photo/anonymous-female-tourist-taking-photo-on-smartphone-sitting-in-car-4429463/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "change-live-photo-key-photo",
+  "title": "How to choose a better key photo from an iPhone Live Photo",
+  "description": "Find a better expression inside a Live Photo, compare frame clarity, and understand the portrait-effect tradeoff before saving.",
+  "summary": "Find a better expression inside a Live Photo, compare frame clarity, and understand the portrait-effect tradeoff before saving.",
+  "quickAnswer": "Open the Live Photo in Photos, choose Edit, then the Live Photo control. Move through its frames, choose Make Key Photo for the moment you prefer, and tap Done. Compare the selected moment at your intended display size before keeping it; a better expression can still be a softer frame.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "check-the-source",
+      "title": "Start with a Live Photo, not a screenshot",
+      "paragraphs": [
+        "A key photo is the still moment that represents a Live Photo. Apple’s capture guide explains that Live Photos include movement and sound around the shutter press. A screenshot or ordinary still image does not contain that extra sequence, so there may be no nearby moment to select.",
+        "Open the picture you actually captured and try playing it. If all you have is a downloaded copy, do not assume it retains the original moving component. Return to the capture in your library when possible before deciding the feature is unavailable."
+      ]
+    },
+    {
+      "id": "choose-a-frame",
+      "title": "Choose a moment for a specific reason",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Watch the short sequence once without editing. Identify what you want to improve: open eyes, a less awkward hand, or a moment before someone turns away."
+          },
+          {
+            "text": "Open Edit and the Live Photo control. Scrub to that moment, choose Make Key Photo, and save with Done."
+          },
+          {
+            "text": "Inspect the selected picture as a still. Look at the eyes, mouth, hands, and the background behind the face."
+          },
+          {
+            "text": "Compare the candidate with the original key moment. Keep the change only if it improves the picture for its intended use."
+          }
+        ]
+      }
+    },
+    {
+      "id": "expression-and-detail",
+      "title": "Judge expression and detail separately",
+      "paragraphs": [
+        "Imagine a group picture with a blink at the main moment. A neighboring frame may show open eyes but also a hand moving across another person. Review every important face before treating the first open-eyed frame as a solution.",
+        "For a candid portrait, narrow the choice to two or three moments. First compare expression at normal viewing size. Then enlarge the same eye or piece of clothing in each candidate to look for smearing. Finally return to normal size and decide whether the difference matters for the place you will share it.",
+        "This selection routine avoids a common trap: choosing an expressive thumbnail without noticing its weaker detail. It is a proposed review method, not a claim that we measured the resolution or processing of every Live Photo frame. If none of the recorded moments is good, the feature cannot create an unrecorded expression."
+      ]
+    },
+    {
+      "id": "portrait-and-editing",
+      "title": "Check effects before committing to a new key moment",
+      "paragraphs": [
+        "Apple warns that changing the key photo of a Live Photo with a portrait effect, taken on iPhone 15 or later, removes that portrait effect. Decide whether the new expression is worth that change before replacing your favorite version.",
+        "Also keep editing and exporting separate. A picture can look correct inside Photos but arrive elsewhere as a different kind of file. Before a substantial edit or a third-party workflow, retain the original Live Photo and inspect a saved or shared copy. Our guide to keeping originals explains why a working version and a delivery copy serve different purposes."
+      ]
+    },
+    {
+      "id": "capture-for-options",
+      "title": "Give yourself better choices next time",
+      "paragraphs": [
+        "Try capturing a quiet pause as well as a lively moment. For the quiet version, ask the person to settle before you press the shutter and wait before lowering the phone. For the lively version, let the movement happen without assuming every instant will make a flattering still.",
+        "Afterward, compare what each sequence offers. If you need many still frames of a deliberate action, consider Burst mode instead. If you want the surrounding sound and movement as a memory, a Live Photo may be the more useful starting point. Neither replaces checking that the main photograph is worth keeping."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I select a moment outside the Live Photo?",
+      "answer": "No. The frame chooser only offers the sequence that was captured. For an expression outside that sequence, use another photograph or retake it."
+    },
+    {
+      "question": "Is changing the key photo the same as trimming?",
+      "answer": "No. Choosing a key moment changes the representative still. Trimming changes the portion that plays; they answer different needs."
+    },
+    {
+      "question": "Should I delete the original after choosing a frame?",
+      "answer": "Keep the original while deciding how to edit and share. Inspect the delivered version before removing anything you may need to revisit."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: edit Live Photos",
+      "url": "https://support.apple.com/en-euro/guide/iphone/iphd8dbb3291/27/ios/27",
+      "note": "Key-photo editing and the loss of a portrait effect when changing the key frame on the specified devices."
+    },
+    {
+      "title": "Apple: take and edit Live Photos",
+      "url": "https://support.apple.com/en-ph/104966",
+      "note": "Explains the captured sequence and sharing behavior. The frame-comparison checklist is editorial guidance."
+    }
+  ],
+  "related": [
+    "iphone-burst-photos-select-best-frame",
+    "edit-photos-without-losing-original",
+    "take-couple-photos-with-phone"
+  ],
+  "image": "blog/pexels-17502436-4k.webp",
+  "imageAlt": "Woman holding a phone in front of her face for a selfie",
+  "imagePosition": "50% 35%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-17502436-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-17502436-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-17502436-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-17502436-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "olga Volkovitskaia",
+    "url": "https://www.pexels.com/photo/a-woman-taking-a-selfie-with-her-phone-17502436/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "iphone-burst-photos-select-best-frame",
+  "title": "How to take iPhone Burst photos and choose the best frame",
+  "description": "Capture a short action sequence with iPhone Burst mode, then select frames for expression, timing, and clarity without keeping every near-duplicate.",
+  "summary": "Capture a short action sequence with iPhone Burst mode, then select frames for expression, timing, and clarity without keeping every near-duplicate.",
+  "quickAnswer": "In the iPhone Camera app, slide the shutter button left and hold to capture a Burst, then lift your finger to stop. Open the Burst thumbnail and its frame selector to mark the pictures you want to save. Choose with a clear priority—expression, action, or sharpness—instead of keeping every similar frame.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "choose-a-moment",
+      "title": "Use a Burst when the timing is uncertain",
+      "paragraphs": [
+        "Burst mode gives you a sequence of still photographs to choose from. Apple documents it for moving subjects and other situations where a range of frames helps. It is useful when a smile, jump, or turning head changes faster than you can confidently time one tap.",
+        "Choose the event before starting. For a person walking across a scene, decide whether you want the beginning of a step, an upright pause, or a glance toward the camera. That decision gives the sequence a purpose and makes editing faster afterward."
+      ]
+    },
+    {
+      "id": "capture",
+      "title": "Capture a short, deliberate sequence",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Use Photo mode and frame with a little room for movement. Start while you can still see the whole action you want."
+          },
+          {
+            "text": "Slide the on-screen shutter left and keep holding it. Release once the useful moment has passed."
+          },
+          {
+            "text": "If that gesture is awkward, Apple offers Settings → Camera → Use Volume Up for Burst. Enable it and try holding the volume-up button."
+          },
+          {
+            "text": "Open the Burst thumbnail. In Apple’s iOS 26 guide, the selector is labeled Burst followed by the frame count. Mark chosen frames and tap Done."
+          }
+        ]
+      }
+    },
+    {
+      "id": "selection-passes",
+      "title": "Make three selection passes",
+      "paragraphs": [
+        "First, reject pictures that miss the intended action: the person is out of frame, a hand hides their face, or the pose has not developed yet. Do not spend time comparing tiny sharpness differences in pictures you would never use.",
+        "Next, compare expression and body shape among the remaining candidates. A technically clear frame may still show an uncomfortable blink or a distracting gesture. For a group, check each face; one strong expression does not compensate for another person being obscured.",
+        "Finally, enlarge the important detail in the small shortlist. Compare the same area in each frame at the same size. Keep a main choice and an alternative only when they offer meaningfully different expressions or compositions. Apple’s suggested-frame dots can be a starting point, but your intended story decides the final selection."
+      ]
+    },
+    {
+      "id": "blur",
+      "title": "When every frame looks soft",
+      "paragraphs": [
+        "A rapid sequence and a short exposure are different things. Adobe’s sharp-photo guidance explains that both camera and subject movement can cause blur during capture. Taking more frames does not guarantee that any one of them freezes a fast-moving hand.",
+        "Compare a fixed background edge with the person. If both look streaked, support the phone and try again. If the background is clear but the person is blurred, ask for a slower movement or move to more useful light. Change one factor, capture another short sequence, and inspect it before continuing.",
+        "For an expressive picture intended for a small display, slight motion may be acceptable. For a close crop of a face, it may not be. Make that decision with the actual saved file instead of assuming a Burst label implies superior quality."
+      ]
+    },
+    {
+      "id": "keep-and-share",
+      "title": "Keep the selection organized",
+      "paragraphs": [
+        "Check that the chosen images appear as the individual photos you expect before deleting an unwanted sequence. Read any keep-or-delete prompt carefully, especially when the moment cannot be repeated.",
+        "For a simple practice session, ask a friend to look away and slowly turn toward you. Capture one Burst, select a single favorite, then explain your choice in one sentence. If you cannot distinguish your five favorites beyond tiny shifts, keep fewer. The exercise trains selection as well as shutter timing; it is not a benchmark or a guaranteed keeper rate."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does Burst guarantee a sharp action photo?",
+      "answer": "No. Timing, focus, available light, camera movement, and subject motion still matter. Review the actual frames."
+    },
+    {
+      "question": "Should I choose every suggested frame?",
+      "answer": "No. Suggestions can help you begin, but they do not know which expression or moment matters to you."
+    },
+    {
+      "question": "Is a Burst the same as a Live Photo?",
+      "answer": "No. A Burst is a set of still photos to select from. A Live Photo preserves a short surrounding sequence with sound and has a separate key-photo editing workflow."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: capture action shots with Burst mode",
+      "url": "https://support.apple.com/guide/iphone/take-burst-mode-shots-ipha42c55cd0/26/ios/26",
+      "note": "Capture gesture, optional volume-up shortcut, frame selection, and suggested-frame dots; labels follow iOS 26."
+    },
+    {
+      "title": "Adobe: how to shoot a sharp photo",
+      "url": "https://www.adobe.com/learn/photoshop/web/adjust-shutter-speed-for-sharp-photo",
+      "note": "Explains movement and exposure duration. Selection passes and the turning exercise are original editorial suggestions."
+    }
+  ],
+  "related": [
+    "change-live-photo-key-photo",
+    "why-night-phone-photos-are-blurry",
+    "take-couple-photos-with-phone"
+  ],
+  "image": "blog/pexels-39820803-4k.webp",
+  "imageAlt": "Couple standing together beneath leafy trees",
+  "imagePosition": "35% 55%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-39820803-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-39820803-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-39820803-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-39820803-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Helena Jankovičová Kováčová",
+    "url": "https://www.pexels.com/photo/romantic-outdoor-portrait-of-couple-in-nature-39820803/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "iphone-macro-close-up-focus",
+  "title": "Why iPhone close-up photos lose focus and how to improve them",
+  "description": "Understand iPhone macro switching, find a usable camera distance, and separate close-focus limits from movement and lighting problems.",
+  "summary": "Understand iPhone macro switching, find a usable camera distance, and separate close-focus limits from movement and lighting problems.",
+  "quickAnswer": "If a close-up looks blurry, move the phone back slightly and let focus settle. On supported iPhones, Camera can switch to the Ultra Wide camera for macro capture; the flower control manages that automatic switch. Start with a still subject in good light and inspect the saved detail before moving closer again.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "distance-first",
+      "title": "Find focus before filling the frame",
+      "paragraphs": [
+        "A larger object on the screen is not useful if its important detail has become soft. Start farther away than your intended crop, focus on a clear feature, and approach slowly. Stop at the last position where that feature remains clear rather than insisting on the closest possible view.",
+        "Apple documents macro capture on supported models using the Ultra Wide camera, at distances as close as two centimeters. That is a supported capability, not a requirement to place every subject exactly two centimeters away. The best working distance for your composition may be farther back."
+      ]
+    },
+    {
+      "id": "macro-control",
+      "title": "Understand the flower control",
+      "paragraphs": [
+        "When an eligible iPhone enters close-up range, Camera can switch cameras automatically. Apple’s macro guide describes the on-screen flower control for disabling or re-enabling that switch. If turning it off leaves the image blurry, Apple suggests backing up or switching to 0.5x.",
+        "The Macro Control setting and its Preserve Settings option affect this behavior on supported devices. They do not add macro hardware to a phone that lacks it. If your controls differ, check your model’s guide rather than following an accessory advertisement that promises to unlock a missing built-in feature."
+      ]
+    },
+    {
+      "id": "flat-subject",
+      "title": "Practice with a flat subject",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Choose a stationary object with visible texture: a leaf on a table, fabric, or a printed label. Begin with enough light to inspect the detail clearly."
+          },
+          {
+            "text": "Keep the phone approximately parallel to the part you want sharp. Avoid making one edge much closer to the camera than the other."
+          },
+          {
+            "text": "Take a frame from a comfortable distance, then a slightly closer frame. Let the focus settle after each move."
+          },
+          {
+            "text": "Compare the same small detail in the saved photographs. Choose the clearer capture and crop modestly if needed; do not judge by the biggest preview alone."
+          }
+        ]
+      }
+    },
+    {
+      "id": "separate-causes",
+      "title": "Separate a focus problem from a motion problem",
+      "paragraphs": [
+        "If one thin slice of the subject is sharp while nearer or farther areas are soft, the issue may be depth of field. Nikon’s close-up guidance explains why the zone of acceptable sharpness is important in macro work and why aligning a flat subject with the camera helps. Its interchangeable-lens aperture settings are not instructions for an iPhone.",
+        "If the whole image shifts or smears, repeat with the phone braced on a stable support and the subject still. A flower moving in a breeze is a harder starting point than a leaf resting on a table. Changing distance will not by itself stop that movement.",
+        "If every camera view remains hazy, check the lens surface. Apple recommends cleaning camera lenses with a microfiber cloth and removing accessories that block or interfere with the camera when troubleshooting image-quality problems. Avoid piling on sharpening before ruling out a dirty lens or obstruction."
+      ]
+    },
+    {
+      "id": "compose-small",
+      "title": "Give the close-up a clear subject",
+      "paragraphs": [
+        "Choose which feature deserves attention: the weave in a sleeve, a petal edge, or a small engraved mark. Reposition until the rest of the frame supports that detail. A close-up that shows several unrelated textures can be harder to read than a slightly wider picture with one clear subject.",
+        "Watch for the phone’s own shadow as you approach. Try moving the object or changing your angle before using a stronger edit to brighten it. Keep living subjects comfortable and undisturbed; a still household object is enough for learning the technique.",
+        "After a successful practice capture, change only one challenge—closer distance, a curved surface, or slight movement. That makes it easier to identify what caused the next problem without treating every soft result as a broken camera."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why does the picture jump when I move closer?",
+      "answer": "On a supported iPhone, automatic macro switching can change the active camera and framing. Watch the macro control and compare the saved result before deciding whether to disable it."
+    },
+    {
+      "question": "Will digital zoom make a blurry close-up sharp?",
+      "answer": "No. Enlarging the view does not solve missed focus. Find a clear capture distance first."
+    },
+    {
+      "question": "Do I need an extra macro lens?",
+      "answer": "First check what your phone already supports and practice at a usable distance. An accessory is a separate optical system with its own limits; it is not required to learn close-up composition."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: macro photos and automatic camera switching",
+      "url": "https://support.apple.com/guide/iphone/take-macro-photos-and-videos-iphfaacf2eb0/26/ios/26",
+      "note": "Supported Ultra Wide macro capture, close-focus distance, flower control, and suggested remedies."
+    },
+    {
+      "title": "Nikon: creative photography at home",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/creative-photography-you-can-do-at-home",
+      "note": "Explains close-up composition, depth of field, and camera alignment. Camera-specific aperture advice is not transferred to iPhone."
+    },
+    {
+      "title": "Apple: camera image-quality troubleshooting",
+      "url": "https://support.apple.com/en-us/102514",
+      "note": "Lens cleaning and removal of interfering accessories."
+    }
+  ],
+  "related": [
+    "photo-sharpening-vs-resolution",
+    "iphone-ae-af-lock",
+    "choose-portrait-background"
+  ],
+  "image": "blog/pexels-35811832-4k.webp",
+  "imageAlt": "Water droplet resting on the edge of a pink flower petal",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-35811832-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-35811832-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-35811832-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-35811832-4k.webp",
+      "width": 2559
+    }
+  ],
+  "imageCredit": {
+    "name": "Robert Schwarz",
+    "url": "https://www.pexels.com/photo/macro-shot-of-water-droplet-on-flower-petal-35811832/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "iphone-photographic-styles-vs-filters",
+  "title": "iPhone Photographic Styles vs filters: what can you change later?",
+  "description": "Check which iPhone style controls apply to your model and photo, then compare a subtle style with a filter without assuming every edit is reversible.",
+  "summary": "Check which iPhone style controls apply to your model and photo, then compare a subtle style with a filter without assuming every edit is reversible.",
+  "quickAnswer": "Photographic Styles are Apple’s capture treatments that can adjust selected colors and tone; filters are a separate editing treatment. Whether you can revise a Style after capture depends on the iPhone generation and the photo’s capture format. Check those requirements before assuming a look can always be removed later.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "start-with-file",
+      "title": "Start with the phone and photo you actually have",
+      "paragraphs": [
+        "Apple distinguishes ordinary Photographic Styles support from support for its newer generation of Styles. The iOS 26 compatibility list includes iPhone 16, 16 Plus, 16 Pro, 16 Pro Max, iPhone 17, 17 Pro, 17 Pro Max, and iPhone Air. Do not extend that list to a similarly named model without checking.",
+        "For eligible later editing, Apple requires High Efficiency capture, selected under Settings → Camera → Formats. Changing that setting today is not a promise that an older exported JPEG will gain editable Style information. Inspect the specific photo in Photos rather than relying only on the phone’s model name."
+      ]
+    },
+    {
+      "id": "difference",
+      "title": "Choose based on the change you need",
+      "paragraphs": [
+        "Apple describes Styles as adjustments that respond to different parts and colors of a photograph. Its Photos documentation separately provides filters and ordinary light/color adjustments. These are different controls, and their availability depends on the device and image. Apple’s iOS 26 guide says filters on iPhone 16 models and later are available when Photographic Styles have not been enabled. If Filters is missing, check that condition and the guide for your software version.",
+        "If your aim is simply to make one saved picture a little warmer, begin with the ordinary editing controls available for that file. If you want a preferred starting treatment for new captures, explore Styles in Camera. Neither choice requires claiming that every style is more natural or that a filter is inherently worse."
+      ],
+      "table": {
+        "headers": [
+          "Your aim",
+          "Useful starting point",
+          "What to inspect"
+        ],
+        "rows": [
+          [
+            "Choose a mood before capture",
+            "Available Camera Styles",
+            "Face, neutral clothing, and bright details"
+          ],
+          [
+            "Revise an eligible captured Style",
+            "Photos → Edit → Styles",
+            "Whether the Style control exists for this photo"
+          ],
+          [
+            "Adjust an imported picture",
+            "Available photo adjustments or filters",
+            "Whether the result solves the intended problem"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "make-a-fair-comparison",
+      "title": "Make a comparison you can actually judge",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Choose a scene with a face or familiar object, some neutral material, and a colored background. Avoid changing location halfway through the comparison."
+          },
+          {
+            "text": "Capture a restrained version and a stronger interpretation using the controls available on your phone. Keep the framing and subject position as similar as practical."
+          },
+          {
+            "text": "Compare at the same screen brightness and size. Look first at the subject, then the background; a dramatic background is not helpful if it makes the main subject unpleasant."
+          },
+          {
+            "text": "For a photo with an editable Style, reopen it in Photos and confirm the adjustments you expect are actually available. Keep your original before testing another app or export workflow."
+          }
+        ]
+      }
+    },
+    {
+      "id": "editing-later",
+      "title": "Understand the limit of editing later",
+      "paragraphs": [
+        "On eligible photos, Apple’s Photos guide lets you open Edit, choose Styles, and revise the available style controls. It also describes filter controls where supported. Do not use a screenshot of someone else’s editing screen as evidence that your imported file has the same options.",
+        "For a practical check, create one unimportant sample using your current capture settings. Reopen it, inspect the tools, and make a small change. Then compare a shared copy separately. A plain image delivered to another app should be treated as its own file, not assumed to carry every adjustable component of the library original.",
+        "This guidance is based on the linked documentation, with no hands-on device or sharing tests claimed. Menu names and supported combinations can change; the linked model list and the version selector in Apple’s guide are the reference points for your device."
+      ]
+    },
+    {
+      "id": "avoid-overediting",
+      "title": "Stop when the treatment supports the picture",
+      "paragraphs": [
+        "Before stacking another effect, name the remaining problem. Is a white shirt tinted, does a face lack detail, or does the whole scene feel too contrasty? A specific problem deserves a specific adjustment. Another broad treatment may complicate it.",
+        "For a set of portraits, choose one image to establish the intended mood, then check the rest individually. A look that suits a shaded café picture may need restraint on a sunlit face. Use our consistency guide for that comparison instead of trying to make every photograph share identical settings."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I change every Photographic Style after taking the photo?",
+      "answer": "Do not assume so. Apple ties the later-editing workflow to supported generations and High Efficiency capture. Verify the controls on the actual photo."
+    },
+    {
+      "question": "Are Styles the same as AI portrait generation?",
+      "answer": "No. These Apple controls concern photographic appearance. Generative portrait tools can create or replace visual content, which is a different editing task."
+    },
+    {
+      "question": "Which style is best for skin?",
+      "answer": "There is no single choice for every face, lighting setup, or preference. Compare a restrained treatment against your starting picture and keep the version that fits your intent."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: use Photographic Styles",
+      "url": "https://support.apple.com/guide/iphone/use-photographic-styles-iph629d2cd37/26/ios/26",
+      "note": "Styles behavior, model-dependent controls, and the High Efficiency requirement for later editing."
+    },
+    {
+      "title": "Apple: models supporting newer Photographic Styles",
+      "url": "https://support.apple.com/guide/iphone/aside/iph2c22a8a5e/26/ios/26",
+      "note": "Explicit iOS 26 model list; not generalized to every device with a similar name."
+    },
+    {
+      "title": "Apple: edit photos and videos",
+      "url": "https://support.apple.com/guide/iphone/edit-photos-and-videos-iphb08064d57/26/ios/26",
+      "note": "Style and filter editing workflows on eligible photos; available options vary."
+    }
+  ],
+  "related": [
+    "ai-photo-effects-vs-filters",
+    "consistent-editing-for-photo-set",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-33301143-4k.webp",
+  "imageAlt": "Man standing beneath a tree in warm golden light",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-33301143-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-33301143-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-33301143-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-33301143-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Mohammad Kashkooli",
+    "url": "https://www.pexels.com/photo/golden-hour-portrait-in-sundrenched-field-33301143/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "iphone-live-photo-long-exposure",
+  "title": "How to make a Live Photo long exposure on iPhone",
+  "description": "Use a Live Photo to soften moving water, keep fixed details clear, and understand the limits of Apple’s simulated Long Exposure effect.",
+  "summary": "Use a Live Photo to soften moving water, keep fixed details clear, and understand the limits of Apple’s simulated Long Exposure effect.",
+  "quickAnswer": "Capture moving water as a Live Photo while holding the iPhone steady. Open it in Photos, tap the Live menu, and choose Long Exposure. Apple describes this as a simulated long-exposure effect that blurs motion; it is not the same as choosing a manual shutter duration in the Camera app.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "choose-motion",
+      "title": "Choose what should move and what should stay clear",
+      "paragraphs": [
+        "A waterfall beside a fixed rock gives the effect a clear job: soften the water while keeping the setting recognizable. A frame filled entirely with moving water gives you fewer fixed details to judge whether the whole picture has become messy.",
+        "Adobe’s motion-blur guidance distinguishes motion in the scene from camera shake and recommends stable support when the background should remain clear. Apply that idea to the composition, but do not copy DSLR shutter and aperture instructions into the Live Photo menu. The phone effect offers a different workflow."
+      ]
+    },
+    {
+      "id": "capture-and-apply",
+      "title": "Capture and apply the effect",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Find a stable, dry position with a view of the water and a stationary edge. Keep the phone secure and stay away from slippery edges."
+          },
+          {
+            "text": "In Camera’s Photo mode, make sure Live Photo is enabled. Apple’s capture guide notes that Live Photos are unavailable while ProRAW or HEIF Max is enabled."
+          },
+          {
+            "text": "Compose, pause, and take the picture without immediately lowering the phone. Keep the same framing through the surrounding moment."
+          },
+          {
+            "text": "Open the saved Live Photo in Photos, use its Live menu, and select Long Exposure. Inspect both the water and the fixed edge in the result."
+          }
+        ]
+      }
+    },
+    {
+      "id": "review-the-result",
+      "title": "Review the effect in three places",
+      "paragraphs": [
+        "First inspect the main moving area. Does the water read as a deliberate soft flow, or has the texture become an indistinct white patch? A softer treatment is not automatically better if it removes the feature that attracted you to the scene.",
+        "Next inspect a stationary object such as a stone, wall, or bridge. If it looks doubled or smeared, repeat the capture with better support and a simpler composition. Compare the files before adding sharpening, which may make unwanted edges more noticeable.",
+        "Finally check boundaries where motion crosses still objects. Leaves waving in front of a waterfall, a person stepping through the frame, or spray crossing a dark rock can make the effect less tidy. Try a viewpoint that reduces those intersections rather than expecting every moving detail to blend neatly."
+      ]
+    },
+    {
+      "id": "controlled-practice",
+      "title": "Try a modest fountain comparison",
+      "paragraphs": [
+        "Choose a small fountain you can photograph safely from a fixed position. Make one frame with a large amount of surrounding architecture and another focused more tightly on the falling water. Apply the effect to each and compare which version still explains the place.",
+        "Keep the better composition and make a second capture with improved support. Judge whether the fixed edges improved while the water retained the movement you wanted. This is a suggested exercise; no success rate, ideal shutter time, or device comparison has been measured here.",
+        "If the effect still looks awkward, keep the ordinary photograph. A visible splash can tell a clearer story than a smooth stream, and a quiet pool may not contain enough movement to produce the result you imagined."
+      ]
+    },
+    {
+      "id": "sharing-and-limits",
+      "title": "Keep the source and check the shared result",
+      "paragraphs": [
+        "Preserve the Live Photo while choosing your final treatment. Apple cautions that third-party editing can lose Live Photo effects, so check the result when you move between apps rather than assuming the presentation will remain identical.",
+        "Before posting, open the delivered copy or preview and confirm that it shows the intended effect. Avoid treating a thumbnail in the original library as proof of what another person receives.",
+        "If you need exact control over exposure duration, a longer recording window, or a repeatable technical capture, this simple effect may not be enough. Start by identifying that requirement; adding heavier blur afterward does not turn this workflow into a measured manual exposure."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I apply this to an ordinary still photo?",
+      "answer": "This workflow needs a Live Photo with its motion component. A still image does not contain the surrounding recorded movement."
+    },
+    {
+      "question": "Does the effect make a blurry photograph sharp?",
+      "answer": "No. Its purpose is to portray motion. Poorly defined fixed objects remain a reason to improve capture or choose another frame."
+    },
+    {
+      "question": "Must I photograph water?",
+      "answer": "No. Water is a useful practice subject because its motion is easy to recognize. Other moving subjects may work, but inspect fixed details and motion boundaries in each result."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: edit Live Photos and apply effects",
+      "url": "https://support.apple.com/en-euro/guide/iphone/iphd8dbb3291/27/ios/27",
+      "note": "Documents Long Exposure as a simulation and where to select it."
+    },
+    {
+      "title": "Apple: capture Live Photos",
+      "url": "https://support.apple.com/en-euro/guide/iphone/iph17471d6de/26/ios/26",
+      "note": "Capture workflow and incompatibility with ProRAW or HEIF Max."
+    },
+    {
+      "title": "Adobe: motion blur photography",
+      "url": "https://www.adobe.com/creativecloud/photography/technique/motion-blur.html",
+      "note": "General distinction between intentional scene motion and camera shake; not evidence of an iPhone benchmark."
+    },
+    {
+      "title": "Apple: Live Photo editing and sharing",
+      "url": "https://support.apple.com/en-ph/104966",
+      "note": "Third-party editing can lose Live Photo effects. The fountain exercise is editorial guidance."
+    }
+  ],
+  "related": [
+    "change-live-photo-key-photo",
+    "why-night-phone-photos-are-blurry",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-10047127-4k.webp",
+  "imageAlt": "Water flowing over a forest waterfall with soft motion trails",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-10047127-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-10047127-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-10047127-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-10047127-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Jeremy Wong",
+    "url": "https://www.pexels.com/photo/a-long-exposure-shot-of-a-waterfall-10047127/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "phone-panorama-stitching-tips",
+  "title": "Phone panorama tips: avoid broken lines and duplicated people",
+  "description": "Plan a shorter panorama, keep the camera position steady, and inspect seams before leaving the scene. Includes the iPhone Pano workflow.",
+  "summary": "Plan a shorter panorama, keep the camera position steady, and inspect seams before leaving the scene. Includes the iPhone Pano workflow.",
+  "quickAnswer": "For a cleaner phone panorama, choose a mostly still scene, pan smoothly from one position, and stop once the useful composition is complete. On iPhone, use Pano mode and keep the arrow on its guide line. Inspect railings, horizons, and moving people in the saved image for stitching mistakes.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "plan-the-frame",
+      "title": "Decide where the photograph should begin and end",
+      "paragraphs": [
+        "A panorama should include something a normal frame cannot communicate well: a long landscape, the relationship between buildings, or a tall interior. It does not have to cover the widest angle the phone will accept.",
+        "Before capturing, sweep your gaze across the proposed view. Pick a beginning that introduces the scene and an end that closes it. Check whether a bright doorway, nearby railing, or passing crowd makes part of the sweep harder than the rest. A shorter composition can be more convincing than a broad image with obvious errors."
+      ]
+    },
+    {
+      "id": "iphone-steps",
+      "title": "Make an iPhone Pano capture",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Open Camera and choose Pano. Aim at your intended starting point before pressing the shutter."
+          },
+          {
+            "text": "Pan slowly in the arrow’s direction and keep the arrow on the center guide. Avoid walking sideways while sweeping."
+          },
+          {
+            "text": "Press the shutter again when you reach your planned ending. You do not need to include empty space just to continue the motion."
+          },
+          {
+            "text": "To reverse the capture direction, tap the arrow. Apple also documents vertical panoramas: hold the phone in landscape orientation and pan vertically."
+          }
+        ]
+      }
+    },
+    {
+      "id": "position",
+      "title": "Keep the camera position consistent",
+      "paragraphs": [
+        "A panorama joins different views of a scene. Adobe’s Camera Raw team explains that alignment becomes more difficult when nearby objects shift relative to distant ones as the camera position changes. This is parallax, and it matters particularly with close foreground objects.",
+        "For a handheld phone capture, aim for a smooth turn around a steady position rather than a large sideways arc. Step away from a nearby fence or table when possible, or remove it from the composition. These practical choices reduce a difficult alignment situation; they do not guarantee perfect stitching.",
+        "A dedicated camera panorama head offers more precise control, but buying one is not the first step for a casual phone photograph. Start with a distant, static scene and a modest sweep. Add a close foreground only after you can recognize how it changes the result."
+      ]
+    },
+    {
+      "id": "motion-and-seams",
+      "title": "Check the parts most likely to reveal a seam",
+      "paragraphs": [
+        "A person who moves during the sweep can appear differently across the captured views. Treat busy pedestrian areas as a difficult subject. Wait for a quieter interval, change your framing, or take a normal photo when an accurate record of people matters."
+      ],
+      "table": {
+        "headers": [
+          "Inspect",
+          "Look for",
+          "Next capture to try"
+        ],
+        "rows": [
+          [
+            "Railings and roof edges",
+            "A break, jump, or doubled segment",
+            "Keep position steadier or exclude very near objects"
+          ],
+          [
+            "People and vehicles",
+            "Repeated or incomplete shapes",
+            "Wait for less movement or use a single frame"
+          ],
+          [
+            "Horizon and image edges",
+            "A rising line or uncomfortable crop",
+            "Follow the guide more evenly and shorten the sweep"
+          ],
+          [
+            "Bright and dark ends",
+            "A distracting difference across the scene",
+            "Choose a more even view or a different time"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "practice-and-finish",
+      "title": "Practice with a shorter version before editing",
+      "paragraphs": [
+        "At a viewpoint, make one panorama covering only the central subject and another covering a wider span. Inspect both at full width, then enlarge the same architectural edges or horizon details. Choose the version whose extra coverage adds useful context.",
+        "This comparison separates two decisions: whether the composition needs more width and whether the capture can support it cleanly. Do not assume the longer file wins because it contains more scene.",
+        "Crop unwanted empty edges if needed, but inspect the important geometry before applying a strong look. A color treatment cannot reliably repair a missing section of railing. If a seam cuts through the main subject, retaking while you are still there is often the clearest option.",
+        "For another phone brand, use its own panorama instructions. The smooth movement and seam review are general photographic guidance; the arrow controls and vertical-panorama gesture above specifically follow Apple’s iOS 26 guide."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why does someone appear twice in my panorama?",
+      "answer": "The scene is captured across time while you pan. A moving person can enter more than one part of the sequence. Try a quieter moment or a single-frame photograph."
+    },
+    {
+      "question": "Can I make a vertical panorama?",
+      "answer": "Apple documents this by rotating the phone to landscape orientation and panning vertically in Pano mode. Check the instructions for your device if using another camera app."
+    },
+    {
+      "question": "Can a crop fix a stitching error?",
+      "answer": "It can remove an unwanted edge if the error is outside the part you need. It cannot restore an important object that was stitched incorrectly inside the composition."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: take panoramic photos",
+      "url": "https://support.apple.com/en-asia/guide/iphone/iph7e06402b4/26/ios/26",
+      "note": "Pano capture, arrow guide, reversed direction, and vertical capture."
+    },
+    {
+      "title": "Adobe Camera Raw team: merge to panorama",
+      "url": "https://blog.adobe.com/en/publish/2020/01/16/from-the-acr-team-merge-to-panorama",
+      "note": "Explains fixed-position capture and foreground/background parallax. Its desktop merge controls are not presented as phone features."
+    }
+  ],
+  "related": [
+    "choose-portrait-background",
+    "how-to-crop-portrait-photos",
+    "iphone-ae-af-lock"
+  ],
+  "image": "blog/pexels-23203338-4k.webp",
+  "imageAlt": "Green mountain ridges beneath a blue sky",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-23203338-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-23203338-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-23203338-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-23203338-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Ella Ragasa",
+    "url": "https://www.pexels.com/photo/panorama-of-a-mountain-landscape-23203338/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "raw-vs-jpeg-phone-photography",
+  "title": "RAW vs JPEG on a phone: when is RAW worth keeping?",
+  "description": "Choose RAW for editing flexibility or JPEG for a simpler workflow. Understand ProRAW, storage tradeoffs, and what a RAW file cannot repair.",
+  "summary": "Choose the capture format around the edit you plan to make, then keep a separate file for sharing.",
+  "quickAnswer": "Use RAW when you need room to adjust exposure and white balance and have an editor that supports your phone’s files. Choose JPEG, or your phone’s normal HEIF mode, when a ready-to-share result and smaller files matter more. RAW is a capture and editing choice; it does not fix missed focus or guarantee recoverable highlights.",
+  "sections": [
+    {
+      "id": "different-jobs",
+      "title": "Separate capture from delivery",
+      "paragraphs": [
+        "A camera-produced JPEG already has a rendered appearance. A RAW workflow gives an editor more of the capture information to interpret before making a finished image. Adobe demonstrates the difference with exposure and white-balance adjustments. That flexibility is useful only if you intend to do something with it.",
+        "Consider two portraits: a quick lunch picture you want to send immediately, and a carefully framed window portrait you plan to refine later. The lunch picture may need no additional capture complexity. The window portrait may justify a RAW original if the bright window and shaded face need careful tonal decisions.",
+        "Keeping RAW does not mean sending RAW to everyone. The working source and the finished sharing copy can have different formats. Our JPEG, HEIC and PNG guide covers that delivery decision; this guide covers whether to capture and retain a RAW source."
+      ]
+    },
+    {
+      "id": "decision",
+      "title": "Match the format to the job",
+      "table": {
+        "headers": [
+          "Situation",
+          "Practical starting point",
+          "Check"
+        ],
+        "rows": [
+          [
+            "Quick everyday sharing",
+            "Normal JPEG or HEIF capture",
+            "Review the camera result before sending."
+          ],
+          [
+            "Substantial color or exposure adjustment",
+            "RAW in a supported workflow",
+            "Keep the source and export a finished copy."
+          ],
+          [
+            "A large batch with limited storage",
+            "Use RAW selectively",
+            "Test file sizes before committing to the entire session."
+          ],
+          [
+            "A recipient who only needs the finished picture",
+            "A compatible rendered export",
+            "Keep RAW separately for future revisions."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "proraw",
+      "title": "Apple ProRAW is a particular RAW workflow",
+      "paragraphs": [
+        "Apple says ProRAW combines standard RAW information with iPhone processing. It uses DNG files and needs a compatible device and application. Do not assume every phone, lens setting, camera mode, or editor has the same support.",
+        "The presence of a DNG filename does not promise identical rendering in every application. Apple notes that an app without ProRAW support may display the file differently. Before an important session, open one sample in the editor you actually intend to use and confirm that you can export it successfully.",
+        "This is not a list of Meluvya import capabilities. RAW support has not been verified for Meluvya, so prepare an appropriate supported input rather than assuming a DNG will work."
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Try one controlled comparison before changing your habit",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Choose a repeatable scene.",
+            "text": "Use a still subject with a bright area and a darker area. Keep the viewpoint and lighting stable so you are not comparing entirely different photographs."
+          },
+          {
+            "title": "Capture the available formats.",
+            "text": "Use RAW plus JPEG if your camera offers it, or take separate examples while noting that differences in timing and processing can affect the comparison."
+          },
+          {
+            "title": "Make the edit you actually need.",
+            "text": "Try a modest brightness and white-balance correction. Compare the final rendered exports at equal dimensions, not a RAW preview against a full-size JPEG."
+          },
+          {
+            "title": "Count the storage cost.",
+            "text": "Inspect the file sizes from your device. Estimate a session from those samples, and include backup space. A manufacturer’s example size is not a guarantee for your scene."
+          }
+        ]
+      }
+    },
+    {
+      "id": "limits",
+      "title": "Decide what is worth retaining",
+      "paragraphs": [
+        "A softer preview does not by itself mean the RAW capture failed. Judge the edited result in a compatible application. Conversely, a larger file is not evidence of sharper eyes, better timing, or better light. Those decisions still happen while photographing.",
+        "RAW also has limits. If a highlight contains no recoverable capture information, moving a slider cannot reveal the original texture. If the subject moved during the exposure, a different file extension does not undo that movement.",
+        "For a useful portrait, retain the original source, your editable adjustments where supported, and a finished export. For routine pictures where the normal camera result already meets your needs, a simpler workflow can be the sensible choice."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I turn a JPEG into a real RAW capture?",
+      "answer": "Saving a JPEG inside a different container cannot recreate capture information that the JPEG no longer contains. Keep the original RAW at capture time if you need it."
+    },
+    {
+      "question": "Does RAW always look better straight from the camera?",
+      "answer": "No. Rendering, processing and viewing software affect the preview. Compare finished edits for your intended use instead of treating the first preview as a quality ranking."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: benefits of shooting in RAW",
+      "url": "https://www.adobe.com/learn/lightroom-classic/web/raw-photography",
+      "note": "Demonstrates editing latitude and a RAW-to-JPEG delivery workflow; retrieved October 22, 2026."
+    },
+    {
+      "title": "Apple: About Apple ProRAW",
+      "url": "https://support.apple.com/en-us/119916",
+      "note": "ProRAW processing, DNG compatibility and storage considerations; retrieved October 22, 2026."
+    }
+  ],
+  "related": [
+    "jpeg-heic-png-photo-formats",
+    "can-you-fix-overexposed-portraits",
+    "edit-photos-without-losing-original"
+  ],
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "image": "blog/pexels-15558373-4k.webp",
+  "imageAlt": "Photographer working beside a laptop, drawing tablet, and camera",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-15558373-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-15558373-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-15558373-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-15558373-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Kawê Rodrigues",
+    "url": "https://www.pexels.com/photo/man-editing-photos-with-use-of-laptop-and-tablet-15558373/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "photo-print-size-pixels-ppi",
+  "title": "How large can you print a photo? Pixels, inches and PPI",
+  "description": "Calculate print size from pixel dimensions, check the crop, and understand why changing a PPI label does not create missing detail.",
+  "summary": "A useful print-size estimate starts with the pixels remaining after the crop, followed by the printer’s requirements.",
+  "quickAnswer": "Divide each pixel dimension by the intended print dimension in inches to calculate pixels per inch. For example, 3000 × 2400 pixels printed at 10 × 8 inches gives 300 PPI. Use the printer or lab’s requested resolution, check the crop, and judge a proof; pixel count alone cannot guarantee a sharp print.",
+  "sections": [
+    {
+      "id": "three-measurements",
+      "title": "Read the three measurements separately",
+      "paragraphs": [
+        "Pixel dimensions describe the image grid, such as 3000 × 2400 pixels. Print dimensions describe its size on paper. PPI describes how many image pixels fit into each printed inch. Adobe’s print-resolution documentation distinguishes those measurements from one another.",
+        "A file’s megabyte size is not a substitute for its dimensions. A heavily compressed image and a lightly compressed image can share the same width and height while looking different. Find the dimensions of the actual file you will upload, not the camera’s advertised megapixel count.",
+        "Printer DPI is another measurement: it concerns the printer’s output dots. You do not need one image pixel for every ink dot. Ask for the lab’s image-resolution requirement rather than copying a large DPI number from a printer specification."
+      ]
+    },
+    {
+      "id": "calculate",
+      "title": "Use the calculation on your final crop",
+      "paragraphs": [
+        "At a chosen PPI, required pixels equal print inches multiplied by PPI. The examples below use 300 PPI as a planning value, not a universal quality cutoff. Your lab may request another value, particularly for a large print viewed from farther away.",
+        "For measurements in centimeters, divide by 2.54 to get inches first. A 20.32 × 25.4 cm print is 8 × 10 inches; the order simply depends on orientation."
+      ],
+      "table": {
+        "headers": [
+          "Print size",
+          "Pixels at 300 PPI",
+          "Long-side to short-side ratio"
+        ],
+        "rows": [
+          [
+            "4 × 6 in",
+            "1200 × 1800 px",
+            "3:2"
+          ],
+          [
+            "5 × 7 in",
+            "1500 × 2100 px",
+            "7:5"
+          ],
+          [
+            "8 × 10 in",
+            "2400 × 3000 px",
+            "5:4"
+          ],
+          [
+            "12 × 18 in",
+            "3600 × 5400 px",
+            "3:2"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "crop",
+      "title": "Check the shape before counting pixels",
+      "paragraphs": [
+        "A 4000 × 3000 image has a 4:3 shape. An 8 × 10 print has a 5:4 shape. Filling the paper without stretching requires a crop. In landscape orientation, a 3750 × 3000 crop fits a 10 × 8 print and supplies 375 PPI. These figures are arithmetic examples, not measured print results.",
+        "Preview the crop around hair, hands and shoulders before ordering. If the crop removes something important, choose borders or a differently shaped print. Stretching the picture to fit can change facial proportions.",
+        "Recalculate using the cropped dimensions. A large original does not help if the version you intend to print is a small crop or a downloaded preview."
+      ]
+    },
+    {
+      "id": "resampling",
+      "title": "A resolution label cannot create captured detail",
+      "paragraphs": [
+        "Adobe explains that changing physical size and PPI without resampling leaves the pixel count alone. A 1500-pixel edge at 150 PPI is ten inches long; at 300 PPI it is five inches long. The image has not gained detail.",
+        "Resampling changes the pixel grid. Enlarging may be necessary for a printer’s submission requirements, but inspect the result rather than assuming the larger numbers prove an improvement. Return to a higher-resolution source when one exists.",
+        "For an AI-upscaled portrait, compare facial features and accessories with the source before printing. A plausible-looking added texture is not necessarily detail the camera captured."
+      ]
+    },
+    {
+      "id": "proof",
+      "title": "Make a small proof when the picture matters",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Start with the correct source.",
+            "text": "Use the final edited file at its intended crop, with the lab’s requested format and color settings."
+          },
+          {
+            "title": "Inspect detail and artifacts.",
+            "text": "Look at eyes, hair, smooth backgrounds and sharp edges. Obvious blur or compression damage can remain even when the pixel dimensions satisfy the upload form."
+          },
+          {
+            "title": "Check the order preview.",
+            "text": "Confirm orientation, borders, automatic crop and any optional automatic corrections before submitting."
+          },
+          {
+            "title": "Evaluate a proof.",
+            "text": "For an important enlargement, consider a small sample of the image at the intended reproduction scale. Inspect it in the light and at the distance where the final print will be viewed."
+          }
+        ]
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is 300 PPI compulsory for every photo print?",
+      "answer": "No. It is a common planning value, but the print process, viewing distance and source quality matter. Follow the lab’s requirements and use a proof for uncertain enlargements."
+    },
+    {
+      "question": "Why does my photo say 72 PPI?",
+      "answer": "That label alone does not tell you how much detail the file contains. Check its pixel dimensions and calculate PPI at your intended print size."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: printed image resolution",
+      "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/printed-image-resolution.html",
+      "note": "Relationship between pixel dimensions, physical size and PPI; retrieved October 22, 2026."
+    },
+    {
+      "title": "Adobe: printer resolution",
+      "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/printer-resolution.html",
+      "note": "Distinguishes printer DPI from image PPI and recommends checking the output process; retrieved October 22, 2026."
+    },
+    {
+      "title": "Adobe: changing print dimensions and resolution",
+      "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/change-print-dimensions-and-resolution.html",
+      "note": "Changing print size without resampling and using printer-specific requirements; retrieved October 22, 2026."
+    }
+  ],
+  "related": [
+    "how-to-crop-portrait-photos",
+    "photo-sharpening-vs-resolution",
+    "why-saved-photos-lose-quality"
+  ],
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "image": "blog/pexels-4992637-4k.webp",
+  "imageAlt": "Film cameras, lenses, and film rolls on a wooden table",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-4992637-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-4992637-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-4992637-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-4992637-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Rachel Claire",
+    "url": "https://www.pexels.com/photo/vintage-camera-near-lens-and-camera-roll-on-table-4992637/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "resize-vs-compress-photos-for-upload",
+  "title": "Resize or compress a photo? How to meet an upload limit",
+  "description": "Separate pixel limits from file-size limits, make a suitable export, and check quality before uploading your photo.",
+  "summary": "A smaller file is not always a smaller picture. Use the upload requirement to choose which export control to change.",
+  "quickAnswer": "Resize when you need different pixel dimensions; adjust compression when you need fewer file bytes. Many upload limits require both. Read the accepted format, minimum dimensions and maximum file size first, then export a copy and inspect it. Reducing a PPI label is not a dependable way to meet a web upload limit.",
+  "sections": [
+    {
+      "id": "requirements",
+      "title": "Write down the actual rejection",
+      "paragraphs": [
+        "“Image too large” can mean several things: too many pixels, too many megabytes, or even the wrong file format. Copy the exact requirement before changing your photo. Reducing the wrong property can make the image worse without fixing the problem.",
+        "For a hypothetical form that requires JPEG, a long edge of at least 1600 pixels and a file below 2 MB, all three conditions must be satisfied. A tiny 800-pixel file is not acceptable just because it falls below the byte limit. These example values describe a made-up form, not a platform recommendation.",
+        "Use a copy so each attempt starts from the same full-quality source. Our guide to saved-photo quality explains why an export can deteriorate; this guide is about choosing an efficient sequence when an upload has specific limits."
+      ]
+    },
+    {
+      "id": "controls",
+      "title": "Match each control to what it changes",
+      "table": {
+        "headers": [
+          "Control",
+          "Main effect",
+          "Use it"
+        ],
+        "rows": [
+          [
+            "Pixel resizing",
+            "Width and height of the image grid",
+            "When the destination requests dimensions or needs a smaller image."
+          ],
+          [
+            "JPEG quality/compression",
+            "How much detail is retained in the encoded file",
+            "When the picture has suitable dimensions but too many bytes."
+          ],
+          [
+            "Format conversion",
+            "The encoding and compatibility",
+            "When the destination rejects the original format."
+          ],
+          [
+            "Crop",
+            "The composition and aspect ratio",
+            "When the required shape differs; review the face and edges."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "example",
+      "title": "Why halving the sides is a major reduction",
+      "paragraphs": [
+        "A 4000 × 3000 image contains 12 million pixels. A 2000 × 1500 version contains 3 million. Halving both sides leaves one quarter of the pixel count, not one half. This is simple dimension arithmetic; it does not predict an exact reduction in megabytes.",
+        "Adobe describes resampling as adding or removing pixels. Its JPEG documentation separately describes quality settings that trade file size against detail. Because these are different controls, two exports with equal dimensions can have different byte sizes and visible artifacts.",
+        "Do not keep reducing dimensions once you approach the destination’s minimum. At that point, a supported compression adjustment or a different permitted format may be the relevant choice."
+      ]
+    },
+    {
+      "id": "routine",
+      "title": "Export in a deliberate order",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Finish the composition.",
+            "text": "Set the required aspect ratio and confirm the crop. Avoid resizing a picture that you will heavily crop afterward."
+          },
+          {
+            "title": "Set useful pixel dimensions.",
+            "text": "Meet the destination’s dimensions without making a needless enormous copy. Keep the aspect ratio locked unless you deliberately want distortion."
+          },
+          {
+            "title": "Choose an accepted format.",
+            "text": "A different filename extension is not a conversion. Use an export function that actually writes the required format."
+          },
+          {
+            "title": "Adjust compression and inspect.",
+            "text": "Begin with a good-quality export, check the resulting bytes, then reduce quality only as necessary. Re-export from the working source each time."
+          },
+          {
+            "title": "Open the saved file.",
+            "text": "Check the actual file, not the editor preview. Confirm dimensions, size, orientation and appearance before submitting."
+          }
+        ]
+      }
+    },
+    {
+      "id": "failure",
+      "title": "If it still fails, stop guessing",
+      "paragraphs": [
+        "Inspect the filename and file type as well as the dimensions and bytes. A form might accept JPEG but reject a HEIC image that was simply renamed. If the message is vague, consult its documented requirements or support information.",
+        "If the file is only just below a limit, a slightly smaller copy can provide room for differences in how an uploader calculates or reports size. Do not remove necessary image detail merely to produce the smallest possible file.",
+        "Pay attention to skin gradients, fine hair, lettering and high-contrast edges when choosing compression. Judge both at a useful viewing size and close up. The acceptable tradeoff depends on what the image must communicate.",
+        "For a private photo, use a trusted local editor where practical. An unfamiliar online compressor adds another place you are sending the image; it is not required just to change dimensions or export quality."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will changing 300 PPI to 72 PPI make a web upload smaller?",
+      "answer": "Not reliably. If the pixel grid is unchanged, you have not reduced the picture’s dimensions. Check pixels, encoding and file bytes instead."
+    },
+    {
+      "question": "Should every portrait use the same JPEG quality percentage?",
+      "answer": "No. Quality scales and image content vary. Use the destination’s requirements and inspect the actual output rather than treating a percentage as a universal standard."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: image size, resolution and resampling",
+      "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/image-size-resolution-and-resampling.html",
+      "note": "Pixel dimensions, resampling and screen versus print measurements; retrieved October 22, 2026."
+    },
+    {
+      "title": "Adobe: save images in JPEG format",
+      "url": "https://helpx.adobe.com/photoshop/desktop/save-and-export/save-files/save-in-jpeg-format.html",
+      "note": "JPEG quality and file-size tradeoffs; retrieved October 22, 2026."
+    }
+  ],
+  "related": [
+    "why-saved-photos-lose-quality",
+    "jpeg-heic-png-photo-formats",
+    "how-to-crop-portrait-photos"
+  ],
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "image": "blog/pexels-29065464-4k.webp",
+  "imageAlt": "Photographer using a laptop with a camera resting nearby",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-29065464-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-29065464-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-29065464-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-29065464-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Leticia Curvelo",
+    "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-29065464/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "srgb-vs-display-p3-photo-export",
+  "title": "sRGB or Display P3: which should you export for photos?",
+  "description": "Choose a color profile for the destination, convert instead of randomly assigning, and check an exported portrait before sharing.",
+  "summary": "The right export profile depends on where the photo will be viewed and whether the whole delivery path handles it correctly.",
+  "quickAnswer": "Use an embedded sRGB profile as a practical default for general web sharing unless the destination specifies otherwise. Keep Display P3 when a supported workflow benefits from its wider color range and you have checked the result. Convert a delivery copy; do not randomly assign a different profile or overwrite the working master.",
+  "sections": [
+    {
+      "id": "meaning",
+      "title": "The profile describes the color, not a style",
+      "paragraphs": [
+        "A color profile helps software interpret the numbers in an image. Apple describes Display P3 as a wider color space than sRGB, useful on compatible displays. That does not mean a portrait needs a P3 export to look good, or that P3 should make every skin tone more saturated.",
+        "Profiles are not filters. Choosing a profile because its name sounds more professional can create an unnecessary compatibility problem. Start by asking where the picture will go, whether that service preserves or converts color information, and what its documentation requests.",
+        "This guide covers the export decision. If the same file already looks different on two screens, our separate screen-comparison guide helps isolate viewer, display and room-light differences."
+      ]
+    },
+    {
+      "id": "destination",
+      "title": "Choose for the delivery path",
+      "table": {
+        "headers": [
+          "Destination",
+          "Starting choice",
+          "Important check"
+        ],
+        "rows": [
+          [
+            "General web sharing with no stated preference",
+            "sRGB with its profile included",
+            "Open the delivered result, not just your local export."
+          ],
+          [
+            "A known color-managed P3 workflow",
+            "Display P3 if it benefits the image",
+            "Check on compatible hardware and in the receiving software."
+          ],
+          [
+            "A print lab with supplied instructions",
+            "The profile or process the lab requests",
+            "Do not substitute a screen profile for the lab’s directions."
+          ],
+          [
+            "An editable master",
+            "Preserve its deliberate working setup",
+            "Make separate delivery copies rather than repeatedly changing the master."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "convert",
+      "title": "Convert to the destination profile",
+      "paragraphs": [
+        "Adobe distinguishes assigning a profile from converting to one. Assignment changes how existing numbers are interpreted. Conversion changes numbers to preserve appearance as closely as the destination color space permits. Using Assign Profile as an export shortcut can therefore create an unwanted color shift.",
+        "In Photoshop, the relevant conversion command is Edit → Convert to Profile. Work on a delivery copy, choose the intended destination, review the preview, and save with the profile embedded where the format supports it. Other applications may put the same decision in export settings.",
+        "Colors outside the destination’s range cannot all be retained exactly. If a vivid red garment changes during P3-to-sRGB conversion, review that garment and nearby skin together. Do not compensate by increasing saturation across the whole portrait before understanding the conversion."
+      ]
+    },
+    {
+      "id": "check",
+      "title": "Use a small comparison to choose a repeatable export",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Pick a representative photo.",
+            "text": "Choose one with skin and any important saturated clothing or background colors. A neutral scene may not expose the difference you care about."
+          },
+          {
+            "title": "Prepare two labelled copies if needed.",
+            "text": "Export sRGB and P3 only when your editor offers them. Hold the dimensions, edit and compression constant so the comparison has a clear purpose."
+          },
+          {
+            "title": "Inspect the actual destination.",
+            "text": "Use a draft or private viewing route where available. A service may process uploaded files, so the local export is only part of the workflow."
+          },
+          {
+            "title": "Record the successful settings.",
+            "text": "Keep the profile, format and destination in a short export note. Review that note if software or destination behavior changes."
+          }
+        ]
+      }
+    },
+    {
+      "id": "limits",
+      "title": "What an export profile cannot solve",
+      "paragraphs": [
+        "Embedding a profile supplies color information; it does not make every display identical. Brightness, display settings, software handling and viewing conditions can still change the appearance. Adobe recommends sRGB for ordinary online work while acknowledging the range of screens involved.",
+        "Display P3 also does not automatically mean HDR. Color range and the handling of bright highlights are different decisions. If your editor offers HDR output, evaluate that separately rather than assuming the P3 label selects it.",
+        "For an everyday portrait, choose the simplest delivery file that looks correct in the intended destination. Preserve your better source for later. There is little value in an elaborate export choice if you never check what the viewer receives."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does converting an sRGB photo to P3 add missing colors?",
+      "answer": "It does not recreate capture information that is absent. A wider container alone is not a color-quality upgrade."
+    },
+    {
+      "question": "Should I remove the profile to make the file smaller?",
+      "answer": "Removing color interpretation information can make delivery less predictable. Use supported size and compression controls first, and keep the profile when the workflow supports it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Get Started with Display P3",
+      "url": "https://developer.apple.com/videos/play/wwdc2017/821/",
+      "note": "Explains the wider Display P3 color space and need for profile-aware viewing; retrieved October 22, 2026. Device examples are historical."
+    },
+    {
+      "title": "Adobe: change a document’s color profile",
+      "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-profiles/change-a-documents-color-profile.html",
+      "note": "Assigning versus converting and embedding the destination profile; retrieved October 22, 2026."
+    },
+    {
+      "title": "Adobe: colors for online viewing",
+      "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-profiles/manage-documents-colors-for-online-viewing.html",
+      "note": "sRGB conversion for general online delivery; retrieved October 22, 2026."
+    }
+  ],
+  "related": [
+    "why-photos-look-different-on-screens",
+    "hdr-phone-photos-explained",
+    "jpeg-heic-png-photo-formats"
+  ],
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "image": "blog/pexels-16313502-4k.webp",
+  "imageAlt": "Photo-editing workspace with a laptop, camera, and drawing tablet",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-16313502-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-16313502-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-16313502-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-16313502-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Kawê Rodrigues",
+    "url": "https://www.pexels.com/photo/woman-editing-photos-on-laptop-16313502/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "google-photos-original-vs-storage-saver",
+  "title": "Google Photos Original quality vs Storage saver: what changes?",
+  "description": "Understand Google Photos backup quality, check a photo’s actual status, and keep originals before converting existing backups.",
+  "summary": "Choose backup quality around your future editing and printing needs, then verify individual files rather than relying on the setting alone.",
+  "quickAnswer": "Original quality preserves the capture’s resolution and quality according to Google. Storage saver compresses eligible files and resizes photos above 16 MP to 16 MP; videos above 1080p are reduced to 1080p. Choose Original quality when retaining the captured file’s detail matters, and keep a separate original before converting existing backups.",
+  "sections": [
+    {
+      "id": "tradeoff",
+      "title": "Choose around the version you may need later",
+      "paragraphs": [
+        "An image that looks fine in a small phone preview may still be useful later as a tighter crop, a larger print, or the starting point for a new edit. Decide whether Google Photos will hold your only copy or one of several copies before choosing a storage-saving setting.",
+        "For example, a traveler might keep full-resolution originals on separate storage and use a smaller cloud library for everyday browsing. Someone whose cloud library is the only surviving source has a different tradeoff. Neither decision should be based only on how a thumbnail looks today.",
+        "This guide addresses Google Photos backup quality. It does not describe a setting in Meluvya, and it does not establish which formats Meluvya accepts."
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "What Google says each option does",
+      "table": {
+        "headers": [
+          "Option or case",
+          "Result",
+          "Watch for"
+        ],
+        "rows": [
+          [
+            "Original quality",
+            "Same resolution and quality as capture",
+            "Uses Google Account storage."
+          ],
+          [
+            "Storage saver",
+            "Compression; eligible photos above 16 MP resized to 16 MP",
+            "New backups generally count toward storage too."
+          ],
+          [
+            "Files ineligible for compression",
+            "May remain at original file size",
+            "Inspect the item’s backup details rather than assuming failure."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "check-item",
+      "title": "Check the account and the individual photo",
+      "paragraphs": [
+        "Use Google Photos on the web to confirm the active account and backup-quality setting. Then open an actual photo, select Info, and inspect its backup details. The current preference alone does not tell you the quality of every previously uploaded item.",
+        "Google’s Android help also documents a per-item check through the photo’s More menu, About and Details. Interfaces differ between platforms and versions, so use the relevant Google help page if your labels differ.",
+        "Before a large change, choose a few recognizable samples: one recent portrait, one older image and one especially high-resolution capture. Record their dates and dimensions so you can identify them again. Confirm they are backed up rather than only visible locally in the app."
+      ]
+    },
+    {
+      "id": "existing",
+      "title": "Future uploads and existing backups are different decisions",
+      "paragraphs": [
+        "Google documents a separate storage-recovery action that converts existing backed-up items to Storage saver. That action does not change the quality selected for future uploads. Do not confuse checking a setting with intentionally converting a library.",
+        "Before using recovery, preserve the originals you would miss and verify that those copies open. If compression or resizing discards information, choosing Original quality afterward cannot manufacture that information from the reduced copy.",
+        "A useful decision note is: “I kept the original vacation files in this separate location, opened these sample images, and chose the cloud quality for this reason.” This is more reliable than remembering that a backup toggle was once enabled."
+      ]
+    },
+    {
+      "id": "compare-download",
+      "title": "Inspect a downloaded sample before deleting anything",
+      "paragraphs": [
+        "Backup quality is also separate from the meaning of Delete or Free up space. Do not use a deletion command as an improvised quality test. Consult Google’s instructions for the exact device and action before removing anything."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Keep the source available.",
+            "text": "Retain the local original while checking. Do not begin the experiment by removing your only full-resolution copy."
+          },
+          {
+            "title": "Identify the cloud item.",
+            "text": "Check its account, date and backup details so you are comparing the intended picture."
+          },
+          {
+            "title": "Compare a saved copy.",
+            "text": "Inspect dimensions and important portrait detail in the downloaded file, at the same viewing scale as the source."
+          },
+          {
+            "title": "Decide what you need to preserve.",
+            "text": "If later cropping, printing or editing matters, keep the version that supports those uses. A successful small-preview comparison is not proof that the files are identical."
+          }
+        ]
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Storage saver still unlimited free storage?",
+      "answer": "Do not assume that. Google says Storage saver backups count toward storage, with an exception for qualifying older High quality backups made before June 1, 2021."
+    },
+    {
+      "question": "Why is one Storage saver file still large?",
+      "answer": "Google documents exceptions where a file cannot be compressed. Check the item’s details for its actual backup quality and eligibility rather than relying only on size."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos: choose backup quality",
+      "url": "https://support.google.com/photos/answer/6220791?hl=en",
+      "note": "Quality settings, size thresholds, storage accounting, existing-file conversion and exceptions; retrieved October 22, 2026."
+    },
+    {
+      "title": "Google Photos: back up photos and videos",
+      "url": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DAndroid&oco=1",
+      "note": "Per-item backup status and account workflow; retrieved October 22, 2026."
+    },
+    {
+      "title": "Google: Photos storage policy change",
+      "url": "https://blog.google/products-and-platforms/products/photos/4-things-know-about-google-photos-storage-policy-change/",
+      "note": "Historical June 1, 2021 storage-policy threshold; retrieved October 22, 2026."
+    }
+  ],
+  "related": [
+    "why-saved-photos-lose-quality",
+    "edit-photos-without-losing-original",
+    "photo-print-size-pixels-ppi"
+  ],
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "image": "blog/pexels-7129664-4k.webp",
+  "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7129664-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7129664-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7129664-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7129664-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Michael Burrows",
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "icloud-photos-sync-vs-backup",
+  "title": "Is iCloud Photos a backup? Understand sync before deleting",
+  "description": "Learn what iCloud Photos synchronizes, why device backup is separate, and how to preserve an independent copy before deleting library photos.",
+  "summary": "A second device displaying your library is convenient access, but it does not automatically protect a photo from a synchronized deletion.",
+  "quickAnswer": "iCloud Photos synchronizes a library: edits and deletions can appear on every device using it. Apple says those photos are not duplicated in iCloud Backup. Keep a separate, verified copy of important originals before deleting from the synchronized library. If the goal is saving phone space, review Optimize Storage rather than deleting photos you want to keep.",
+  "sections": [
+    {
+      "id": "three-services",
+      "title": "Separate the three jobs",
+      "paragraphs": [
+        "“It is in iCloud” can mean different things. A synchronized photo library, a device backup, and a separately exported file have different purposes. Apple’s iCloud Backup documentation says the device backup covers information that is not already synchronized to iCloud.",
+        "Imagine the same portrait appearing on your phone and laptop. If both show the same synchronized library, deleting the portrait from one can remove it from the other. Two visible thumbnails are not necessarily two independent recovery options."
+      ],
+      "table": {
+        "headers": [
+          "What you have",
+          "Its job",
+          "Important limit"
+        ],
+        "rows": [
+          [
+            "iCloud Photos",
+            "Keeps the photo library up to date across devices",
+            "A deletion can propagate."
+          ],
+          [
+            "iCloud Backup",
+            "Backs up eligible device information not already synced",
+            "Do not assume it separately includes an iCloud Photos library."
+          ],
+          [
+            "Separate exported copy",
+            "Preserves a version outside that library",
+            "Verify its location, completeness and recovery process."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "deletion",
+      "title": "What happens when you delete",
+      "paragraphs": [
+        "Apple documents that deleting a photo on one device deletes it wherever you use iCloud Photos. It also documents a 30-day Recently Deleted recovery period before permanent deletion. Do not treat that temporary recovery area as your long-term archive.",
+        "If you deleted something accidentally, look for it in Recently Deleted promptly and avoid further cleanup while investigating. A guide cannot guarantee recovery of a file that is already permanently deleted or that was never stored in the library.",
+        "If someone else manages a shared library or another backup product is involved, check that service’s rules as well. This article addresses the basic iCloud Photos relationship, not every shared-library or third-party retention policy."
+      ]
+    },
+    {
+      "id": "space",
+      "title": "If you only need more phone space",
+      "paragraphs": [
+        "Apple’s Optimize Storage option keeps space-saving versions on the device while full-resolution originals remain in iCloud Photos. That is different from deleting a library item. Review available device space, cloud space and synchronization status before deciding what to remove.",
+        "An optimized preview is not evidence that a full original has already been copied to another disk. Before exporting a large collection, allow the required originals to download and confirm there is enough storage at the destination.",
+        "Do not switch synchronization settings at random to stop an unwanted deletion. First understand which copies currently exist and what the proposed setting change will do."
+      ]
+    },
+    {
+      "id": "export",
+      "title": "Make a separate copy deliberately",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Choose the photos and version you need.",
+            "text": "For source preservation, use Apple’s documented Export Unmodified Originals workflow. If you also need the finished edit, preserve an appropriate edited export separately."
+          },
+          {
+            "title": "Choose the destination carefully.",
+            "text": "Apple notes that Files may open to iCloud Drive by default. Select the intended location, such as suitable external storage, rather than assuming the default is an independent offline copy."
+          },
+          {
+            "title": "Wait for completion.",
+            "text": "Do not unplug storage or start deleting the library while the export is still working. Keep the original library intact during verification."
+          },
+          {
+            "title": "Open exported samples.",
+            "text": "Check older and newer photos, orientations and any special formats you care about. Review the folder contents and dimensions; a folder name alone proves nothing about its files."
+          }
+        ]
+      }
+    },
+    {
+      "id": "recovery",
+      "title": "Test retrieval without deleting the source",
+      "paragraphs": [
+        "A safe rehearsal is to close Photos, open the separate destination, and retrieve a harmless sample from there. Confirm which application opens it and whether it contains the expected unedited or finished version. You do not need to erase the library to prove that the copy can be read.",
+        "Document the destination and when it was last refreshed. If the separate copy is on the same device, consider what happens if that device fails or is lost. Independence from library synchronization and protection from hardware loss are related but different questions.",
+        "For an ongoing library, create a repeatable backup routine rather than a one-time export that becomes outdated. Keep copies you can actually retrieve; convenience and recovery should both be part of the plan."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does my iPhone’s iCloud Backup contain another copy of iCloud Photos?",
+      "answer": "Apple says photos synchronized through iCloud Photos are not duplicated in the device’s iCloud Backup. Confirm your actual settings rather than assuming both services save the same library."
+    },
+    {
+      "question": "Can I delete from my phone while keeping the same photo in iCloud Photos?",
+      "answer": "Deleting from the synchronized Photos library is not a local-space cleanup. Review Optimize Storage if you want the library retained while reducing device storage."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: set up and use iCloud Photos",
+      "url": "https://support.apple.com/en-us/108782",
+      "note": "Synchronization, deletion, Recently Deleted and Optimize Storage; retrieved October 22, 2026."
+    },
+    {
+      "title": "Apple: what iCloud backs up",
+      "url": "https://support.apple.com/en-us/108770",
+      "note": "Distinguishes synchronized data from device backup; retrieved October 22, 2026."
+    },
+    {
+      "title": "Apple: download iCloud photos and videos",
+      "url": "https://support.apple.com/en-us/111762",
+      "note": "Unmodified-original exports, destination selection and downloading originals; retrieved October 22, 2026."
+    }
+  ],
+  "related": [
+    "edit-photos-without-losing-original",
+    "jpeg-heic-png-photo-formats",
+    "airdrop-photos-original-data"
+  ],
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "image": "blog/pexels-34225009-4k.webp",
+  "imageAlt": "Photographer holding a memory card beside a card reader and laptop",
+  "imagePosition": "60% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-34225009-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-34225009-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-34225009-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-34225009-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Julio Lopez",
+    "url": "https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "airdrop-photos-original-data",
+  "title": "How to AirDrop photos with the original file and edit history",
+  "description": "Choose the right Photos sharing options for an editable handoff or a finished picture, then verify what arrived on the receiving device.",
+  "summary": "AirDrop is the transfer method. The file format and extra photo information depend on the sharing options you choose.",
+  "quickAnswer": "For an editable handoff from iPhone Photos, open Share → Options and enable All Photos Data before using AirDrop. Apple says this includes the original file, edit history and metadata. Use Current when you need to prevent format conversion. If the recipient only needs a finished picture, choose a suitable delivery copy instead of automatically sending extra original data.",
+  "sections": [
+    {
+      "id": "goal",
+      "title": "Decide what the recipient actually needs",
+      "paragraphs": [
+        "A friend posting your finished portrait and a collaborator continuing the edit need different things. The friend may need only a compatible rendered image. The collaborator may need the original source and information that allows supported edits to remain adjustable.",
+        "AirDrop alone does not describe which version you chose to send. Start with the source application and its sharing options. Apple’s Photos guide distinguishes the file-format choice from All Photos Data; that distinction is the main reason to inspect Options before transferring.",
+        "This guide concerns a Photos-to-Apple-device handoff. It does not promise that another editor, a social network or an Android device will interpret Apple Photos edit history."
+      ]
+    },
+    {
+      "id": "options",
+      "title": "Choose the option that matches the job",
+      "table": {
+        "headers": [
+          "Photos option",
+          "Apple’s documented behavior",
+          "Decision"
+        ],
+        "rows": [
+          [
+            "All Photos Data",
+            "Shares the original with edit history and metadata",
+            "Use for an intended editable handoff; review privacy implications."
+          ],
+          [
+            "Current",
+            "Prevents a format conversion",
+            "The recipient still needs software that understands the format."
+          ],
+          [
+            "Most Compatible",
+            "May convert photos to JPEG and videos to MOV",
+            "Useful when a compatible delivery format matters more than preserving the original format."
+          ],
+          [
+            "Automatic",
+            "Chooses a format for the destination",
+            "Verify the received result when format preservation matters."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "send",
+      "title": "Prepare and send the selected pictures",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Open the intended items in Photos.",
+            "text": "Select the originals or edits you mean to hand over. Avoid selecting a screenshot or a small saved preview by mistake."
+          },
+          {
+            "title": "Review Share → Options.",
+            "text": "Choose the file-format behavior and whether All Photos Data is necessary, then return to the sharing options. Labels can vary by software version."
+          },
+          {
+            "title": "Choose the receiving device deliberately.",
+            "text": "Select AirDrop and confirm the recipient. Apple’s setup guidance calls for nearby devices with Wi-Fi and Bluetooth enabled and Personal Hotspot disconnected."
+          },
+          {
+            "title": "Let the recipient accept and finish.",
+            "text": "For a first-time or unfamiliar transfer, stay with the recipient until they can locate the received picture and open it. Do not use successful sending as the only check."
+          }
+        ]
+      }
+    },
+    {
+      "id": "verify",
+      "title": "Check the handoff in the receiving application",
+      "paragraphs": [
+        "Ask the recipient to confirm the image’s dimensions, orientation, crop and intended appearance. If preserving the original format mattered, inspect the received file’s format too. If editability mattered, check the actual editing behavior rather than assuming a visible finished picture proves it.",
+        "A useful rehearsal is a harmless photo with an obvious crop. Transfer it with the chosen settings and ask the recipient to inspect whether the supported original and edit information are available. This is a suggested test, not a claim that we tested every device or software combination.",
+        "For a ProRAW source, Apple separately documents that DNG-compatible applications can open the file but apps without ProRAW support may show it differently. A successful transfer cannot provide capabilities the receiving editor lacks."
+      ]
+    },
+    {
+      "id": "privacy",
+      "title": "Original information can be more than the visible picture",
+      "paragraphs": [
+        "All Photos Data includes metadata as well as edit history. Treat that as an intentional information handoff. For a casual public sharing workflow, consider whether the recipient needs those details at all.",
+        "If location or other sensitive information is a concern, inspect the relevant controls for your software version and verify the delivered copy. Our location-removal guide addresses that separate task. Do not assume a beautiful final crop hides everything in an original file.",
+        "Keep your own source until the recipient confirms what arrived. Once received, later changes in your library should not be treated as a way to recall their independent copy. Send only what you intend them to retain.",
+        "The cited Apple guides were checked on October 22, 2026. The unversioned Photos guide currently presents iOS 27; choose the matching version in Apple’s guide when your device shows different controls."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does Current mean All Photos Data is enabled?",
+      "answer": "No. Apple lists them as different controls: Current concerns format conversion, while All Photos Data concerns original, edit-history and metadata information."
+    },
+    {
+      "question": "Will an AirDropped photo remain editable in every app?",
+      "answer": "No. The receiving software must understand the file and any supplied edit information. Verify the intended workflow before transferring a large or important batch."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: share photos and videos on iPhone",
+      "url": "https://support.apple.com/guide/iphone/share-photos-and-videos-iphf28f17237/ios",
+      "note": "Current, Most Compatible and All Photos Data options; iOS 27 guide retrieved October 22, 2026."
+    },
+    {
+      "title": "Apple: use AirDrop on iPhone and iPad",
+      "url": "https://support.apple.com/en-us/119857",
+      "note": "Device preparation, recipient selection and acceptance; retrieved October 22, 2026."
+    },
+    {
+      "title": "Apple: About Apple ProRAW",
+      "url": "https://support.apple.com/en-us/119916",
+      "note": "DNG and ProRAW application compatibility; retrieved October 22, 2026."
+    }
+  ],
+  "related": [
+    "remove-location-from-iphone-photos",
+    "edit-photos-without-losing-original",
+    "jpeg-heic-png-photo-formats"
+  ],
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "image": "blog/pexels-30861211-4k.webp",
+  "imageAlt": "Camera beside a laptop displaying photographs for review",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-30861211-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-30861211-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-30861211-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-30861211-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Ebahir",
+    "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "scan-printed-photos-with-phone",
+  "title": "How to scan printed photos with your phone",
+  "description": "Digitize a printed photo with PhotoScan, check glare and missing edges, and keep an unedited capture alongside any restored version.",
+  "summary": "Turn a physical print into a useful digital copy without losing its edges, written context, or original appearance.",
+  "quickAnswer": "Place an undamaged print on a flat, contrasting surface and keep the phone parallel to it. In Google PhotoScan, take the initial picture, then move the on-screen circle over the four dots. Review the completed image for glare, sharpness and cropped edges before moving to the next print. Keep a faithful capture before making a restoration or creative edit.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "protect-print",
+      "title": "Check the print before setting up",
+      "paragraphs": [
+        "This workflow is for ordinary printed photographs that can be handled safely. The Library of Congress recommends a clean, dry workspace and avoiding contact with the image surface. Handle prints by their edges or protective housing. Its digitization guidance cautions against forcing bound material flat or placing glass on originals to flatten them.",
+        "If a photograph is stuck to an album page, cracked, flaking or valuable, do not pull it free just to improve a scan. Ask a photograph conservator about safe handling. A convenient phone workflow is not a reason to risk the physical item.",
+        "Before starting a family album, choose one unimportant print as a trial. Give it a temporary identifier such as album-02-photo-07. Use the same identifier for any separate picture of the back or an adjacent handwritten caption, so the context stays connected."
+      ]
+    },
+    {
+      "id": "capture",
+      "title": "Capture with Google PhotoScan",
+      "paragraphs": [
+        "Google documents PhotoScan as a separate app for printed photos. You can open it through Google Photos under Create, Import from other places, then PhotoScan. Menus may vary by app version.",
+        "Keep the phone above the print without tilting it. Match the phone orientation to the print and follow the four-dot capture sequence. Open the processed thumbnail to inspect the crop and adjust corners or rotation.",
+        "For PhotoScan specifically, Google recommends flash to help with residual glare and shadows. If glare remains excessive, it suggests moving to a less brightly lit spot. Turning off Glare removal skips the movement sequence but also gives up that correction. These are PhotoScan instructions, not a rule for every scanning app."
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Review the scan before putting the print away",
+      "paragraphs": [
+        "Use the physical photograph as your reference. The following review is a suggested quality check, not a claim that this phone method meets an archival scanning standard."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Check the whole boundary.",
+            "text": "Look for a missing person at an edge, a trimmed date or a border you wanted to preserve. Automatic corner detection should be reviewed, not accepted automatically."
+          },
+          {
+            "title": "Inspect two different details.",
+            "text": "Compare a face and a small background feature. If both look soft in the saved file, make another capture before trying sharpening."
+          },
+          {
+            "title": "Look across dark and light areas.",
+            "text": "A reflection can be obvious over a dark coat but easy to miss in a pale sky. Move the display view around the image rather than checking only the center."
+          },
+          {
+            "title": "Confirm orientation and context.",
+            "text": "Check which way the print belongs and whether a handwritten note refers to this image. Record uncertainty instead of guessing a person, location or date."
+          }
+        ]
+      }
+    },
+    {
+      "id": "keep-record",
+      "title": "Separate the capture from the restoration",
+      "paragraphs": [
+        "Keep the best faithful scan and create an additional copy for edits. For example, album-02-photo-07-capture and album-02-photo-07-restored make the relationship easier to understand than two files both called final.",
+        "A black-and-white conversion, repaired scratch or generated facial detail can make a pleasing family keepsake, but it changes the record. If a tool invents detail that was not readable in the print, describe the result as an interpretation rather than recovered evidence.",
+        "Copy the capture and its notes into your usual backup workflow. Then open a backed-up file to check that it is readable. A successful thumbnail in a scanning app is not a complete preservation plan."
+      ]
+    },
+    {
+      "id": "choose-next",
+      "title": "Decide when to try a different capture method",
+      "paragraphs": [
+        "If repeated scans still lose small faces, inscriptions or textured detail, compare another method before editing harder. A suitably operated flatbed scanner or a professional service may be more appropriate for the intended output; the print’s condition determines what equipment is safe.",
+        "For a small family message, a clean phone copy may serve the purpose. For a large reproduction or a valuable collection, decide the required detail and handling method first. Do not discard the original print because a digital version looks acceptable on a phone."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I scan a photograph without PhotoScan?",
+      "answer": "Yes. A camera or another scanning tool can make a digital copy. The four-dot capture and glare instructions above belong to PhotoScan; check another tool’s own controls and inspect its saved result."
+    },
+    {
+      "question": "Should I remove every photo from its album?",
+      "answer": "Only when it can be removed safely. Google suggests removing sleeves or albums for capture quality, but an attached or fragile photograph needs handling care first. Leave a resistant print in place and seek appropriate conservation advice."
+    },
+    {
+      "question": "Will scanning repair fading or scratches?",
+      "answer": "Capture and restoration are separate tasks. Save a faithful copy first, then make any correction on a separate version. The scan does not guarantee recovery of information missing from the physical photograph."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos Help: Scan your photos",
+      "url": "https://support.google.com/photos/answer/7177983?hl=en",
+      "note": "PhotoScan capture sequence, glare controls and setup advice; retrieved October 22, 2026."
+    },
+    {
+      "title": "Library of Congress: Care, Handling, and Storage of Photographs",
+      "url": "https://www.loc.gov/preservation/care/photo",
+      "note": "Physical handling and preservation context for prints."
+    },
+    {
+      "title": "Library of Congress: Preservation Guidelines for Digitizing Library Materials",
+      "url": "https://www.loc.gov/preservation/care/scan.html",
+      "note": "Explains handling risks and limits of flattening fragile items during digitization."
+    }
+  ],
+  "related": [
+    "edit-photos-without-losing-original",
+    "photo-sharpening-vs-resolution",
+    "jpeg-heic-png-photo-formats"
+  ],
+  "image": "blog/pexels-1203803-4k.webp",
+  "imageAlt": "Silver and black camera on a pale background",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-1203803-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-1203803-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-1203803-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-1203803-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Alex Andrews",
+    "url": "https://www.pexels.com/photo/black-and-grey-camera-1203803/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "clean-phone-camera-lens",
+  "title": "How to clean a phone camera lens when photos look hazy",
+  "description": "Use a gentle lens-cleaning routine, compare a repeat photo, and separate smudges from focus problems, accessory interference and camera damage.",
+  "summary": "A careful wipe and a controlled repeat picture can help identify an external smudge before you change editing settings.",
+  "quickAnswer": "For an ordinary fingerprint or smudge, power down and unplug the phone, then gently wipe the exposed camera glass with a clean, soft microfiber cloth. Avoid pressure, abrasives, compressed air and liquid sprayed onto the phone. Follow your model’s cleaning instructions for stubborn residue. Repeat a photo from the same position afterward to check whether the haze actually changed.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "identify",
+      "title": "Check what is covering the camera",
+      "paragraphs": [
+        "Apple recommends microfiber cleaning for blurry iPhone pictures and removing accessories that may block the camera or flash. Samsung likewise identifies fingerprints and smudges on the camera as a cause of poor image quality. An external mark is worth checking, but softness alone does not prove the lens is dirty.",
+        "Look at the camera glass in ordinary room light before wiping. Check for a fingerprint, obvious residue or a case edge crossing the lens. If you use an added lens protector or attachment, follow its maker’s removal guidance rather than prying at the phone’s built-in glass.",
+        "Choose a stationary subject with readable detail, such as the lettering on a box. Take a reference photo in decent light from a distance the camera can focus at. Use this same subject after cleaning; comparing two unrelated scenes makes the cause harder to judge."
+      ]
+    },
+    {
+      "id": "clean",
+      "title": "Use a gentle cleaning sequence",
+      "paragraphs": [
+        "The following sequence combines the manufacturers’ basic surface-care advice. Consult the instructions for your specific device if the contamination is more than an ordinary smudge."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Disconnect and power down.",
+            "text": "Remove charging cables and stop using the phone while cleaning. Take off a removable case if it blocks access to the camera area."
+          },
+          {
+            "title": "Check the cloth.",
+            "text": "Use clean, soft, lint-free microfiber. If the cloth has visible grit or dirt, replace it before it touches the glass."
+          },
+          {
+            "title": "Wipe lightly.",
+            "text": "Gently clear the exposed front and rear camera glass. Do not press harder to chase a mark that stays in the same place."
+          },
+          {
+            "title": "Handle stubborn residue cautiously.",
+            "text": "Apple and Samsung allow limited moisture on a cloth in their device-cleaning guidance. Follow the model instructions, keep moisture away from openings, and do not spray the phone or soak the camera area."
+          },
+          {
+            "title": "Inspect before retesting.",
+            "text": "Confirm that the surface is clear and dry, then turn the phone on and repeat the reference picture."
+          }
+        ]
+      }
+    },
+    {
+      "id": "avoid",
+      "title": "Avoid turning a smudge into a bigger problem",
+      "paragraphs": [
+        "Apple cautions against abrasives, household cleaners and compressed air; Samsung also says not to use compressed air or apply liquid directly. Disinfecting guidance is a separate set of instructions, not a reason to apply a strong cleaner for a simple fingerprint.",
+        "Do not scrape an apparent scratch, insert a tool beside the camera cover or attempt to clean underneath sealed glass. If a persistent mark might be damage or moisture inside the assembly, surface wiping will not establish what needs repair. Stop and use the manufacturer’s support route.",
+        "Keep cleaning materials away from the print, screen or other object you were photographing. The phone’s approved cleaning method does not automatically apply to another material."
+      ]
+    },
+    {
+      "id": "compare",
+      "title": "Read the before-and-after comparison",
+      "paragraphs": [
+        "Treat your repeat picture as a troubleshooting clue. It is not a laboratory test, and the camera may change its automatic processing between frames."
+      ],
+      "table": {
+        "headers": [
+          "Observation",
+          "What to try next"
+        ],
+        "rows": [
+          [
+            "The same scene looks clearer after a gentle wipe",
+            "Keep the new capture; a surface smudge may have contributed."
+          ],
+          [
+            "The background is sharp but the subject is soft",
+            "Check focus and camera-to-subject distance instead of wiping repeatedly."
+          ],
+          [
+            "Only moving objects are streaked",
+            "Try a still subject or more light; lens cleaning does not stop movement."
+          ],
+          [
+            "One camera stays poor while another looks normal",
+            "Record which camera fails and follow device troubleshooting or service advice."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "keep-it-simple",
+      "title": "Build a small pre-photo check",
+      "paragraphs": [
+        "Before a picture that matters, glance at the exposed glass, check the case position and make one sample frame. Carrying a clean cloth gives you a repeatable option when sunscreen or a fingerprint reaches the camera.",
+        "If the problem continues, save an example and note the camera, lighting and accessory used. Apple’s troubleshooting sequence includes restarting, updating and testing both front and rear cameras before service. Follow your device’s own support instructions; more sharpening cannot explain a persistent hardware problem."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I use my shirt to wipe the lens?",
+      "answer": "A clean microfiber lens cloth is the more controlled choice because you can keep it separate from grit and pocket residue. The manufacturers cited here recommend soft, lint-free cloths; avoid rubbing with an unknown dirty fabric."
+    },
+    {
+      "question": "Will cleaning remove lens flare completely?",
+      "answer": "No. A clean exterior removes one possible contributor to poor image quality, but bright-light reflections and other capture issues can remain. Compare the same scene and change the camera-to-light angle separately."
+    },
+    {
+      "question": "Does this work for every Android phone?",
+      "answer": "The gentle microfiber approach is documented by Samsung, but liquid and material instructions should come from your phone manufacturer. Do not assume all coatings, accessories and devices share the same cleaning guidance."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: If the camera or flash is not working",
+      "url": "https://support.apple.com/en-am/102514",
+      "note": "Camera troubleshooting includes microfiber cleaning, accessory removal and testing front and rear cameras."
+    },
+    {
+      "title": "Apple: Cleaning your iPhone",
+      "url": "https://support.apple.com/en-gb/108765",
+      "note": "Device cleaning, moisture and abrasive-product restrictions; retrieved October 22, 2026."
+    },
+    {
+      "title": "Samsung: Keep your Galaxy phone clean",
+      "url": "https://www.samsung.com/us/support/answer/ANS10003416/",
+      "note": "Gentle microfiber cleaning, limited cloth moisture and no direct liquid application."
+    },
+    {
+      "title": "Samsung: Fix blurry or poor photo and video quality",
+      "url": "https://www.samsung.com/us/support/troubleshoot/TSG10004888/",
+      "note": "Distinguishes movement, focusing distance and lens contamination as possible causes."
+    }
+  ],
+  "related": [
+    "why-night-phone-photos-are-blurry",
+    "photo-sharpening-vs-resolution",
+    "why-saved-photos-lose-quality"
+  ],
+  "image": "blog/pexels-30753213-4k.webp",
+  "imageAlt": "Compact camera and accessories arranged on a tabletop",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-30753213-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-30753213-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-30753213-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-30753213-4k.webp",
+      "width": 2880
+    }
+  ],
+  "imageCredit": {
+    "name": "Thanh Thiện Tô",
+    "url": "https://www.pexels.com/photo/vintage-camera-with-assorted-accessories-flat-lay-30753213/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "remove-red-eye-from-photos",
+  "title": "How to remove red-eye from photos without flattening the eyes",
+  "description": "Understand flash red-eye, use a targeted correction, and check pupil size and remaining reflections before saving a natural-looking portrait.",
+  "summary": "Correct a flash reflection locally while keeping the shape and expression that make the eyes recognizable.",
+  "quickAnswer": "Use a dedicated red-eye correction on a copy of the photograph, targeting the red pupil rather than darkening the whole eye. Start with automatic correction if your editor offers it, then adjust the correction size or strength where supported. Compare both eyes at close view and normal portrait size. A red-eye tool is for a flash artifact, not for diagnosing an eye’s appearance.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "cause",
+      "title": "Why flash can make pupils look red",
+      "paragraphs": [
+        "Adobe explains red-eye as flash light reflecting from the retina, especially in low-light settings. It is a different problem from a warm color cast across the entire face. Reducing global saturation to fix two pupils can remove useful color from the rest of the portrait.",
+        "First inspect the unedited photo. Is the unwanted red confined to the pupil, or is a colored light affecting the face, clothing and background together? Use a red-eye tool for the former. For the latter, review the lighting and color balance before treating the eyes as an isolated defect.",
+        "This guide concerns a photographic flash effect. It does not establish the cause of an unusual eye appearance outside that context, and retouching a photograph is not a health assessment."
+      ]
+    },
+    {
+      "id": "apple",
+      "title": "Example: red-eye correction in Photos on Mac",
+      "paragraphs": [
+        "Apple documents a dedicated correction in Photos on Mac: open a photo, choose Edit, then Adjust and Red-Eye. Try Auto first. For a remaining red pupil, adjust the Size control to match the red area and click that pupil. Repeat where needed.",
+        "These are Mac controls, not a promise that the same menu appears on iPhone or in another editor. Apple also notes that this tool cannot remove red-eye from video and is not intended for the differently colored flash reflections seen in animal eyes.",
+        "For a group picture, review each face rather than assuming an automatic pass found everyone. Make a simple left-to-right check across the frame. Keep the original visible nearby so a small correction does not become an unintended change to the whole expression."
+      ]
+    },
+    {
+      "id": "photoshop",
+      "title": "Example: correction size and darkness in Photoshop",
+      "paragraphs": [
+        "Adobe’s Photoshop instructions use the Red Eye tool with Pupil Size and Darken Amount controls. Apply the tool to the affected pupil and adjust those settings if the corrected area is too broad or too dark. This is a documented Photoshop workflow; availability in other software varies.",
+        "Treat darkness as a restraint control. A pupil that becomes a solid oversized dot may distract more than a subtle residual reflection. Undo an unconvincing attempt and apply a smaller correction instead of stacking repeated corrections on top.",
+        "If the source is a tiny compressed group shot, there may not be enough visible detail for precise work. Try to obtain the original file before spending time painting at high magnification."
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Check the correction at two sizes",
+      "paragraphs": [
+        "The following checks are practical editorial judgments for the finished portrait. They are not a claim that a tool can reconstruct eye detail hidden by the flash."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Inspect the boundary.",
+            "text": "At a close view, check whether the correction spills onto the iris, eyelid or lashes. The treated shape should follow the affected area."
+          },
+          {
+            "title": "Compare the two eyes.",
+            "text": "Different lighting angles can make their reflections unequal. Do not force identical dark circles onto both eyes just for symmetry."
+          },
+          {
+            "title": "Keep plausible highlights.",
+            "text": "Look for a small natural reflection that gives the eye shape. If the correction removes every tonal difference, reduce it or use another frame."
+          },
+          {
+            "title": "Return to portrait size.",
+            "text": "Judge the expression at the size people will actually see. Avoid accepting an edit solely because it looks neat while heavily zoomed in."
+          },
+          {
+            "title": "Reopen the export.",
+            "text": "Check the saved copy rather than relying only on the editor preview, and retain the unedited photograph."
+          }
+        ]
+      }
+    },
+    {
+      "id": "prevent",
+      "title": "Reduce the chance in the next photograph",
+      "paragraphs": [
+        "Adobe recommends a camera’s red-eye reduction feature or positioning a separate flash farther from the lens. Those options depend on the equipment; a phone’s built-in flash cannot simply be moved independently.",
+        "For a phone portrait, compare a comfortable position with more available light and a flash-off frame when appropriate. Check whether the expression is clear and motion is controlled before deciding that flash is necessary. Do not trade a readable flash portrait for a blurred no-flash picture without reviewing the result.",
+        "If another frame already has a good expression and no distracting pupil reflection, selecting it may be simpler than aggressive repair. Choose the photograph first and the correction second."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will lowering saturation remove red-eye?",
+      "answer": "It can reduce the red, but a global adjustment also changes the rest of the photograph. A local red-eye correction gives you a more specific area to review."
+    },
+    {
+      "question": "Why did the corrected pupil turn too black?",
+      "answer": "The correction may be too strong or cover too much area. Undo it, reduce the size or darkness where your editor supports those controls, and compare the full portrait again."
+    },
+    {
+      "question": "Can I use the same tool for a pet’s green or yellow eyes?",
+      "answer": "Not necessarily. Apple explicitly says its Mac red-eye tool does not handle those animal-eye reflections. Use a tool documented for that situation and check its result separately."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: Remove red eye in flash photos",
+      "url": "https://helpx.adobe.com/in/photoshop/desktop/repair-retouch/clean-restore-images/remove-red-eye-in-flash-photos.html",
+      "note": "Explains the flash reflection and documents Pupil Size and Darken Amount."
+    },
+    {
+      "title": "Apple: Remove red-eye from photos on Mac",
+      "url": "https://support.apple.com/en-ie/guide/photos/phte0ee9e101/mac",
+      "note": "Auto and manual red-eye correction, with video and animal-eye limitations; retrieved October 22, 2026."
+    }
+  ],
+  "related": [
+    "direct-flash-portrait-tips",
+    "remove-color-cast-from-photos",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-19723159-4k.webp",
+  "imageAlt": "Woman with her hands near her face, brightly lit against a dark background",
+  "imagePosition": "50% 45%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-19723159-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-19723159-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-19723159-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-19723159-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Tolga Aslantürk",
+    "url": "https://www.pexels.com/photo/beautiful-brunette-woman-in-flashlight-19723159/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "fix-perspective-in-phone-photos",
+  "title": "How to fix leaning buildings and perspective in phone photos",
+  "description": "Separate a tilted horizon from converging building lines, apply restrained perspective correction, and check cropping and stretched shapes.",
+  "summary": "A building that leans inward needs a different adjustment from a horizon that slopes. Diagnose the geometry before moving sliders.",
+  "quickAnswer": "Use rotation for an overall tilted frame, and a vertical or guided perspective adjustment for building edges that converge because the camera points upward or downward. Start with a small correction, compare believable proportions, and crop any empty borders afterward. Keep the original: straightening perspective can remove image area and change the appearance of objects near the edges.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "diagnose",
+      "title": "Decide which geometry is wrong",
+      "paragraphs": [
+        "Choose a reference that should actually be level or vertical. A sloping road, an angled roof or a building seen around a corner may legitimately contain diagonal lines. Making every visible edge straight would misrepresent the scene.",
+        "Adobe’s Lightroom mobile guide distinguishes Level, Vertical, Full and Guided corrections. This is useful because simple rotation and perspective correction solve different problems."
+      ],
+      "table": {
+        "headers": [
+          "What you see",
+          "Starting adjustment",
+          "What to watch"
+        ],
+        "rows": [
+          [
+            "The whole scene leans the same way",
+            "Rotate or straighten",
+            "Use a believable horizontal or vertical reference."
+          ],
+          [
+            "Upright walls narrow toward the top",
+            "Vertical perspective",
+            "Check that people and windows do not become stretched."
+          ],
+          [
+            "The subject is skewed in more than one direction",
+            "Guided correction",
+            "Use real architectural reference lines."
+          ],
+          [
+            "A straight edge looks bowed",
+            "Lens-distortion control, if available",
+            "Do not expect rotation alone to remove curvature."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "capture",
+      "title": "Leave room for the correction when shooting",
+      "paragraphs": [
+        "If you can retake the picture, compare a more level phone position before committing to a large edit. For a building, stepping farther away may let you include more of the structure without pointing the camera as steeply upward. Only change position where it is safe and permitted.",
+        "Leave some space around important edges when you anticipate correction. A doorway that already touches the edge has little room to survive a later crop. This is a framing suggestion, not a fixed percentage: check the actual picture and how much surrounding space you can afford.",
+        "For interiors, choose a small number of useful anchors, such as a door frame and a wall corner. Furniture can be angled or irregular, so it is often a poor guide for deciding whether the room itself is upright."
+      ]
+    },
+    {
+      "id": "adjust",
+      "title": "Use a documented geometry control",
+      "paragraphs": [
+        "In Lightroom on mobile, Adobe places Geometry inside the Crop and geometry panel. Try Vertical for leaning uprights or Guided to indicate reference lines yourself. Compare the automatic result with the original rather than treating it as an objective measurement of the room.",
+        "Adobe’s Guided Upright guidance describes drawing reference guides for the correction. Follow the current interface in your app version; feature access can vary by version and plan. Other editors may call similar controls Perspective, Transform or Keystone.",
+        "Begin with the smallest adjustment that solves the distracting lean. Then inspect the center and both outer edges. A convincing doorway with an oddly widened chair beside it is a reason to reduce the correction or choose a less ambitious crop."
+      ]
+    },
+    {
+      "id": "crop",
+      "title": "Check the crop and proportions together",
+      "paragraphs": [
+        "Adobe warns that geometric corrections can leave empty areas at the image boundary; Constrain Crop can crop those away. Cropping is not free extra image content. Make sure the missing border does not contain a roof detail, hand or sign that matters.",
+        "Imagine an interior photograph with a person beside a door. A fully upright door is not automatically worth an elongated face. Compare three versions: the original, a restrained correction and the strongest correction you would consider. Pick the version that serves the photograph’s purpose, not the one with the straightest possible grid.",
+        "Inspect circular objects, repeating windows and people after the edit. This comparison is a visual plausibility check rather than an architectural survey. A single photo does not provide reliable dimensions simply because its lines have been corrected."
+      ]
+    },
+    {
+      "id": "intent",
+      "title": "Keep perspective when it is part of the picture",
+      "paragraphs": [
+        "A view looking up between tall buildings can use convergence deliberately. If that sense of height is the point, correcting it completely may weaken the image. The useful question is whether the geometry distracts from the subject or contributes to it.",
+        "Keep an editable version where the software allows, and export a separate delivery copy. Reopen that copy to inspect the final edges. If too much of the scene has vanished, return to the original or retake with more surrounding space instead of repeatedly stretching the export."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can cropping alone fix a leaning building?",
+      "answer": "Cropping changes the visible boundary. A rotation can correct tilt, but converging uprights usually require a perspective transformation. Check which problem you have before choosing the tool."
+    },
+    {
+      "question": "Why did blank triangles appear around the photo?",
+      "answer": "The transformation can move image edges away from the original rectangular boundary. Crop those empty areas, or reduce the adjustment if the resulting crop removes too much."
+    },
+    {
+      "question": "Should every building photo have parallel verticals?",
+      "answer": "No. Convergence can communicate height or viewpoint intentionally. Choose a correction based on the photograph’s purpose and believable proportions rather than forcing a universal rule."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: Fix geometric perspective in Lightroom on mobile",
+      "url": "https://helpx.adobe.com/lightroom/mobile/crop-and-transform/fix-geometric-perspective-in-lightroom-on-mobile.html",
+      "note": "Documents Geometry modes and cropping after perspective correction."
+    },
+    {
+      "title": "Adobe: Correct perspective with Guided Upright",
+      "url": "https://helpx.adobe.com/lightroom/mobile/crop-and-transform/correct-perspective-with-guided-upright.html",
+      "note": "Guided reference-line correction and crop limitations."
+    },
+    {
+      "title": "Adobe: Straighten, flip, and rotate photos",
+      "url": "https://helpx.adobe.com/lightroom/mobile/crop-and-transform/straighten-flip-and-rotate-photos.html",
+      "note": "Distinguishes basic orientation controls from geometry correction; retrieved October 22, 2026."
+    }
+  ],
+  "related": [
+    "how-to-crop-portrait-photos",
+    "choose-portrait-background",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-31075395-4k.webp",
+  "imageAlt": "Reflective glass buildings viewed from below",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-31075395-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-31075395-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-31075395-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-31075395-4k.webp",
+      "width": 2880
+    }
+  ],
+  "imageCredit": {
+    "name": "Tom Schönmann",
+    "url": "https://www.pexels.com/photo/modern-urban-architecture-with-glass-facades-31075395/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "intentional-motion-blur-photography",
+  "title": "How to make intentional motion blur look deliberate",
+  "description": "Choose between panning and a stationary-camera blur, plan a recognizable subject, and compare frames without relying on a universal shutter speed.",
+  "summary": "Give the blur a job: show movement while retaining enough structure for the viewer to understand the photograph.",
+  "quickAnswer": "Decide what should stay readable before slowing the exposure. For panning, track a moving subject smoothly so some of it remains recognizable while the background streaks. For a stationary-camera effect, support the camera and let moving subjects blur through a stable scene. Review several attempts; a slow shutter alone does not make movement look intentional.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "choose",
+      "title": "Choose which part should move",
+      "paragraphs": [
+        "Nikon describes panning as following a subject during a relatively slow exposure. The tracking can leave part of the subject clearer while the background becomes blurred. Holding the camera still produces a different relationship: fixed surroundings can remain readable while moving elements smear.",
+        "Choose one relationship before taking the picture. A person moving past a quiet wall suggests panning. People moving through a recognizable station interior may suit a fixed viewpoint. These are suggested compositions, not tests or promises of particular results.",
+        "Pick an anchor detail for judging the result. It might be the outline of a cyclist’s torso, a seated person surrounded by moving commuters, or the shape of a building behind light trails. An abstract image can work without a sharp anchor, but it asks the viewer to read color and movement instead of a literal subject."
+      ]
+    },
+    {
+      "id": "controls",
+      "title": "Find out what your camera can control",
+      "paragraphs": [
+        "A camera or app with shutter-speed control gives you a direct way to vary movement during capture. Automatic phone processing may choose or combine exposures in ways you cannot control, so do not assume a dedicated-camera recipe will transfer unchanged.",
+        "Nikon’s panning guide discusses starting around 1/30 or 1/20 second, then adapting to subject speed and the desired effect. Those values are practice starting points, not required settings. If the whole subject disappears into streaks, try a shorter exposure or a slower, easier-to-follow subject.",
+        "If your phone does not expose a manual shutter control, start by learning what its documented motion or long-exposure mode actually does. A mode name alone does not establish that it records movement in the same way as a single long exposure."
+      ]
+    },
+    {
+      "id": "pan",
+      "title": "Practice a smooth pan on an easy subject",
+      "paragraphs": [
+        "Choose a predictable moving subject in a safe open space, with permission if you are directing someone. Stay out of traffic and away from an active path; the photograph does not justify a risky position."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Set the framing before the pass.",
+            "text": "Allow room for the subject to move through the frame. Choose a background whose streaks will add shape instead of a distracting bright block."
+          },
+          {
+            "title": "Begin tracking early.",
+            "text": "Nikon recommends moving with the subject before pressing the shutter and continuing afterward. Avoid a sudden stop at the moment of capture."
+          },
+          {
+            "title": "Review a short series.",
+            "text": "Compare the same anchor detail in each frame. Keep the ones with readable subject structure, not simply the longest streaks."
+          },
+          {
+            "title": "Change one variable.",
+            "text": "Try a different exposure time, easier subject speed or another background. Keep the other choices similar so you can see what changed."
+          }
+        ]
+      }
+    },
+    {
+      "id": "stationary",
+      "title": "Try a stationary viewpoint for a different effect",
+      "paragraphs": [
+        "For a fixed-camera image, use a secure support and compose the unmoving scene first. Decide where a person or other moving subject should cross it. Nikon’s motion guide explains how long exposures can record moving lights while other moving objects are less visible.",
+        "As a simple practice idea, photograph someone walking through a room while the camera remains securely supported. Compare a shorter and a longer capture if your equipment allows. Judge whether the room still reads clearly and the person’s movement contributes something understandable.",
+        "This is a proposed exercise. The available light, clothing, movement and camera processing will determine the result. Do not expect a specific amount of blur from a mode label or a copied exposure time."
+      ]
+    },
+    {
+      "id": "select",
+      "title": "Select the frame before adding effects",
+      "paragraphs": [
+        "View the candidates as small photographs first. Can you tell what is moving and why it matters? Then look closer for an anchor detail, distracting doubled features or streaks crossing an important face.",
+        "If a portrait was meant to show a clear expression and that expression is unreadable, calling the blur artistic does not recover it. Choose another frame for that purpose. Keep an intentionally blurred version when its movement is the story.",
+        "Apply any color or grain treatment only after selecting the frame. A strong filter can make a weak candidate more dramatic without making its subject easier to understand. Save the capture separately so you can compare the movement without the styling."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is panning the same as camera shake?",
+      "answer": "Both involve camera movement, but panning deliberately follows a subject through its path. Uncontrolled movement may smear every part of the frame without that subject-background relationship."
+    },
+    {
+      "question": "What shutter speed always works?",
+      "answer": "There is no universal value. Subject speed, distance, tracking and the desired result all matter. Treat a suggested starting speed as an experiment and review actual frames."
+    },
+    {
+      "question": "Can an editor add the effect afterward?",
+      "answer": "A blur effect can create a stylized interpretation, but it does not document the subject’s actual movement during capture. Keep that difference clear when the photograph is intended as a record."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nikon: Capturing or Freezing Motion in Photos",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/capturing-or-freezing-motion-in-photos",
+      "note": "Explains moving-subject blur, panning and long-exposure light trails."
+    },
+    {
+      "title": "Nikon: 10 Tips for Better Camera Panning",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/10-tips-for-better-camera-panning",
+      "note": "Documents adaptable shutter choices, following through and repeated practice; retrieved October 22, 2026."
+    }
+  ],
+  "related": [
+    "why-night-phone-photos-are-blurry",
+    "photo-noise-vs-film-grain",
+    "self-timer-portraits-with-phone"
+  ],
+  "image": "blog/pexels-29894331-4k.webp",
+  "imageAlt": "Portrait beside glowing turquoise lights at night",
+  "imagePosition": "50% 45%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-29894331-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-29894331-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-29894331-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-29894331-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Everton Silva",
+    "url": "https://www.pexels.com/photo/portrait-of-woman-with-neon-lights-at-night-29894331/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "selective-color-photo-effect",
+  "title": "How to make a selective color photo with one colored subject",
+  "description": "Keep one subject in color against a monochrome scene using an editable mask, then inspect shared colors, edges and skin for unwanted changes.",
+  "summary": "Make a color accent deliberate by choosing what should stay colored and controlling where the monochrome edit applies.",
+  "quickAnswer": "Create a monochrome adjustment on a copy, then mask that adjustment away from the subject you want to keep in color. Review the selection edges and similar colors elsewhere in the image before export. A color-based selection can help, but it is not the same as choosing one object. Photoshop’s tool named Selective Color is a separate color-adjustment feature.",
+  "published": "2026-10-22",
+  "modified": "2026-10-22",
+  "sections": [
+    {
+      "id": "choose",
+      "title": "Decide whether you mean one hue or one object",
+      "paragraphs": [
+        "A red umbrella and a red sign can share a hue while telling different stories. If the umbrella alone should attract attention, a global color selection may keep both. Decide whether the effect should preserve a color everywhere or isolate one particular subject.",
+        "Try a simple photograph first: one clearly outlined object against a relatively uncluttered background. Fine hair, transparent fabric, reflections and several overlapping objects make the edge decisions more involved. This is a practical starting choice, not a limitation shared by every editing tool.",
+        "Before editing, view the whole picture briefly in monochrome. If the important object disappears into the background in tone, choose whether that stronger separation through color is the point. The effect works best when the accent has a clear role in the composition."
+      ]
+    },
+    {
+      "id": "method",
+      "title": "Build an editable monochrome adjustment",
+      "paragraphs": [
+        "Adobe documents a Hue/Saturation adjustment layer with Saturation set to -100 as one way to remove color while preserving the underlying image. Using an adjustment layer gives you a place to control where that change is visible.",
+        "Add or use the adjustment’s mask. Adobe describes layer-mask behavior as white revealing an adjustment, black hiding it and gray applying it partially. With a white mask on the monochrome adjustment, painting black over the chosen object reveals the original color beneath.",
+        "These are Photoshop concepts and controls. Another editor may offer a color-splash brush, a subject mask or a local saturation tool instead. Check that its adjustments can be revised before applying them to the only copy of a photograph."
+      ]
+    },
+    {
+      "id": "edges",
+      "title": "Work from the center toward the edges",
+      "paragraphs": [
+        "Use the image’s structure to make your mask easier to review. The following order is a proposed workflow for an editable mask, not a claim that an automatic selection will always succeed."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Protect the main interior.",
+            "text": "Start inside the subject, away from the boundary, so the main color area is easy to identify. Confirm that you selected the mask rather than painting on the photograph."
+          },
+          {
+            "title": "Inspect the border close up.",
+            "text": "Move around the edge in sections. Look for an uncolored strip inside the object or an accidental colored fringe outside it."
+          },
+          {
+            "title": "Check holes and overlaps.",
+            "text": "The space inside a handle, between fingers or through a loose strap may belong to the background. Do not assume the entire outer outline should stay colored."
+          },
+          {
+            "title": "Review partial edges.",
+            "text": "A translucent edge may need a gradual transition rather than a hard boundary. Compare with the original before choosing how much color to preserve."
+          },
+          {
+            "title": "Zoom out.",
+            "text": "Check whether the subject still looks integrated into the scene. A technically precise mask can still look too cut out for the intended style."
+          }
+        ]
+      }
+    },
+    {
+      "id": "color-range",
+      "title": "Use color selection as a starting point",
+      "paragraphs": [
+        "Adobe’s mask documentation also describes sampling a color range and changing how many similar colors are included. This can speed up an initial mask when the target is distinctive, but it still needs a spatial review.",
+        "Imagine keeping a red scarf while removing the rest of the color from a portrait. A color selection may also affect lips, skin or a distant sign. Inspect those areas explicitly instead of assuming the tool understands the scarf as an object.",
+        "Do not confuse this effect with Photoshop’s adjustment called Selective Color. Adobe documents that control as changing color components within color families. It can alter a range of colors, but its name does not mean that it automatically creates a monochrome picture with one colored object."
+      ]
+    },
+    {
+      "id": "finish",
+      "title": "Judge the accent at the final viewing size",
+      "paragraphs": [
+        "Compare the original, the all-monochrome version and the selective version. Does the colored object deserve the attention it now receives? If a small accessory distracts from a person’s expression, consider preserving less color or choosing another photograph.",
+        "Check skin carefully in portraits. A few colored fragments around the lips or fingers can look accidental if the rest of the person is gray. Choose a consistent treatment rather than leaving whatever the first selection happened to produce.",
+        "Keep an editable file with its mask and export a separate sharing copy. Reopen the export at ordinary viewing size and check the outline once more. If a later crop changes what matters in the scene, return to the mask rather than repeatedly repainting a flattened copy."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I need Photoshop for this effect?",
+      "answer": "No. The method requires a way to control color locally, such as a mask or a color-splash brush. The named controls here are verified Photoshop examples; another app’s available tools and export behavior may differ."
+    },
+    {
+      "question": "Why did several red objects stay colored?",
+      "answer": "A color-based selection groups similar colors, even when they belong to different objects. Refine the mask spatially if only one object should remain colored."
+    },
+    {
+      "question": "Should the remaining color be highly saturated?",
+      "answer": "Not necessarily. Removing surrounding color already changes the emphasis. Compare the original intensity before increasing saturation, especially when the chosen area includes skin."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: Apply special color effects to images",
+      "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-effects-techniques/apply-special-color-effects-to-images.html",
+      "note": "Documents nondestructive desaturation using a Hue/Saturation adjustment layer."
+    },
+    {
+      "title": "Adobe: Use layer masks for targeted adjustments",
+      "url": "https://helpx.adobe.com/photoshop/desktop/create-manage-layers/color-adjustment-fill-layers/use-layer-masks-to-target-adjustment-or-fill-layers.html",
+      "note": "Mask visibility behavior and color-range selections."
+    },
+    {
+      "title": "Adobe: Make selective color adjustments",
+      "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/selective-color-adjustments/make-selective-color-adjustments.html",
+      "note": "Defines the distinct Photoshop Selective Color adjustment, preventing a tool-name ambiguity."
+    }
+  ],
+  "related": [
+    "black-and-white-portrait-editing",
+    "vibrance-vs-saturation-portraits",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-31544926-4k.webp",
+  "imageAlt": "Woman holding flowers against a pink studio backdrop",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-31544926-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-31544926-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-31544926-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-31544926-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "frank minjarez",
+    "url": "https://www.pexels.com/photo/young-woman-holding-bouquet-on-pink-background-31544926/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
   {
     "slug": "remove-location-from-iphone-photos",
     "title": "How to remove location data from iPhone photos before sharing",

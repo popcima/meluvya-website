@@ -1,0 +1,544 @@
+{
+  "batchDate": "2026-10-22",
+  "timezone": "Africa/Casablanca",
+  "language": "en",
+  "targetGeography": "worldwide",
+  "status": "seven_drafts_ready_for_independent_review",
+  "workflow": [
+    "claude-blog Codex adapter",
+    "blog-write research and drafting",
+    "blog-factcheck source-fidelity review",
+    "blog-cannibalization local intent review",
+    "blog-seo-check title/description/heading/source checks"
+  ],
+  "sourceAccessNotes": [
+    "Apple HIG JavaScript-page fetch did not expose article text; replaced draft citation with opened Apple WWDC Display P3 transcript.",
+    "No paid metric API, access-control workaround or automatic update/installer used.",
+    "No image generation or stock downloads in this draft subtask.",
+    "Search Console query data not consulted by this subtask; metrics stay unknown."
+  ],
+  "articles": [
+    {
+      "slug": "raw-vs-jpeg-phone-photography",
+      "url": "https://meluvya.com/blog/raw-vs-jpeg-phone-photography/",
+      "topic": "files",
+      "primaryKeyword": "raw vs jpeg phone photography",
+      "keywordVariants": [
+        "is ProRAW worth it",
+        "RAW photo editing on phone"
+      ],
+      "intent": "informational comparison / practical workflow",
+      "readerNeed": "Capture and retain a RAW source for an intended edit, with a compatibility rehearsal and storage decision.",
+      "template": "comparison",
+      "sources": [
+        {
+          "title": "Adobe: benefits of shooting in RAW",
+          "url": "https://www.adobe.com/learn/lightroom-classic/web/raw-photography",
+          "note": "Demonstrates editing latitude and a RAW-to-JPEG delivery workflow; retrieved October 22, 2026.",
+          "provider": "Adobe",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Apple: About Apple ProRAW",
+          "url": "https://support.apple.com/en-us/119916",
+          "note": "ProRAW processing, DNG compatibility and storage considerations; retrieved October 22, 2026.",
+          "provider": "Apple",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        }
+      ],
+      "supportedClaims": [
+        "RAW can give more exposure/white-balance editing latitude; Adobe demonstration describes one workflow, not universal recovery.",
+        "ProRAW combines RAW data with Apple processing and uses DNG; receiving app support matters."
+      ],
+      "originalContribution": "Task-specific decision table or sequence, proposed verification routine, limitations and explicit examples. No claimed first-hand testing.",
+      "overlapReview": {
+        "mode": "free local intent review",
+        "nearestExistingSlug": "jpeg-heic-png-photo-formats",
+        "decision": "new URL justified",
+        "rationale": "Existing format guide concerns delivered raster formats and compatibility. New guide concerns capture-time editing latitude and keeping RAW, not repeating JPEG/PNG definitions.",
+        "limits": "No paid SERP-overlap or actual query-position data; this is semantic editorial review."
+      },
+      "metrics": {
+        "provider": null,
+        "geography": "worldwide English target; no measured keyword database",
+        "period": null,
+        "retrieved": "2026-10-22",
+        "monthlySearchVolume": null,
+        "organicDifficulty": null,
+        "reason": "Free primary-source research verifies facts and useful questions, not demand or ranking difficulty."
+      },
+      "editorialReview": {
+        "decision": "draft_ready_for_independent_review",
+        "reviewer": "AI researcher/writer self-review; not human sign-off",
+        "claimChecks": [
+          "This is an editorial comparison, not a hands-on benchmark.",
+          "No claim that all RAW data is uncompressed or that RAW guarantees recovery.",
+          "Meluvya RAW support explicitly unverified."
+        ],
+        "factualAssessment": "Core technical/product claims traced to cited primary documents; hypothetical examples and recommendations distinguished from reported tests.",
+        "remainingGates": [
+          "Parent independent editorial review",
+          "Image selection and alt/caption",
+          "Merged related-link validation",
+          "Production checks and live verification"
+        ]
+      }
+    },
+    {
+      "slug": "photo-print-size-pixels-ppi",
+      "url": "https://meluvya.com/blog/photo-print-size-pixels-ppi/",
+      "topic": "files",
+      "primaryKeyword": "photo print size pixels ppi",
+      "keywordVariants": [
+        "how many pixels for 8x10 print",
+        "how large can I print a photo"
+      ],
+      "intent": "informational comparison / practical workflow",
+      "readerNeed": "Calculate dimensions for a physical print, account for crop, and judge a proof.",
+      "template": "how-to-guide",
+      "sources": [
+        {
+          "title": "Adobe: printed image resolution",
+          "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/printed-image-resolution.html",
+          "note": "Relationship between pixel dimensions, physical size and PPI; retrieved October 22, 2026.",
+          "provider": "Adobe",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Adobe: printer resolution",
+          "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/printer-resolution.html",
+          "note": "Distinguishes printer DPI from image PPI and recommends checking the output process; retrieved October 22, 2026.",
+          "provider": "Adobe",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Adobe: changing print dimensions and resolution",
+          "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/change-print-dimensions-and-resolution.html",
+          "note": "Changing print size without resampling and using printer-specific requirements; retrieved October 22, 2026.",
+          "provider": "Adobe",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        }
+      ],
+      "supportedClaims": [
+        "PPI relates image pixels to physical inches, distinct from printer DPI.",
+        "Changing print size/PPI without resampling preserves the pixel grid; printer requirements vary."
+      ],
+      "originalContribution": "Task-specific decision table or sequence, proposed verification routine, limitations and explicit examples. No claimed first-hand testing.",
+      "overlapReview": {
+        "mode": "free local intent review",
+        "nearestExistingSlug": "photo-sharpening-vs-resolution",
+        "decision": "new URL justified",
+        "rationale": "Existing guide distinguishes sharpening and resolution; new guide provides print-size arithmetic, aspect-ratio examples and lab/proof decisions.",
+        "limits": "No paid SERP-overlap or actual query-position data; this is semantic editorial review."
+      },
+      "metrics": {
+        "provider": null,
+        "geography": "worldwide English target; no measured keyword database",
+        "period": null,
+        "retrieved": "2026-10-22",
+        "monthlySearchVolume": null,
+        "organicDifficulty": null,
+        "reason": "Free primary-source research verifies facts and useful questions, not demand or ranking difficulty."
+      },
+      "editorialReview": {
+        "decision": "draft_ready_for_independent_review",
+        "reviewer": "AI researcher/writer self-review; not human sign-off",
+        "claimChecks": [
+          "300 PPI is an illustrative planning value, not a required universal threshold.",
+          "Print table and crop example calculated arithmetically, not reported as test results.",
+          "All print dimensions are marked in inches, with a centimeter conversion example."
+        ],
+        "factualAssessment": "Core technical/product claims traced to cited primary documents; hypothetical examples and recommendations distinguished from reported tests.",
+        "remainingGates": [
+          "Parent independent editorial review",
+          "Image selection and alt/caption",
+          "Merged related-link validation",
+          "Production checks and live verification"
+        ]
+      }
+    },
+    {
+      "slug": "resize-vs-compress-photos-for-upload",
+      "url": "https://meluvya.com/blog/resize-vs-compress-photos-for-upload/",
+      "topic": "files",
+      "primaryKeyword": "resize vs compress photos for upload",
+      "keywordVariants": [
+        "reduce photo file size for upload",
+        "photo pixels vs megabytes"
+      ],
+      "intent": "informational comparison / practical workflow",
+      "readerNeed": "Meet an actual upload limit in a sequence that preserves useful detail.",
+      "template": "comparison",
+      "sources": [
+        {
+          "title": "Adobe: image size, resolution and resampling",
+          "url": "https://helpx.adobe.com/photoshop/desktop/crop-resize-transform/resize-adjust-resolution/image-size-resolution-and-resampling.html",
+          "note": "Pixel dimensions, resampling and screen versus print measurements; retrieved October 22, 2026.",
+          "provider": "Adobe",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Adobe: save images in JPEG format",
+          "url": "https://helpx.adobe.com/photoshop/desktop/save-and-export/save-files/save-in-jpeg-format.html",
+          "note": "JPEG quality and file-size tradeoffs; retrieved October 22, 2026.",
+          "provider": "Adobe",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        }
+      ],
+      "supportedClaims": [
+        "Resampling changes pixels; JPEG compression quality trades file size and image detail.",
+        "Print PPI metadata is not equivalent to screen pixel dimensions."
+      ],
+      "originalContribution": "Task-specific decision table or sequence, proposed verification routine, limitations and explicit examples. No claimed first-hand testing.",
+      "overlapReview": {
+        "mode": "free local intent review",
+        "nearestExistingSlug": "why-saved-photos-lose-quality",
+        "decision": "new URL justified",
+        "rationale": "Existing article diagnoses loss through exports. New guide solves a rejected upload by separating byte/pixel/format requirements and includes hypothetical form constraints.",
+        "limits": "No paid SERP-overlap or actual query-position data; this is semantic editorial review."
+      },
+      "metrics": {
+        "provider": null,
+        "geography": "worldwide English target; no measured keyword database",
+        "period": null,
+        "retrieved": "2026-10-22",
+        "monthlySearchVolume": null,
+        "organicDifficulty": null,
+        "reason": "Free primary-source research verifies facts and useful questions, not demand or ranking difficulty."
+      },
+      "editorialReview": {
+        "decision": "draft_ready_for_independent_review",
+        "reviewer": "AI researcher/writer self-review; not human sign-off",
+        "claimChecks": [
+          "Example 1600px/2MB form is clearly hypothetical.",
+          "12MP to3MP calculation does not imply an exact byte reduction.",
+          "No universal JPEG quality percentage."
+        ],
+        "factualAssessment": "Core technical/product claims traced to cited primary documents; hypothetical examples and recommendations distinguished from reported tests.",
+        "remainingGates": [
+          "Parent independent editorial review",
+          "Image selection and alt/caption",
+          "Merged related-link validation",
+          "Production checks and live verification"
+        ]
+      }
+    },
+    {
+      "slug": "srgb-vs-display-p3-photo-export",
+      "url": "https://meluvya.com/blog/srgb-vs-display-p3-photo-export/",
+      "topic": "files",
+      "primaryKeyword": "srgb vs display p3 photo export",
+      "keywordVariants": [
+        "which color profile for web photos",
+        "convert vs assign profile"
+      ],
+      "intent": "informational comparison / practical workflow",
+      "readerNeed": "Choose an export color space and use conversion deliberately for a defined destination.",
+      "template": "comparison",
+      "sources": [
+        {
+          "title": "Apple: Get Started with Display P3",
+          "url": "https://developer.apple.com/videos/play/wwdc2017/821/",
+          "note": "Explains the wider Display P3 color space and need for profile-aware viewing; retrieved October 22, 2026. Device examples are historical.",
+          "provider": "Apple",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Adobe: change a document’s color profile",
+          "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-profiles/change-a-documents-color-profile.html",
+          "note": "Assigning versus converting and embedding the destination profile; retrieved October 22, 2026.",
+          "provider": "Adobe",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Adobe: colors for online viewing",
+          "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-profiles/manage-documents-colors-for-online-viewing.html",
+          "note": "sRGB conversion for general online delivery; retrieved October 22, 2026.",
+          "provider": "Adobe",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        }
+      ],
+      "supportedClaims": [
+        "Display P3 has a wider gamut than sRGB and needs appropriate display/profile handling.",
+        "Adobe differentiates profile conversion from assignment and recommends sRGB for ordinary web viewing."
+      ],
+      "originalContribution": "Task-specific decision table or sequence, proposed verification routine, limitations and explicit examples. No claimed first-hand testing.",
+      "overlapReview": {
+        "mode": "free local intent review",
+        "nearestExistingSlug": "why-photos-look-different-on-screens",
+        "decision": "new URL justified",
+        "rationale": "Existing guide troubleshoots cross-screen differences. New guide makes the sRGB/P3 delivery choice, with conversion versus assignment and a repeatable comparison.",
+        "limits": "No paid SERP-overlap or actual query-position data; this is semantic editorial review."
+      },
+      "metrics": {
+        "provider": null,
+        "geography": "worldwide English target; no measured keyword database",
+        "period": null,
+        "retrieved": "2026-10-22",
+        "monthlySearchVolume": null,
+        "organicDifficulty": null,
+        "reason": "Free primary-source research verifies facts and useful questions, not demand or ranking difficulty."
+      },
+      "editorialReview": {
+        "decision": "draft_ready_for_independent_review",
+        "reviewer": "AI researcher/writer self-review; not human sign-off",
+        "claimChecks": [
+          "Historical Apple WWDC source used only for color-space principles, not current device support.",
+          "No guarantee that profiles make every display identical.",
+          "No claim P3 itself enables HDR."
+        ],
+        "factualAssessment": "Core technical/product claims traced to cited primary documents; hypothetical examples and recommendations distinguished from reported tests.",
+        "remainingGates": [
+          "Parent independent editorial review",
+          "Image selection and alt/caption",
+          "Merged related-link validation",
+          "Production checks and live verification"
+        ]
+      }
+    },
+    {
+      "slug": "google-photos-original-vs-storage-saver",
+      "url": "https://meluvya.com/blog/google-photos-original-vs-storage-saver/",
+      "topic": "files",
+      "primaryKeyword": "google photos original quality vs storage saver",
+      "keywordVariants": [
+        "does Google Photos reduce quality",
+        "check Google Photos backup quality"
+      ],
+      "intent": "informational comparison / practical workflow",
+      "readerNeed": "Choose and verify Google Photos backup quality before changing existing cloud copies.",
+      "template": "comparison",
+      "sources": [
+        {
+          "title": "Google Photos: choose backup quality",
+          "url": "https://support.google.com/photos/answer/6220791?hl=en",
+          "note": "Quality settings, size thresholds, storage accounting, existing-file conversion and exceptions; retrieved October 22, 2026.",
+          "provider": "Google Photos",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Google Photos: back up photos and videos",
+          "url": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DAndroid&oco=1",
+          "note": "Per-item backup status and account workflow; retrieved October 22, 2026.",
+          "provider": "Google Photos",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Google: Photos storage policy change",
+          "url": "https://blog.google/products-and-platforms/products/photos/4-things-know-about-google-photos-storage-policy-change/",
+          "note": "Historical June 1, 2021 storage-policy threshold; retrieved October 22, 2026.",
+          "provider": "Google",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        }
+      ],
+      "supportedClaims": [
+        "Google states Original quality retains resolution and quality; Storage saver compresses and reduces eligible photos above16MP and videos above1080p.",
+        "Storage recovery for existing files is distinct from future backup preference.",
+        "Some files are ineligible for Storage saver; verify per-item backup details.",
+        "Historical pre-June1,2021 High quality backups have an accounting exception."
+      ],
+      "originalContribution": "Task-specific decision table or sequence, proposed verification routine, limitations and explicit examples. No claimed first-hand testing.",
+      "overlapReview": {
+        "mode": "free local intent review",
+        "nearestExistingSlug": "why-saved-photos-lose-quality",
+        "decision": "new URL justified",
+        "rationale": "Existing loss guide is general. New guide covers Google-specific thresholds, eligible exceptions, per-item verification and conversion versus future settings.",
+        "limits": "No paid SERP-overlap or actual query-position data; this is semantic editorial review."
+      },
+      "metrics": {
+        "provider": null,
+        "geography": "worldwide English target; no measured keyword database",
+        "period": null,
+        "retrieved": "2026-10-22",
+        "monthlySearchVolume": null,
+        "organicDifficulty": null,
+        "reason": "Free primary-source research verifies facts and useful questions, not demand or ranking difficulty."
+      },
+      "editorialReview": {
+        "decision": "draft_ready_for_independent_review",
+        "reviewer": "AI researcher/writer self-review; not human sign-off",
+        "claimChecks": [
+          "No promise all files compress or all backing-up behavior is identical across devices.",
+          "No destructive deletion instructions; verify independent original before converting.",
+          "Not a recommendation to buy Google storage."
+        ],
+        "factualAssessment": "Core technical/product claims traced to cited primary documents; hypothetical examples and recommendations distinguished from reported tests.",
+        "remainingGates": [
+          "Parent independent editorial review",
+          "Image selection and alt/caption",
+          "Merged related-link validation",
+          "Production checks and live verification"
+        ]
+      }
+    },
+    {
+      "slug": "icloud-photos-sync-vs-backup",
+      "url": "https://meluvya.com/blog/icloud-photos-sync-vs-backup/",
+      "topic": "files",
+      "primaryKeyword": "icloud photos sync vs backup",
+      "keywordVariants": [
+        "delete from iPhone keep in iCloud",
+        "does iCloud Backup include photos"
+      ],
+      "intent": "informational comparison / practical workflow",
+      "readerNeed": "Understand synchronized deletion, device backup exclusions, and independent-original export.",
+      "template": "comparison",
+      "sources": [
+        {
+          "title": "Apple: set up and use iCloud Photos",
+          "url": "https://support.apple.com/en-us/108782",
+          "note": "Synchronization, deletion, Recently Deleted and Optimize Storage; retrieved October 22, 2026.",
+          "provider": "Apple",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Apple: what iCloud backs up",
+          "url": "https://support.apple.com/en-us/108770",
+          "note": "Distinguishes synchronized data from device backup; retrieved October 22, 2026.",
+          "provider": "Apple",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Apple: download iCloud photos and videos",
+          "url": "https://support.apple.com/en-us/111762",
+          "note": "Unmodified-original exports, destination selection and downloading originals; retrieved October 22, 2026.",
+          "provider": "Apple",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        }
+      ],
+      "supportedClaims": [
+        "iCloud Photos synchronizes edits/deletions and provides a30day Recently Deleted period.",
+        "Synced iCloud Photos are not duplicated in iCloud device backup.",
+        "Optimize Storage keeps optimized local versions; full originals remain in iCloud.",
+        "Apple documents Export Unmodified Originals and warns Files defaults to iCloud Drive."
+      ],
+      "originalContribution": "Task-specific decision table or sequence, proposed verification routine, limitations and explicit examples. No claimed first-hand testing.",
+      "overlapReview": {
+        "mode": "free local intent review",
+        "nearestExistingSlug": "edit-photos-without-losing-original",
+        "decision": "new URL justified",
+        "rationale": "Existing guide briefly mentions sync while discussing editing reversibility. New guide focuses on Apple-specific sync/backup boundaries and safe source-preservation before deletion.",
+        "limits": "No paid SERP-overlap or actual query-position data; this is semantic editorial review."
+      },
+      "metrics": {
+        "provider": null,
+        "geography": "worldwide English target; no measured keyword database",
+        "period": null,
+        "retrieved": "2026-10-22",
+        "monthlySearchVolume": null,
+        "organicDifficulty": null,
+        "reason": "Free primary-source research verifies facts and useful questions, not demand or ranking difficulty."
+      },
+      "editorialReview": {
+        "decision": "draft_ready_for_independent_review",
+        "reviewer": "AI researcher/writer self-review; not human sign-off",
+        "claimChecks": [
+          "No claim of guaranteed recovery after permanent deletion.",
+          "No advice to toggle sync randomly or perform deletions as a test.",
+          "Export/check workflow deliberately preserves the source."
+        ],
+        "factualAssessment": "Core technical/product claims traced to cited primary documents; hypothetical examples and recommendations distinguished from reported tests.",
+        "remainingGates": [
+          "Parent independent editorial review",
+          "Image selection and alt/caption",
+          "Merged related-link validation",
+          "Production checks and live verification"
+        ]
+      }
+    },
+    {
+      "slug": "airdrop-photos-original-data",
+      "url": "https://meluvya.com/blog/airdrop-photos-original-data/",
+      "topic": "files",
+      "primaryKeyword": "airdrop photos original data",
+      "keywordVariants": [
+        "AirDrop All Photos Data",
+        "AirDrop photo edit history"
+      ],
+      "intent": "informational comparison / practical workflow",
+      "readerNeed": "Transfer an intended original/editable handoff and verify what the receiver can use.",
+      "template": "how-to-guide",
+      "sources": [
+        {
+          "title": "Apple: share photos and videos on iPhone",
+          "url": "https://support.apple.com/guide/iphone/share-photos-and-videos-iphf28f17237/ios",
+          "note": "Current, Most Compatible and All Photos Data options; iOS 27 guide retrieved October 22, 2026.",
+          "provider": "Apple",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Apple: use AirDrop on iPhone and iPad",
+          "url": "https://support.apple.com/en-us/119857",
+          "note": "Device preparation, recipient selection and acceptance; retrieved October 22, 2026.",
+          "provider": "Apple",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        },
+        {
+          "title": "Apple: About Apple ProRAW",
+          "url": "https://support.apple.com/en-us/119916",
+          "note": "DNG and ProRAW application compatibility; retrieved October 22, 2026.",
+          "provider": "Apple",
+          "retrieved": "2026-10-22",
+          "access": "Primary source read using web search and opened page content; excerpts and claim context reviewed."
+        }
+      ],
+      "supportedClaims": [
+        "Current prevents format conversion; Most Compatible may use JPEG/MOV.",
+        "All Photos Data includes original file, edit history and metadata; current iOS27 guide documents it for AirDrop.",
+        "AirDrop setup requires nearby devices with WiFi/Bluetooth and Personal Hotspot disconnected.",
+        "ProRAW requires compatible viewing/editing for expected rendering."
+      ],
+      "originalContribution": "Task-specific decision table or sequence, proposed verification routine, limitations and explicit examples. No claimed first-hand testing.",
+      "overlapReview": {
+        "mode": "free local intent review",
+        "nearestExistingSlug": "remove-location-from-iphone-photos",
+        "decision": "new URL justified",
+        "rationale": "Existing location guide covers minimizing location metadata. New guide covers deliberate original/edit-history transfer and separate format controls; privacy linked as a different task.",
+        "limits": "No paid SERP-overlap or actual query-position data; this is semantic editorial review."
+      },
+      "metrics": {
+        "provider": null,
+        "geography": "worldwide English target; no measured keyword database",
+        "period": null,
+        "retrieved": "2026-10-22",
+        "monthlySearchVolume": null,
+        "organicDifficulty": null,
+        "reason": "Free primary-source research verifies facts and useful questions, not demand or ranking difficulty."
+      },
+      "editorialReview": {
+        "decision": "draft_ready_for_independent_review",
+        "reviewer": "AI researcher/writer self-review; not human sign-off",
+        "claimChecks": [
+          "Unversioned Apple guide currently exposes iOS27; explicit version caveat included.",
+          "Does not repeat prior iOS26 claim All Photos Data also works with iCloud links.",
+          "No claim every editor understands Apple edit history; suggested test not represented as completed."
+        ],
+        "factualAssessment": "Core technical/product claims traced to cited primary documents; hypothetical examples and recommendations distinguished from reported tests.",
+        "remainingGates": [
+          "Parent independent editorial review",
+          "Image selection and alt/caption",
+          "Merged related-link validation",
+          "Production checks and live verification"
+        ]
+      }
+    }
+  ]
+}

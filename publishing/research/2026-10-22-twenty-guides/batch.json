@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "6a65a8e9e7ec745e38856e99620a2961740f7e7b",
+  "request": "Add 20 posts using the installed SEO/blog/marketing skills.",
+  "count": 20,
+  "existingArticles": 38,
+  "articlesBeforeToday": 0,
+  "dailyCeiling": 30,
+  "audience": {
+    "language": "English",
+    "geography": "Worldwide"
+  },
+  "publicationStatus": "validated_for_publication",
+  "urls": [
+    "https://meluvya.com/blog/iphone-ae-af-lock/",
+    "https://meluvya.com/blog/change-live-photo-key-photo/",
+    "https://meluvya.com/blog/iphone-burst-photos-select-best-frame/",
+    "https://meluvya.com/blog/iphone-macro-close-up-focus/",
+    "https://meluvya.com/blog/iphone-photographic-styles-vs-filters/",
+    "https://meluvya.com/blog/iphone-live-photo-long-exposure/",
+    "https://meluvya.com/blog/phone-panorama-stitching-tips/",
+    "https://meluvya.com/blog/raw-vs-jpeg-phone-photography/",
+    "https://meluvya.com/blog/photo-print-size-pixels-ppi/",
+    "https://meluvya.com/blog/resize-vs-compress-photos-for-upload/",
+    "https://meluvya.com/blog/srgb-vs-display-p3-photo-export/",
+    "https://meluvya.com/blog/google-photos-original-vs-storage-saver/",
+    "https://meluvya.com/blog/icloud-photos-sync-vs-backup/",
+    "https://meluvya.com/blog/airdrop-photos-original-data/",
+    "https://meluvya.com/blog/scan-printed-photos-with-phone/",
+    "https://meluvya.com/blog/clean-phone-camera-lens/",
+    "https://meluvya.com/blog/remove-red-eye-from-photos/",
+    "https://meluvya.com/blog/fix-perspective-in-phone-photos/",
+    "https://meluvya.com/blog/intentional-motion-blur-photography/",
+    "https://meluvya.com/blog/selective-color-photo-effect/"
+  ],
+  "metrics": {
+    "provider": "No query-specific metric provider available",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "period": null,
+    "retrievalDate": "2026-10-22",
+    "explanation": "Topics are evidence-backed reader questions, not verified high-volume or low-competition keywords. Search Console performance and rankings were not measured in this batch."
+  },
+  "sources": {
+    "primaryDocumentationLinks": 51,
+    "httpChecks": "All returned HTTP 200 on 2026-10-22. Status alone does not validate factual claims; see topic research and independent reviews.",
+    "method": "Read primary Apple, Google, Adobe, Nikon, Samsung and Library of Congress documentation; original exercises and examples are identified as suggestions, not hands-on tests."
+  },
+  "skillApplication": {
+    "claude-blog": "Research/writing and independent factual/overlap review; answer-first guides, meaningful FAQs and source records. Existing Article/Next pipeline overrides generic MD/PDF outputs.",
+    "claude-seo": "Production HTML, canonical, schema, sitemap, robots, pagination and responsive image checks.",
+    "geo-seo-claude": "Extractable direct answers with primary-source attribution and appropriate limitations; no AI visibility score claimed.",
+    "marketingskills": "Distinct reader tasks, topic-directory linking and shared honest Meluvya promotion."
+  },
+  "images": {
+    "newLicensedPexelsPhotos": 4,
+    "existingLicensedPhotosReused": 16,
+    "distinctImagesWithinBatch": 20,
+    "masters": "All have 3840-pixel long-edge masters and responsive variants; newly processed photos are not upscaled.",
+    "license": "https://www.pexels.com/license/",
+    "note": "Illustrations explicitly labelled as stock, not Meluvya outputs or technique tests. Detailed provenance in publishing/image-sources.json."
+  },
+  "checks": [
+    {
+      "name": "node scripts/check-content.mjs --base 6a65a8e9e7ec745e38856e99620a2961740f7e7b",
+      "result": "pass",
+      "articles": 58,
+      "publishedToday": 20,
+      "remainingCapacity": 10
+    },
+    {
+      "name": "npm run lint",
+      "result": "pass"
+    },
+    {
+      "name": "SITE_URL=https://meluvya.com NEXT_PUBLIC_BASE_PATH= npm run build -- --webpack",
+      "result": "pass",
+      "note": "Same project snapshot tested in /private/tmp with installed dependencies. Webpack used locally because prior Turbopack sandbox worker-port binding failed; repository/CI build command remains unchanged."
+    },
+    {
+      "name": "npm run typecheck",
+      "result": "pass"
+    },
+    {
+      "name": "python3 scripts/check-seo-foundations.py (includes check-export.py)",
+      "result": "pass",
+      "routes": 65,
+      "articlePages": 58,
+      "localLinksAndAssets": 3243,
+      "allGuidesLinkedFromBlogPageOne": true,
+      "editorialAuthorLinks": 58
+    },
+    {
+      "name": "new exported pages spot-proof across all twenty",
+      "result": "pass",
+      "checks": [
+        "quick answer rendered",
+        "shared Meluvya app CTA and coming-soon copy",
+        "canonical and publication date",
+        "responsive assets present",
+        "sitemap inclusion",
+        "Styles reviewer clarification rendered"
+      ]
+    },
+    {
+      "name": "Chrome mobile browser at 390x844 and desktop at 1352px",
+      "result": "pass",
+      "pages": [
+        "photo-print-size-pixels-ppi",
+        "iphone-macro-close-up-focus",
+        "fix-perspective-in-phone-photos",
+        "iphone-photographic-styles-vs-filters",
+        "blog/page/5",
+        "blog/"
+      ],
+      "checks": [
+        "No horizontal page overflow",
+        "Responsive hero photographs load",
+        "Print table scroll confined to its container",
+        "App Store and Google Play open coming-soon dialog",
+        "Escape and Got it dismiss dialog and restore triggering-button focus",
+        "Page 5 contains ten article cards",
+        "Desktop topic directory links all 58 guides"
+      ],
+      "note": "Below-fold app icon loads normally when CTA is reached; no device tests or performance scores claimed."
+    }
+  ],
+  "editorialDecision": {
+    "status": "approved_after_clarification",
+    "reviewMethod": "Three independent AI reviews, each by an agent that did not draft that batch; parent source/overlap review and resolution. Not human or expert review.",
+    "approvedArticles": 20,
+    "requiredCorrections": [
+      {
+        "slug": "iphone-photographic-styles-vs-filters",
+        "finding": "Explain Filters availability on iPhone 16-or-later in the cited iOS 26 workflow.",
+        "resolution": "Verified Apple source and clarified this condition. Explicitly state documentation-based guidance without hands-on testing."
+      }
+    ],
+    "basis": "Distinct capture, delivery/preservation and creative tasks compared with all 38 prior guides; every article has direct answer, practical guidance, caveats and primary sources."
+  },
+  "limitations": [
+    "No query-specific demand or ranking data",
+    "No first-hand product or device testing claimed",
+    "No actual Meluvya store URLs supplied; existing coming-soon dialogs preserved",
+    "Sitemap inclusion is not proof of indexing"
+  ],
+  "finalArticlePayloadSha256": "11f8f86b784979b9603c1f5b603fc1c31e235d757a3403b371481f2c917ba8a1",
+  "deployment": "Verify the main-branch GitHub Actions run containing this batch and live URLs after push. No deployment result claimed before the commit exists."
+}

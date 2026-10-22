@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "purpose": "Distinct illustrative editorial photographs for the Meluvya guide library.",
   "licenseReview": {
     "url": "https://www.pexels.com/license/",
@@ -1717,6 +1717,938 @@
       ],
       "alt": "Portrait of a woman illuminated by green and blue light at night",
       "position": "50% 35%"
+    },
+    {
+      "slug": "iphone-ae-af-lock",
+      "provider": "Pexels",
+      "photoId": "4429463",
+      "source": "https://www.pexels.com/photo/anonymous-female-tourist-taking-photo-on-smartphone-sitting-in-car-4429463/",
+      "photographer": "Ketut Subiyanto",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-21",
+      "download": "https://images.pexels.com/photos/4429463/pexels-photo-4429463.jpeg?cs=srgb&dl=pexels-ketut-subiyanto-4429463.jpg&fm=jpg",
+      "original": {
+        "width": 6000,
+        "height": 4000,
+        "bytes": 1558180,
+        "sha256": "1eea74cca5e060dcb977f5d19a88d67200ac43399b19accceef887d70dffd35c"
+      },
+      "master": "blog/pexels-4429463-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-4429463-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 11492
+        },
+        {
+          "src": "blog/pexels-4429463-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 27122
+        },
+        {
+          "src": "blog/pexels-4429463-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 55880
+        },
+        {
+          "src": "blog/pexels-4429463-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 367944
+        }
+      ],
+      "alt": "Passenger holding a smartphone beside a car window",
+      "position": "60% 45%",
+      "reusedFrom": "remove-location-from-iphone-photos",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "change-live-photo-key-photo",
+      "provider": "Pexels",
+      "photoId": "17502436",
+      "source": "https://www.pexels.com/photo/a-woman-taking-a-selfie-with-her-phone-17502436/",
+      "photographer": "olga Volkovitskaia",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-21",
+      "download": "https://images.pexels.com/photos/17502436/pexels-photo-17502436.jpeg?cs=srgb&dl=pexels-olga-volkovitskaia-131638009-17502436.jpg&fm=jpg",
+      "original": {
+        "width": 3264,
+        "height": 4896,
+        "bytes": 2109619,
+        "sha256": "22ee80b4422180b1e282e70f8a4fcc7834b0b45349cddcab6efe7b62d3d183d8"
+      },
+      "master": "blog/pexels-17502436-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-17502436-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 12240
+        },
+        {
+          "src": "blog/pexels-17502436-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 31320
+        },
+        {
+          "src": "blog/pexels-17502436-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 90984
+        },
+        {
+          "src": "blog/pexels-17502436-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 1138170
+        }
+      ],
+      "alt": "Woman holding a phone in front of her face for a selfie",
+      "position": "50% 35%",
+      "reusedFrom": "why-iphone-selfies-flip",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "iphone-burst-photos-select-best-frame",
+      "provider": "Pexels",
+      "photoId": "39820803",
+      "source": "https://www.pexels.com/photo/romantic-outdoor-portrait-of-couple-in-nature-39820803/",
+      "photographer": "Helena Jankovičová Kováčová",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/39820803/pexels-photo-39820803.jpeg?cs=srgb&dl=pexels-helen1-39820803.jpg&fm=jpg",
+      "original": {
+        "width": 6720,
+        "height": 4480,
+        "bytes": 3908494,
+        "sha256": "8381ac3f288cbd213fe7e68709f534fc71f839029c1c970702edb82c435e396f"
+      },
+      "master": "blog/pexels-39820803-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-39820803-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 37048
+        },
+        {
+          "src": "blog/pexels-39820803-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 122382
+        },
+        {
+          "src": "blog/pexels-39820803-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 293228
+        },
+        {
+          "src": "blog/pexels-39820803-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 1433846
+        }
+      ],
+      "alt": "Couple standing together beneath leafy trees",
+      "position": "35% 55%",
+      "reusedFrom": "take-couple-photos-with-phone",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "photoId": "35811832",
+      "source": "https://www.pexels.com/photo/macro-shot-of-water-droplet-on-flower-petal-35811832/",
+      "photographer": "Robert Schwarz",
+      "download": "https://images.pexels.com/photos/35811832/pexels-photo-35811832.jpeg?cs=srgb&dl=pexels-robert-schwarz-1488822070-35811832.jpg&fm=jpg",
+      "alt": "Water droplet resting on the edge of a pink flower petal",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-22",
+      "original": {
+        "width": 2666,
+        "height": 4001,
+        "bytes": 272064,
+        "sha256": "a736abd0e7f782523c3fb42a812ef1ccd1259f78ce50f33552eb6df9c450c8e9"
+      },
+      "master": "blog/pexels-35811832-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-35811832-480.webp",
+          "width": 480,
+          "height": 721,
+          "bytes": 7874
+        },
+        {
+          "src": "blog/pexels-35811832-960.webp",
+          "width": 960,
+          "height": 1441,
+          "bytes": 20844
+        },
+        {
+          "src": "blog/pexels-35811832-1600.webp",
+          "width": 1600,
+          "height": 2401,
+          "bytes": 42032
+        },
+        {
+          "src": "blog/pexels-35811832-4k.webp",
+          "width": 2559,
+          "height": 3840,
+          "bytes": 104862
+        }
+      ],
+      "position": "50% 50%",
+      "slug": "iphone-macro-close-up-focus"
+    },
+    {
+      "slug": "iphone-photographic-styles-vs-filters",
+      "provider": "Pexels",
+      "photoId": "33301143",
+      "source": "https://www.pexels.com/photo/golden-hour-portrait-in-sundrenched-field-33301143/",
+      "photographer": "Mohammad Kashkooli",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/33301143/pexels-photo-33301143.jpeg?cs=srgb&dl=pexels-mamadkashkooli-33301143.jpg&fm=jpg",
+      "original": {
+        "width": 6336,
+        "height": 9504,
+        "bytes": 8255513,
+        "sha256": "bb503d61109067972bab2a49ef906d4491d5fd8e48a45cba5c066c1f24449829"
+      },
+      "master": "blog/pexels-33301143-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-33301143-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 82316
+        },
+        {
+          "src": "blog/pexels-33301143-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 268140
+        },
+        {
+          "src": "blog/pexels-33301143-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 615160
+        },
+        {
+          "src": "blog/pexels-33301143-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 1659284
+        }
+      ],
+      "alt": "Man standing beneath a tree in warm golden light",
+      "position": "50% 50%",
+      "reusedFrom": "golden-hour-photo-editing",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "photoId": "10047127",
+      "source": "https://www.pexels.com/photo/a-long-exposure-shot-of-a-waterfall-10047127/",
+      "photographer": "Jeremy Wong",
+      "download": "https://images.pexels.com/photos/10047127/pexels-photo-10047127.jpeg?cs=srgb&dl=pexels-jeremy-wong-122443920-10047127.jpg&fm=jpg",
+      "alt": "Water flowing over a forest waterfall with soft motion trails",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-22",
+      "original": {
+        "width": 6000,
+        "height": 4000,
+        "bytes": 1851698,
+        "sha256": "ac09b2a7ddf192a86d0e0c687ebe5c286283ca605c76f63d847d198915177ba8"
+      },
+      "master": "blog/pexels-10047127-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-10047127-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 21054
+        },
+        {
+          "src": "blog/pexels-10047127-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 71018
+        },
+        {
+          "src": "blog/pexels-10047127-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 160266
+        },
+        {
+          "src": "blog/pexels-10047127-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 662722
+        }
+      ],
+      "position": "50% 50%",
+      "slug": "iphone-live-photo-long-exposure"
+    },
+    {
+      "photoId": "23203338",
+      "source": "https://www.pexels.com/photo/panorama-of-a-mountain-landscape-23203338/",
+      "photographer": "Ella Ragasa",
+      "download": "https://images.pexels.com/photos/23203338/pexels-photo-23203338.jpeg?cs=srgb&dl=pexels-ella-ragasa-1098642056-23203338.jpg&fm=jpg",
+      "alt": "Green mountain ridges beneath a blue sky",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-22",
+      "original": {
+        "width": 4608,
+        "height": 3456,
+        "bytes": 1718702,
+        "sha256": "57d7420cd44cf6934be84314d970a5a9bef698f8ef1cf551a6bc162a2eeb267f"
+      },
+      "master": "blog/pexels-23203338-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-23203338-480.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 16322
+        },
+        {
+          "src": "blog/pexels-23203338-960.webp",
+          "width": 960,
+          "height": 720,
+          "bytes": 58044
+        },
+        {
+          "src": "blog/pexels-23203338-1600.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 143420
+        },
+        {
+          "src": "blog/pexels-23203338-4k.webp",
+          "width": 3840,
+          "height": 2880,
+          "bytes": 886088
+        }
+      ],
+      "position": "50% 50%",
+      "slug": "phone-panorama-stitching-tips"
+    },
+    {
+      "slug": "raw-vs-jpeg-phone-photography",
+      "provider": "Pexels",
+      "photoId": "15558373",
+      "source": "https://www.pexels.com/photo/man-editing-photos-with-use-of-laptop-and-tablet-15558373/",
+      "photographer": "Kawê Rodrigues",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/15558373/pexels-photo-15558373.jpeg?cs=srgb&dl=pexels-kawerodriguess-15558373.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 4605920,
+        "sha256": "a8d6f76b4da0cab981af929b506e6cf56d9c229b4b7ff042a21f4f5278589e73"
+      },
+      "master": "blog/pexels-15558373-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-15558373-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 21124
+        },
+        {
+          "src": "blog/pexels-15558373-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 88178
+        },
+        {
+          "src": "blog/pexels-15558373-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 380198
+        },
+        {
+          "src": "blog/pexels-15558373-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 1886282
+        }
+      ],
+      "alt": "Photographer working beside a laptop, drawing tablet, and camera",
+      "position": "50% 50%",
+      "reusedFrom": "why-edited-portraits-look-unnatural",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "photo-print-size-pixels-ppi",
+      "provider": "Pexels",
+      "photoId": "4992637",
+      "source": "https://www.pexels.com/photo/vintage-camera-near-lens-and-camera-roll-on-table-4992637/",
+      "photographer": "Rachel Claire",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/4992637/pexels-photo-4992637.jpeg?cs=srgb&dl=pexels-rachel-claire-4992637.jpg&fm=jpg",
+      "original": {
+        "width": 5472,
+        "height": 3648,
+        "bytes": 1948371,
+        "sha256": "b22ff48606b2b30fc4770f9315d91d820d644ae52e19da829ad44c97bee1fabf"
+      },
+      "master": "blog/pexels-4992637-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-4992637-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24936
+        },
+        {
+          "src": "blog/pexels-4992637-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 94796
+        },
+        {
+          "src": "blog/pexels-4992637-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 246914
+        },
+        {
+          "src": "blog/pexels-4992637-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 1203240
+        }
+      ],
+      "alt": "Film cameras, lenses, and film rolls on a wooden table",
+      "position": "50% 50%",
+      "reusedFrom": "photo-noise-vs-film-grain",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "resize-vs-compress-photos-for-upload",
+      "provider": "Pexels",
+      "photoId": "29065464",
+      "source": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-29065464/",
+      "photographer": "Leticia Curvelo",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/29065464/pexels-photo-29065464.jpeg?cs=srgb&dl=pexels-leticiacurveloph-29065464.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 1926793,
+        "sha256": "d02756d442b4e39b01495f5b2e8e0d4657485b042a6f7e38f727b5ee175b3d7d"
+      },
+      "master": "blog/pexels-29065464-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-29065464-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 13824
+        },
+        {
+          "src": "blog/pexels-29065464-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 39102
+        },
+        {
+          "src": "blog/pexels-29065464-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 89938
+        },
+        {
+          "src": "blog/pexels-29065464-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 370406
+        }
+      ],
+      "alt": "Photographer using a laptop with a camera resting nearby",
+      "position": "50% 50%",
+      "reusedFrom": "edit-photos-without-losing-original",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "srgb-vs-display-p3-photo-export",
+      "provider": "Pexels",
+      "photoId": "16313502",
+      "source": "https://www.pexels.com/photo/woman-editing-photos-on-laptop-16313502/",
+      "photographer": "Kawê Rodrigues",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/16313502/pexels-photo-16313502.jpeg?cs=srgb&dl=pexels-kawerodriguess-16313502.jpg&fm=jpg",
+      "original": {
+        "width": 3609,
+        "height": 5414,
+        "bytes": 2309292,
+        "sha256": "08f217049b3ed81eee73c2ddb907825232c1149ca52e0558924e7488385cad7b"
+      },
+      "master": "blog/pexels-16313502-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-16313502-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 20458
+        },
+        {
+          "src": "blog/pexels-16313502-960.webp",
+          "width": 960,
+          "height": 1441,
+          "bytes": 48844
+        },
+        {
+          "src": "blog/pexels-16313502-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 145600
+        },
+        {
+          "src": "blog/pexels-16313502-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 895532
+        }
+      ],
+      "alt": "Photo-editing workspace with a laptop, camera, and drawing tablet",
+      "position": "50% 40%",
+      "reusedFrom": "why-photos-look-different-on-screens",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "google-photos-original-vs-storage-saver",
+      "provider": "Pexels",
+      "photoId": "7129664",
+      "source": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/",
+      "photographer": "Michael Burrows",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/7129664/pexels-photo-7129664.jpeg?cs=srgb&dl=pexels-michael-burrows-7129664.jpg&fm=jpg",
+      "original": {
+        "width": 4000,
+        "height": 6000,
+        "bytes": 2294239,
+        "sha256": "c93aeac107555e03f277b1fe270fb05d4d8731c58f4f6b0378533bc08cdfe133"
+      },
+      "master": "blog/pexels-7129664-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-7129664-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 24308
+        },
+        {
+          "src": "blog/pexels-7129664-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 60970
+        },
+        {
+          "src": "blog/pexels-7129664-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 134290
+        },
+        {
+          "src": "blog/pexels-7129664-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 624266
+        }
+      ],
+      "alt": "Hands at a laptop displaying a set of portrait photographs",
+      "position": "50% 50%",
+      "reusedFrom": "consistent-editing-for-photo-set",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "icloud-photos-sync-vs-backup",
+      "provider": "Pexels",
+      "photoId": "34225009",
+      "source": "https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/",
+      "photographer": "Julio Lopez",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/34225009/pexels-photo-34225009.jpeg?cs=srgb&dl=pexels-julio-lopez-75309646-34225009.jpg&fm=jpg",
+      "original": {
+        "width": 6196,
+        "height": 4131,
+        "bytes": 2852035,
+        "sha256": "0ca46d1aac488154b80bc2bb8f4348e52b83a6150877deb41f2fb18e3eac434a"
+      },
+      "master": "blog/pexels-34225009-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-34225009-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 12544
+        },
+        {
+          "src": "blog/pexels-34225009-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 29792
+        },
+        {
+          "src": "blog/pexels-34225009-1600.webp",
+          "width": 1600,
+          "height": 1066,
+          "bytes": 56830
+        },
+        {
+          "src": "blog/pexels-34225009-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 714334
+        }
+      ],
+      "alt": "Photographer holding a memory card beside a card reader and laptop",
+      "position": "60% 50%",
+      "reusedFrom": "why-saved-photos-lose-quality",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "airdrop-photos-original-data",
+      "provider": "Pexels",
+      "photoId": "30861211",
+      "source": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/",
+      "photographer": "Ebahir",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/30861211/pexels-photo-30861211.jpeg?cs=srgb&dl=pexels-ebahir-30861211.jpg&fm=jpg",
+      "original": {
+        "width": 3413,
+        "height": 5120,
+        "bytes": 1710986,
+        "sha256": "c09ec057711d3e825021df8a3664cefc1291a1aa945820846a4f3067cda31f2b"
+      },
+      "master": "blog/pexels-30861211-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-30861211-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 46754
+        },
+        {
+          "src": "blog/pexels-30861211-960.webp",
+          "width": 960,
+          "height": 1441,
+          "bytes": 121540
+        },
+        {
+          "src": "blog/pexels-30861211-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 264336
+        },
+        {
+          "src": "blog/pexels-30861211-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 887014
+        }
+      ],
+      "alt": "Camera beside a laptop displaying photographs for review",
+      "position": "50% 40%",
+      "reusedFrom": "check-ai-portrait-details",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "scan-printed-photos-with-phone",
+      "provider": "Pexels",
+      "photoId": "1203803",
+      "source": "https://www.pexels.com/photo/black-and-grey-camera-1203803/",
+      "photographer": "Alex Andrews",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/1203803/pexels-photo-1203803.jpeg?cs=srgb&dl=pexels-alex-andrews-271121-1203803.jpg&fm=jpg",
+      "original": {
+        "width": 6938,
+        "height": 4609,
+        "bytes": 2015257,
+        "sha256": "70e92644d6ea51fb692bd9515d7d0797a3c0d810f1f84d9a2e54f132fd8724cd"
+      },
+      "master": "blog/pexels-1203803-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-1203803-480.webp",
+          "width": 480,
+          "height": 319,
+          "bytes": 7222
+        },
+        {
+          "src": "blog/pexels-1203803-960.webp",
+          "width": 960,
+          "height": 638,
+          "bytes": 26926
+        },
+        {
+          "src": "blog/pexels-1203803-1600.webp",
+          "width": 1600,
+          "height": 1063,
+          "bytes": 67920
+        },
+        {
+          "src": "blog/pexels-1203803-4k.webp",
+          "width": 3840,
+          "height": 2551,
+          "bytes": 396862
+        }
+      ],
+      "alt": "Silver and black camera on a pale background",
+      "position": "50% 50%",
+      "reusedFrom": "jpeg-heic-png-photo-formats",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "clean-phone-camera-lens",
+      "provider": "Pexels",
+      "photoId": "30753213",
+      "source": "https://www.pexels.com/photo/vintage-camera-with-assorted-accessories-flat-lay-30753213/",
+      "photographer": "Thanh Thiện Tô",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/30753213/pexels-photo-30753213.jpeg?cs=srgb&dl=pexels-thanh-thi-n-to-1645597541-30753213.jpg&fm=jpg",
+      "original": {
+        "width": 3000,
+        "height": 4000,
+        "bytes": 1709596,
+        "sha256": "a3365e6c64c24470f8aa703c1b825f94f22e4265f8c5059e5ecd223a3e52e3b7"
+      },
+      "master": "blog/pexels-30753213-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-30753213-480.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 62994
+        },
+        {
+          "src": "blog/pexels-30753213-960.webp",
+          "width": 960,
+          "height": 1280,
+          "bytes": 223310
+        },
+        {
+          "src": "blog/pexels-30753213-1600.webp",
+          "width": 1600,
+          "height": 2133,
+          "bytes": 469978
+        },
+        {
+          "src": "blog/pexels-30753213-4k.webp",
+          "width": 2880,
+          "height": 3840,
+          "bytes": 1265956
+        }
+      ],
+      "alt": "Compact camera and accessories arranged on a tabletop",
+      "position": "50% 50%",
+      "reusedFrom": "digicam-photo-effect-on-phone",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "remove-red-eye-from-photos",
+      "provider": "Pexels",
+      "photoId": "19723159",
+      "source": "https://www.pexels.com/photo/beautiful-brunette-woman-in-flashlight-19723159/",
+      "photographer": "Tolga Aslantürk",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/19723159/pexels-photo-19723159.jpeg?cs=srgb&dl=pexels-tolgaaslanturk-19723159.jpg&fm=jpg",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 2402385,
+        "sha256": "5e89724020d3f40a7e76fac0b740dbb6ae5e6c170807834b4be722b0bff2a4d4"
+      },
+      "master": "blog/pexels-19723159-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-19723159-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 16562
+        },
+        {
+          "src": "blog/pexels-19723159-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 65712
+        },
+        {
+          "src": "blog/pexels-19723159-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 244854
+        },
+        {
+          "src": "blog/pexels-19723159-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 805324
+        }
+      ],
+      "alt": "Woman with her hands near her face, brightly lit against a dark background",
+      "position": "50% 45%",
+      "reusedFrom": "direct-flash-portrait-tips",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "photoId": "31075395",
+      "source": "https://www.pexels.com/photo/modern-urban-architecture-with-glass-facades-31075395/",
+      "photographer": "Tom Schönmann",
+      "download": "https://images.pexels.com/photos/31075395/pexels-photo-31075395.jpeg?cs=srgb&dl=pexels-tom-schonmann-3315378-31075395.jpg&fm=jpg",
+      "alt": "Reflective glass buildings viewed from below",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-22",
+      "original": {
+        "width": 3024,
+        "height": 4032,
+        "bytes": 2178524,
+        "sha256": "f571e951de98518d355f181aedd2228da50a5691cf229c255bdeba82405de84b"
+      },
+      "master": "blog/pexels-31075395-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-31075395-480.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 77332
+        },
+        {
+          "src": "blog/pexels-31075395-960.webp",
+          "width": 960,
+          "height": 1280,
+          "bytes": 256276
+        },
+        {
+          "src": "blog/pexels-31075395-1600.webp",
+          "width": 1600,
+          "height": 2133,
+          "bytes": 605458
+        },
+        {
+          "src": "blog/pexels-31075395-4k.webp",
+          "width": 2880,
+          "height": 3840,
+          "bytes": 1783072
+        }
+      ],
+      "position": "50% 50%",
+      "slug": "fix-perspective-in-phone-photos"
+    },
+    {
+      "slug": "intentional-motion-blur-photography",
+      "provider": "Pexels",
+      "photoId": "29894331",
+      "source": "https://www.pexels.com/photo/portrait-of-woman-with-neon-lights-at-night-29894331/",
+      "photographer": "Everton Silva",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/29894331/pexels-photo-29894331.jpeg?cs=srgb&dl=pexels-veveto-29894331.jpg&fm=jpg",
+      "original": {
+        "width": 3072,
+        "height": 4608,
+        "bytes": 1058194,
+        "sha256": "fc34958fde1052531f57e097f4a815878aef80348febbdb12f7154c81ad0dc9b"
+      },
+      "master": "blog/pexels-29894331-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-29894331-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 21682
+        },
+        {
+          "src": "blog/pexels-29894331-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 58552
+        },
+        {
+          "src": "blog/pexels-29894331-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 135870
+        },
+        {
+          "src": "blog/pexels-29894331-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 500266
+        }
+      ],
+      "alt": "Portrait beside glowing turquoise lights at night",
+      "position": "50% 45%",
+      "reusedFrom": "why-night-phone-photos-are-blurry",
+      "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "selective-color-photo-effect",
+      "provider": "Pexels",
+      "photoId": "31544926",
+      "source": "https://www.pexels.com/photo/young-woman-holding-bouquet-on-pink-background-31544926/",
+      "photographer": "frank minjarez",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/31544926/pexels-photo-31544926.jpeg?cs=srgb&dl=pexels-frank-minjarez-333886454-31544926.jpg&fm=jpg",
+      "original": {
+        "width": 6000,
+        "height": 6000,
+        "bytes": 1820494,
+        "sha256": "a7cd0fe8c3f13c56b6b5f1ccc2f5b2d87fe973a515573cb6b04a4380c1d888a6"
+      },
+      "master": "blog/pexels-31544926-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-31544926-480.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 14816
+        },
+        {
+          "src": "blog/pexels-31544926-960.webp",
+          "width": 960,
+          "height": 960,
+          "bytes": 40794
+        },
+        {
+          "src": "blog/pexels-31544926-1600.webp",
+          "width": 1600,
+          "height": 1600,
+          "bytes": 91596
+        },
+        {
+          "src": "blog/pexels-31544926-4k.webp",
+          "width": 3840,
+          "height": 3840,
+          "bytes": 538644
+        }
+      ],
+      "alt": "Woman holding flowers against a pink studio backdrop",
+      "position": "50% 40%",
+      "reusedFrom": "vibrance-vs-saturation-portraits",
+      "reuseDate": "2026-10-22"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -538,6 +538,268 @@
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-21.json"
+    },
+    {
+      "id": "iphone-ae-af-lock",
+      "primaryKeyword": "iphone ae af lock",
+      "relatedKeywords": [
+        "lock focus iphone camera",
+        "iphone camera exposure lock"
+      ],
+      "intent": "How to lock focus and exposure on iPhone for repeated captures",
+      "status": "approved_for_publication",
+      "articleSlug": "iphone-ae-af-lock",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "change-live-photo-key-photo",
+      "primaryKeyword": "change live photo key photo",
+      "relatedKeywords": [
+        "choose frame live photo iphone",
+        "live photo better expression"
+      ],
+      "intent": "Recover a preferred recorded expression by choosing a Live Photo key frame",
+      "status": "approved_for_publication",
+      "articleSlug": "change-live-photo-key-photo",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "iphone-burst-photos-select-best-frame",
+      "primaryKeyword": "iphone burst photos",
+      "relatedKeywords": [
+        "select burst photos iphone",
+        "best frame burst photo"
+      ],
+      "intent": "Capture an action sequence and select useful individual stills",
+      "status": "approved_for_publication",
+      "articleSlug": "iphone-burst-photos-select-best-frame",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "iphone-macro-close-up-focus",
+      "primaryKeyword": "iphone macro blurry",
+      "relatedKeywords": [
+        "iphone camera close up focus",
+        "iphone macro flower icon"
+      ],
+      "intent": "Diagnose iPhone close-up blur and automatic macro camera switching",
+      "status": "approved_for_publication",
+      "articleSlug": "iphone-macro-close-up-focus",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "iphone-photographic-styles-vs-filters",
+      "primaryKeyword": "photographic styles vs filters",
+      "relatedKeywords": [
+        "edit photographic styles after taking photo",
+        "iphone styles high efficiency"
+      ],
+      "intent": "Determine which Apple appearance treatment can be revised after capture",
+      "status": "approved_for_publication",
+      "articleSlug": "iphone-photographic-styles-vs-filters",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "iphone-live-photo-long-exposure",
+      "primaryKeyword": "iphone live photo long exposure",
+      "relatedKeywords": [
+        "iphone waterfall long exposure",
+        "live photo smooth water"
+      ],
+      "intent": "Create intentional water-motion blur from a Live Photo",
+      "status": "approved_for_publication",
+      "articleSlug": "iphone-live-photo-long-exposure",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "phone-panorama-stitching-tips",
+      "primaryKeyword": "phone panorama tips",
+      "relatedKeywords": [
+        "iphone panorama stitching errors",
+        "panorama duplicated people"
+      ],
+      "intent": "Capture a clean panorama and diagnose seams and repeated moving objects",
+      "status": "approved_for_publication",
+      "articleSlug": "phone-panorama-stitching-tips",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "raw-vs-jpeg-phone-photography",
+      "primaryKeyword": "raw vs jpeg phone photography",
+      "relatedKeywords": [
+        "is ProRAW worth it",
+        "RAW photo editing on phone"
+      ],
+      "intent": "Capture and retain a RAW source for an intended edit, with a compatibility rehearsal and storage decision.",
+      "status": "approved_for_publication",
+      "articleSlug": "raw-vs-jpeg-phone-photography",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "photo-print-size-pixels-ppi",
+      "primaryKeyword": "photo print size pixels ppi",
+      "relatedKeywords": [
+        "how many pixels for 8x10 print",
+        "how large can I print a photo"
+      ],
+      "intent": "Calculate dimensions for a physical print, account for crop, and judge a proof.",
+      "status": "approved_for_publication",
+      "articleSlug": "photo-print-size-pixels-ppi",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "resize-vs-compress-photos-for-upload",
+      "primaryKeyword": "resize vs compress photos for upload",
+      "relatedKeywords": [
+        "reduce photo file size for upload",
+        "photo pixels vs megabytes"
+      ],
+      "intent": "Meet an actual upload limit in a sequence that preserves useful detail.",
+      "status": "approved_for_publication",
+      "articleSlug": "resize-vs-compress-photos-for-upload",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "srgb-vs-display-p3-photo-export",
+      "primaryKeyword": "srgb vs display p3 photo export",
+      "relatedKeywords": [
+        "which color profile for web photos",
+        "convert vs assign profile"
+      ],
+      "intent": "Choose an export color space and use conversion deliberately for a defined destination.",
+      "status": "approved_for_publication",
+      "articleSlug": "srgb-vs-display-p3-photo-export",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "google-photos-original-vs-storage-saver",
+      "primaryKeyword": "google photos original quality vs storage saver",
+      "relatedKeywords": [
+        "does Google Photos reduce quality",
+        "check Google Photos backup quality"
+      ],
+      "intent": "Choose and verify Google Photos backup quality before changing existing cloud copies.",
+      "status": "approved_for_publication",
+      "articleSlug": "google-photos-original-vs-storage-saver",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "icloud-photos-sync-vs-backup",
+      "primaryKeyword": "icloud photos sync vs backup",
+      "relatedKeywords": [
+        "delete from iPhone keep in iCloud",
+        "does iCloud Backup include photos"
+      ],
+      "intent": "Understand synchronized deletion, device backup exclusions, and independent-original export.",
+      "status": "approved_for_publication",
+      "articleSlug": "icloud-photos-sync-vs-backup",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "airdrop-photos-original-data",
+      "primaryKeyword": "airdrop photos original data",
+      "relatedKeywords": [
+        "AirDrop All Photos Data",
+        "AirDrop photo edit history"
+      ],
+      "intent": "Transfer an intended original/editable handoff and verify what the receiver can use.",
+      "status": "approved_for_publication",
+      "articleSlug": "airdrop-photos-original-data",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "scan-printed-photos-with-phone",
+      "primaryKeyword": "how to scan printed photos with phone",
+      "relatedKeywords": [],
+      "intent": "Make a faithful usable digital capture of a physical print and retain its context.",
+      "status": "approved_for_publication",
+      "articleSlug": "scan-printed-photos-with-phone",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "clean-phone-camera-lens",
+      "primaryKeyword": "how to clean phone camera lens",
+      "relatedKeywords": [],
+      "intent": "Remove ordinary exterior contamination safely and determine whether it contributed to haze.",
+      "status": "approved_for_publication",
+      "articleSlug": "clean-phone-camera-lens",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "remove-red-eye-from-photos",
+      "primaryKeyword": "how to remove red eye from photos",
+      "relatedKeywords": [],
+      "intent": "Correct a localized flash-pupil artifact while preserving believable eye appearance.",
+      "status": "approved_for_publication",
+      "articleSlug": "remove-red-eye-from-photos",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "fix-perspective-in-phone-photos",
+      "primaryKeyword": "fix perspective in phone photos",
+      "relatedKeywords": [],
+      "intent": "Choose rotation versus geometric transformation for architecture and interiors while controlling crop and proportion changes.",
+      "status": "approved_for_publication",
+      "articleSlug": "fix-perspective-in-phone-photos",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "intentional-motion-blur-photography",
+      "primaryKeyword": "intentional motion blur photography",
+      "relatedKeywords": [],
+      "intent": "Plan and evaluate deliberate movement effects rather than repair an accidentally blurry picture.",
+      "status": "approved_for_publication",
+      "articleSlug": "intentional-motion-blur-photography",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
+    },
+    {
+      "id": "selective-color-photo-effect",
+      "primaryKeyword": "selective color photo effect",
+      "relatedKeywords": [],
+      "intent": "Keep one chosen object colored through an editable mask and distinguish object isolation from hue selection.",
+      "status": "approved_for_publication",
+      "articleSlug": "selective-color-photo-effect",
+      "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
     }
   ]
 }

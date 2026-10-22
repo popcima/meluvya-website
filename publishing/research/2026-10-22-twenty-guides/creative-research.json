@@ -1,0 +1,458 @@
+[
+  {
+    "slug": "scan-printed-photos-with-phone",
+    "date": "2026-10-22",
+    "language": "en",
+    "geography": "Worldwide",
+    "provider": "Free web search and primary publisher documentation",
+    "period": "Documentation retrieved 2026-10-22; no demand measurement period",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsNote": "No exact-query volume, competition, impressions or ranking data available; do not label high volume or low competition.",
+    "template": "how-to-guide adapted to the existing TypeScript article model",
+    "surfaces": [
+      "Owned site",
+      "Search results",
+      "Answer retrieval"
+    ],
+    "outline": [
+      "Check the print before setting up",
+      "Capture with Google PhotoScan",
+      "Review the scan before putting the print away",
+      "Separate the capture from the restoration",
+      "Decide when to try a different capture method"
+    ],
+    "sources": [
+      {
+        "title": "Google Photos Help: Scan your photos",
+        "url": "https://support.google.com/photos/answer/7177983?hl=en",
+        "note": "PhotoScan capture sequence, glare controls and setup advice; retrieved October 22, 2026.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Library of Congress: Care, Handling, and Storage of Photographs",
+        "url": "https://www.loc.gov/preservation/care/photo",
+        "note": "Physical handling and preservation context for prints.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Library of Congress: Preservation Guidelines for Digitizing Library Materials",
+        "url": "https://www.loc.gov/preservation/care/scan.html",
+        "note": "Explains handling risks and limits of flattening fragile items during digitization.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      }
+    ],
+    "editorialDecision": "approve_draft_pending_parent_visual_structural_and_deployment_checks",
+    "editorialReview": "AI editorial review against listed primary evidence and existing related articles. Original proposed workflows labelled as suggestions; no fabricated tests, metrics, citations or Meluvya features. New publication date 2026-10-22. Shared CTA supplied by site template.",
+    "validationPending": [
+      "Unique licensed image and accurate alt/caption",
+      "Parent content/SEO checks and cross-batch overlap review",
+      "Production export and mobile browser validation"
+    ],
+    "primaryKeyword": "how to scan printed photos with phone",
+    "relatedKeywords": [
+      "digitize old photos with phone",
+      "PhotoScan glare removal",
+      "scan family photo albums"
+    ],
+    "intent": "Make a faithful usable digital capture of a physical print and retain its context.",
+    "overlapReview": "Existing file preservation and vintage effects guides do not cover capturing a physical photograph. This guide focuses on print handling, PhotoScan capture, boundary/glare inspection and linking front/back context; it does not duplicate digital restoration or recommend cosmetic vintage filters.",
+    "originalContribution": "Proposed per-print identifier, capture-versus-restoration naming scheme and a print-to-saved-file review checklist; no claimed hands-on test.",
+    "claims": [
+      "Google documents initial capture plus four-dot movement, rotation/corner adjustment and the optional glare-removal switch.",
+      "Google recommends flat contrasting backgrounds, no tilt, and flash within PhotoScan for residual glare.",
+      "Library of Congress guidance prioritizes safe handling and advises against forcing fragile originals flat."
+    ],
+    "searches": [
+      "site:support.google.com photos PhotoScan scan photos glare",
+      "site:loc.gov preservation photographs digitizing originals handling photographs scans"
+    ],
+    "limits": [
+      "Not an archival scanning specification.",
+      "No claim to restore information absent from a print.",
+      "Fragile or attached originals require appropriate conservation advice."
+    ]
+  },
+  {
+    "slug": "clean-phone-camera-lens",
+    "date": "2026-10-22",
+    "language": "en",
+    "geography": "Worldwide",
+    "provider": "Free web search and primary publisher documentation",
+    "period": "Documentation retrieved 2026-10-22; no demand measurement period",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsNote": "No exact-query volume, competition, impressions or ranking data available; do not label high volume or low competition.",
+    "template": "how-to-guide adapted to the existing TypeScript article model",
+    "surfaces": [
+      "Owned site",
+      "Search results",
+      "Answer retrieval"
+    ],
+    "outline": [
+      "Check what is covering the camera",
+      "Use a gentle cleaning sequence",
+      "Avoid turning a smudge into a bigger problem",
+      "Read the before-and-after comparison",
+      "Build a small pre-photo check"
+    ],
+    "sources": [
+      {
+        "title": "Apple: If the camera or flash is not working",
+        "url": "https://support.apple.com/en-am/102514",
+        "note": "Camera troubleshooting includes microfiber cleaning, accessory removal and testing front and rear cameras.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Apple: Cleaning your iPhone",
+        "url": "https://support.apple.com/en-gb/108765",
+        "note": "Device cleaning, moisture and abrasive-product restrictions; retrieved October 22, 2026.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Samsung: Keep your Galaxy phone clean",
+        "url": "https://www.samsung.com/us/support/answer/ANS10003416/",
+        "note": "Gentle microfiber cleaning, limited cloth moisture and no direct liquid application.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Samsung: Fix blurry or poor photo and video quality",
+        "url": "https://www.samsung.com/us/support/troubleshoot/TSG10004888/",
+        "note": "Distinguishes movement, focusing distance and lens contamination as possible causes.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      }
+    ],
+    "editorialDecision": "approve_draft_pending_parent_visual_structural_and_deployment_checks",
+    "editorialReview": "AI editorial review against listed primary evidence and existing related articles. Original proposed workflows labelled as suggestions; no fabricated tests, metrics, citations or Meluvya features. New publication date 2026-10-22. Shared CTA supplied by site template.",
+    "validationPending": [
+      "Unique licensed image and accurate alt/caption",
+      "Parent content/SEO checks and cross-batch overlap review",
+      "Production export and mobile browser validation"
+    ],
+    "primaryKeyword": "how to clean phone camera lens",
+    "relatedKeywords": [
+      "hazy phone photos lens smudge",
+      "clean iPhone camera lens",
+      "fingerprints on camera lens"
+    ],
+    "intent": "Remove ordinary exterior contamination safely and determine whether it contributed to haze.",
+    "overlapReview": "Night blur and sharpening guides diagnose capture softness or digital treatment, but do not provide hardware surface-care steps. This article isolates external contamination and accessory checks with a controlled same-scene retake.",
+    "originalContribution": "Proposed before/after stationary reference subject, symptom-to-next-action table and stop-cleaning boundary; no repair diagnosis or product test.",
+    "claims": [
+      "Apple camera support recommends microfiber cleaning and accessory removal for relevant image problems.",
+      "Apple cleaning guidance directs powering off, unplugging, avoiding moisture openings, abrasives and compressed air.",
+      "Samsung documents gentle soft microfiber wiping, limited moisture on a cloth and no direct liquid application.",
+      "Samsung distinguishes movement, focusing distance and lens contamination."
+    ],
+    "searches": [
+      "site:support.apple.com iPhone camera blurry clean lens microfiber",
+      "site:support.apple.com cleaning your iPhone camera lens compressed air",
+      "site:samsung.com clean galaxy phone camera microfiber lens"
+    ],
+    "limits": [
+      "Model-specific instructions take priority.",
+      "No disassembly or cleaning beneath sealed glass.",
+      "A repeat picture is only a clue, not a laboratory diagnosis."
+    ]
+  },
+  {
+    "slug": "remove-red-eye-from-photos",
+    "date": "2026-10-22",
+    "language": "en",
+    "geography": "Worldwide",
+    "provider": "Free web search and primary publisher documentation",
+    "period": "Documentation retrieved 2026-10-22; no demand measurement period",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsNote": "No exact-query volume, competition, impressions or ranking data available; do not label high volume or low competition.",
+    "template": "how-to-guide adapted to the existing TypeScript article model",
+    "surfaces": [
+      "Owned site",
+      "Search results",
+      "Answer retrieval"
+    ],
+    "outline": [
+      "Why flash can make pupils look red",
+      "Example: red-eye correction in Photos on Mac",
+      "Example: correction size and darkness in Photoshop",
+      "Check the correction at two sizes",
+      "Reduce the chance in the next photograph"
+    ],
+    "sources": [
+      {
+        "title": "Adobe: Remove red eye in flash photos",
+        "url": "https://helpx.adobe.com/in/photoshop/desktop/repair-retouch/clean-restore-images/remove-red-eye-in-flash-photos.html",
+        "note": "Explains the flash reflection and documents Pupil Size and Darken Amount.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Apple: Remove red-eye from photos on Mac",
+        "url": "https://support.apple.com/en-ie/guide/photos/phte0ee9e101/mac",
+        "note": "Auto and manual red-eye correction, with video and animal-eye limitations; retrieved October 22, 2026.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      }
+    ],
+    "editorialDecision": "approve_draft_pending_parent_visual_structural_and_deployment_checks",
+    "editorialReview": "AI editorial review against listed primary evidence and existing related articles. Original proposed workflows labelled as suggestions; no fabricated tests, metrics, citations or Meluvya features. New publication date 2026-10-22. Shared CTA supplied by site template.",
+    "validationPending": [
+      "Unique licensed image and accurate alt/caption",
+      "Parent content/SEO checks and cross-batch overlap review",
+      "Production export and mobile browser validation"
+    ],
+    "primaryKeyword": "how to remove red eye from photos",
+    "relatedKeywords": [
+      "fix red eye photos",
+      "red eye correction too dark",
+      "red eye flash portrait"
+    ],
+    "intent": "Correct a localized flash-pupil artifact while preserving believable eye appearance.",
+    "overlapReview": "The direct-flash guide covers capture setup and general reflections, while color-cast coverage concerns broad illumination. Neither explains targeted pupil correction, Mac Auto/manual controls, Photoshop correction sizing or a two-scale eye review.",
+    "originalContribution": "Pupil-area versus scene-cast decision, left-to-right group-face check and close-view/portrait-size review; no fabricated experience.",
+    "claims": [
+      "Adobe attributes red-eye to flash reflections from the retina in low light and documents Red Eye, Pupil Size and Darken Amount.",
+      "Adobe recommends camera red-eye reduction or separating flash from lens when equipment allows.",
+      "Apple documents Photos on Mac Auto/manual red-eye correction, no video correction and limitations for differently colored animal-eye reflections."
+    ],
+    "searches": [
+      "site:adobe.com red eye photography flash remove red eye",
+      "site:support.apple.com guide photos remove red eye photo Mac"
+    ],
+    "limits": [
+      "Photographic technique only, not diagnosis of eye appearance.",
+      "Mac and Photoshop controls are explicitly labelled, not claimed as Meluvya features.",
+      "No guarantee of reconstructing small compressed eye details."
+    ]
+  },
+  {
+    "slug": "fix-perspective-in-phone-photos",
+    "date": "2026-10-22",
+    "language": "en",
+    "geography": "Worldwide",
+    "provider": "Free web search and primary publisher documentation",
+    "period": "Documentation retrieved 2026-10-22; no demand measurement period",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsNote": "No exact-query volume, competition, impressions or ranking data available; do not label high volume or low competition.",
+    "template": "how-to-guide adapted to the existing TypeScript article model",
+    "surfaces": [
+      "Owned site",
+      "Search results",
+      "Answer retrieval"
+    ],
+    "outline": [
+      "Decide which geometry is wrong",
+      "Leave room for the correction when shooting",
+      "Use a documented geometry control",
+      "Check the crop and proportions together",
+      "Keep perspective when it is part of the picture"
+    ],
+    "sources": [
+      {
+        "title": "Adobe: Fix geometric perspective in Lightroom on mobile",
+        "url": "https://helpx.adobe.com/lightroom/mobile/crop-and-transform/fix-geometric-perspective-in-lightroom-on-mobile.html",
+        "note": "Documents Geometry modes and cropping after perspective correction.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Adobe: Correct perspective with Guided Upright",
+        "url": "https://helpx.adobe.com/lightroom/mobile/crop-and-transform/correct-perspective-with-guided-upright.html",
+        "note": "Guided reference-line correction and crop limitations.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Adobe: Straighten, flip, and rotate photos",
+        "url": "https://helpx.adobe.com/lightroom/mobile/crop-and-transform/straighten-flip-and-rotate-photos.html",
+        "note": "Distinguishes basic orientation controls from geometry correction; retrieved October 22, 2026.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      }
+    ],
+    "editorialDecision": "approve_draft_pending_parent_visual_structural_and_deployment_checks",
+    "editorialReview": "AI editorial review against listed primary evidence and existing related articles. Original proposed workflows labelled as suggestions; no fabricated tests, metrics, citations or Meluvya features. New publication date 2026-10-22. Shared CTA supplied by site template.",
+    "validationPending": [
+      "Unique licensed image and accurate alt/caption",
+      "Parent content/SEO checks and cross-batch overlap review",
+      "Production export and mobile browser validation"
+    ],
+    "primaryKeyword": "fix perspective in phone photos",
+    "relatedKeywords": [
+      "straighten leaning buildings photo",
+      "correct interior photo perspective",
+      "vertical perspective photo editing"
+    ],
+    "intent": "Choose rotation versus geometric transformation for architecture and interiors while controlling crop and proportion changes.",
+    "overlapReview": "Portrait cropping covers composition and boundaries. This guide addresses geometric convergence, building/interior reference lines, guided correction, transformed empty borders and keeping believable proportions.",
+    "originalContribution": "Geometry symptom table and original/restraint/full-correction comparison using a person beside a door as a hypothetical decision scenario.",
+    "claims": [
+      "Adobe documents Level, Vertical, Full and Guided modes in Lightroom mobile Geometry.",
+      "Adobe distinguishes straightening and flipping from perspective correction.",
+      "Adobe warns correction can create blank boundaries and includes Constrain Crop and guided correction limitations."
+    ],
+    "searches": [
+      "site:helpx.adobe.com Lightroom geometry upright perspective photos"
+    ],
+    "limits": [
+      "Not an architectural measurement method.",
+      "Availability and plan requirements can vary.",
+      "No claim that all photographed verticals should be parallel."
+    ]
+  },
+  {
+    "slug": "intentional-motion-blur-photography",
+    "date": "2026-10-22",
+    "language": "en",
+    "geography": "Worldwide",
+    "provider": "Free web search and primary publisher documentation",
+    "period": "Documentation retrieved 2026-10-22; no demand measurement period",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsNote": "No exact-query volume, competition, impressions or ranking data available; do not label high volume or low competition.",
+    "template": "how-to-guide adapted to the existing TypeScript article model",
+    "surfaces": [
+      "Owned site",
+      "Search results",
+      "Answer retrieval"
+    ],
+    "outline": [
+      "Choose which part should move",
+      "Find out what your camera can control",
+      "Practice a smooth pan on an easy subject",
+      "Try a stationary viewpoint for a different effect",
+      "Select the frame before adding effects"
+    ],
+    "sources": [
+      {
+        "title": "Nikon: Capturing or Freezing Motion in Photos",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/capturing-or-freezing-motion-in-photos",
+        "note": "Explains moving-subject blur, panning and long-exposure light trails.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Nikon: 10 Tips for Better Camera Panning",
+        "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/10-tips-for-better-camera-panning",
+        "note": "Documents adaptable shutter choices, following through and repeated practice; retrieved October 22, 2026.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      }
+    ],
+    "editorialDecision": "approve_draft_pending_parent_visual_structural_and_deployment_checks",
+    "editorialReview": "AI editorial review against listed primary evidence and existing related articles. Original proposed workflows labelled as suggestions; no fabricated tests, metrics, citations or Meluvya features. New publication date 2026-10-22. Shared CTA supplied by site template.",
+    "validationPending": [
+      "Unique licensed image and accurate alt/caption",
+      "Parent content/SEO checks and cross-batch overlap review",
+      "Production export and mobile browser validation"
+    ],
+    "primaryKeyword": "intentional motion blur photography",
+    "relatedKeywords": [
+      "panning photography beginners",
+      "motion blur vs camera shake",
+      "slow shutter creative photo"
+    ],
+    "intent": "Plan and evaluate deliberate movement effects rather than repair an accidentally blurry picture.",
+    "overlapReview": "The existing night-blur article aims to make portraits clearer. This article selects intentionally moving and stationary parts of a composition and teaches panning/fixed-viewpoint decision-making. It avoids repeating the night-blur diagnosis.",
+    "originalContribution": "Anchor-detail planning, proposed safe practice sequence and composition-first selection; no fabricated test images or success rates.",
+    "claims": [
+      "Nikon explains panning as following a subject during relatively slow capture, blurring the background while some subject detail may remain clearer.",
+      "Nikon documents variable starting shutter speeds and starting/continuing tracking around shutter release.",
+      "Nikon explains fixed-camera long exposures and moving light trails."
+    ],
+    "searches": [
+      "site:nikonusa.com panning photography slow shutter speed",
+      "site:canon-europe.com pro infobank panning shutter speed photography"
+    ],
+    "limits": [
+      "No universal shutter value.",
+      "Computational phone modes may behave differently from single-exposure camera methods.",
+      "Practice examples are proposed, not performed."
+    ]
+  },
+  {
+    "slug": "selective-color-photo-effect",
+    "date": "2026-10-22",
+    "language": "en",
+    "geography": "Worldwide",
+    "provider": "Free web search and primary publisher documentation",
+    "period": "Documentation retrieved 2026-10-22; no demand measurement period",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsNote": "No exact-query volume, competition, impressions or ranking data available; do not label high volume or low competition.",
+    "template": "how-to-guide adapted to the existing TypeScript article model",
+    "surfaces": [
+      "Owned site",
+      "Search results",
+      "Answer retrieval"
+    ],
+    "outline": [
+      "Decide whether you mean one hue or one object",
+      "Build an editable monochrome adjustment",
+      "Work from the center toward the edges",
+      "Use color selection as a starting point",
+      "Judge the accent at the final viewing size"
+    ],
+    "sources": [
+      {
+        "title": "Adobe: Apply special color effects to images",
+        "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-effects-techniques/apply-special-color-effects-to-images.html",
+        "note": "Documents nondestructive desaturation using a Hue/Saturation adjustment layer.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Adobe: Use layer masks for targeted adjustments",
+        "url": "https://helpx.adobe.com/photoshop/desktop/create-manage-layers/color-adjustment-fill-layers/use-layer-masks-to-target-adjustment-or-fill-layers.html",
+        "note": "Mask visibility behavior and color-range selections.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Adobe: Make selective color adjustments",
+        "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/selective-color-adjustments/make-selective-color-adjustments.html",
+        "note": "Defines the distinct Photoshop Selective Color adjustment, preventing a tool-name ambiguity.",
+        "retrieved": "2026-10-22",
+        "sourceType": "primary documentation"
+      }
+    ],
+    "editorialDecision": "approve_draft_pending_parent_visual_structural_and_deployment_checks",
+    "editorialReview": "AI editorial review against listed primary evidence and existing related articles. Original proposed workflows labelled as suggestions; no fabricated tests, metrics, citations or Meluvya features. New publication date 2026-10-22. Shared CTA supplied by site template.",
+    "validationPending": [
+      "Unique licensed image and accurate alt/caption",
+      "Parent content/SEO checks and cross-batch overlap review",
+      "Production export and mobile browser validation"
+    ],
+    "primaryKeyword": "selective color photo effect",
+    "relatedKeywords": [
+      "black and white photo with one color",
+      "color splash photo effect",
+      "keep one object in color photo"
+    ],
+    "intent": "Keep one chosen object colored through an editable mask and distinguish object isolation from hue selection.",
+    "overlapReview": "Existing monochrome and vibrance/saturation guides discuss global tone and color. This is a spatially selective monochrome workflow, including mask holes, overlapping objects and shared colors; not a synonym page for general saturation.",
+    "originalContribution": "One-hue-versus-one-object decision and red scarf/skin/sign review scenario plus center-to-edge mask workflow; no claimed product demonstration.",
+    "claims": [
+      "Adobe documents nondestructive desaturation via Hue/Saturation adjustment layer at -100 saturation.",
+      "Adobe explains white/black/gray mask behavior and color-range sampling.",
+      "Adobe Selective Color is a separate adjustment to components in color families, not the same as the color-splash effect."
+    ],
+    "searches": [
+      "site:adobe.com selective color photography black white one color mask saturation",
+      "site:adobe.com learn photoshop color splash black white mask color"
+    ],
+    "limits": [
+      "No claim that Meluvya has masks or named Photoshop controls.",
+      "No guarantee of automatic object selection.",
+      "Stock image must be labelled as illustration, not an effect demonstration."
+    ]
+  }
+]

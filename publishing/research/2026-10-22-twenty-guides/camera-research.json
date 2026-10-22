@@ -1,0 +1,495 @@
+{
+  "date": "2026-10-22",
+  "audience": "English readers worldwide",
+  "batch": "camera-guides-7",
+  "skillsApplied": [
+    "claude-blog Codex adapter",
+    "blog-write: intent, primary research, answer-first tutorial/comparison structure",
+    "blog-seo-check: titles, headings, sources and internal links",
+    "Project publishing/README.md and publishing/seo-workflow.md override generic MD/PDF output and quotas"
+  ],
+  "libraryReviewed": 38,
+  "format": "Article JSON without image fields plus topic; intended for existing Next.js pipeline",
+  "researchMethod": "Retrieved Apple, Nikon, Adobe primary documentation through web search/open. Version-specific Apple iOS26 sources used where available; Live Photo editing source is version27 and support articles are rolling. No accounts, paid queries, CAPTCHA bypass, or product tests.",
+  "entries": [
+    {
+      "slug": "iphone-ae-af-lock",
+      "title": "How to use AE/AF Lock on iPhone for steadier photo settings",
+      "primaryKeyword": "iphone ae af lock",
+      "keywordVariants": [
+        "lock focus iphone camera",
+        "iphone camera exposure lock"
+      ],
+      "intent": "How to lock focus and exposure on iPhone for repeated captures",
+      "topic": "lighting",
+      "geography": "Worldwide",
+      "language": "English",
+      "retrieved": "2026-10-22",
+      "provider": "Free web search and primary documentation",
+      "period": null,
+      "searchVolume": null,
+      "organicDifficulty": null,
+      "metricsExplanation": "No verified query-specific search-volume or organic-difficulty dataset available; search results establish relevance and documentation, not demand.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple iOS26 Camera tools, Manually adjust focus and exposure / Lock exposure setting",
+          "supportedClaims": "Touch-and-hold the focus area until AE/AF Lock appears; a tap unlocks. Nearby control adjusts exposure. Separate exposure control can be preserved across Camera sessions.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://support.apple.com/en-afri/guide/iphone/iph0c397b154/26/ios/26",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple iOS26 Camera Control, Lock the exposure and focus",
+          "supportedClaims": "Enable Lock Focus and Exposure; light press and hold displays the indicator; releasing Camera Control ends the lock.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        }
+      ],
+      "overlapReview": {
+        "comparedWith": [
+          "backlit-phone-portraits",
+          "self-timer-portraits-with-phone"
+        ],
+        "decision": "distinct_reader_need",
+        "reason": "Existing guides use focus or metering as one technique; this answers the distinct operation, reset behavior, and differences between touchscreen, preserved exposure adjustment, and Camera Control."
+      },
+      "editorialDecision": {
+        "status": "draft_ready_for_parent_review",
+        "reviewer": "AI editorial review",
+        "checks": [
+          "Direct answer addresses the stated intent",
+          "Primary procedural claims mapped to sources",
+          "Device/software and capture-format limitations explicit",
+          "Practice examples identified as suggestions, not performed tests",
+          "No claimed search metrics, traffic, ranking, or Meluvya features",
+          "Three internal related slugs selected; parent validates final collection",
+          "No placeholders or copied source paragraphs"
+        ],
+        "remaining": [
+          "Image assignment, rendered SEO/export validation, mobile check, full-batch editorial review and deployment remain parent tasks"
+        ]
+      },
+      "originalContribution": "Concrete selection/practice/troubleshooting workflow tailored to the reader intent; not original empirical data."
+    },
+    {
+      "slug": "change-live-photo-key-photo",
+      "title": "How to choose a better key photo from an iPhone Live Photo",
+      "primaryKeyword": "change live photo key photo",
+      "keywordVariants": [
+        "choose frame live photo iphone",
+        "live photo better expression"
+      ],
+      "intent": "Recover a preferred recorded expression by choosing a Live Photo key frame",
+      "topic": "portraits",
+      "geography": "Worldwide",
+      "language": "English",
+      "retrieved": "2026-10-22",
+      "provider": "Free web search and primary documentation",
+      "period": null,
+      "searchVolume": null,
+      "organicDifficulty": null,
+      "metricsExplanation": "No verified query-specific search-volume or organic-difficulty dataset available; search results establish relevance and documentation, not demand.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-ph/104966",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple Live Photo support, How to change the key photo",
+          "supportedClaims": "Edit → Live Photos control → frame slider → Make Key Photo → Done.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://support.apple.com/en-euro/guide/iphone/iphd8dbb3291/27/ios/27",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple Live Photo editing, Make Live Photo edits",
+          "supportedClaims": "Changing the key photo on Live Photos with a portrait effect taken on iPhone15 or later removes that portrait effect. Key-frame selection and trimming are separate actions.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://support.apple.com/en-ph/104966",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple Live Photo support, capture introduction",
+          "supportedClaims": "Live Photos preserve sound and movement around capture. Additional frames must exist to select another moment.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        }
+      ],
+      "overlapReview": {
+        "comparedWith": [
+          "edit-photos-without-losing-original",
+          "iphone-burst-photos-select-best-frame"
+        ],
+        "decision": "distinct_reader_need",
+        "reason": "Live Photo key-frame selection works on one existing Live Photo; it is not general nondestructive editing or selection from a Burst. Includes portrait-effect caveat and expression/detail comparison."
+      },
+      "editorialDecision": {
+        "status": "draft_ready_for_parent_review",
+        "reviewer": "AI editorial review",
+        "checks": [
+          "Direct answer addresses the stated intent",
+          "Primary procedural claims mapped to sources",
+          "Device/software and capture-format limitations explicit",
+          "Practice examples identified as suggestions, not performed tests",
+          "No claimed search metrics, traffic, ranking, or Meluvya features",
+          "Three internal related slugs selected; parent validates final collection",
+          "No placeholders or copied source paragraphs"
+        ],
+        "remaining": [
+          "Image assignment, rendered SEO/export validation, mobile check, full-batch editorial review and deployment remain parent tasks"
+        ]
+      },
+      "originalContribution": "Concrete selection/practice/troubleshooting workflow tailored to the reader intent; not original empirical data."
+    },
+    {
+      "slug": "iphone-burst-photos-select-best-frame",
+      "title": "How to take iPhone Burst photos and choose the best frame",
+      "primaryKeyword": "iphone burst photos",
+      "keywordVariants": [
+        "select burst photos iphone",
+        "best frame burst photo"
+      ],
+      "intent": "Capture an action sequence and select useful individual stills",
+      "topic": "portraits",
+      "geography": "Worldwide",
+      "language": "English",
+      "retrieved": "2026-10-22",
+      "provider": "Free web search and primary documentation",
+      "period": null,
+      "searchVolume": null,
+      "organicDifficulty": null,
+      "metricsExplanation": "No verified query-specific search-volume or organic-difficulty dataset available; search results establish relevance and documentation, not demand.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/guide/iphone/take-burst-mode-shots-ipha42c55cd0/26/ios/26",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple iOS26 Burst guide, capture and selection steps",
+          "supportedClaims": "Swipe shutter left and hold, release to stop; open Burst thumbnail then Burst(number), select individual frames and Done. Suggested frames have gray dots. Optional Use Volume Up for Burst setting.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://www.adobe.com/learn/photoshop/web/adjust-shutter-speed-for-sharp-photo",
+          "publisher": "Adobe",
+          "retrieved": "2026-10-22",
+          "section": "Adobe sharp-photo lesson, transcript",
+          "supportedClaims": "Shutter duration determines how much camera or subject movement appears during a capture. A sequence rate is not a guarantee each frame freezes motion.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        }
+      ],
+      "overlapReview": {
+        "comparedWith": [
+          "self-timer-portraits-with-phone",
+          "change-live-photo-key-photo"
+        ],
+        "decision": "distinct_reader_need",
+        "reason": "Distinct capture mode and sequence selection need; timer guide plans a delayed still, while Live Photo guide chooses a representative moment from another media type."
+      },
+      "editorialDecision": {
+        "status": "draft_ready_for_parent_review",
+        "reviewer": "AI editorial review",
+        "checks": [
+          "Direct answer addresses the stated intent",
+          "Primary procedural claims mapped to sources",
+          "Device/software and capture-format limitations explicit",
+          "Practice examples identified as suggestions, not performed tests",
+          "No claimed search metrics, traffic, ranking, or Meluvya features",
+          "Three internal related slugs selected; parent validates final collection",
+          "No placeholders or copied source paragraphs"
+        ],
+        "remaining": [
+          "Image assignment, rendered SEO/export validation, mobile check, full-batch editorial review and deployment remain parent tasks"
+        ]
+      },
+      "originalContribution": "Concrete selection/practice/troubleshooting workflow tailored to the reader intent; not original empirical data."
+    },
+    {
+      "slug": "iphone-macro-close-up-focus",
+      "title": "Why iPhone close-up photos lose focus and how to improve them",
+      "primaryKeyword": "iphone macro blurry",
+      "keywordVariants": [
+        "iphone camera close up focus",
+        "iphone macro flower icon"
+      ],
+      "intent": "Diagnose iPhone close-up blur and automatic macro camera switching",
+      "topic": "portraits",
+      "geography": "Worldwide",
+      "language": "English",
+      "retrieved": "2026-10-22",
+      "provider": "Free web search and primary documentation",
+      "period": null,
+      "searchVolume": null,
+      "organicDifficulty": null,
+      "metricsExplanation": "No verified query-specific search-volume or organic-difficulty dataset available; search results establish relevance and documentation, not demand.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/guide/iphone/take-macro-photos-and-videos-iphfaacf2eb0/26/ios/26",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple iOS26 macro guide",
+          "supportedClaims": "Supported models use Ultra Wide for close macro capture, as close as2cm. Flower control toggles automatic switch. Back up or select0.5x if blurry with switch off. Preserve Settings can retain control preference.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/creative-photography-you-can-do-at-home",
+          "publisher": "Nikon",
+          "retrieved": "2026-10-22",
+          "section": "Nikon Creative Photography You Can Do At Home, macro paragraphs",
+          "supportedClaims": "Close-up depth of field matters and parallel camera/flat-subject alignment helps. The article explicitly does not transfer Nikon aperture settings to iPhone.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://support.apple.com/en-us/102514",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple image-quality troubleshooting",
+          "supportedClaims": "Clean front/rear camera lenses with microfiber and remove obstructing/interfering cases or accessories.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        }
+      ],
+      "overlapReview": {
+        "comparedWith": [
+          "photo-sharpening-vs-resolution",
+          "why-close-selfies-look-different"
+        ],
+        "decision": "distinct_reader_need",
+        "reason": "Close-focus hardware and distance problem, not facial perspective or post-capture sharpening. Gives model caveats, flat-subject exercise, and depth-of-field diagnosis."
+      },
+      "editorialDecision": {
+        "status": "draft_ready_for_parent_review",
+        "reviewer": "AI editorial review",
+        "checks": [
+          "Direct answer addresses the stated intent",
+          "Primary procedural claims mapped to sources",
+          "Device/software and capture-format limitations explicit",
+          "Practice examples identified as suggestions, not performed tests",
+          "No claimed search metrics, traffic, ranking, or Meluvya features",
+          "Three internal related slugs selected; parent validates final collection",
+          "No placeholders or copied source paragraphs"
+        ],
+        "remaining": [
+          "Image assignment, rendered SEO/export validation, mobile check, full-batch editorial review and deployment remain parent tasks"
+        ]
+      },
+      "originalContribution": "Concrete selection/practice/troubleshooting workflow tailored to the reader intent; not original empirical data."
+    },
+    {
+      "slug": "iphone-photographic-styles-vs-filters",
+      "title": "iPhone Photographic Styles vs filters: what can you change later?",
+      "primaryKeyword": "photographic styles vs filters",
+      "keywordVariants": [
+        "edit photographic styles after taking photo",
+        "iphone styles high efficiency"
+      ],
+      "intent": "Determine which Apple appearance treatment can be revised after capture",
+      "topic": "effects",
+      "geography": "Worldwide",
+      "language": "English",
+      "retrieved": "2026-10-22",
+      "provider": "Free web search and primary documentation",
+      "period": null,
+      "searchVolume": null,
+      "organicDifficulty": null,
+      "metricsExplanation": "No verified query-specific search-volume or organic-difficulty dataset available; search results establish relevance and documentation, not demand.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/guide/iphone/use-photographic-styles-iph629d2cd37/26/ios/26",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple iOS26 Use Photographic Styles",
+          "supportedClaims": "Styles selectively adjust colors in parts of the picture; control options depend on model; High Efficiency capture required for supported later editing.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://support.apple.com/guide/iphone/aside/iph2c22a8a5e/26/ios/26",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple iOS26 latest-generation supported model aside",
+          "supportedClaims": "Lists16,16Plus,16Pro,16ProMax,17,17Pro,17ProMax,Air. Guide presents this as iOS26 list, not an exhaustive timeless compatibility promise.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://support.apple.com/guide/iphone/edit-photos-and-videos-iphb08064d57/26/ios/26",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple iOS26 Edit photos and videos",
+          "supportedClaims": "Eligible photo → Edit → Styles allows revision; separate filter/light/color tools documented. Does not establish editable Styles data in arbitrary imported JPEG.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        }
+      ],
+      "overlapReview": {
+        "comparedWith": [
+          "ai-photo-effects-vs-filters",
+          "consistent-editing-for-photo-set"
+        ],
+        "decision": "distinct_reader_need",
+        "reason": "Apple-specific compatibility and capture-format decision. Existing guide compares generic filter/AI/generation categories and does not answer editable Apple Styles requirements."
+      },
+      "editorialDecision": {
+        "status": "draft_ready_for_parent_review",
+        "reviewer": "AI editorial review",
+        "checks": [
+          "Direct answer addresses the stated intent",
+          "Primary procedural claims mapped to sources",
+          "Device/software and capture-format limitations explicit",
+          "Practice examples identified as suggestions, not performed tests",
+          "No claimed search metrics, traffic, ranking, or Meluvya features",
+          "Three internal related slugs selected; parent validates final collection",
+          "No placeholders or copied source paragraphs"
+        ],
+        "remaining": [
+          "Image assignment, rendered SEO/export validation, mobile check, full-batch editorial review and deployment remain parent tasks"
+        ]
+      },
+      "originalContribution": "Concrete selection/practice/troubleshooting workflow tailored to the reader intent; not original empirical data."
+    },
+    {
+      "slug": "iphone-live-photo-long-exposure",
+      "title": "How to make a Live Photo long exposure on iPhone",
+      "primaryKeyword": "iphone live photo long exposure",
+      "keywordVariants": [
+        "iphone waterfall long exposure",
+        "live photo smooth water"
+      ],
+      "intent": "Create intentional water-motion blur from a Live Photo",
+      "topic": "effects",
+      "geography": "Worldwide",
+      "language": "English",
+      "retrieved": "2026-10-22",
+      "provider": "Free web search and primary documentation",
+      "period": null,
+      "searchVolume": null,
+      "organicDifficulty": null,
+      "metricsExplanation": "No verified query-specific search-volume or organic-difficulty dataset available; search results establish relevance and documentation, not demand.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-euro/guide/iphone/iphd8dbb3291/27/ios/27",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple Edit Live Photos, Add effects",
+          "supportedClaims": "Live menu includes Long Exposure, described as simulated long-exposure motion blur.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://support.apple.com/en-euro/guide/iphone/iph17471d6de/26/ios/26",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple iOS26 Take Live Photos",
+          "supportedClaims": "Live Photos captured in Photo mode; unavailable when ProRAW or HEIF Max is enabled.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://www.adobe.com/creativecloud/photography/technique/motion-blur.html",
+          "publisher": "Adobe",
+          "retrieved": "2026-10-22",
+          "section": "Adobe Motion blur, motion versus camera shake",
+          "supportedClaims": "Intentional moving-water blur and tripod support are photographic concepts, not an iPhone manual-exposure procedure.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://support.apple.com/en-ph/104966",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple Take and edit Live Photos",
+          "supportedClaims": "Third-party edits may lose applied Live Photo effects.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        }
+      ],
+      "overlapReview": {
+        "comparedWith": [
+          "why-night-phone-photos-are-blurry",
+          "change-live-photo-key-photo"
+        ],
+        "decision": "distinct_reader_need",
+        "reason": "Intentional motion rendition is opposite of removing night blur. Shares a media type with key-photo article but uses a distinct effect, scene setup, and result review."
+      },
+      "editorialDecision": {
+        "status": "draft_ready_for_parent_review",
+        "reviewer": "AI editorial review",
+        "checks": [
+          "Direct answer addresses the stated intent",
+          "Primary procedural claims mapped to sources",
+          "Device/software and capture-format limitations explicit",
+          "Practice examples identified as suggestions, not performed tests",
+          "No claimed search metrics, traffic, ranking, or Meluvya features",
+          "Three internal related slugs selected; parent validates final collection",
+          "No placeholders or copied source paragraphs"
+        ],
+        "remaining": [
+          "Image assignment, rendered SEO/export validation, mobile check, full-batch editorial review and deployment remain parent tasks"
+        ]
+      },
+      "originalContribution": "Concrete selection/practice/troubleshooting workflow tailored to the reader intent; not original empirical data."
+    },
+    {
+      "slug": "phone-panorama-stitching-tips",
+      "title": "Phone panorama tips: avoid broken lines and duplicated people",
+      "primaryKeyword": "phone panorama tips",
+      "keywordVariants": [
+        "iphone panorama stitching errors",
+        "panorama duplicated people"
+      ],
+      "intent": "Capture a clean panorama and diagnose seams and repeated moving objects",
+      "topic": "portraits",
+      "geography": "Worldwide",
+      "language": "English",
+      "retrieved": "2026-10-22",
+      "provider": "Free web search and primary documentation",
+      "period": null,
+      "searchVolume": null,
+      "organicDifficulty": null,
+      "metricsExplanation": "No verified query-specific search-volume or organic-difficulty dataset available; search results establish relevance and documentation, not demand.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-asia/guide/iphone/iph7e06402b4/26/ios/26",
+          "publisher": "Apple",
+          "retrieved": "2026-10-22",
+          "section": "Apple iOS26 Pano guide",
+          "supportedClaims": "ChoosePano, startshutter, move slowly following center-line arrow, stopshutter. Taparrow reverses direction. Landscape phoneorientation supports verticalpan.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        },
+        {
+          "url": "https://blog.adobe.com/en/publish/2020/01/16/from-the-acr-team-merge-to-panorama",
+          "publisher": "Adobe Camera Raw team",
+          "retrieved": "2026-10-22",
+          "section": "Adobe Camera Raw team, capture/alignment model",
+          "supportedClaims": "Pano views should be made from a fixed position; foreground/background relative shifts (parallax) complicate alignment, especially nearby scenes. Article does not claim phone has Camera Raw merge controls.",
+          "evidenceType": "Paraphrase of retrieved primary documentation; no direct quotation"
+        }
+      ],
+      "overlapReview": {
+        "comparedWith": [
+          "choose-portrait-background",
+          "how-to-crop-portrait-photos"
+        ],
+        "decision": "distinct_reader_need",
+        "reason": "Multi-view capture and parallax are absent from existing single-image framing/cropping guides. Includes precise Pano steps and targeted seam review."
+      },
+      "editorialDecision": {
+        "status": "draft_ready_for_parent_review",
+        "reviewer": "AI editorial review",
+        "checks": [
+          "Direct answer addresses the stated intent",
+          "Primary procedural claims mapped to sources",
+          "Device/software and capture-format limitations explicit",
+          "Practice examples identified as suggestions, not performed tests",
+          "No claimed search metrics, traffic, ranking, or Meluvya features",
+          "Three internal related slugs selected; parent validates final collection",
+          "No placeholders or copied source paragraphs"
+        ],
+        "remaining": [
+          "Image assignment, rendered SEO/export validation, mobile check, full-batch editorial review and deployment remain parent tasks"
+        ]
+      },
+      "originalContribution": "Concrete selection/practice/troubleshooting workflow tailored to the reader intent; not original empirical data."
+    }
+  ],
+  "limitations": [
+    "No first-hand device test, screenshots, original sample photographs, verified search volume, organic difficulty, or Search Console query data in this subtask.",
+    "Photos and Camera UI can change; article notes constrain instructions to referenced versions/models.",
+    "No guaranteed indexing, ranking, or traffic."
+  ]
+}
