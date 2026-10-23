@@ -1,0 +1,241 @@
+{
+  "scope": "Repository integration and static export; browser interaction, commands and deployment belong to parent.",
+  "totalArticles": 88,
+  "publishedToday": 30,
+  "newPublications": 23,
+  "queued": 7,
+  "sitemapUrls": 98,
+  "errors": [],
+  "pages": [
+    {
+      "slug": "food-photos-with-phone",
+      "contentStringsVerified": 41,
+      "canonical": "https://meluvya.com/blog/food-photos-with-phone/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "31d03fddd764a12b0b2d418d3f076b1cff394e2561f7c4ed6e1deb697fa86207"
+    },
+    {
+      "slug": "iphone-photo-albums-vs-folders",
+      "contentStringsVerified": 34,
+      "canonical": "https://meluvya.com/blog/iphone-photo-albums-vs-folders/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "c1bf1dba27b244508994c6c55ce80290104d56004e8b87c6565bb3d9ca77cc62"
+    },
+    {
+      "slug": "tone-curves-vs-contrast",
+      "contentStringsVerified": 36,
+      "canonical": "https://meluvya.com/blog/tone-curves-vs-contrast/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "a194f37b71fc8fa931ca017d819b0cb2b6dc324b08816778644eea65e33e0677"
+    },
+    {
+      "slug": "pet-photos-with-phone",
+      "contentStringsVerified": 33,
+      "canonical": "https://meluvya.com/blog/pet-photos-with-phone/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "b81eb8635c592de26ab59f5cc07bc3b8fa7778eadf232d62614ab77850bf0bb7"
+    },
+    {
+      "slug": "copy-text-from-iphone-photo",
+      "contentStringsVerified": 36,
+      "canonical": "https://meluvya.com/blog/copy-text-from-iphone-photo/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "a069e28009138346a78ac3141cfe61ace11205c408a0de0dbc57ea532941e7a8"
+    },
+    {
+      "slug": "texture-clarity-dehaze-differences",
+      "contentStringsVerified": 40,
+      "canonical": "https://meluvya.com/blog/texture-clarity-dehaze-differences/",
+      "dates": "2026-10-23",
+      "sourceCount": 1,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "976964dac1a7b80bc8c21590bc761e751fb37a7f37c0f2f073ad75abd6205fec"
+    },
+    {
+      "slug": "flat-lay-phone-photography",
+      "contentStringsVerified": 30,
+      "canonical": "https://meluvya.com/blog/flat-lay-phone-photography/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "3708fb8b74426dea413648c3af58577d7a509df3c81aa6b3b7f1509dc9ecfa68"
+    },
+    {
+      "slug": "icloud-shared-albums-photo-quality",
+      "contentStringsVerified": 35,
+      "canonical": "https://meluvya.com/blog/icloud-shared-albums-photo-quality/",
+      "dates": "2026-10-23",
+      "sourceCount": 3,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "39fe4c59980c0412b46661e549d0fbc9b7b1e0f1199f303bbab65591e6f22edf"
+    },
+    {
+      "slug": "color-grading-vs-white-balance",
+      "contentStringsVerified": 37,
+      "canonical": "https://meluvya.com/blog/color-grading-vs-white-balance/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "36b199f66bc870d7d29b823fec9ec7655cf9076a2e5d8ecf0c841339d0e9e796"
+    },
+    {
+      "slug": "group-photos-everyone-sharp",
+      "contentStringsVerified": 34,
+      "canonical": "https://meluvya.com/blog/group-photos-everyone-sharp/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "67b9f584e20410ff8eedc741e5191335f2b61b83064efd5baa75a39703478c15"
+    },
+    {
+      "slug": "hide-lock-iphone-photos",
+      "contentStringsVerified": 29,
+      "canonical": "https://meluvya.com/blog/hide-lock-iphone-photos/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "36d4173a51b8db617cc8106b60a0f508b0c301f76f6dae9b2a5ef12489e1f558"
+    },
+    {
+      "slug": "remove-chromatic-aberration-photo-fringes",
+      "contentStringsVerified": 34,
+      "canonical": "https://meluvya.com/blog/remove-chromatic-aberration-photo-fringes/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "697774918e9aca87a0420d5ff45124eadabf454c568a7b1439a85646924c1a5b"
+    },
+    {
+      "slug": "product-photos-white-background",
+      "contentStringsVerified": 33,
+      "canonical": "https://meluvya.com/blog/product-photos-white-background/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "0ae5c659ea153993ef32349d9b1276f2f99dcc6184c6c89e27fac72bbb5259f1"
+    },
+    {
+      "slug": "share-live-photo-as-still-or-motion",
+      "contentStringsVerified": 35,
+      "canonical": "https://meluvya.com/blog/share-live-photo-as-still-or-motion/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "907201c41c1e564b862c5ef7ed8c056100ca0b0c8e555b3cf7db1b0699ac5091"
+    },
+    {
+      "slug": "lens-distortion-vs-perspective",
+      "contentStringsVerified": 33,
+      "canonical": "https://meluvya.com/blog/lens-distortion-vs-perspective/",
+      "dates": "2026-10-23",
+      "sourceCount": 1,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "c25d8158e36579c1ea2a2dab628314a46648826218b44bdb6d6102d089e7831a"
+    },
+    {
+      "slug": "photos-through-window-without-reflections",
+      "contentStringsVerified": 33,
+      "canonical": "https://meluvya.com/blog/photos-through-window-without-reflections/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "25f1c52c28ca2c4d9dd5a716154089af6f1aeddeb6b07e631bb954502dfb9bfa"
+    },
+    {
+      "slug": "iphone-camera-grid-level",
+      "contentStringsVerified": 31,
+      "canonical": "https://meluvya.com/blog/iphone-camera-grid-level/",
+      "dates": "2026-10-23",
+      "sourceCount": 1,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "a6dbaf1c6c4817164e9e1ae7a3b4613562d93a6031d75c495895de5cfee32dda"
+    },
+    {
+      "slug": "subtle-vignette-photo-editing",
+      "contentStringsVerified": 35,
+      "canonical": "https://meluvya.com/blog/subtle-vignette-photo-editing/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "3dc0b3e98ac0ec1f808d53a9e8650711d6c9ac17d618237fa53fe73eeaa4f3f0"
+    },
+    {
+      "slug": "silhouette-photos-with-phone",
+      "contentStringsVerified": 33,
+      "canonical": "https://meluvya.com/blog/silhouette-photos-with-phone/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "dcc8ea1b82b96bfb8b860bd7e81cec0304b56f00db9cb5be685a7b063f92226d"
+    },
+    {
+      "slug": "limit-app-photo-library-access-iphone",
+      "contentStringsVerified": 28,
+      "canonical": "https://meluvya.com/blog/limit-app-photo-library-access-iphone/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "3b36f0c98aaee3615949b2828c853e38767e8972489eb7ec926c113e06a92951"
+    },
+    {
+      "slug": "local-masking-vs-global-photo-edits",
+      "contentStringsVerified": 34,
+      "canonical": "https://meluvya.com/blog/local-masking-vs-global-photo-edits/",
+      "dates": "2026-10-23",
+      "sourceCount": 1,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "9088834c01d32e85a57e43e594b34bb3c952912ecfaa934ad8e6134169102825"
+    },
+    {
+      "slug": "water-reflection-photos-with-phone",
+      "contentStringsVerified": 30,
+      "canonical": "https://meluvya.com/blog/water-reflection-photos-with-phone/",
+      "dates": "2026-10-23",
+      "sourceCount": 3,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "d28375c89290532f586fad3fa0f704eb280bc5cd549f146d34557faf8b3da9cd"
+    },
+    {
+      "slug": "remove-small-background-distractions",
+      "contentStringsVerified": 46,
+      "canonical": "https://meluvya.com/blog/remove-small-background-distractions/",
+      "dates": "2026-10-23",
+      "sourceCount": 2,
+      "relatedCount": 3,
+      "ctaButtons": 2,
+      "htmlSha256": "bf20e17e88e5562c621f8122f891376106a355ee09575f539db3f7844848f4ed"
+    }
+  ]
+}

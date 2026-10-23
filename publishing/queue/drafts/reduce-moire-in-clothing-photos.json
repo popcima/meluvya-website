@@ -1,0 +1,127 @@
+{
+  "slug": "reduce-moire-in-clothing-photos",
+  "title": "How to reduce moiré in clothing photos",
+  "description": "Identify false waves or colors in fabric, compare the source and export, and try a local correction without erasing the garment’s texture.",
+  "summary": "A garment-first workflow for handling false repeating patterns while preserving real weave, seams and color.",
+  "quickAnswer": "Check the garment in the original at 100% view and in the final-size export. If false waves or colors remain, try a local moiré adjustment where your editor provides one. Keep the correction confined to the affected fabric and compare seams and genuine colors before deciding it helped.",
+  "published": null,
+  "modified": null,
+  "image": "blog/pexels-32644860-4k.webp",
+  "imageAlt": "Woman in a pink shirt and red cap leaning through an open window",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-32644860-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-32644860-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-32644860-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-32644860-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Muhammad-Taha Ibrahim",
+    "url": "https://www.pexels.com/photo/portrait-of-smiling-woman-at-window-in-abuja-32644860/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "recognize",
+      "title": "Recognize a false pattern in a real pattern",
+      "paragraphs": [
+        "Nikon explains moiré as a new pattern formed when a subject’s fine repeating detail interacts with the camera’s sampling pattern. Woven fabric is a common example. It can create distracting shapes or false color even when the garment itself does not contain them.",
+        "Compare with what you know about the clothing. A rainbow-like patch on a plain fine weave deserves investigation; an actual printed stripe should not be removed just because it is repetitive. If you can check another frame or the garment itself, use that reference.",
+        "Keep this separate from random speckles in a dark photograph. A noise-cleanup approach may not address the repeating structure that is bothering you."
+      ]
+    },
+    {
+      "id": "compare-versions",
+      "title": "Compare source, preview and delivery",
+      "paragraphs": [
+        "Inspect the original at 100% magnification, as Nikon recommends for evaluating the artifact, and also look at the intended display size. Open the exported file separately. Do not decide solely from a small editing preview.",
+        "If the troubling pattern changes dramatically between viewing sizes or appears only in the resized delivery, make a second export from the same clean master and compare the actual results. That observation helps locate the problem; it does not prove that the original contains no artifact.",
+        "Keep the image content and edit consistent during this comparison. Changing the crop, detail settings and export dimensions together makes it difficult to know which decision helped."
+      ]
+    },
+    {
+      "id": "local-correction",
+      "title": "Try a local correction on the cloth",
+      "paragraphs": [
+        "Adobe documents a Moiré control among Lightroom mobile’s local adjustment options. Availability and placement should be checked against the editor and version you use."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Select the affected area.",
+            "text": "Use a mask limited to the problematic fabric. Include the visible problem without unnecessarily covering skin, jewelry or surrounding objects."
+          },
+          {
+            "title": "Make a restrained trial.",
+            "text": "Increase the relevant correction gradually while watching the false pattern. Avoid treating the slider’s maximum as a target."
+          },
+          {
+            "title": "Inspect real garment detail.",
+            "text": "Compare seams, buttons, folds and any genuine color variation. Check that the apparent improvement has not turned the material into an indistinct patch."
+          },
+          {
+            "title": "Reopen the final export.",
+            "text": "Judge the delivered size as well as a close view. Save the editable version so a later delivery size can be assessed independently."
+          }
+        ]
+      }
+    },
+    {
+      "id": "alternate-capture",
+      "title": "Use another capture when it is the better option",
+      "paragraphs": [
+        "For an important garment photograph, compare nearby frames before spending a long time repairing one. Nikon notes that changing the relationship between camera and subject, including angle or focal length, can alter the occurrence of moiré.",
+        "A practical retake exercise is to preserve the garment’s pose and lighting while making a small viewpoint change, then compare the fabric carefully. For a portrait, keep the face usefully focused; sacrificing the whole subject’s clarity is not an attractive default solution to a shirt problem.",
+        "For an online listing, the weave and color may be essential information. A cleaner alternate frame can be more honest and more useful than a heavily smoothed version of the troublesome one."
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "Accept the limits of a correction",
+      "paragraphs": [
+        "Look separately at the false color and the false pattern. A result can improve one while leaving the other noticeable. If acceptable correction requires removing the garment’s real character, choose another image or revise the capture.",
+        "Keep the original and label the finished version clearly. Do not describe a reconstructed or strongly altered fabric as an accurate record of its texture when you cannot verify that claim."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is moiré the same as digital noise?",
+      "answer": "No. This guide concerns a false repeating pattern or color associated with fine detail. Random speckles and blotches require a separate diagnosis."
+    },
+    {
+      "question": "Will desaturating the shirt fix every case?",
+      "answer": "It may hide a colored symptom while leaving a false brightness pattern, and it can change the garment’s true color. Compare a dedicated local correction or another frame first."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nikon: Moiré and false color",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/products-and-innovation/moire-false-color",
+      "note": "Repeating-detail interference, close inspection and capture changes. Checked October 23, 2026."
+    },
+    {
+      "title": "Adobe: Lightroom local adjustment controls",
+      "url": "https://helpx.adobe.com/lightroom/mobile/masks-and-selective-adjustments/local-adjustment-controls.html",
+      "note": "Availability of local Moiré adjustment. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "photo-noise-vs-film-grain",
+    "photo-sharpening-vs-resolution",
+    "resize-vs-compress-photos-for-upload"
+  ]
+}

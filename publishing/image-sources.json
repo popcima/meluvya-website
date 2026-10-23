@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "purpose": "Distinct illustrative editorial photographs for the Meluvya guide library.",
   "licenseReview": {
     "url": "https://www.pexels.com/license/",
@@ -2649,6 +2649,282 @@
       "position": "50% 40%",
       "reusedFrom": "vibrance-vs-saturation-portraits",
       "reuseDate": "2026-10-22"
+    },
+    {
+      "slug": "food-photos-with-phone",
+      "photoId": "7791114",
+      "source": "https://www.pexels.com/photo/flat-lay-photography-of-a-person-preparing-granola-for-breakfast-on-black-surface-7791114/",
+      "photographer": "Ron Lach",
+      "download": "https://images.pexels.com/photos/7791114/pexels-photo-7791114.jpeg?cs=srgb&dl=pexels-ron-lach-7791114.jpg&fm=jpg",
+      "alt": "Overhead view of granola, blueberries and a bowl of yogurt on a dark table",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-23",
+      "original": {
+        "width": 6154,
+        "height": 4103,
+        "bytes": 1758870,
+        "sha256": "5937b68b71618978bde30bb1e2610c3b5c31fbc78745e9da0f69e0e078a607c8"
+      },
+      "master": "blog/pexels-7791114-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-7791114-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24562
+        },
+        {
+          "src": "blog/pexels-7791114-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 67376
+        },
+        {
+          "src": "blog/pexels-7791114-1600.webp",
+          "width": 1600,
+          "height": 1066,
+          "bytes": 175952
+        },
+        {
+          "src": "blog/pexels-7791114-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 863910
+        }
+      ],
+      "position": "50% 50%",
+      "retrievalMethod": "Pexels public photo page, visible Free download link in the browser; no login or challenge bypass."
+    },
+    {
+      "slug": "pet-photos-with-phone",
+      "photoId": "37427157",
+      "source": "https://www.pexels.com/photo/cute-white-dog-portrait-on-black-backdrop-37427157/",
+      "photographer": "Jay Brand",
+      "download": "https://images.pexels.com/photos/37427157/pexels-photo-37427157.jpeg?cs=srgb&dl=pexels-jay-brand-1763356224-37427157.jpg&fm=jpg",
+      "alt": "White dog photographed against a dark background",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-23",
+      "original": {
+        "width": 4963,
+        "height": 6204,
+        "bytes": 2337492,
+        "sha256": "001a99214dc1766c6ecf70024a6076788824c3f5fef92ef560d852c1d5b90b06"
+      },
+      "master": "blog/pexels-37427157-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-37427157-480.webp",
+          "width": 480,
+          "height": 600,
+          "bytes": 19168
+        },
+        {
+          "src": "blog/pexels-37427157-960.webp",
+          "width": 960,
+          "height": 1201,
+          "bytes": 56238
+        },
+        {
+          "src": "blog/pexels-37427157-1600.webp",
+          "width": 1600,
+          "height": 2000,
+          "bytes": 130974
+        },
+        {
+          "src": "blog/pexels-37427157-4k.webp",
+          "width": 3072,
+          "height": 3840,
+          "bytes": 577982
+        }
+      ],
+      "position": "50% 50%",
+      "retrievalMethod": "Pexels public photo page, visible Free download link in the browser; no login or challenge bypass."
+    },
+    {
+      "slug": "jewelry-photos-with-phone",
+      "photoId": "16689780",
+      "source": "https://www.pexels.com/photo/gold-ring-on-hand-of-woman-16689780/",
+      "photographer": "cnrdmroglu",
+      "download": "https://images.pexels.com/photos/16689780/pexels-photo-16689780.jpeg?cs=srgb&dl=pexels-entero-16689780.jpg&fm=jpg",
+      "alt": "Close view of a hand wearing a gold ring with a pearl",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-23",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 1414209,
+        "sha256": "94a765227584dae5c2ae479404ca10e60b3654043f808d1782382e0b52759ad1"
+      },
+      "master": "blog/pexels-16689780-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-16689780-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 8204
+        },
+        {
+          "src": "blog/pexels-16689780-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 24366
+        },
+        {
+          "src": "blog/pexels-16689780-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 55940
+        },
+        {
+          "src": "blog/pexels-16689780-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 189064
+        }
+      ],
+      "position": "50% 50%",
+      "retrievalMethod": "Pexels public photo page, visible Free download link in the browser; no login or challenge bypass."
+    },
+    {
+      "slug": "photograph-artwork-with-phone",
+      "photoId": "20511253",
+      "source": "https://www.pexels.com/photo/man-painting-a-picture-on-a-canvas-in-a-studio-20511253/",
+      "photographer": "Alina Rossoshanska",
+      "download": "https://images.pexels.com/photos/20511253/pexels-photo-20511253.jpeg?cs=srgb&dl=pexels-alina-rossoshanska-338724645-20511253.jpg&fm=jpg",
+      "alt": "Artist working on a large abstract canvas in a studio",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-23",
+      "original": {
+        "width": 6720,
+        "height": 4480,
+        "bytes": 5969693,
+        "sha256": "801631afe83df373121d77fb9bc59734e61c210ef1988cba321d42b0ca1a1086"
+      },
+      "master": "blog/pexels-20511253-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-20511253-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 28116
+        },
+        {
+          "src": "blog/pexels-20511253-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 93898
+        },
+        {
+          "src": "blog/pexels-20511253-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 280392
+        },
+        {
+          "src": "blog/pexels-20511253-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 2496990
+        }
+      ],
+      "position": "50% 50%",
+      "retrievalMethod": "Pexels public photo page, visible Free download link in the browser; no login or challenge bypass."
+    },
+    {
+      "slug": "water-reflection-photos-with-phone",
+      "photoId": "1121782",
+      "source": "https://www.pexels.com/photo/reflection-of-buildings-on-body-of-water-1121782/",
+      "photographer": "Paweł L.",
+      "download": "https://images.pexels.com/photos/1121782/pexels-photo-1121782.jpeg?cs=srgb&dl=pexels-pawel-l-435199-1121782.jpg&fm=jpg",
+      "alt": "Historic street buildings reflected in a puddle",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-23",
+      "original": {
+        "width": 5184,
+        "height": 3456,
+        "bytes": 2059660,
+        "sha256": "84fea3407495978ce3b7dfd693c9407a885b9c6fc84c4588a0df812a2a7effcd"
+      },
+      "master": "blog/pexels-1121782-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-1121782-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 30990
+        },
+        {
+          "src": "blog/pexels-1121782-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 91842
+        },
+        {
+          "src": "blog/pexels-1121782-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 197124
+        },
+        {
+          "src": "blog/pexels-1121782-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 925266
+        }
+      ],
+      "position": "50% 50%",
+      "retrievalMethod": "Pexels public photo page, visible Free download link in the browser; no login or challenge bypass."
+    },
+    {
+      "slug": "group-photos-everyone-sharp",
+      "photoId": "6210595",
+      "source": "https://www.pexels.com/photo/friends-getting-their-group-photo-taken-6210595/",
+      "photographer": "PICHA",
+      "download": "https://images.pexels.com/photos/6210595/pexels-photo-6210595.jpeg?cs=srgb&dl=pexels-picha-6210595.jpg&fm=jpg",
+      "alt": "Four friends posing together outdoors for a photograph",
+      "provider": "Pexels",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-23",
+      "original": {
+        "width": 6016,
+        "height": 4016,
+        "bytes": 4096452,
+        "sha256": "6569b0784d28f5ee4fb866d2a1a422d074ef988e6e83e57075662c3bd65b9675"
+      },
+      "master": "blog/pexels-6210595-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-6210595-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 24580
+        },
+        {
+          "src": "blog/pexels-6210595-960.webp",
+          "width": 960,
+          "height": 641,
+          "bytes": 67418
+        },
+        {
+          "src": "blog/pexels-6210595-1600.webp",
+          "width": 1600,
+          "height": 1068,
+          "bytes": 134100
+        },
+        {
+          "src": "blog/pexels-6210595-4k.webp",
+          "width": 3840,
+          "height": 2563,
+          "bytes": 1503382
+        }
+      ],
+      "position": "50% 50%",
+      "retrievalMethod": "Pexels public photo page, visible Free download link in the browser; no login or challenge bypass."
     }
   ]
 }

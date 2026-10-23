@@ -1,0 +1,486 @@
+[
+  {
+    "slug": "iphone-photo-albums-vs-folders",
+    "primaryKeyword": "iphone photo albums vs folders",
+    "keywordVariants": [
+      "create folder in iphone photos",
+      "remove photo from album without deleting"
+    ],
+    "intent": "Organize a photo library with albums for selections and folders for groups of albums.",
+    "geography": "Worldwide",
+    "language": "English",
+    "retrieved": "2026-10-23",
+    "monthlySearchVolume": null,
+    "keywordDifficulty": null,
+    "metricsProvider": null,
+    "metricsPeriod": null,
+    "demandStatus": "Exact-query demand and competition are unknown; topic selected for a distinct practical reader task.",
+    "sources": [
+      {
+        "url": "https://support.apple.com/guide/iphone/create-and-work-with-photo-albums-iphc0fc668ab/26/ios/26",
+        "title": "Apple: Create and work with photo albums — iOS 26",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Album/folder distinction and creation; album deletion retains pictures."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/guide/iphone/add-delete-find-photos-videos-albums-iphee7aff030/26/ios/26",
+        "title": "Apple: Add, delete, and find photos in albums — iOS 26",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Album addition and removal commands."
+        ]
+      }
+    ],
+    "outline": [
+      "Choose a structure you will actually use",
+      "Create an album or folder in Photos",
+      "Add pictures, then practice a harmless removal",
+      "Read the action before cleaning up",
+      "Keep the system small enough to maintain"
+    ],
+    "overlapDecision": "Library has duplicate cleanup, recovery and sync guides; none explains album/folder organization. Links those tasks instead of re-teaching them.",
+    "originalContribution": "Trip-folder example, small sample-removal check and action-based cleanup decision.",
+    "imageDonor": "consistent-editing-for-photo-set",
+    "editorialDecision": "Distinct intent; draft for independent factual and editorial review. No publication date assigned.",
+    "readiness": "draft-awaiting-independent-review",
+    "limitations": "Documentation-based guidance, not a hands-on product test. Interface and availability can vary by software version."
+  },
+  {
+    "slug": "copy-text-from-iphone-photo",
+    "primaryKeyword": "copy text from photo iphone",
+    "keywordVariants": [
+      "iphone live text not showing",
+      "extract text from image iphone"
+    ],
+    "intent": "Copy image text into an editable note, then verify the details that matter.",
+    "geography": "Worldwide",
+    "language": "English",
+    "retrieved": "2026-10-23",
+    "monthlySearchVolume": null,
+    "keywordDifficulty": null,
+    "metricsProvider": null,
+    "metricsPeriod": null,
+    "demandStatus": "Exact-query demand and competition are unknown; topic selected for a distinct practical reader task.",
+    "sources": [
+      {
+        "url": "https://support.apple.com/guide/iphone/interact-with-content-in-a-photo-or-video-iph37fdd714b/26/ios/26",
+        "title": "Apple: Interact with text in a photo or video — iOS 26",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Live Text activation and selection; regional/language limits."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/en-us/120004",
+        "title": "Apple: Copy and translate text from photos",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "iPhone XS/XR+ and iOS requirements; command variation."
+        ]
+      }
+    ],
+    "outline": [
+      "Check support before troubleshooting the picture",
+      "Select the useful passage",
+      "Verify high-impact details first",
+      "Improve the source instead of correcting endless errors",
+      "Keep enough context to understand the text later"
+    ],
+    "overlapDecision": "Distinct from scanning prints and repairing detail: this task extracts characters into editable text.",
+    "originalContribution": "Event-poster example and verification priorities for codes, columns and addresses.",
+    "imageDonor": "why-photos-look-different-on-screens",
+    "editorialDecision": "Distinct intent; draft for independent factual and editorial review. No publication date assigned.",
+    "readiness": "draft-awaiting-independent-review",
+    "limitations": "Documentation-based guidance, not a hands-on product test. Interface and availability can vary by software version.",
+    "imageSelectionNote": "Parent selected a different existing licensed illustrative asset to avoid repeating an image within this 30-draft batch. Complete image fields preserved."
+  },
+  {
+    "slug": "visual-look-up-iphone-photos",
+    "primaryKeyword": "visual look up iphone photos",
+    "keywordVariants": [
+      "identify objects in iphone photos",
+      "visual look up no star"
+    ],
+    "intent": "Find a possible identity for a photographed object and check it against independent details.",
+    "geography": "Worldwide",
+    "language": "English",
+    "retrieved": "2026-10-23",
+    "monthlySearchVolume": null,
+    "keywordDifficulty": null,
+    "metricsProvider": null,
+    "metricsPeriod": null,
+    "demandStatus": "Exact-query demand and competition are unknown; topic selected for a distinct practical reader task.",
+    "sources": [
+      {
+        "url": "https://support.apple.com/guide/iphone/identify-objects-in-your-photos-and-videos-iph21c29a1cf/26/ios/26",
+        "title": "Apple: Identify objects in your photos and videos — iOS 26",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Supported subject examples; iOS 26 lookup route; availability."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/en-us/104962",
+        "title": "Apple: Look up what is in a photo",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "No-star meaning and Siri Knowledge/web results."
+        ]
+      }
+    ],
+    "outline": [
+      "Start with a recognizable subject",
+      "Open the result in Photos",
+      "Separate a possible match from a confirmed name",
+      "Keep recognition tasks separate",
+      "Keep a useful record of the answer"
+    ],
+    "overlapDecision": "No existing guide covers object identification. Keeps metadata editing and subject extraction outside scope.",
+    "originalContribution": "Landmark verification example, evidence table and cautious-caption workflow.",
+    "imageDonor": "iphone-macro-close-up-focus",
+    "editorialDecision": "Distinct intent; draft for independent factual and editorial review. No publication date assigned.",
+    "readiness": "draft-awaiting-independent-review",
+    "limitations": "Documentation-based guidance, not a hands-on product test. Interface and availability can vary by software version."
+  },
+  {
+    "slug": "hide-lock-iphone-photos",
+    "primaryKeyword": "hide photos iphone",
+    "keywordVariants": [
+      "lock hidden photos iphone",
+      "hide hidden album iphone"
+    ],
+    "intent": "Move selected photographs out of ordinary browsing and verify how the Hidden collection is protected.",
+    "geography": "Worldwide",
+    "language": "English",
+    "retrieved": "2026-10-23",
+    "monthlySearchVolume": null,
+    "keywordDifficulty": null,
+    "metricsProvider": null,
+    "metricsPeriod": null,
+    "demandStatus": "Exact-query demand and competition are unknown; topic selected for a distinct practical reader task.",
+    "sources": [
+      {
+        "url": "https://support.apple.com/guide/iphone/delete-or-hide-photos-and-videos-iphb4defbde9/26/ios/26",
+        "title": "Apple: Delete or hide photos and videos — iOS 26",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Version-specific hide/unhide and settings routes."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/en-us/104987",
+        "title": "Apple: Hide photos with the Hidden album",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Authentication by default, concealed entry and cross-device hiding."
+        ]
+      }
+    ],
+    "outline": [
+      "Choose the protection you need",
+      "Move a picture to Hidden",
+      "Check authentication and visibility separately",
+      "Account for other devices and earlier copies",
+      "Run a small retrieval check"
+    ],
+    "overlapDecision": "Distinct Apple Hidden control task, not Google Photos Locked Folder or deleted-photo recovery. Avoids reproducing their workflows.",
+    "originalContribution": "Harmless sample/retrieval check and three-location privacy example.",
+    "imageDonor": "why-iphone-selfies-flip",
+    "editorialDecision": "Distinct intent; draft for independent factual and editorial review. No publication date assigned.",
+    "readiness": "draft-awaiting-independent-review",
+    "limitations": "Documentation-based guidance, not a hands-on product test. Interface and availability can vary by software version.",
+    "imageSelectionNote": "Parent selected a different existing licensed illustrative asset to avoid repeating an image within this 30-draft batch. Complete image fields preserved."
+  },
+  {
+    "slug": "icloud-shared-albums-photo-quality",
+    "primaryKeyword": "icloud shared albums photo quality",
+    "keywordVariants": [
+      "shared albums full resolution",
+      "shared album photos blurry"
+    ],
+    "intent": "Decide whether a Shared Album copy is suitable for your intended use.",
+    "geography": "Worldwide",
+    "language": "English",
+    "retrieved": "2026-10-23",
+    "monthlySearchVolume": null,
+    "keywordDifficulty": null,
+    "metricsProvider": null,
+    "metricsPeriod": null,
+    "demandStatus": "Exact-query demand and competition are unknown; topic selected for a distinct practical reader task.",
+    "sources": [
+      {
+        "url": "https://support.apple.com/en-us/148868",
+        "title": "Apple: Shared Albums limits",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Creation-version distinction; owner storage and temporary exception."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/en-us/148676",
+        "title": "Apple: File types in Shared Albums",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Version-conditioned resolution; older downloaded files may omit original information."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/en-us/148570",
+        "title": "Apple: Save photos from a shared album",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Save Image route; no automatic local saving; comments/likes excluded."
+        ]
+      }
+    ],
+    "outline": [
+      "Check the album, not just today’s phone version",
+      "Compare the documented quality behavior",
+      "Check storage and information separately",
+      "Save a copy and inspect it",
+      "Choose delivery for the recipient’s task"
+    ],
+    "overlapDecision": "Specific sharing-service delivery decision, separate from general sync/backup, AirDrop options and pixel-to-print calculations.",
+    "originalContribution": "Creation-version distinction, same-frame verification and recipient-specific delivery example.",
+    "imageDonor": "check-ai-portrait-details",
+    "editorialDecision": "Distinct intent; draft for independent factual and editorial review. No publication date assigned.",
+    "readiness": "draft-awaiting-independent-review",
+    "limitations": "Documentation-based guidance, not a hands-on product test. Interface and availability can vary by software version.",
+    "imageSelectionNote": "Parent selected a different existing licensed illustrative asset to avoid repeating an image within this 30-draft batch. Complete image fields preserved."
+  },
+  {
+    "slug": "share-live-photo-as-still-or-motion",
+    "primaryKeyword": "share live photo as still",
+    "keywordVariants": [
+      "convert live photo to video iphone",
+      "live photo not moving when sent"
+    ],
+    "intent": "Choose and verify the delivery form of an existing Live Photo.",
+    "geography": "Worldwide",
+    "language": "English",
+    "retrieved": "2026-10-23",
+    "monthlySearchVolume": null,
+    "keywordDifficulty": null,
+    "metricsProvider": null,
+    "metricsPeriod": null,
+    "demandStatus": "Exact-query demand and competition are unknown; topic selected for a distinct practical reader task.",
+    "sources": [
+      {
+        "url": "https://support.apple.com/en-us/104966",
+        "title": "Apple: Take and edit Live Photos",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Sharing LIVE toggle; Mail still; Messages press-and-hold."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/en-us/105029",
+        "title": "Apple: Turn a Live Photo into a video",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Save as Video route; saved video and retained Live Photo."
+        ]
+      }
+    ],
+    "outline": [
+      "Choose the output for its destination",
+      "Send the still deliberately",
+      "Use a video when the destination needs one",
+      "Check the received item, not the sender’s preview",
+      "Resolve the delivery mismatch"
+    ],
+    "overlapDecision": "Existing guides explain key-frame choice and Long Exposure; new intent is outgoing format and recipient verification.",
+    "originalContribution": "Destination table, birthday-versus-profile example and received-file check.",
+    "imageDonor": "iphone-burst-photos-select-best-frame",
+    "editorialDecision": "Distinct intent; draft for independent factual and editorial review. No publication date assigned.",
+    "readiness": "draft-awaiting-independent-review",
+    "limitations": "Documentation-based guidance, not a hands-on product test. Interface and availability can vary by software version."
+  },
+  {
+    "slug": "add-text-arrows-iphone-photo",
+    "primaryKeyword": "add text to photo iphone",
+    "keywordVariants": [
+      "draw arrow on photo iphone",
+      "iphone markup photo labels"
+    ],
+    "intent": "Annotate a picture so a recipient can understand one clear instruction.",
+    "geography": "Worldwide",
+    "language": "English",
+    "retrieved": "2026-10-23",
+    "monthlySearchVolume": null,
+    "keywordDifficulty": null,
+    "metricsProvider": null,
+    "metricsPeriod": null,
+    "demandStatus": "Exact-query demand and competition are unknown; topic selected for a distinct practical reader task.",
+    "sources": [
+      {
+        "url": "https://support.apple.com/en-us/119875",
+        "title": "Apple: Use Markup on iPhone",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Photos Markup entry and two Done steps."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/guide/iphone/add-text-shapes-stickers-and-more-iphcdb1d0bc7/26/ios/26",
+        "title": "Apple: Add text, shapes and more — iOS 26",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Add Text and formatting; shape adjustment and draw-and-hold."
+        ]
+      }
+    ],
+    "outline": [
+      "Write the instruction before decorating the image",
+      "Open Markup and add the label",
+      "Example: show someone which entrance to use",
+      "Check three things before sending",
+      "Annotation is not a secure-redaction workflow"
+    ],
+    "overlapDecision": "Distinct communication/annotation task. Existing editing and cropping guides do not cover Markup; explicitly excludes secure redaction.",
+    "originalContribution": "Entrance-label example and readable/accurate/context review.",
+    "imageDonor": "how-to-crop-portrait-photos",
+    "editorialDecision": "Distinct intent; draft for independent factual and editorial review. No publication date assigned.",
+    "readiness": "draft-awaiting-independent-review",
+    "limitations": "Documentation-based guidance, not a hands-on product test. Interface and availability can vary by software version.",
+    "imageSelectionNote": "Parent selected a different existing licensed illustrative asset to avoid repeating an image within this 30-draft batch. Complete image fields preserved."
+  },
+  {
+    "slug": "iphone-camera-grid-level",
+    "primaryKeyword": "iphone camera grid level",
+    "keywordVariants": [
+      "turn on camera level iphone",
+      "iphone camera grid composition"
+    ],
+    "intent": "Use the camera’s alignment aids while deciding what belongs in the frame.",
+    "geography": "Worldwide",
+    "language": "English",
+    "retrieved": "2026-10-23",
+    "monthlySearchVolume": null,
+    "keywordDifficulty": null,
+    "metricsProvider": null,
+    "metricsPeriod": null,
+    "demandStatus": "Exact-query demand and competition are unknown; topic selected for a distinct practical reader task.",
+    "sources": [
+      {
+        "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+        "title": "Apple: Set up your shot — iOS 26",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Settings → Camera → Grid and Level; composition/alignment purpose."
+        ]
+      }
+    ],
+    "outline": [
+      "Enable the alignment aids",
+      "Try two compositions of the same scene",
+      "Use a short before-the-shutter check",
+      "A level frame can still have perspective problems",
+      "Review before making the setup a habit"
+    ],
+    "overlapDecision": "Distinct capture-overlay setup and practice. Perspective correction and cropping remain linked separate guides.",
+    "originalContribution": "Two-frame beach exercise, brief capture checklist and critique based on intent rather than a rigid rule.",
+    "imageDonor": "self-timer-portraits-with-phone",
+    "editorialDecision": "Distinct intent; draft for independent factual and editorial review. No publication date assigned.",
+    "readiness": "draft-awaiting-independent-review",
+    "limitations": "Documentation-based guidance, not a hands-on product test. Interface and availability can vary by software version."
+  },
+  {
+    "slug": "limit-app-photo-library-access-iphone",
+    "primaryKeyword": "limit photo access iphone apps",
+    "keywordVariants": [
+      "iphone selected photos permission",
+      "app cannot see selected photo iphone"
+    ],
+    "intent": "Give a photo task the access it needs while checking what selection the app can use.",
+    "geography": "Worldwide",
+    "language": "English",
+    "retrieved": "2026-10-23",
+    "monthlySearchVolume": null,
+    "keywordDifficulty": null,
+    "metricsProvider": null,
+    "metricsPeriod": null,
+    "demandStatus": "Exact-query demand and competition are unknown; topic selected for a distinct practical reader task.",
+    "sources": [
+      {
+        "url": "https://support.apple.com/guide/iphone/control-access-to-information-in-apps-iph251e92810/26/ios/26",
+        "title": "Apple: Control access to information in apps — iOS 26",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Settings privacy categories and revisable app access."
+        ]
+      },
+      {
+        "url": "https://developer.apple.com/videos/play/wwdc2020/10641/",
+        "title": "Apple Developer: Handle the Limited Photos Library in your app",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Picker versus limited PhotoKit selection; Settings and optional in-app management."
+        ]
+      }
+    ],
+    "outline": [
+      "Understand a picker and a library permission",
+      "Review the permission and selection",
+      "When a picture does not appear",
+      "Use a small, observable task",
+      "Keep earlier copies in the review"
+    ],
+    "overlapDecision": "Distinct app-permission task; location metadata, hidden collections and source-photo choice remain separate.",
+    "originalContribution": "Two-picture import check, permission-versus-format diagnosis and earlier-upload inventory.",
+    "imageDonor": "icloud-photos-sync-vs-backup",
+    "editorialDecision": "Distinct intent; draft for independent factual and editorial review. No publication date assigned.",
+    "readiness": "draft-awaiting-independent-review",
+    "limitations": "Documentation-based guidance, not a hands-on product test. Interface and availability can vary by software version."
+  },
+  {
+    "slug": "control-featured-photos-iphone",
+    "primaryKeyword": "turn off featured photos iphone",
+    "keywordVariants": [
+      "stop iphone photo memories",
+      "remove photos widget iphone"
+    ],
+    "intent": "Choose what Photos surfaces automatically while keeping display preferences separate from access control.",
+    "geography": "Worldwide",
+    "language": "English",
+    "retrieved": "2026-10-23",
+    "monthlySearchVolume": null,
+    "keywordDifficulty": null,
+    "metricsProvider": null,
+    "metricsPeriod": null,
+    "demandStatus": "Exact-query demand and competition are unknown; topic selected for a distinct practical reader task.",
+    "sources": [
+      {
+        "url": "https://support.apple.com/guide/iphone/hide-people-memories-and-holidays-iph10a9dd2a1/26/ios/26",
+        "title": "Apple: Hide people, memories and holidays — iOS 26",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Person-specific featuring and featured-content switch."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/en-us/118610",
+        "title": "Apple: Add and edit widgets on iPhone",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Widget removal and stack suggestion control."
+        ]
+      }
+    ],
+    "outline": [
+      "Choose the narrowest display change",
+      "Change a person’s featuring preference",
+      "Turn off automatic featured content",
+      "Remove the widget when the screen is the problem",
+      "Do not mistake display preferences for privacy protection"
+    ],
+    "overlapDecision": "Distinct automatic display preferences, not Hidden collection access or deleting photographs.",
+    "originalContribution": "Intent-first control table and checking the actual widget/stack surface.",
+    "imageDonor": "vintage-photo-effects-guide",
+    "editorialDecision": "Distinct intent; draft for independent factual and editorial review. No publication date assigned.",
+    "readiness": "draft-awaiting-independent-review",
+    "limitations": "Documentation-based guidance, not a hands-on product test. Interface and availability can vary by software version."
+  }
+]

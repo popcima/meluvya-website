@@ -6,6 +6,15 @@ const topics = [
   "title": "Camera controls and capture",
   "description": "Choose the right capture mode, focus point and moment before you edit.",
   "slugs": [
+    "food-photos-with-phone",
+    "pet-photos-with-phone",
+    "flat-lay-phone-photography",
+    "product-photos-white-background",
+    "photos-through-window-without-reflections",
+    "iphone-camera-grid-level",
+    "silhouette-photos-with-phone",
+    "water-reflection-photos-with-phone",
+
     "iphone-ae-af-lock",
     "change-live-photo-key-photo",
     "iphone-burst-photos-select-best-frame",
@@ -20,6 +29,11 @@ const topics = [
   "title": "Sharing, printing and preserving photos",
   "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
   "slugs": [
+    "iphone-photo-albums-vs-folders",
+    "copy-text-from-iphone-photo",
+    "icloud-shared-albums-photo-quality",
+    "share-live-photo-as-still-or-motion",
+
     "merge-duplicate-iphone-photos",
     "change-photo-date-time-iphone",
     "google-photos-archive-vs-locked-folder",
@@ -38,6 +52,10 @@ const topics = [
   "title": "Practical fixes and creative techniques",
   "description": "Scan a print, correct a distraction or make a deliberate photographic effect.",
   "slugs": [
+    "remove-chromatic-aberration-photo-fringes",
+    "lens-distortion-vs-perspective",
+    "remove-small-background-distractions",
+
     "iphone-photo-cutout-background",
     "scan-printed-photos-with-phone",
     "clean-phone-camera-lens",
@@ -71,6 +89,8 @@ const topics = [
     "title": "Taking better portraits",
     "description": "Work on framing, camera distance, backgrounds and timing before changing the edit.",
     "slugs": [
+    "group-photos-everyone-sharp",
+
       "why-close-selfies-look-different",
       "choose-portrait-background",
       "mirror-selfie-photo-tips",
@@ -87,6 +107,12 @@ const topics = [
     "title": "Photo effects and AI portraits",
     "description": "Choose a look, understand what it changes, and check that the result still makes sense.",
     "slugs": [
+    "tone-curves-vs-contrast",
+    "texture-clarity-dehaze-differences",
+    "color-grading-vs-white-balance",
+    "subtle-vignette-photo-editing",
+    "local-masking-vs-global-photo-edits",
+
       "black-and-white-portrait-editing",
       "why-edited-portraits-look-unnatural",
       "photo-noise-vs-film-grain",
@@ -106,6 +132,9 @@ const topics = [
     "title": "Quality, files and privacy",
     "description": "Understand formats, preserve your originals, and check what travels with a shared photo.",
     "slugs": [
+    "hide-lock-iphone-photos",
+    "limit-app-photo-library-access-iphone",
+
       "photo-sharpening-vs-resolution",
       "why-saved-photos-lose-quality",
       "jpeg-heic-png-photo-formats",

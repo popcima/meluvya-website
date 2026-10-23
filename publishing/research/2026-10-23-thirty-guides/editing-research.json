@@ -1,0 +1,661 @@
+[
+  {
+    "slug": "tone-curves-vs-contrast",
+    "retrieved": "2026-10-23",
+    "language": "English",
+    "geography": "Worldwide editorial audience; no measured demand geography",
+    "keywordMapping": {
+      "primary": "tone curve vs contrast",
+      "variants": [
+        "curves or contrast slider",
+        "how to use tone curves without clipping"
+      ],
+      "intent": "Informational practical editing guidance",
+      "searchVolume": null,
+      "keywordDifficulty": null,
+      "metricProvider": null,
+      "metricPeriod": null,
+      "metricsReason": "No accessible verified keyword metrics; selection reflects a distinct reader problem, not a measured traffic opportunity."
+    },
+    "outline": [
+      "Choose broad contrast or a selected tonal change",
+      "Read the curve as tone, not image position",
+      "Compare two versions against three watch areas",
+      "Troubleshoot an overworked curve",
+      "Keep an editable result"
+    ],
+    "sources": [
+      {
+        "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-corrections/adjust-color-and-tone-with-curves.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "RGB input/output axes; point direction; slope and contrast."
+        ]
+      },
+      {
+        "url": "https://helpx.adobe.com/ph_fil/photoshop/how-to/adjust-contrast-brightness.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Contrast provides a broad contrast adjustment."
+        ]
+      }
+    ],
+    "overlapReview": {
+      "nearest": [
+        "read-histogram-for-portraits",
+        "can-you-fix-overexposed-portraits"
+      ],
+      "decision": "Distinct control-selection question. Existing articles explain reading tonal distributions and recovery limits, not controlled comparison of curves and Contrast."
+    },
+    "originalContribution": "Three watch areas, a reset-between-versions exercise, and a goal-based stop rule replace copied slider recipes.",
+    "imageDonor": {
+      "slug": "read-histogram-for-portraits",
+      "image": "blog/pexels-34806640-4k.webp",
+      "note": "Complete licensed image fields preserved from existing library; illustrative, not evidence of a demonstrated result."
+    },
+    "editorialReadiness": {
+      "status": "Draft ready for independent review; not scheduled or published",
+      "datesUnset": true,
+      "appClaims": "No editing-tool availability claims made about Meluvya; shared renderer supplies the existing honest app CTA.",
+      "sourceUse": "No direct quotations. Technical summaries are kept brief per source; original examples and workflows are recommendations, not reported tests.",
+      "remaining": [
+        "Independent editorial review",
+        "Parent publication-day selection",
+        "Shared renderer, link and production checks"
+      ]
+    }
+  },
+  {
+    "slug": "texture-clarity-dehaze-differences",
+    "retrieved": "2026-10-23",
+    "language": "English",
+    "geography": "Worldwide editorial audience; no measured demand geography",
+    "keywordMapping": {
+      "primary": "texture vs clarity vs dehaze",
+      "variants": [
+        "Lightroom texture or clarity",
+        "dehaze vs clarity for portraits"
+      ],
+      "intent": "Informational practical editing guidance",
+      "searchVolume": null,
+      "keywordDifficulty": null,
+      "metricProvider": null,
+      "metricPeriod": null,
+      "metricsReason": "No accessible verified keyword metrics; selection reflects a distinct reader problem, not a measured traffic opportunity."
+    },
+    "outline": [
+      "Identify which visible detail needs help",
+      "Compare Texture, Clarity and Dehaze",
+      "Run a one-control trial on three patches",
+      "Limit the treatment to suitable areas",
+      "Check final size and stop"
+    ],
+    "sources": [
+      {
+        "url": "https://helpx.adobe.com/ph_fil/lightroom-cc/how-to/enhance-texture-details.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Texture targets medium detail; Clarity changes midtone edge contrast; Dehaze changes haze; Clarity/Dehaze can alter overall color or brightness."
+        ]
+      }
+    ],
+    "overlapReview": {
+      "nearest": [
+        "why-edited-portraits-look-unnatural",
+        "photo-sharpening-vs-resolution"
+      ],
+      "decision": "Existing articles diagnose overprocessing or missing detail. This guide chooses among three named controls through an isolated comparison."
+    },
+    "originalContribution": "Sweater–cheek–background comparison and atmosphere-versus-definition decision, without universal slider numbers.",
+    "imageDonor": {
+      "slug": "why-close-selfies-look-different",
+      "image": "blog/pexels-9253767-4k.webp",
+      "note": "Complete licensed image fields preserved from existing library; illustrative, not evidence of a demonstrated result."
+    },
+    "editorialReadiness": {
+      "status": "Draft ready for independent review; not scheduled or published",
+      "datesUnset": true,
+      "appClaims": "No editing-tool availability claims made about Meluvya; shared renderer supplies the existing honest app CTA.",
+      "sourceUse": "No direct quotations. Technical summaries are kept brief per source; original examples and workflows are recommendations, not reported tests.",
+      "remaining": [
+        "Independent editorial review",
+        "Parent publication-day selection",
+        "Shared renderer, link and production checks"
+      ]
+    }
+  },
+  {
+    "slug": "color-grading-vs-white-balance",
+    "retrieved": "2026-10-23",
+    "language": "English",
+    "geography": "Worldwide editorial audience; no measured demand geography",
+    "keywordMapping": {
+      "primary": "color grading vs white balance",
+      "variants": [
+        "color correction before color grading photos",
+        "Lightroom grading vs temperature"
+      ],
+      "intent": "Informational practical editing guidance",
+      "searchVolume": null,
+      "keywordDifficulty": null,
+      "metricProvider": null,
+      "metricPeriod": null,
+      "metricsReason": "No accessible verified keyword metrics; selection reflects a distinct reader problem, not a measured traffic opportunity."
+    },
+    "outline": [
+      "Separate neutral baseline from intended mood",
+      "Understand tonal ranges versus color targeting",
+      "Make baseline and grade versions",
+      "Work through a cafe example",
+      "Keep a coherent series without forcing identical numbers"
+    ],
+    "sources": [
+      {
+        "url": "https://helpx.adobe.com/ph_fil/lightroom-cc/how-to/adjust-image-lighting-color-lightroom-cc.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "White balance shifts overall cast; temperature and tint offer two color axes."
+        ]
+      },
+      {
+        "url": "https://helpx.adobe.com/lightroom/web/edit-photos/apply-effects/adjust-color.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Color Grading applies tint to shadows, midtones and highlights; Blending/Balance manage transitions."
+        ]
+      }
+    ],
+    "overlapReview": {
+      "nearest": [
+        "remove-color-cast-from-photos",
+        "golden-hour-photo-editing"
+      ],
+      "decision": "Distinct creative-versus-corrective choice. Existing guides cover cast correction and a warm look, not retaining a baseline or testing tonal-grade spillover."
+    },
+    "originalContribution": "Café example and separate baseline/style statements distinguish intention, object color and tonal-range side effects.",
+    "imageDonor": {
+      "slug": "ai-photo-effects-vs-filters",
+      "image": "blog/pexels-24601834-4k.webp",
+      "note": "Complete licensed image fields preserved from existing library; illustrative, not evidence of a demonstrated result."
+    },
+    "editorialReadiness": {
+      "status": "Draft ready for independent review; not scheduled or published",
+      "datesUnset": true,
+      "appClaims": "No editing-tool availability claims made about Meluvya; shared renderer supplies the existing honest app CTA.",
+      "sourceUse": "No direct quotations. Technical summaries are kept brief per source; original examples and workflows are recommendations, not reported tests.",
+      "remaining": [
+        "Independent editorial review",
+        "Parent publication-day selection",
+        "Shared renderer, link and production checks"
+      ]
+    }
+  },
+  {
+    "slug": "remove-chromatic-aberration-photo-fringes",
+    "retrieved": "2026-10-23",
+    "language": "English",
+    "geography": "Worldwide editorial audience; no measured demand geography",
+    "keywordMapping": {
+      "primary": "remove purple fringe photo",
+      "variants": [
+        "chromatic aberration correction",
+        "green edges photo defringe"
+      ],
+      "intent": "Informational practical editing guidance",
+      "searchVolume": null,
+      "keywordDifficulty": null,
+      "metricProvider": null,
+      "metricPeriod": null,
+      "metricsReason": "No accessible verified keyword metrics; selection reflects a distinct reader problem, not a measured traffic opportunity."
+    },
+    "outline": [
+      "Identify a narrow colored edge",
+      "Try automatic correction then restrained defringe",
+      "Protect genuine purple and green objects",
+      "Audit a backlit portrait at multiple scales",
+      "Know when editing cannot establish the original color"
+    ],
+    "sources": [
+      {
+        "url": "https://helpx.adobe.com/lightroom/web/edit-photos/apply-effects/apply-optics.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Colored edges are an optical-correction concern; Lightroom offers automatic chromatic-aberration correction."
+        ]
+      },
+      {
+        "url": "https://helpx.adobe.com/lightroom-classic/desktop/process-and-develop-photos/retouch-photos.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Purple/green defringe sampling and Amount/hue controls; real purple/green objects may be affected."
+        ]
+      }
+    ],
+    "overlapReview": {
+      "nearest": [
+        "photo-sharpening-vs-resolution",
+        "why-edited-portraits-look-unnatural"
+      ],
+      "decision": "Existing edge-halo warnings do not explain color-fringe diagnosis or protecting real colors during defringe."
+    },
+    "originalContribution": "Backlit hair, earring and purple scarf provide a specific safeguard exercise that separates narrow fringe correction from broad glow and real color.",
+    "imageDonor": {
+      "slug": "reduce-glasses-glare-in-portraits",
+      "image": "blog/pexels-1338413-4k.webp",
+      "note": "Existing licensed stock asset; complete metadata preserved. Different donor selected to avoid image repetition in this batch; not a demonstration of correction."
+    },
+    "editorialReadiness": {
+      "status": "Draft ready for independent review; not scheduled or published",
+      "datesUnset": true,
+      "appClaims": "No editing-tool availability claims made about Meluvya; shared renderer supplies the existing honest app CTA.",
+      "sourceUse": "No direct quotations. Technical summaries are kept brief per source; original examples and workflows are recommendations, not reported tests.",
+      "remaining": [
+        "Independent editorial review",
+        "Parent publication-day selection",
+        "Shared renderer, link and production checks"
+      ]
+    }
+  },
+  {
+    "slug": "lens-distortion-vs-perspective",
+    "retrieved": "2026-10-23",
+    "language": "English",
+    "geography": "Worldwide editorial audience; no measured demand geography",
+    "keywordMapping": {
+      "primary": "lens distortion vs perspective distortion",
+      "variants": [
+        "barrel distortion vs converging verticals",
+        "lens correction or geometry"
+      ],
+      "intent": "Informational practical editing guidance",
+      "searchVolume": null,
+      "keywordDifficulty": null,
+      "metricProvider": null,
+      "metricPeriod": null,
+      "metricsReason": "No accessible verified keyword metrics; selection reflects a distinct reader problem, not a measured traffic opportunity."
+    },
+    "outline": [
+      "Use line shape to distinguish optical distortion and perspective",
+      "Match lens correction to the file",
+      "Correct curvature before judging convergence",
+      "Check crop and subject proportions",
+      "Handle uncertain or already-corrected sources"
+    ],
+    "sources": [
+      {
+        "url": "https://helpx.adobe.com/photoshop/desktop/effects-filters/artistic-stylize-filters/correct-lens-distortion-and-perspective.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Barrel/pincushion curvature differs from perspective convergence; profiles match camera/lens metadata; corrections can change image boundaries."
+        ]
+      }
+    ],
+    "overlapReview": {
+      "nearest": [
+        "fix-perspective-in-phone-photos",
+        "why-close-selfies-look-different"
+      ],
+      "decision": "The existing perspective guide has one diagnostic lens row. This article centers optical curvature, profile suitability and the distinction from viewpoint; it links to the full perspective workflow."
+    },
+    "originalContribution": "Two-edge diagnosis and a room-wide proportion review prevent correcting the grid while damaging the photograph.",
+    "imageDonor": {
+      "slug": "fix-perspective-in-phone-photos",
+      "image": "blog/pexels-31075395-4k.webp",
+      "note": "Complete licensed image fields preserved from existing library; illustrative, not evidence of a demonstrated result."
+    },
+    "editorialReadiness": {
+      "status": "Draft ready for independent review; not scheduled or published",
+      "datesUnset": true,
+      "appClaims": "No editing-tool availability claims made about Meluvya; shared renderer supplies the existing honest app CTA.",
+      "sourceUse": "No direct quotations. Technical summaries are kept brief per source; original examples and workflows are recommendations, not reported tests.",
+      "remaining": [
+        "Independent editorial review",
+        "Parent publication-day selection",
+        "Shared renderer, link and production checks"
+      ]
+    }
+  },
+  {
+    "slug": "fix-banding-in-sky-gradients",
+    "retrieved": "2026-10-23",
+    "language": "English",
+    "geography": "Worldwide editorial audience; no measured demand geography",
+    "keywordMapping": {
+      "primary": "banding in sky photos",
+      "variants": [
+        "fix gradient banding photo",
+        "posterization after editing sky"
+      ],
+      "intent": "Informational practical editing guidance",
+      "searchVolume": null,
+      "keywordDifficulty": null,
+      "metricProvider": null,
+      "metricPeriod": null,
+      "metricsReason": "No accessible verified keyword metrics; selection reflects a distinct reader problem, not a measured traffic opportunity."
+    },
+    "outline": [
+      "Separate stepped gradients from other artifacts",
+      "Locate the first affected version",
+      "Keep higher-precision editing where supported",
+      "Distinguish dithered artwork from captured skies",
+      "Review the final delivered file"
+    ],
+    "sources": [
+      {
+        "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-modes/bit-depth-in-photoshop.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Higher bit depth supplies more tonal precision and reduces posterization risk during editing."
+        ]
+      },
+      {
+        "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-effects-techniques/apply-gradient-fill.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Dither is offered for creation of gradients to reduce banding."
+        ]
+      }
+    ],
+    "overlapReview": {
+      "nearest": [
+        "why-saved-photos-lose-quality",
+        "why-photos-look-different-on-screens"
+      ],
+      "decision": "Existing guides trace broad quality or display changes. This article diagnoses stepped gradients and distinguishes editing precision from gradient creation."
+    },
+    "originalContribution": "A stage-by-stage sky-patch experiment separates source, edit, export and display; created gradients are explicitly separated from captured skies.",
+    "imageDonor": {
+      "slug": "phone-panorama-stitching-tips",
+      "image": "blog/pexels-23203338-4k.webp",
+      "note": "Complete licensed image fields preserved from existing library; illustrative, not evidence of a demonstrated result."
+    },
+    "editorialReadiness": {
+      "status": "Draft ready for independent review; not scheduled or published",
+      "datesUnset": true,
+      "appClaims": "No editing-tool availability claims made about Meluvya; shared renderer supplies the existing honest app CTA.",
+      "sourceUse": "No direct quotations. Technical summaries are kept brief per source; original examples and workflows are recommendations, not reported tests.",
+      "remaining": [
+        "Independent editorial review",
+        "Parent publication-day selection",
+        "Shared renderer, link and production checks"
+      ]
+    }
+  },
+  {
+    "slug": "reduce-moire-in-clothing-photos",
+    "retrieved": "2026-10-23",
+    "language": "English",
+    "geography": "Worldwide editorial audience; no measured demand geography",
+    "keywordMapping": {
+      "primary": "remove moire clothing photo",
+      "variants": [
+        "moire pattern on shirt photo",
+        "false colors fabric photography"
+      ],
+      "intent": "Informational practical editing guidance",
+      "searchVolume": null,
+      "keywordDifficulty": null,
+      "metricProvider": null,
+      "metricPeriod": null,
+      "metricsReason": "No accessible verified keyword metrics; selection reflects a distinct reader problem, not a measured traffic opportunity."
+    },
+    "outline": [
+      "Identify false repeating patterns",
+      "Compare original, preview and export",
+      "Apply local moire reduction conservatively",
+      "Retake or choose an alternate frame",
+      "Accept limits rather than erasing the fabric"
+    ],
+    "sources": [
+      {
+        "url": "https://www.nikonusa.com/learn-and-explore/c/products-and-innovation/moire-false-color",
+        "provider": "Nikon",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Fine repeating subjects can produce interference patterns and false color; evaluate at 100%; viewpoint/focal-length changes can alter the artifact."
+        ]
+      },
+      {
+        "url": "https://helpx.adobe.com/lightroom/mobile/masks-and-selective-adjustments/local-adjustment-controls.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "A local Moiré adjustment is documented in Lightroom mobile."
+        ]
+      }
+    ],
+    "overlapReview": {
+      "nearest": [
+        "photo-noise-vs-film-grain",
+        "photo-sharpening-vs-resolution"
+      ],
+      "decision": "Neither existing guide handles periodic false patterns or the fabric-versus-correction tradeoff. Noise and focus are explicitly distinguished."
+    },
+    "originalContribution": "Garment-reference checks and separate source/export comparisons preserve the clothing’s real information rather than promising total artifact removal.",
+    "imageDonor": {
+      "slug": "choose-photo-for-ai-portraits",
+      "image": "blog/pexels-32644860-4k.webp",
+      "note": "Complete licensed image fields preserved from existing library; illustrative, not evidence of a demonstrated result."
+    },
+    "editorialReadiness": {
+      "status": "Draft ready for independent review; not scheduled or published",
+      "datesUnset": true,
+      "appClaims": "No editing-tool availability claims made about Meluvya; shared renderer supplies the existing honest app CTA.",
+      "sourceUse": "No direct quotations. Technical summaries are kept brief per source; original examples and workflows are recommendations, not reported tests.",
+      "remaining": [
+        "Independent editorial review",
+        "Parent publication-day selection",
+        "Shared renderer, link and production checks"
+      ]
+    }
+  },
+  {
+    "slug": "subtle-vignette-photo-editing",
+    "retrieved": "2026-10-23",
+    "language": "English",
+    "geography": "Worldwide editorial audience; no measured demand geography",
+    "keywordMapping": {
+      "primary": "subtle vignette photo editing",
+      "variants": [
+        "how much vignette portrait",
+        "vignette off center subject"
+      ],
+      "intent": "Informational practical editing guidance",
+      "searchVolume": null,
+      "keywordDifficulty": null,
+      "metricProvider": null,
+      "metricPeriod": null,
+      "metricsReason": "No accessible verified keyword metrics; selection reflects a distinct reader problem, not a measured traffic opportunity."
+    },
+    "outline": [
+      "Define which edge competes with the subject",
+      "Shape a restrained vignette",
+      "Compare a disabled and enabled version",
+      "Use an off-center alternative when needed",
+      "Audit the final crop"
+    ],
+    "sources": [
+      {
+        "url": "https://helpx.adobe.com/lightroom/web/edit-photos/apply-effects/adjust-effects.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Vignette changes edge brightness; Feather/Midpoint/Roundness shape it; Highlights can preserve bright points during darkening."
+        ]
+      },
+      {
+        "url": "https://helpx.adobe.com/lightroom/mobile/masks-and-selective-adjustments/create-masks.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Radial positioning and feathering."
+        ]
+      }
+    ],
+    "overlapReview": {
+      "nearest": [
+        "vintage-photo-effects-guide",
+        "choose-portrait-background",
+        "how-to-crop-portrait-photos"
+      ],
+      "decision": "Existing style and composition guides do not explain whether an edge treatment is useful, how to shape it, or how it interacts with an off-center subject."
+    },
+    "originalContribution": "Competing-corner/shoulder exercise and an explicit no-vignette alternative make the decision compositional rather than a preset number.",
+    "imageDonor": {
+      "slug": "window-light-portraits-at-home",
+      "image": "blog/pexels-36627004-4k.webp",
+      "note": "Complete licensed image fields preserved from existing library; illustrative, not evidence of a demonstrated result."
+    },
+    "editorialReadiness": {
+      "status": "Draft ready for independent review; not scheduled or published",
+      "datesUnset": true,
+      "appClaims": "No editing-tool availability claims made about Meluvya; shared renderer supplies the existing honest app CTA.",
+      "sourceUse": "No direct quotations. Technical summaries are kept brief per source; original examples and workflows are recommendations, not reported tests.",
+      "remaining": [
+        "Independent editorial review",
+        "Parent publication-day selection",
+        "Shared renderer, link and production checks"
+      ]
+    }
+  },
+  {
+    "slug": "local-masking-vs-global-photo-edits",
+    "retrieved": "2026-10-23",
+    "language": "English",
+    "geography": "Worldwide editorial audience; no measured demand geography",
+    "keywordMapping": {
+      "primary": "local vs global photo editing",
+      "variants": [
+        "when to use masks Lightroom",
+        "choose brush gradient color range mask"
+      ],
+      "intent": "Informational practical editing guidance",
+      "searchVolume": null,
+      "keywordDifficulty": null,
+      "metricProvider": null,
+      "metricPeriod": null,
+      "metricsReason": "No accessible verified keyword metrics; selection reflects a distinct reader problem, not a measured traffic opportunity."
+    },
+    "outline": [
+      "Decide whether the change belongs everywhere",
+      "Choose a mask by selection logic",
+      "Build a small named mask stack",
+      "Check boundaries and overlap",
+      "Retain only adjustments with a visible purpose"
+    ],
+    "sources": [
+      {
+        "url": "https://helpx.adobe.com/lightroom/mobile/masks-and-selective-adjustments/create-masks.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Mask selection and refinement."
+        ]
+      }
+    ],
+    "overlapReview": {
+      "nearest": [
+        "brighten-dark-face-in-photo",
+        "selective-color-photo-effect",
+        "fix-mixed-lighting-in-portraits"
+      ],
+      "decision": "Existing pages apply local edits to particular outcomes. This article chooses selection logic and audits multiple masks; it does not repeat face-brightening or selective-color instructions."
+    },
+    "originalContribution": "Purpose-based mask naming and curtain/chair/reader exercise expose spillover and overlap, with removal of unnecessary masks as a final step.",
+    "imageDonor": {
+      "slug": "portrait-photos-in-harsh-sunlight",
+      "image": "blog/pexels-33507990-4k.webp",
+      "note": "Complete licensed image fields preserved from existing library; illustrative, not evidence of a demonstrated result."
+    },
+    "editorialReadiness": {
+      "status": "Draft ready for independent review; not scheduled or published",
+      "datesUnset": true,
+      "appClaims": "No editing-tool availability claims made about Meluvya; shared renderer supplies the existing honest app CTA.",
+      "sourceUse": "No direct quotations. Technical summaries are kept brief per source; original examples and workflows are recommendations, not reported tests.",
+      "remaining": [
+        "Independent editorial review",
+        "Parent publication-day selection",
+        "Shared renderer, link and production checks"
+      ]
+    }
+  },
+  {
+    "slug": "remove-small-background-distractions",
+    "retrieved": "2026-10-23",
+    "language": "English",
+    "geography": "Worldwide editorial audience; no measured demand geography",
+    "keywordMapping": {
+      "primary": "remove small distractions photo",
+      "variants": [
+        "heal vs clone background objects",
+        "remove background object without replacing background"
+      ],
+      "intent": "Informational practical editing guidance",
+      "searchVolume": null,
+      "keywordDifficulty": null,
+      "metricProvider": null,
+      "metricPeriod": null,
+      "metricsReason": "No accessible verified keyword metrics; selection reflects a distinct reader problem, not a measured traffic opportunity."
+    },
+    "outline": [
+      "Choose what should be removed",
+      "Select heal, clone or generative treatment",
+      "Repair a small object and its traces",
+      "Audit patterns, edges and context",
+      "Preserve a faithful original"
+    ],
+    "sources": [
+      {
+        "url": "https://helpx.adobe.com/ph_fil/lightroom-cc/how-to/remove-objects-from-photo.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Healing blends sampled pixels; cloning copies them; a different source can improve a repair; high-contrast healing may smear."
+        ]
+      },
+      {
+        "url": "https://helpx.adobe.com/lightroom/web/edit-photos/remove-objects/remove-objects-with-gen-ai.html",
+        "provider": "Adobe",
+        "retrieved": "2026-10-23",
+        "supportedClaims": [
+          "Generative Remove creates replacement content; selection can include an object and its shadow and be refined."
+        ]
+      }
+    ],
+    "overlapReview": {
+      "nearest": [
+        "choose-portrait-background",
+        "how-to-crop-portrait-photos",
+        "check-ai-portrait-details"
+      ],
+      "decision": "Existing guides concern capture composition, framing and broad AI checks. This guide repairs a small post-capture distraction and audits sampled/generated replacement structure."
+    },
+    "originalContribution": "Tile-and-sticker exercise, repeated-source audit, and documentary-versus-creative decision provide a precise workflow and honest stopping point.",
+    "imageDonor": {
+      "slug": "choose-portrait-background",
+      "image": "blog/pexels-19158754-4k.webp",
+      "note": "Complete licensed image fields preserved from existing library; illustrative, not evidence of a demonstrated result."
+    },
+    "editorialReadiness": {
+      "status": "Draft ready for independent review; not scheduled or published",
+      "datesUnset": true,
+      "appClaims": "No editing-tool availability claims made about Meluvya; shared renderer supplies the existing honest app CTA.",
+      "sourceUse": "No direct quotations. Technical summaries are kept brief per source; original examples and workflows are recommendations, not reported tests.",
+      "remaining": [
+        "Independent editorial review",
+        "Parent publication-day selection",
+        "Shared renderer, link and production checks"
+      ]
+    }
+  }
+]

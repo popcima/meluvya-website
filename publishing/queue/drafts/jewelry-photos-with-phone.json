@@ -1,0 +1,126 @@
+{
+  "slug": "jewelry-photos-with-phone",
+  "title": "How to photograph jewelry with a phone without losing the detail",
+  "description": "Use a controlled jewelry setup to separate distracting glare from useful shine, then record color, construction and scale clearly.",
+  "summary": "Use a controlled jewelry setup to separate distracting glare from useful shine, then record color, construction and scale clearly.",
+  "published": null,
+  "modified": null,
+  "quickAnswer": "Start with a stable phone, one consistent light source and an uncluttered surface. Compare the jewelry under softer light before adding a small highlight for sparkle. Make a clear record of the piece first; a dramatic sparkle shot should not be the only picture showing its color or construction.",
+  "sections": [
+    {
+      "id": "goal",
+      "title": "Decide what must be visible in this piece",
+      "paragraphs": [
+        "A ring can need several different views: its face, the height of the setting, the band and a mark or engraving. Write these down before moving the lights. If the purpose is documenting a personal piece, include the detail that makes it identifiable; if it is a listing, show features relevant to the item’s condition.",
+        "For a two-tone ring, use the contrast between the metals as your check. If a lighting change makes them look identical, the photograph has lost useful information even if the stone looks more dramatic."
+      ]
+    },
+    {
+      "id": "prepare",
+      "title": "Prepare a small, controllable workspace",
+      "paragraphs": [
+        "GIA recommends stable camera support and checking for fingerprints or dust before capture. Follow the piece’s own care instructions; photography is not a reason to polish an unfamiliar gemstone or apply a cleaning product. Place the item where you can turn it without repeatedly handling the visible surface.",
+        "Keep the first arrangement simple enough to describe in one sentence, such as “ring on a neutral card, light at the left, phone fixed in front.” Change one part at a time and keep a reference photograph. This makes an improvement repeatable when you photograph the next view."
+      ]
+    },
+    {
+      "id": "light",
+      "title": "Give shape and sparkle separate jobs",
+      "paragraphs": [
+        "GIA explains that diffused light can show gentle transitions on polished metal, while more direct light can introduce gemstone sparkle. It also advises avoiding mixed lighting colors. Start with an even, readable version rather than several competing light sources.",
+        "broncolor’s ring demonstration uses a broad reflection and separate small highlight sources. You do not need its studio equipment to use the decision behind that setup: first judge the shape of the metal, then decide whether a localized accent adds anything.",
+        "Try a modest experiment with a continuous light you can safely reposition. Keep the ring and phone still, move the light a little, and inspect the change. If the reflection crosses an engraving, return to the clearer version. Do not add a second light until you can name the missing feature it should reveal."
+      ]
+    },
+    {
+      "id": "diagnose",
+      "title": "Read the problem before changing the whole setup",
+      "paragraphs": [],
+      "table": {
+        "headers": [
+          "Observation",
+          "Next comparison"
+        ],
+        "rows": [
+          [
+            "A white patch hides metal detail",
+            "Compare a softer or differently placed light while keeping the camera fixed."
+          ],
+          [
+            "The stone is bright but its setting is unclear",
+            "Make a separate construction view rather than forcing sparkle and documentation into one frame."
+          ],
+          [
+            "A dark patch resembles a flaw",
+            "Turn the piece slightly and see whether the patch moves with the reflection. Keep an honest condition image too."
+          ],
+          [
+            "The close view is soft",
+            "Increase the working distance and verify the saved file before attempting a tighter detail."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "finish",
+      "title": "Deliver a useful set, not just the most dramatic frame",
+      "paragraphs": [
+        "Put the overall view beside a detail view and a scale reference. Ask whether someone could recognize the same piece from each image. If a dramatic angle makes the ring look unusually thick or thin, let the straightforward view establish the shape.",
+        "Keep edits conservative when documenting color or condition. A phone photograph is not a gemstone identification or grading report, and a bright display does not establish the stone’s appearance in every light. Separate artistic interpretations from the images used to represent the physical object."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I remove every reflection from metal?",
+      "answer": "No. Decide whether a reflection helps describe the form or hides a feature. Completely flattening all tonal variation can make the surface less understandable."
+    },
+    {
+      "question": "Can one photograph show both sparkle and accurate detail?",
+      "answer": "Sometimes, but a second clearly labeled view is often more useful than compromising every feature to fit one image."
+    }
+  ],
+  "sources": [
+    {
+      "title": "GIA: photographing gems and jewelry",
+      "url": "https://www.gia.edu/gem-photography",
+      "note": "Diffusion, metal surfaces and color-consistent lighting; 2015 article used for enduring technique, not current app recommendations. Retrieved October 23, 2026."
+    },
+    {
+      "title": "broncolor: photographing rings",
+      "url": "https://broncolor.swiss/news/how-to-photograph-jewelry-rings",
+      "note": "Demonstrated separation of broad reflections and small highlight lights. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "iphone-macro-close-up-focus",
+    "clean-phone-camera-lens",
+    "why-photos-look-different-on-screens"
+  ],
+  "image": "blog/pexels-16689780-4k.webp",
+  "imageAlt": "Close view of a hand wearing a gold ring with a pearl",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-16689780-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-16689780-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-16689780-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-16689780-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "cnrdmroglu",
+    "url": "https://www.pexels.com/photo/gold-ring-on-hand-of-woman-16689780/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+}

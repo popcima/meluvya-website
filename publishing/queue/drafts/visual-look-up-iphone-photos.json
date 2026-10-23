@@ -1,0 +1,128 @@
+{
+  "slug": "visual-look-up-iphone-photos",
+  "title": "Use Visual Look Up on iPhone to identify a photo’s subject",
+  "description": "Find Visual Look Up in iPhone Photos, inspect suggested objects or landmarks, and verify a result before attaching a confident name to your picture.",
+  "summary": "Find a possible identity for a photographed object and check it against independent details.",
+  "published": null,
+  "modified": null,
+  "quickAnswer": "Open the picture in Photos and look for the starred Info button. When Visual Look Up is available, use it to inspect the suggestion, then compare recognizable details with a reliable reference before naming the subject.",
+  "sections": [
+    {
+      "id": "what-it-does",
+      "title": "Start with a recognizable subject",
+      "paragraphs": [
+        "Apple’s iOS 26 guide describes Visual Look Up for subjects including landmarks, art, plants, pets and books. It is a starting point for identification, not a reason to label every photograph with the first result. Availability varies by language and region.",
+        "Choose a frame in which the subject is easy to distinguish. A distant building behind several trees may offer less useful evidence than another frame showing its entrance and roof. Keep both the object and enough context to judge what the suggestion means."
+      ]
+    },
+    {
+      "id": "open-result",
+      "title": "Open the result in Photos",
+      "paragraphs": [
+        "In Apple’s iOS 26 instructions, open the full photograph or pause the video on a frame. Tap the starred Info button, then Look Up at the top of the information panel. Other versions may present a subject icon in or below the picture.",
+        "Apple says that a plain Info button without a star means the feature is not available for that photo. That does not establish that the subject is rare or impossible to identify. Try another clear view or use a conventional search with details you already know."
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "Separate a possible match from a confirmed name",
+      "paragraphs": [
+        "Apple’s support page says results can come from Siri Knowledge and the web. Open the underlying result and inspect what supports the match. A similar thumbnail is not enough to settle an identification.",
+        "For a building from a holiday, compare its roofline, doorway, nearby features and known city. Then check the attraction’s own website or another authoritative local source. If a suggestion fits the building but conflicts with where the picture was taken, keep investigating rather than editing the location to fit the result."
+      ],
+      "table": {
+        "headers": [
+          "What you have",
+          "Useful next step"
+        ],
+        "rows": [
+          [
+            "One plausible landmark name",
+            "Compare distinctive architectural details and the known location"
+          ],
+          [
+            "Several similar candidates",
+            "Find another angle or a readable sign in your own photographs"
+          ],
+          [
+            "A result with no supporting explanation",
+            "Keep the label tentative and look for a direct source"
+          ],
+          [
+            "No result",
+            "Describe the visible features and search from those facts"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "avoid-mixups",
+      "title": "Keep recognition tasks separate",
+      "paragraphs": [
+        "If your aim is to transcribe a sign, use a text-extraction workflow. If you want to isolate the subject for a design, use a cutout workflow. Identification, copying words and removing a background solve different problems even when they begin with the same photograph.",
+        "Do not use an uncertain object identification as the basis for a safety-sensitive decision. The practical goal here is finding a better caption or research lead, not certifying what an unknown object is."
+      ]
+    },
+    {
+      "id": "record",
+      "title": "Keep a useful record of the answer",
+      "paragraphs": [
+        "Once a match is convincing, retain the supporting source and the detail that resolved your uncertainty. “North doorway matches the attraction’s visitor page” is more useful than “my phone said so.”",
+        "For a family archive or travel journal, it is acceptable to write “possibly” and preserve the unresolved question. A cautious caption is easier to improve later than a confident wrong name repeated across an album."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does no star mean the photo is unusable?",
+      "answer": "No. It means this recognition feature is unavailable for that picture. The image may still be useful for manual research or a clearer crop for your own inspection."
+    },
+    {
+      "question": "Should I change a photo’s location to match a suggestion?",
+      "answer": "Verify the place first. A proposed identity should be checked against your travel history and visible evidence, not used to overwrite conflicting evidence."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Identify objects in your photos and videos — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/identify-objects-in-your-photos-and-videos-iph21c29a1cf/26/ios/26",
+      "note": "Subjects, controls and availability."
+    },
+    {
+      "title": "Apple: Look up what is in a photo",
+      "url": "https://support.apple.com/en-us/104962",
+      "note": "Star indicator and result sources."
+    }
+  ],
+  "related": [
+    "iphone-photo-cutout-background",
+    "change-photo-date-time-iphone",
+    "remove-location-from-iphone-photos"
+  ],
+  "image": "blog/pexels-35811832-4k.webp",
+  "imageAlt": "Water droplet resting on the edge of a pink flower petal",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-35811832-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-35811832-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-35811832-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-35811832-4k.webp",
+      "width": 2559
+    }
+  ],
+  "imageCredit": {
+    "name": "Robert Schwarz",
+    "url": "https://www.pexels.com/photo/macro-shot-of-water-droplet-on-flower-petal-35811832/"
+  }
+}

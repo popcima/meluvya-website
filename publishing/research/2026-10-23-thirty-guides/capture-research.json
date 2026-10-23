@@ -1,0 +1,644 @@
+{
+  "batch": "capture-setup-2026-10-23",
+  "retrieved": "2026-10-23",
+  "existingLibraryCount": 65,
+  "status": "Ten drafts ready for independent review; dates deliberately null pending parent selection.",
+  "sourceUsePolicy": "No direct quotations. Per-URL source-derived prose limited to 200 words across this ten-article packet, including research notes. Most article space is original proposed setup exercises, diagnostic comparisons and selection decisions, not a reproduction of source tutorials. Shared Nikon composition and Canon polarizer URLs are used only for short discrete points.",
+  "metricsPolicy": "Search volume and difficulty unknown; primary-source availability is not demand evidence.",
+  "imagePolicy": "Six new licensed Pexels photographs and four preserved existing illustrative assets.",
+  "records": [
+    {
+      "slug": "flat-lay-phone-photography",
+      "primaryKeyword": "flat lay phone photography",
+      "keywordVariants": [
+        "overhead photos with phone",
+        "flat lay composition tips"
+      ],
+      "language": "English",
+      "audienceGeography": "Worldwide",
+      "metrics": {
+        "searchVolume": null,
+        "organicKeywordDifficulty": null,
+        "provider": null,
+        "geography": null,
+        "period": null,
+        "retrieved": "2026-10-23",
+        "reason": "No article-specific metric dataset accessed; primary-source research is not evidence of demand or ranking."
+      },
+      "intent": "Arrange and photograph an overhead scene without tilted objects, accidental shadows or a cluttered crop.",
+      "outline": [
+        "Give the arrangement one clear job",
+        "Make the overhead position repeatable",
+        "Inspect the scene from the camera position",
+        "Refine the layout in a deliberate order",
+        "Judge the picture before dismantling the setup"
+      ],
+      "sources": [
+        {
+          "id": "flat",
+          "url": "https://www.adobe.com/creativecloud/photography/type/flat-lay-photography.html",
+          "retrieved": "2026-10-23",
+          "claimScope": "Overhead setup and light arrangement.",
+          "pageSections": [
+            "Light your flat lay",
+            "Set up your camera"
+          ],
+          "evidence": "Top-down framing, stable level support, window illumination and a white bounce surface are described. Used only for the basic setup; notebook/map exercise is original."
+        },
+        {
+          "id": "composition",
+          "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/5-easy-composition-guidelines",
+          "retrieved": "2026-10-23",
+          "claimScope": "Grid alignment and deliberate framing.",
+          "pageSections": [
+            "Rule of thirds",
+            "Horizon lines"
+          ],
+          "evidence": "Grid lines can aid alignment; centered horizons can suit reflections. Reused only for these short composition points across flat-lay and water articles."
+        }
+      ],
+      "nearestOverlap": "how-to-crop-portrait-photos",
+      "newUrlReason": "Overhead object arrangement and physical camera setup, not portrait crop or generic perspective repair.",
+      "originalContribution": "Notebook/map exercise, crop boundary markers and inventory-versus-story decision.",
+      "imageDonor": "photo-print-size-pixels-ppi",
+      "imageStatus": "All donor image fields and stock disclosure unchanged. Parent may separately source more relevant licensed subject photography.",
+      "editorialReadiness": "Draft complete; independent review and publication checks pending.",
+      "topic": "camera",
+      "sourceVerification": "Primary-source pages opened and relevant text reviewed on 2026-10-23. No paid metrics, measured demand, ranking prediction or firsthand capture tests.",
+      "limitations": "Illustrative exercises are proposals, not tests. Device-specific controls are deferred to related guides. Shared app CTA is supplied by the existing site template; no Meluvya capture or editing capability is asserted here.",
+      "editorialRevision": "Independent reviewer identified additional Adobe-derived material about removing props and tall objects. Both passages were removed; the removal exercise is no longer described as original."
+    },
+    {
+      "slug": "food-photos-with-phone",
+      "primaryKeyword": "food photos with phone",
+      "keywordVariants": [
+        "phone food photography tips",
+        "best angle food photos"
+      ],
+      "language": "English",
+      "audienceGeography": "Worldwide",
+      "metrics": {
+        "searchVolume": null,
+        "organicKeywordDifficulty": null,
+        "provider": null,
+        "geography": null,
+        "period": null,
+        "retrieved": "2026-10-23",
+        "reason": "No article-specific metric dataset accessed; primary-source research is not evidence of demand or ranking."
+      },
+      "intent": "Choose an angle and simple light for phone food photos, then capture a useful sequence before the dish changes.",
+      "outline": [
+        "Match the angle to the food you need to show",
+        "Use one manageable lighting setup",
+        "Prepare before the food arrives",
+        "Check food texture instead of chasing a bright screen",
+        "Choose the next physical adjustment"
+      ],
+      "sources": [
+        {
+          "id": "food-canon",
+          "url": "https://www.usa.canon.com/learning/training-articles/training-articles-list/cooking-with-the-camera-tips-for-amazing-food-photography",
+          "retrieved": "2026-10-23",
+          "claimScope": "Camera angle and shape of food.",
+          "pageSections": [
+            "Choosing camera angles",
+            "Planning food photography"
+          ],
+          "evidence": "The guide varies viewpoint with food form and discusses time-sensitive ingredients. The noodle example and empty-plate capture plan are original applications."
+        },
+        {
+          "id": "food-adobe",
+          "url": "https://www.adobe.com/creativecloud/photography/type/food-photography.html",
+          "retrieved": "2026-10-23",
+          "claimScope": "Diffuse daylight and unwanted mixed-light color.",
+          "pageSections": [
+            "Lighting food photography"
+          ],
+          "evidence": "Diffused natural light and avoiding unwanted household-light color support the lighting paragraph."
+        }
+      ],
+      "nearestOverlap": "window-light-portraits-at-home",
+      "newUrlReason": "Time-sensitive dish presentation and food-specific angle/sequence, not portrait window lighting.",
+      "originalContribution": "Empty-plate rehearsal, noodle example, first-record-then-action sequence and practical restaurant fallback.",
+      "imageDonor": null,
+      "imageStatus": "New licensed Pexels image researched and visually inspected by parent; metadata copied from prepared-images.json. Illustrative stock disclosure retained.",
+      "editorialReadiness": "Draft complete; independent review and publication checks pending.",
+      "topic": "camera",
+      "sourceVerification": "Primary-source pages opened and relevant text reviewed on 2026-10-23. No paid metrics, measured demand, ranking prediction or firsthand capture tests.",
+      "limitations": "Illustrative exercises are proposals, not tests. Device-specific controls are deferred to related guides. Shared app CTA is supplied by the existing site template; no Meluvya capture or editing capability is asserted here.",
+      "imageProvenance": {
+        "photoId": "7791114",
+        "source": "https://www.pexels.com/photo/flat-lay-photography-of-a-person-preparing-granola-for-breakfast-on-black-surface-7791114/",
+        "photographer": "Ron Lach",
+        "license": "https://www.pexels.com/license/",
+        "retrieved": "2026-10-23",
+        "master": "blog/pexels-7791114-4k.webp"
+      }
+    },
+    {
+      "slug": "product-photos-white-background",
+      "primaryKeyword": "product photos white background phone",
+      "keywordVariants": [
+        "small product photography at home",
+        "white background product edges"
+      ],
+      "language": "English",
+      "audienceGeography": "Worldwide",
+      "metrics": {
+        "searchVolume": null,
+        "organicKeywordDifficulty": null,
+        "provider": null,
+        "geography": null,
+        "period": null,
+        "retrieved": "2026-10-23",
+        "reason": "No article-specific metric dataset accessed; primary-source research is not evidence of demand or ranking."
+      },
+      "intent": "Build a simple phone product-photo setup, preserve light-colored edges and capture the details a buyer needs to see.",
+      "outline": [
+        "Write the questions your pictures must answer",
+        "Create a background you can reuse",
+        "Separate product detail from background brightness",
+        "Finish the useful views while the setup is in place",
+        "Check the destination requirements separately"
+      ],
+      "sources": [
+        {
+          "id": "product-shopify",
+          "url": "https://help.shopify.com/en/manual/products/product-media/product-photography",
+          "retrieved": "2026-10-23",
+          "claimScope": "Simple surface, background and stable setup.",
+          "pageSections": [
+            "Set up your photography space"
+          ],
+          "evidence": "Window-adjacent table, white backdrop/sweep and stable capture support the simple physical setup. No universal camera exposure settings are copied."
+        },
+        {
+          "id": "product-adobe",
+          "url": "https://business.adobe.com/blog/basics/guide-effective-product-photography",
+          "retrieved": "2026-10-23",
+          "claimScope": "Multiple useful views and consistent presentation.",
+          "pageSections": [
+            "Product photography setup and views"
+          ],
+          "evidence": "Multiple angles and close detail views support a useful set. The mug-specific buyer questions and location markers are original workflow suggestions."
+        }
+      ],
+      "nearestOverlap": "iphone-photo-cutout-background",
+      "newUrlReason": "Physical capture and buyer-information coverage, distinct from cutting out a subject after capture.",
+      "originalContribution": "Mug question-led shot list, edge-versus-background diagnostic and repeatable setup markers.",
+      "imageDonor": "scan-printed-photos-with-phone",
+      "imageStatus": "All donor image fields and stock disclosure unchanged. Parent may separately source more relevant licensed subject photography.",
+      "editorialReadiness": "Draft complete; independent review and publication checks pending.",
+      "topic": "camera",
+      "sourceVerification": "Primary-source pages opened and relevant text reviewed on 2026-10-23. No paid metrics, measured demand, ranking prediction or firsthand capture tests.",
+      "limitations": "Illustrative exercises are proposals, not tests. Device-specific controls are deferred to related guides. Shared app CTA is supplied by the existing site template; no Meluvya capture or editing capability is asserted here."
+    },
+    {
+      "slug": "jewelry-photos-with-phone",
+      "primaryKeyword": "jewelry photos with phone",
+      "keywordVariants": [
+        "photograph reflective jewelry",
+        "phone ring photography"
+      ],
+      "language": "English",
+      "audienceGeography": "Worldwide",
+      "metrics": {
+        "searchVolume": null,
+        "organicKeywordDifficulty": null,
+        "provider": null,
+        "geography": null,
+        "period": null,
+        "retrieved": "2026-10-23",
+        "reason": "No article-specific metric dataset accessed; primary-source research is not evidence of demand or ranking."
+      },
+      "intent": "Use a controlled jewelry setup to separate distracting glare from useful shine, then record color, construction and scale clearly.",
+      "outline": [
+        "Decide what must be visible in this piece",
+        "Prepare a small, controllable workspace",
+        "Give shape and sparkle separate jobs",
+        "Read the problem before changing the whole setup",
+        "Deliver a useful set, not just the most dramatic frame"
+      ],
+      "sources": [
+        {
+          "id": "gia",
+          "url": "https://www.gia.edu/gem-photography",
+          "retrieved": "2026-10-23",
+          "claimScope": "Diffusion, metal surfaces and color-consistent lighting; 2015 article used for enduring technique, not current app recommendations.",
+          "pageSections": [
+            "Lighting and reflections",
+            "Camera support and preparation"
+          ],
+          "evidence": "Stable capture, visible dust, consistent light color and diffuse versus direct illumination support limited material-handling and lighting advice. Old app recommendations are excluded."
+        },
+        {
+          "id": "broncolor",
+          "url": "https://broncolor.swiss/news/how-to-photograph-jewelry-rings",
+          "retrieved": "2026-10-23",
+          "claimScope": "Demonstrated separation of broad reflections and small highlight lights.",
+          "pageSections": [
+            "Ring lighting demonstration"
+          ],
+          "evidence": "The photographed setup separates broad reflection lighting from small accent lights. Article adapts the decision, without recommending studio equipment."
+        }
+      ],
+      "nearestOverlap": "iphone-macro-close-up-focus",
+      "newUrlReason": "Reflection design, material color and a jewelry-specific documentation set rather than close-focus troubleshooting.",
+      "originalContribution": "Two-tone-ring check, one-change lighting experiment and distinction between sparkle and construction records.",
+      "imageDonor": null,
+      "imageStatus": "New licensed Pexels image researched and visually inspected by parent; metadata copied from prepared-images.json. Illustrative stock disclosure retained.",
+      "editorialReadiness": "Draft complete; independent review and publication checks pending.",
+      "topic": "camera",
+      "sourceVerification": "Primary-source pages opened and relevant text reviewed on 2026-10-23. No paid metrics, measured demand, ranking prediction or firsthand capture tests.",
+      "limitations": "Illustrative exercises are proposals, not tests. Device-specific controls are deferred to related guides. Shared app CTA is supplied by the existing site template; no Meluvya capture or editing capability is asserted here.",
+      "imageProvenance": {
+        "photoId": "16689780",
+        "source": "https://www.pexels.com/photo/gold-ring-on-hand-of-woman-16689780/",
+        "photographer": "cnrdmroglu",
+        "license": "https://www.pexels.com/license/",
+        "retrieved": "2026-10-23",
+        "master": "blog/pexels-16689780-4k.webp"
+      }
+    },
+    {
+      "slug": "photograph-artwork-with-phone",
+      "primaryKeyword": "photograph artwork with phone",
+      "keywordVariants": [
+        "photograph paintings for portfolio",
+        "phone art reproduction"
+      ],
+      "language": "English",
+      "audienceGeography": "Worldwide",
+      "metrics": {
+        "searchVolume": null,
+        "organicKeywordDifficulty": null,
+        "provider": null,
+        "geography": null,
+        "period": null,
+        "retrieved": "2026-10-23",
+        "reason": "No article-specific metric dataset accessed; primary-source research is not evidence of demand or ranking."
+      },
+      "intent": "Record two-dimensional artwork with even light, straight geometry and a separate detail view, without turning the reproduction into a creative edit.",
+      "outline": [
+        "Choose a record of the work before a styled photograph",
+        "Align the phone with the work itself",
+        "Check the full surface for glare and uneven light",
+        "Use a consistent capture and review sequence",
+        "Edit to match the object, not a fashionable look"
+      ],
+      "sources": [
+        {
+          "id": "art-iowa",
+          "url": "https://art.uiowa.edu/sites/art.uiowa.edu/files/2024-02/photographing_artwork_at_home.pdf",
+          "retrieved": "2026-10-23",
+          "claimScope": "Even light and alignment for two-dimensional work.",
+          "pageSections": [
+            "Two-page PDF: photographing two-dimensional artwork"
+          ],
+          "evidence": "Even light, no built-in flash, alignment and larger work on a neutral wall support the reproduction setup."
+        },
+        {
+          "id": "art-smith",
+          "url": "https://sites.smith.edu/ickb/documenting-your-artwork/documenting-your-artwork-scanning-cameras-lighting/",
+          "retrieved": "2026-10-23",
+          "claimScope": "Camera centering and two-light placement; camera-specific settings are not transferred to phones.",
+          "pageSections": [
+            "Documenting artwork with cameras and lighting"
+          ],
+          "evidence": "Centered camera position and adjusted two-sided illumination support alignment and glare checks. Camera-specific aperture settings are excluded."
+        }
+      ],
+      "nearestOverlap": "scan-printed-photos-with-phone",
+      "newUrlReason": "Faithful planar reproduction of artwork, large-work alignment and texture/detail records; not scanning a small family print.",
+      "originalContribution": "Reference-border workflow, distributed sharpness checks, association of full/detail files and documented adjustment decisions.",
+      "imageDonor": null,
+      "imageStatus": "New licensed Pexels image researched and visually inspected by parent; metadata copied from prepared-images.json. Illustrative stock disclosure retained.",
+      "editorialReadiness": "Draft complete; independent review and publication checks pending.",
+      "topic": "camera",
+      "sourceVerification": "Primary-source pages opened and relevant text reviewed on 2026-10-23. No paid metrics, measured demand, ranking prediction or firsthand capture tests.",
+      "limitations": "Illustrative exercises are proposals, not tests. Device-specific controls are deferred to related guides. Shared app CTA is supplied by the existing site template; no Meluvya capture or editing capability is asserted here.",
+      "imageProvenance": {
+        "photoId": "20511253",
+        "source": "https://www.pexels.com/photo/man-painting-a-picture-on-a-canvas-in-a-studio-20511253/",
+        "photographer": "Alina Rossoshanska",
+        "license": "https://www.pexels.com/license/",
+        "retrieved": "2026-10-23",
+        "master": "blog/pexels-20511253-4k.webp"
+      }
+    },
+    {
+      "slug": "group-photos-everyone-sharp",
+      "primaryKeyword": "group photos everyone sharp",
+      "keywordVariants": [
+        "phone group photo tips",
+        "group portrait multiple rows"
+      ],
+      "language": "English",
+      "audienceGeography": "Worldwide",
+      "metrics": {
+        "searchVolume": null,
+        "organicKeywordDifficulty": null,
+        "provider": null,
+        "geography": null,
+        "period": null,
+        "retrieved": "2026-10-23",
+        "reason": "No article-specific metric dataset accessed; primary-source research is not evidence of demand or ranking."
+      },
+      "intent": "Arrange rows, check faces systematically and capture a short group-photo sequence before anyone leaves.",
+      "outline": [
+        "Organize the group before asking for a smile",
+        "Use height without adding excessive depth",
+        "Verify the front and back before the final sequence",
+        "Capture expressions without losing the group’s attention",
+        "Choose the fairest complete frame"
+      ],
+      "sources": [
+        {
+          "id": "group-pose",
+          "url": "https://www.usa.canon.com/learning/training-articles/training-articles-list/posing-tips-for-successful-portraits",
+          "retrieved": "2026-10-23",
+          "claimScope": "Group face arrangement and depth considerations.",
+          "pageSections": [
+            "Group posing"
+          ],
+          "evidence": "Staggered faces and limited depth between heads support compact rows. The eight-person example and face-count audit are original."
+        },
+        {
+          "id": "group-focus",
+          "url": "https://cam.start.canon/en/C005/manual/html/UG-02_BasicShooting_0050.html",
+          "retrieved": "2026-10-23",
+          "claimScope": "Capture-distance and blink precautions; not a claim that phones have Canon Group Photo mode.",
+          "pageSections": [
+            "Shooting tips"
+          ],
+          "evidence": "More capture distance can help depth of field, everyone is not guaranteed sharp, and several frames reduce blink problems. Camera-specific Group Photo mode is not attributed to phones."
+        }
+      ],
+      "nearestOverlap": "take-couple-photos-with-phone",
+      "newUrlReason": "Multirow organization, complete face coverage and systematic focus/blink audit, beyond a two-person pose.",
+      "originalContribution": "Eight-person setup example, face-count check, four-position review path and complete-group selection criteria.",
+      "imageDonor": null,
+      "imageStatus": "New licensed Pexels photo, visually inspected by parent; accurate alt text and illustrative disclosure; 3840px long-edge master and responsive variants.",
+      "editorialReadiness": "Draft complete; independent review and publication checks pending.",
+      "topic": "camera",
+      "sourceVerification": "Primary-source pages opened and relevant text reviewed on 2026-10-23. No paid metrics, measured demand, ranking prediction or firsthand capture tests.",
+      "limitations": "Illustrative exercises are proposals, not tests. Device-specific controls are deferred to related guides. Shared app CTA is supplied by the existing site template; no Meluvya capture or editing capability is asserted here.",
+      "imageSource": "https://www.pexels.com/photo/friends-getting-their-group-photo-taken-6210595/"
+    },
+    {
+      "slug": "pet-photos-with-phone",
+      "primaryKeyword": "pet photos with phone",
+      "keywordVariants": [
+        "phone dog photography",
+        "phone cat photo tips"
+      ],
+      "language": "English",
+      "audienceGeography": "Worldwide",
+      "metrics": {
+        "searchVolume": null,
+        "organicKeywordDifficulty": null,
+        "provider": null,
+        "geography": null,
+        "period": null,
+        "retrieved": "2026-10-23",
+        "reason": "No article-specific metric dataset accessed; primary-source research is not evidence of demand or ranking."
+      },
+      "intent": "Prepare a comfortable setting, work at your pet’s pace and choose a capture sequence for resting or moving subjects.",
+      "outline": [
+        "Choose a portrait or a moment of play",
+        "Finish the setup before asking for attention",
+        "Make a short resting-portrait sequence",
+        "Leave space for an unpredictable subject",
+        "End the session before the picture becomes a struggle"
+      ],
+      "sources": [
+        {
+          "id": "pet-canon",
+          "url": "https://www.canon.com.au/get-inspired/pet-photography-tips-jenn-cooper",
+          "retrieved": "2026-10-23",
+          "claimScope": "Prepared capture, changing perspective and action versus still poses.",
+          "pageSections": [
+            "Preparation, viewpoints and action photography"
+          ],
+          "evidence": "Prepare before attracting attention, vary viewpoint and capture fleeting movement in sequences. Canon-specific AF settings and shutter-speed targets are excluded."
+        },
+        {
+          "id": "pet-care",
+          "url": "https://www.petco.com/pet-education/dog/pet-parenting/how-to-take-great-photos-of-your-pets",
+          "retrieved": "2026-10-23",
+          "claimScope": "Short comfortable sessions and a helper; no dietary or clinical recommendations used.",
+          "pageSections": [
+            "Preparing and photographing a pet"
+          ],
+          "evidence": "Patience, comfortable sessions and assistance support the comfort section. No dietary or medical guidance is used."
+        }
+      ],
+      "nearestOverlap": "iphone-burst-photos-select-best-frame",
+      "newUrlReason": "Animal-specific preparation, comfort, attention and resting-versus-play capture, beyond the burst selection control.",
+      "originalContribution": "Empty-chair rehearsal, choose-one-memory brief, short-session review and framing adjustment for an unpredictable subject.",
+      "imageDonor": null,
+      "imageStatus": "New licensed Pexels image researched and visually inspected by parent; metadata copied from prepared-images.json. Illustrative stock disclosure retained.",
+      "editorialReadiness": "Draft complete; independent review and publication checks pending.",
+      "topic": "camera",
+      "sourceVerification": "Primary-source pages opened and relevant text reviewed on 2026-10-23. No paid metrics, measured demand, ranking prediction or firsthand capture tests.",
+      "limitations": "Illustrative exercises are proposals, not tests. Device-specific controls are deferred to related guides. Shared app CTA is supplied by the existing site template; no Meluvya capture or editing capability is asserted here.",
+      "imageProvenance": {
+        "photoId": "37427157",
+        "source": "https://www.pexels.com/photo/cute-white-dog-portrait-on-black-backdrop-37427157/",
+        "photographer": "Jay Brand",
+        "license": "https://www.pexels.com/license/",
+        "retrieved": "2026-10-23",
+        "master": "blog/pexels-37427157-4k.webp"
+      }
+    },
+    {
+      "slug": "photos-through-window-without-reflections",
+      "primaryKeyword": "photograph through window without reflections",
+      "keywordVariants": [
+        "remove window reflections when taking photo",
+        "phone photos through glass"
+      ],
+      "language": "English",
+      "audienceGeography": "Worldwide",
+      "metrics": {
+        "searchVolume": null,
+        "organicKeywordDifficulty": null,
+        "provider": null,
+        "geography": null,
+        "period": null,
+        "retrieved": "2026-10-23",
+        "reason": "No article-specific metric dataset accessed; primary-source research is not evidence of demand or ranking."
+      },
+      "intent": "Reduce camera-side reflections before shooting through glass, then separate reflection, focus and surface problems.",
+      "outline": [
+        "Identify what is actually covering the view",
+        "Control the room before changing the edit",
+        "Use one-change comparisons",
+        "Treat a polarizer as an experiment, not a guarantee",
+        "Know when to choose a different photograph"
+      ],
+      "sources": [
+        {
+          "id": "window-adobe",
+          "url": "https://blog.adobe.com/en/publish/2024/12/12/removing-window-reflections-adobe-camera-raw",
+          "retrieved": "2026-10-23",
+          "claimScope": "Camera-side light and capture prevention; 2024 release status is not presented as current software availability.",
+          "pageSections": [
+            "Reflection explanation",
+            "Capture guidance"
+          ],
+          "evidence": "A window combines an external view with camera-side reflections; reduce camera-side light and work nearer glass when practical. The 2024 software release status is not used as a current availability claim."
+        },
+        {
+          "id": "polarizer",
+          "url": "https://www.academy.canon-me.com/en/fundamentals/polarizing-filters-in-practice",
+          "retrieved": "2026-10-23",
+          "claimScope": "Variable reduction of glass/water reflections and light loss.",
+          "pageSections": [
+            "Glass and water reflections"
+          ],
+          "evidence": "Angle and rotation affect suppression; filters reduce entering light. Water article briefly notes that the wanted reflection may be suppressed too. Total reuse remains deliberately limited."
+        }
+      ],
+      "nearestOverlap": "reduce-glasses-glare-in-portraits",
+      "newUrlReason": "Capturing an exterior scene through a large pane by controlling camera-side light and position; not portrait lens glare.",
+      "originalContribution": "Hotel-window three-part diagnosis, one-change comparison sequence and fallback documentary framing.",
+      "imageDonor": "iphone-ae-af-lock",
+      "imageStatus": "All donor image fields and stock disclosure unchanged. Parent may separately source more relevant licensed subject photography.",
+      "editorialReadiness": "Draft complete; independent review and publication checks pending.",
+      "topic": "camera",
+      "sourceVerification": "Primary-source pages opened and relevant text reviewed on 2026-10-23. No paid metrics, measured demand, ranking prediction or firsthand capture tests.",
+      "limitations": "Illustrative exercises are proposals, not tests. Device-specific controls are deferred to related guides. Shared app CTA is supplied by the existing site template; no Meluvya capture or editing capability is asserted here."
+    },
+    {
+      "slug": "silhouette-photos-with-phone",
+      "primaryKeyword": "silhouette photos with phone",
+      "keywordVariants": [
+        "phone silhouette photography",
+        "how to photograph silhouettes"
+      ],
+      "language": "English",
+      "audienceGeography": "Worldwide",
+      "metrics": {
+        "searchVolume": null,
+        "organicKeywordDifficulty": null,
+        "provider": null,
+        "geography": null,
+        "period": null,
+        "retrieved": "2026-10-23",
+        "reason": "No article-specific metric dataset accessed; primary-source research is not evidence of demand or ranking."
+      },
+      "intent": "Create a readable dark outline against a brighter background without losing the subject’s shape or the scene’s color.",
+      "outline": [
+        "Choose what the outline needs to say",
+        "Find a background that supports the shape",
+        "Arrange gaps that remain visible at small size",
+        "Compare brightness and focus separately",
+        "Keep the edit aligned with the intention"
+      ],
+      "sources": [
+        {
+          "id": "silhouette-nikon",
+          "url": "https://en.nikon.ca/learn-and-explore/c/tips-and-techniques/how-to-shoot-a-silhouette",
+          "retrieved": "2026-10-23",
+          "claimScope": "Bright-background exposure and subject-edge focus.",
+          "pageSections": [
+            "Exposure",
+            "Focus"
+          ],
+          "evidence": "Expose for brighter background and focus on a contrasted subject boundary. Examples and comparison sequence are original."
+        },
+        {
+          "id": "silhouette-nyfa",
+          "url": "https://www.nyfa.edu/student-resources/guide-photographing-silhouettes/",
+          "retrieved": "2026-10-23",
+          "claimScope": "Recognizable outlines and separation between figures.",
+          "pageSections": [
+            "Subject and composition"
+          ],
+          "evidence": "Readable shape and separation between figures support the outline check. No lighting measurements or test results are claimed."
+        }
+      ],
+      "nearestOverlap": "backlit-phone-portraits",
+      "newUrlReason": "Deliberately unreadable foreground interiors with recognizable outlines, rather than recovering facial detail in backlit portraits.",
+      "originalContribution": "Musician outline example, two-friends spacing comparison and thumbnail readability check.",
+      "imageDonor": "backlit-phone-portraits",
+      "imageStatus": "All donor image fields and stock disclosure unchanged. Parent may separately source more relevant licensed subject photography.",
+      "editorialReadiness": "Draft complete; independent review and publication checks pending.",
+      "topic": "camera",
+      "sourceVerification": "Primary-source pages opened and relevant text reviewed on 2026-10-23. No paid metrics, measured demand, ranking prediction or firsthand capture tests.",
+      "limitations": "Illustrative exercises are proposals, not tests. Device-specific controls are deferred to related guides. Shared app CTA is supplied by the existing site template; no Meluvya capture or editing capability is asserted here."
+    },
+    {
+      "slug": "water-reflection-photos-with-phone",
+      "primaryKeyword": "water reflection photos with phone",
+      "keywordVariants": [
+        "puddle reflection photography",
+        "phone reflection photography"
+      ],
+      "language": "English",
+      "audienceGeography": "Worldwide",
+      "metrics": {
+        "searchVolume": null,
+        "organicKeywordDifficulty": null,
+        "provider": null,
+        "geography": null,
+        "period": null,
+        "retrieved": "2026-10-23",
+        "reason": "No article-specific metric dataset accessed; primary-source research is not evidence of demand or ranking."
+      },
+      "intent": "Find a useful viewpoint for puddles, ponds and still water, then decide whether symmetry or a fragment makes the stronger photograph.",
+      "outline": [
+        "Choose the reflected subject before the framing",
+        "Explore height without committing to one formula",
+        "Work with the surface you actually have",
+        "Compare the complete scene with a reflected fragment",
+        "Preserve the reflection you came to photograph"
+      ],
+      "sources": [
+        {
+          "id": "water",
+          "url": "https://www.adobe.com/creativecloud/photography/discover/reflection-photography.html",
+          "retrieved": "2026-10-23",
+          "claimScope": "Viewpoint, surface movement and complete-versus-reflection-only composition.",
+          "pageSections": [
+            "Reflection photography composition and conditions"
+          ],
+          "evidence": "The guide covers lower viewpoints, wind effects and including the subject or only its reflection. Building/roofline comparison and saved-reference decisions are original applications."
+        },
+        {
+          "id": "composition",
+          "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/5-easy-composition-guidelines",
+          "retrieved": "2026-10-23",
+          "claimScope": "Grid alignment and deliberate framing.",
+          "pageSections": [
+            "Rule of thirds",
+            "Horizon lines"
+          ],
+          "evidence": "Grid lines can aid alignment; centered horizons can suit reflections. Reused only for these short composition points across flat-lay and water articles."
+        },
+        {
+          "id": "polarizer",
+          "url": "https://www.academy.canon-me.com/en/fundamentals/polarizing-filters-in-practice",
+          "retrieved": "2026-10-23",
+          "claimScope": "Variable reduction of glass/water reflections and light loss.",
+          "pageSections": [
+            "Glass and water reflections"
+          ],
+          "evidence": "Angle and rotation affect suppression; filters reduce entering light. Water article briefly notes that the wanted reflection may be suppressed too. Total reuse remains deliberately limited."
+        }
+      ],
+      "nearestOverlap": "iphone-live-photo-long-exposure",
+      "newUrlReason": "Viewpoint, surface observation and composition of reflected subjects, rather than making moving water smooth.",
+      "originalContribution": "Building-and-puddle exercise, recognizable-roofline comparison and reference-frame retention for abstract crops.",
+      "imageDonor": null,
+      "imageStatus": "New licensed Pexels photo, visually inspected by parent; accurate alt text and illustrative disclosure; 3840px long-edge master and responsive variants.",
+      "editorialReadiness": "Draft complete; independent review and publication checks pending.",
+      "topic": "camera",
+      "sourceVerification": "Primary-source pages opened and relevant text reviewed on 2026-10-23. No paid metrics, measured demand, ranking prediction or firsthand capture tests.",
+      "limitations": "Illustrative exercises are proposals, not tests. Device-specific controls are deferred to related guides. Shared app CTA is supplied by the existing site template; no Meluvya capture or editing capability is asserted here.",
+      "editorialRevision": "Independent reviewer identified Adobe coverage of full-scene/reflection-only framing, interrupted reflections and long exposure. Removed the interrupted-reflection bullet and long-exposure FAQ; explicitly attributed full versus fragment framing and corrected the originality claim.",
+      "imageSource": "https://www.pexels.com/photo/reflection-of-buildings-on-body-of-water-1121782/"
+    }
+  ]
+}

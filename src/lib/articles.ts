@@ -30,6 +30,2852 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "food-photos-with-phone",
+  "title": "How to photograph food with your phone before it goes cold",
+  "description": "Choose an angle and simple light for phone food photos, then capture a useful sequence before the dish changes.",
+  "summary": "Choose an angle and simple light for phone food photos, then capture a useful sequence before the dish changes.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Decide what makes the dish recognizable, choose an angle that shows it and prepare the frame before serving. Soft light from beside the table is a useful starting point. Make a clear overall photograph first, then a detail or action shot, so an elaborate setup does not cost you the best moment.",
+  "sections": [
+    {
+      "id": "angle",
+      "title": "Match the angle to the food you need to show",
+      "paragraphs": [
+        "Canon’s food guide distinguishes overhead, angled and straight-on views: the right choice depends on the food’s shape. A topping or arrangement can read from above; layers need a view that reveals their height.",
+        "Try this with a bowl of noodles: make one high view that explains the ingredients and one lower view that shows the bowl and a lifted forkful. Choose the one that answers your purpose. A recipe record and a picture of dinner with friends need not use the same composition."
+      ]
+    },
+    {
+      "id": "light",
+      "title": "Use one manageable lighting setup",
+      "paragraphs": [
+        "Adobe recommends diffused daylight and warns that household overhead lighting can add unwanted color. Put the plate near indirect window light when possible and switch off a conflicting room light if you control it. Keep direct sun from making the shiny sauce unreadable.",
+        "In a restaurant, work with the table you have rather than turning the meal into a lighting production. Rotate the plate and compare two camera positions. If a reflection still covers the main ingredient, make the wider memory photograph and leave the detailed food study for another setting."
+      ]
+    },
+    {
+      "id": "sequence",
+      "title": "Prepare before the food arrives",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Frame an empty plate.",
+            "text": "Decide whether the picture includes the whole place setting or just the food. Remove a distracting receipt or charging cable now."
+          },
+          {
+            "title": "Choose the important feature.",
+            "text": "Name what must survive: the crisp edge, a filling, a sauce pattern or the shared table. This keeps the next decisions specific."
+          },
+          {
+            "title": "Photograph the complete dish.",
+            "text": "Capture a usable record before cutting, pouring or lifting anything."
+          },
+          {
+            "title": "Make one planned variation.",
+            "text": "Add the forkful, cut section or serving gesture you decided on. Stop when it explains something the first photograph did not."
+          }
+        ]
+      }
+    },
+    {
+      "id": "detail",
+      "title": "Check food texture instead of chasing a bright screen",
+      "paragraphs": [
+        "Look at a small textured area, such as the surface of bread, alongside a glossy area. If brightening makes the glossy region featureless, try a different plate angle or lighting position before adding more exposure. The goal is readable food, not a uniformly bright rectangle.",
+        "Canon highlights the need to plan around changing ingredients. Ice, foam and fresh toppings will not wait for a long composition experiment. For practice, use a dish that can sit while you learn, then keep the setup ready for the less forgiving subject."
+      ]
+    },
+    {
+      "id": "troubleshoot",
+      "title": "Choose the next physical adjustment",
+      "paragraphs": [],
+      "table": {
+        "headers": [
+          "What distracts",
+          "A useful next attempt"
+        ],
+        "rows": [
+          [
+            "Too much empty rim",
+            "Try a tighter composition or an angle that makes the plate part of the setting."
+          ],
+          [
+            "A tall garnish hides the filling",
+            "Turn the plate and inspect which ingredient becomes visible."
+          ],
+          [
+            "Everything looks orange",
+            "Check the light sources before repeatedly cooling the entire edit."
+          ],
+          [
+            "The food no longer resembles what was served",
+            "Keep a faithful version; reserve dramatic restyling for clearly creative use."
+          ]
+        ]
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I need special food props?",
+      "answer": "No. Begin with the real serving plate and one useful utensil. Additional props should explain scale, ingredients or the occasion."
+    },
+    {
+      "question": "Should every food photo be overhead?",
+      "answer": "No. Compare what the angle reveals and conceals. A useful picture of a layered sandwich may need a different viewpoint from a decorated tart."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Canon: tips for food photography",
+      "url": "https://www.usa.canon.com/learning/training-articles/training-articles-list/cooking-with-the-camera-tips-for-amazing-food-photography",
+      "note": "Camera angle and shape of food. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Adobe: food photography",
+      "url": "https://www.adobe.com/creativecloud/photography/type/food-photography.html",
+      "note": "Diffuse daylight and unwanted mixed-light color. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "remove-color-cast-from-photos",
+    "iphone-macro-close-up-focus",
+    "iphone-ae-af-lock"
+  ],
+  "image": "blog/pexels-7791114-4k.webp",
+  "imageAlt": "Overhead view of granola, blueberries and a bowl of yogurt on a dark table",
+  "imagePosition": "50% 50%",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7791114-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7791114-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7791114-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7791114-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Ron Lach",
+    "url": "https://www.pexels.com/photo/flat-lay-photography-of-a-person-preparing-granola-for-breakfast-on-black-surface-7791114/"
+  }
+},
+{
+  "slug": "iphone-photo-albums-vs-folders",
+  "title": "iPhone photo albums vs folders: organize without losing pictures",
+  "description": "Choose an album or folder in iPhone Photos, build a useful shortlist, and distinguish removing an item from deleting its library copy.",
+  "summary": "Organize a photo library with albums for selections and folders for groups of albums.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Use an album to collect photographs around a purpose, and a folder to group related albums. Plan the selection first: a folder named for a trip can contain separate albums for favorites, prints and pictures to send.",
+  "sections": [
+    {
+      "id": "choose-structure",
+      "title": "Choose a structure you will actually use",
+      "paragraphs": [
+        "A useful collection answers a question you ask repeatedly. “Which pictures should I send to my family?” is more actionable than “Where can I put everything?” Start with two or three selections rather than a complicated filing system."
+      ],
+      "table": {
+        "headers": [
+          "Your task",
+          "Suggested structure"
+        ],
+        "rows": [
+          [
+            "A shortlist for printing",
+            "One album named for the print project"
+          ],
+          [
+            "Several selections from one holiday",
+            "A trip folder containing separate albums"
+          ],
+          [
+            "Finding an image by its subject or date",
+            "Try library search before creating another container"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "create",
+      "title": "Create an album or folder in Photos",
+      "paragraphs": [
+        "Apple’s iOS 26 guide uses Photos → Collections → Albums → Add. Choose New Album, name it, add photographs and tap Create. For a group of albums, choose New Folder instead, then name it, add albums and tap Create. Check Apple’s version selector if your interface differs.",
+        "Try a folder named “Coast weekend.” Inside it, make “Family picks” and “Print shortlist.” Give the two albums different jobs. A picture can be worth sending without being the one you want on a wall."
+      ]
+    },
+    {
+      "id": "add-and-remove",
+      "title": "Add pictures, then practice a harmless removal",
+      "paragraphs": [
+        "Apple documents opening an album and tapping Add after its last photo. Select the pictures and finish with Done. To take one out of the album, touch and hold it and choose Remove from Album. Removing several uses Select → More → Remove from Album.",
+        "Use a recognizable sample for your first cleanup. Remove it from the album, then find it in the main library. This small check helps you distinguish an organizational action from deleting a picture you still need."
+      ]
+    },
+    {
+      "id": "delete-album",
+      "title": "Read the action before cleaning up",
+      "paragraphs": [
+        "Apple states that deleting an album leaves its pictures in the library and in other albums. That is different from selecting photographs and choosing a deletion action. Do not treat every trash or removal command as interchangeable.",
+        "Before a large reorganization, write down the intended outcome: remove a shortlist, remove an album from a folder, or delete unwanted photographs. If the confirmation describes a different outcome, cancel and return to the correct collection. A few seconds here are more useful than recovering from a rushed cleanup."
+      ]
+    },
+    {
+      "id": "maintain",
+      "title": "Keep the system small enough to maintain",
+      "paragraphs": [
+        "After finishing the print order, decide whether its shortlist still serves a purpose. Keep meaningful project names and avoid several nearly identical “Favorites 2” albums. If a folder has only one album and you never expect another, the extra layer may not help.",
+        "Albums are an organization tool. For a separate preserved copy of important pictures, make a deliberate backup plan rather than relying on a tidy library."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will creating more albums improve photo quality?",
+      "answer": "Organization changes which pictures you can find together. It is not an editing or export step; choose the original file separately when quality matters."
+    },
+    {
+      "question": "Should every event have a folder?",
+      "answer": "Only when several albums belong together. A single useful album is often easier to maintain than an elaborate hierarchy."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Create and work with photo albums — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/create-and-work-with-photo-albums-iphc0fc668ab/26/ios/26",
+      "note": "Album and folder creation; deleting an album."
+    },
+    {
+      "title": "Apple: Add, delete, and find photos in albums — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/add-delete-find-photos-videos-albums-iphee7aff030/26/ios/26",
+      "note": "Adding and removing album selections."
+    }
+  ],
+  "related": [
+    "merge-duplicate-iphone-photos",
+    "icloud-photos-sync-vs-backup",
+    "recover-deleted-iphone-photos"
+  ],
+  "image": "blog/pexels-7129664-4k.webp",
+  "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7129664-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7129664-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7129664-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7129664-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Michael Burrows",
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+  }
+},
+{
+  "slug": "tone-curves-vs-contrast",
+  "title": "Tone curves vs Contrast: which should you use?",
+  "description": "Choose between a Contrast slider and a tone curve, practice a controlled edit, and protect important shadow and highlight detail.",
+  "summary": "A practical comparison for deciding when a simple contrast adjustment is enough and when a curve earns its complexity.",
+  "quickAnswer": "Use Contrast for a broad change in tonal separation. Use a tone curve when one brightness range needs a different treatment from another. A curve targets tones throughout the image; it does not select a particular object unless you also use a mask.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "image": "blog/pexels-34806640-4k.webp",
+  "imageAlt": "Portrait of a woman with bright light across one side of her face and deep shadows around her",
+  "imagePosition": "50% 35%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-34806640-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-34806640-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-34806640-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-34806640-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "elif s.",
+    "url": "https://www.pexels.com/photo/moody-portrait-of-woman-in-dramatic-lighting-34806640/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "choose-tool",
+      "title": "Choose the tool from the problem",
+      "paragraphs": [
+        "If the whole picture feels flat and a small Contrast adjustment improves it, there is no requirement to replace that adjustment with a curve. More controls do not automatically produce a better photograph. Keep the simplest version that solves the visible problem.",
+        "A curve becomes useful when your sentence is more specific: “I want the middle tones to separate more, but I like the brighter fabric as it is.” Before editing, identify one area you want to change and two you want to protect. For a portrait, those might be a shaded jacket, a cheek and a pale sleeve."
+      ]
+    },
+    {
+      "id": "read-curve",
+      "title": "Read a curve as brightness, not position",
+      "paragraphs": [
+        "Adobe’s Photoshop guide describes an RGB curve as input brightness across the horizontal axis and output brightness vertically. Raising a point lightens its tonal range; lowering it darkens that range. A steeper part of the curve increases contrast there, while a flatter part reduces it.",
+        "The graph is not a little map of the photograph. Moving its left side does not edit the left side of the frame. If the jacket and a wall share similar tones, a global curve can change both. Decide whether that is acceptable before making the curve more complicated.",
+        "Begin with the combined RGB curve for this exercise. Separate color-channel curves introduce another job and can make it harder to see whether the basic tonal decision helped."
+      ]
+    },
+    {
+      "id": "controlled-comparison",
+      "title": "Try a comparison with one clear goal",
+      "paragraphs": [
+        "Use an editable version or a duplicate. This is a suggested exercise, not a tested recipe for the illustrative photograph."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Make a simple version.",
+            "text": "Adjust Contrast until the intended area improves. Stop when a protected area becomes less useful. Save that version for comparison."
+          },
+          {
+            "title": "Return to the same starting point.",
+            "text": "Reset the trial adjustment before trying the curve. Otherwise you will compare a simple edit with two edits stacked together."
+          },
+          {
+            "title": "Make one small curve change.",
+            "text": "Place a point in the brightness range you want to change. Move it a little, then check the two protected areas. Add a nearby anchor only if you can name what it should preserve."
+          },
+          {
+            "title": "Compare the photograph.",
+            "text": "Hide the controls and compare at the intended viewing size. Choose the version that meets your goal with the fewest visible compromises."
+          }
+        ]
+      }
+    },
+    {
+      "id": "troubleshoot",
+      "title": "When the curve is doing too much",
+      "paragraphs": [
+        "Imagine a portrait with a dark jacket against a pale wall. Increasing separation may make the jacket look more defined, but losing every fold is not the same as improving it. Judge the jacket by recognizable fabric structure, not by how dramatic the graph looks.",
+        "If a narrow change makes several parts of the picture jump abruptly in appearance, remove an unnecessary point and reassess. If the face is the only problem, a local adjustment may be more appropriate than forcing the entire image through an elaborate curve.",
+        "Check the original when texture disappears. Neither method can prove that a blank area contains recoverable detail. A pleasing dark background can remain dark; the goal is not to reveal everything."
+      ]
+    },
+    {
+      "id": "finish",
+      "title": "Keep the useful version easy to revisit",
+      "paragraphs": [
+        "Before exporting, write a short description of the decision, such as “stronger jacket separation, sleeve still textured.” That is more transferable to another photograph than copying an unexplained curve shape.",
+        "Retain the editable version and inspect the exported result. If the simple Contrast version is equally good, use it. Save the curve for the situation where its extra control makes a visible difference."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is an S-curve always the right curve?",
+      "answer": "No. Start from the tonal problem in the actual photograph. A familiar shape can still make shadows or highlights less useful."
+    },
+    {
+      "question": "Does a curve change only the selected point?",
+      "answer": "Treat the point as a control over a range, not a single isolated pixel. Watch nearby tones and the rest of the image as you adjust."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: adjust color and tone with Curves",
+      "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-corrections/adjust-color-and-tone-with-curves.html",
+      "note": "RGB curve interpretation and tonal changes. Checked October 23, 2026."
+    },
+    {
+      "title": "Adobe: adjust brightness and contrast",
+      "url": "https://helpx.adobe.com/ph_fil/photoshop/how-to/adjust-contrast-brightness.html",
+      "note": "Broad brightness and contrast controls. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "read-histogram-for-portraits",
+    "can-you-fix-overexposed-portraits",
+    "edit-photos-without-losing-original"
+  ]
+},
+{
+  "slug": "pet-photos-with-phone",
+  "title": "How to take better pet photos with your phone",
+  "description": "Prepare a comfortable setting, work at your pet’s pace and choose a capture sequence for resting or moving subjects.",
+  "summary": "Prepare a comfortable setting, work at your pet’s pace and choose a capture sequence for resting or moving subjects.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Prepare the frame before calling your pet’s attention. Start with a familiar place, get the camera ready and make a short sequence while your pet is comfortable. For a resting portrait, inspect the eyes in the saved image; for play, leave room for movement and select the best moment afterward.",
+  "sections": [
+    {
+      "id": "purpose",
+      "title": "Choose a portrait or a moment of play",
+      "paragraphs": [
+        "A photograph of your dog resting by a window and a photograph of the same dog chasing a toy ask different things of the session. Choose one first. For the resting picture, prepare a quiet composition around where the dog already likes to sit. For play, organize the space before introducing the activity.",
+        "Write down one detail you want to remember: a head tilt, a particular sleeping position or the way your pet carries a toy. This gives the photograph a purpose beyond getting an animal to imitate a formal human portrait."
+      ]
+    },
+    {
+      "id": "prepare",
+      "title": "Finish the setup before asking for attention",
+      "paragraphs": [
+        "Canon’s pet guide recommends having the camera ready before using attention-getting cues and exploring different viewpoints. Start near the pet’s eye level if it gives a useful view, then inspect the background from that position. A room that looks tidy from standing height may look very different close to the floor.",
+        "For a cat on a favorite chair, make an empty-chair test first. Remove a bright bag behind the chair and choose where you can comfortably hold the phone. When the cat arrives, you can concentrate on its behavior instead of moving furniture around it."
+      ]
+    },
+    {
+      "id": "resting",
+      "title": "Make a short resting-portrait sequence",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Wait for a comfortable position.",
+            "text": "Work with the place your pet has chosen when possible. The picture does not require a prescribed pose."
+          },
+          {
+            "title": "Give one clear cue.",
+            "text": "If a familiar toy attracts attention, let a helper hold it near the phone. Avoid multiple people competing for the same gaze."
+          },
+          {
+            "title": "Capture, then pause.",
+            "text": "Make a few photographs and let the pet relax. Inspect the saved image rather than assuming the brief preview was sharp."
+          },
+          {
+            "title": "Check the intended detail.",
+            "text": "Compare the eyes, expression and important marking. If your favorite detail is missing, change the framing before repeating the cue."
+          }
+        ]
+      }
+    },
+    {
+      "id": "moving",
+      "title": "Leave space for an unpredictable subject",
+      "paragraphs": [
+        "Canon distinguishes action photographs from still portraits and recommends capturing a sequence for fleeting moments. A phone’s burst option can provide alternatives, but it does not guarantee sharp movement in weak light. Learn your phone’s control before starting play; the linked burst guide covers the iPhone workflow.",
+        "Frame slightly wider for a moving pet so the next step does not immediately leave the picture. After one short attempt, compare whether the subject remained in view. If not, change your position or choose a different activity instead of repeating an unsuccessful setup."
+      ]
+    },
+    {
+      "id": "comfort",
+      "title": "End the session before the picture becomes a struggle",
+      "paragraphs": [
+        "Petco recommends patience, a helper and keeping the experience comfortable. If your pet walks away or no longer engages, stop or return to an ordinary activity. Do not force a costume or restrain the animal just to reproduce a reference pose.",
+        "Choose a frame that represents the moment honestly. Keep a slightly imperfect picture if it captures the detail you wanted, and discard a technically neat image that makes the session look more comfortable than it was. A familiar expression can matter more than a symmetrical composition."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I need a dedicated pet mode?",
+      "answer": "No special mode is assumed here. Learn the ordinary photo and burst controls available on your phone, then judge the saved results."
+    },
+    {
+      "question": "Why is the nose sharp but the eyes soft?",
+      "answer": "Inspect where the phone focused and compare another capture with deliberate attention to the eyes. Moving closer is not automatically the solution; keep enough distance to frame the face clearly."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Canon: pet photography with Jenn Cooper",
+      "url": "https://www.canon.com.au/get-inspired/pet-photography-tips-jenn-cooper",
+      "note": "Prepared capture, changing perspective and action versus still poses. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Petco: photographing your pets",
+      "url": "https://www.petco.com/pet-education/dog/pet-parenting/how-to-take-great-photos-of-your-pets",
+      "note": "Short comfortable sessions and a helper; no dietary or clinical recommendations used. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "iphone-burst-photos-select-best-frame",
+    "why-night-phone-photos-are-blurry",
+    "choose-portrait-background"
+  ],
+  "image": "blog/pexels-37427157-4k.webp",
+  "imageAlt": "White dog photographed against a dark background",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-37427157-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-37427157-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-37427157-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-37427157-4k.webp",
+      "width": 3072
+    }
+  ],
+  "imageCredit": {
+    "name": "Jay Brand",
+    "url": "https://www.pexels.com/photo/cute-white-dog-portrait-on-black-backdrop-37427157/"
+  }
+},
+{
+  "slug": "copy-text-from-iphone-photo",
+  "title": "How to copy text from a photo on iPhone with Live Text",
+  "description": "Extract useful text from an iPhone photo with Live Text, check recognition errors, and troubleshoot missing controls without retyping everything.",
+  "summary": "Copy image text into an editable note, then verify the details that matter.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Open the picture in Photos, select its text with Live Text, copy the relevant passage and paste it into a note. Check numbers, spelling and reading order against the image before using the result.",
+  "sections": [
+    {
+      "id": "requirements",
+      "title": "Check support before troubleshooting the picture",
+      "paragraphs": [
+        "Apple requires iPhone XS, XR or later with iOS 15 or later for Live Text. Video text requires iOS 16 or later. Language and region availability vary; a supported phone does not guarantee every script will be recognized.",
+        "If the control is missing, first establish whether the device and language qualify. Repeatedly enlarging a photograph cannot enable a feature the software does not support."
+      ]
+    },
+    {
+      "id": "copy",
+      "title": "Select the useful passage",
+      "paragraphs": [
+        "In Apple’s iOS 26 guide, enable Live Text in Settings → General → Language & Region if needed. Open a photo, tap Detect Text, hold the text, adjust the selection handles and choose Copy Text. For video, pause on the frame first. The support article may label the command simply Copy.",
+        "Paste into a temporary note before inserting the result into an important form. Select a paragraph or line deliberately instead of assuming Select All will give the reading order you want. This is particularly useful for posters that mix a title, date, address and small-print footer."
+      ]
+    },
+    {
+      "id": "check",
+      "title": "Verify high-impact details first",
+      "paragraphs": [
+        "Imagine copying the venue and start time from an event poster. Compare the venue number, date, time and any booking code with the photograph before polishing punctuation. A beautifully formatted note with one wrong digit is still a bad result."
+      ],
+      "table": {
+        "headers": [
+          "Text type",
+          "Check before using it"
+        ],
+        "rows": [
+          [
+            "Address or booking code",
+            "Digits, spaces and similar-looking characters such as O and 0"
+          ],
+          [
+            "Receipt or list",
+            "Whether values stayed beside the correct labels"
+          ],
+          [
+            "Paragraphs in columns",
+            "Reading order rather than appearance alone"
+          ],
+          [
+            "Website or email address",
+            "The complete destination before opening or sending anything"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "poor-image",
+      "title": "Improve the source instead of correcting endless errors",
+      "paragraphs": [
+        "When you can take another picture, photograph the text squarely, keep the page still and avoid a reflection over the words. Compare the new capture at reading size before trying recognition again. A sharp photograph of the whole page may be less useful than a closer view of the small section you actually need.",
+        "If you cannot retake it, work in short blocks and manually verify the unclear parts. Do not fill an illegible name or number with a plausible guess. Mark uncertainty in the note so that it does not become an apparently exact transcription later."
+      ]
+    },
+    {
+      "id": "keep-context",
+      "title": "Keep enough context to understand the text later",
+      "paragraphs": [
+        "Save a reference to the original photograph beside your working note when context matters. A copied sentence may lose the heading, unit or footnote that explains it. For an expense record, for example, keep the receipt image even after extracting its total.",
+        "This workflow concerns text extraction. Scanning a printed photograph for image quality is a different task, and an enlarged picture does not automatically supply clearer source letters."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why does the copied text look out of order?",
+      "answer": "Inspect how you selected a multi-column or mixed-layout image. Try copying one block at a time and arrange the blocks in the order you can verify."
+    },
+    {
+      "question": "Can I trust a copied confirmation number?",
+      "answer": "Treat it as a draft until you compare it character by character with the source. Do that before sharing or using the number."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Interact with text in a photo or video — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/interact-with-content-in-a-photo-or-video-iph37fdd714b/26/ios/26",
+      "note": "Live Text setting and selection workflow."
+    },
+    {
+      "title": "Apple: Copy and translate text from photos",
+      "url": "https://support.apple.com/en-us/120004",
+      "note": "Device and software requirements; copying text."
+    }
+  ],
+  "related": [
+    "scan-printed-photos-with-phone",
+    "photo-sharpening-vs-resolution",
+    "clean-phone-camera-lens"
+  ],
+  "image": "blog/pexels-16313502-4k.webp",
+  "imageAlt": "Photo-editing workspace with a laptop, camera, and drawing tablet",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-16313502-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-16313502-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-16313502-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-16313502-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Kawê Rodrigues",
+    "url": "https://www.pexels.com/photo/woman-editing-photos-on-laptop-16313502/"
+  }
+},
+{
+  "slug": "texture-clarity-dehaze-differences",
+  "title": "Texture, Clarity and Dehaze: how to choose",
+  "description": "Understand Lightroom’s Texture, Clarity and Dehaze controls and compare them without making skin, edges or skies look overprocessed.",
+  "summary": "Choose a detail control by the visible problem, then test it on texture, edges and a smooth area.",
+  "quickAnswer": "Texture emphasizes or softens surface detail, Clarity changes midtone edge contrast, and Dehaze addresses a hazy appearance. Try one control at a time and check areas that should remain quiet. None is a substitute for a well-focused source photo.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "image": "blog/pexels-9253767-4k.webp",
+  "imageAlt": "Close-up portrait showing a woman's natural skin texture",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-9253767-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-9253767-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-9253767-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-9253767-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Ron Lach",
+    "url": "https://www.pexels.com/photo/close-up-photo-of-woman-9253767/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "name-problem",
+      "title": "Name the problem before adding detail",
+      "paragraphs": [
+        "“Make it sharper” can mean several things. A knitted sleeve may look too smooth, a building may lack separation from its surroundings, or distant hills may disappear into haze. Applying every detail slider to all three is a poor way to find out what actually helps.",
+        "Choose a photograph with one feature you want to emphasize. Also choose a feature that should stay gentle, such as skin or a plain wall. Those two priorities give the comparison a purpose."
+      ]
+    },
+    {
+      "id": "differences",
+      "title": "What the controls are designed to change",
+      "paragraphs": [
+        "Adobe describes Texture as concentrating on medium-sized detail, Clarity as changing contrast around midtone edges, and Dehaze as reducing or adding a hazy appearance. These descriptions concern Lightroom; similarly named tools elsewhere may behave differently."
+      ],
+      "table": {
+        "headers": [
+          "Control",
+          "Useful first question"
+        ],
+        "rows": [
+          [
+            "Texture",
+            "Does the surface itself need more or less presence?"
+          ],
+          [
+            "Clarity",
+            "Do forms need stronger separation without changing the composition?"
+          ],
+          [
+            "Dehaze",
+            "Is a veil of haze part of the problem, or part of the atmosphere I want?"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "three-patches",
+      "title": "Run a three-patch trial",
+      "paragraphs": [
+        "For a portrait in a textured sweater, use the sweater, a cheek and a smooth background as your three watch areas. The following exercise is a way to judge your own file, not a preset or a claim about the stock image."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Start clean.",
+            "text": "Keep a reference version before these effects. If an existing preset contains several strong changes, compare with those changes disabled where possible."
+          },
+          {
+            "title": "Try one slider.",
+            "text": "Move only the control that best matches your goal. Compare the target area and the two watch areas before touching another control."
+          },
+          {
+            "title": "Reset and compare.",
+            "text": "Return to the same starting point for each alternative. Keep the viewing size consistent so zoom does not become another variable."
+          },
+          {
+            "title": "Choose by tradeoff.",
+            "text": "Keep the smallest useful change. If the sweater improves but the face becomes distracting, consider limiting the edit to the sweater instead of increasing a global effect."
+          }
+        ]
+      }
+    },
+    {
+      "id": "combine-carefully",
+      "title": "Combine controls only for separate reasons",
+      "paragraphs": [
+        "A landscape might benefit from both clearer distant forms and more visible rock texture. That does not mean both controls need the same amount. Name the second problem after the first edit, then decide whether it still exists.",
+        "For a misty morning scene, try a version that preserves some softness. If the hills become conspicuous but the picture loses the atmosphere you liked, the clearer version may be the less useful one. More visible detail is a choice, not an obligation.",
+        "After changing Clarity or Dehaze, revisit the overall color and brightness. Adobe notes that these controls can affect more than the apparent detail. Avoid compensating with several unrelated edits before deciding whether the original adjustment was too strong."
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Review both the whole image and small edges",
+      "paragraphs": [
+        "At the size you plan to share, check whether the intended feature becomes easier to read. Then zoom in to inspect hair, glasses, clothing seams and smooth areas. Look for a new visual problem rather than rewarding the version that looks strongest for one second.",
+        "If detail was never recorded clearly, stop trying to force it out with surface contrast. Return to another capture when you have one. Save the editable version so a treatment intended for a small post does not become the only version available for a larger display."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I increase all three controls together?",
+      "answer": "Only if each solves a separate visible problem. A one-control trial makes unwanted changes easier to trace and undo."
+    },
+    {
+      "question": "Can negative Texture fix every skin problem?",
+      "answer": "No. Decide what you want to change and preserve recognizable features and surface character. Making every area equally smooth can create a new problem."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: enhance texture and details",
+      "url": "https://helpx.adobe.com/ph_fil/lightroom-cc/how-to/enhance-texture-details.html",
+      "note": "Distinct purposes of the three controls and their wider visual effects. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "photo-sharpening-vs-resolution",
+    "why-edited-portraits-look-unnatural",
+    "photo-noise-vs-film-grain"
+  ]
+},
+{
+  "slug": "flat-lay-phone-photography",
+  "title": "How to take flat-lay photos with your phone",
+  "description": "Arrange and photograph an overhead scene without tilted objects, accidental shadows or a cluttered crop.",
+  "summary": "Arrange and photograph an overhead scene without tilted objects, accidental shadows or a cluttered crop.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Build a small arrangement on a flat surface, hold the phone parallel above it and check the whole frame before shooting. Start with one main object and add only details that explain it. Test the intended crop before spending time refining a scene that will not fit.",
+  "sections": [
+    {
+      "id": "purpose",
+      "title": "Give the arrangement one clear job",
+      "paragraphs": [
+        "Choose between an inventory and a story. An inventory should let someone identify each item; a story can include overlaps and traces of use. Trying to achieve both at once often creates a scene that is too crowded to read and too rigid to feel lived in.",
+        "For a practical exercise, lay out a notebook, pencil and folded map to suggest planning a walk. First photograph only the notebook. Add the map if it contributes location, then the pencil if it contributes action. The exercise is about justifying each object, not meeting a rule about how many props a flat lay needs."
+      ]
+    },
+    {
+      "id": "setup",
+      "title": "Make the overhead position repeatable",
+      "paragraphs": [
+        "Adobe’s flat-lay guide describes a top-down view and recommends steady, level support. Use a low surface you can reach comfortably or a properly secured overhead phone mount. Keep the phone parallel to the arrangement; avoid leaning across an unstable chair.",
+        "Mark the outer limits of your intended composition with removable notes placed outside the final frame. Once the phone position works, adjust the objects rather than repeatedly changing the camera height. Keep a little spare border until you know the final output shape."
+      ]
+    },
+    {
+      "id": "light",
+      "title": "Inspect the scene from the camera position",
+      "paragraphs": [
+        "Adobe suggests window light and a white board opposite it to redirect light into shadows. Begin without the board, take a reference, then add it only if the dark side hides an important object. A shadow is not automatically a mistake.",
+        "Hold the phone where it will actually shoot before deciding the lighting is finished. Your hand or mount may be visible as a shadow. For the map example, compare whether a broad shadow adds useful shape or crosses the route you want the viewer to read."
+      ]
+    },
+    {
+      "id": "arrange",
+      "title": "Refine the layout in a deliberate order",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Check geometry.",
+            "text": "Use visible straight edges in the setup as a reference. Nikon notes that grid lines can help with alignment; do not force an object onto an intersection if it makes the picture less clear."
+          },
+          {
+            "title": "Read the gaps.",
+            "text": "Look for a sliver between objects that seems accidental. Either open the gap or make the overlap intentional."
+          },
+          {
+            "title": "Test the crop.",
+            "text": "Preview the final rectangle or square. Keep labels and important ends of objects clear of the boundary."
+          }
+        ]
+      }
+    },
+    {
+      "id": "review",
+      "title": "Judge the picture before dismantling the setup",
+      "paragraphs": [
+        "Review a thumbnail for hierarchy, then inspect small text or texture that must remain legible. If the main object does not read first, change its position or simplify the surrounding items. More saturation will not solve a confusing arrangement."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does a flat lay need a white background?",
+      "answer": "No. Choose a surface that separates the objects and suits the intended story. A patterned surface should earn its place rather than competing with essential details."
+    },
+    {
+      "question": "Should I use simulated background blur?",
+      "answer": "Start with an ordinary photo and inspect all items. For an inventory, deliberately obscuring one object usually works against the purpose."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: flat lay photography",
+      "url": "https://www.adobe.com/creativecloud/photography/type/flat-lay-photography.html",
+      "note": "Overhead setup and light arrangement. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Nikon: five composition guidelines",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/5-easy-composition-guidelines",
+      "note": "Grid alignment and deliberate framing. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "fix-perspective-in-phone-photos",
+    "consistent-editing-for-photo-set",
+    "self-timer-portraits-with-phone"
+  ],
+  "image": "blog/pexels-4992637-4k.webp",
+  "imageAlt": "Film cameras, lenses, and film rolls on a wooden table",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-4992637-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-4992637-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-4992637-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-4992637-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Rachel Claire",
+    "url": "https://www.pexels.com/photo/vintage-camera-near-lens-and-camera-roll-on-table-4992637/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "icloud-shared-albums-photo-quality",
+  "title": "Does iCloud Shared Albums reduce photo quality? Check the version",
+  "description": "Understand Shared Albums quality differences by creation version, save a received picture, and verify its dimensions before printing or editing.",
+  "summary": "Decide whether a Shared Album copy is suitable for your intended use.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "The answer depends on the album’s creation version. Apple documents reduced-resolution behavior for albums created in version 26 or earlier, and full-resolution storage for albums created in version 27 or later on supported software. Verify the received file before relying on it.",
+  "sections": [
+    {
+      "id": "version",
+      "title": "Check the album, not just today’s phone version",
+      "paragraphs": [
+        "Apple’s current Shared Albums limits page distinguishes albums by the software version in which they were created. Do not assume that updating one device converts every older album. The documentation reviewed here does not establish that automatic conversion.",
+        "Ask the owner how the album was created when a particular file matters. If that information is unavailable, examine an actual saved copy and compare it with the source instead of guessing from a crisp thumbnail."
+      ]
+    },
+    {
+      "id": "comparison",
+      "title": "Compare the documented quality behavior",
+      "paragraphs": [
+        "These are Apple’s documented version conditions, not a claim that every device or region has identical feature availability."
+      ],
+      "table": {
+        "headers": [
+          "Album condition",
+          "Documented behavior"
+        ],
+        "rows": [
+          [
+            "Created in version 26 or earlier",
+            "Photos reduced to 2048 pixels on the long edge; panoramas can be up to 5400 pixels wide; video delivered at up to 720p"
+          ],
+          [
+            "Created in version 27 or later, with supported software",
+            "Photos and videos stored in their original formats at full resolution"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "storage",
+      "title": "Check storage and information separately",
+      "paragraphs": [
+        "Apple says ordinary version 27-or-later albums count toward the owner’s iCloud storage, including participant contributions; temporary shared albums are an exception. Version 26-or-earlier albums do not count toward that storage allowance.",
+        "Apple’s file-type documentation also warns that older-version downloaded content may not contain the same information as the original. Pixel dimensions, editing flexibility and retained information are different things to check. A large-looking image should not be treated as proof that every property you need survived."
+      ]
+    },
+    {
+      "id": "save",
+      "title": "Save a copy and inspect it",
+      "paragraphs": [
+        "Apple’s saving instructions use Photos → Collections → Shared Albums. Open the album and item, then Share → Save Image. Shared content is not automatically saved to your device, and comments or likes do not accompany the saved image.",
+        "Choose one identifiable picture for the check. Compare the saved file’s dimensions with the source and inspect the part you intend to crop or print. If someone sent several similar frames, confirm that you are comparing the same frame. Do not delete the source while evaluating a substitute."
+      ]
+    },
+    {
+      "id": "choose-delivery",
+      "title": "Choose delivery for the recipient’s task",
+      "paragraphs": [
+        "For a family conversation, a convenient viewing copy may be sufficient. For a large print, detailed crop or further editing, ask the recipient what they need before transferring the whole collection.",
+        "For example, if a friend chooses one holiday portrait for a print, send that selected source through an appropriate original-file workflow and verify the received result. This avoids treating a shared browsing collection as a production handoff. Use the separate AirDrop guide for its transfer options.",
+        "Keep your own preservation plan independent of the album. A shared collection is useful for collaboration, but its existence alone does not answer whether you have a separate recoverable copy."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will updating my iPhone restore detail in an old downloaded copy?",
+      "answer": "Do not assume that it will. Obtain the source again and compare the files; a software update is not evidence that an existing reduced copy gained missing detail."
+    },
+    {
+      "question": "Can I judge quality from the album preview?",
+      "answer": "Use the saved file and the intended output. A small preview does not establish the pixel dimensions or information available for a print or edit."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Shared Albums limits",
+      "url": "https://support.apple.com/en-us/148868",
+      "note": "Creation-version conditions, resolution and storage accounting."
+    },
+    {
+      "title": "Apple: File types in Shared Albums",
+      "url": "https://support.apple.com/en-us/148676",
+      "note": "Older-version downloaded information and supported formats."
+    },
+    {
+      "title": "Apple: Save photos from a shared album",
+      "url": "https://support.apple.com/en-us/148570",
+      "note": "Saving route and what is retained with the saved copy."
+    }
+  ],
+  "related": [
+    "airdrop-photos-original-data",
+    "photo-print-size-pixels-ppi",
+    "icloud-photos-sync-vs-backup"
+  ],
+  "image": "blog/pexels-30861211-4k.webp",
+  "imageAlt": "Camera beside a laptop displaying photographs for review",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-30861211-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-30861211-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-30861211-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-30861211-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Ebahir",
+    "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/"
+  }
+},
+{
+  "slug": "color-grading-vs-white-balance",
+  "title": "Color grading vs white balance: correction and mood",
+  "description": "Separate white balance from creative color grading, compare an ungraded baseline, and build a restrained look without losing believable color.",
+  "summary": "A baseline-and-grade workflow for creating a color mood without confusing it with color correction.",
+  "quickAnswer": "White balance adjusts the overall color interpretation of the lighting. Color grading adds a deliberate color treatment, often to shadows, midtones and highlights separately. Make a useful baseline first, then judge the creative grade against it instead of using one to hide problems in the other.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "image": "blog/pexels-24601834-4k.webp",
+  "imageAlt": "Portrait of a woman illuminated by green and blue light at night",
+  "imagePosition": "50% 35%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-24601834-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-24601834-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-24601834-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-24601834-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Yusuf Çelik",
+    "url": "https://www.pexels.com/photo/portrait-of-woman-at-night-24601834/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "separate-decisions",
+      "title": "Separate what seems wrong from what you want",
+      "paragraphs": [
+        "Write two short statements before editing: “The white cup looks greener than I want” and “I want the evening to feel warm and quiet.” The first describes a baseline color problem. The second describes an artistic direction. Keeping them separate makes a disappointing edit easier to repair.",
+        "A baseline does not have to erase the lighting of the scene. A warm lamp can still feel warm. The useful question is whether you understand and like the color before adding a style on top."
+      ]
+    },
+    {
+      "id": "control-difference",
+      "title": "The controls answer different questions",
+      "paragraphs": [
+        "Adobe’s Lightroom guidance uses white balance to shift an unwanted overall cast with temperature and tint. Its Color Grading controls add color by tonal range, with separate treatment for darker, middle and brighter areas. Blending and Balance adjust how those ranges interact.",
+        "Tonal ranges are not object selections. A shadow treatment intended for a wall may also affect dark clothing or part of a face. If you want only one jacket to change color, a tonal grade is an imprecise way to ask for that.",
+        "This guide uses Lightroom’s terminology to explain the choice. It does not imply that every photo editor exposes the same controls or processes them in an identical order."
+      ]
+    },
+    {
+      "id": "baseline-grade",
+      "title": "Keep a baseline and a creative version",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Choose the reference areas.",
+            "text": "Identify a familiar surface, the main subject and one background feature. Note which colors matter to the picture’s purpose."
+          },
+          {
+            "title": "Make a usable baseline.",
+            "text": "Resolve an unwanted overall cast before judging the style. Keep this version available even if the final look will be deliberately colored."
+          },
+          {
+            "title": "State one grading intention.",
+            "text": "For example, try a little warmth in the brighter parts while leaving the darker surroundings relatively quiet. Begin with one tonal range rather than three competing colors."
+          },
+          {
+            "title": "Inspect the spillover.",
+            "text": "Check every part of the image that shares the affected brightness range. Reduce or remove a treatment that makes a necessary color unconvincing."
+          },
+          {
+            "title": "Compare without controls visible.",
+            "text": "Choose whether the grade improves the picture’s mood enough to justify the changes it introduces."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cafe-example",
+      "title": "Work through a café portrait",
+      "paragraphs": [
+        "Imagine a friend beside a window, with a cream cup on the table and amber lamps behind them. A useful first version might preserve the window light on the face and the warmth in the background. Then make a second version with a modest warm highlight treatment.",
+        "Inspect the cup, face and lamp together. If all three become the same heavy orange, the grade may be obscuring differences that made the scene interesting. Returning toward the baseline can be a stronger decision than adding a compensating cool treatment everywhere else.",
+        "For a fashion or product image, accurate garment color may be more important than the mood. For an expressive personal portrait, a stronger departure may be intentional. Decide which photograph you are making before choosing the grade."
+      ]
+    },
+    {
+      "id": "apply-series",
+      "title": "Carry the idea across a series",
+      "paragraphs": [
+        "Use the same description of the intended mood across a set, but review each image independently. A close portrait, a table detail and a wide interior put different subjects in the bright and dark ranges. Matching numbers does not establish that the colors work equally well.",
+        "Keep the baseline when saving the final version. If the look later feels too strong, you can revise the creative decision without reconstructing the entire edit from a finished export."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Must I white-balance every photo to neutral gray?",
+      "answer": "No. A useful baseline can retain the character of warm or colored light. The goal is a deliberate starting point, not identical neutrality in every scene."
+    },
+    {
+      "question": "Is color grading the same as increasing saturation?",
+      "answer": "No. Color intensity is a different decision from assigning a chosen color treatment to tonal ranges. Diagnose which change you actually want."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: adjust light and color",
+      "url": "https://helpx.adobe.com/ph_fil/lightroom-cc/how-to/adjust-image-lighting-color-lightroom-cc.html",
+      "note": "White balance and temperature/tint roles. Checked October 23, 2026."
+    },
+    {
+      "title": "Adobe: adjust color in Lightroom on the web",
+      "url": "https://helpx.adobe.com/lightroom/web/edit-photos/apply-effects/adjust-color.html",
+      "note": "Color Grading tonal ranges and transition controls. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "remove-color-cast-from-photos",
+    "fix-mixed-lighting-in-portraits",
+    "consistent-editing-for-photo-set"
+  ]
+},
+{
+  "slug": "group-photos-everyone-sharp",
+  "title": "How to take group photos with everyone visible and sharp",
+  "description": "Arrange rows, check faces systematically and capture a short group-photo sequence before anyone leaves.",
+  "summary": "Arrange rows, check faces systematically and capture a short group-photo sequence before anyone leaves.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Reduce unnecessary distance between rows, make every face visible and take a test before the final sequence. Inspect the nearest and farthest faces in the saved photo, then check the people at both edges. Several frames help with blinks, but they cannot compensate for an arrangement that hides someone or leaves a row out of focus.",
+  "sections": [
+    {
+      "id": "roles",
+      "title": "Organize the group before asking for a smile",
+      "paragraphs": [
+        "Name one person to give directions and ask everyone to look at the same camera. Competing phones can produce a picture in which half the group looks elsewhere. Decide whether the photograph must include everyone standing, or whether seats or an existing step can reduce the number of rows.",
+        "For an eight-person family picture, try a compact arrangement with seated people in front and standing people behind. Before shooting, count the visible faces in the preview against the number of people present. This simple check catches someone hidden behind a shoulder without requiring them to study the screen."
+      ]
+    },
+    {
+      "id": "rows",
+      "title": "Use height without adding excessive depth",
+      "paragraphs": [
+        "Canon’s posing guide recommends staggered faces and notes that keeping heads near a common plane helps when depth of field is limited. Offset people so their faces occupy gaps, while avoiding a back row far behind the front.",
+        "Ask the group to settle comfortably instead of making everyone lean forward until the arrangement becomes unstable. Check where hands, bags and mobility aids fall in the frame. If someone needs more room, widen the composition or reorganize the group; fitting a preset pose is less important than including them well."
+      ]
+    },
+    {
+      "id": "focus",
+      "title": "Verify the front and back before the final sequence",
+      "paragraphs": [
+        "Canon’s group-photo guidance says additional camera distance can help depth of field and explicitly warns that not everyone will necessarily be in focus. That is a reason to inspect a saved test, not to assume a named mode guarantees sharpness. On a phone, begin with its ordinary photo mode and a deliberate face focus check.",
+        "Use a fixed review path: nearest face, farthest face, left edge, right edge. If the rear row is soft while the front is clear, reduce the spacing between rows or move the camera back and compare again. If everyone is smeared, improve light or steadiness before rearranging faces.",
+        "Do not compensate for a poor test by collecting a long sequence with exactly the same problem. Resolve the visible failure first, then ask for the final expression."
+      ]
+    },
+    {
+      "id": "sequence",
+      "title": "Capture expressions without losing the group’s attention",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Explain the sequence.",
+            "text": "Say that you will make a few photographs and then check them. Give one clear direction at a time."
+          },
+          {
+            "title": "Make the straightforward frame.",
+            "text": "Ask everyone to look toward the chosen camera. Keep enough margin around the group for later cropping."
+          },
+          {
+            "title": "Allow a reset.",
+            "text": "Give people a moment to blink and relax, then make another short set. Canon recommends several frames because blinks happen."
+          },
+          {
+            "title": "Review before release.",
+            "text": "Check each person, not only the most central face. If one person needs another attempt, make it while the group is still assembled."
+          }
+        ]
+      }
+    },
+    {
+      "id": "selection",
+      "title": "Choose the fairest complete frame",
+      "paragraphs": [
+        "Compare candidate pictures at the same size. Prioritize visible eyes, a comfortable expression and usable sharpness for every person over the single most dramatic background. If you are sharing with the group, let people flag a frame they are uncomfortable with.",
+        "For a large gathering, keep an additional wider record in case a crop later reveals that a hand or important part of someone’s clothing was cut off. A second subgroup picture can be worthwhile, but label it as a subgroup rather than treating it as the complete event photograph."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does Burst make everyone sharp?",
+      "answer": "No. It offers different moments to choose from. The focus, light and arrangement still need to work."
+    },
+    {
+      "question": "Should I focus on a fixed row every time?",
+      "answer": "Do not rely on one row-number rule for every scene. Make a deliberate test and inspect the nearest and farthest faces in the actual arrangement."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Canon: posing for successful portraits",
+      "url": "https://www.usa.canon.com/learning/training-articles/training-articles-list/posing-tips-for-successful-portraits",
+      "note": "Group face arrangement and depth considerations. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Canon EOS R7 manual: group photographs",
+      "url": "https://cam.start.canon/en/C005/manual/html/UG-02_BasicShooting_0050.html",
+      "note": "Capture-distance and blink precautions; not a claim that phones have Canon Group Photo mode. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "take-couple-photos-with-phone",
+    "iphone-burst-photos-select-best-frame",
+    "portrait-mode-blur-mistakes"
+  ],
+  "image": "blog/pexels-6210595-4k.webp",
+  "imageAlt": "Four friends posing together outdoors for a photograph",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-6210595-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-6210595-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-6210595-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-6210595-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "PICHA",
+    "url": "https://www.pexels.com/photo/friends-getting-their-group-photo-taken-6210595/"
+  }
+},
+{
+  "slug": "hide-lock-iphone-photos",
+  "title": "How to hide and lock photos on iPhone",
+  "description": "Use the iPhone Hidden collection, keep its authentication enabled, conceal the collection if needed, and understand what hiding cannot protect.",
+  "summary": "Move selected photographs out of ordinary browsing and verify how the Hidden collection is protected.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Use Hide in Photos, then check that the Hidden collection requires authentication. Hiding pictures and hiding the collection itself are separate settings; neither should be treated as a way to recall copies already shared elsewhere.",
+  "sections": [
+    {
+      "id": "purpose",
+      "title": "Choose the protection you need",
+      "paragraphs": [
+        "A private portrait can be something you want to keep without displaying during casual photo browsing. That is different from wanting to delete it, stop a particular memory from appearing, or restrict another app’s access. Decide which problem you have before changing the library.",
+        "For this task, start with one harmless sample rather than a large sensitive selection. Learn where it goes and how you will retrieve it before moving pictures that matter."
+      ]
+    },
+    {
+      "id": "hide",
+      "title": "Move a picture to Hidden",
+      "paragraphs": [
+        "Apple’s iOS 26 route is Photos → open the picture → More → Hide. To find it again, use Collections → Hidden under Utilities → View Album and authenticate. Inside the collection, More → Unhide returns a selected item to ordinary library viewing.",
+        "After the sample disappears from ordinary browsing, locate it through the Hidden collection. Check the action with a picture you recognize rather than assuming a missing thumbnail means successful protection."
+      ]
+    },
+    {
+      "id": "lock",
+      "title": "Check authentication and visibility separately",
+      "paragraphs": [
+        "Apple says Hidden is locked by default, with Face ID, Touch ID or the device passcode used to unlock it. In Settings → Apps → Photos, keep the relevant authentication setting enabled. Turning off Show Hidden Album on the same settings page removes the collection from view.",
+        "The device passcode remains part of this access model. Someone who can authenticate to the collection is not excluded simply because you concealed its entry. Avoid presenting this setting as a separate secret password vault.",
+        "If you remove the entry from view, remember which setting you changed. A collection you cannot immediately see is not necessarily empty or deleted."
+      ]
+    },
+    {
+      "id": "copies",
+      "title": "Account for other devices and earlier copies",
+      "paragraphs": [
+        "Apple states that hiding synchronizes across devices using the same iCloud Photos library. Review where the picture exists before drawing a wider privacy conclusion.",
+        "Consider a portrait that you also exported to a messaging app and sent to a friend. Verify each destination separately; the Hidden setting is not a recall request to that friend or a deletion instruction for another service. If you need an external copy removed, handle that through the relevant app or recipient.",
+        "Likewise, do not use a permission setting as proof that an earlier upload was erased. These are separate questions: where the original appears, who can unlock it, and where additional copies exist."
+      ]
+    },
+    {
+      "id": "finish",
+      "title": "Run a small retrieval check",
+      "paragraphs": [
+        "Return to normal browsing, confirm the sample is where you expect, and check that opening Hidden asks for authentication under your current settings. If the behavior differs, review the controls before adding more pictures.",
+        "This guide concerns hiding retained photographs. If you accidentally deleted a file, use the recovery workflow. If your goal is a separate backup, decide how to preserve that copy rather than using concealment as a substitute."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do I have to delete a photo to stop seeing it in the main library?",
+      "answer": "Choose the action that matches your intention. For a photograph you want to retain privately, check the hiding workflow before considering deletion."
+    },
+    {
+      "question": "Does concealing the Hidden entry create a new password?",
+      "answer": "No. Treat visibility and authentication as separate controls, and consider who can already unlock the device."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Delete or hide photos and videos — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/delete-or-hide-photos-and-videos-iphb4defbde9/26/ios/26",
+      "note": "Hidden collection, authentication, visibility and iCloud behavior."
+    },
+    {
+      "title": "Apple: Hide photos with the Hidden album",
+      "url": "https://support.apple.com/en-us/104987",
+      "note": "Hidden album authentication, visibility and cross-device hiding."
+    }
+  ],
+  "related": [
+    "recover-deleted-iphone-photos",
+    "icloud-photos-sync-vs-backup",
+    "google-photos-archive-vs-locked-folder"
+  ],
+  "image": "blog/pexels-17502436-4k.webp",
+  "imageAlt": "Woman holding a phone in front of her face for a selfie",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 35%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-17502436-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-17502436-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-17502436-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-17502436-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "olga Volkovitskaia",
+    "url": "https://www.pexels.com/photo/a-woman-taking-a-selfie-with-her-phone-17502436/"
+  }
+},
+{
+  "slug": "remove-chromatic-aberration-photo-fringes",
+  "title": "How to reduce colored fringes along photo edges",
+  "description": "Diagnose purple or green fringes, try chromatic aberration correction, and protect real colors while using defringe controls.",
+  "summary": "A restrained workflow for reducing distracting edge color without desaturating genuine clothing, foliage or light.",
+  "quickAnswer": "Inspect the original at high magnification, then try the editor’s chromatic-aberration correction. If a narrow purple or green edge remains, use restrained defringe controls where available. Compare nearby genuine colors: removing a fringe should not also erase a purple garment or green leaf.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "image": "blog/pexels-1338413-4k.webp",
+  "imageAlt": "Side-lit portrait of a woman with reflections in her glasses",
+  "imagePosition": "55% 45%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-1338413-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-1338413-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-1338413-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-1338413-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Martin Kirigua",
+    "url": "https://www.pexels.com/photo/woman-standing-near-window-1338413/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "identify",
+      "title": "Identify the edge before correcting it",
+      "paragraphs": [
+        "A narrow colored outline around a high-contrast boundary is a reason to investigate chromatic aberration, not proof that every colored edge is an optical error. Compare the original with your edited version. A rim that appears only after a strong effect may require backing off that effect first.",
+        "Choose a definite boundary, such as a dark branch against a pale sky, rather than judging a whole colorful scene at once. Also identify an area with real purple or green color that must remain intact. Keeping both visible makes accidental color loss easier to catch.",
+        "Colored lighting, reflections and intentionally backlit hair can belong to the scene. An editor cannot determine your intention just from the presence of a bright outline."
+      ]
+    },
+    {
+      "id": "correct",
+      "title": "Try the least disruptive correction first",
+      "paragraphs": [
+        "Adobe’s Lightroom Classic documentation separates automatic chromatic-aberration correction from purple and green defringe controls. The defringe eyedropper samples the problem hue; Amount and hue-range controls govern suppression. Adobe cautions that genuine purple or green objects can also be affected.",
+        "Use the controls documented for your editor and version. A phone editor may expose a simple automatic option, a different set of controls, or no dedicated correction. Do not assume a general saturation slider is equivalent."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Keep an untouched reference.",
+            "text": "Compare with the original file rather than a screenshot of a preview."
+          },
+          {
+            "title": "Test automatic correction.",
+            "text": "Inspect the chosen boundary after applying the available correction. Stop if the improvement is sufficient."
+          },
+          {
+            "title": "Target what remains.",
+            "text": "If supported, sample the residual fringe and use a narrow, modest adjustment. Avoid widening the affected hue range merely to make every colored edge disappear."
+          },
+          {
+            "title": "Check the protected area.",
+            "text": "Compare the real colored object before and after. If it loses useful color, reduce the correction or restrict its area using supported local controls."
+          }
+        ]
+      }
+    },
+    {
+      "id": "portrait-example",
+      "title": "Inspect a backlit portrait in three places",
+      "paragraphs": [
+        "Imagine a portrait with bright sky behind the hair, silver earrings and a purple scarf. The hair boundary is your problem area, the earring is a second difficult edge, and the scarf is your color safeguard. Review all three after each meaningful change.",
+        "If the hair improves but the scarf becomes gray at its folds, the adjustment has exceeded its useful reach. A slightly imperfect hair edge may be preferable to a visibly damaged scarf. If an earring remains surrounded by a broad bright glow, avoid assuming a stronger defringe setting will solve that different shape of problem.",
+        "Judge the result at normal viewing size as well. A minor edge visible only under extreme magnification may not deserve an edit that changes the appearance of the complete portrait."
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "Know when to stop",
+      "paragraphs": [
+        "The goal is a less distracting boundary, not an invented reconstruction of lost texture or color. If an edge is already badly blurred or a bright area is blank in the source, removing the colored outline does not restore the underlying detail.",
+        "Preserve the original and compare the final export. For a recurring problem, keep notes about the capture and the edges affected. Another frame or a different shooting arrangement can be a better choice than forcing a damaged file through increasingly broad corrections."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I desaturate all purple to remove purple fringes?",
+      "answer": "That risks changing actual purple objects throughout the picture. Prefer a dedicated, restrained correction and explicitly check colors you want to preserve."
+    },
+    {
+      "question": "Does a white halo mean chromatic aberration?",
+      "answer": "Not necessarily. Compare the unedited boundary and disable recent sharpening or contrast effects. Diagnose the visible change before choosing a color-specific correction."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: apply optics in Lightroom on the web",
+      "url": "https://helpx.adobe.com/lightroom/web/edit-photos/apply-effects/apply-optics.html",
+      "note": "Color-fringe appearance and the automatic chromatic-aberration option. Checked October 23, 2026."
+    },
+    {
+      "title": "Adobe: retouch photos in Lightroom Classic",
+      "url": "https://helpx.adobe.com/lightroom-classic/desktop/process-and-develop-photos/retouch-photos.html",
+      "note": "Automatic correction, purple/green defringe and protection of genuine colors. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "photo-sharpening-vs-resolution",
+    "backlit-phone-portraits",
+    "why-edited-portraits-look-unnatural"
+  ]
+},
+{
+  "slug": "product-photos-white-background",
+  "title": "How to photograph small products on a white background",
+  "description": "Build a simple phone product-photo setup, preserve light-colored edges and capture the details a buyer needs to see.",
+  "summary": "Build a simple phone product-photo setup, preserve light-colored edges and capture the details a buyer needs to see.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Use a clean white background, a stable phone position and soft light that still reveals the product’s edges. Photograph the item accurately before trying to make every background pixel pure white. Capture a main view, useful alternate views and any detail that changes what someone understands about the product.",
+  "sections": [
+    {
+      "id": "brief",
+      "title": "Write the questions your pictures must answer",
+      "paragraphs": [
+        "Before setting up, name the features a buyer cannot inspect in person. For a small ceramic mug, those might be the handle shape, inside glaze, base and a mark on the rim. A beautiful front view does not answer all four questions.",
+        "Turn that list into a short capture plan. Mark one image as the main view and give every additional view a separate job. Adobe’s product guide recommends multiple angles and detail images; use that principle to reduce uncertainty rather than produce several nearly identical frames."
+      ]
+    },
+    {
+      "id": "background",
+      "title": "Create a background you can reuse",
+      "paragraphs": [
+        "Shopify describes a table near a window and white poster board or a curved paper sweep. Let the background curve behind the item instead of creating a distracting corner. Support it securely and keep creases outside the useful frame.",
+        "Place a small location marker outside the crop so you can return the product to the same position. Record the phone height with a quick setup photograph. If you photograph several items, these simple references help you resume after a break without guessing what changed."
+      ]
+    },
+    {
+      "id": "edges",
+      "title": "Separate product detail from background brightness",
+      "paragraphs": [
+        "Take a plain reference before making the image brighter. Inspect the item’s lightest edge and any pale lettering. If those disappear, stop increasing overall brightness just to whiten the background. A slightly gray backdrop is easier to assess than missing product information.",
+        "For the mug example, compare the lip against the background and the opening inside the handle. Try a small change of product angle or light direction. Choose the version that makes the shape understandable, even if it needs a modest background cleanup afterward."
+      ]
+    },
+    {
+      "id": "capture",
+      "title": "Finish the useful views while the setup is in place",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Main view.",
+            "text": "Show the complete item with enough margin for the intended crop. Check that it is upright and that the visible label is readable."
+          },
+          {
+            "title": "Alternative view.",
+            "text": "Rotate the product to reveal the feature hidden in the main view. Keep the phone position comparable unless the new view needs another angle."
+          },
+          {
+            "title": "Detail.",
+            "text": "Move to a deliberate detail setup and verify focus. Do not mistake a magnified preview for a sharp saved file."
+          },
+          {
+            "title": "Condition record.",
+            "text": "Include meaningful wear, variation or included accessories honestly. Do not edit away a feature someone needs in order to choose."
+          }
+        ]
+      }
+    },
+    {
+      "id": "finish",
+      "title": "Check the destination requirements separately",
+      "paragraphs": [
+        "A white-looking photograph and a file that meets a marketplace’s exact background requirements are different things. Read the destination’s current image rules before export; there is no single rule shared by every store.",
+        "Keep the source and make a delivery copy. Inspect that copy at listing size for edges and legibility, then compare it with the object under the same light. If you replace a background, check the handle opening, transparent parts and shadows rather than judging only the large empty area."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Must the product have no shadow?",
+      "answer": "Not automatically. A restrained shadow may help explain contact and shape. Follow the destination requirements and keep the object easy to understand."
+    },
+    {
+      "question": "Can I make every item the same size in the frame?",
+      "answer": "Use consistent framing for a coherent listing, but include measurements or a clear scale reference where size matters. Similar image framing does not prove the objects are equally large."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Shopify: taking product photographs",
+      "url": "https://help.shopify.com/en/manual/products/product-media/product-photography",
+      "note": "Simple surface, background and stable setup. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Adobe: product photography for ecommerce",
+      "url": "https://business.adobe.com/blog/basics/guide-effective-product-photography",
+      "note": "Multiple useful views and consistent presentation. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "resize-vs-compress-photos-for-upload",
+    "jpeg-heic-png-photo-formats",
+    "iphone-photo-cutout-background"
+  ],
+  "image": "blog/pexels-1203803-4k.webp",
+  "imageAlt": "Silver and black camera on a pale background",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-1203803-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-1203803-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-1203803-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-1203803-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Alex Andrews",
+    "url": "https://www.pexels.com/photo/black-and-grey-camera-1203803/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "share-live-photo-as-still-or-motion",
+  "title": "Share an iPhone Live Photo as a still image or moving video",
+  "description": "Choose a still, Live Photo or video before sharing from iPhone, and check that the recipient gets the motion and moment you intended.",
+  "summary": "Choose and verify the delivery form of an existing Live Photo.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Decide whether the recipient needs one frame or movement. For a still, switch off LIVE in the sharing view. For motion outside a Live Photo workflow, save a video and share that file. Check the received result rather than relying on its thumbnail.",
+  "sections": [
+    {
+      "id": "choose",
+      "title": "Choose the output for its destination",
+      "paragraphs": [
+        "A profile image, a printed portrait and a short moving clip have different delivery needs. Start with that purpose instead of sending the same item everywhere and hoping the destination interprets it correctly."
+      ],
+      "table": {
+        "headers": [
+          "Intended use",
+          "Practical choice"
+        ],
+        "rows": [
+          [
+            "One expression for a static layout",
+            "A deliberate still frame"
+          ],
+          [
+            "An Apple recipient who wants the original Live Photo experience",
+            "A supported Live Photo sharing path"
+          ],
+          [
+            "Movement in a destination that expects video",
+            "A video saved from the Live Photo"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "still",
+      "title": "Send the still deliberately",
+      "paragraphs": [
+        "Apple’s sharing instructions say to open the photograph, tap Share, then tap LIVE in the upper-left corner to send the still rather than the Live Photo. Choose the destination after setting that option. Apple also notes that Mail sends a Live Photo as a still image.",
+        "Check the expression and frame before sending. If the default moment is not the one you want, use the separate key-photo workflow first. This guide concerns delivery; it does not require changing the creative effect or selecting a new moment every time."
+      ]
+    },
+    {
+      "id": "motion",
+      "title": "Use a video when the destination needs one",
+      "paragraphs": [
+        "Apple’s video-conversion instructions use an opened Live Photo → More → Save as Video. The resulting video appears in Recently Saved, while the Live Photo remains available. Select the new video for the outgoing message or upload.",
+        "For an Apple Messages recipient, Apple documents opening the received Live Photo and pressing and holding it to play. Do not generalize that behavior to every messaging or publishing app. Interface details can differ by installed version.",
+        "Before sending movement, review the whole clip and its sound. The frame you liked may not represent everything recorded around it. Decide whether the surrounding moment belongs in the message too."
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "Check the received item, not the sender’s preview",
+      "paragraphs": [
+        "Send one trial through the actual destination when the format matters. On the receiving side, check whether it behaves as a still, Live Photo or video. A static thumbnail alone cannot tell you which experience arrived.",
+        "For a birthday greeting, for example, the movement may be the point. If it arrives as a still, change the delivery form before sending the rest. For a professional portrait, the opposite may be true: a single carefully chosen expression is more useful than an unexpected moving clip."
+      ]
+    },
+    {
+      "id": "troubleshoot",
+      "title": "Resolve the delivery mismatch",
+      "paragraphs": [
+        "If movement disappears, confirm that you selected the video or enabled Live Photo sharing, then check the receiving service’s own supported formats. If the wrong moment appears, inspect the source and chosen still rather than repeatedly forwarding the same attachment.",
+        "Keep the source while you compare exports. Screenshots, converted videos and stills have different uses; name or organize the final choice clearly so that you do not send the wrong version later."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why did an email recipient receive a still?",
+      "answer": "Mail’s documented Live Photo sharing behavior is a still image. If the message needs movement, prepare a video and check the attachment before sending."
+    },
+    {
+      "question": "Should I change the key photo to make a video?",
+      "answer": "Only change the chosen moment if that is a separate creative goal. First establish which delivery format the recipient needs."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Take and edit Live Photos",
+      "url": "https://support.apple.com/en-us/104966",
+      "note": "Still-sharing control, Mail behavior and Messages playback."
+    },
+    {
+      "title": "Apple: Turn a Live Photo into a video",
+      "url": "https://support.apple.com/en-us/105029",
+      "note": "Save as Video and separate saved output."
+    }
+  ],
+  "related": [
+    "change-live-photo-key-photo",
+    "iphone-live-photo-long-exposure",
+    "airdrop-photos-original-data"
+  ],
+  "image": "blog/pexels-39820803-4k.webp",
+  "imageAlt": "Couple standing together beneath leafy trees",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "35% 55%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-39820803-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-39820803-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-39820803-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-39820803-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Helena Jankovičová Kováčová",
+    "url": "https://www.pexels.com/photo/romantic-outdoor-portrait-of-couple-in-nature-39820803/"
+  }
+},
+{
+  "slug": "lens-distortion-vs-perspective",
+  "title": "Lens distortion vs perspective: fix the right problem",
+  "description": "Distinguish bowed lines from converging lines, choose lens correction or geometry tools, and check the crop and proportions after correction.",
+  "summary": "A line-shape diagnosis for avoiding the wrong correction on architecture, interiors and wide-angle photos.",
+  "quickAnswer": "Lens distortion can make a straight edge curve; perspective can make straight, parallel edges converge in a photograph. Check curvature first, then convergence. Use a suitable lens profile for optical distortion and geometry controls for perspective, reviewing the crop and subject proportions after each change.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "image": "blog/pexels-31075395-4k.webp",
+  "imageAlt": "Reflective glass buildings viewed from below",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-31075395-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-31075395-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-31075395-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-31075395-4k.webp",
+      "width": 2880
+    }
+  ],
+  "imageCredit": {
+    "name": "Tom Schönmann",
+    "url": "https://www.pexels.com/photo/modern-urban-architecture-with-glass-facades-31075395/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "two-line-check",
+      "title": "Use two edges to diagnose the shape",
+      "paragraphs": [
+        "Choose a doorway, shelf or building edge you know is straight. Follow the edge from end to end. Does it bow, or does it stay straight while leaning toward another edge? A photograph can contain both problems, so check more than one part of the frame.",
+        "Adobe describes barrel distortion as outward bowing and pincushion distortion as inward bending. Its Lens Correction controls also distinguish those optical corrections from perspective adjustments. The names are useful only when you connect them to a visible line.",
+        "Do not use a bent tree, fabric curtain or curved piece of furniture as proof of lens distortion. You need a trustworthy reference before trying to make the photograph geometrically tidy."
+      ]
+    },
+    {
+      "id": "match-profile",
+      "title": "Match a correction to the actual file",
+      "paragraphs": [
+        "Photoshop’s Lens Correction filter can use a camera/lens profile identified from metadata, with manual selection when the match is unavailable or wrong. Review that match rather than choosing whichever familiar lens name happens to appear.",
+        "For a processed phone photo or an exported file, the capture history may be less clear than it is for an original camera file. Compare before and after with extra care. If a previously straight reference bends after correction, undo the trial instead of assuming that enabling another option must be an improvement."
+      ]
+    },
+    {
+      "id": "sequence",
+      "title": "Separate curvature from convergence",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Keep the starting version.",
+            "text": "Work from the best original available and retain a reference without the new geometry changes."
+          },
+          {
+            "title": "Inspect curvature first.",
+            "text": "Use an appropriate profile or a restrained distortion adjustment. Watch several reliable edges, including one near the frame boundary."
+          },
+          {
+            "title": "Reassess the straight lines.",
+            "text": "Once their curvature is acceptable, decide whether the remaining convergence needs a perspective adjustment. Do not use that second adjustment to chase a curve."
+          },
+          {
+            "title": "Review the new boundaries.",
+            "text": "Look for empty areas, lost edge content and a changed crop. Decide what composition remains useful before exporting."
+          }
+        ]
+      }
+    },
+    {
+      "id": "interior-example",
+      "title": "Check more than a perfect doorway",
+      "paragraphs": [
+        "Imagine a room photographed from near its entrance. The doorway can be a good reference, but the sofa, a round table and a person near the edge also matter. A version with tidier verticals is not automatically better if those subjects become awkwardly stretched or important context disappears.",
+        "Compare a modest correction with a more aggressive one. Hide the grid when making the final choice so the photograph, rather than the guides, determines which version you keep. For a personal interior photo, an understandable room may matter more than architectural precision.",
+        "If your main complaint is that a nearby face looks unusually prominent, do not expect a lens profile to make the camera viewpoint disappear. That is a different question from whether a straight shelf bows."
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "Keep the correction proportional to the purpose",
+      "paragraphs": [
+        "A wide view can intentionally emphasize scale or height. Leave convergence when it supports that purpose. For documentation where straight geometry matters, a retake from a more suitable position may leave fewer compromises than a large transformation.",
+        "When you cannot identify the lens or verify the original edges, use a conservative visual correction and describe the result accordingly. Avoid treating a profile selection as evidence that the whole image now reproduces real-world dimensions accurately."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can a photo have lens distortion and perspective issues together?",
+      "answer": "Yes. Diagnose the curvature of individual edges separately from how those edges converge. Fixing one does not establish that the other is resolved."
+    },
+    {
+      "question": "Should every building have perfectly parallel verticals?",
+      "answer": "No. Choose the appearance that suits the photograph. Strong upward convergence can communicate height, while a more neutral view may suit architectural documentation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: correct lens distortion and perspective",
+      "url": "https://helpx.adobe.com/photoshop/desktop/effects-filters/artistic-stylize-filters/correct-lens-distortion-and-perspective.html",
+      "note": "Optical distortion, profile matching, geometry controls and boundary changes. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "fix-perspective-in-phone-photos",
+    "why-close-selfies-look-different",
+    "how-to-crop-portrait-photos"
+  ]
+},
+{
+  "slug": "photos-through-window-without-reflections",
+  "title": "How to photograph through a window with fewer reflections",
+  "description": "Reduce camera-side reflections before shooting through glass, then separate reflection, focus and surface problems.",
+  "summary": "Reduce camera-side reflections before shooting through glass, then separate reflection, focus and surface problems.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Look for light and bright objects on your side of the window, then change those conditions or your shooting position before taking the picture. Move the phone closer to the glass when permitted, without touching or obstructing it. Compare a reference frame after each change; a cleaner-looking live preview still needs a saved-photo check.",
+  "sections": [
+    {
+      "id": "diagnose",
+      "title": "Identify what is actually covering the view",
+      "paragraphs": [
+        "Adobe’s explanation of window reflections distinguishes the scene beyond the glass from the reflected scene on the camera side. Look for recognizable shapes such as a lamp, your shirt or a room behind you. A fuzzy patch from a smudge is a different problem from a recognizable indoor reflection.",
+        "For a city view from a hotel room, note three things before adjusting anything: the building you want to show, the reflection crossing it and a fine detail beyond the window. Those become separate checks for composition, reflection and focus."
+      ]
+    },
+    {
+      "id": "room",
+      "title": "Control the room before changing the edit",
+      "paragraphs": [
+        "Adobe recommends reducing light on the camera side and working closer to the window as practical capture measures. If you control the room, switch off a lamp or screen that appears in the glass. Take another frame from the same position so the comparison has a clear cause.",
+        "If a bright sleeve remains visible, change your position or keep it outside the reflected area. Avoid surrounding the phone with improvised materials that could fall against the window or block other visitors. In a museum, vehicle or observation deck, follow the restrictions on equipment and contact with the glass."
+      ]
+    },
+    {
+      "id": "sequence",
+      "title": "Use one-change comparisons",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Make a reference.",
+            "text": "Capture the intended view with the current conditions. Remember the reflection’s position relative to one recognizable feature outside."
+          },
+          {
+            "title": "Change one light source.",
+            "text": "If you have control, turn off the lamp or screen most clearly visible in the glass. Compare the same part of the image."
+          },
+          {
+            "title": "Try another position.",
+            "text": "Move closer or sideways within the permitted area. Check whether the improvement hides a part of the outside view you need."
+          },
+          {
+            "title": "Inspect the saved frame.",
+            "text": "Look beyond the largest reflection: check fine detail and all four corners for a remaining bright patch or obstruction."
+          }
+        ]
+      }
+    },
+    {
+      "id": "filters",
+      "title": "Treat a polarizer as an experiment, not a guarantee",
+      "paragraphs": [
+        "Canon’s polarizer guide describes angle-dependent reduction of reflections from glass and water. Rotating a compatible filter changes the effect, and the filter also reduces the light entering the camera. Compare it on the actual window; do not assume one attachment solves every scene.",
+        "Before buying an accessory, try the changes available in the location. If the camera-side light is outside your control, another window or a different time may produce a better starting file. Keep an unfiltered reference if you do use a filter so you can assess the tradeoff afterward."
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "Know when to choose a different photograph",
+      "paragraphs": [
+        "A double image or a large persistent reflection may remain even after the available adjustments. Instead of spending the entire visit trying to remove it, consider a wider view that includes the window as part of the setting, or photograph another scene.",
+        "Editing can be a separate creative step, but inspect any removed-reflection area for changed signs, architecture or repeated details. Preserve the original. For a record where the scene’s exact appearance matters, describe a major reconstruction rather than presenting it as untouched documentation."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will cleaning the window remove a reflection?",
+      "answer": "Cleaning an accessible surface can address dirt, but the reflected room is a lighting and geometry issue. Do not touch or clean glass you do not have permission to handle."
+    },
+    {
+      "question": "Is this the same as glare on eyeglasses?",
+      "answer": "The reflection principles overlap, but the workflow differs: this guide controls a camera-side room and a view through a large pane rather than the pose and lighting of a person."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: window-reflection physics and capture tips",
+      "url": "https://blog.adobe.com/en/publish/2024/12/12/removing-window-reflections-adobe-camera-raw",
+      "note": "Camera-side light and capture prevention; 2024 release status is not presented as current software availability. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Canon Academy: polarizing filters in practice",
+      "url": "https://www.academy.canon-me.com/en/fundamentals/polarizing-filters-in-practice",
+      "note": "Variable reduction of glass/water reflections and light loss. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "iphone-ae-af-lock",
+    "clean-phone-camera-lens",
+    "reduce-glasses-glare-in-portraits"
+  ],
+  "image": "blog/pexels-4429463-4k.webp",
+  "imageAlt": "Passenger holding a smartphone beside a car window",
+  "imagePosition": "60% 45%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-4429463-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-4429463-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-4429463-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-4429463-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Ketut Subiyanto",
+    "url": "https://www.pexels.com/photo/anonymous-female-tourist-taking-photo-on-smartphone-sitting-in-car-4429463/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "iphone-camera-grid-level",
+  "title": "Use the iPhone Camera grid and level for cleaner composition",
+  "description": "Turn on iPhone Camera grid and level, use them to compare framing choices, and avoid treating every scene as a rigid rule-of-thirds exercise.",
+  "summary": "Use the camera’s alignment aids while deciding what belongs in the frame.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Turn on Grid and Level in Settings → Camera. Use them as visual checks while framing, then judge the photograph itself: the important subject, intentional horizon and clean frame edges matter more than rigidly following an overlay.",
+  "sections": [
+    {
+      "id": "enable",
+      "title": "Enable the alignment aids",
+      "paragraphs": [
+        "Apple’s iOS 26 Camera guide places Grid and Level in Settings → Camera. They are intended to help compose and straighten a shot. Return to Camera and check the controls in the mode and orientation you intend to use.",
+        "Set this up before asking someone to pose. The useful habit is a brief framing check, not a long search through settings while a spontaneous expression disappears."
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Try two compositions of the same scene",
+      "paragraphs": [
+        "Choose a calm subject with a visible horizon, such as a friend standing on a beach. Make one frame with the person near the middle and another with more space on the side they are looking toward. Keep the location and expression as similar as practical.",
+        "Review both without assuming that the less centered version must be better. Ask which picture makes the person easiest to notice and whether the surrounding space adds useful context. The grid gives you reference positions for this comparison; it does not choose the answer for you."
+      ]
+    },
+    {
+      "id": "checks",
+      "title": "Use a short before-the-shutter check",
+      "paragraphs": [],
+      "list": {
+        "ordered": false,
+        "items": [
+          {
+            "title": "Horizon",
+            "text": "Decide whether it should look level or deliberately tilted. Avoid an accidental lean that adds nothing to the photograph."
+          },
+          {
+            "title": "Subject",
+            "text": "Check where the face, eyes or important object sit relative to the surrounding space. Keep enough room for the intended crop."
+          },
+          {
+            "title": "Edges",
+            "text": "Look for a cut-off hand, an awkward object entering the frame or background clutter near the subject."
+          },
+          {
+            "title": "Background",
+            "text": "Change your position if a pole or hard edge appears to run through the head. An overlay will not fix that relationship."
+          }
+        ]
+      }
+    },
+    {
+      "id": "limits",
+      "title": "A level frame can still have perspective problems",
+      "paragraphs": [
+        "Imagine photographing a tall building from close below it. Keeping the phone from leaning sideways does not remove the effect of aiming upward. If the building’s shape is the concern, compare another camera position and use the separate perspective guide for that problem.",
+        "For portraits, avoid moving the camera very close simply to force a face onto a preferred grid position. Choose a comfortable perspective first, then refine placement. Composition guides should support the photograph rather than lead you into a worse camera position."
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Review before making the setup a habit",
+      "paragraphs": [
+        "Pick the version that serves the picture’s purpose. A symmetrical doorway may suit central placement; a portrait that shows a destination may need more surrounding space. Those are creative choices, not settings a grid can validate.",
+        "After the session, review a few frames for the same accidental problem. If the horizon repeatedly leans, make that your next capture check. If the edges are consistently cramped, leave more room. One specific improvement is easier to practice than watching every overlay at once."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does the grid automatically make a portrait better?",
+      "answer": "No. It supplies reference lines. Use them to compare positions, then judge attention, expression and context in the actual image."
+    },
+    {
+      "question": "Should I always put the eyes on a grid line?",
+      "answer": "Treat that as one possible starting point. The intended crop, headroom and background may support a different placement."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Set up your shot — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+      "note": "Grid and Level setting and intended purpose."
+    }
+  ],
+  "related": [
+    "fix-perspective-in-phone-photos",
+    "how-to-crop-portrait-photos",
+    "why-close-selfies-look-different"
+  ],
+  "image": "blog/pexels-13929353-4k.webp",
+  "imageAlt": "Woman adjusting a phone mounted on a ring-light tripod",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "55% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-13929353-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-13929353-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-13929353-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-13929353-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Mizuno K",
+    "url": "https://www.pexels.com/photo/woman-fixing-a-smart-phone-on-a-tripod-13929353/"
+  }
+},
+{
+  "slug": "subtle-vignette-photo-editing",
+  "title": "How to add a subtle vignette to a photo",
+  "description": "Use a vignette to quiet competing edges, shape its transition, and check whether the effect helps an off-center subject or simply darkens the frame.",
+  "summary": "A restrained edge-treatment workflow with a clear test for whether the vignette improves the composition.",
+  "quickAnswer": "Add a vignette only when the frame edges compete with the subject. Start with a modest amount and a soft transition, then compare with the effect disabled. If it darkens an important face, hand or detail near the edge, reshape it, use a more selective adjustment or remove it.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "image": "blog/pexels-36627004-4k.webp",
+  "imageAlt": "Woman standing beside a window in a softly lit room",
+  "imagePosition": "50% 35%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-36627004-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-36627004-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-36627004-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-36627004-4k.webp",
+      "width": 2555
+    }
+  ],
+  "imageCredit": {
+    "name": "Patricia Bozan",
+    "url": "https://www.pexels.com/photo/casual-portrait-of-a-woman-indoors-by-window-36627004/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "purpose",
+      "title": "Choose the edge that needs less attention",
+      "paragraphs": [
+        "Before opening the effect, name what is pulling your eye away: a bright corner, a pale wall, or an empty strip beside the subject. If you cannot identify a competing area, try leaving the image without a vignette.",
+        "A centered portrait and an off-center portrait present different problems. In one, an even edge treatment may feel natural. In the other, the same treatment may darken the subject while leaving an empty center conspicuous. Decide what needs emphasis rather than assuming every picture needs dark corners."
+      ]
+    },
+    {
+      "id": "controls",
+      "title": "Shape the transition instead of adding more darkness",
+      "paragraphs": [
+        "Adobe’s Lightroom web documentation describes Vignette as an edge-lightening or edge-darkening effect. Feather controls transition softness, Midpoint changes how far the treatment extends, and Roundness adjusts its shape. A Highlights control can help retain bright points when darkening the edges.",
+        "Treat these as separate decisions. If you dislike a visible oval boundary, increasing the amount is unlikely to solve that shape problem. First decide where the transition should occur and which parts of the image it must avoid."
+      ]
+    },
+    {
+      "id": "exercise",
+      "title": "Try the doorway portrait exercise",
+      "paragraphs": [
+        "Imagine a person beside a doorway, with one shoulder near the edge and a bright patch of wall in the opposite corner. Your goal is to make the wall less insistent while preserving the shoulder and the room’s sense of space. This is a suggested editing exercise, not a demonstration using the stock photo."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Keep a no-vignette version.",
+            "text": "Finish the main crop and basic edit, then retain a version without the new edge treatment."
+          },
+          {
+            "title": "Add a modest trial.",
+            "text": "Make the competing corner quieter and stop before the effect becomes the first thing you notice."
+          },
+          {
+            "title": "Inspect the subject’s boundary.",
+            "text": "Check the shoulder, hair, hands and any object close to the edge. Restore the earlier version if these become unnecessarily subdued."
+          },
+          {
+            "title": "Compare with the controls hidden.",
+            "text": "Ask whether you look at the intended subject sooner. If you only notice darker corners, reduce the treatment or remove it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "off-center",
+      "title": "Use a different shape for an off-center subject",
+      "paragraphs": [
+        "For uneven distractions, a movable oval mask may be more useful than an even edge treatment. Lightroom’s radial masks offer positioning and feathering for this purpose.",
+        "Alternatively, adjust only the competing patch, crop it if the composition allows, or leave the surrounding light alone. The smaller change can preserve useful context that a broad vignette would hide.",
+        "Watch an existing dark edge before adding another treatment. The intended result may already be present in the source. Adding a second dark boundary can turn a quiet composition into one that feels artificially enclosed."
+      ]
+    },
+    {
+      "id": "final-crop",
+      "title": "Review after the final crop",
+      "paragraphs": [
+        "Look again whenever you change the framing or output aspect ratio. A face that was comfortably inside the photograph may now sit near an edge that receives the effect. The finished composition is the one to judge.",
+        "Inspect a small preview and the larger export. A soft treatment that works in one presentation may seem heavy in another. Keep the editable version and the no-vignette alternative so you can choose deliberately instead of committing the same frame treatment to every use."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does a vignette have to be dark?",
+      "answer": "No. Some tools can lighten edges as well. Choose the direction that supports the photograph and check that it does not obscure important content."
+    },
+    {
+      "question": "What is a good vignette amount?",
+      "answer": "There is no useful universal number across photographs and editors. Compare with the effect disabled and keep only the amount that helps your specific composition."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: adjust effects in Lightroom on the web",
+      "url": "https://helpx.adobe.com/lightroom/web/edit-photos/apply-effects/adjust-effects.html",
+      "note": "Vignette amount, feather, midpoint, roundness and highlight handling. Checked October 23, 2026."
+    },
+    {
+      "title": "Adobe: Lightroom masks",
+      "url": "https://helpx.adobe.com/lightroom/mobile/masks-and-selective-adjustments/create-masks.html",
+      "note": "Selection controls. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "choose-portrait-background",
+    "how-to-crop-portrait-photos",
+    "vintage-photo-effects-guide"
+  ]
+},
+{
+  "slug": "silhouette-photos-with-phone",
+  "title": "How to take silhouette photos with your phone",
+  "description": "Create a readable dark outline against a brighter background without losing the subject’s shape or the scene’s color.",
+  "summary": "Create a readable dark outline against a brighter background without losing the subject’s shape or the scene’s color.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Place the subject in front of a brighter background and adjust the picture so that background retains the detail you want. Compose the subject as an outline: separate overlapping shapes and leave space around important features. A successful silhouette needs a readable edge more than visible facial detail.",
+  "sections": [
+    {
+      "id": "intent",
+      "title": "Choose what the outline needs to say",
+      "paragraphs": [
+        "Nikon’s silhouette guide describes exposing for a bright background so the foreground subject becomes dark. Decide whether your subject is a person, a tree or an object with a distinctive shape. If the outline alone does not explain it, choose another pose or viewpoint.",
+        "For a musician holding a guitar, compare a front view with a slight turn that reveals the instrument’s neck. You do not need to show every detail. You do need enough separation to distinguish a person with an instrument from one unstructured dark mass."
+      ]
+    },
+    {
+      "id": "background",
+      "title": "Find a background that supports the shape",
+      "paragraphs": [
+        "Look for a bright, relatively simple area behind the subject. Move the camera before moving the person so you can see which parts of the outline cross distracting objects. A roof edge passing through a head may be harder to notice in the moment than in the finished photograph.",
+        "A silhouette does not need a sunset. A bright opening can also provide a useful setting. Keep the subject’s position comfortable and permitted; do not send someone onto an edge or a roadway just to isolate the outline."
+      ]
+    },
+    {
+      "id": "separation",
+      "title": "Arrange gaps that remain visible at small size",
+      "paragraphs": [
+        "The New York Film Academy emphasizes clear outlines and separation between subjects. Leave deliberate gaps between an arm and torso or between two people when those gaps explain the pose. Check the image as a thumbnail: details that survive only when enlarged may not carry the composition.",
+        "For two friends, try one frame shoulder to shoulder and one with a small gap between them. Decide which better expresses the relationship. Joining shapes can be intentional, but the viewer should not have to guess how many figures are present."
+      ]
+    },
+    {
+      "id": "capture",
+      "title": "Compare brightness and focus separately",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Choose the framing.",
+            "text": "Make the outline readable before adjusting the picture’s brightness. Keep enough border to preserve the head, feet or important object."
+          },
+          {
+            "title": "Check the subject edge.",
+            "text": "Nikon recommends focusing on the contrast around the silhouette. Inspect a saved frame for a clear boundary."
+          },
+          {
+            "title": "Make a brightness comparison.",
+            "text": "Capture the scene at the initial setting, then try a darker version while preserving the background detail you want. Choose by the saved photographs."
+          },
+          {
+            "title": "Review the whole frame.",
+            "text": "A strong central outline is not enough if a bright distraction or unintended overlap pulls attention elsewhere."
+          }
+        ]
+      }
+    },
+    {
+      "id": "finish",
+      "title": "Keep the edit aligned with the intention",
+      "paragraphs": [
+        "If you want a dark outline, do not automatically lift shadows until every facial feature returns. That makes a different kind of backlit portrait. Compare the darker version at normal viewing size and check whether it still reads clearly.",
+        "Likewise, a dramatic color treatment should not erase the background transition that made the silhouette work. Preserve a capture with the original scene colors. If you replace the background or substantially redraw the outline, treat that version as a creative interpretation rather than a direct record."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should every part of a silhouette be completely black?",
+      "answer": "No. Decide what supports the image. A trace of detail can work if the outline still reads and the exposure preserves the intended background."
+    },
+    {
+      "question": "Why do two people look like one shape?",
+      "answer": "Look for merged heads, shoulders or legs. Change their spacing or the camera viewpoint and judge the outline at thumbnail size before shooting again."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nikon: shooting a silhouette",
+      "url": "https://en.nikon.ca/learn-and-explore/c/tips-and-techniques/how-to-shoot-a-silhouette",
+      "note": "Bright-background exposure and subject-edge focus. Retrieved October 23, 2026."
+    },
+    {
+      "title": "New York Film Academy: silhouette guide",
+      "url": "https://www.nyfa.edu/student-resources/guide-photographing-silhouettes/",
+      "note": "Recognizable outlines and separation between figures. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "backlit-phone-portraits",
+    "iphone-ae-af-lock",
+    "read-histogram-for-portraits"
+  ],
+  "image": "blog/pexels-37728399-4k.webp",
+  "imageAlt": "Man seen from behind with warm sunlight outlining his hair",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-37728399-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-37728399-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-37728399-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-37728399-4k.webp",
+      "width": 3072
+    }
+  ],
+  "imageCredit": {
+    "name": "Alef Morais",
+    "url": "https://www.pexels.com/photo/back-view-portrait-in-golden-hour-light-37728399/"
+  }
+},
+{
+  "slug": "limit-app-photo-library-access-iphone",
+  "title": "How to limit an app’s photo access on iPhone",
+  "description": "Choose selected-photo access, review an app’s permission, and distinguish library access from pictures already imported or uploaded.",
+  "summary": "Give a photo task the access it needs while checking what selection the app can use.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Review the app under Settings → Privacy & Security → Photos and choose selected or limited access when offered. Add the particular picture you need rather than expanding access automatically. A system photo picker can also let you select an item without granting broad library access.",
+  "sections": [
+    {
+      "id": "two-paths",
+      "title": "Understand a picker and a library permission",
+      "paragraphs": [
+        "Apple’s developer guidance distinguishes a system photo picker from ongoing PhotoKit library access. The picker can supply selected items without a broad library permission. Limited library access lets the app work with the selection you allow.",
+        "These paths can look similar because both begin with choosing a picture. Notice whether you are selecting an attachment for one task or deciding which portion of the library the app may browse. Do not infer the permission level just from seeing thumbnails."
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Review the permission and selection",
+      "paragraphs": [
+        "Apple’s iOS 26 privacy guide places information permissions under Settings → Privacy & Security. Open Photos, choose the app that requested access, and review the choices shown. For apps requesting library access, select the limited option and manage the allowed photographs. Labels vary with software and the type of access requested.",
+        "Manage the selection in Settings or through the app’s own management control, if provided. You do not need to grant full access just to investigate why one intended picture is absent.",
+        "Start with one or two recognizable, non-sensitive pictures. That makes it easier to tell whether you allowed the correct selection."
+      ]
+    },
+    {
+      "id": "missing",
+      "title": "When a picture does not appear",
+      "paragraphs": [
+        "First check the file in Photos, then review whether it is included in the app’s allowed selection. Return to the app and try its import flow again. If it offers a system picker, select the intended item there.",
+        "If the picture is still missing, consult that app’s own file-format and import requirements. A permissions problem and an unsupported-file problem can produce similar frustration. Repeatedly broadening access is not a useful diagnosis if the importer cannot use the file."
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "Use a small, observable task",
+      "paragraphs": [
+        "For a profile image, choose one trial photograph and complete the import. Check that the result is the correct file before repeating the process with the intended portrait. This verifies your task without requiring a bulk library grant.",
+        "If an app needs to manage a whole library, consider that wider purpose explicitly. A one-picture posting task and a library-management task are different reasons for access. Decide based on the feature you plan to use, not merely the largest permission offered."
+      ]
+    },
+    {
+      "id": "earlier-copies",
+      "title": "Keep earlier copies in the review",
+      "paragraphs": [
+        "Permission changes concern access to the library. Do not treat them as evidence that an image previously imported or uploaded was erased. Review the app’s own saved items and account-data controls separately.",
+        "For example, after allowing a portrait and uploading it to a service, later limiting the selection is not a substitute for checking that service’s deletion options. Keep a simple record of where you sent important photographs. That makes future privacy decisions easier than trying to reconstruct every destination."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I allow the whole library to import one portrait?",
+      "answer": "Try the smallest access choice that supports the task, including a system picker when available. If the app asks for more, understand what feature requires it before changing the setting."
+    },
+    {
+      "question": "Why do different apps show different choices?",
+      "answer": "Apps can use different photo-access approaches. Read the specific permission request and the settings offered instead of expecting an identical screen everywhere."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Control access to information in apps — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/control-access-to-information-in-apps-iph251e92810/26/ios/26",
+      "note": "Permission review location and changing access."
+    },
+    {
+      "title": "Apple Developer: Handle the Limited Photos Library in your app",
+      "url": "https://developer.apple.com/videos/play/wwdc2020/10641/",
+      "note": "Limited library selection, system-picker distinction and managing selection; historical API explanation, not a current UI screenshot."
+    }
+  ],
+  "related": [
+    "remove-location-from-iphone-photos",
+    "google-photos-archive-vs-locked-folder",
+    "choose-photo-for-ai-portraits"
+  ],
+  "image": "blog/pexels-34225009-4k.webp",
+  "imageAlt": "Photographer holding a memory card beside a card reader and laptop",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "60% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-34225009-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-34225009-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-34225009-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-34225009-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Julio Lopez",
+    "url": "https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/"
+  }
+},
+{
+  "slug": "local-masking-vs-global-photo-edits",
+  "title": "Local masks vs global photo edits: which to use?",
+  "description": "Decide when a whole-image adjustment is enough, choose a mask by its boundary, and check overlapping edits without building an unnecessary mask stack.",
+  "summary": "A selection-first guide to local adjustments, with an interior example and a simple audit for overlapping masks.",
+  "quickAnswer": "Start with a global edit. If it improves one part but harms another, try limiting the change with a mask.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "image": "blog/pexels-33507990-4k.webp",
+  "imageAlt": "Woman raising her arms in sunlight beside a shaded wall",
+  "imagePosition": "50% 35%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-33507990-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-33507990-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-33507990-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-33507990-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Amar Preciado",
+    "url": "https://www.pexels.com/photo/portrait-of-woman-in-sunlight-against-rustic-background-33507990/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "scope",
+      "title": "Decide where the change belongs",
+      "paragraphs": [
+        "Write the request as a sentence: “The whole room feels too dim” or “Only the bright curtain needs less attention.” The first suggests a global trial. The second suggests a local one. Do not build several masks before deciding whether a simpler adjustment solves the problem.",
+        "A global control can still favor certain tones or colors; global does not mean every pixel must change equally. The useful distinction is whether you have defined a separate selection that limits where the adjustment is allowed to act."
+      ]
+    },
+    {
+      "id": "choose-selection",
+      "title": "Choose a mask by its boundary",
+      "paragraphs": [
+        "Lightroom mobile offers painted, gradient and range-based masks, plus automatic selections you can refine. Choose a method that fits the target’s boundary, then inspect what it actually includes."
+      ]
+    },
+    {
+      "id": "room-example",
+      "title": "Build a small, named set of adjustments",
+      "paragraphs": [
+        "Imagine an interior with a bright curtain, a textured chair and a person reading. You want a quieter curtain and a slightly more readable chair while leaving the person unchanged. That is a useful exercise because it gives every local edit a clear job."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Establish the overall version.",
+            "text": "Make a global trial first and keep the version that gives the room a useful starting balance."
+          },
+          {
+            "title": "Create one selection.",
+            "text": "Choose a mask for the curtain. Inspect the overlay or selection display before adjusting its appearance."
+          },
+          {
+            "title": "Name the purpose.",
+            "text": "Use a label such as “quiet curtain” where naming is supported, or note the purpose elsewhere. Avoid a stack of unnamed experiments you cannot explain."
+          },
+          {
+            "title": "Add the next mask only if needed.",
+            "text": "Check whether the chair still needs attention after the curtain change. Make that separate adjustment with its own purpose."
+          },
+          {
+            "title": "Review the protected subject.",
+            "text": "Toggle the local edits and inspect the reader. Make sure an adjustment intended elsewhere has not changed a face, hand or clothing edge."
+          }
+        ]
+      }
+    },
+    {
+      "id": "boundary-overlap",
+      "title": "Inspect boundaries and overlapping areas",
+      "paragraphs": [
+        "A plausible adjustment can still look wrong at its boundary. Look for a bright rim, an abrupt patch or a strip that the selection missed. Refine the selection before repeatedly changing the effect strength; those are different problems.",
+        "Inspect the whole frame, not just your intended target. A color selection for a blue curtain might include another blue object.",
+        "Then disable each mask in turn. If two edits affect the same place, inspect that overlap with both enabled and separately. Keep both only when you can explain why their combined appearance is useful. More masks create more decisions to review, not automatic precision."
+      ]
+    },
+    {
+      "id": "keep-simple",
+      "title": "Keep the version you can understand later",
+      "paragraphs": [
+        "Before export, remove experiments that no longer have a visible purpose. Save an editable master with enough organization to revisit the important choices. A note saying “curtain quieter, reader unchanged” is more useful than remembering only that there were several masks.",
+        "For another photo, repeat the diagnosis rather than assuming the same selections still fit. A new pose, crop or light pattern can change which area needs help even when the overall look should remain consistent."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are local edits always more professional?",
+      "answer": "No. A global adjustment is preferable when it solves the problem cleanly. Local edits are useful when their limited reach creates a visible benefit."
+    },
+    {
+      "question": "Does an automatic subject mask mean the edges are finished?",
+      "answer": "Inspect the boundary before keeping the adjustment. Pay particular attention to hair and gaps between objects."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: Lightroom masks",
+      "url": "https://helpx.adobe.com/lightroom/mobile/masks-and-selective-adjustments/create-masks.html",
+      "note": "Selection controls. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "brighten-dark-face-in-photo",
+    "selective-color-photo-effect",
+    "fix-mixed-lighting-in-portraits"
+  ]
+},
+{
+  "slug": "water-reflection-photos-with-phone",
+  "title": "How to photograph water reflections with your phone",
+  "description": "Find a useful viewpoint for puddles, ponds and still water, then decide whether symmetry or a fragment makes the stronger photograph.",
+  "summary": "Find a useful viewpoint for puddles, ponds and still water, then decide whether symmetry or a fragment makes the stronger photograph.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Choose a visible reflection, change the phone’s height to see how much of it enters the frame and wait for a moment that suits the water’s movement. Decide whether you want both the subject and its reflection or only a reflected fragment. Keep enough of a reference frame to understand the scene before experimenting with a tighter composition.",
+  "sections": [
+    {
+      "id": "subject",
+      "title": "Choose the reflected subject before the framing",
+      "paragraphs": [
+        "A reflective surface is not yet a complete subject. Name the element you want to show: a building, a tree, a colorful sign or an abstract patch of light. This helps you choose what to include when the water reflects more than you expected.",
+        "For a building in a shallow puddle, first make a reference that includes the building, puddle and surrounding pavement. Then look for the reflected roofline. If that is the important shape, compose around it instead of keeping every part of the original scene."
+      ]
+    },
+    {
+      "id": "height",
+      "title": "Explore height without committing to one formula",
+      "paragraphs": [
+        "Adobe’s reflection guide discusses changing camera position and shooting low around puddles. Compare a standing view with a lower one from a stable position. Watch what enters and leaves the water’s reflected area as the phone moves.",
+        "Keep the phone above the water and remain on firm ground. You do not need to balance at the edge of a pond to make the comparison. If a low view is uncomfortable or inaccessible, use the standing viewpoint as a constraint and find a smaller reflected detail within it."
+      ]
+    },
+    {
+      "id": "movement",
+      "title": "Work with the surface you actually have",
+      "paragraphs": [
+        "Adobe notes that wind and ripples affect reflected scenes. If you want a recognizable mirror image, observe the water before shooting and make a few frames as the surface changes. If it remains broken, choose whether the moving pattern is worth photographing on its own.",
+        "For the puddle example, compare a clear roofline with the same roofline interrupted by a passing ripple. Neither has to win automatically. The first may describe the place; the second may communicate rain or movement. Select according to the image you intended, not a universal rule about perfect symmetry."
+      ]
+    },
+    {
+      "id": "composition",
+      "title": "Compare the complete scene with a reflected fragment",
+      "paragraphs": [
+        "Adobe discusses both a subject with its reflection and a reflection-only view. Compare those options using the same scene."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "The complete relationship.",
+            "text": "Include the physical subject and the reflected version. Nikon notes that a centered horizon can work for symmetrical reflections; compare it rather than applying a grid rule mechanically."
+          },
+          {
+            "title": "The reflected fragment.",
+            "text": "Crop out the real subject and let the water carry the image. Inspect the edges for a stray shoe, drain or bright piece of litter."
+          }
+        ]
+      }
+    },
+    {
+      "id": "review",
+      "title": "Preserve the reflection you came to photograph",
+      "paragraphs": [
+        "Canon’s polarizer guidance explains that the filter can reduce water reflections. If you already use one, compare its rotation or an unfiltered view before assuming a stronger effect is better. Removing the glare may also remove the reflected subject.",
+        "Check the saved photograph for a recognizable focal feature, awkward edge crops and a distracting tilt. Keep the wider reference alongside an abstract crop so you can trace the result back to the scene. If you later rotate the image for a creative presentation, make that a deliberate viewing choice rather than an accidental orientation error."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I always place the dividing line in the center?",
+      "answer": "No. Compare centered symmetry with a frame that gives more space to the important subject or its reflected version."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: reflection photography",
+      "url": "https://www.adobe.com/creativecloud/photography/discover/reflection-photography.html",
+      "note": "Viewpoint, water movement and complete-versus-reflection-only framing. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Nikon: five composition guidelines",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/5-easy-composition-guidelines",
+      "note": "Grid alignment and deliberate framing. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Canon Academy: polarizing filters in practice",
+      "url": "https://www.academy.canon-me.com/en/fundamentals/polarizing-filters-in-practice",
+      "note": "Variable reduction of glass/water reflections and light loss. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "iphone-live-photo-long-exposure",
+    "intentional-motion-blur-photography",
+    "fix-perspective-in-phone-photos"
+  ],
+  "image": "blog/pexels-1121782-4k.webp",
+  "imageAlt": "Historic street buildings reflected in a puddle",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-1121782-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-1121782-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-1121782-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-1121782-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Paweł L.",
+    "url": "https://www.pexels.com/photo/reflection-of-buildings-on-body-of-water-1121782/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "remove-small-background-distractions",
+  "title": "How to remove small distractions from a photo",
+  "description": "Choose between healing, cloning and generative removal, repair a small background object, and inspect repeated patterns, seams and context afterward.",
+  "summary": "A careful background-cleanup workflow that prioritizes believable structure and preserves an untouched original.",
+  "quickAnswer": "For a small distraction, first consider a crop. If you need to keep the framing, use a healing or cloning tool that suits the surrounding surface, and inspect the repair closely. Generative removal creates replacement content, so judge it as an interpretation rather than proof of what was behind the object.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "image": "blog/pexels-19158754-4k.webp",
+  "imageAlt": "Woman standing in sunlight against a darker outdoor background",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-19158754-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-19158754-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-19158754-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-19158754-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "apertur 2.8",
+    "url": "https://www.pexels.com/photo/young-woman-posing-outside-in-sunlight-19158754/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "choose-change",
+      "title": "Choose what should actually disappear",
+      "paragraphs": [
+        "A stray wrapper on an otherwise clear floor is different from a person who was part of the event. Decide what the photograph is meant to communicate before cleaning it up. A personal creative portrait allows different choices from a record intended to document what happened.",
+        "Check whether a small crop removes the distraction without losing something important. If you need the original framing, keep an untouched version and identify the smallest repair that would help. Do not begin by removing every irregularity from a real place."
+      ]
+    },
+    {
+      "id": "choose-tool",
+      "title": "Match the tool to the surrounding surface",
+      "paragraphs": [
+        "Adobe distinguishes healing, which blends sampled material with its surroundings, from cloning, which copies source pixels. Its tutorial suggests trying Clone when healing produces a smear near a high-contrast boundary. Lightroom’s Generative Remove instead creates replacement content with Adobe Firefly."
+      ],
+      "table": {
+        "headers": [
+          "Situation",
+          "Starting decision"
+        ],
+        "rows": [
+          [
+            "A small mark on an even surface",
+            "Try healing and inspect the texture continuity."
+          ],
+          [
+            "A repair beside a clear line or repeated structure",
+            "Consider a carefully chosen clone source and check alignment."
+          ],
+          [
+            "No useful nearby source for a more complex gap",
+            "Consider a creative reconstruction only if invented content is acceptable."
+          ],
+          [
+            "An important documentary detail",
+            "Keep the detail or use a different photograph rather than silently changing the record."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "small-repair",
+      "title": "Repair one object before attempting a larger cleanup",
+      "paragraphs": [
+        "Imagine a portrait beside a tiled wall with a small sticker behind the subject. You want to remove the sticker while keeping the tile joints believable. This exercise gives the repair a clear boundary and a structure you can inspect."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Identify the whole distraction.",
+            "text": "Include any relevant trace such as its small shadow, while avoiding an unnecessarily large selection."
+          },
+          {
+            "title": "Inspect the candidate source.",
+            "text": "For a sampled repair, choose material that suits the local surface, light and pattern. Do not copy a tile joint into a place where no joint should exist."
+          },
+          {
+            "title": "Make one repair.",
+            "text": "Review the result before adding more. If it creates a smear or a broken line, undo or revise the source instead of hiding the fault with repeated overlapping repairs."
+          },
+          {
+            "title": "Check both sides of the boundary.",
+            "text": "Follow the nearby tile joints through the repaired area. Compare the wall’s brightness and texture inside and outside it."
+          },
+          {
+            "title": "Zoom back out.",
+            "text": "Make sure the cleanup improves the portrait as a whole. An invisible sticker repair has little value if the subject or composition is still not working."
+          }
+        ]
+      }
+    },
+    {
+      "id": "audit",
+      "title": "Look for clues left by the replacement",
+      "paragraphs": [
+        "Inspect repeated details: the same chip in two tiles, an identical leaf in two places, or a wall pattern that suddenly changes direction. Then check shadow continuity and the edge of the subject. The repair should not steal a strand of hair or alter a nearby hand.",
+        "With generative removal, review every candidate carefully. A plausible result can still invent geometry, text or objects that were never present. For a recognizable location or a meaningful background, compare with your original and decide whether that invention changes the story.",
+        "If several attempts make the area more conspicuous, keep the best earlier version or leave the distraction. A small real imperfection can be less noticeable than a complicated artificial patch."
+      ]
+    },
+    {
+      "id": "save-original",
+      "title": "Keep the original and describe the result honestly",
+      "paragraphs": [
+        "Save the edited result separately or retain a reversible edit. Preserve the source so you can later choose a faithful version or make a different crop without rebuilding missing content.",
+        "If the photograph is used as evidence of a place, event or item’s condition, do not present removed or generated details as an untouched record. For creative use, check the final delivery size as well as a close view and keep only the changes that serve the picture."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is healing always better than cloning?",
+      "answer": "No. Blending can help on one surface and smear another. Choose by the boundary and texture you need to preserve, then inspect the actual repair."
+    },
+    {
+      "question": "Does generative removal reveal what was behind an object?",
+      "answer": "No. It produces replacement content. A convincing result does not establish that the hidden scene looked that way."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: remove distracting objects from a photo",
+      "url": "https://helpx.adobe.com/ph_fil/lightroom-cc/how-to/remove-objects-from-photo.html",
+      "note": "Healing versus cloning, source selection and high-contrast smearing. Checked October 23, 2026."
+    },
+    {
+      "title": "Adobe: remove objects with generative AI",
+      "url": "https://helpx.adobe.com/lightroom/web/edit-photos/remove-objects/remove-objects-with-gen-ai.html",
+      "note": "Generated replacement content and selection refinement. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "choose-portrait-background",
+    "how-to-crop-portrait-photos",
+    "edit-photos-without-losing-original"
+  ]
+},
+{
   "slug": "copy-paste-photo-edits-iphone",
   "title": "How to copy and paste photo edits on iPhone",
   "description": "Transfer an iPhone photo edit to a batch, check the result, preserve an earlier version and troubleshoot an unwanted change.",

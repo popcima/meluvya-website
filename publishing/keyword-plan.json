@@ -865,9 +865,9 @@
         "paste edits multiple photos iPhone"
       ],
       "intent": "Operate built-in selective copy/paste controls, trial destinations and preserve a prior version.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "copy-paste-photo-edits-iphone",
-      "validation": "Primary-source and independent editorial review passed; production build, content, lint, typecheck, export, SEO and representative mobile/CTA checks passed. Deployment must be verified before treating a retry as new work.",
+      "validation": "Present in commit 771d74d2573f2b78c2a3ed8d2a56b089a4d760c6; GitHub Pages deployment 39949670650 verified successful. Exact-query metrics remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-23-five-more-guides/batch.json"
@@ -881,9 +881,9 @@
         "Portrait option missing iPhone photo"
       ],
       "intent": "Locate and distinguish depth strength, focus-point selection and eligible Photo-mode conversion.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "edit-portrait-focus-depth-iphone",
-      "validation": "Primary-source and independent editorial review passed; production build, content, lint, typecheck, export, SEO and representative mobile/CTA checks passed. Deployment must be verified before treating a retry as new work.",
+      "validation": "Present in commit 771d74d2573f2b78c2a3ed8d2a56b089a4d760c6; GitHub Pages deployment 39949670650 verified successful. Exact-query metrics remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-23-five-more-guides/batch.json"
@@ -897,9 +897,9 @@
         "what happens when you merge duplicate photos"
       ],
       "intent": "Review and consolidate detected redundant photo copies without confusing cleanup with choosing among different photographs.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "merge-duplicate-iphone-photos",
-      "validation": "Primary-source and independent editorial review passed; production build, content, lint, typecheck, export, SEO and representative mobile/CTA checks passed. Deployment must be verified before treating a retry as new work.",
+      "validation": "Present in commit 771d74d2573f2b78c2a3ed8d2a56b089a4d760c6; GitHub Pages deployment 39949670650 verified successful. Exact-query metrics remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-23-five-more-guides/batch.json"
@@ -913,9 +913,9 @@
         "adjust date time multiple photos iPhone"
       ],
       "intent": "Correct known inaccurate stored capture information and distinguish that task from sorting by import date.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "change-photo-date-time-iphone",
-      "validation": "Primary-source and independent editorial review passed; production build, content, lint, typecheck, export, SEO and representative mobile/CTA checks passed. Deployment must be verified before treating a retry as new work.",
+      "validation": "Present in commit 771d74d2573f2b78c2a3ed8d2a56b089a4d760c6; GitHub Pages deployment 39949670650 verified successful. Exact-query metrics remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-23-five-more-guides/batch.json"
@@ -928,12 +928,552 @@
         "google photos locked folder backup"
       ],
       "intent": "Choose a photo organization/access workflow and understand its recovery limits.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "google-photos-archive-vs-locked-folder",
-      "validation": "Primary-source and independent editorial review passed; production build, content, lint, typecheck, export, SEO and representative mobile/CTA checks passed. Deployment must be verified before treating a retry as new work.",
+      "validation": "Present in commit 771d74d2573f2b78c2a3ed8d2a56b089a4d760c6; GitHub Pages deployment 39949670650 verified successful. Exact-query metrics remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "researchRecord": "2026-10-23-five-more-guides/batch.json"
+    },
+    {
+      "id": "food-photos-with-phone",
+      "primaryKeyword": "food photos with phone",
+      "relatedKeywords": [
+        "phone food photography tips",
+        "best angle food photos"
+      ],
+      "intent": "Choose an angle and simple light for phone food photos, then capture a useful sequence before the dish changes.",
+      "status": "approved_for_publication",
+      "articleSlug": "food-photos-with-phone",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+    },
+    {
+      "id": "iphone-photo-albums-vs-folders",
+      "primaryKeyword": "iphone photo albums vs folders",
+      "relatedKeywords": [
+        "create folder in iphone photos",
+        "remove photo from album without deleting"
+      ],
+      "intent": "Organize a photo library with albums for selections and folders for groups of albums.",
+      "status": "approved_for_publication",
+      "articleSlug": "iphone-photo-albums-vs-folders",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+    },
+    {
+      "id": "tone-curves-vs-contrast",
+      "primaryKeyword": "tone curve vs contrast",
+      "relatedKeywords": [
+        "curves or contrast slider",
+        "how to use tone curves without clipping"
+      ],
+      "intent": "Choose between a Contrast slider and a tone curve, practice a controlled edit, and protect important shadow and highlight detail.",
+      "status": "approved_for_publication",
+      "articleSlug": "tone-curves-vs-contrast",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+    },
+    {
+      "id": "pet-photos-with-phone",
+      "primaryKeyword": "pet photos with phone",
+      "relatedKeywords": [
+        "phone dog photography",
+        "phone cat photo tips"
+      ],
+      "intent": "Prepare a comfortable setting, work at your pet’s pace and choose a capture sequence for resting or moving subjects.",
+      "status": "approved_for_publication",
+      "articleSlug": "pet-photos-with-phone",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+    },
+    {
+      "id": "copy-text-from-iphone-photo",
+      "primaryKeyword": "copy text from photo iphone",
+      "relatedKeywords": [
+        "iphone live text not showing",
+        "extract text from image iphone"
+      ],
+      "intent": "Copy image text into an editable note, then verify the details that matter.",
+      "status": "approved_for_publication",
+      "articleSlug": "copy-text-from-iphone-photo",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+    },
+    {
+      "id": "texture-clarity-dehaze-differences",
+      "primaryKeyword": "texture vs clarity vs dehaze",
+      "relatedKeywords": [
+        "Lightroom texture or clarity",
+        "dehaze vs clarity for portraits"
+      ],
+      "intent": "Understand Lightroom’s Texture, Clarity and Dehaze controls and compare them without making skin, edges or skies look overprocessed.",
+      "status": "approved_for_publication",
+      "articleSlug": "texture-clarity-dehaze-differences",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+    },
+    {
+      "id": "flat-lay-phone-photography",
+      "primaryKeyword": "flat lay phone photography",
+      "relatedKeywords": [
+        "overhead photos with phone",
+        "flat lay composition tips"
+      ],
+      "intent": "Arrange and photograph an overhead scene without tilted objects, accidental shadows or a cluttered crop.",
+      "status": "approved_for_publication",
+      "articleSlug": "flat-lay-phone-photography",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+    },
+    {
+      "id": "icloud-shared-albums-photo-quality",
+      "primaryKeyword": "icloud shared albums photo quality",
+      "relatedKeywords": [
+        "shared albums full resolution",
+        "shared album photos blurry"
+      ],
+      "intent": "Decide whether a Shared Album copy is suitable for your intended use.",
+      "status": "approved_for_publication",
+      "articleSlug": "icloud-shared-albums-photo-quality",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+    },
+    {
+      "id": "color-grading-vs-white-balance",
+      "primaryKeyword": "color grading vs white balance",
+      "relatedKeywords": [
+        "color correction before color grading photos",
+        "Lightroom grading vs temperature"
+      ],
+      "intent": "Separate white balance from creative color grading, compare an ungraded baseline, and build a restrained look without losing believable color.",
+      "status": "approved_for_publication",
+      "articleSlug": "color-grading-vs-white-balance",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+    },
+    {
+      "id": "group-photos-everyone-sharp",
+      "primaryKeyword": "group photos everyone sharp",
+      "relatedKeywords": [
+        "phone group photo tips",
+        "group portrait multiple rows"
+      ],
+      "intent": "Arrange rows, check faces systematically and capture a short group-photo sequence before anyone leaves.",
+      "status": "approved_for_publication",
+      "articleSlug": "group-photos-everyone-sharp",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+    },
+    {
+      "id": "hide-lock-iphone-photos",
+      "primaryKeyword": "hide photos iphone",
+      "relatedKeywords": [
+        "lock hidden photos iphone",
+        "hide hidden album iphone"
+      ],
+      "intent": "Move selected photographs out of ordinary browsing and verify how the Hidden collection is protected.",
+      "status": "approved_for_publication",
+      "articleSlug": "hide-lock-iphone-photos",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+    },
+    {
+      "id": "remove-chromatic-aberration-photo-fringes",
+      "primaryKeyword": "remove purple fringe photo",
+      "relatedKeywords": [
+        "chromatic aberration correction",
+        "green edges photo defringe"
+      ],
+      "intent": "Diagnose purple or green fringes, try chromatic aberration correction, and protect real colors while using defringe controls.",
+      "status": "approved_for_publication",
+      "articleSlug": "remove-chromatic-aberration-photo-fringes",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+    },
+    {
+      "id": "product-photos-white-background",
+      "primaryKeyword": "product photos white background phone",
+      "relatedKeywords": [
+        "small product photography at home",
+        "white background product edges"
+      ],
+      "intent": "Build a simple phone product-photo setup, preserve light-colored edges and capture the details a buyer needs to see.",
+      "status": "approved_for_publication",
+      "articleSlug": "product-photos-white-background",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+    },
+    {
+      "id": "share-live-photo-as-still-or-motion",
+      "primaryKeyword": "share live photo as still",
+      "relatedKeywords": [
+        "convert live photo to video iphone",
+        "live photo not moving when sent"
+      ],
+      "intent": "Choose and verify the delivery form of an existing Live Photo.",
+      "status": "approved_for_publication",
+      "articleSlug": "share-live-photo-as-still-or-motion",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+    },
+    {
+      "id": "lens-distortion-vs-perspective",
+      "primaryKeyword": "lens distortion vs perspective distortion",
+      "relatedKeywords": [
+        "barrel distortion vs converging verticals",
+        "lens correction or geometry"
+      ],
+      "intent": "Distinguish bowed lines from converging lines, choose lens correction or geometry tools, and check the crop and proportions after correction.",
+      "status": "approved_for_publication",
+      "articleSlug": "lens-distortion-vs-perspective",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+    },
+    {
+      "id": "photos-through-window-without-reflections",
+      "primaryKeyword": "photograph through window without reflections",
+      "relatedKeywords": [
+        "remove window reflections when taking photo",
+        "phone photos through glass"
+      ],
+      "intent": "Reduce camera-side reflections before shooting through glass, then separate reflection, focus and surface problems.",
+      "status": "approved_for_publication",
+      "articleSlug": "photos-through-window-without-reflections",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+    },
+    {
+      "id": "iphone-camera-grid-level",
+      "primaryKeyword": "iphone camera grid level",
+      "relatedKeywords": [
+        "turn on camera level iphone",
+        "iphone camera grid composition"
+      ],
+      "intent": "Use the camera’s alignment aids while deciding what belongs in the frame.",
+      "status": "approved_for_publication",
+      "articleSlug": "iphone-camera-grid-level",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+    },
+    {
+      "id": "subtle-vignette-photo-editing",
+      "primaryKeyword": "subtle vignette photo editing",
+      "relatedKeywords": [
+        "how much vignette portrait",
+        "vignette off center subject"
+      ],
+      "intent": "Use a vignette to quiet competing edges, shape its transition, and check whether the effect helps an off-center subject or simply darkens the frame.",
+      "status": "approved_for_publication",
+      "articleSlug": "subtle-vignette-photo-editing",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+    },
+    {
+      "id": "silhouette-photos-with-phone",
+      "primaryKeyword": "silhouette photos with phone",
+      "relatedKeywords": [
+        "phone silhouette photography",
+        "how to photograph silhouettes"
+      ],
+      "intent": "Create a readable dark outline against a brighter background without losing the subject’s shape or the scene’s color.",
+      "status": "approved_for_publication",
+      "articleSlug": "silhouette-photos-with-phone",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+    },
+    {
+      "id": "limit-app-photo-library-access-iphone",
+      "primaryKeyword": "limit photo access iphone apps",
+      "relatedKeywords": [
+        "iphone selected photos permission",
+        "app cannot see selected photo iphone"
+      ],
+      "intent": "Give a photo task the access it needs while checking what selection the app can use.",
+      "status": "approved_for_publication",
+      "articleSlug": "limit-app-photo-library-access-iphone",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+    },
+    {
+      "id": "local-masking-vs-global-photo-edits",
+      "primaryKeyword": "local vs global photo editing",
+      "relatedKeywords": [
+        "when to use masks Lightroom",
+        "choose brush gradient color range mask"
+      ],
+      "intent": "Decide when a whole-image adjustment is enough, choose a mask by its boundary, and check overlapping edits without building an unnecessary mask stack.",
+      "status": "approved_for_publication",
+      "articleSlug": "local-masking-vs-global-photo-edits",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+    },
+    {
+      "id": "water-reflection-photos-with-phone",
+      "primaryKeyword": "water reflection photos with phone",
+      "relatedKeywords": [
+        "puddle reflection photography",
+        "phone reflection photography"
+      ],
+      "intent": "Find a useful viewpoint for puddles, ponds and still water, then decide whether symmetry or a fragment makes the stronger photograph.",
+      "status": "approved_for_publication",
+      "articleSlug": "water-reflection-photos-with-phone",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+    },
+    {
+      "id": "remove-small-background-distractions",
+      "primaryKeyword": "remove small distractions photo",
+      "relatedKeywords": [
+        "heal vs clone background objects",
+        "remove background object without replacing background"
+      ],
+      "intent": "Choose between healing, cloning and generative removal, repair a small background object, and inspect repeated patterns, seams and context afterward.",
+      "status": "approved_for_publication",
+      "articleSlug": "remove-small-background-distractions",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+    },
+    {
+      "id": "visual-look-up-iphone-photos",
+      "primaryKeyword": "visual look up iphone photos",
+      "relatedKeywords": [
+        "identify objects in iphone photos",
+        "visual look up no star"
+      ],
+      "intent": "Find a possible identity for a photographed object and check it against independent details.",
+      "status": "queued_reviewed",
+      "articleSlug": "visual-look-up-iphone-photos",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+    },
+    {
+      "id": "jewelry-photos-with-phone",
+      "primaryKeyword": "jewelry photos with phone",
+      "relatedKeywords": [
+        "photograph reflective jewelry",
+        "phone ring photography"
+      ],
+      "intent": "Use a controlled jewelry setup to separate distracting glare from useful shine, then record color, construction and scale clearly.",
+      "status": "queued_reviewed",
+      "articleSlug": "jewelry-photos-with-phone",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+    },
+    {
+      "id": "add-text-arrows-iphone-photo",
+      "primaryKeyword": "add text to photo iphone",
+      "relatedKeywords": [
+        "draw arrow on photo iphone",
+        "iphone markup photo labels"
+      ],
+      "intent": "Annotate a picture so a recipient can understand one clear instruction.",
+      "status": "queued_reviewed",
+      "articleSlug": "add-text-arrows-iphone-photo",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+    },
+    {
+      "id": "photograph-artwork-with-phone",
+      "primaryKeyword": "photograph artwork with phone",
+      "relatedKeywords": [
+        "photograph paintings for portfolio",
+        "phone art reproduction"
+      ],
+      "intent": "Record two-dimensional artwork with even light, straight geometry and a separate detail view, without turning the reproduction into a creative edit.",
+      "status": "queued_reviewed",
+      "articleSlug": "photograph-artwork-with-phone",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+    },
+    {
+      "id": "fix-banding-in-sky-gradients",
+      "primaryKeyword": "banding in sky photos",
+      "relatedKeywords": [
+        "fix gradient banding photo",
+        "posterization after editing sky"
+      ],
+      "intent": "Find where stepped sky gradients first appear, protect smooth tones during editing, and distinguish file damage from a preview or delivery issue.",
+      "status": "queued_reviewed",
+      "articleSlug": "fix-banding-in-sky-gradients",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+    },
+    {
+      "id": "control-featured-photos-iphone",
+      "primaryKeyword": "turn off featured photos iphone",
+      "relatedKeywords": [
+        "stop iphone photo memories",
+        "remove photos widget iphone"
+      ],
+      "intent": "Choose what Photos surfaces automatically while keeping display preferences separate from access control.",
+      "status": "queued_reviewed",
+      "articleSlug": "control-featured-photos-iphone",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+    },
+    {
+      "id": "reduce-moire-in-clothing-photos",
+      "primaryKeyword": "remove moire clothing photo",
+      "relatedKeywords": [
+        "moire pattern on shirt photo",
+        "false colors fabric photography"
+      ],
+      "intent": "Identify false waves or colors in fabric, compare the source and export, and try a local correction without erasing the garment’s texture.",
+      "status": "queued_reviewed",
+      "articleSlug": "reduce-moire-in-clothing-photos",
+      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
     }
   ]
 }

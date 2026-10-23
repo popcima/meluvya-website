@@ -1,0 +1,123 @@
+{
+  "slug": "photograph-artwork-with-phone",
+  "title": "How to photograph paintings and drawings faithfully with a phone",
+  "description": "Record two-dimensional artwork with even light, straight geometry and a separate detail view, without turning the reproduction into a creative edit.",
+  "summary": "Record two-dimensional artwork with even light, straight geometry and a separate detail view, without turning the reproduction into a creative edit.",
+  "published": null,
+  "modified": null,
+  "quickAnswer": "Position the phone square to the artwork, illuminate the whole surface evenly and include all four edges in a reference frame. Check a center detail and the corners before moving anything. Make a faithful full-work photograph first, then separate detail images for texture, signatures or condition.",
+  "sections": [
+    {
+      "id": "plan",
+      "title": "Choose a record of the work before a styled photograph",
+      "paragraphs": [
+        "A portfolio image should let the viewer assess the artwork. A studio photograph may instead show the work, room and artist together. Make those different pictures intentionally. Do not use a dramatic room view as the only record of a painting whose colors and proportions matter.",
+        "List the required files before setting up: full work, one texture detail and a signature or condition view if relevant. Record the title and dimensions in your notes so they remain associated with the correct files during editing."
+      ]
+    },
+    {
+      "id": "alignment",
+      "title": "Align the phone with the work itself",
+      "paragraphs": [
+        "The University of Iowa recommends even light and aligning a two-dimensional work with the camera frame; larger work can be photographed on a neutral wall. Smith College advises centering the camera at the artwork’s midpoint. Keep the phone’s image plane parallel to the surface, including any tilt in the work.",
+        "For a rectangular painting, compare opposite sides in your preview. If one side appears much shorter, adjust the camera position before cropping. Leave a small border in a reference image so you can verify the shape later. Avoid a very tight capture that conceals an accidentally missing corner."
+      ]
+    },
+    {
+      "id": "illumination",
+      "title": "Check the full surface for glare and uneven light",
+      "paragraphs": [
+        "Iowa advises against the phone’s built-in flash for documenting artwork. If you use two lights, Smith College describes placing them to either side and adjusting their positions to avoid reflections. Its camera-specific aperture and lens settings are not universal phone settings.",
+        "Inspect several points rather than judging the center alone: top, bottom, both sides and a region with subtle color. A bright patch that moves when the light moves is a capture problem to solve before editing. On glossy or framed work, try another lighting position instead of making the whole image darker.",
+        "Do not unframe a fragile work or touch its surface just to remove glare. If you cannot make an acceptable record with a safe setup, use a specialist reproduction service or document the limitation alongside the image."
+      ]
+    },
+    {
+      "id": "sequence",
+      "title": "Use a consistent capture and review sequence",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Full reference.",
+            "text": "Include the entire work and a narrow surrounding border. Keep this frame even if the final submission requires a closer crop."
+          },
+          {
+            "title": "Geometry check.",
+            "text": "Compare straight edges and corners in the saved file. Correct the physical setup if a large adjustment would be needed."
+          },
+          {
+            "title": "Detail check.",
+            "text": "Inspect a fine mark in the center and near a corner. A sharp center alone is not enough for a faithful full-work reproduction."
+          },
+          {
+            "title": "Separate detail image.",
+            "text": "Photograph texture or a signature with its own framing. Keep its filename associated with the full-work image."
+          }
+        ]
+      }
+    },
+    {
+      "id": "editing",
+      "title": "Edit to match the object, not a fashionable look",
+      "paragraphs": [
+        "Compare the capture with the work in a stable viewing situation. Do not increase saturation simply because the phone display makes the picture feel subdued. If a color is important to an application or print, a casual screen comparison is not a substitute for a controlled color workflow.",
+        "Keep an untouched capture and a delivery copy. Record any perspective correction or significant color adjustment. Cropping a border is different from removing a mark that belongs to the work. For a submission, follow its actual file and framing requirements rather than assuming every portfolio wants the same format."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is this the same as scanning an old printed photograph?",
+      "answer": "No. A large painting or drawing requires attention to its plane, surface, illumination and faithful appearance. A detail view may need different light from the full-work record."
+    },
+    {
+      "question": "Can I use Portrait mode to blur the wall?",
+      "answer": "For a reproduction, start with a normal photograph that preserves the work’s boundaries. Make a separate styled image if you want a more decorative presentation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "University of Iowa: photographing artwork at home",
+      "url": "https://art.uiowa.edu/sites/art.uiowa.edu/files/2024-02/photographing_artwork_at_home.pdf",
+      "note": "Even light and alignment for two-dimensional work. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Smith College: documenting artwork",
+      "url": "https://sites.smith.edu/ickb/documenting-your-artwork/documenting-your-artwork-scanning-cameras-lighting/",
+      "note": "Camera centering and two-light placement; camera-specific settings are not transferred to phones. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "fix-perspective-in-phone-photos",
+    "srgb-vs-display-p3-photo-export",
+    "scan-printed-photos-with-phone"
+  ],
+  "image": "blog/pexels-20511253-4k.webp",
+  "imageAlt": "Artist working on a large abstract canvas in a studio",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-20511253-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-20511253-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-20511253-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-20511253-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Alina Rossoshanska",
+    "url": "https://www.pexels.com/photo/man-painting-a-picture-on-a-canvas-in-a-studio-20511253/"
+  }
+}

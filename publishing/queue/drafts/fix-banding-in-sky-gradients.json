@@ -1,0 +1,133 @@
+{
+  "slug": "fix-banding-in-sky-gradients",
+  "title": "How to troubleshoot banding in sky gradients",
+  "description": "Find where stepped sky gradients first appear, protect smooth tones during editing, and distinguish file damage from a preview or delivery issue.",
+  "summary": "A source-to-delivery diagnosis for skies that show visible color steps instead of smooth transitions.",
+  "quickAnswer": "Compare the original, the edited master and the delivered file to find where the bands first appear. Reduce the edit or export change that introduces them. Higher-bit-depth editing can reduce new posterization, but converting an already damaged picture does not recreate its missing tonal transitions.",
+  "published": null,
+  "modified": null,
+  "image": "blog/pexels-23203338-4k.webp",
+  "imageAlt": "Green mountain ridges beneath a blue sky",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-23203338-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-23203338-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-23203338-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-23203338-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Ella Ragasa",
+    "url": "https://www.pexels.com/photo/panorama-of-a-mountain-landscape-23203338/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "identify-banding",
+      "title": "Make sure you are diagnosing a stepped gradient",
+      "paragraphs": [
+        "Look for broad, visible steps across an area that should change gradually, such as a clear sky. This guide concerns that kind of banding. Repeating stripes under artificial light, fine fabric patterns and stitching seams are different problems and deserve a different diagnosis.",
+        "Use one clearly visible sky area as your reference. Mark its location mentally so you compare the same patch each time. A crop that excludes the difficult area can make a version look improved without resolving the actual issue."
+      ]
+    },
+    {
+      "id": "locate-stage",
+      "title": "Find the first version that shows the bands",
+      "paragraphs": [
+        "Keep the same viewing size for the first comparison, then inspect the actual files rather than relying on message previews. This sequence is a diagnostic exercise, not evidence that a particular website or device damaged your photograph."
+      ],
+      "table": {
+        "headers": [
+          "First affected version",
+          "Useful next experiment"
+        ],
+        "rows": [
+          [
+            "Original source",
+            "Compare another capture if available; do not begin by blaming an export setting."
+          ],
+          [
+            "Edited master",
+            "Disable recent changes one at a time and watch the same sky patch."
+          ],
+          [
+            "Export",
+            "Export again from the master with one relevant setting changed."
+          ],
+          [
+            "Uploaded or received copy",
+            "Download that actual copy and compare it with your clean export."
+          ],
+          [
+            "Only one viewer or display",
+            "Check the same file elsewhere before altering the master to compensate."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "editing-precision",
+      "title": "Protect smooth transitions while editing",
+      "paragraphs": [
+        "Adobe’s bit-depth documentation explains that higher precision provides more tonal values for adjustment and can reduce posterization during editing. In a suitable Photoshop workflow, a 16-bit working document is therefore useful for substantial tonal changes. It is a prevention measure, not proof that every source or export will remain smooth.",
+        "If the bands appear after a strong edit, try reducing the specific adjustment before replacing the sky or blurring the picture. Keep the version with the better transition beside the stronger version. Decide whether the extra drama is worth the visible steps.",
+        "Changing an already posterized file to a higher-precision container does not tell the editor what the lost shades originally were. Return to the earlier source when possible. Keep the higher-quality working version rather than repeatedly rebuilding the edit from a finished delivery copy."
+      ]
+    },
+    {
+      "id": "gradient-vs-sky",
+      "title": "Dithered artwork is a different case",
+      "paragraphs": [
+        "Photoshop includes a Dither option when creating gradients, which Adobe documents as a way to reduce banding. That is relevant when you are making a gradient background, overlay or graphic. It is not a one-click reconstruction tool for a photographed sky.",
+        "For an invitation with a generated blue background, recreate the gradient with that option and inspect the export. For a sunset photograph, first investigate the source and adjustments. These two files may show similar-looking steps while requiring different work.",
+        "Avoid adding heavy texture merely to hide a fault you have not located. A textured treatment can be an artistic choice, but it should not be confused with recovering the original smooth sky."
+      ]
+    },
+    {
+      "id": "delivery-check",
+      "title": "Check the version people will actually see",
+      "paragraphs": [
+        "Open the exported image, then inspect the received or uploaded version if that is the intended destination. Compare the sky and any nearby fine detail so a smoother-looking result does not conceal a new loss elsewhere.",
+        "If your clean master and export are satisfactory but a particular destination changes them, retain the clean files and troubleshoot that delivery path. Do not weaken every future edit to accommodate one unverified preview. Keep a short note of the settings and destination you actually checked."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will changing an 8-bit file to 16-bit remove existing bands?",
+      "answer": "It cannot infer the original shades that are already absent. A higher-precision working file can help with subsequent editing, but an earlier source is the better starting point when available."
+    },
+    {
+      "question": "Should I blur the whole photo to fix the sky?",
+      "answer": "First locate the stage that introduces the steps. A whole-image blur can sacrifice useful detail without resolving the cause; compare a less aggressive edit or a different export first."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: bit depth in Photoshop",
+      "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-modes/bit-depth-in-photoshop.html",
+      "note": "Higher-precision editing and reduced posterization risk. Checked October 23, 2026."
+    },
+    {
+      "title": "Adobe: apply a gradient fill",
+      "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-effects-techniques/apply-gradient-fill.html",
+      "note": "Dither for newly created Photoshop gradients. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "why-saved-photos-lose-quality",
+    "why-photos-look-different-on-screens",
+    "raw-vs-jpeg-phone-photography"
+  ]
+}

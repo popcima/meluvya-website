@@ -1,0 +1,127 @@
+{
+  "slug": "control-featured-photos-iphone",
+  "title": "Control featured photos and photo memories on iPhone",
+  "description": "Reduce a person’s appearances, turn off featured content, or remove a Photos widget without using deletion as a display preference.",
+  "summary": "Choose what Photos surfaces automatically while keeping display preferences separate from access control.",
+  "published": null,
+  "modified": null,
+  "quickAnswer": "Choose a person-specific preference, the featured-content control or widget removal according to the problem. Keep automatic display choices separate from deciding which photographs to delete.",
+  "sections": [
+    {
+      "id": "choose-scope",
+      "title": "Choose the narrowest display change",
+      "paragraphs": [
+        "A photo can be valuable in your library and unwelcome as an unexpected Home Screen reminder. You do not have to solve both questions in the same way. Start by identifying where the surprise appears and what you want to stop."
+      ],
+      "table": {
+        "headers": [
+          "Desired outcome",
+          "Control to investigate"
+        ],
+        "rows": [
+          [
+            "Fewer suggestions involving one person",
+            "Person-specific featuring preference"
+          ],
+          [
+            "Stop automatic featured photos and memories",
+            "Show Featured Content"
+          ],
+          [
+            "Keep Photos preferences but remove a visible widget",
+            "Remove that widget"
+          ],
+          [
+            "Keep a picture out of ordinary browsing",
+            "A separate hiding and authentication decision"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "person",
+      "title": "Change a person’s featuring preference",
+      "paragraphs": [
+        "On iOS 26, open a photo of the intended person. Use More → Don’t Feature a Person, select them if prompted, then choose Feature This Person Less or Never Feature This Person and confirm.",
+        "Take care with group photographs. Before confirming, check whose preference you are changing. If your concern is one particular person, a broader change may remove suggestions you still enjoy."
+      ]
+    },
+    {
+      "id": "featured",
+      "title": "Turn off automatic featured content",
+      "paragraphs": [
+        "Photos → Collections → your account contains Show Featured Content. Turn it off to stop automatic featured photos and memories.",
+        "Choose the broader switch when the issue is automatic selection itself, rather than one person. For example, someone who wants a quiet phone during a busy work period may prefer to remove the stream of reminders instead of making dozens of individual decisions."
+      ]
+    },
+    {
+      "id": "widget",
+      "title": "Remove the widget when the screen is the problem",
+      "paragraphs": [
+        "Apple’s widget guide uses touch and hold the widget → Remove Widget → Remove. If Photos is inside a Smart Stack, inspect the stack as well; its Edit Stack control includes Widget Suggestions, which governs suggested widgets.",
+        "Check the actual screen where the photograph appeared. Removing one visible widget is not the same as reviewing every stack or Today View layout. This is a useful finishing check after changing your Home Screen design."
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "Do not mistake display preferences for privacy protection",
+      "paragraphs": [
+        "These controls answer “What should appear automatically?” Treat “Who can open this photograph?” as a separate question. If access is the concern, review the relevant hiding, authentication and app-permission controls rather than relying on a quieter widget.",
+        "Keep the photographs you still want deliberately organized. A private shortlist for a future album can remain useful even when automatic reminders are unwelcome. Revisit the preference later if your goal changes; there is no need to settle every library decision while adjusting one display."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I delete a photo because it appears in a widget?",
+      "answer": "First decide whether you dislike the photograph itself or only its automatic appearance. A display change is often the more precise response to the second problem."
+    },
+    {
+      "question": "Why check Smart Stacks too?",
+      "answer": "The place that displayed the picture may be a rotating stack rather than a standalone widget. Inspect the actual surface before concluding that the change failed."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Hide people, memories and holidays — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/hide-people-memories-and-holidays-iph10a9dd2a1/26/ios/26",
+      "note": "Person preferences and featured-content controls."
+    },
+    {
+      "title": "Apple: Add and edit widgets on iPhone",
+      "url": "https://support.apple.com/en-us/118610",
+      "note": "Widget removal and Smart Stack suggestions."
+    }
+  ],
+  "related": [
+    "iphone-burst-photos-select-best-frame",
+    "icloud-photos-sync-vs-backup",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-12182725-4k.webp",
+  "imageAlt": "Black-and-white portrait beside glass with reflected lights",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 45%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-12182725-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-12182725-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-12182725-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-12182725-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Connor McManus",
+    "url": "https://www.pexels.com/photo/portrait-of-a-woman-at-night-12182725/"
+  }
+}
