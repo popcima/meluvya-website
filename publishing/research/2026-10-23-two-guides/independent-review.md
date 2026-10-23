@@ -1,0 +1,10 @@
+**Independent AI editorial review: approved for publication. No blocking findings.**
+
+- **Recovery guide:** Distinct from the existing backup/prevention guide. Recovery steps, 30-day retention, conditional Recovered album, immediate permanent deletion, and backup limitations match Apple’s documentation. It avoids recovery guarantees. [Apple recovery guidance](https://support.apple.com/en-us/124460), [Recovered album](https://support.apple.com/en-us/120347), [backup contents](https://support.apple.com/en-us/108770).
+- **Cutout guide:** Distinct from background selection, formats, and Portrait-mode blur articles. It correctly separates lifting/copying a subject, creating a sticker, and composing a new background. Compatibility and paused-video guidance are supported; PNG/JPEG transparency claims are accurate. [Apple cutouts](https://support.apple.com/en-us/102460), [iOS 26 lifting guide](https://support.apple.com/guide/iphone/lift-a-subject-from-the-photo-background-iphfe4809658/26/ios/26), [Adobe formats](https://helpx.adobe.com/photoshop/desktop/save-and-export/export-files-to-different-formats/image-file-formats-supported-in-photoshop.html).
+- Both exported pages have one H1, appropriate heading hierarchy, matching descriptions, self-referencing canonicals, dated BlogPosting/Breadcrumb schema, relevant related guides, AI disclosure, and the honest coming-soon app CTA.
+- Inspected both image files: alt descriptions match; illustrative-stock captions avoid implying app results or tests.
+
+**Optional correction:** Delete the recovery opener, “Start with the original picture, not a screenshot of its thumbnail.” It is confusing when the original is precisely what the reader cannot find. Begin with “The following route follows Apple’s iOS 26 guide…”
+
+Scope: complete drafts, all eight cited primary sources, exported HTML, images, and comparison against the 58-guide library. No hands-on iPhone testing, interactive CTA testing, deployment verification, or search-performance assessment performed by this reviewer.

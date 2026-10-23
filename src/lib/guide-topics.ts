@@ -20,6 +20,7 @@ const topics = [
   "title": "Sharing, printing and preserving photos",
   "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
   "slugs": [
+    "recover-deleted-iphone-photos",
     "raw-vs-jpeg-phone-photography",
     "photo-print-size-pixels-ppi",
     "resize-vs-compress-photos-for-upload",
@@ -34,6 +35,7 @@ const topics = [
   "title": "Practical fixes and creative techniques",
   "description": "Scan a print, correct a distraction or make a deliberate photographic effect.",
   "slugs": [
+    "iphone-photo-cutout-background",
     "scan-printed-photos-with-phone",
     "clean-phone-camera-lens",
     "remove-red-eye-from-photos",

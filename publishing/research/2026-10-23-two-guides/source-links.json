@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://helpx.adobe.com/photoshop/desktop/save-and-export/export-files-to-different-formats/image-file-formats-supported-in-photoshop.html",
+    "error": "HTTP Error 403: Forbidden",
+    "exception": "Direct urllib fetch returned 403. Exact primary page was accessible through web search/read tools and independently reviewed; no access control bypass. Retained as a documented link-check exception."
+  },
+  {
+    "url": "https://support.apple.com/en-us/102460",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/102460"
+  },
+  {
+    "url": "https://support.apple.com/en-us/108770",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/108770"
+  },
+  {
+    "url": "https://support.apple.com/en-us/118558",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/118558"
+  },
+  {
+    "url": "https://support.apple.com/en-us/120347",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/120347"
+  },
+  {
+    "url": "https://support.apple.com/en-us/124460",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/124460"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/delete-or-hide-photos-and-videos-iphb4defbde9/26/ios/26",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/guide/iphone/delete-or-hide-photos-and-videos-iphb4defbde9/26/ios/26"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/lift-a-subject-from-the-photo-background-iphfe4809658/26/ios/26",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/guide/iphone/lift-a-subject-from-the-photo-background-iphfe4809658/26/ios/26"
+  }
+]

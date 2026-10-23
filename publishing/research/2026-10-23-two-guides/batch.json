@@ -1,0 +1,225 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "537d79626cd1d868fe8d3d44f941fd1d91b1d6ab",
+  "existingArticles": 58,
+  "articlesBeforeToday": 0,
+  "newArticles": 2,
+  "dailyCeiling": 30,
+  "publicationStatus": "validated_for_publication",
+  "audience": {
+    "language": "English",
+    "geography": "Worldwide"
+  },
+  "metrics": {
+    "provider": "No exact-query metric provider available",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "period": null,
+    "retrievalDate": "2026-10-23",
+    "note": "Free web results establish documentation and relevance, not high volume or low competition."
+  },
+  "searchConsole": {
+    "property": "sc-domain:meluvya.com",
+    "provider": "Google Search Console browser UI",
+    "searchType": "Web",
+    "geography": "All countries; no country filter shown",
+    "selectedPeriod": "3 months",
+    "chartCoverage": "2026-10-19 through 2026-10-21",
+    "retrievalDate": "2026-10-23",
+    "lastUpdateShown": "3.5 hours ago",
+    "totalClicks": 2,
+    "totalImpressions": 22,
+    "averageCTRPercent": 9.1,
+    "averagePosition": 18.1,
+    "visibleQueries": [
+      {
+        "query": "how to edit photo without losing original",
+        "clicks": 0,
+        "impressions": 2
+      },
+      {
+        "query": "picture grain",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "query": "photo grain",
+        "clicks": 0,
+        "impressions": 1
+      },
+      {
+        "query": "film grain vs digital noise",
+        "clicks": 0,
+        "impressions": 1
+      }
+    ],
+    "decision": "Small early sample, not enough to infer demand or change priorities. Query variants map to existing non-destructive-editing and photo-noise-vs-film-grain articles; do not create competing pages. These site impressions are not monthly keyword volume."
+  },
+  "topics": [
+    {
+      "slug": "recover-deleted-iphone-photos",
+      "primaryKeyword": "recover deleted photos on iphone",
+      "relatedKeywords": [
+        "missing iphone photos",
+        "recently deleted photos iphone"
+      ],
+      "intent": "Find and recover a missing library item with documented limits.",
+      "researchProvider": "Free web search and Apple primary documentation",
+      "retrievalDate": "2026-10-23",
+      "distinctFrom": [
+        "icloud-photos-sync-vs-backup",
+        "edit-photos-without-losing-original"
+      ],
+      "editorialRationale": "Existing guides cover prevention, synchronization and editing reversibility. This adds the recovery procedure, missing-item triage and Recovered versus Recently Deleted distinction; does not repeat the backup export tutorial.",
+      "outline": [
+        "Recently Deleted recovery",
+        "Missing vs hidden or filtered",
+        "Conditional Recovered album",
+        "Permanent deletion limits and independent copies",
+        "Recovery note and related next steps"
+      ],
+      "sources": [
+        {
+          "title": "Apple: recover deleted photos",
+          "url": "https://support.apple.com/en-us/124460",
+          "note": "Recently Deleted retention, recovery and the iCloud.com route. Retrieved October 23, 2026."
+        },
+        {
+          "title": "Apple: delete or hide photos, iOS 26 guide",
+          "url": "https://support.apple.com/guide/iphone/delete-or-hide-photos-and-videos-iphb4defbde9/26/ios/26",
+          "note": "Collections, authentication, selection and recovery controls. Labels vary with the installed version."
+        },
+        {
+          "title": "Apple: missing photos or videos",
+          "url": "https://support.apple.com/en-us/118558",
+          "note": "Hidden photos, library views, account and synchronization checks. Retrieved October 23, 2026."
+        },
+        {
+          "title": "Apple: the Recovered album",
+          "url": "https://support.apple.com/en-us/120347",
+          "note": "Conditional appearance, Restore to Library and immediate permanent deletion. Retrieved October 23, 2026."
+        },
+        {
+          "title": "Apple: what iCloud backs up",
+          "url": "https://support.apple.com/en-us/108770",
+          "note": "Photos already synced with iCloud Photos are excluded from daily device backup. Retrieved October 23, 2026."
+        }
+      ]
+    },
+    {
+      "slug": "iphone-photo-cutout-background",
+      "primaryKeyword": "iphone photo cutout",
+      "relatedKeywords": [
+        "copy subject iphone",
+        "remove background iphone photo"
+      ],
+      "intent": "Lift a subject, inspect its edges and deliver the cutout without promising automatic compositing.",
+      "researchProvider": "Free web search; Apple and Adobe primary documentation",
+      "retrievalDate": "2026-10-23",
+      "distinctFrom": [
+        "choose-portrait-background",
+        "jpeg-heic-png-photo-formats",
+        "portrait-mode-blur-mistakes"
+      ],
+      "editorialRationale": "Existing pages cover capture backgrounds, formats and simulated blur. This is an extraction/sharing workflow with an original four-area edge checklist and transparent-preview diagnostic.",
+      "outline": [
+        "Lift and copy/share",
+        "Cutout vs sticker vs composition",
+        "Four-area edge inspection",
+        "Transparency and destination checks",
+        "Compatibility and failure diagnosis"
+      ],
+      "sources": [
+        {
+          "title": "Apple: create and share photo cutouts",
+          "url": "https://support.apple.com/en-us/102460",
+          "note": "Gesture, supported devices/software, sharing and the direct-paste limitation. Retrieved October 23, 2026."
+        },
+        {
+          "title": "Apple: lift a subject, iOS 26 guide",
+          "url": "https://support.apple.com/guide/iphone/lift-a-subject-from-the-photo-background-iphfe4809658/26/ios/26",
+          "note": "Copy, Share, Add Sticker and paused-video-frame options. Documentation-based guidance; no device testing claimed."
+        },
+        {
+          "title": "Adobe: supported image file formats",
+          "url": "https://helpx.adobe.com/photoshop/desktop/save-and-export/export-files-to-different-formats/image-file-formats-supported-in-photoshop.html",
+          "note": "PNG transparency and JPEG limitations. Edge and destination checks are original editorial guidance."
+        }
+      ]
+    }
+  ],
+  "imageDecision": "Reuse two different licensed local Pexels images with existing responsive variants, visible credit and illustrative-stock disclaimer. No new assets, upscaling or fabricated screenshots. Provenance: publishing/image-sources.json.",
+  "skillApplication": "claude-blog source/intent checks and independent AI reviewer; claude-seo production export validation. Project TypeScript pipeline and explicit publication authorization take precedence over generic MD/PDF output and outline approval gates. No numerical SEO score is evidence of ranking.",
+  "editorialDecision": {
+    "status": "approved_after_clarity_edit",
+    "review": "independent-review.md",
+    "resolution": "review-resolution.md",
+    "method": "Independent AI reviewer checked all eight sources, drafts, HTML, images and overlap with the 58-guide library; parent source review and browser checks."
+  },
+  "limitations": [
+    "Documentation-based; no first-hand device tests",
+    "No exact-query volume or organic difficulty",
+    "Store buttons continue to say coming soon",
+    "Sitemap inclusion does not confirm Google indexing"
+  ],
+  "indexingAction": "Keep the existing submitted sitemap URL. New entries are automatic. No repeated request for unchanged URLs or failed reCAPTCHA attempt.",
+  "finalArticlePayloadSha256": "0f5a05cc58d415d66bb8cb56f91161e5f2636c35dfb0ef3b539328bfd115d23d",
+  "checks": [
+    {
+      "name": "node scripts/check-content.mjs --base 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab",
+      "result": "PASS",
+      "articles": 60,
+      "publishedToday": 2,
+      "remainingCapacity": 28
+    },
+    {
+      "name": "npm run lint",
+      "result": "PASS"
+    },
+    {
+      "name": "SITE_URL=https://meluvya.com NEXT_PUBLIC_BASE_PATH= npm run build -- --webpack",
+      "result": "PASS",
+      "note": "Final source snapshot in temporary build copy with installed project dependencies. CI configuration unchanged."
+    },
+    {
+      "name": "npm run typecheck",
+      "result": "PASS"
+    },
+    {
+      "name": "python3 scripts/check-seo-foundations.py and check-export.py",
+      "result": "PASS",
+      "sitemapRoutes": 67,
+      "articlePages": 60,
+      "localLinksAndAssets": 3349,
+      "allArticlesInDirectory": true
+    },
+    {
+      "name": "Both new exported pages",
+      "result": "PASS",
+      "checks": [
+        "Direct answers and complete article text",
+        "Self-referencing canonical and BlogPosting/Breadcrumb schema",
+        "Actual publication dates",
+        "Source links and related guides",
+        "Shared Meluvya CTA and both store buttons",
+        "Sitemap inclusion; correct robots sitemap declaration",
+        "Five archive pages"
+      ]
+    },
+    {
+      "name": "Chrome browser desktop and 390x844 mobile",
+      "result": "PASS",
+      "checks": [
+        "Both article heroes loaded with appropriate alt text and credits",
+        "No horizontal page overflow",
+        "Tables scroll within their containers",
+        "App Store and Google Play open coming-soon dialog",
+        "Escape closes dialog and restores triggering-button focus",
+        "Both new guides linked from archive and topic directory"
+      ],
+      "note": "Browser screenshot viewport needed reset after navigation; captured final corrected viewport. No performance score or device testing claimed."
+    }
+  ],
+  "deployment": "Verify the GitHub Actions run for this commit and both live URLs after the normal main-branch push; no deployment success claimed before that."
+}

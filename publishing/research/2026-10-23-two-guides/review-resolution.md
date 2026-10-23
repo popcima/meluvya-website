@@ -1,0 +1,1 @@
+Removed the reviewer-identified confusing recovery opener verbatim as requested. No other article content changed. Rebuilt and repeated lint, typecheck and export checks after the deletion. Independent AI review is not human or expert review.

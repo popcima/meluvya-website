@@ -30,6 +30,326 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "recover-deleted-iphone-photos",
+  "title": "How to recover deleted or missing photos on iPhone",
+  "description": "Check Recently Deleted, Hidden and Recovered in the right order. Learn the recovery limits and why an iCloud device backup may not contain your photos.",
+  "summary": "Find out whether a missing photo was deleted, hidden, stored outside the library or only saved in another location.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Check Recently Deleted in Photos first. Unlock it, select the picture, choose Recover and confirm. Apple keeps deleted items there for up to 30 days unless you permanently delete them sooner. If the picture is absent, check Hidden, your library view and any separate saved copies before assuming it is gone.",
+  "sections": [
+    {
+      "id": "recover-in-photos",
+      "title": "Recover a photo from Recently Deleted",
+      "paragraphs": [
+        "The following route follows Apple’s iOS 26 guide; older versions may put Utilities directly in the Photos view rather than behind Collections."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Open Photos, tap Collections and find Recently Deleted under Utilities."
+          },
+          {
+            "text": "Choose View Album and authenticate when asked."
+          },
+          {
+            "text": "Tap Select and choose the pictures you need. Open More, choose Recover and confirm the recovery."
+          },
+          {
+            "text": "Return to the library and open the recovered image. Check that it is the intended photograph and version before continuing your cleanup."
+          }
+        ]
+      }
+    },
+    {
+      "id": "missing-is-not-always-deleted",
+      "title": "If it is not there, identify what is missing",
+      "paragraphs": [
+        "Apple’s missing-photo guidance distinguishes deletion from hidden photos, library views and synchronization. Use the table to choose your next check. Avoid changing several account settings at once: it becomes harder to tell which change affected the result."
+      ],
+      "table": {
+        "headers": [
+          "What you notice",
+          "What to check",
+          "What it tells you"
+        ],
+        "rows": [
+          [
+            "A photo disappeared after you hid it",
+            "Hidden under Utilities; enable Show Hidden Album in Photos settings if needed",
+            "A hidden picture is still in the library. Select it and use More → Unhide."
+          ],
+          [
+            "You use an iCloud Shared Photo Library",
+            "Whether Photos is showing Personal Library, Shared Library or Both Libraries",
+            "The selected view can exclude a picture that still exists."
+          ],
+          [
+            "Pictures appear on one device but not another",
+            "The Apple Account, iCloud Photos setting and current sync status",
+            "Different accounts or unfinished syncing are different problems from deletion."
+          ],
+          [
+            "The image was made or downloaded in another app",
+            "That app’s own saved files, exports or drafts",
+            "Check whether a copy was ever saved to Photos before looking for a Photos recovery option."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "recovered-is-different",
+      "title": "Check Recovered when it appears",
+      "paragraphs": [
+        "Apple introduced the Recovered album with iOS 18. It can contain image files still on the device that are no longer part of the photo library, such as a picture that did not save correctly. It appears only when Photos finds eligible items; an absent album does not mean you missed a setting.",
+        "If Recovered appears under Utilities, unlock it, select the picture and choose Restore to Library. Do not choose Permanently Delete while investigating: Apple says that action is immediate and does not send the item to Recently Deleted. This album is not a general way to reverse every permanent deletion."
+      ]
+    },
+    {
+      "id": "when-the-window-has-ended",
+      "title": "After permanent deletion, look for a separate copy",
+      "paragraphs": [
+        "Apple says an item permanently removed from Recently Deleted cannot be recovered through that album. If you previously exported it, sent it to someone or saved it in another service, investigate that separate location. A shared copy may be smaller or edited, so compare it with the version you need.",
+        "For an iCloud Photos library, you can also inspect Recently Deleted in Photos on iCloud.com. It is another way to reach the synchronized library, not an extra recovery period.",
+        "Do not erase and restore your phone on the assumption that an iCloud device backup contains the missing picture. Apple’s backup documentation says photos already synchronized with iCloud Photos are not also included in the daily device backup. If iCloud Photos was off, the backup may contain photos; first establish what was saved and when."
+      ]
+    },
+    {
+      "id": "keep-a-recovery-note",
+      "title": "Keep a short record before trying more steps",
+      "paragraphs": [
+        "Write down the approximate capture date, the last place you saw the picture, whether you deleted or merely edited it, and the locations already checked. For example: “Portrait taken on Sunday; sent in a message; missing from Photos after cleanup.” That points to two concrete places to investigate instead of an open-ended hunt.",
+        "If the photo still exists but has the wrong crop or filter, you are dealing with an editing problem. Use the guide to preserving and reverting originals below. Recovering a deleted library item and undoing an edit are different tasks.",
+        "Once you find the version you want, preserve an independent copy and verify that you can open it. Keep your library intact while doing that check. These are documentation-based recovery steps and suggested safeguards, not a guarantee that a particular missing file can be restored."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will a recovery app definitely bring back permanently deleted pictures?",
+      "answer": "Do not treat a promise as evidence that your file still exists. This guide verifies Apple’s built-in recovery routes. A separately retained original or export is a different source; its availability depends on what you actually saved."
+    },
+    {
+      "question": "Should I recover every deleted photo at once?",
+      "answer": "Select the pictures you need first so you can verify the result. If you restore a larger group, check several examples before deleting anything else."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: recover deleted photos",
+      "url": "https://support.apple.com/en-us/124460",
+      "note": "Recently Deleted retention, recovery and the iCloud.com route. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Apple: delete or hide photos, iOS 26 guide",
+      "url": "https://support.apple.com/guide/iphone/delete-or-hide-photos-and-videos-iphb4defbde9/26/ios/26",
+      "note": "Collections, authentication, selection and recovery controls. Labels vary with the installed version."
+    },
+    {
+      "title": "Apple: missing photos or videos",
+      "url": "https://support.apple.com/en-us/118558",
+      "note": "Hidden photos, library views, account and synchronization checks. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Apple: the Recovered album",
+      "url": "https://support.apple.com/en-us/120347",
+      "note": "Conditional appearance, Restore to Library and immediate permanent deletion. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Apple: what iCloud backs up",
+      "url": "https://support.apple.com/en-us/108770",
+      "note": "Photos already synced with iCloud Photos are excluded from daily device backup. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "icloud-photos-sync-vs-backup",
+    "edit-photos-without-losing-original",
+    "airdrop-photos-original-data"
+  ],
+  "image": "blog/pexels-7129664-4k.webp",
+  "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7129664-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7129664-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7129664-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7129664-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Michael Burrows",
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "iphone-photo-cutout-background",
+  "title": "How to make an iPhone photo cutout and check its edges",
+  "description": "Lift a subject from an iPhone photo, copy or share it, and check the result. Understand transparent exports, stickers and background replacement.",
+  "summary": "Separate a subject for a note, sticker or composition, then inspect the edges and destination before sharing.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Open a photo full screen and touch and hold the subject until an outline appears. Release, then choose Copy or Share. Apple supports photo cutouts on iPhone XS, iPhone XR and later with iOS 16 or later. Inspect the selected outline: lifting a subject is not the same as producing a finished background replacement.",
+  "sections": [
+    {
+      "id": "make-the-cutout",
+      "title": "Lift the subject and choose a destination",
+      "paragraphs": [
+        "Apple’s cutout instructions describe the long-press gesture in Photos and other supported apps. Its iOS 26 guide also allows lifting a subject from a paused video frame. Start with a still photo while learning the gesture."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Open the picture full screen. Touch and hold the person, pet or object you want to isolate."
+          },
+          {
+            "text": "When an outline appears, release your finger to reveal the available actions. Check which subject the outline includes."
+          },
+          {
+            "text": "Choose Copy and paste into a compatible destination such as a note, or choose Share and select an available destination. Add Sticker creates a sticker for supported uses."
+          },
+          {
+            "text": "Inspect the result where you will use it. Confirm that the expected subject and its important details arrived."
+          }
+        ]
+      }
+    },
+    {
+      "id": "choose-the-right-task",
+      "title": "Choose between a cutout, a sticker and a new background",
+      "paragraphs": [
+        "The Copy action lifts the selection; it does not by itself assemble a new photograph. Apple’s support article specifically distinguishes this from pasting a subject onto another photo. If your aim is a composition, choose an editor with documented image placement or layer controls and follow that editor’s instructions.",
+        "Think about the destination before spending time refining edges. A small sticker in a message and a large portrait on a poster need different levels of detail. Keep the original photograph so you can start again if the selection is unsuitable. This guide does not claim that Meluvya offers manual cutout or layer tools."
+      ]
+    },
+    {
+      "id": "inspect-the-edges",
+      "title": "Review the outline in four places",
+      "paragraphs": [
+        "Use this editorial checklist on the actual saved or pasted result. It is a suggested inspection method, not a measured test of Apple’s selection accuracy."
+      ],
+      "table": {
+        "headers": [
+          "Area",
+          "Look for",
+          "If it matters"
+        ],
+        "rows": [
+          [
+            "Hair or fur",
+            "Missing strands, holes or pieces of the former background",
+            "Compare at the intended display size. Use a tool with mask refinement if the automatic edge is unacceptable."
+          ],
+          [
+            "Hands and held objects",
+            "A missing finger, strap or object that should stay with the person",
+            "Return to the original and compare the complete silhouette."
+          ],
+          [
+            "Spaces inside the outline",
+            "Background left between an arm and the body",
+            "Check those gaps as well as the outside edge."
+          ],
+          [
+            "Feet and contact points",
+            "An abrupt edge or a subject that appears to float in a composition",
+            "Reconsider placement and the relationship to the new surface."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "background-or-preview",
+      "title": "A white preview does not settle whether it is transparent",
+      "paragraphs": [
+        "Check the file in a destination that can display transparency over a contrasting background. A viewer’s white canvas and white pixels baked into a file can look similar. For a composition, place the cutout over both a light and a dark background if your editor supports that check.",
+        "Adobe’s format documentation says PNG supports transparency and JPEG does not. When exporting from an editor, choose a format and settings that preserve transparency if you need it. Do not assume every sharing destination preserves the same data, and do not rename a JPG extension to PNG as a substitute for conversion.",
+        "A screenshot records the displayed appearance. It is not a reliable way to preserve an isolated subject for later placement. Keep a suitable exported cutout or editable project alongside the original, then reopen the exported file to check the result."
+      ]
+    },
+    {
+      "id": "when-it-does-not-work",
+      "title": "If the outline never appears or looks wrong",
+      "paragraphs": [
+        "First compare your model and software with Apple’s compatibility requirements, then use a full-screen photo in a supported app. If one image fails, try a different photo with a clear subject as a diagnostic comparison. That can help separate an image-specific selection problem from a device or app limitation; it is not a guaranteed fix.",
+        "For example, compare a portrait against a plain wall with one where hair overlaps leaves. Inspect what was retained in each before choosing which source to use. You do not need to publish the trial results.",
+        "If a meaningful part remains missing, use an editor that lets you refine the selection, choose another source, or keep the original background. A deliberate crop may be enough for the intended use. Avoid endlessly exporting the same incomplete edge and expecting the next format to repair it."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does copying a cutout delete the original background?",
+      "answer": "The lift-and-copy workflow creates something to paste or share. Keep the source photograph; deleting or replacing that original is a separate action."
+    },
+    {
+      "question": "Will a cutout automatically look natural on a different background?",
+      "answer": "No. Check perspective, relative size, lighting and contact with the ground. A clean outline alone does not make two different scenes fit together."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: create and share photo cutouts",
+      "url": "https://support.apple.com/en-us/102460",
+      "note": "Gesture, supported devices/software, sharing and the direct-paste limitation. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Apple: lift a subject, iOS 26 guide",
+      "url": "https://support.apple.com/guide/iphone/lift-a-subject-from-the-photo-background-iphfe4809658/26/ios/26",
+      "note": "Copy, Share, Add Sticker and paused-video-frame options. Documentation-based guidance; no device testing claimed."
+    },
+    {
+      "title": "Adobe: supported image file formats",
+      "url": "https://helpx.adobe.com/photoshop/desktop/save-and-export/export-files-to-different-formats/image-file-formats-supported-in-photoshop.html",
+      "note": "PNG transparency and JPEG limitations. Edge and destination checks are original editorial guidance."
+    }
+  ],
+  "related": [
+    "jpeg-heic-png-photo-formats",
+    "choose-portrait-background",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-32644860-4k.webp",
+  "imageAlt": "Woman in a pink shirt and red cap leaning through an open window",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-32644860-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-32644860-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-32644860-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-32644860-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Muhammad-Taha Ibrahim",
+    "url": "https://www.pexels.com/photo/portrait-of-smiling-woman-at-window-in-abuja-32644860/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
   "slug": "iphone-ae-af-lock",
   "title": "How to use AE/AF Lock on iPhone for steadier photo settings",
   "description": "Learn when to lock iPhone focus and exposure, when to reset them, and why AE/AF Lock cannot keep a moving subject sharp.",

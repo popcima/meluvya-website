@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -500,12 +500,13 @@
         "stop iPhone camera saving location"
       ],
       "intent": "Choose between per-share location omission, saved-photo location removal, and future Camera permissions.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "remove-location-from-iphone-photos",
       "validation": "AI editorial review, content baseline validation, lint, root production build, typecheck, export checks, and mobile browser checks passed on 2026-10-21. See research record and GitHub deployment before retrying. Exact-query volume and difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
-      "researchRecord": "2026-10-21.json"
+      "researchRecord": "2026-10-21.json",
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "iphone-selfie-mirroring",
@@ -516,12 +517,13 @@
         "flip selfie in Photos"
       ],
       "intent": "Diagnose horizontal reversal and choose a future-capture setting or an existing-photo edit.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "why-iphone-selfies-flip",
       "validation": "AI editorial review, content baseline validation, lint, root production build, typecheck, export checks, and mobile browser checks passed on 2026-10-21. See research record and GitHub deployment before retrying. Exact-query volume and difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
-      "researchRecord": "2026-10-21.json"
+      "researchRecord": "2026-10-21.json",
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "portrait-histogram",
@@ -532,12 +534,13 @@
         "Lightroom histogram shadows highlights"
       ],
       "intent": "Read a tonal distribution and locate clipping before deciding which portrait areas need correction.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "read-histogram-for-portraits",
       "validation": "AI editorial review, content baseline validation, lint, root production build, typecheck, export checks, and mobile browser checks passed on 2026-10-21. See research record and GitHub deployment before retrying. Exact-query volume and difficulty remain unknown.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
-      "researchRecord": "2026-10-21.json"
+      "researchRecord": "2026-10-21.json",
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "iphone-ae-af-lock",
@@ -547,11 +550,12 @@
         "iphone camera exposure lock"
       ],
       "intent": "How to lock focus and exposure on iPhone for repeated captures",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "iphone-ae-af-lock",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "change-live-photo-key-photo",
@@ -561,11 +565,12 @@
         "live photo better expression"
       ],
       "intent": "Recover a preferred recorded expression by choosing a Live Photo key frame",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "change-live-photo-key-photo",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "iphone-burst-photos-select-best-frame",
@@ -575,11 +580,12 @@
         "best frame burst photo"
       ],
       "intent": "Capture an action sequence and select useful individual stills",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "iphone-burst-photos-select-best-frame",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "iphone-macro-close-up-focus",
@@ -589,11 +595,12 @@
         "iphone macro flower icon"
       ],
       "intent": "Diagnose iPhone close-up blur and automatic macro camera switching",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "iphone-macro-close-up-focus",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "iphone-photographic-styles-vs-filters",
@@ -603,11 +610,12 @@
         "iphone styles high efficiency"
       ],
       "intent": "Determine which Apple appearance treatment can be revised after capture",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "iphone-photographic-styles-vs-filters",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "iphone-live-photo-long-exposure",
@@ -617,11 +625,12 @@
         "live photo smooth water"
       ],
       "intent": "Create intentional water-motion blur from a Live Photo",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "iphone-live-photo-long-exposure",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "phone-panorama-stitching-tips",
@@ -631,11 +640,12 @@
         "panorama duplicated people"
       ],
       "intent": "Capture a clean panorama and diagnose seams and repeated moving objects",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "phone-panorama-stitching-tips",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "raw-vs-jpeg-phone-photography",
@@ -645,11 +655,12 @@
         "RAW photo editing on phone"
       ],
       "intent": "Capture and retain a RAW source for an intended edit, with a compatibility rehearsal and storage decision.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "raw-vs-jpeg-phone-photography",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "photo-print-size-pixels-ppi",
@@ -659,11 +670,12 @@
         "how large can I print a photo"
       ],
       "intent": "Calculate dimensions for a physical print, account for crop, and judge a proof.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "photo-print-size-pixels-ppi",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "resize-vs-compress-photos-for-upload",
@@ -673,11 +685,12 @@
         "photo pixels vs megabytes"
       ],
       "intent": "Meet an actual upload limit in a sequence that preserves useful detail.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "resize-vs-compress-photos-for-upload",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "srgb-vs-display-p3-photo-export",
@@ -687,11 +700,12 @@
         "convert vs assign profile"
       ],
       "intent": "Choose an export color space and use conversion deliberately for a defined destination.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "srgb-vs-display-p3-photo-export",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "google-photos-original-vs-storage-saver",
@@ -701,11 +715,12 @@
         "check Google Photos backup quality"
       ],
       "intent": "Choose and verify Google Photos backup quality before changing existing cloud copies.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "google-photos-original-vs-storage-saver",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "icloud-photos-sync-vs-backup",
@@ -715,11 +730,12 @@
         "does iCloud Backup include photos"
       ],
       "intent": "Understand synchronized deletion, device backup exclusions, and independent-original export.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "icloud-photos-sync-vs-backup",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "airdrop-photos-original-data",
@@ -729,77 +745,114 @@
         "AirDrop photo edit history"
       ],
       "intent": "Transfer an intended original/editable handoff and verify what the receiver can use.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "airdrop-photos-original-data",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "scan-printed-photos-with-phone",
       "primaryKeyword": "how to scan printed photos with phone",
       "relatedKeywords": [],
       "intent": "Make a faithful usable digital capture of a physical print and retain its context.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "scan-printed-photos-with-phone",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "clean-phone-camera-lens",
       "primaryKeyword": "how to clean phone camera lens",
       "relatedKeywords": [],
       "intent": "Remove ordinary exterior contamination safely and determine whether it contributed to haze.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "clean-phone-camera-lens",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "remove-red-eye-from-photos",
       "primaryKeyword": "how to remove red eye from photos",
       "relatedKeywords": [],
       "intent": "Correct a localized flash-pupil artifact while preserving believable eye appearance.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "remove-red-eye-from-photos",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "fix-perspective-in-phone-photos",
       "primaryKeyword": "fix perspective in phone photos",
       "relatedKeywords": [],
       "intent": "Choose rotation versus geometric transformation for architecture and interiors while controlling crop and proportion changes.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "fix-perspective-in-phone-photos",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "intentional-motion-blur-photography",
       "primaryKeyword": "intentional motion blur photography",
       "relatedKeywords": [],
       "intent": "Plan and evaluate deliberate movement effects rather than repair an accidentally blurry picture.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "intentional-motion-blur-photography",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
     },
     {
       "id": "selective-color-photo-effect",
       "primaryKeyword": "selective color photo effect",
       "relatedKeywords": [],
       "intent": "Keep one chosen object colored through an editable mask and distinguish object isolation from hue selection.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "selective-color-photo-effect",
       "validation": "Source-backed draft and distinct-intent review for the 2026-10-22 batch. Check deployment evidence before retrying.",
       "monthlySearchVolume": null,
-      "organicDifficulty": null
+      "organicDifficulty": null,
+      "deploymentEvidence": "Present in verified live main commit 537d79626cd1d868fe8d3d44f941fd1d91b1d6ab; Actions 39841685364 succeeded."
+    },
+    {
+      "id": "recover-deleted-iphone-photos",
+      "primaryKeyword": "recover deleted photos on iphone",
+      "relatedKeywords": [
+        "missing iphone photos",
+        "recently deleted photos iphone"
+      ],
+      "intent": "Recover or locate a missing item, distinguish recovery locations and understand hard limits.",
+      "status": "approved_for_publication",
+      "articleSlug": "recover-deleted-iphone-photos",
+      "validation": "Primary documentation and library overlap review; exact-query demand unmeasured.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-23-two-guides/batch.json"
+    },
+    {
+      "id": "iphone-photo-cutout-background",
+      "primaryKeyword": "iphone photo cutout",
+      "relatedKeywords": [
+        "copy subject iphone",
+        "remove background iphone photo"
+      ],
+      "intent": "Create and deliver a subject cutout, inspect selection edges and distinguish transparency from a flattened preview.",
+      "status": "approved_for_publication",
+      "articleSlug": "iphone-photo-cutout-background",
+      "validation": "Primary documentation and library overlap review; exact-query demand unmeasured.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-23-two-guides/batch.json"
     }
   ]
 }

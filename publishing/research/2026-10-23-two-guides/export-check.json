@@ -1,0 +1,28 @@
+{
+  "result": "PASS",
+  "sitemapRoutes": 67,
+  "newPages": [
+    {
+      "url": "https://meluvya.com/blog/recover-deleted-iphone-photos/",
+      "canonical": true,
+      "sitemap": true,
+      "directAnswer": true,
+      "sources": true,
+      "sharedCTA": true,
+      "schema": true,
+      "published": "2026-10-23"
+    },
+    {
+      "url": "https://meluvya.com/blog/iphone-photo-cutout-background/",
+      "canonical": true,
+      "sitemap": true,
+      "directAnswer": true,
+      "sources": true,
+      "sharedCTA": true,
+      "schema": true,
+      "published": "2026-10-23"
+    }
+  ],
+  "archives": 5,
+  "articles": 60
+}
