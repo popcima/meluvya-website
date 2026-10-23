@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "provider": "Free web search and official Google Photos Help",
+  "geography": "Worldwide English readers",
+  "period": null,
+  "monthlySearchVolume": null,
+  "organicDifficulty": null,
+  "primaryKeyword": "google photos archive vs locked folder",
+  "relatedKeywords": [
+    "does archiving photos hide them",
+    "google photos locked folder backup"
+  ],
+  "intent": "Choose a photo organization/access workflow and understand its recovery limits.",
+  "articleSlug": "google-photos-archive-vs-locked-folder",
+  "overlapReview": "Existing Google Photos guide compares compression and backup quality, not access or organization. Existing metadata guide covers embedded location, not folder visibility. Existing preservation guide supports this page without answering this Google-specific decision.",
+  "outline": [
+    "Choose the intended job",
+    "Archive organization and route",
+    "Locked Folder access/copy/backup limits",
+    "Harmless-sample rehearsal",
+    "Three-version portrait example"
+  ],
+  "sources": [
+    {
+      "title": "Google Photos: move photos to archive",
+      "url": "https://support.google.com/photos/answer/7362432?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Archive visibility, storage use, Android steps and unarchiving. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Google Photos: Locked Folder on iPhone and iPad",
+      "url": "https://support.google.com/photos/answer/10694388?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Authentication, backup warnings, sharing/editing limits and separate copies. Use the page’s platform selector for other devices; retrieved October 23, 2026."
+    }
+  ],
+  "sourceClaims": {
+    "7362432": "Archive remains in albums/search/folders and storage; Android archive/unarchive route.",
+    "10694388": "Authenticated access, exclusion from ordinary discovery, move out before edits/sharing, backup-off risks, iOS backup deletion on move, independent copies/recipient copies."
+  },
+  "editorialDecision": "Draft for independent review. Original checklist and example identified as suggestions; no hands-on testing or guaranteed protection claimed."
+}

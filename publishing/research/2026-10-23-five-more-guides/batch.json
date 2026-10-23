@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "476f950417c565a3986951817f3dae3bfa746447",
+  "request": "Add more blog posts",
+  "existingArticles": 60,
+  "plannedNewArticles": 5,
+  "dailyCeiling": 30,
+  "audience": {
+    "language": "English",
+    "geography": "Worldwide"
+  },
+  "metrics": {
+    "provider": "No exact-query metric provider available",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "period": null,
+    "retrievalDate": "2026-10-23",
+    "note": "Free primary-source research verifies usefulness and instructions, not high demand or low competition."
+  },
+  "searchConsoleEvidence": {
+    "record": "../2026-10-23-two-guides/batch.json",
+    "refreshedThisBatch": false,
+    "decision": "Earlier same-day observation has only 22 impressions and 2 clicks; four reported queries map to existing articles. No demand estimate or ranking claim inferred from this sample."
+  },
+  "skills": {
+    "claude-blog": "Official-source research, distinct-intent outlines, original practical guidance and independent AI review.",
+    "claude-seo": "Raw export, crawlability, canonical/schema/sitemap/pagination and mobile verification."
+  },
+  "pipeline": "Use repository Article TypeScript schema and existing production checks, as required by owner/project/skill adapter. No Markdown/PDF or arbitrary word-count expansion. Publication already authorized.",
+  "status": "approved_for_publication",
+  "indexing": "New articles enter the existing submitted sitemap automatically; no repeated indexing requests for unchanged URLs. Discovery is not proof of indexing.",
+  "publishedEarlierToday": 2,
+  "articlesAfterBatch": 65,
+  "publishedTodayAfterBatch": 7,
+  "slugs": [
+    "copy-paste-photo-edits-iphone",
+    "edit-portrait-focus-depth-iphone",
+    "merge-duplicate-iphone-photos",
+    "change-photo-date-time-iphone",
+    "google-photos-archive-vs-locked-folder"
+  ],
+  "sourceAccessNotes": [
+    "Google Archive primary-source content was retrieved by the lead agent. The independent reviewer encountered HTTP 429 on the same source and used the saved primary-source extract; no repeated attempt or access-control bypass."
+  ],
+  "images": "Five distinct existing licensed stock images reused with their exact responsive variants, credits and illustration captions. Provenance retained in publishing/image-sources.json.",
+  "editorialDecision": "Publish five distinct, practical guides after primary-source review and separate AI editorial review. Repeated Portrait-source summaries were shortened; iPhone compatibility remains explicit. No ranking, indexing, demand or performed-test claim.",
+  "reviewCorrections": [
+    "Changed ambiguous app removal to Google Photos app uninstallation.",
+    "Removed repeated Portrait comparison table and shortened metadata/quick answer; independent reviewer recount found 171 attributable words plus a small margin for labels within the main source allowance."
+  ],
+  "validation": {
+    "content": {
+      "result": "PASS",
+      "date": "2026-10-23",
+      "timezone": "Africa/Casablanca",
+      "totalArticles": 65,
+      "publishedToday": 7,
+      "remainingDailyCapacity": 23,
+      "baselineChecked": true,
+      "note": "Structural validation only; editorial review and demand research are separate."
+    },
+    "lint": "PASS: npm run lint",
+    "build": "PASS: SITE_URL=https://meluvya.com NEXT_PUBLIC_BASE_PATH= npm run build -- --webpack; static export",
+    "typecheck": "PASS: npm run typecheck after final build",
+    "seo": {
+      "result": "PASS",
+      "guides_linked_from_blog_page_one": 65,
+      "editorial_attribution": 65,
+      "visible_updated_dates": 3,
+      "indexing_and_rankings": "Not measured by this check"
+    },
+    "export": {
+      "result": "PASS",
+      "routes": 73,
+      "local_links_and_assets_checked": 3710,
+      "article_pages": 65,
+      "unique_canonicals_titles_descriptions": true,
+      "schema": "Article and Breadcrumb JSON-LD parses and matches visible titles"
+    },
+    "mobile": {
+      "browser": "Chrome, 390 × 844",
+      "pages": [
+        "google-photos-archive-vs-locked-folder",
+        "edit-portrait-focus-depth-iphone"
+      ],
+      "horizontalPageOverflow": false,
+      "comparisonTable": "480px table inside 356px horizontally scrollable container",
+      "images": "Primary images loaded with correct alternate text and stock credit",
+      "cta": "Both store buttons open coming-soon dialog. Escape closes it and restores focus to the invoking button."
+    },
+    "desktop": "Blog listing checked at 1352px; Page 6 navigation opens five remaining cards and Previous points to Page 5."
+  },
+  "deployment": "Pending commit, normal push and GitHub Actions/live verification. Check repository and remote before retrying."
+}

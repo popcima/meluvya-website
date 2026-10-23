@@ -30,6 +30,701 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "copy-paste-photo-edits-iphone",
+  "title": "How to copy and paste photo edits on iPhone",
+  "description": "Transfer an iPhone photo edit to a batch, check the result, preserve an earlier version and troubleshoot an unwanted change.",
+  "summary": "A practical trial-and-review workflow for transferring an edit in iPhone Photos.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "image": "blog/pexels-7129664-4k.webp",
+  "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7129664-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7129664-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7129664-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7129664-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Michael Burrows",
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+  },
+  "quickAnswer": "Use Copy Edits and Paste Edits in iPhone Photos to transfer selected adjustments. Try one destination before a batch, and preserve an existing finished edit before experimenting.",
+  "sections": [
+    {
+      "id": "prepare",
+      "title": "Keep a previous version before trying a batch",
+      "paragraphs": [
+        "Start with a finished source image and one destination you can easily identify. Avoid selecting a whole holiday or event before checking what transfers. If the destination already has an edit you like, preserve that version first.",
+        "Apple distinguishes Duplicate, which creates another library item, from Copy, which places the picture into another document. To retain a working alternative, open the destination and choose More → Duplicate. Copy Edits is a separate command for adjustments.",
+        "A useful trial uses two visibly different files: the source and a destination with a recognizable expression or background. This reduces the chance of mistaking the source for the pasted result. Keep your trial selection small enough to inspect every picture."
+      ]
+    },
+    {
+      "id": "copy-paste",
+      "title": "Transfer the edits in Photos",
+      "paragraphs": [
+        "The command paths follow Apple’s iOS 27 guide; select your installed version there if it differs."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Choose the source.",
+            "text": "Open the edited picture. Use More → Copy Edits, deselect unwanted adjustments and tap Copy."
+          },
+          {
+            "title": "Try one destination.",
+            "text": "Open the trial picture. Use More → Paste Edits."
+          },
+          {
+            "title": "Expand after checking.",
+            "text": "In the library, tap Select, mark the destinations and use More → Paste Edits."
+          }
+        ]
+      }
+    },
+    {
+      "id": "check-transfer",
+      "title": "Check what changed before expanding the selection",
+      "paragraphs": [
+        "Apple says Photos adapts exposure and white balance when matching. Do not expect identical numeric settings everywhere.",
+        "For the trial, choose one visible goal: a less intense color treatment, softer contrast, or a preferred filter. Compare that feature before checking the rest of the picture. A result that meets the color goal but loses useful context through an unwanted composition change is not ready for the batch.",
+        "For example, imagine editing several pictures of a friend holding a red umbrella. Inspect the umbrella, the face and the frame edges in the trial. Then examine the brightest and darkest pictures in the selection. Those checks test whether the transfer is useful; they do not require every photograph to become visually identical."
+      ]
+    },
+    {
+      "id": "troubleshoot",
+      "title": "Solve the immediate problem without repeating the whole batch",
+      "paragraphs": [],
+      "table": {
+        "headers": [
+          "Problem",
+          "Next check"
+        ],
+        "rows": [
+          [
+            "The expected command is missing",
+            "Check the source file and compare your screen with the Apple guide for your installed version."
+          ],
+          [
+            "Only some adjustments are useful",
+            "Narrow the intended change and repeat the single-picture trial before expanding it."
+          ],
+          [
+            "One destination looks wrong",
+            "Set it aside for individual correction instead of changing every acceptable picture again."
+          ],
+          [
+            "You cannot tell whether anything changed",
+            "Use a clearly identifiable trial image and compare the feature you intended to transfer."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "undo",
+      "title": "Revert only when you want the original back",
+      "paragraphs": [
+        "Apple’s iOS 27 undo guide uses More → Revert to Original for a saved edit. During editing, Undo and Redo can step through changes. Reverting restores the original; it is not a promise to recover a particular earlier finished version.",
+        "If you need to preserve the work that existed before this experiment, use the duplicate you made at the start. Keep the acceptable version clearly identified before cleaning up trial copies. With iCloud Photos, edits synchronize to your other devices, so another device should not be treated as an untouched alternative."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is copying edits the same as copying the photo?",
+      "answer": "No. Adjustment transfer, a new library version and placing an image into a document are different jobs. Choose the command for the job you intend."
+    },
+    {
+      "question": "Should I select every photo from the event?",
+      "answer": "Start with one trial, then a manageable group. Review a few difficult examples before expanding; a successful transfer on one picture does not establish that every destination looks right."
+    },
+    {
+      "question": "Can I use this to transfer a look from a screenshot?",
+      "answer": "A screenshot is a rendered picture, not a supplied set of editable adjustments. Ask for the editing settings or an appropriate editable source instead of treating its appearance as a copyable recipe."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: edit photos and videos — iOS 27",
+      "url": "https://support.apple.com/en-gb/guide/iphone/iphb08064d57/27/ios/27",
+      "note": "Copy/Paste Edits controls and automatic matching. Checked October 23, 2026."
+    },
+    {
+      "title": "Apple: duplicate and copy photos — iOS 27",
+      "url": "https://support.apple.com/en-ie/guide/iphone/iph1d6b0a5cf/27/ios/27",
+      "note": "Separate library versions versus copying an image. Checked October 23, 2026."
+    },
+    {
+      "title": "Apple: undo and revert photo edits — iOS 27",
+      "url": "https://support.apple.com/en-gb/guide/iphone/iph2413db0ab/27/ios/27",
+      "note": "Saved-edit reversion, undo and iCloud synchronization. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "consistent-editing-for-photo-set",
+    "edit-photos-without-losing-original",
+    "icloud-photos-sync-vs-backup"
+  ]
+},
+{
+  "slug": "edit-portrait-focus-depth-iphone",
+  "title": "How to change Portrait focus and background blur on iPhone",
+  "description": "Choose what you want a portrait to emphasize, find the appropriate iPhone controls, and compare the result before keeping the edit.",
+  "summary": "Decide what the picture should emphasize, then review one change at a time.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "image": "blog/pexels-10551192-4k.webp",
+  "imageAlt": "Woman resting her face on her hand with blurred lights behind her",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 45%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-10551192-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-10551192-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-10551192-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-10551192-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Marlon Alves",
+    "url": "https://www.pexels.com/photo/portrait-of-a-woman-at-night-10551192/"
+  },
+  "quickAnswer": "Open the original portrait in Photos and tap Edit. Check which controls the image offers before changing the subject or blur.",
+  "sections": [
+    {
+      "id": "check-support",
+      "title": "Separate three different Portrait capabilities",
+      "paragraphs": [
+        "The instructions here follow Apple’s iOS 27 documentation. Use the version selector in its guide for an older installation. A phone’s ability to capture portraits does not establish that every received image has the same editing options."
+      ]
+    },
+    {
+      "id": "change-focus",
+      "title": "Choose the subject before choosing blur strength",
+      "paragraphs": [
+        "Apple lists focus-point editing for iPhone 13 or later. In Photos, open the portrait, tap Edit, then tap the intended new subject. Inspect the change before tapping Done. Avoid choosing a subject that is already blurred or too distant.",
+        "For example, consider a picture with one person near the camera and a friend behind them. Decide whose expression the photo should emphasize. Try the other person, then compare at the same viewing size. If their face remains smeared, do not interpret a moved selection as proof of recovered detail.",
+        "Judge the whole story as well as the face. A different focus choice may turn a conversation into a portrait of one participant. Keep the version that communicates your intention, rather than choosing a subject simply because the interface lets you tap it."
+      ]
+    },
+    {
+      "id": "adjust-depth",
+      "title": "Adjust depth as a separate decision",
+      "paragraphs": [
+        "Use the Depth Control slider in the portrait’s Edit view, then save with Done. The original depth position is marked with a black dot.",
+        "Begin with the subject choice settled. Compare a restrained blur with a stronger version while keeping the crop and color unchanged. This makes the effect easier to evaluate without a new crop or brighter face distracting you.",
+        "Try a simple viewing check: read the picture as a small thumbnail, then examine the subject at a larger size. Does the background still explain where the person is? Does a recognizable place matter to the memory? There is no reason to erase useful context just because a stronger effect is available."
+      ]
+    },
+    {
+      "id": "photo-mode",
+      "title": "Check eligibility before converting a Photo-mode image",
+      "paragraphs": [
+        "Apple’s separate Photo-mode list includes the iPhone 15 family; iPhone 16, 16 Plus, 16 Pro and 16 Pro Max; and the listed newer models. It does not list iPhone 16e. Check your exact model in the linked list rather than assuming every newer phone has the same capability.",
+        "For an eligible image, choose Edit → Portrait, enable Portrait at the top, adjust the effect and save. The Portrait option must be available for that photo.",
+        "Apple’s capture guide ties later portrait editing to captured depth information, indicated by the Depth control in Camera. For a new attempt, inspect the saved photo while the scene is still available. Take a deliberate Portrait-mode alternative when appropriate instead of planning to convert an unverified file later."
+      ]
+    },
+    {
+      "id": "missing-controls",
+      "title": "When a control is missing, check the source first",
+      "paragraphs": [
+        "Open the camera-library original if you have it. If someone sent the picture, ask which phone and mode captured it and whether they can provide the original editable file. This is a more useful first step than repeatedly saving or converting the received picture.",
+        "Keep a note of what you actually see: no Portrait option, a working depth slider but no useful subject change, or a different result after transfer. Those are different problems and give support a clearer starting point than “Portrait does not work.”",
+        "If you prefer the ordinary rendering, Apple’s capture guide explains turning the Portrait effect off in Photos editing. Keep that comparison separate from resetting all your color and crop work. For a complete reset, Apple documents Revert to Original; preserve an earlier finished version before using it."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can changing the focus point repair camera shake?",
+      "answer": "Do not use it as a motion-repair plan. Choose another frame or retake if the intended face lacks usable detail in the original."
+    },
+    {
+      "question": "Do I need the strongest blur for a portrait?",
+      "answer": "No. Choose an amount that supports the person while retaining any setting that matters. A travel portrait can benefit from a readable landmark."
+    },
+    {
+      "question": "Why does a photo look better with the effect off?",
+      "answer": "The original scene may already separate the person well, or the effect may distract from important detail. Keeping the simpler version is a valid editing decision."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: edit Portrait mode photos — iOS 27",
+      "url": "https://support.apple.com/en-gb/guide/iphone/iph310a9a220/27/ios/27",
+      "note": "Depth, subject selection and eligible Photo-mode editing. Checked October 23, 2026."
+    },
+    {
+      "title": "Apple: models supporting portrait capture in Photo mode",
+      "url": "https://support.apple.com/en-gb/guide/iphone/aside/iphde3d86c94/27/ios/27",
+      "note": "Separate compatibility list for Photo-mode depth capture. Checked October 23, 2026."
+    },
+    {
+      "title": "Apple: take portraits — iOS 27",
+      "url": "https://support.apple.com/en-ie/guide/iphone/iphd7d3a91a2/27/ios/27",
+      "note": "Capture eligibility and effect toggle. Checked October 23, 2026."
+    },
+    {
+      "title": "Apple: undo and revert photo edits — iOS 27",
+      "url": "https://support.apple.com/en-gb/guide/iphone/iph2413db0ab/27/ios/27",
+      "note": "Full reset differs from changing an individual effect. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "portrait-mode-blur-mistakes",
+    "airdrop-photos-original-data",
+    "edit-photos-without-losing-original"
+  ]
+},
+{
+  "slug": "merge-duplicate-iphone-photos",
+  "title": "How to merge duplicate iPhone photos without losing a version you want",
+  "description": "Review duplicate sets in iPhone Photos, understand what merging keeps, and check the result before clearing deleted copies or processing a larger batch.",
+  "summary": "Use the Duplicates collection to review redundant copies while keeping intentional versions separate.",
+  "quickAnswer": "In iPhone Photos, open Collections → Utilities → Duplicates. Review a set, tap Merge, then confirm Merge [number] Items. Start with one set and inspect the surviving picture before processing more. If Duplicates is missing, allow the phone time to finish detection while locked and charging.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "sections": [
+    {
+      "id": "review-before-merge",
+      "title": "Decide whether the copies are actually redundant",
+      "paragraphs": [
+        "The menu route in this guide follows Apple’s iOS 26 documentation. Before touching Merge, decide what you want to retain. Two pictures of the same person can serve different purposes: one may be your source, another the crop chosen for a profile picture. Do not make a cleanup decision from tiny thumbnails alone.",
+        "For an important set, open the candidates and look at the expression, framing and any visible editing. If you deliberately need separate versions, preserve them before continuing. The goal is a useful library, not the lowest possible photo count."
+      ]
+    },
+    {
+      "id": "merge-one-set",
+      "title": "Merge one reviewed set first",
+      "paragraphs": [
+        "Apple’s duplicate guide gives the Collections → Utilities route. Older releases can group the same controls differently; use the guide for your installed version if the screen does not match."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Open Duplicates and choose one set you recognize. Compare the pictures before confirming anything."
+          },
+          {
+            "text": "Tap that set’s Merge control, read the confirmation and choose Merge [number] Items."
+          },
+          {
+            "text": "Open the remaining photograph in your library. Inspect the details that made this set worth keeping."
+          },
+          {
+            "text": "Continue with another small group only when the result matches your intention. Avoid starting with every detected set at once."
+          }
+        ]
+      }
+    },
+    {
+      "id": "what-merge-keeps",
+      "title": "Understand what Apple says merging retains",
+      "paragraphs": [
+        "Apple says Photos combines the highest image quality and relevant data into one retained picture; the other duplicates move to Recently Deleted. That describes how the merge handles the detected set. It does not decide which expression, crop or treatment you personally prefer.",
+        "For your review, pick three concrete details before merging: for example, the full frame, a readable sign and the version with the intended color. Check those same details afterward. This is a suggested verification routine, not a claim that we tested every file combination.",
+        "Leave Recently Deleted alone while you check the outcome. Apple provides a recovery period of up to 30 days unless you permanently delete the items sooner. Our recovery guide below covers restoring a removed copy. With iCloud Photos, deletion affects the synchronized library across devices; a second device showing the same library is not your separate safety copy."
+      ]
+    },
+    {
+      "id": "duplicates-missing",
+      "title": "If the Duplicates collection does not appear",
+      "paragraphs": [
+        "Apple says detection requires the iPhone to be locked and connected to power. Indexing and duplicate detection can take a few days, depending on library size and background activity. The collection appears when eligible duplicates have been identified.",
+        "After a large import, give that process time rather than repeatedly importing the same files to make a collection appear. Check Photos for an indexing status, then leave the phone charging and locked when convenient. An absent collection does not establish that you personally want to keep every similar-looking picture.",
+        "If your goal is choosing the best expression from a series, use a deliberate photo-selection workflow. Duplicate detection and judging a set of different moments are different jobs."
+      ]
+    },
+    {
+      "id": "cleanup-boundary",
+      "title": "Set a stopping point for the cleanup",
+      "paragraphs": [
+        "Work through one recognizable event or import at a time. Keep a short note of the batch you reviewed, especially if the library contains someone else’s family pictures. Stop when you reach versions whose purpose you cannot identify.",
+        "Before a large cleanup, verify that your independent saved copies open and contain what you expect. Do not assume fewer thumbnails prove that every important version survived. A small reviewed batch gives you a clearer result to check than a whole-library action followed by uncertainty."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I merge several duplicate sets at once?",
+      "answer": "Yes. Apple documents Select, followed by selecting sets or Select All, then Merge. Review the candidates first; using the broadest selection is optional."
+    },
+    {
+      "question": "Will merging improve a blurry original?",
+      "answer": "Do not use duplicate cleanup as an image-restoration tool. Inspect the retained picture for the detail you need; a tidier library is not evidence of newly captured detail."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: merge duplicate photos, iOS 26 guide",
+      "url": "https://support.apple.com/guide/iphone/merge-duplicate-photos-and-videos-iph1978d9c23/26/ios/26",
+      "note": "Version-specific collection route and merge confirmation. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Apple: delete photos on iPhone or iPad",
+      "url": "https://support.apple.com/en-us/104967",
+      "note": "What merging retains, batch selection, Recently Deleted and synchronized deletion. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Apple: if the Duplicates album is missing",
+      "url": "https://support.apple.com/en-us/102260",
+      "note": "Indexing, charging/locking requirements and detection timing. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "recover-deleted-iphone-photos",
+    "icloud-photos-sync-vs-backup",
+    "iphone-burst-photos-select-best-frame"
+  ],
+  "image": "blog/pexels-30861211-4k.webp",
+  "imageAlt": "Camera beside a laptop displaying photographs for review",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-30861211-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-30861211-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-30861211-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-30861211-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Ebahir",
+    "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "change-photo-date-time-iphone",
+  "title": "How to change a photo’s date and time on iPhone",
+  "description": "Correct a saved photo’s capture date, check the library sort order, and verify a small batch before changing a larger collection on iPhone.",
+  "summary": "Fix the stored date when you have a reliable reference, and check the viewing order before assuming the correction failed.",
+  "quickAnswer": "In Photos, open the picture and choose More → Adjust Date & Time. Set the date and time, then tap Adjust. Verify the information afterward; sorting is a separate choice.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "sections": [
+    {
+      "id": "check-the-reference",
+      "title": "Establish the date before changing it",
+      "paragraphs": [
+        "Begin with a reference you can explain: a calendar entry, a message sent during the event, or a clearly dated original. Record what the photo currently shows and what you intend to change. This makes an accidental correction easier to spot.",
+        "For a travel picture, distinguish the day at the photographed location from the day at home. A flight across midnight can make a remembered date ambiguous. Do not apply one guessed correction to an entire trip just because one picture looks out of order.",
+        "For an old scanned print, you may know the year but not the precise day. Avoid presenting an invented exact time as historical evidence. Keep the uncertainty in your notes; a convenient library position and an established capture date are different things."
+      ]
+    },
+    {
+      "id": "correct-one-photo",
+      "title": "Correct and verify one picture",
+      "paragraphs": [
+        "These controls follow Apple’s iOS 26 guide. On another release, check its matching documentation if the menus differ."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Open the intended picture in Photos. Confirm the scene, rather than choosing a similar thumbnail."
+          },
+          {
+            "text": "Open More, select Adjust Date & Time, update the calendar and clock, then tap Adjust."
+          },
+          {
+            "text": "Swipe up on the photo or open Info to inspect the stored date again."
+          },
+          {
+            "text": "Compare it with your reference and check neighboring pictures from the same event. Stop if the new sequence no longer makes sense."
+          }
+        ]
+      }
+    },
+    {
+      "id": "sort-order",
+      "title": "A changed date may not change the view you are checking",
+      "paragraphs": [
+        "Apple’s iOS 26 sorting guide distinguishes Recently Added from Date Captured. The former organizes by arrival in the library; the latter uses when the photo was taken. Open the library’s Sort and Filter control and choose Sort by Date Captured when checking a chronological correction.",
+        "Consider a photograph from an older holiday that you imported today. Its recent arrival and its older capture date can both be correct. If your only aim is seeing older pictures in their chronological place, check the sort option before rewriting any dates."
+      ],
+      "table": {
+        "headers": [
+          "What you observe",
+          "Next check"
+        ],
+        "rows": [
+          [
+            "The information panel shows the intended date, but the picture remains near new imports",
+            "Check whether you are viewing Recently Added."
+          ],
+          [
+            "Only one photo seems wrong within an otherwise sensible sequence",
+            "Compare that item with your reference before selecting the whole event."
+          ],
+          [
+            "A received copy has a different date from your library item",
+            "Inspect the actual delivered file and the sharing route separately."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "small-batch",
+      "title": "Handle batches and reversals deliberately",
+      "paragraphs": [
+        "Apple supports selecting multiple photos before using Adjust Date & Time. Its guide also documents restoring an item’s original value through More → Adjust Date & Time → Revert.",
+        "Before changing many pictures, try two unimportant examples with different recorded times. Note both original values, make the intended adjustment, then inspect each result. This proposed rehearsal checks your actual interface without assuming that every selection should receive one identical timestamp.",
+        "For a mixed collection, separate pictures by the correction they need. An incorrect camera clock, an undated scan and a downloaded screenshot do not share the same evidence. Keep uncertain items out of a batch whose dates you can establish confidently."
+      ]
+    },
+    {
+      "id": "record-and-share",
+      "title": "Keep context and check the copy you deliver",
+      "paragraphs": [
+        "Apple’s information panel includes a caption field. A note such as “Date corrected from the event invitation” can preserve the reason for your decision. Avoid adding private details to a caption you may later share.",
+        "Apple says iCloud Photos keeps library changes up to date across devices. Treat a metadata correction as a library change to review, rather than assuming it stays on one phone. Our sync guide explains the separate-backup question.",
+        "If another person needs the corrected information, send a harmless example through the intended route and inspect the received copy. A corrected display in your library does not verify what another application received. Retain the original and your reference when accurate chronology matters."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does this remove a date printed visibly on the picture?",
+      "answer": "No. This workflow adjusts stored photo information. Numbers visible within the image are a separate image-editing task; changing the information panel does not erase them."
+    },
+    {
+      "question": "Does a corrected timestamp prove when a photo was taken?",
+      "answer": "No. It records an adjustment, not independent proof of the event. Keep the source of the correction and distinguish confirmed information from an estimate."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: photo and video information, iOS 26 guide",
+      "url": "https://support.apple.com/guide/iphone/see-photo-and-video-information-iph0edb9c18f/26/ios/26",
+      "note": "Metadata controls, iOS 26. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Apple: sort and filter the library, iOS 26 guide",
+      "url": "https://support.apple.com/guide/iphone/sort-and-filter-the-photo-library-iph2e66e2f2c/26/ios/26",
+      "note": "Recently Added versus Date Captured and the sorting control. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Apple: set up and use iCloud Photos",
+      "url": "https://support.apple.com/en-us/108782",
+      "note": "General synchronization of library changes; this guide does not claim that every export preserves adjusted timestamps. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "remove-location-from-iphone-photos",
+    "icloud-photos-sync-vs-backup",
+    "airdrop-photos-original-data"
+  ],
+  "image": "blog/pexels-23203338-4k.webp",
+  "imageAlt": "Green mountain ridges beneath a blue sky",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-23203338-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-23203338-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-23203338-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-23203338-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Ella Ragasa",
+    "url": "https://www.pexels.com/photo/panorama-of-a-mountain-landscape-23203338/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "google-photos-archive-vs-locked-folder",
+  "title": "Google Photos Archive vs Locked Folder: which should you use?",
+  "description": "Choose between decluttering and restricted access in Google Photos. Check backup, separate copies and your next editing step before moving pictures.",
+  "summary": "Choose a place for your photos based on whether you want a cleaner library view, restricted access or a reliable recovery copy.",
+  "published": "2026-10-23",
+  "modified": "2026-10-23",
+  "quickAnswer": "Use Archive to tidy the main Photos view while keeping pictures accessible in search and existing albums. Use Locked Folder when access should require authentication. Neither choice replaces a deliberate backup decision. Before moving important images, check which copies exist and how you will retrieve them.",
+  "sections": [
+    {
+      "id": "pick-the-job",
+      "title": "Decide what problem you are solving",
+      "paragraphs": [
+        "Start with a sentence such as “I want receipts out of my everyday photo grid” or “I want this portrait behind an access check.” These are different goals. Making a grid look tidier does not establish that a picture is private or independently backed up."
+      ],
+      "table": {
+        "headers": [
+          "Your goal",
+          "Start with",
+          "Check before proceeding"
+        ],
+        "rows": [
+          [
+            "Less clutter during everyday browsing",
+            "Archive",
+            "Will you remember where to find the picture later?"
+          ],
+          [
+            "An authentication step before viewing",
+            "Locked Folder",
+            "Who can unlock your device or account, and is the folder backed up?"
+          ],
+          [
+            "Protection from accidental loss",
+            "A verified preservation plan",
+            "Is there a usable copy outside the workflow you may change?"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "archive",
+      "title": "Archive is organization, not a private vault",
+      "paragraphs": [
+        "Google documents that archived pictures remain available in search, existing albums and device folders. Archiving also does not remove their storage usage. It is useful for material you want to keep without repeatedly browsing past it.",
+        "In the Google Photos Android app, select the picture and choose More → Archive. Find it again under Collections → Archive; select it and use More → Unarchive to return it. Check the platform selector in Google’s linked instructions if your layout differs.",
+        "Try this first with an unimportant screenshot. Locate it again before reorganizing a large set. That small rehearsal helps you decide whether Archive matches your browsing habits without making your important pictures the experiment."
+      ]
+    },
+    {
+      "id": "locked-folder",
+      "title": "Check access, backup and copies before using Locked Folder",
+      "paragraphs": [
+        "Google’s Locked Folder documentation describes authenticated access and exclusion from the ordinary grid, search and albums. You must move an item out to edit or share it. Anyone with the relevant unlock credentials may still be able to access it.",
+        "Backup deserves a separate check: Google warns that unbacked-up Locked Folder items can be lost if the device is lost or the Google Photos app is uninstalled. On iPhone, moving an item with Locked Folder backup off removes its Google Photos backup. Review the setting before moving an important picture.",
+        "Moving one item does not also move its edited copies or copies already saved by recipients. Check those locations separately. These limits are why a single “move” action should not be your entire privacy or preservation plan."
+      ]
+    },
+    {
+      "id": "small-rehearsal",
+      "title": "Use a harmless sample to check your workflow",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Name the version you need.",
+            "text": "Decide whether you are organizing the camera original, an edited portrait or an export. Give yourself a way to distinguish them before acting."
+          },
+          {
+            "title": "Read the current backup state.",
+            "text": "Pause if you cannot tell whether your chosen destination is backed up. Use the official instructions below for your device; do not infer it from another folder’s status."
+          },
+          {
+            "title": "Verify retrieval.",
+            "text": "Use a non-sensitive sample to rehearse finding and reopening the picture after moving it. Confirm you are viewing the intended version."
+          },
+          {
+            "title": "Plan the next edit.",
+            "text": "Decide where an editor will save its result and where you will keep the finished version. Repeat your access and backup checks for that new file."
+          }
+        ]
+      },
+      "paragraphs": []
+    },
+    {
+      "id": "editorial-example",
+      "title": "Example: an original portrait and two exports",
+      "paragraphs": [
+        "Suppose you keep a full portrait, a square profile crop and a smaller copy sent to a friend. Treat them as three separate records in your checklist. Record where each is stored, why you kept it and which version you intend to use next. This is a suggested organizing exercise, not a report of a device test.",
+        "If the purpose is simply reducing visual clutter, start with the least disruptive arrangement. If access restrictions matter, assess all three locations instead of judging the whole collection from one protected thumbnail. If recovery matters most, verify the retained file before undertaking a cleanup."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does Archive free up Google Photos storage?",
+      "answer": "No. Google says archived items still count toward storage. Treat archiving as a browsing choice, then review storage separately if space is the problem."
+    },
+    {
+      "question": "What should I check before switching phones?",
+      "answer": "Make a list of the locations holding photos you care about and verify their backup and retrieval status. Do this before removing apps, clearing data or resetting the old device."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos: move photos to archive",
+      "url": "https://support.google.com/photos/answer/7362432?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Archive visibility, storage use, Android steps and unarchiving. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Google Photos: Locked Folder on iPhone and iPad",
+      "url": "https://support.google.com/photos/answer/10694388?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Authentication, backup warnings, sharing/editing limits and separate copies. Use the page’s platform selector for other devices; retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "google-photos-original-vs-storage-saver",
+    "edit-photos-without-losing-original",
+    "remove-location-from-iphone-photos"
+  ],
+  "image": "blog/pexels-16313502-4k.webp",
+  "imageAlt": "Photo-editing workspace with a laptop, camera, and drawing tablet",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-16313502-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-16313502-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-16313502-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-16313502-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Kawê Rodrigues",
+    "url": "https://www.pexels.com/photo/woman-editing-photos-on-laptop-16313502/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
   "slug": "recover-deleted-iphone-photos",
   "title": "How to recover deleted or missing photos on iPhone",
   "description": "Check Recently Deleted, Hidden and Recovered in the right order. Learn the recovery limits and why an iCloud device backup may not contain your photos.",

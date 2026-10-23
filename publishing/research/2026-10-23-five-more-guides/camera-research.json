@@ -1,0 +1,150 @@
+{
+  "retrieved": "2026-10-23",
+  "language": "English",
+  "geography": "Worldwide editorial audience; no country-specific metric dataset",
+  "workflow": "Installed claude-blog how-to workflow adapted to the project Article JSON pipeline. Parent handles independent review and production checks.",
+  "libraryReview": {
+    "count": 60,
+    "method": "Read the supplied JSON library, compare all titles and direct answers, and inspect nearest existing guides in detail. No search-volume inference from query results."
+  },
+  "metrics": {
+    "provider": null,
+    "period": null,
+    "retrieved": "2026-10-23",
+    "searchVolume": null,
+    "keywordDifficulty": null,
+    "reason": "No accessible article-specific keyword dataset. Web research establishes procedures and useful intent, not volume or ranking opportunity."
+  },
+  "sources": [
+    {
+      "id": "copy",
+      "url": "https://support.apple.com/en-gb/guide/iphone/iphb08064d57/27/ios/27",
+      "provider": "Apple Support",
+      "retrieved": "2026-10-23",
+      "version": "iOS 27",
+      "evidenceLocation": "Copy and paste edits to multiple photos; items 2–7 and following Note",
+      "supports": "Selective transfer and adaptive matching.",
+      "limitations": "Do not promise identical numeric settings or every third-party adjustment."
+    },
+    {
+      "id": "duplicate",
+      "url": "https://support.apple.com/en-ie/guide/iphone/iph1d6b0a5cf/27/ios/27",
+      "provider": "Apple Support",
+      "retrieved": "2026-10-23",
+      "version": "iOS 27",
+      "evidenceLocation": "Duplicate a photo or video; Copy a photo",
+      "supports": "Duplicate versus image Copy.",
+      "limitations": "Duplicate is not an independent off-device backup."
+    },
+    {
+      "id": "undo",
+      "url": "https://support.apple.com/en-gb/guide/iphone/iph2413db0ab/27/ios/27",
+      "provider": "Apple Support",
+      "retrieved": "2026-10-23",
+      "version": "iOS 27",
+      "evidenceLocation": "Undo and redo; Revert an edited photo; introduction",
+      "supports": "Edit-step undo, original reset, iCloud synchronization.",
+      "limitations": "Revert is not recovery of any arbitrary previous finished edit."
+    },
+    {
+      "id": "portrait",
+      "url": "https://support.apple.com/en-gb/guide/iphone/iph310a9a220/27/ios/27",
+      "provider": "Apple Support",
+      "retrieved": "2026-10-23",
+      "version": "iOS 27",
+      "evidenceLocation": "Adjust background blur; Apply portrait effects; Change focus point",
+      "supports": "Depth slider, supported refocus and Photo-mode editing controls.",
+      "limitations": "Focus section explicitly says iPhone 13 or later and excludes an already blurred/distant target."
+    },
+    {
+      "id": "models",
+      "url": "https://support.apple.com/en-gb/guide/iphone/aside/iphde3d86c94/27/ios/27",
+      "provider": "Apple Support",
+      "retrieved": "2026-10-23",
+      "version": "iOS 27",
+      "evidenceLocation": "Entire compatibility list",
+      "supports": "Named iPhone 15/16 models; iPhone 16e absent.",
+      "limitations": "This list concerns Photo-mode portrait capture, not all Portrait features."
+    },
+    {
+      "id": "capture",
+      "url": "https://support.apple.com/en-ie/guide/iphone/iphd7d3a91a2/27/ios/27",
+      "provider": "Apple Support",
+      "retrieved": "2026-10-23",
+      "version": "iOS 27",
+      "evidenceLocation": "Take a portrait, text after capture steps",
+      "supports": "Depth capture indication and post-capture Portrait toggle.",
+      "limitations": "Do not promise depth editing for every ordinary photo or flattened transfer."
+    }
+  ],
+  "articles": [
+    {
+      "slug": "copy-paste-photo-edits-iphone",
+      "primaryKeyword": "copy and paste photo edits iPhone",
+      "keywordVariants": [
+        "batch edit photos iPhone",
+        "iPhone Photos Copy Edits",
+        "paste edits multiple photos iPhone"
+      ],
+      "intent": "Operate built-in selective copy/paste controls, trial destinations and preserve a prior version.",
+      "topic": "editing",
+      "outline": [
+        "Keep a previous version before trying a batch",
+        "Transfer the edits in Photos",
+        "Check what changed before expanding the selection",
+        "Solve the immediate problem without repeating the whole batch",
+        "Revert only when you want the original back"
+      ],
+      "sourceIds": [
+        "copy",
+        "duplicate",
+        "undo"
+      ],
+      "overlap": {
+        "nearest": "consistent-editing-for-photo-set",
+        "decision": "New URL justified: existing guide covers visual consistency and a generic Lightroom-supported strategy, without iPhone command paths, Copy versus Duplicate, adaptive transfer or rollback controls. New guide stays operational."
+      },
+      "originalContribution": "Small identifiable trial, umbrella example, diagnostic table and prior-version decision; suggestions rather than performed tests.",
+      "images": "All image fields reused unchanged from consistent-editing-for-photo-set; existing licensed stock and disclosure retained.",
+      "editorialDecision": "Ready for independent review. Official versioned sources; no quantitative demand or Meluvya feature claim."
+    },
+    {
+      "slug": "edit-portrait-focus-depth-iphone",
+      "primaryKeyword": "change Portrait focus depth iPhone",
+      "keywordVariants": [
+        "edit iPhone portrait background blur",
+        "change focus after taking photo iPhone",
+        "Portrait option missing iPhone photo"
+      ],
+      "intent": "Locate and distinguish depth strength, focus-point selection and eligible Photo-mode conversion.",
+      "topic": "camera",
+      "outline": [
+        "Separate three different Portrait capabilities",
+        "Choose the subject before choosing blur strength",
+        "Adjust depth as a separate decision",
+        "Check eligibility before converting a Photo-mode image",
+        "When a control is missing, check the source first"
+      ],
+      "sourceIds": [
+        "portrait",
+        "models",
+        "capture",
+        "undo"
+      ],
+      "overlap": {
+        "nearest": "portrait-mode-blur-mistakes",
+        "decision": "New URL justified: existing guide diagnoses boundary artifacts. New guide focuses on commands, separate capability checks and original-file troubleshooting; it does not repeat the hair/glasses edge checklist."
+      },
+      "originalContribution": "Subject-first decision exercise, thumbnail-versus-context comparison and precise missing-control report; suggestions rather than measured results.",
+      "images": "All image fields reused unchanged from portrait-mode-blur-mistakes; existing licensed stock and disclosure retained.",
+      "editorialDecision": "Ready for independent review. Separate model lists and version caveat prevent a broad unsupported compatibility promise."
+    }
+  ],
+  "sourceUse": "No copied source passages. Technical paraphrases kept concise; most guidance consists of original workflow proposals and examples. No fabricated first-hand tests.",
+  "pending": [
+    "Parent independent editorial review",
+    "Current-day cap and production validation",
+    "Shared CTA, render and link checks",
+    "Deployment verification"
+  ]
+}

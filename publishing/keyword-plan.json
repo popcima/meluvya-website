@@ -832,12 +832,13 @@
         "recently deleted photos iphone"
       ],
       "intent": "Recover or locate a missing item, distinguish recovery locations and understand hard limits.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "recover-deleted-iphone-photos",
       "validation": "Primary documentation and library overlap review; exact-query demand unmeasured.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
-      "researchRecord": "2026-10-23-two-guides/batch.json"
+      "researchRecord": "2026-10-23-two-guides/batch.json",
+      "deploymentEvidence": "Present in verified live main commit 476f950417c565a3986951817f3dae3bfa746447; Actions 39947166072 succeeded."
     },
     {
       "id": "iphone-photo-cutout-background",
@@ -847,12 +848,92 @@
         "remove background iphone photo"
       ],
       "intent": "Create and deliver a subject cutout, inspect selection edges and distinguish transparency from a flattened preview.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "iphone-photo-cutout-background",
       "validation": "Primary documentation and library overlap review; exact-query demand unmeasured.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
-      "researchRecord": "2026-10-23-two-guides/batch.json"
+      "researchRecord": "2026-10-23-two-guides/batch.json",
+      "deploymentEvidence": "Present in verified live main commit 476f950417c565a3986951817f3dae3bfa746447; Actions 39947166072 succeeded."
+    },
+    {
+      "id": "copy-paste-photo-edits-iphone",
+      "primaryKeyword": "copy and paste photo edits iPhone",
+      "relatedKeywords": [
+        "batch edit photos iPhone",
+        "iPhone Photos Copy Edits",
+        "paste edits multiple photos iPhone"
+      ],
+      "intent": "Operate built-in selective copy/paste controls, trial destinations and preserve a prior version.",
+      "status": "approved_for_publication",
+      "articleSlug": "copy-paste-photo-edits-iphone",
+      "validation": "Primary-source and independent editorial review passed; production build, content, lint, typecheck, export, SEO and representative mobile/CTA checks passed. Deployment must be verified before treating a retry as new work.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-23-five-more-guides/batch.json"
+    },
+    {
+      "id": "edit-portrait-focus-depth-iphone",
+      "primaryKeyword": "change Portrait focus depth iPhone",
+      "relatedKeywords": [
+        "edit iPhone portrait background blur",
+        "change focus after taking photo iPhone",
+        "Portrait option missing iPhone photo"
+      ],
+      "intent": "Locate and distinguish depth strength, focus-point selection and eligible Photo-mode conversion.",
+      "status": "approved_for_publication",
+      "articleSlug": "edit-portrait-focus-depth-iphone",
+      "validation": "Primary-source and independent editorial review passed; production build, content, lint, typecheck, export, SEO and representative mobile/CTA checks passed. Deployment must be verified before treating a retry as new work.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-23-five-more-guides/batch.json"
+    },
+    {
+      "id": "merge-duplicate-iphone-photos",
+      "primaryKeyword": "merge duplicate iPhone photos",
+      "relatedKeywords": [
+        "remove duplicate photos iPhone",
+        "iPhone Duplicates album missing",
+        "what happens when you merge duplicate photos"
+      ],
+      "intent": "Review and consolidate detected redundant photo copies without confusing cleanup with choosing among different photographs.",
+      "status": "approved_for_publication",
+      "articleSlug": "merge-duplicate-iphone-photos",
+      "validation": "Primary-source and independent editorial review passed; production build, content, lint, typecheck, export, SEO and representative mobile/CTA checks passed. Deployment must be verified before treating a retry as new work.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-23-five-more-guides/batch.json"
+    },
+    {
+      "id": "change-photo-date-time-iphone",
+      "primaryKeyword": "change photo date and time iPhone",
+      "relatedKeywords": [
+        "correct photo date iPhone",
+        "iPhone photos wrong chronological order",
+        "adjust date time multiple photos iPhone"
+      ],
+      "intent": "Correct known inaccurate stored capture information and distinguish that task from sorting by import date.",
+      "status": "approved_for_publication",
+      "articleSlug": "change-photo-date-time-iphone",
+      "validation": "Primary-source and independent editorial review passed; production build, content, lint, typecheck, export, SEO and representative mobile/CTA checks passed. Deployment must be verified before treating a retry as new work.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-23-five-more-guides/batch.json"
+    },
+    {
+      "id": "google-photos-archive-vs-locked-folder",
+      "primaryKeyword": "google photos archive vs locked folder",
+      "relatedKeywords": [
+        "does archiving photos hide them",
+        "google photos locked folder backup"
+      ],
+      "intent": "Choose a photo organization/access workflow and understand its recovery limits.",
+      "status": "approved_for_publication",
+      "articleSlug": "google-photos-archive-vs-locked-folder",
+      "validation": "Primary-source and independent editorial review passed; production build, content, lint, typecheck, export, SEO and representative mobile/CTA checks passed. Deployment must be verified before treating a retry as new work.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "researchRecord": "2026-10-23-five-more-guides/batch.json"
     }
   ]
 }

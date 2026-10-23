@@ -1,0 +1,193 @@
+[
+  {
+    "slug": "merge-duplicate-iphone-photos",
+    "date": "2026-10-23",
+    "language": "en",
+    "geography": "Worldwide",
+    "provider": "Free web search and official Apple documentation",
+    "period": "Documentation retrieved 2026-10-23; no search-demand measurement period",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsNote": "No exact-query metrics available. Search results verify documentation, not high volume or low competition.",
+    "primaryKeyword": "merge duplicate iPhone photos",
+    "relatedKeywords": [
+      "remove duplicate photos iPhone",
+      "iPhone Duplicates album missing",
+      "what happens when you merge duplicate photos"
+    ],
+    "intent": "Review and consolidate detected redundant photo copies without confusing cleanup with choosing among different photographs.",
+    "overlapReview": "Library of 60 reviewed. The recovery guide restores missing items; the iCloud guide explains synchronization; the Burst guide selects moments. None covers Duplicates detection, merge retention or candidate review. Recovery and backup are brief linked safeguards here, not repeated tutorials.",
+    "originalContribution": "Pre-merge three-detail review, one-set verification, deliberate stopping point and distinction between redundant copies and intentional versions.",
+    "template": "how-to-guide adapted to existing Article JSON; no length quota",
+    "surfaces": [
+      "Owned site",
+      "Search results",
+      "Answer retrieval"
+    ],
+    "outline": [
+      "Decide whether the copies are actually redundant",
+      "Merge one reviewed set first",
+      "Understand what Apple says merging retains",
+      "If the Duplicates collection does not appear",
+      "Set a stopping point for the cleanup"
+    ],
+    "sources": [
+      {
+        "title": "Apple: merge duplicate photos, iOS 26 guide",
+        "url": "https://support.apple.com/guide/iphone/merge-duplicate-photos-and-videos-iph1978d9c23/26/ios/26",
+        "note": "Version-specific collection route and merge confirmation. Retrieved October 23, 2026.",
+        "retrieved": "2026-10-23",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Apple: delete photos on iPhone or iPad",
+        "url": "https://support.apple.com/en-us/104967",
+        "note": "What merging retains, batch selection, Recently Deleted and synchronized deletion. Retrieved October 23, 2026.",
+        "retrieved": "2026-10-23",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Apple: if the Duplicates album is missing",
+        "url": "https://support.apple.com/en-us/102260",
+        "note": "Indexing, charging/locking requirements and detection timing. Retrieved October 23, 2026.",
+        "retrieved": "2026-10-23",
+        "sourceType": "primary documentation"
+      }
+    ],
+    "claimEvidence": [
+      {
+        "url": "https://support.apple.com/guide/iphone/merge-duplicate-photos-and-videos-iph1978d9c23/26/ios/26",
+        "supportedClaims": [
+          "iOS 26 Collections → Utilities → Duplicates; Merge and confirmation."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/en-us/104967",
+        "supportedClaims": [
+          "Highest image quality/relevant data retained; other duplicates enter Recently Deleted.",
+          "Batch selection is available; recovery is time-limited and deletion synchronizes with iCloud Photos."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/en-us/102260",
+        "supportedClaims": [
+          "Detection requires locked device and power; indexing/detection may take days.",
+          "The collection appears after duplicates are found."
+        ]
+      }
+    ],
+    "sourceBudgetReview": {
+      "mergeGuide": "Under 200 derived words across direct answer and steps.",
+      "deleteSupport": "Under 200 derived words across retention, short recovery caution, batch FAQ and research claims.",
+      "missingDuplicates": "Under 200 derived words including direct answer and troubleshooting."
+    },
+    "versionGuidance": "Explicit iOS 26 documentation URLs used for interface paths; unversioned support pages only for separately checked general behavior. No rolling iOS 27 controls copied.",
+    "editorialDecision": "approve_draft_pending_independent_review_and_parent_publication_checks",
+    "editorialReview": "Author checked scope, primary evidence, related slugs and retained image metadata. Suggested routines are not claimed as performed tests. No Meluvya capabilities, rankings or demand fabricated.",
+    "validationPending": [
+      "Independent editorial review",
+      "Parent production content/lint/build/type/export/SEO checks",
+      "Shared CTA, mobile and live deployment verification"
+    ],
+    "imageReuse": {
+      "fromArticle": "airdrop-photos-original-data",
+      "allImageFieldsRetainedExactly": true,
+      "illustrationOnly": true
+    }
+  },
+  {
+    "slug": "change-photo-date-time-iphone",
+    "date": "2026-10-23",
+    "language": "en",
+    "geography": "Worldwide",
+    "provider": "Free web search and official Apple documentation",
+    "period": "Documentation retrieved 2026-10-23; no search-demand measurement period",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsNote": "No exact-query metrics available. Search results verify documentation, not high volume or low competition.",
+    "primaryKeyword": "change photo date and time iPhone",
+    "relatedKeywords": [
+      "correct photo date iPhone",
+      "iPhone photos wrong chronological order",
+      "adjust date time multiple photos iPhone"
+    ],
+    "intent": "Correct known inaccurate stored capture information and distinguish that task from sorting by import date.",
+    "overlapReview": "Library of 60 reviewed. The existing location guide concerns sharing privacy and geotags; recovery concerns missing items; the AirDrop guide concerns transfer data. No guide covers date/time correction, reversal and verifying capture-date order. These broader topics are linked, not retaught.",
+    "originalContribution": "Reference-first correction log, travel-midnight ambiguity, two-item batch rehearsal without assuming undocumented offset behavior, and capture-date versus import-date diagnosis.",
+    "template": "how-to-guide adapted to existing Article JSON; no length quota",
+    "surfaces": [
+      "Owned site",
+      "Search results",
+      "Answer retrieval"
+    ],
+    "outline": [
+      "Establish the date before changing it",
+      "Correct and verify one picture",
+      "A changed date may not change the view you are checking",
+      "Handle batches and reversals deliberately",
+      "Keep context and check the copy you deliver"
+    ],
+    "sources": [
+      {
+        "title": "Apple: photo and video information, iOS 26 guide",
+        "url": "https://support.apple.com/guide/iphone/see-photo-and-video-information-iph0edb9c18f/26/ios/26",
+        "note": "Metadata controls, iOS 26. Retrieved October 23, 2026.",
+        "retrieved": "2026-10-23",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Apple: sort and filter the library, iOS 26 guide",
+        "url": "https://support.apple.com/guide/iphone/sort-and-filter-the-photo-library-iph2e66e2f2c/26/ios/26",
+        "note": "Recently Added versus Date Captured and the sorting control. Retrieved October 23, 2026.",
+        "retrieved": "2026-10-23",
+        "sourceType": "primary documentation"
+      },
+      {
+        "title": "Apple: set up and use iCloud Photos",
+        "url": "https://support.apple.com/en-us/108782",
+        "note": "General synchronization of library changes; this guide does not claim that every export preserves adjusted timestamps. Retrieved October 23, 2026.",
+        "retrieved": "2026-10-23",
+        "sourceType": "primary documentation"
+      }
+    ],
+    "claimEvidence": [
+      {
+        "url": "https://support.apple.com/guide/iphone/see-photo-and-video-information-iph0edb9c18f/26/ios/26",
+        "supportedClaims": [
+          "iOS 26 More → Adjust Date & Time; calendar/clock and Adjust.",
+          "Info inspection, multi-selection, Revert and caption field."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/guide/iphone/sort-and-filter-the-photo-library-iph2e66e2f2c/26/ios/26",
+        "supportedClaims": [
+          "Recently Added and Date Captured use different ordering; Sort and Filter provides the choice."
+        ]
+      },
+      {
+        "url": "https://support.apple.com/en-us/108782",
+        "supportedClaims": [
+          "iCloud Photos keeps library changes up to date across devices."
+        ]
+      }
+    ],
+    "sourceBudgetReview": {
+      "photoInformationGuide": "Controls summarized concisely within the source allowance. Reference selection, uncertainty, batch rehearsal and delivered-copy review are original editorial guidance, not sourced test results.",
+      "sortGuide": "Under 200 derived words.",
+      "iCloudSupport": "Under 200 derived words; only general library synchronization referenced."
+    },
+    "versionGuidance": "Explicit iOS 26 documentation URLs used for interface paths; unversioned support pages only for separately checked general behavior. No rolling iOS 27 controls copied.",
+    "editorialDecision": "approve_draft_pending_independent_review_and_parent_publication_checks",
+    "editorialReview": "Author checked scope, primary evidence, related slugs and retained image metadata. Suggested routines are not claimed as performed tests. No Meluvya capabilities, rankings or demand fabricated.",
+    "validationPending": [
+      "Independent editorial review",
+      "Parent production content/lint/build/type/export/SEO checks",
+      "Shared CTA, mobile and live deployment verification"
+    ],
+    "imageReuse": {
+      "fromArticle": "phone-panorama-stitching-tips",
+      "allImageFieldsRetainedExactly": true,
+      "illustrationOnly": true
+    }
+  }
+]

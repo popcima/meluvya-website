@@ -20,6 +20,9 @@ const topics = [
   "title": "Sharing, printing and preserving photos",
   "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
   "slugs": [
+    "merge-duplicate-iphone-photos",
+    "change-photo-date-time-iphone",
+    "google-photos-archive-vs-locked-folder",
     "recover-deleted-iphone-photos",
     "raw-vs-jpeg-phone-photography",
     "photo-print-size-pixels-ppi",
@@ -74,7 +77,8 @@ const topics = [
       "take-couple-photos-with-phone",
       "how-to-crop-portrait-photos",
       "self-timer-portraits-with-phone",
-      "portrait-mode-blur-mistakes",
+      "edit-portrait-focus-depth-iphone",
+    "portrait-mode-blur-mistakes",
       "why-iphone-selfies-flip"
     ]
   },
@@ -87,7 +91,8 @@ const topics = [
       "why-edited-portraits-look-unnatural",
       "photo-noise-vs-film-grain",
       "vibrance-vs-saturation-portraits",
-      "consistent-editing-for-photo-set",
+      "copy-paste-photo-edits-iphone",
+    "consistent-editing-for-photo-set",
       "check-ai-portrait-details",
       "golden-hour-photo-editing",
       "digicam-photo-effect-on-phone",
