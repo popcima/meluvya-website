@@ -30,6 +30,888 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "visual-look-up-iphone-photos",
+  "title": "Use Visual Look Up on iPhone to identify a photo’s subject",
+  "description": "Find Visual Look Up in iPhone Photos, inspect suggested objects or landmarks, and verify a result before attaching a confident name to your picture.",
+  "summary": "Find a possible identity for a photographed object and check it against independent details.",
+  "published": "2026-10-24",
+  "modified": "2026-10-24",
+  "quickAnswer": "Open the picture in Photos and look for the starred Info button. When Visual Look Up is available, use it to inspect the suggestion, then compare recognizable details with a reliable reference before naming the subject.",
+  "sections": [
+    {
+      "id": "what-it-does",
+      "title": "Start with a recognizable subject",
+      "paragraphs": [
+        "Apple’s iOS 26 guide describes Visual Look Up for subjects including landmarks, art, plants, pets and books. It is a starting point for identification, not a reason to label every photograph with the first result. Availability varies by language and region.",
+        "Choose a frame in which the subject is easy to distinguish. A distant building behind several trees may offer less useful evidence than another frame showing its entrance and roof. Keep both the object and enough context to judge what the suggestion means."
+      ]
+    },
+    {
+      "id": "open-result",
+      "title": "Open the result in Photos",
+      "paragraphs": [
+        "In Apple’s iOS 26 instructions, open the full photograph or pause the video on a frame. Tap the starred Info button, then Look Up at the top of the information panel. Other versions may present a subject icon in or below the picture.",
+        "Apple says that a plain Info button without a star means the feature is not available for that photo. That does not establish that the subject is rare or impossible to identify. Try another clear view or use a conventional search with details you already know."
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "Separate a possible match from a confirmed name",
+      "paragraphs": [
+        "Apple’s support page says results can come from Siri Knowledge and the web. Open the underlying result and inspect what supports the match. A similar thumbnail is not enough to settle an identification.",
+        "For a building from a holiday, compare its roofline, doorway, nearby features and known city. Then check the attraction’s own website or another authoritative local source. If a suggestion fits the building but conflicts with where the picture was taken, keep investigating rather than editing the location to fit the result."
+      ],
+      "table": {
+        "headers": [
+          "What you have",
+          "Useful next step"
+        ],
+        "rows": [
+          [
+            "One plausible landmark name",
+            "Compare distinctive architectural details and the known location"
+          ],
+          [
+            "Several similar candidates",
+            "Find another angle or a readable sign in your own photographs"
+          ],
+          [
+            "A result with no supporting explanation",
+            "Keep the label tentative and look for a direct source"
+          ],
+          [
+            "No result",
+            "Describe the visible features and search from those facts"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "avoid-mixups",
+      "title": "Keep recognition tasks separate",
+      "paragraphs": [
+        "If your aim is to transcribe a sign, use a text-extraction workflow. If you want to isolate the subject for a design, use a cutout workflow. Identification, copying words and removing a background solve different problems even when they begin with the same photograph.",
+        "Do not use an uncertain object identification as the basis for a safety-sensitive decision. The practical goal here is finding a better caption or research lead, not certifying what an unknown object is."
+      ]
+    },
+    {
+      "id": "record",
+      "title": "Keep a useful record of the answer",
+      "paragraphs": [
+        "Once a match is convincing, retain the supporting source and the detail that resolved your uncertainty. “North doorway matches the attraction’s visitor page” is more useful than “my phone said so.”",
+        "For a family archive or travel journal, it is acceptable to write “possibly” and preserve the unresolved question. A cautious caption is easier to improve later than a confident wrong name repeated across an album."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does no star mean the photo is unusable?",
+      "answer": "No. It means this recognition feature is unavailable for that picture. The image may still be useful for manual research or a clearer crop for your own inspection."
+    },
+    {
+      "question": "Should I change a photo’s location to match a suggestion?",
+      "answer": "Verify the place first. A proposed identity should be checked against your travel history and visible evidence, not used to overwrite conflicting evidence."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Identify objects in your photos and videos — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/identify-objects-in-your-photos-and-videos-iph21c29a1cf/26/ios/26",
+      "note": "Subjects, controls and availability."
+    },
+    {
+      "title": "Apple: Look up what is in a photo",
+      "url": "https://support.apple.com/en-us/104962",
+      "note": "Star indicator and result sources."
+    }
+  ],
+  "related": [
+    "iphone-photo-cutout-background",
+    "change-photo-date-time-iphone",
+    "remove-location-from-iphone-photos"
+  ],
+  "image": "blog/pexels-35811832-4k.webp",
+  "imageAlt": "Water droplet resting on the edge of a pink flower petal",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-35811832-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-35811832-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-35811832-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-35811832-4k.webp",
+      "width": 2559
+    }
+  ],
+  "imageCredit": {
+    "name": "Robert Schwarz",
+    "url": "https://www.pexels.com/photo/macro-shot-of-water-droplet-on-flower-petal-35811832/"
+  }
+},
+{
+  "slug": "jewelry-photos-with-phone",
+  "title": "How to photograph jewelry with a phone without losing the detail",
+  "description": "Use a controlled jewelry setup to separate distracting glare from useful shine, then record color, construction and scale clearly.",
+  "summary": "Use a controlled jewelry setup to separate distracting glare from useful shine, then record color, construction and scale clearly.",
+  "published": "2026-10-24",
+  "modified": "2026-10-24",
+  "quickAnswer": "Start with a stable phone, one consistent light source and an uncluttered surface. Compare the jewelry under softer light before adding a small highlight for sparkle. Make a clear record of the piece first; a dramatic sparkle shot should not be the only picture showing its color or construction.",
+  "sections": [
+    {
+      "id": "goal",
+      "title": "Decide what must be visible in this piece",
+      "paragraphs": [
+        "A ring can need several different views: its face, the height of the setting, the band and a mark or engraving. Write these down before moving the lights. If the purpose is documenting a personal piece, include the detail that makes it identifiable; if it is a listing, show features relevant to the item’s condition.",
+        "For a two-tone ring, use the contrast between the metals as your check. If a lighting change makes them look identical, the photograph has lost useful information even if the stone looks more dramatic."
+      ]
+    },
+    {
+      "id": "prepare",
+      "title": "Prepare a small, controllable workspace",
+      "paragraphs": [
+        "GIA recommends stable camera support and checking for fingerprints or dust before capture. Follow the piece’s own care instructions; photography is not a reason to polish an unfamiliar gemstone or apply a cleaning product. Place the item where you can turn it without repeatedly handling the visible surface.",
+        "Keep the first arrangement simple enough to describe in one sentence, such as “ring on a neutral card, light at the left, phone fixed in front.” Change one part at a time and keep a reference photograph. This makes an improvement repeatable when you photograph the next view."
+      ]
+    },
+    {
+      "id": "light",
+      "title": "Give shape and sparkle separate jobs",
+      "paragraphs": [
+        "GIA explains that diffused light can show gentle transitions on polished metal, while more direct light can introduce gemstone sparkle. It also advises avoiding mixed lighting colors. Start with an even, readable version rather than several competing light sources.",
+        "broncolor’s ring demonstration uses a broad reflection and separate small highlight sources. You do not need its studio equipment to use the decision behind that setup: first judge the shape of the metal, then decide whether a localized accent adds anything.",
+        "Try a modest experiment with a continuous light you can safely reposition. Keep the ring and phone still, move the light a little, and inspect the change. If the reflection crosses an engraving, return to the clearer version. Do not add a second light until you can name the missing feature it should reveal."
+      ]
+    },
+    {
+      "id": "diagnose",
+      "title": "Read the problem before changing the whole setup",
+      "paragraphs": [],
+      "table": {
+        "headers": [
+          "Observation",
+          "Next comparison"
+        ],
+        "rows": [
+          [
+            "A white patch hides metal detail",
+            "Compare a softer or differently placed light while keeping the camera fixed."
+          ],
+          [
+            "The stone is bright but its setting is unclear",
+            "Make a separate construction view rather than forcing sparkle and documentation into one frame."
+          ],
+          [
+            "A dark patch resembles a flaw",
+            "Turn the piece slightly and see whether the patch moves with the reflection. Keep an honest condition image too."
+          ],
+          [
+            "The close view is soft",
+            "Increase the working distance and verify the saved file before attempting a tighter detail."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "finish",
+      "title": "Deliver a useful set, not just the most dramatic frame",
+      "paragraphs": [
+        "Put the overall view beside a detail view and a scale reference. Ask whether someone could recognize the same piece from each image. If a dramatic angle makes the ring look unusually thick or thin, let the straightforward view establish the shape.",
+        "Keep edits conservative when documenting color or condition. A phone photograph is not a gemstone identification or grading report, and a bright display does not establish the stone’s appearance in every light. Separate artistic interpretations from the images used to represent the physical object."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I remove every reflection from metal?",
+      "answer": "No. Decide whether a reflection helps describe the form or hides a feature. Completely flattening all tonal variation can make the surface less understandable."
+    },
+    {
+      "question": "Can one photograph show both sparkle and accurate detail?",
+      "answer": "Sometimes, but a second clearly labeled view is often more useful than compromising every feature to fit one image."
+    }
+  ],
+  "sources": [
+    {
+      "title": "GIA: photographing gems and jewelry",
+      "url": "https://www.gia.edu/gem-photography",
+      "note": "Diffusion, metal surfaces and color-consistent lighting; 2015 article used for enduring technique, not current app recommendations. Retrieved October 23, 2026."
+    },
+    {
+      "title": "broncolor: photographing rings",
+      "url": "https://broncolor.swiss/news/how-to-photograph-jewelry-rings",
+      "note": "Demonstrated separation of broad reflections and small highlight lights. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "iphone-macro-close-up-focus",
+    "clean-phone-camera-lens",
+    "why-photos-look-different-on-screens"
+  ],
+  "image": "blog/pexels-16689780-4k.webp",
+  "imageAlt": "Close view of a hand wearing a gold ring with a pearl",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-16689780-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-16689780-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-16689780-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-16689780-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "cnrdmroglu",
+    "url": "https://www.pexels.com/photo/gold-ring-on-hand-of-woman-16689780/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "add-text-arrows-iphone-photo",
+  "title": "How to add readable text and arrows to an iPhone photo",
+  "description": "Use iPhone Markup to label a photo with text and arrows, then check readability, placement and the saved result before sharing.",
+  "summary": "Annotate a picture so a recipient can understand one clear instruction.",
+  "published": "2026-10-24",
+  "modified": "2026-10-24",
+  "quickAnswer": "Open the photograph in Photos, choose Edit → Markup, and use its text and shape tools. Keep labels brief, point arrows precisely, then inspect the saved image at the size the recipient will see.",
+  "sections": [
+    {
+      "id": "purpose",
+      "title": "Write the instruction before decorating the image",
+      "paragraphs": [
+        "An annotation should help someone do or understand something: find the entrance, identify a detail, or compare two areas. Write that purpose in one sentence before adding labels. If the picture needs a paragraph of explanation, consider putting the longer explanation in the accompanying message.",
+        "Work on a separate version when you need an unmarked photograph later. Keep the finished annotation easy to distinguish from the source so that the wrong version does not become your next edit."
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Open Markup and add the label",
+      "paragraphs": [
+        "Apple’s support route is Photos → select photo → Edit → Markup. Use Add for text or shapes, then Done and Done again to save. Apple’s iOS 26 guide describes Add Text, a movable text box and formatting controls for size, font, alignment and color.",
+        "For an arrow, use the shape tools where available. The guide also describes drawing a shape in one stroke and pausing at its end to replace it with a more regular version. Adjust its position and direction so that the tip identifies the intended detail. Compare the guide for your installed software if the controls differ."
+      ]
+    },
+    {
+      "id": "example",
+      "title": "Example: show someone which entrance to use",
+      "paragraphs": [
+        "Imagine a building with two doors. Put “Use this entrance” in an uncluttered area and point one arrow to the correct doorway. Avoid covering the sign or distinguishing feature the visitor needs to recognize.",
+        "If two instructions are necessary, use short labels such as “Entrance” and “Meeting point.” A second arrow should add information, not merely make the photograph look busier. Choose the label color against the actual background, including both its bright and dark areas."
+      ]
+    },
+    {
+      "id": "readability",
+      "title": "Check three things before sending",
+      "paragraphs": [],
+      "list": {
+        "ordered": false,
+        "items": [
+          {
+            "title": "Readability",
+            "text": "View the whole image at ordinary phone size. If you have to zoom to read a simple instruction, shorten or enlarge the text."
+          },
+          {
+            "title": "Accuracy",
+            "text": "Trace each arrow from its label to its tip. Make sure the point lands on the exact object rather than a neighboring feature."
+          },
+          {
+            "title": "Context",
+            "text": "Check whether a label or shape hides evidence that the recipient needs to orient themselves."
+          }
+        ]
+      }
+    },
+    {
+      "id": "limits",
+      "title": "Annotation is not a secure-redaction workflow",
+      "paragraphs": [
+        "This guide adds visible explanation; it does not establish that covered information has been securely removed. If the source contains something the recipient should not receive, prepare a suitable sanitized file through a separate redaction process and verify that result.",
+        "Also check the outgoing file after saving. A label that looked readable while zoomed in may be too small in a compressed message preview. Keep only the annotations that help the intended reader, and use the accompanying text for anything that does not belong on the image."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How much text should go on the photograph?",
+      "answer": "Use the shortest label that makes the action clear. Move background explanation into the message so that the picture stays readable."
+    },
+    {
+      "question": "Should I draw arrows over the subject?",
+      "answer": "Place the arrow where its destination is unambiguous, but preserve the detail the recipient needs to recognize. If it obscures that detail, move the label or use a different crop."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Use Markup on iPhone",
+      "url": "https://support.apple.com/en-us/119875",
+      "note": "Photos entry and saving steps."
+    },
+    {
+      "title": "Apple: Add text, shapes and more — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/add-text-shapes-stickers-and-more-iphcdb1d0bc7/26/ios/26",
+      "note": "Text controls, shapes and drawing correction."
+    }
+  ],
+  "related": [
+    "edit-photos-without-losing-original",
+    "how-to-crop-portrait-photos",
+    "resize-vs-compress-photos-for-upload"
+  ],
+  "image": "blog/pexels-15758649-4k.webp",
+  "imageAlt": "Photographer holding a camera in front of a mirror",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-15758649-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-15758649-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-15758649-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-15758649-4k.webp",
+      "width": 2571
+    }
+  ],
+  "imageCredit": {
+    "name": "Elif Çöküç",
+    "url": "https://www.pexels.com/photo/woman-taking-a-mirror-selfie-with-a-camera-15758649/"
+  }
+},
+{
+  "slug": "photograph-artwork-with-phone",
+  "title": "How to photograph paintings and drawings faithfully with a phone",
+  "description": "Record two-dimensional artwork with even light, straight geometry and a separate detail view, without turning the reproduction into a creative edit.",
+  "summary": "Record two-dimensional artwork with even light, straight geometry and a separate detail view, without turning the reproduction into a creative edit.",
+  "published": "2026-10-24",
+  "modified": "2026-10-24",
+  "quickAnswer": "Position the phone square to the artwork, illuminate the whole surface evenly and include all four edges in a reference frame. Check a center detail and the corners before moving anything. Make a faithful full-work photograph first, then separate detail images for texture, signatures or condition.",
+  "sections": [
+    {
+      "id": "plan",
+      "title": "Choose a record of the work before a styled photograph",
+      "paragraphs": [
+        "A portfolio image should let the viewer assess the artwork. A studio photograph may instead show the work, room and artist together. Make those different pictures intentionally. Do not use a dramatic room view as the only record of a painting whose colors and proportions matter.",
+        "List the required files before setting up: full work, one texture detail and a signature or condition view if relevant. Record the title and dimensions in your notes so they remain associated with the correct files during editing."
+      ]
+    },
+    {
+      "id": "alignment",
+      "title": "Align the phone with the work itself",
+      "paragraphs": [
+        "The University of Iowa recommends even light and aligning a two-dimensional work with the camera frame; larger work can be photographed on a neutral wall. Smith College advises centering the camera at the artwork’s midpoint. Keep the phone’s image plane parallel to the surface, including any tilt in the work.",
+        "For a rectangular painting, compare opposite sides in your preview. If one side appears much shorter, adjust the camera position before cropping. Leave a small border in a reference image so you can verify the shape later. Avoid a very tight capture that conceals an accidentally missing corner."
+      ]
+    },
+    {
+      "id": "illumination",
+      "title": "Check the full surface for glare and uneven light",
+      "paragraphs": [
+        "Iowa advises against the phone’s built-in flash for documenting artwork. If you use two lights, Smith College describes placing them to either side and adjusting their positions to avoid reflections. Its camera-specific aperture and lens settings are not universal phone settings.",
+        "Inspect several points rather than judging the center alone: top, bottom, both sides and a region with subtle color. A bright patch that moves when the light moves is a capture problem to solve before editing. On glossy or framed work, try another lighting position instead of making the whole image darker.",
+        "Do not unframe a fragile work or touch its surface just to remove glare. If you cannot make an acceptable record with a safe setup, use a specialist reproduction service or document the limitation alongside the image."
+      ]
+    },
+    {
+      "id": "sequence",
+      "title": "Use a consistent capture and review sequence",
+      "paragraphs": [],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Full reference.",
+            "text": "Include the entire work and a narrow surrounding border. Keep this frame even if the final submission requires a closer crop."
+          },
+          {
+            "title": "Geometry check.",
+            "text": "Compare straight edges and corners in the saved file. Correct the physical setup if a large adjustment would be needed."
+          },
+          {
+            "title": "Detail check.",
+            "text": "Inspect a fine mark in the center and near a corner. A sharp center alone is not enough for a faithful full-work reproduction."
+          },
+          {
+            "title": "Separate detail image.",
+            "text": "Photograph texture or a signature with its own framing. Keep its filename associated with the full-work image."
+          }
+        ]
+      }
+    },
+    {
+      "id": "editing",
+      "title": "Edit to match the object, not a fashionable look",
+      "paragraphs": [
+        "Compare the capture with the work in a stable viewing situation. Do not increase saturation simply because the phone display makes the picture feel subdued. If a color is important to an application or print, a casual screen comparison is not a substitute for a controlled color workflow.",
+        "Keep an untouched capture and a delivery copy. Record any perspective correction or significant color adjustment. Cropping a border is different from removing a mark that belongs to the work. For a submission, follow its actual file and framing requirements rather than assuming every portfolio wants the same format."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is this the same as scanning an old printed photograph?",
+      "answer": "No. A large painting or drawing requires attention to its plane, surface, illumination and faithful appearance. A detail view may need different light from the full-work record."
+    },
+    {
+      "question": "Can I use Portrait mode to blur the wall?",
+      "answer": "For a reproduction, start with a normal photograph that preserves the work’s boundaries. Make a separate styled image if you want a more decorative presentation."
+    }
+  ],
+  "sources": [
+    {
+      "title": "University of Iowa: photographing artwork at home",
+      "url": "https://art.uiowa.edu/sites/art.uiowa.edu/files/2024-02/photographing_artwork_at_home.pdf",
+      "note": "Even light and alignment for two-dimensional work. Retrieved October 23, 2026."
+    },
+    {
+      "title": "Smith College: documenting artwork",
+      "url": "https://sites.smith.edu/ickb/documenting-your-artwork/documenting-your-artwork-scanning-cameras-lighting/",
+      "note": "Camera centering and two-light placement; camera-specific settings are not transferred to phones. Retrieved October 23, 2026."
+    }
+  ],
+  "related": [
+    "fix-perspective-in-phone-photos",
+    "srgb-vs-display-p3-photo-export",
+    "scan-printed-photos-with-phone"
+  ],
+  "image": "blog/pexels-20511253-4k.webp",
+  "imageAlt": "Artist working on a large abstract canvas in a studio",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-20511253-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-20511253-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-20511253-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-20511253-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Alina Rossoshanska",
+    "url": "https://www.pexels.com/photo/man-painting-a-picture-on-a-canvas-in-a-studio-20511253/"
+  }
+},
+{
+  "slug": "fix-banding-in-sky-gradients",
+  "title": "How to troubleshoot banding in sky gradients",
+  "description": "Find where stepped sky gradients first appear, protect smooth tones during editing, and distinguish file damage from a preview or delivery issue.",
+  "summary": "A source-to-delivery diagnosis for skies that show visible color steps instead of smooth transitions.",
+  "quickAnswer": "Compare the original, the edited master and the delivered file to find where the bands first appear. Reduce the edit or export change that introduces them. Higher-bit-depth editing can reduce new posterization, but converting an already damaged picture does not recreate its missing tonal transitions.",
+  "published": "2026-10-24",
+  "modified": "2026-10-24",
+  "image": "blog/pexels-23203338-4k.webp",
+  "imageAlt": "Green mountain ridges beneath a blue sky",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-23203338-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-23203338-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-23203338-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-23203338-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Ella Ragasa",
+    "url": "https://www.pexels.com/photo/panorama-of-a-mountain-landscape-23203338/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "identify-banding",
+      "title": "Make sure you are diagnosing a stepped gradient",
+      "paragraphs": [
+        "Look for broad, visible steps across an area that should change gradually, such as a clear sky. This guide concerns that kind of banding. Repeating stripes under artificial light, fine fabric patterns and stitching seams are different problems and deserve a different diagnosis.",
+        "Use one clearly visible sky area as your reference. Mark its location mentally so you compare the same patch each time. A crop that excludes the difficult area can make a version look improved without resolving the actual issue."
+      ]
+    },
+    {
+      "id": "locate-stage",
+      "title": "Find the first version that shows the bands",
+      "paragraphs": [
+        "Keep the same viewing size for the first comparison, then inspect the actual files rather than relying on message previews. This sequence is a diagnostic exercise, not evidence that a particular website or device damaged your photograph."
+      ],
+      "table": {
+        "headers": [
+          "First affected version",
+          "Useful next experiment"
+        ],
+        "rows": [
+          [
+            "Original source",
+            "Compare another capture if available; do not begin by blaming an export setting."
+          ],
+          [
+            "Edited master",
+            "Disable recent changes one at a time and watch the same sky patch."
+          ],
+          [
+            "Export",
+            "Export again from the master with one relevant setting changed."
+          ],
+          [
+            "Uploaded or received copy",
+            "Download that actual copy and compare it with your clean export."
+          ],
+          [
+            "Only one viewer or display",
+            "Check the same file elsewhere before altering the master to compensate."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "editing-precision",
+      "title": "Protect smooth transitions while editing",
+      "paragraphs": [
+        "Adobe’s bit-depth documentation explains that higher precision provides more tonal values for adjustment and can reduce posterization during editing. In a suitable Photoshop workflow, a 16-bit working document is therefore useful for substantial tonal changes. It is a prevention measure, not proof that every source or export will remain smooth.",
+        "If the bands appear after a strong edit, try reducing the specific adjustment before replacing the sky or blurring the picture. Keep the version with the better transition beside the stronger version. Decide whether the extra drama is worth the visible steps.",
+        "Changing an already posterized file to a higher-precision container does not tell the editor what the lost shades originally were. Return to the earlier source when possible. Keep the higher-quality working version rather than repeatedly rebuilding the edit from a finished delivery copy."
+      ]
+    },
+    {
+      "id": "gradient-vs-sky",
+      "title": "Dithered artwork is a different case",
+      "paragraphs": [
+        "Photoshop includes a Dither option when creating gradients, which Adobe documents as a way to reduce banding. That is relevant when you are making a gradient background, overlay or graphic. It is not a one-click reconstruction tool for a photographed sky.",
+        "For an invitation with a generated blue background, recreate the gradient with that option and inspect the export. For a sunset photograph, first investigate the source and adjustments. These two files may show similar-looking steps while requiring different work.",
+        "Avoid adding heavy texture merely to hide a fault you have not located. A textured treatment can be an artistic choice, but it should not be confused with recovering the original smooth sky."
+      ]
+    },
+    {
+      "id": "delivery-check",
+      "title": "Check the version people will actually see",
+      "paragraphs": [
+        "Open the exported image, then inspect the received or uploaded version if that is the intended destination. Compare the sky and any nearby fine detail so a smoother-looking result does not conceal a new loss elsewhere.",
+        "If your clean master and export are satisfactory but a particular destination changes them, retain the clean files and troubleshoot that delivery path. Do not weaken every future edit to accommodate one unverified preview. Keep a short note of the settings and destination you actually checked."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will changing an 8-bit file to 16-bit remove existing bands?",
+      "answer": "It cannot infer the original shades that are already absent. A higher-precision working file can help with subsequent editing, but an earlier source is the better starting point when available."
+    },
+    {
+      "question": "Should I blur the whole photo to fix the sky?",
+      "answer": "First locate the stage that introduces the steps. A whole-image blur can sacrifice useful detail without resolving the cause; compare a less aggressive edit or a different export first."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Adobe: bit depth in Photoshop",
+      "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-modes/bit-depth-in-photoshop.html",
+      "note": "Higher-precision editing and reduced posterization risk. Checked October 23, 2026."
+    },
+    {
+      "title": "Adobe: apply a gradient fill",
+      "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-effects-techniques/apply-gradient-fill.html",
+      "note": "Dither for newly created Photoshop gradients. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "why-saved-photos-lose-quality",
+    "why-photos-look-different-on-screens",
+    "raw-vs-jpeg-phone-photography"
+  ]
+},
+{
+  "slug": "control-featured-photos-iphone",
+  "title": "Control featured photos and photo memories on iPhone",
+  "description": "Reduce a person’s appearances, turn off featured content, or remove a Photos widget without using deletion as a display preference.",
+  "summary": "Choose what Photos surfaces automatically while keeping display preferences separate from access control.",
+  "published": "2026-10-24",
+  "modified": "2026-10-24",
+  "quickAnswer": "Choose a person-specific preference, the featured-content control or widget removal according to the problem. Keep automatic display choices separate from deciding which photographs to delete.",
+  "sections": [
+    {
+      "id": "choose-scope",
+      "title": "Choose the narrowest display change",
+      "paragraphs": [
+        "A photo can be valuable in your library and unwelcome as an unexpected Home Screen reminder. You do not have to solve both questions in the same way. Start by identifying where the surprise appears and what you want to stop."
+      ],
+      "table": {
+        "headers": [
+          "Desired outcome",
+          "Control to investigate"
+        ],
+        "rows": [
+          [
+            "Fewer suggestions involving one person",
+            "Person-specific featuring preference"
+          ],
+          [
+            "Stop automatic featured photos and memories",
+            "Show Featured Content"
+          ],
+          [
+            "Keep Photos preferences but remove a visible widget",
+            "Remove that widget"
+          ],
+          [
+            "Keep a picture out of ordinary browsing",
+            "A separate hiding and authentication decision"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "person",
+      "title": "Change a person’s featuring preference",
+      "paragraphs": [
+        "On iOS 26, open a photo of the intended person. Use More → Don’t Feature a Person, select them if prompted, then choose Feature This Person Less or Never Feature This Person and confirm.",
+        "Take care with group photographs. Before confirming, check whose preference you are changing. If your concern is one particular person, a broader change may remove suggestions you still enjoy."
+      ]
+    },
+    {
+      "id": "featured",
+      "title": "Turn off automatic featured content",
+      "paragraphs": [
+        "Photos → Collections → your account contains Show Featured Content. Turn it off to stop automatic featured photos and memories.",
+        "Choose the broader switch when the issue is automatic selection itself, rather than one person. For example, someone who wants a quiet phone during a busy work period may prefer to remove the stream of reminders instead of making dozens of individual decisions."
+      ]
+    },
+    {
+      "id": "widget",
+      "title": "Remove the widget when the screen is the problem",
+      "paragraphs": [
+        "Apple’s widget guide uses touch and hold the widget → Remove Widget → Remove. If Photos is inside a Smart Stack, inspect the stack as well; its Edit Stack control includes Widget Suggestions, which governs suggested widgets.",
+        "Check the actual screen where the photograph appeared. Removing one visible widget is not the same as reviewing every stack or Today View layout. This is a useful finishing check after changing your Home Screen design."
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "Do not mistake display preferences for privacy protection",
+      "paragraphs": [
+        "These controls answer “What should appear automatically?” Treat “Who can open this photograph?” as a separate question. If access is the concern, review the relevant hiding, authentication and app-permission controls rather than relying on a quieter widget.",
+        "Keep the photographs you still want deliberately organized. A private shortlist for a future album can remain useful even when automatic reminders are unwelcome. Revisit the preference later if your goal changes; there is no need to settle every library decision while adjusting one display."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I delete a photo because it appears in a widget?",
+      "answer": "First decide whether you dislike the photograph itself or only its automatic appearance. A display change is often the more precise response to the second problem."
+    },
+    {
+      "question": "Why check Smart Stacks too?",
+      "answer": "The place that displayed the picture may be a rotating stack rather than a standalone widget. Inspect the actual surface before concluding that the change failed."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Hide people, memories and holidays — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/hide-people-memories-and-holidays-iph10a9dd2a1/26/ios/26",
+      "note": "Person preferences and featured-content controls."
+    },
+    {
+      "title": "Apple: Add and edit widgets on iPhone",
+      "url": "https://support.apple.com/en-us/118610",
+      "note": "Widget removal and Smart Stack suggestions."
+    }
+  ],
+  "related": [
+    "iphone-burst-photos-select-best-frame",
+    "icloud-photos-sync-vs-backup",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-12182725-4k.webp",
+  "imageAlt": "Black-and-white portrait beside glass with reflected lights",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 45%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-12182725-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-12182725-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-12182725-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-12182725-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Connor McManus",
+    "url": "https://www.pexels.com/photo/portrait-of-a-woman-at-night-12182725/"
+  }
+},
+{
+  "slug": "reduce-moire-in-clothing-photos",
+  "title": "How to reduce moiré in clothing photos",
+  "description": "Identify false waves or colors in fabric, compare the source and export, and try a local correction without erasing the garment’s texture.",
+  "summary": "A garment-first workflow for handling false repeating patterns while preserving real weave, seams and color.",
+  "quickAnswer": "Check the garment in the original at 100% view and in the final-size export. If false waves or colors remain, try a local moiré adjustment where your editor provides one. Keep the correction confined to the affected fabric and compare seams and genuine colors before deciding it helped.",
+  "published": "2026-10-24",
+  "modified": "2026-10-24",
+  "image": "blog/pexels-32644860-4k.webp",
+  "imageAlt": "Woman in a pink shirt and red cap leaning through an open window",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-32644860-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-32644860-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-32644860-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-32644860-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Muhammad-Taha Ibrahim",
+    "url": "https://www.pexels.com/photo/portrait-of-smiling-woman-at-window-in-abuja-32644860/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "sections": [
+    {
+      "id": "recognize",
+      "title": "Recognize a false pattern in a real pattern",
+      "paragraphs": [
+        "Nikon explains moiré as a new pattern formed when a subject’s fine repeating detail interacts with the camera’s sampling pattern. Woven fabric is a common example. It can create distracting shapes or false color even when the garment itself does not contain them.",
+        "Compare with what you know about the clothing. A rainbow-like patch on a plain fine weave deserves investigation; an actual printed stripe should not be removed just because it is repetitive. If you can check another frame or the garment itself, use that reference.",
+        "Keep this separate from random speckles in a dark photograph. A noise-cleanup approach may not address the repeating structure that is bothering you."
+      ]
+    },
+    {
+      "id": "compare-versions",
+      "title": "Compare source, preview and delivery",
+      "paragraphs": [
+        "Inspect the original at 100% magnification, as Nikon recommends for evaluating the artifact, and also look at the intended display size. Open the exported file separately. Do not decide solely from a small editing preview.",
+        "If the troubling pattern changes dramatically between viewing sizes or appears only in the resized delivery, make a second export from the same clean master and compare the actual results. That observation helps locate the problem; it does not prove that the original contains no artifact.",
+        "Keep the image content and edit consistent during this comparison. Changing the crop, detail settings and export dimensions together makes it difficult to know which decision helped."
+      ]
+    },
+    {
+      "id": "local-correction",
+      "title": "Try a local correction on the cloth",
+      "paragraphs": [
+        "Adobe documents a Moiré control among Lightroom mobile’s local adjustment options. Availability and placement should be checked against the editor and version you use."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Select the affected area.",
+            "text": "Use a mask limited to the problematic fabric. Include the visible problem without unnecessarily covering skin, jewelry or surrounding objects."
+          },
+          {
+            "title": "Make a restrained trial.",
+            "text": "Increase the relevant correction gradually while watching the false pattern. Avoid treating the slider’s maximum as a target."
+          },
+          {
+            "title": "Inspect real garment detail.",
+            "text": "Compare seams, buttons, folds and any genuine color variation. Check that the apparent improvement has not turned the material into an indistinct patch."
+          },
+          {
+            "title": "Reopen the final export.",
+            "text": "Judge the delivered size as well as a close view. Save the editable version so a later delivery size can be assessed independently."
+          }
+        ]
+      }
+    },
+    {
+      "id": "alternate-capture",
+      "title": "Use another capture when it is the better option",
+      "paragraphs": [
+        "For an important garment photograph, compare nearby frames before spending a long time repairing one. Nikon notes that changing the relationship between camera and subject, including angle or focal length, can alter the occurrence of moiré.",
+        "A practical retake exercise is to preserve the garment’s pose and lighting while making a small viewpoint change, then compare the fabric carefully. For a portrait, keep the face usefully focused; sacrificing the whole subject’s clarity is not an attractive default solution to a shirt problem.",
+        "For an online listing, the weave and color may be essential information. A cleaner alternate frame can be more honest and more useful than a heavily smoothed version of the troublesome one."
+      ]
+    },
+    {
+      "id": "limits",
+      "title": "Accept the limits of a correction",
+      "paragraphs": [
+        "Look separately at the false color and the false pattern. A result can improve one while leaving the other noticeable. If acceptable correction requires removing the garment’s real character, choose another image or revise the capture.",
+        "Keep the original and label the finished version clearly. Do not describe a reconstructed or strongly altered fabric as an accurate record of its texture when you cannot verify that claim."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is moiré the same as digital noise?",
+      "answer": "No. This guide concerns a false repeating pattern or color associated with fine detail. Random speckles and blotches require a separate diagnosis."
+    },
+    {
+      "question": "Will desaturating the shirt fix every case?",
+      "answer": "It may hide a colored symptom while leaving a false brightness pattern, and it can change the garment’s true color. Compare a dedicated local correction or another frame first."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nikon: Moiré and false color",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/products-and-innovation/moire-false-color",
+      "note": "Repeating-detail interference, close inspection and capture changes. Checked October 23, 2026."
+    },
+    {
+      "title": "Adobe: Lightroom local adjustment controls",
+      "url": "https://helpx.adobe.com/lightroom/mobile/masks-and-selective-adjustments/local-adjustment-controls.html",
+      "note": "Availability of local Moiré adjustment. Checked October 23, 2026."
+    }
+  ],
+  "related": [
+    "photo-noise-vs-film-grain",
+    "photo-sharpening-vs-resolution",
+    "resize-vs-compress-photos-for-upload"
+  ]
+},
+{
   "slug": "food-photos-with-phone",
   "title": "How to photograph food with your phone before it goes cold",
   "description": "Choose an angle and simple light for phone food photos, then capture a useful sequence before the dish changes.",

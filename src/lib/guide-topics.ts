@@ -6,6 +6,8 @@ const topics = [
   "title": "Camera controls and capture",
   "description": "Choose the right capture mode, focus point and moment before you edit.",
   "slugs": [
+    "jewelry-photos-with-phone",
+    "photograph-artwork-with-phone",
     "food-photos-with-phone",
     "pet-photos-with-phone",
     "flat-lay-phone-photography",
@@ -29,6 +31,8 @@ const topics = [
   "title": "Sharing, printing and preserving photos",
   "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
   "slugs": [
+    "visual-look-up-iphone-photos",
+    "control-featured-photos-iphone",
     "iphone-photo-albums-vs-folders",
     "copy-text-from-iphone-photo",
     "icloud-shared-albums-photo-quality",
@@ -52,6 +56,9 @@ const topics = [
   "title": "Practical fixes and creative techniques",
   "description": "Scan a print, correct a distraction or make a deliberate photographic effect.",
   "slugs": [
+    "add-text-arrows-iphone-photo",
+    "fix-banding-in-sky-gradients",
+    "reduce-moire-in-clothing-photos",
     "remove-chromatic-aberration-photo-fringes",
     "lens-distortion-vs-perspective",
     "remove-small-background-distractions",

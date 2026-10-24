@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -943,9 +943,9 @@
         "best angle food photos"
       ],
       "intent": "Choose an angle and simple light for phone food photos, then capture a useful sequence before the dish changes.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "food-photos-with-phone",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -961,9 +961,9 @@
         "remove photo from album without deleting"
       ],
       "intent": "Organize a photo library with albums for selections and folders for groups of albums.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "iphone-photo-albums-vs-folders",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -979,9 +979,9 @@
         "how to use tone curves without clipping"
       ],
       "intent": "Choose between a Contrast slider and a tone curve, practice a controlled edit, and protect important shadow and highlight detail.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "tone-curves-vs-contrast",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -997,9 +997,9 @@
         "phone cat photo tips"
       ],
       "intent": "Prepare a comfortable setting, work at your pet’s pace and choose a capture sequence for resting or moving subjects.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "pet-photos-with-phone",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1015,9 +1015,9 @@
         "extract text from image iphone"
       ],
       "intent": "Copy image text into an editable note, then verify the details that matter.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "copy-text-from-iphone-photo",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1033,9 +1033,9 @@
         "dehaze vs clarity for portraits"
       ],
       "intent": "Understand Lightroom’s Texture, Clarity and Dehaze controls and compare them without making skin, edges or skies look overprocessed.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "texture-clarity-dehaze-differences",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1051,9 +1051,9 @@
         "flat lay composition tips"
       ],
       "intent": "Arrange and photograph an overhead scene without tilted objects, accidental shadows or a cluttered crop.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "flat-lay-phone-photography",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1069,9 +1069,9 @@
         "shared album photos blurry"
       ],
       "intent": "Decide whether a Shared Album copy is suitable for your intended use.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "icloud-shared-albums-photo-quality",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1087,9 +1087,9 @@
         "Lightroom grading vs temperature"
       ],
       "intent": "Separate white balance from creative color grading, compare an ungraded baseline, and build a restrained look without losing believable color.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "color-grading-vs-white-balance",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1105,9 +1105,9 @@
         "group portrait multiple rows"
       ],
       "intent": "Arrange rows, check faces systematically and capture a short group-photo sequence before anyone leaves.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "group-photos-everyone-sharp",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1123,9 +1123,9 @@
         "hide hidden album iphone"
       ],
       "intent": "Move selected photographs out of ordinary browsing and verify how the Hidden collection is protected.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "hide-lock-iphone-photos",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1141,9 +1141,9 @@
         "green edges photo defringe"
       ],
       "intent": "Diagnose purple or green fringes, try chromatic aberration correction, and protect real colors while using defringe controls.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "remove-chromatic-aberration-photo-fringes",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1159,9 +1159,9 @@
         "white background product edges"
       ],
       "intent": "Build a simple phone product-photo setup, preserve light-colored edges and capture the details a buyer needs to see.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "product-photos-white-background",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1177,9 +1177,9 @@
         "live photo not moving when sent"
       ],
       "intent": "Choose and verify the delivery form of an existing Live Photo.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "share-live-photo-as-still-or-motion",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1195,9 +1195,9 @@
         "lens correction or geometry"
       ],
       "intent": "Distinguish bowed lines from converging lines, choose lens correction or geometry tools, and check the crop and proportions after correction.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "lens-distortion-vs-perspective",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1213,9 +1213,9 @@
         "phone photos through glass"
       ],
       "intent": "Reduce camera-side reflections before shooting through glass, then separate reflection, focus and surface problems.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "photos-through-window-without-reflections",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1231,9 +1231,9 @@
         "iphone camera grid composition"
       ],
       "intent": "Use the camera’s alignment aids while deciding what belongs in the frame.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "iphone-camera-grid-level",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1249,9 +1249,9 @@
         "vignette off center subject"
       ],
       "intent": "Use a vignette to quiet competing edges, shape its transition, and check whether the effect helps an off-center subject or simply darkens the frame.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "subtle-vignette-photo-editing",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1267,9 +1267,9 @@
         "how to photograph silhouettes"
       ],
       "intent": "Create a readable dark outline against a brighter background without losing the subject’s shape or the scene’s color.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "silhouette-photos-with-phone",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1285,9 +1285,9 @@
         "app cannot see selected photo iphone"
       ],
       "intent": "Give a photo task the access it needs while checking what selection the app can use.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "limit-app-photo-library-access-iphone",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1303,9 +1303,9 @@
         "choose brush gradient color range mask"
       ],
       "intent": "Decide when a whole-image adjustment is enough, choose a mask by its boundary, and check overlapping edits without building an unnecessary mask stack.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "local-masking-vs-global-photo-edits",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1321,9 +1321,9 @@
         "phone reflection photography"
       ],
       "intent": "Find a useful viewpoint for puddles, ponds and still water, then decide whether symmetry or a fragment makes the stronger photograph.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "water-reflection-photos-with-phone",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1339,9 +1339,9 @@
         "remove background object without replacing background"
       ],
       "intent": "Choose between healing, cloning and generative removal, repair a small background object, and inspect repeated patterns, seams and context afterward.",
-      "status": "approved_for_publication",
+      "status": "published",
       "articleSlug": "remove-small-background-distractions",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Confirmed in main at b98369d38b5dfe2c25fd30e439356eaf4dddf160 and successful GitHub Pages deployment 40008789413 on October 24 before starting this batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1357,15 +1357,16 @@
         "visual look up no star"
       ],
       "intent": "Find a possible identity for a photographed object and check it against independent details.",
-      "status": "queued_reviewed",
+      "status": "included_in_publication_commit",
       "articleSlug": "visual-look-up-iphone-photos",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
       "metricsGeography": null,
       "metricsPeriod": null,
-      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json",
+      "publicationResearchRecord": "2026-10-24-queued-guides.json"
     },
     {
       "id": "jewelry-photos-with-phone",
@@ -1375,15 +1376,16 @@
         "phone ring photography"
       ],
       "intent": "Use a controlled jewelry setup to separate distracting glare from useful shine, then record color, construction and scale clearly.",
-      "status": "queued_reviewed",
+      "status": "included_in_publication_commit",
       "articleSlug": "jewelry-photos-with-phone",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
       "metricsGeography": null,
       "metricsPeriod": null,
-      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json",
+      "publicationResearchRecord": "2026-10-24-queued-guides.json"
     },
     {
       "id": "add-text-arrows-iphone-photo",
@@ -1393,15 +1395,16 @@
         "iphone markup photo labels"
       ],
       "intent": "Annotate a picture so a recipient can understand one clear instruction.",
-      "status": "queued_reviewed",
+      "status": "included_in_publication_commit",
       "articleSlug": "add-text-arrows-iphone-photo",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
       "metricsGeography": null,
       "metricsPeriod": null,
-      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json",
+      "publicationResearchRecord": "2026-10-24-queued-guides.json"
     },
     {
       "id": "photograph-artwork-with-phone",
@@ -1411,15 +1414,16 @@
         "phone art reproduction"
       ],
       "intent": "Record two-dimensional artwork with even light, straight geometry and a separate detail view, without turning the reproduction into a creative edit.",
-      "status": "queued_reviewed",
+      "status": "included_in_publication_commit",
       "articleSlug": "photograph-artwork-with-phone",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
       "metricsGeography": null,
       "metricsPeriod": null,
-      "researchRecord": "2026-10-23-thirty-guides/capture-research.json"
+      "researchRecord": "2026-10-23-thirty-guides/capture-research.json",
+      "publicationResearchRecord": "2026-10-24-queued-guides.json"
     },
     {
       "id": "fix-banding-in-sky-gradients",
@@ -1429,15 +1433,16 @@
         "posterization after editing sky"
       ],
       "intent": "Find where stepped sky gradients first appear, protect smooth tones during editing, and distinguish file damage from a preview or delivery issue.",
-      "status": "queued_reviewed",
+      "status": "included_in_publication_commit",
       "articleSlug": "fix-banding-in-sky-gradients",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
       "metricsGeography": null,
       "metricsPeriod": null,
-      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json",
+      "publicationResearchRecord": "2026-10-24-queued-guides.json"
     },
     {
       "id": "control-featured-photos-iphone",
@@ -1447,15 +1452,16 @@
         "remove photos widget iphone"
       ],
       "intent": "Choose what Photos surfaces automatically while keeping display preferences separate from access control.",
-      "status": "queued_reviewed",
+      "status": "included_in_publication_commit",
       "articleSlug": "control-featured-photos-iphone",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
       "metricsGeography": null,
       "metricsPeriod": null,
-      "researchRecord": "2026-10-23-thirty-guides/apple-research.json"
+      "researchRecord": "2026-10-23-thirty-guides/apple-research.json",
+      "publicationResearchRecord": "2026-10-24-queued-guides.json"
     },
     {
       "id": "reduce-moire-in-clothing-photos",
@@ -1465,15 +1471,16 @@
         "false colors fabric photography"
       ],
       "intent": "Identify false waves or colors in fabric, compare the source and export, and try a local correction without erasing the garment’s texture.",
-      "status": "queued_reviewed",
+      "status": "included_in_publication_commit",
       "articleSlug": "reduce-moire-in-clothing-photos",
-      "validation": "Independent source and overlap review complete. Publication requires successful production checks and deployment; queued drafts have no publication date.",
+      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
       "metricsGeography": null,
       "metricsPeriod": null,
-      "researchRecord": "2026-10-23-thirty-guides/editing-research.json"
+      "researchRecord": "2026-10-23-thirty-guides/editing-research.json",
+      "publicationResearchRecord": "2026-10-24-queued-guides.json"
     }
   ]
 }

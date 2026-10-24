@@ -1,0 +1,502 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "b98369d38b5dfe2c25fd30e439356eaf4dddf160",
+  "decision": "Publish the seven reviewed articles queued by the owner-selected October 23 cap. No additional variant URLs are needed for this run.",
+  "baseline": {
+    "articles": 88,
+    "publishedToday": 0,
+    "remoteMatchesHead": true,
+    "deploymentRun": 40008789413,
+    "deploymentConclusion": "success"
+  },
+  "resultExpected": {
+    "articles": 95,
+    "newArticles": 7,
+    "publishedToday": 7,
+    "dailyMaximum": 30,
+    "sitemapUrls": 105,
+    "archivePages": 8
+  },
+  "metricsPolicy": {
+    "monthlySearchVolume": null,
+    "organicKeywordDifficulty": null,
+    "provider": null,
+    "geography": null,
+    "period": null,
+    "retrieved": "2026-10-24",
+    "reason": "No verified exact-query volume/difficulty dataset available. Source documentation and Search Console impressions are not search-volume estimates."
+  },
+  "searchConsole": {
+    "provider": "Google Search Console UI",
+    "property": "sc-domain:meluvya.com",
+    "retrieved": "2026-10-24",
+    "geography": "All countries; no country filter",
+    "searchType": "Web",
+    "devices": "All",
+    "selectedPeriod": "3 months",
+    "displayedDataPeriod": {
+      "from": "2026-10-19",
+      "through": "2026-10-22"
+    },
+    "clicks": 2,
+    "impressions": 102,
+    "displayedCtr": "2%",
+    "averagePosition": 20.3,
+    "queryRows": 14,
+    "queryExamples": [
+      {
+        "query": "retro effect",
+        "impressions": 3
+      },
+      {
+        "query": "how to edit photo without losing original",
+        "impressions": 2
+      },
+      {
+        "query": "noise vs grain",
+        "impressions": 2
+      }
+    ],
+    "interpretation": "Very small initial sample. Visible queries mostly map to existing guides; do not create duplicate variant articles. Query rows omit some aggregate activity. Average position is an aggregate, not proof of a target-keyword rank.",
+    "indexingReport": "Processing data; indexing not confirmed",
+    "sitemap": {
+      "url": "https://meluvya.com/sitemap.xml",
+      "status": "Success",
+      "submitted": "2026-10-22",
+      "lastRead": "2026-10-22",
+      "discoveredPages": 65,
+      "note": "Observed before this publication. This delayed discovery count is not an indexed-page count. No repeat sitemap submission or indexing request made."
+    }
+  },
+  "reviewMethod": "Read all seven full drafts and compare with the current 88-article library; preserve independent October 23 reviews; open all 14 cited primary-source URLs and recheck operative claims on October 24. No article body changes needed.",
+  "priorReviews": [
+    "2026-10-23-thirty-guides/review-apple.md",
+    "2026-10-23-thirty-guides/review-capture.md",
+    "2026-10-23-thirty-guides/review-editing.md"
+  ],
+  "articles": [
+    {
+      "slug": "visual-look-up-iphone-photos",
+      "title": "Use Visual Look Up on iPhone to identify a photo’s subject",
+      "url": "https://meluvya.com/blog/visual-look-up-iphone-photos/",
+      "published": "2026-10-24",
+      "decision": "Object identification and verification, distinct from OCR and subject cutouts. iOS 26 controls and regional/language limits confirmed; identification is not proof.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/guide/iphone/identify-objects-in-your-photos-and-videos-iph21c29a1cf/26/ios/26",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        },
+        {
+          "url": "https://support.apple.com/en-us/104962",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        }
+      ],
+      "relatedLinks": [
+        "iphone-photo-cutout-background",
+        "change-photo-date-time-iphone",
+        "remove-location-from-iphone-photos"
+      ],
+      "image": {
+        "path": "blog/pexels-35811832-4k.webp",
+        "credit": {
+          "name": "Robert Schwarz",
+          "url": "https://www.pexels.com/photo/macro-shot-of-water-droplet-on-flower-petal-35811832/"
+        },
+        "disclosure": "Existing licensed illustrative stock photography; not a demonstrated Meluvya result."
+      }
+    },
+    {
+      "slug": "jewelry-photos-with-phone",
+      "title": "How to photograph jewelry with a phone without losing the detail",
+      "url": "https://meluvya.com/blog/jewelry-photos-with-phone/",
+      "published": "2026-10-24",
+      "decision": "Reflective metal and gemstone detail require a different lighting decision from a generic white-background product setup. Color and construction examples do not claim gem grading.",
+      "sources": [
+        {
+          "url": "https://www.gia.edu/gem-photography",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        },
+        {
+          "url": "https://broncolor.swiss/news/how-to-photograph-jewelry-rings",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        }
+      ],
+      "relatedLinks": [
+        "iphone-macro-close-up-focus",
+        "clean-phone-camera-lens",
+        "why-photos-look-different-on-screens"
+      ],
+      "image": {
+        "path": "blog/pexels-16689780-4k.webp",
+        "credit": {
+          "name": "cnrdmroglu",
+          "url": "https://www.pexels.com/photo/gold-ring-on-hand-of-woman-16689780/"
+        },
+        "disclosure": "Existing licensed illustrative stock photography; not a demonstrated Meluvya result."
+      }
+    },
+    {
+      "slug": "add-text-arrows-iphone-photo",
+      "title": "How to add readable text and arrows to an iPhone photo",
+      "url": "https://meluvya.com/blog/add-text-arrows-iphone-photo/",
+      "published": "2026-10-24",
+      "decision": "Annotation for a recipient, distinct from aesthetic edits and redaction. Apple Markup text, shape and save controls confirmed; no secure-redaction claim.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/en-us/119875",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        },
+        {
+          "url": "https://support.apple.com/guide/iphone/add-text-shapes-stickers-and-more-iphcdb1d0bc7/26/ios/26",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        }
+      ],
+      "relatedLinks": [
+        "edit-photos-without-losing-original",
+        "how-to-crop-portrait-photos",
+        "resize-vs-compress-photos-for-upload"
+      ],
+      "image": {
+        "path": "blog/pexels-15758649-4k.webp",
+        "credit": {
+          "name": "Elif Çöküç",
+          "url": "https://www.pexels.com/photo/woman-taking-a-mirror-selfie-with-a-camera-15758649/"
+        },
+        "disclosure": "Existing licensed illustrative stock photography; not a demonstrated Meluvya result."
+      }
+    },
+    {
+      "slug": "photograph-artwork-with-phone",
+      "title": "How to photograph paintings and drawings faithfully with a phone",
+      "url": "https://meluvya.com/blog/photograph-artwork-with-phone/",
+      "published": "2026-10-24",
+      "decision": "Faithful recording of an original artwork, distinct from scanning an existing print. Alignment, glare and light guidance supported; phone guidance does not inherit DSLR aperture settings.",
+      "sources": [
+        {
+          "url": "https://art.uiowa.edu/sites/art.uiowa.edu/files/2024-02/photographing_artwork_at_home.pdf",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        },
+        {
+          "url": "https://sites.smith.edu/ickb/documenting-your-artwork/documenting-your-artwork-scanning-cameras-lighting/",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        }
+      ],
+      "relatedLinks": [
+        "fix-perspective-in-phone-photos",
+        "srgb-vs-display-p3-photo-export",
+        "scan-printed-photos-with-phone"
+      ],
+      "image": {
+        "path": "blog/pexels-20511253-4k.webp",
+        "credit": {
+          "name": "Alina Rossoshanska",
+          "url": "https://www.pexels.com/photo/man-painting-a-picture-on-a-canvas-in-a-studio-20511253/"
+        },
+        "disclosure": "Existing licensed illustrative stock photography; not a demonstrated Meluvya result."
+      }
+    },
+    {
+      "slug": "fix-banding-in-sky-gradients",
+      "title": "How to troubleshoot banding in sky gradients",
+      "url": "https://meluvya.com/blog/fix-banding-in-sky-gradients/",
+      "published": "2026-10-24",
+      "decision": "Stepped tonal transitions, distinct from random noise and screen color mismatch. Higher bit depth is preventative, not recovery of already lost levels; gradient dither is correctly scoped.",
+      "sources": [
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-modes/bit-depth-in-photoshop.html",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        },
+        {
+          "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/color-effects-techniques/apply-gradient-fill.html",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        }
+      ],
+      "relatedLinks": [
+        "why-saved-photos-lose-quality",
+        "why-photos-look-different-on-screens",
+        "raw-vs-jpeg-phone-photography"
+      ],
+      "image": {
+        "path": "blog/pexels-23203338-4k.webp",
+        "credit": {
+          "name": "Ella Ragasa",
+          "url": "https://www.pexels.com/photo/panorama-of-a-mountain-landscape-23203338/"
+        },
+        "disclosure": "Existing licensed illustrative stock photography; not a demonstrated Meluvya result."
+      }
+    },
+    {
+      "slug": "control-featured-photos-iphone",
+      "title": "Control featured photos and photo memories on iPhone",
+      "url": "https://meluvya.com/blog/control-featured-photos-iphone/",
+      "published": "2026-10-24",
+      "decision": "Automatic presentation preferences, distinct from hiding or locking photos. Version-specific Apple person, featured-content and widget controls confirmed; display preferences are not privacy controls.",
+      "sources": [
+        {
+          "url": "https://support.apple.com/guide/iphone/hide-people-memories-and-holidays-iph10a9dd2a1/26/ios/26",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        },
+        {
+          "url": "https://support.apple.com/en-us/118610",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        }
+      ],
+      "relatedLinks": [
+        "iphone-burst-photos-select-best-frame",
+        "icloud-photos-sync-vs-backup",
+        "edit-photos-without-losing-original"
+      ],
+      "image": {
+        "path": "blog/pexels-12182725-4k.webp",
+        "credit": {
+          "name": "Connor McManus",
+          "url": "https://www.pexels.com/photo/portrait-of-a-woman-at-night-12182725/"
+        },
+        "disclosure": "Existing licensed illustrative stock photography; not a demonstrated Meluvya result."
+      }
+    },
+    {
+      "slug": "reduce-moire-in-clothing-photos",
+      "title": "How to reduce moiré in clothing photos",
+      "url": "https://meluvya.com/blog/reduce-moire-in-clothing-photos/",
+      "published": "2026-10-24",
+      "decision": "False fabric pattern/color, distinct from edge chromatic aberration and random noise. Nikon diagnosis and Adobe mobile local Moiré control verified; genuine fabric detail must remain.",
+      "sources": [
+        {
+          "url": "https://www.nikonusa.com/learn-and-explore/c/products-and-innovation/moire-false-color",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        },
+        {
+          "url": "https://helpx.adobe.com/lightroom/mobile/masks-and-selective-adjustments/local-adjustment-controls.html",
+          "retrieved": "2026-10-24",
+          "status": "Opened and relevant claims supported"
+        }
+      ],
+      "relatedLinks": [
+        "photo-noise-vs-film-grain",
+        "photo-sharpening-vs-resolution",
+        "resize-vs-compress-photos-for-upload"
+      ],
+      "image": {
+        "path": "blog/pexels-32644860-4k.webp",
+        "credit": {
+          "name": "Muhammad-Taha Ibrahim",
+          "url": "https://www.pexels.com/photo/portrait-of-smiling-woman-at-window-in-abuja-32644860/"
+        },
+        "disclosure": "Existing licensed illustrative stock photography; not a demonstrated Meluvya result."
+      }
+    }
+  ],
+  "promotion": "Shared end-of-article Meluvya promotion and both existing store buttons retained. Buttons use the honest coming-soon dialog; no supplied store link exists.",
+  "validation": {
+    "status": "PASS",
+    "contentCheck": {
+      "command": "node scripts/check-content.mjs --base b98369d38b5dfe2c25fd30e439356eaf4dddf160",
+      "totalArticles": 95,
+      "publishedToday": 7,
+      "baselineChecked": true
+    },
+    "lint": "PASS",
+    "productionBuild": {
+      "result": "PASS",
+      "command": "SITE_URL=https://meluvya.com NEXT_PUBLIC_BASE_PATH= npm run build -- --webpack",
+      "node": "24.19.0",
+      "workspace": "Exact starting-commit GitHub archive plus only the publication changes; local filesystem cold reads were slow. The normal CI build still runs on GitHub."
+    },
+    "typecheck": "PASS",
+    "export": {
+      "result": "PASS",
+      "routes": 105,
+      "local_links_and_assets_checked": 5391,
+      "article_pages": 95,
+      "unique_canonicals_titles_descriptions": true,
+      "schema": "Article and Breadcrumb JSON-LD parses and matches visible titles"
+    },
+    "seoFoundations": {
+      "result": "PASS",
+      "guidesLinkedFromPageOne": 95,
+      "editorialAttribution": 95
+    },
+    "integrity": {
+      "baselineUnchanged": 88,
+      "newArticles": 7,
+      "images": [
+        {
+          "slug": "visual-look-up-iphone-photos",
+          "image": "blog/pexels-35811832-4k.webp",
+          "width": 2559,
+          "height": 3840,
+          "variants": 4,
+          "credit": {
+            "name": "Robert Schwarz",
+            "url": "https://www.pexels.com/photo/macro-shot-of-water-droplet-on-flower-petal-35811832/"
+          }
+        },
+        {
+          "slug": "jewelry-photos-with-phone",
+          "image": "blog/pexels-16689780-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "variants": 4,
+          "credit": {
+            "name": "cnrdmroglu",
+            "url": "https://www.pexels.com/photo/gold-ring-on-hand-of-woman-16689780/"
+          }
+        },
+        {
+          "slug": "add-text-arrows-iphone-photo",
+          "image": "blog/pexels-15758649-4k.webp",
+          "width": 2571,
+          "height": 3840,
+          "variants": 4,
+          "credit": {
+            "name": "Elif Çöküç",
+            "url": "https://www.pexels.com/photo/woman-taking-a-mirror-selfie-with-a-camera-15758649/"
+          }
+        },
+        {
+          "slug": "photograph-artwork-with-phone",
+          "image": "blog/pexels-20511253-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "variants": 4,
+          "credit": {
+            "name": "Alina Rossoshanska",
+            "url": "https://www.pexels.com/photo/man-painting-a-picture-on-a-canvas-in-a-studio-20511253/"
+          }
+        },
+        {
+          "slug": "fix-banding-in-sky-gradients",
+          "image": "blog/pexels-23203338-4k.webp",
+          "width": 3840,
+          "height": 2880,
+          "variants": 4,
+          "credit": {
+            "name": "Ella Ragasa",
+            "url": "https://www.pexels.com/photo/panorama-of-a-mountain-landscape-23203338/"
+          }
+        },
+        {
+          "slug": "control-featured-photos-iphone",
+          "image": "blog/pexels-12182725-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "variants": 4,
+          "credit": {
+            "name": "Connor McManus",
+            "url": "https://www.pexels.com/photo/portrait-of-a-woman-at-night-12182725/"
+          }
+        },
+        {
+          "slug": "reduce-moire-in-clothing-photos",
+          "image": "blog/pexels-32644860-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "variants": 4,
+          "credit": {
+            "name": "Muhammad-Taha Ibrahim",
+            "url": "https://www.pexels.com/photo/portrait-of-smiling-woman-at-window-in-abuja-32644860/"
+          }
+        }
+      ]
+    },
+    "newRoutesAndPagination": {
+      "newUrls": [
+        {
+          "slug": "visual-look-up-iphone-photos",
+          "canonical": "https://meluvya.com/blog/visual-look-up-iphone-photos/",
+          "date": "2026-10-24",
+          "cta": true,
+          "relatedLinks": 7
+        },
+        {
+          "slug": "jewelry-photos-with-phone",
+          "canonical": "https://meluvya.com/blog/jewelry-photos-with-phone/",
+          "date": "2026-10-24",
+          "cta": true,
+          "relatedLinks": 7
+        },
+        {
+          "slug": "add-text-arrows-iphone-photo",
+          "canonical": "https://meluvya.com/blog/add-text-arrows-iphone-photo/",
+          "date": "2026-10-24",
+          "cta": true,
+          "relatedLinks": 7
+        },
+        {
+          "slug": "photograph-artwork-with-phone",
+          "canonical": "https://meluvya.com/blog/photograph-artwork-with-phone/",
+          "date": "2026-10-24",
+          "cta": true,
+          "relatedLinks": 7
+        },
+        {
+          "slug": "fix-banding-in-sky-gradients",
+          "canonical": "https://meluvya.com/blog/fix-banding-in-sky-gradients/",
+          "date": "2026-10-24",
+          "cta": true,
+          "relatedLinks": 7
+        },
+        {
+          "slug": "control-featured-photos-iphone",
+          "canonical": "https://meluvya.com/blog/control-featured-photos-iphone/",
+          "date": "2026-10-24",
+          "cta": true,
+          "relatedLinks": 7
+        },
+        {
+          "slug": "reduce-moire-in-clothing-photos",
+          "canonical": "https://meluvya.com/blog/reduce-moire-in-clothing-photos/",
+          "date": "2026-10-24",
+          "cta": true,
+          "relatedLinks": 7
+        }
+      ],
+      "archivePages": 8,
+      "archiveCards": 95,
+      "uniqueArchiveCards": 95,
+      "archivePageCounts": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        11
+      ]
+    },
+    "browser": {
+      "result": "PASS",
+      "mobileViewport": "390x844",
+      "mobilePages": [
+        "jewelry-photos-with-phone",
+        "control-featured-photos-iphone"
+      ],
+      "documentWidth": 390,
+      "table": "480px table scrolls inside 356px overflow-auto container; no page-level overflow",
+      "cta": "Both App Store and Google Play open the coming-soon dialog. Escape closes each and restores focus to its triggering button. Visible CTA logo loads.",
+      "desktop": "Blog archive rendered at 1352px with no horizontal page overflow; Page 8 link opens last archive page with 11 cards.",
+      "viewportRestored": true
+    },
+    "limits": "Checks validate structure and observed rendering, not search demand, ranking or Google indexing."
+  },
+  "deployment": {
+    "status": "ready_for_push",
+    "note": "This record is committed before deployment. Verify the containing commit through GitHub Actions and live URLs; later runs must reconcile actual remote state instead of republishing."
+  }
+}
