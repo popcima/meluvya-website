@@ -6,6 +6,9 @@ const topics = [
   "title": "Camera controls and capture",
   "description": "Choose the right capture mode, focus point and moment before you edit.",
   "slugs": [
+    "apple-watch-camera-remote-photos",
+    "photograph-fireworks-with-phone",
+
     "jewelry-photos-with-phone",
     "photograph-artwork-with-phone",
     "food-photos-with-phone",
@@ -31,6 +34,9 @@ const topics = [
   "title": "Sharing, printing and preserving photos",
   "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
   "slugs": [
+    "google-photos-free-up-space-vs-delete",
+    "icloud-photos-not-syncing",
+
       "photos-upload-sideways-or-upside-down",
     "visual-look-up-iphone-photos",
     "control-featured-photos-iphone",
@@ -78,6 +84,8 @@ const topics = [
     "title": "Light and exposure",
     "description": "Start here if a face is too dark, highlights are washed out, or indoor colors look wrong.",
     "slugs": [
+    "snow-photos-gray-or-blue",
+
       "stripes-in-photos-under-led-lights",
       "fix-mixed-lighting-in-portraits",
       "direct-flash-portrait-tips",

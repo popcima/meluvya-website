@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://news.samsung.com/uk/how-to-capture-the-perfect-firework-picture-on-samsung-galaxy-s8-note8",
+    "status": 200,
+    "final": "https://news.samsung.com/uk/how-to-capture-the-perfect-firework-picture-on-samsung-galaxy-s8-note8"
+  },
+  {
+    "url": "https://support.apple.com/en-us/101559",
+    "status": 200,
+    "final": "https://support.apple.com/en-us/101559"
+  },
+  {
+    "url": "https://support.apple.com/en-us/105061",
+    "status": 200,
+    "final": "https://support.apple.com/en-us/105061"
+  },
+  {
+    "url": "https://support.apple.com/en-us/108360",
+    "status": 200,
+    "final": "https://support.apple.com/en-us/108360"
+  },
+  {
+    "url": "https://support.apple.com/en-us/108782",
+    "status": 200,
+    "final": "https://support.apple.com/en-us/108782"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+    "status": 200,
+    "final": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26"
+  },
+  {
+    "url": "https://support.apple.com/guide/watch/camera-remote-apda6e61c287/watchos",
+    "status": 200,
+    "final": "https://support.apple.com/guide/watch/camera-remote-apda6e61c287/watchos"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DiOS",
+    "status": 200,
+    "final": "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DiOS"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6128858?hl=en",
+    "status": 200,
+    "final": "https://support.google.com/photos/answer/6128858?hl=en"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6193313?hl=en",
+    "status": 200,
+    "final": "https://support.google.com/photos/answer/6193313?hl=en"
+  },
+  {
+    "url": "https://www.apple.com/support/systemstatus/",
+    "status": 200,
+    "final": "https://www.apple.com/support/systemstatus/"
+  },
+  {
+    "url": "https://www.canon.com.au/get-inspired/cold-weather-photography-tips",
+    "status": 403,
+    "exception": "Direct HTTP client returned 403; official page was successfully read through the available web research tool on 2026-10-25. No access-control bypass attempted."
+  },
+  {
+    "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/taking-pictures-of-fireworks",
+    "status": 200,
+    "final": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/taking-pictures-of-fireworks"
+  },
+  {
+    "url": "https://www.tamron.com/global/consumer/sp/impression/detail/article-how-to-shoot-snow-and-photos-unique-to-winter.html",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "retry": {
+      "method": "curl HEAD",
+      "status": 200,
+      "note": "Initial urllib DNS error was transient."
+    }
+  }
+]

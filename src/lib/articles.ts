@@ -30,6 +30,690 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "google-photos-free-up-space-vs-delete",
+  "title": "Google Photos: Free up space vs Delete, explained",
+  "description": "Clear phone storage without confusing local removal with deleting your Google Photos library. Check backup status and the extra iCloud risk on iPhone.",
+  "summary": "Choose the cleanup action that matches the storage you want to recover, and verify a separate copy before removing originals.",
+  "published": "2026-10-25",
+  "modified": "2026-10-25",
+  "quickAnswer": "Free up space removes eligible device copies that Google Photos has backed up. Delete removes items from your Google Photos library and can also remove them from connected devices. Before either action, confirm the account and backup. On an iPhone using iCloud Photos, removing items from Apple Photos can also remove them from iCloud.",
+  "sections": [
+    {
+      "id": "choose-storage",
+      "title": "First decide which storage is full",
+      "paragraphs": [
+        "A full phone and a full Google Account are different problems. Google’s backup help says account storage is shared by Photos, Drive and Gmail. Removing local copies does not erase the cloud library or recover that cloud storage.",
+        "Write down your goal before touching a cleanup button: “I need room on this phone, but want these pictures to remain in Google Photos.” That goal points to a different action from intentionally removing unwanted pictures everywhere."
+      ],
+      "table": {
+        "headers": [
+          "Action",
+          "What you are choosing"
+        ],
+        "rows": [
+          [
+            "Free up space",
+            "Remove eligible backed-up copies from the device."
+          ],
+          [
+            "Delete in Google Photos",
+            "Remove library items, with effects on connected devices and albums."
+          ],
+          [
+            "Undo device backup",
+            "Remove the device-backed-up set from Google Photos while keeping device copies; not a phone-space cleanup tool."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "verify-backup",
+      "title": "Verify the surviving copy before cleanup",
+      "paragraphs": [
+        "An image appearing in the mobile app is not enough for this decision. Confirm the intended Google Account, inspect backup status, and find the same important images at photos.google.com. Google’s backup documentation explains the account and per-item checks.",
+        "For irreplaceable pictures, keep an additional copy outside the library you are cleaning. Open several files at that destination. Include a recent photo, an older favorite and any image imported from another app; a successful sample is useful evidence, but it does not verify every file.",
+        "Also decide whether you need the original capture quality. Our related backup-quality guide explains Original quality and Storage saver. A smaller cloud copy cannot replace an original you later discover you needed."
+      ]
+    },
+    {
+      "id": "cleanup-steps",
+      "title": "Use the named cleanup command deliberately",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Open Google Photos and confirm the account under the profile picture or initial. Wait for any outstanding backup to complete."
+          },
+          {
+            "text": "Choose Free up space on this device. Read the proposed removal before confirming; do not substitute the trash button."
+          },
+          {
+            "text": "On iPhone, read the iCloud warning below first. Google’s procedure includes removing the same items from Apple Photos’ Recently Deleted area to reclaim space. Only do that once the remaining copies are verified."
+          },
+          {
+            "text": "Afterward, confirm the photos remain accessible in Google Photos. Removed local copies may be unavailable offline or in your phone’s built-in gallery. Keep needed offline images separately."
+          }
+        ]
+      }
+    },
+    {
+      "id": "iphone-icloud",
+      "title": "On iPhone, account for iCloud Photos too",
+      "paragraphs": [
+        "Apple documents that deleting an item from a library using iCloud Photos propagates that deletion to its other devices. Combining that behavior with Google’s device-cleanup instructions means you should not assume the Apple/iCloud copy will survive this cleanup. This is a cross-service consequence, not a promise made by Google’s backup badge.",
+        "If keeping the iCloud library is your priority, review Apple’s Optimize Storage option instead of deleting library items. If you deliberately retain Google copies and remove Apple copies, verify the Google files first and understand that the services will no longer hold identical collections.",
+        "For example, a family may want its shared Apple library intact even though one phone is nearly full. In that situation, stop before cleanup and choose a device-storage solution that preserves the family’s intended library. The quickest deletion is not always the right storage decision."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will Free up space give me more Google Account storage?",
+      "answer": "No. Its purpose is removing eligible local copies. Cloud account cleanup is a separate operation."
+    },
+    {
+      "question": "Should I empty every item in Recently Deleted?",
+      "answer": "Do not empty unrelated items as part of this process. Verify the surviving copies and follow the instructions for the same items you deliberately removed; permanent deletion removes that recovery option."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos: Free up space on your device",
+      "url": "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DiOS",
+      "note": "Device removal, the iPhone Recently Deleted step, and access after cleanup; use the platform selector for Android."
+    },
+    {
+      "title": "Google Photos: Delete photos and videos",
+      "url": "https://support.google.com/photos/answer/6128858?hl=en",
+      "note": "Library deletion effects and the distinct Undo backup operation."
+    },
+    {
+      "title": "Google Photos: Back up photos and videos",
+      "url": "https://support.google.com/photos/answer/6193313?hl=en",
+      "note": "Backup/account checks and shared Google Account storage."
+    },
+    {
+      "title": "Apple: Set up and use iCloud Photos",
+      "url": "https://support.apple.com/en-us/108782",
+      "note": "Synchronized deletion and Optimize Storage. The cross-service warning is an inference from Apple and Google’s documented behavior."
+    }
+  ],
+  "related": [
+    "google-photos-original-vs-storage-saver",
+    "icloud-photos-sync-vs-backup",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-7129664-4k.webp",
+  "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7129664-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7129664-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7129664-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7129664-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Michael Burrows",
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "icloud-photos-not-syncing",
+  "title": "iCloud Photos not syncing? Check the status before changing settings",
+  "description": "Find why iCloud Photos is paused, distinguish phone storage from cloud storage, and check one missing photo without restarting your entire library sync.",
+  "summary": "Use the library’s actual status message to choose the next step and protect unsynced photos while you investigate.",
+  "published": "2026-10-25",
+  "modified": "2026-10-25",
+  "quickAnswer": "Read Photos’ library status and follow its pause reason. Check the account, connection, power and cloud capacity. Apple advises against turning iCloud Photos off as a troubleshooting step. Track one identifiable photograph while investigating.",
+  "sections": [
+    {
+      "id": "locate-status",
+      "title": "Read the message on the device holding the original",
+      "paragraphs": [
+        "Look for library status under Photos’ profile button in Collections, or below All Photos on older layouts. Apple’s troubleshooting page documents the version-dependent location.",
+        "Note the message and time before making a change. Choose one missing photo with a recognizable subject and capture date. Check whether it exists only on the phone, also on iCloud.com, or on another device. This creates a concrete test instead of repeatedly comparing total photo counts."
+      ]
+    },
+    {
+      "id": "pause-reason",
+      "title": "Match the next step to the pause reason",
+      "table": {
+        "headers": [
+          "Message or condition",
+          "Next check"
+        ],
+        "rows": [
+          [
+            "Low Battery",
+            "Connect power and let the phone charge."
+          ],
+          [
+            "Low Power Mode or Low Data Mode",
+            "Review that mode and whether you want to allow syncing now."
+          ],
+          [
+            "Poor connection or optimization pause",
+            "Use a reliable connection; use Sync Now if offered, or allow time."
+          ],
+          [
+            "Device needs to cool down",
+            "Allow the device to cool before retrying."
+          ],
+          [
+            "iCloud storage full",
+            "Review cloud capacity and what occupies it; local cleanup alone does not enlarge it."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "account-view",
+      "title": "Check account and library view separately",
+      "paragraphs": [
+        "Apple’s setup instructions require the same Apple Account on your own devices syncing your personal iCloud Photos library. Read the account identity rather than assuming that two devices belonging to you use the same one. Check that Photos synchronization is enabled for the intended library.",
+        "If you use Shared Library, check that view too: Apple notes that moved photos no longer appear in Personal Library.",
+        "For example, if the chosen image opens on iCloud.com but not on your tablet, the phone has already delivered that particular item to iCloud. Focus the next investigation on the tablet’s account, connection, status and view. This does not prove that every other phone item has finished uploading."
+      ]
+    },
+    {
+      "id": "two-storage-limits",
+      "title": "Distinguish the two storage limits",
+      "paragraphs": [
+        "Apple separates device capacity from iCloud capacity. Check phone space under Settings, General, iPhone Storage; check cloud usage under Settings, your name, iCloud. A warning about one is not a measurement of the other.",
+        "Optimize Storage manages the device copies while originals remain in iCloud. It is not an increase in cloud capacity. Before removing library photos to resolve storage pressure, remember that iCloud Photos synchronizes deletions too.",
+        "Keep unsynced originals available while diagnosing the problem. Avoid a reset, account switch or bulk deletion simply to see whether it helps. If you need to preserve a separate copy, retrieve and open the files at that destination before relying on it."
+      ]
+    },
+    {
+      "id": "verify-progress",
+      "title": "Verify progress and know when to escalate",
+      "paragraphs": [
+        "After addressing the condition, allow an uninterrupted session on power and reliable Wi-Fi. Apple recommends allowing overnight for some libraries. Record whether your chosen photo reaches the other device.",
+        "If it does not, collect the device model, software version, exact message and whether other iCloud services work. Consult Apple’s guidance for persistent errors and any Unable to Upload album. A support request with those observations is more useful than another unexplained sync toggle."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does a paused sync mean my photos are deleted?",
+      "answer": "A pause describes synchronization status, not proof of deletion. Locate the original and check a specific item before taking recovery or cleanup steps."
+    },
+    {
+      "question": "Why are totals different on two devices?",
+      "answer": "First compare the same library view and one identifiable photo. Counts alone do not distinguish an incomplete transfer from a different account or view."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: If your iCloud Photos are not syncing",
+      "url": "https://support.apple.com/en-us/101559",
+      "note": "Status locations, pause reasons, waiting, Shared Library views, and the warning against switching sync off."
+    },
+    {
+      "title": "Apple: Set up and use iCloud Photos",
+      "url": "https://support.apple.com/en-us/108782",
+      "note": "Account setup, deletion behavior, and device optimization."
+    },
+    {
+      "title": "Apple: Manage your photo and video storage",
+      "url": "https://support.apple.com/en-us/105061",
+      "note": "Separate device and iCloud capacity checks."
+    },
+    {
+      "title": "Apple System Status",
+      "url": "https://www.apple.com/support/systemstatus/",
+      "note": "Check current outages when troubleshooting; this article does not assert an outage."
+    }
+  ],
+  "related": [
+    "icloud-photos-sync-vs-backup",
+    "recover-deleted-iphone-photos",
+    "airdrop-photos-original-data"
+  ],
+  "image": "blog/pexels-34225009-4k.webp",
+  "imageAlt": "Photographer holding a memory card beside a card reader and laptop",
+  "imagePosition": "60% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-34225009-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-34225009-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-34225009-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-34225009-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Julio Lopez",
+    "url": "https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "apple-watch-camera-remote-photos",
+  "title": "How to take iPhone photos with Apple Watch Camera Remote",
+  "description": "Frame an iPhone photo from your wrist, choose the camera and timer, and review the result before moving your setup. Includes practical portrait checks.",
+  "summary": "Use the watch as a remote viewfinder so you can stay in the frame and make small corrections between shots.",
+  "published": "2026-10-25",
+  "modified": "2026-10-25",
+  "quickAnswer": "Open Camera Remote on your Apple Watch while your paired iPhone is nearby and supported securely. Frame the photograph in the watch preview and tap its shutter. Apple documents a default three-second timer, with camera and timer options under More. The photograph is saved on the iPhone.",
+  "sections": [
+    {
+      "id": "prepare-position",
+      "title": "Prepare the phone before stepping into the picture",
+      "paragraphs": [
+        "Choose the camera position for the photograph you want. For a standing portrait, leave enough space for your head, hands and feet; for a seated picture, check the chair edge and background. Put the phone somewhere stable and easy to retrieve.",
+        "Make a trial frame with an object where you intend to stand. That gives you a visual reference for placement. If there are two people, ask one to remain in position while the other checks the framing, then use the remote for the final picture.",
+        "Apple’s Camera Remote guide describes operation within normal Bluetooth range, approximately ten meters. Treat that as an approximate operating range rather than a guarantee through every wall or obstacle."
+      ]
+    },
+    {
+      "id": "watch-controls",
+      "title": "Use the controls you need for a still photo",
+      "table": {
+        "headers": [
+          "Control",
+          "Documented action"
+        ],
+        "rows": [
+          [
+            "Preview",
+            "Frame the scene; tap a key area to adjust exposure."
+          ],
+          [
+            "Digital Crown",
+            "Adjust zoom."
+          ],
+          [
+            "Shutter",
+            "Take a photo using the selected timer setting."
+          ],
+          [
+            "More",
+            "Choose front or rear camera; adjust timer, flash and Live Photo settings."
+          ],
+          [
+            "Thumbnail",
+            "Review captured shots on the watch."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "portrait-routine",
+      "title": "A short routine for a natural portrait",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Check the preview once you are standing in the intended place. Look at the frame edges, not just your face."
+          },
+          {
+            "text": "Use the delay to lower your wrist and look toward the phone lens. Avoid spending every exposure looking down at the watch."
+          },
+          {
+            "text": "Take a small set while changing one detail, such as shoulder angle or hand position. Keep the phone fixed so the comparison is meaningful."
+          },
+          {
+            "text": "Review the picture while you can still retake it. Check the full-size file on the iPhone for sharpness and expression before packing up."
+          }
+        ]
+      }
+    },
+    {
+      "id": "troubleshoot-remote",
+      "title": "If the remote view is unavailable",
+      "paragraphs": [
+        "First bring the watch and phone close together and check their connection. Apple’s connection-support page uses the red iPhone or red X icon as a sign to investigate, and advises checking Airplane Mode, Bluetooth and Wi-Fi settings. Follow its troubleshooting order rather than immediately unpairing devices.",
+        "If the preview works but the portrait disappoints, separate the two problems. A cut-off hand is a framing issue; a poor expression is a timing issue; visible shake may call for a more stable support. Reconnecting the watch is unlikely to solve an otherwise working camera setup.",
+        "This guide concerns Apple’s Camera Remote and the iPhone camera. It does not establish remote-shutter support inside Meluvya or another camera app. Use the phone’s own camera controls or self-timer if your equipment does not offer the documented watch workflow."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where do the photos appear?",
+      "answer": "In Photos on the iPhone. The watch can review the capture, but the iPhone is the camera and storage destination."
+    },
+    {
+      "question": "Do I need to buy a watch for self-portraits?",
+      "answer": "No. If you already have a suitable paired watch, this is another way to control the shot. Our self-timer guide covers a workflow that does not depend on a watch."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: Use Camera Remote on Apple Watch",
+      "url": "https://support.apple.com/guide/watch/camera-remote-apda6e61c287/watchos",
+      "note": "Remote controls, approximate range, three-second default timer and iPhone storage destination. The portrait routine is original editorial guidance."
+    },
+    {
+      "title": "Apple: If your Apple Watch is not connected or paired",
+      "url": "https://support.apple.com/en-us/108360",
+      "note": "Connection-status indicators and a staged connection troubleshooting procedure."
+    }
+  ],
+  "related": [
+    "self-timer-portraits-with-phone",
+    "take-couple-photos-with-phone",
+    "group-photos-everyone-sharp"
+  ],
+  "image": "blog/pexels-13929353-4k.webp",
+  "imageAlt": "Woman adjusting a phone mounted on a ring-light tripod",
+  "imagePosition": "55% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-13929353-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-13929353-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-13929353-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-13929353-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Mizuno K",
+    "url": "https://www.pexels.com/photo/woman-fixing-a-smart-phone-on-a-tripod-13929353/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "photograph-fireworks-with-phone",
+  "title": "How to photograph fireworks with your phone",
+  "description": "Keep fireworks colorful and your phone steady. Choose a framing strategy, compare exposure, and distinguish deliberate light trails from camera shake.",
+  "summary": "Plan the first few frames as a test so you can adjust before the busiest part of the display.",
+  "published": "2026-10-25",
+  "modified": "2026-10-25",
+  "quickAnswer": "Support the phone, turn flash off, leave space around the expected burst and review early photographs for lost color or shake. Try lowering exposure if the fireworks look washed out. Use only camera controls your phone actually provides; a dedicated-camera aperture or Bulb recipe does not automatically apply to a phone.",
+  "sections": [
+    {
+      "id": "choose-frame",
+      "title": "Choose a frame before the display begins",
+      "paragraphs": [
+        "Pick a permitted spectator position with a clear view and room to hold or support your phone without blocking others. Include a landmark if it helps explain the setting. Nikon’s fireworks guide recommends using foreground reference points and avoiding unnecessary movement at the shutter.",
+        "Leave some empty space above and beside the first burst. A later burst may be larger or appear elsewhere. If every bright trail reaches the edge, widen the framing rather than trying to repair a cropped explosion afterward.",
+        "Imagine two possible pictures: a single burst above a roofline, or several overlapping trails above a waterfront. Choose one as your first target. That decision makes it easier to tell whether a longer exposure is helping or merely filling the sky with clutter."
+      ]
+    },
+    {
+      "id": "start-simple",
+      "title": "Start with the ordinary camera",
+      "paragraphs": [
+        "Turn flash off. Samsung’s phone-specific fireworks guidance explains that it cannot illuminate the distant display and recommends stabilizing the phone. Its article covers older Galaxy hardware, so use those general principles without copying its device-specific settings.",
+        "Begin with a comfortable wide composition and take a few separate frames. Avoid chasing every burst with a large digital zoom change. Check the saved result: look for color in the trails, recognizable surroundings and whether fixed objects are sharp.",
+        "On iPhone, Apple documents tapping the focus area and moving the exposure adjustment to change brightness. If a burst becomes a large white patch, try a slightly darker capture and compare the next similar burst. Changing the whole scene between tests makes the comparison less useful."
+      ]
+    },
+    {
+      "id": "read-result",
+      "title": "Let the first results decide the next change",
+      "table": {
+        "headers": [
+          "What you see",
+          "Try next"
+        ],
+        "rows": [
+          [
+            "Fixed buildings and light trails both wobble",
+            "Improve support and reduce movement when releasing the shutter."
+          ],
+          [
+            "Buildings are sharp but trails stretch",
+            "This may be the fireworks moving during the exposure; decide whether you like the effect."
+          ],
+          [
+            "Large bursts lose their color",
+            "Compare a darker exposure; some tiny bright cores may remain white."
+          ],
+          [
+            "Too many overlapping streaks",
+            "Capture a quieter part of the sequence or shorten exposure if your camera allows it."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "long-exposure",
+      "title": "Treat long exposure as an optional technique",
+      "paragraphs": [
+        "Nikon’s dedicated-camera method uses a stable camera and a controlled long exposure to collect the burst’s path. That explains why fireworks photographs can contain long lines, but it is not evidence that every phone offers the same shutter or aperture controls.",
+        "If your camera app has manual shutter control, compare a shorter and longer setting from the same supported position. Watch the surrounding buildings as your stability reference. If the app only offers automatic processing, judge the saved output instead of assuming that a mode name guarantees a particular exposure.",
+        "You do not have to record the entire display in one image. A clean, well-framed burst may communicate the scene better than a dense stack. Keep the original files and select for composition before applying color effects; editing cannot reliably recover detail that the capture never retained."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I always use the longest exposure?",
+      "answer": "No. More time can add trails but also overlapping bursts, bright smoke and movement. Choose the effect from the recorded result."
+    },
+    {
+      "question": "Are the example photos made by Meluvya?",
+      "answer": "No. The credited image is an illustrative stock photograph, not an app result or a demonstration taken for this guide."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nikon: Taking pictures of fireworks",
+      "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/taking-pictures-of-fireworks",
+      "note": "Framing, stable support and dedicated-camera long-exposure principles; those hardware settings are not presented as universal phone settings."
+    },
+    {
+      "title": "Samsung: Firework pictures with Galaxy S8 and Note8",
+      "url": "https://news.samsung.com/uk/how-to-capture-the-perfect-firework-picture-on-samsung-galaxy-s8-note8",
+      "note": "Historical phone guidance on stability, flash and digital zoom. Model-specific exposure recommendations are not generalized."
+    },
+    {
+      "title": "Apple: Set up your shot with iPhone camera tools",
+      "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+      "note": "Documented focus and exposure adjustment; menu details depend on software version. The comparison table is editorial troubleshooting guidance."
+    }
+  ],
+  "related": [
+    "why-night-phone-photos-are-blurry",
+    "iphone-ae-af-lock",
+    "intentional-motion-blur-photography"
+  ],
+  "image": "blog/pexels-28704331-4k.webp",
+  "imageAlt": "Fireworks illuminating the sky above a crowd at night",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-28704331-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-28704331-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-28704331-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-28704331-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Yevheniia Savchenko",
+    "url": "https://www.pexels.com/photo/spectacular-night-fireworks-festival-in-reus-28704331/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "snow-photos-gray-or-blue",
+  "title": "Why snow looks gray or blue in photos, and how to fix it",
+  "description": "Separate exposure from white balance in winter photos. Brighten gray snow carefully, preserve texture and avoid turning naturally cool shadows orange.",
+  "summary": "Use a small capture comparison to decide whether your snow photo needs more light, a color adjustment or both.",
+  "published": "2026-10-25",
+  "modified": "2026-10-25",
+  "quickAnswer": "Gray-looking snow can result from an exposure that makes a bright scene too dark. Blue-looking snow can instead reflect cool illumination or white balance. Compare brightness and color separately: raise exposure cautiously when needed, then adjust color while preserving snow texture and believable shadows. One fixed setting will not suit every winter scene.",
+  "sections": [
+    {
+      "id": "diagnose-tone",
+      "title": "Decide whether the problem is brightness or color",
+      "paragraphs": [
+        "Look at a patch of snow with visible footprints or ridges. Is its detail present but dull? Is it bright enough yet strongly blue? Or is it featureless white? These observations suggest different adjustments, so do not start by moving every slider.",
+        "Canon’s winter-photography guidance explains that a meter’s tendency toward middle gray can make a snow-dominated scene too dark. A positive exposure adjustment may be appropriate. This is a starting diagnosis, not a reason to make every snowy photograph brighter.",
+        "A person in a dark coat surrounded by snow presents two priorities. You may want a readable face and bright snow without sacrificing either. Inspect both areas after each change; the coat does not have to become light gray for the photograph to work."
+      ]
+    },
+    {
+      "id": "capture-comparison",
+      "title": "Make a small exposure comparison",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Keep the framing consistent and choose a snow area whose texture you can recognize in each frame."
+          },
+          {
+            "text": "Take one picture at the camera’s initial exposure, then another slightly brighter using the supported exposure control."
+          },
+          {
+            "text": "Compare the saved images. Keep the brighter frame only if the snow still contains the important surface detail and any face remains usable."
+          },
+          {
+            "text": "If the snow is already blank white, move in the darker direction instead. Retake while the scene is available rather than relying on an extreme repair later."
+          }
+        ]
+      }
+    },
+    {
+      "id": "phone-control",
+      "title": "Use exposure controls rather than screen brightness",
+      "paragraphs": [
+        "Apple’s camera guide documents tapping a subject and dragging the exposure adjustment to brighten or darken the capture. Increasing your display brightness only changes how you view the picture; it is not a replacement for adjusting the photograph.",
+        "An exact exposure-compensation number is less useful than checking the recorded result. A frame full of fresh snow and one containing mostly trees can lead the camera to different starting choices. Repeat the comparison if the composition changes substantially."
+      ]
+    },
+    {
+      "id": "white-balance",
+      "title": "Handle blue snow after judging exposure",
+      "paragraphs": [
+        "Tamron’s winter guide discusses how white-balance choices can emphasize a cool or warm rendering. Use that as a creative decision rather than trying to remove every blue tone. Snow in shadow and snow in direct light do not have to look identical.",
+        "If the whole scene looks unnaturally cold, compare a small warmer adjustment in your editor. Watch tree bark, clothing and skin as well as snow. Stop if these become orange or yellow while you are trying to neutralize the shaded ground.",
+        "For a set of pictures, choose one reference image whose light matches the others. Compare the same areas after applying your edit. A sunrise frame and an overcast afternoon frame may deserve different treatment even when both contain white snow."
+      ]
+    },
+    {
+      "id": "editing-check",
+      "title": "Finish with detail, then color",
+      "table": {
+        "headers": [
+          "Symptom",
+          "Useful check"
+        ],
+        "rows": [
+          [
+            "Dull gray snow with visible texture",
+            "Try modest exposure adjustment and compare the bright areas."
+          ],
+          [
+            "Blue shadows but believable sunlit snow",
+            "Consider keeping the lighting difference rather than warming everything."
+          ],
+          [
+            "Yellow snow and orange skin after editing",
+            "Back off the warming adjustment and inspect the original."
+          ],
+          [
+            "Featureless white area",
+            "Check whether a darker source capture exists; do not assume editing can restore missing detail."
+          ]
+        ]
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should snow always be pure white?",
+      "answer": "No. Surface texture, shade and reflected light can create meaningful tonal and color variation. Judge whether the image looks coherent rather than making every patch identical."
+    },
+    {
+      "question": "Does this require a special winter filter?",
+      "answer": "No. Start with capture exposure and then assess color. An effect is an optional style choice, not a substitute for preserving important detail."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Canon: Cold-weather photography tips",
+      "url": "https://www.canon.com.au/get-inspired/cold-weather-photography-tips",
+      "note": "Snow metering, positive exposure correction and checking tonal detail."
+    },
+    {
+      "title": "Tamron: Photographing snow and winter scenery",
+      "url": "https://www.tamron.com/global/consumer/sp/impression/detail/article-how-to-shoot-snow-and-photos-unique-to-winter.html",
+      "note": "Exposure and white-balance considerations; this guide avoids treating its example settings as universal."
+    },
+    {
+      "title": "Apple: iPhone camera tools",
+      "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+      "note": "Touchscreen exposure adjustment. The comparison routine and decision table are original editorial guidance."
+    }
+  ],
+  "related": [
+    "read-histogram-for-portraits",
+    "remove-color-cast-from-photos",
+    "can-you-fix-overexposed-portraits"
+  ],
+  "image": "blog/pexels-35861599-4k.webp",
+  "imageAlt": "Snow-covered ground and trees in a winter landscape",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-35861599-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-35861599-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-35861599-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-35861599-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "wal_ 172619",
+    "url": "https://www.pexels.com/photo/snow-covered-winter-landscape-with-trees-35861599/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
   "slug": "stripes-in-photos-under-led-lights",
   "title": "Why photos have stripes under LED lights",
   "description": "Diagnose horizontal bands under artificial lighting, compare saved frames, and choose a lighting or camera adjustment before trying to edit the stripes away.",

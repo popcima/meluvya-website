@@ -1517,6 +1517,96 @@
       "metricsGeography": null,
       "metricsPeriod": null,
       "researchRecord": "2026-10-25-troubleshooting/batch.json"
+    },
+    {
+      "id": "google-photos-free-up-space-vs-delete",
+      "primaryKeyword": "google photos free up space vs delete",
+      "relatedKeywords": [
+        "free up space Google Photos iPhone",
+        "Google Photos local copies"
+      ],
+      "intent": "Recover device storage without accidentally deleting cloud library items.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "google-photos-free-up-space-vs-delete",
+      "validation": "Primary sources checked October 25; see research record and editorial review. Deployment verified after commit.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-25-five-more/batch.json"
+    },
+    {
+      "id": "icloud-photos-not-syncing",
+      "primaryKeyword": "icloud photos not syncing",
+      "relatedKeywords": [
+        "iCloud Photos syncing paused",
+        "photos not uploading to iCloud"
+      ],
+      "intent": "Diagnose an active sync failure from status and one identifiable missing item.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "icloud-photos-not-syncing",
+      "validation": "Primary sources checked October 25; see research record and editorial review. Deployment verified after commit.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-25-five-more/batch.json"
+    },
+    {
+      "id": "apple-watch-camera-remote-photos",
+      "primaryKeyword": "Apple Watch camera remote",
+      "relatedKeywords": [
+        "take photos with Apple Watch",
+        "Apple Watch remote shutter"
+      ],
+      "intent": "Operate and troubleshoot a paired watch as an iPhone camera remote.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "apple-watch-camera-remote-photos",
+      "validation": "Primary sources checked October 25; see research record and editorial review. Deployment verified after commit.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-25-five-more/batch.json"
+    },
+    {
+      "id": "photograph-fireworks-with-phone",
+      "primaryKeyword": "how to photograph fireworks with phone",
+      "relatedKeywords": [
+        "phone fireworks photos",
+        "fireworks phone camera settings"
+      ],
+      "intent": "Capture moving bursts against darkness and choose deliberate trails versus shake.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "photograph-fireworks-with-phone",
+      "validation": "Primary sources checked October 25; see research record and editorial review. Deployment verified after commit.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-25-five-more/batch.json"
+    },
+    {
+      "id": "snow-photos-gray-or-blue",
+      "primaryKeyword": "why snow looks gray in photos",
+      "relatedKeywords": [
+        "blue snow photos",
+        "snow photography exposure"
+      ],
+      "intent": "Separate bright-scene underexposure from cool illumination while retaining snow texture.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "snow-photos-gray-or-blue",
+      "validation": "Primary sources checked October 25; see research record and editorial review. Deployment verified after commit.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-25-five-more/batch.json"
     }
   ]
 }

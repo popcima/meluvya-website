@@ -3019,6 +3019,94 @@
       "position": "60% 50%",
       "reusedFrom": "why-saved-photos-lose-quality",
       "reuseDate": "2026-10-25"
+    },
+    {
+      "slug": "photograph-fireworks-with-phone",
+      "provider": "Pexels",
+      "photoId": "28704331",
+      "source": "https://www.pexels.com/photo/spectacular-night-fireworks-festival-in-reus-28704331/",
+      "photographer": "Yevheniia Savchenko",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-25",
+      "download": "https://images.pexels.com/photos/28704331/pexels-photo-28704331.jpeg?cs=srgb&dl=pexels-farewelleon-28704331.jpg&fm=jpg",
+      "original": {
+        "width": 6000,
+        "height": 3376,
+        "bytes": 2136416,
+        "sha256": "c2a0cef656ee43f8111db4ef01183b660ec8229079b88409e455f8caf67483d0"
+      },
+      "master": "blog/pexels-28704331-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-28704331-480.webp",
+          "width": 480,
+          "height": 270,
+          "bytes": 25082
+        },
+        {
+          "src": "blog/pexels-28704331-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 92610
+        },
+        {
+          "src": "blog/pexels-28704331-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 226210
+        },
+        {
+          "src": "blog/pexels-28704331-4k.webp",
+          "width": 3840,
+          "height": 2161,
+          "bytes": 851270
+        }
+      ],
+      "alt": "Fireworks illuminating the sky above a crowd at night"
+    },
+    {
+      "slug": "snow-photos-gray-or-blue",
+      "provider": "Pexels",
+      "photoId": "35861599",
+      "source": "https://www.pexels.com/photo/snow-covered-winter-landscape-with-trees-35861599/",
+      "photographer": "wal_ 172619",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-25",
+      "download": "https://images.pexels.com/photos/35861599/pexels-photo-35861599.jpeg?cs=srgb&dl=pexels-wal_-172619-2156618639-35861599.jpg&fm=jpg",
+      "original": {
+        "width": 5816,
+        "height": 3877,
+        "bytes": 3591779,
+        "sha256": "2569b79b66c744b4d1531187b89cfdecd5de50c74c4d60403602d931bdcb8f30"
+      },
+      "master": "blog/pexels-35861599-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-35861599-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 15086
+        },
+        {
+          "src": "blog/pexels-35861599-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 59450
+        },
+        {
+          "src": "blog/pexels-35861599-1600.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 167614
+        },
+        {
+          "src": "blog/pexels-35861599-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 1451500
+        }
+      ],
+      "alt": "Snow-covered ground and trees in a winter landscape"
     }
   ]
 }

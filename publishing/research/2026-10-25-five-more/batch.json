@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "0b90205855bd9ad39d641a723f07efeef76b33da",
+  "baseline": {
+    "articles": 97,
+    "publishedToday": 2,
+    "remoteMatchesHead": true,
+    "deploymentRun": 40211879157,
+    "deploymentConclusion": "success"
+  },
+  "plannedResult": {
+    "newArticles": 5,
+    "totalArticles": 102,
+    "publishedToday": 7,
+    "dailyMaximum": 30
+  },
+  "skills": {
+    "editorial": "claude-blog Codex adapter, blog SEO checklist and independent reviewer",
+    "delivery": "Project TypeScript and Next.js export pipeline replaces generic Markdown/PDF helpers per adapter."
+  },
+  "research": {
+    "provider": "Free web search and primary publisher documentation",
+    "retrieved": "2026-10-25",
+    "audienceGeography": "Worldwide; English",
+    "metricsProvider": null,
+    "metricsGeography": null,
+    "metricsPeriod": null,
+    "monthlySearchVolume": null,
+    "organicKeywordDifficulty": null,
+    "metricsReason": "No verified exact-query volume or organic difficulty data is available; no high-volume or low-competition claims.",
+    "searchConsole": "Earlier same-day research is in 2026-10-25-troubleshooting/batch.json; no fresh query metrics fetched for this batch and no indexing requests repeated."
+  },
+  "articles": [
+    {
+      "slug": "google-photos-free-up-space-vs-delete",
+      "query": "google photos free up space vs delete",
+      "intent": "Recover device storage without accidentally deleting cloud library items.",
+      "topic": "photo-workflows",
+      "overlapDecision": "Existing backup-quality guide only distinguishes quality preferences; this answers action semantics and iCloud interaction.",
+      "sourceEvidence": [
+        {
+          "title": "Google Photos: Free up space on your device",
+          "url": "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DiOS",
+          "note": "Device removal, the iPhone Recently Deleted step, and access after cleanup; use the platform selector for Android."
+        },
+        {
+          "title": "Google Photos: Delete photos and videos",
+          "url": "https://support.google.com/photos/answer/6128858?hl=en",
+          "note": "Library deletion effects and the distinct Undo backup operation."
+        },
+        {
+          "title": "Google Photos: Back up photos and videos",
+          "url": "https://support.google.com/photos/answer/6193313?hl=en",
+          "note": "Backup/account checks and shared Google Account storage."
+        },
+        {
+          "title": "Apple: Set up and use iCloud Photos",
+          "url": "https://support.apple.com/en-us/108782",
+          "note": "Synchronized deletion and Optimize Storage. The cross-service warning is an inference from Apple and Google’s documented behavior."
+        }
+      ],
+      "originalContribution": "Practical comparison routine, decision points and scoped limitations; not a claimed hands-on test.",
+      "editorialDecision": "Publish: independent AI editorial review passed; no blocking factual or intent overlap issue. See editorial-review.md."
+    },
+    {
+      "slug": "icloud-photos-not-syncing",
+      "query": "icloud photos not syncing",
+      "intent": "Diagnose an active sync failure from status and one identifiable missing item.",
+      "topic": "photo-workflows",
+      "overlapDecision": "Existing sync-vs-backup guide describes recovery architecture; this is an operational troubleshooting flow.",
+      "sourceEvidence": [
+        {
+          "title": "Apple: If your iCloud Photos are not syncing",
+          "url": "https://support.apple.com/en-us/101559",
+          "note": "Status locations, pause reasons, waiting, Shared Library views, and the warning against switching sync off."
+        },
+        {
+          "title": "Apple: Set up and use iCloud Photos",
+          "url": "https://support.apple.com/en-us/108782",
+          "note": "Account setup, deletion behavior, and device optimization."
+        },
+        {
+          "title": "Apple: Manage your photo and video storage",
+          "url": "https://support.apple.com/en-us/105061",
+          "note": "Separate device and iCloud capacity checks."
+        },
+        {
+          "title": "Apple System Status",
+          "url": "https://www.apple.com/support/systemstatus/",
+          "note": "Check current outages when troubleshooting; this article does not assert an outage."
+        }
+      ],
+      "originalContribution": "Practical comparison routine, decision points and scoped limitations; not a claimed hands-on test.",
+      "editorialDecision": "Publish: independent AI editorial review passed; no blocking factual or intent overlap issue. See editorial-review.md."
+    },
+    {
+      "slug": "apple-watch-camera-remote-photos",
+      "query": "Apple Watch camera remote",
+      "intent": "Operate and troubleshoot a paired watch as an iPhone camera remote.",
+      "topic": "camera-techniques",
+      "overlapDecision": "Existing self-timer guide does not document watch controls, connection or wrist-to-lens timing.",
+      "sourceEvidence": [
+        {
+          "title": "Apple: Use Camera Remote on Apple Watch",
+          "url": "https://support.apple.com/guide/watch/camera-remote-apda6e61c287/watchos",
+          "note": "Remote controls, approximate range, three-second default timer and iPhone storage destination. The portrait routine is original editorial guidance."
+        },
+        {
+          "title": "Apple: If your Apple Watch is not connected or paired",
+          "url": "https://support.apple.com/en-us/108360",
+          "note": "Connection-status indicators and a staged connection troubleshooting procedure."
+        }
+      ],
+      "originalContribution": "Practical comparison routine, decision points and scoped limitations; not a claimed hands-on test.",
+      "editorialDecision": "Publish: independent AI editorial review passed; no blocking factual or intent overlap issue. See editorial-review.md."
+    },
+    {
+      "slug": "photograph-fireworks-with-phone",
+      "query": "how to photograph fireworks with phone",
+      "intent": "Capture moving bursts against darkness and choose deliberate trails versus shake.",
+      "topic": "camera-techniques",
+      "overlapDecision": "Existing night-blur guide covers stationary/portrait clarity; this addresses emissive bursts and trail timing.",
+      "sourceEvidence": [
+        {
+          "title": "Nikon: Taking pictures of fireworks",
+          "url": "https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/taking-pictures-of-fireworks",
+          "note": "Framing, stable support and dedicated-camera long-exposure principles; those hardware settings are not presented as universal phone settings."
+        },
+        {
+          "title": "Samsung: Firework pictures with Galaxy S8 and Note8",
+          "url": "https://news.samsung.com/uk/how-to-capture-the-perfect-firework-picture-on-samsung-galaxy-s8-note8",
+          "note": "Historical phone guidance on stability, flash and digital zoom. Model-specific exposure recommendations are not generalized."
+        },
+        {
+          "title": "Apple: Set up your shot with iPhone camera tools",
+          "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+          "note": "Documented focus and exposure adjustment; menu details depend on software version. The comparison table is editorial troubleshooting guidance."
+        }
+      ],
+      "originalContribution": "Practical comparison routine, decision points and scoped limitations; not a claimed hands-on test.",
+      "editorialDecision": "Publish: independent AI editorial review passed; no blocking factual or intent overlap issue. See editorial-review.md."
+    },
+    {
+      "slug": "snow-photos-gray-or-blue",
+      "query": "why snow looks gray in photos",
+      "intent": "Separate bright-scene underexposure from cool illumination while retaining snow texture.",
+      "topic": "lighting",
+      "overlapDecision": "Existing color-cast and overexposure guides do not provide a snow-dominated capture comparison.",
+      "sourceEvidence": [
+        {
+          "title": "Canon: Cold-weather photography tips",
+          "url": "https://www.canon.com.au/get-inspired/cold-weather-photography-tips",
+          "note": "Snow metering, positive exposure correction and checking tonal detail."
+        },
+        {
+          "title": "Tamron: Photographing snow and winter scenery",
+          "url": "https://www.tamron.com/global/consumer/sp/impression/detail/article-how-to-shoot-snow-and-photos-unique-to-winter.html",
+          "note": "Exposure and white-balance considerations; this guide avoids treating its example settings as universal."
+        },
+        {
+          "title": "Apple: iPhone camera tools",
+          "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+          "note": "Touchscreen exposure adjustment. The comparison routine and decision table are original editorial guidance."
+        }
+      ],
+      "originalContribution": "Practical comparison routine, decision points and scoped limitations; not a claimed hands-on test.",
+      "editorialDecision": "Publish: independent AI editorial review passed; no blocking factual or intent overlap issue. See editorial-review.md."
+    }
+  ],
+  "media": {
+    "license": "https://www.pexels.com/license/",
+    "licenseVerified": "2026-10-25",
+    "newImages": [
+      "https://www.pexels.com/photo/spectacular-night-fireworks-festival-in-reus-28704331/",
+      "https://www.pexels.com/photo/snow-covered-winter-landscape-with-trees-35861599/"
+    ],
+    "reusedImages": "Three existing licensed photographs with original attribution and responsive variants.",
+    "disclosure": "Illustrative stock, not Meluvya output or first-hand technique tests."
+  },
+  "validation": {
+    "status": "PASS — prepublication",
+    "contentCheck": {
+      "baseline": "0b90205855bd9ad39d641a723f07efeef76b33da",
+      "totalArticles": 102,
+      "publishedToday": 7,
+      "passed": true
+    },
+    "existingArticleObjectsUnchanged": 97,
+    "lint": "PASS",
+    "productionBuild": {
+      "passed": true,
+      "SITE_URL": "https://meluvya.com",
+      "NEXT_PUBLIC_BASE_PATH": "",
+      "builder": "Next.js 16.4.2 webpack",
+      "generatedRoutes": 118
+    },
+    "typecheck": "PASS",
+    "export": {
+      "result": "PASS",
+      "routes": 114,
+      "local_links_and_assets_checked": 5839,
+      "article_pages": 102,
+      "unique_canonicals_titles_descriptions": true,
+      "schema": "Article and Breadcrumb JSON-LD parses and matches visible titles"
+    },
+    "seoFoundations": {
+      "passed": true,
+      "topicDirectoryLinks": 102,
+      "editorialAttribution": 102
+    },
+    "pagination": {
+      "pages": 9,
+      "cardsPerPage": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        6
+      ],
+      "uniqueCards": 102
+    },
+    "browser": {
+      "passed": true,
+      "viewports": [
+        390,
+        768,
+        1280
+      ],
+      "articleViewportChecks": 15,
+      "mobileStoreButtonsChecked": 10,
+      "escapeAndFocusRestoration": true,
+      "visibleImagesLoaded": true,
+      "pageOverflow": false,
+      "consoleErrors": 0,
+      "screenshots": "Retained outside public repository in local task work records."
+    },
+    "sources": "Primary sources read with web tool. Canon direct-client 403 and initial transient Tamron DNS error documented in source-checks.json. No universal 200 claim.",
+    "review": {
+      "result": "PASS",
+      "independentAI": true,
+      "humanApproval": false,
+      "record": "editorial-review.md"
+    },
+    "limits": "No new search-volume dataset, live performance measurement, indexing confirmation or ranking claim."
+  },
+  "deployment": {
+    "status": "Ready for authorized normal push; deployment and live URLs must be checked after this commit.",
+    "verificationRecord": "Final deployment evidence will be stored outside the repository."
+  }
+}

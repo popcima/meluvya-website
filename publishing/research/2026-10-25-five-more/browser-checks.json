@@ -1,0 +1,161 @@
+{
+  "result": "PASS",
+  "pages": [
+    {
+      "slug": "google-photos-free-up-space-vs-delete",
+      "width": 390,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": true,
+      "canonical": "https://meluvya.com/blog/google-photos-free-up-space-vs-delete/"
+    },
+    {
+      "slug": "icloud-photos-not-syncing",
+      "width": 390,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": true,
+      "canonical": "https://meluvya.com/blog/icloud-photos-not-syncing/"
+    },
+    {
+      "slug": "apple-watch-camera-remote-photos",
+      "width": 390,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": true,
+      "canonical": "https://meluvya.com/blog/apple-watch-camera-remote-photos/"
+    },
+    {
+      "slug": "photograph-fireworks-with-phone",
+      "width": 390,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": true,
+      "canonical": "https://meluvya.com/blog/photograph-fireworks-with-phone/"
+    },
+    {
+      "slug": "snow-photos-gray-or-blue",
+      "width": 390,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": true,
+      "canonical": "https://meluvya.com/blog/snow-photos-gray-or-blue/"
+    },
+    {
+      "slug": "google-photos-free-up-space-vs-delete",
+      "width": 768,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": false,
+      "canonical": "https://meluvya.com/blog/google-photos-free-up-space-vs-delete/"
+    },
+    {
+      "slug": "icloud-photos-not-syncing",
+      "width": 768,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": false,
+      "canonical": "https://meluvya.com/blog/icloud-photos-not-syncing/"
+    },
+    {
+      "slug": "apple-watch-camera-remote-photos",
+      "width": 768,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": false,
+      "canonical": "https://meluvya.com/blog/apple-watch-camera-remote-photos/"
+    },
+    {
+      "slug": "photograph-fireworks-with-phone",
+      "width": 768,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": false,
+      "canonical": "https://meluvya.com/blog/photograph-fireworks-with-phone/"
+    },
+    {
+      "slug": "snow-photos-gray-or-blue",
+      "width": 768,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": false,
+      "canonical": "https://meluvya.com/blog/snow-photos-gray-or-blue/"
+    },
+    {
+      "slug": "google-photos-free-up-space-vs-delete",
+      "width": 1280,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": false,
+      "canonical": "https://meluvya.com/blog/google-photos-free-up-space-vs-delete/"
+    },
+    {
+      "slug": "icloud-photos-not-syncing",
+      "width": 1280,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": false,
+      "canonical": "https://meluvya.com/blog/icloud-photos-not-syncing/"
+    },
+    {
+      "slug": "apple-watch-camera-remote-photos",
+      "width": 1280,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": false,
+      "canonical": "https://meluvya.com/blog/apple-watch-camera-remote-photos/"
+    },
+    {
+      "slug": "photograph-fireworks-with-phone",
+      "width": 1280,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": false,
+      "canonical": "https://meluvya.com/blog/photograph-fireworks-with-phone/"
+    },
+    {
+      "slug": "snow-photos-gray-or-blue",
+      "width": 1280,
+      "status": 200,
+      "noOverflow": true,
+      "imagesLoaded": true,
+      "ctaPresent": true,
+      "mobileButtonsPassed": false,
+      "canonical": "https://meluvya.com/blog/snow-photos-gray-or-blue/"
+    },
+    {
+      "archivePage": 9,
+      "status": "loaded",
+      "heading": "Photo editing\nguides."
+    }
+  ],
+  "consoleErrors": []
+}
