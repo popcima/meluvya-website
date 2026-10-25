@@ -6,7 +6,7 @@ import styles from "./privacy.module.css";
 
 export const metadata = pageMetadata({
   title: "Privacy policy | Meluvya",
-  description: "Meluvya’s draft privacy policy explains website information, photo processing, service providers, storage, deletion and privacy choices.",
+  description: "Meluvya’s privacy policy explains website information, photo processing, service providers, storage, deletion and privacy choices.",
   path: "/privacy/",
   image: "meluvya-icon.png",
 });
@@ -28,10 +28,9 @@ export default function PrivacyPage() {
       <div className={`wrap ${styles.layout}`}>
         <header className={styles.header}>
           <nav className="breadcrumbs" aria-label="Breadcrumb"><a href={assetPath("/")}>Home</a><span aria-hidden="true">/</span><span aria-current="page">Privacy</span></nav>
-          <div className={styles.status}><span>Draft</span><p>Updated <time dateTime="2026-10-25">October 25, 2026</time></p></div>
-          <h1>Privacy policy.</h1>
-          <p className="article-summary">Understand what happens to your information when you browse Meluvya or create a photo.</p>
-          <div className={styles.notice} role="note"><strong>A draft for the upcoming app release.</strong><p>This page describes the current website and documented app workflow. Operator and contact fields are intentionally blank. Provider settings, retention details and release requirements still need confirmation before this becomes a final privacy notice.</p></div>
+          <div className={styles.status}><p>Updated <time dateTime="2026-10-25">October 25, 2026</time></p></div>
+          <h1>Meluvya Privacy Policy</h1>
+          <p className="article-summary">This privacy policy describes how information is handled in the Meluvya iOS app and on meluvya.com.</p>
         </header>
 
         <nav className={styles.contents} aria-label="Privacy policy sections">{sections.map(([id, title]) => <a href={`#${id}`} key={id}>{title}<span aria-hidden="true">↗</span></a>)}</nav>
@@ -55,7 +54,7 @@ export default function PrivacyPage() {
             <h2>How AI photo creation works</h2>
             <p>Cloud generation requires sending the selected photo to Meluvya’s backend on Cloudflare. The backend sends the photo and the instructions needed for the selected effect or template to Google Gemini. Where a template uses a reference image, that reference accompanies the request. The generated result returns to the backend for the app to retrieve.</p>
             <p>Cloud generation is different from a device-only edit. The app also includes editor operations that run on the device. Review the app’s photo-upload notice before starting a cloud creation, and only submit photos you have permission to use.</p>
-            <p>Google’s handling of API input and output depends on the applicable service terms and account configuration. This draft does not promise zero provider retention or that submitted content is never used to improve models. The active Gemini data-use terms must be confirmed and stated here before the final policy is issued.</p>
+            <p>Google’s handling of API input and output depends on the applicable service terms and account configuration. Google’s terms distinguish paid and unpaid services, which have different data-use practices. Meluvya does not currently specify its active provider account configuration here, so you should not assume zero provider retention or that submitted content is never used to improve models.</p>
           </section>
 
           <section id="providers" className="article-section">
@@ -68,13 +67,13 @@ export default function PrivacyPage() {
               <li><strong>GitHub</strong><p>Hosts meluvya.com and delivers its public pages and images.</p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy statement</a></li>
               <li><strong>Supabase — legacy access</strong><p>Remains part of administrator authentication and compatibility with older signed-in app sessions. New guest installations do not use Supabase sign-in.</p><a href="https://supabase.com/privacy">Supabase privacy policy</a></li>
             </ul>
-            <p>Provider processing may take place outside your country. The operator’s location, applicable legal bases and international-transfer safeguards must be completed for the final release. Linked provider policies explain their services; they do not replace Meluvya’s own responsibilities.</p>
+            <p>Provider processing may take place outside your country. Linked provider policies explain their services; they do not replace Meluvya’s own responsibilities.</p>
           </section>
 
           <section id="storage" className="article-section">
             <h2>Storage and deletion</h2>
             <p><strong>Uploaded source photos:</strong> the documented backend deletes the temporary source after processing. A scheduled cleanup and a one-day storage lifecycle provide a backstop. Storage lifecycle cleanup is asynchronous, so this is not a promise that every copy disappears at an exact 24-hour deadline.</p>
-            <p><strong>Generated results:</strong> the documented app service keeps results until the owner deletes them. Deleting a result removes its stored photo objects, while minimal job records can remain for ownership, duplicate-request protection and usage limits. The final policy must specify retention for those remaining records, purchase records and any provider logs or backups.</p>
+            <p><strong>Generated results:</strong> the documented app service keeps results until the owner deletes them. Deleting a result removes its stored photo objects, while minimal job records can remain for ownership, duplicate-request protection and usage limits. A fixed retention period for remaining records, purchase records, provider logs and backups is not currently specified here.</p>
             <p><strong>Copies on your device or elsewhere:</strong> cached images, exports saved to your photo library, and copies shared with other services are separate from the backend result. Deleting one copy does not necessarily delete the others. Removing the app is not a confirmed way to delete server-side data.</p>
             <p>The current guest collection is tied to its device credential and does not automatically sync to a new device. Restoring a purchase restores its credit entitlement, not another device’s private photo collection.</p>
           </section>
@@ -87,19 +86,19 @@ export default function PrivacyPage() {
               <li>Use the app’s photo-deletion controls for saved results, and manage exported or shared copies separately.</li>
               <li>Manage an App Store subscription through Apple. Cancelling a subscription and deleting photo data are separate actions.</li>
             </ul>
-            <p>Depending on the law that applies to you, you may have rights to access, correct, delete or receive a copy of your personal information, restrict or object to processing, withdraw consent where it is relied on, or complain to a data-protection authority. The final notice will identify the operator and provide a working way to make these requests.</p>
-            <p>Do not send passwords, device credentials or payment-card details in a privacy request. The contact fields below are not yet populated, so this draft is not a working request channel.</p>
+            <p>Depending on the law that applies to you, you may have rights to access, correct, delete or receive a copy of your personal information, restrict or object to processing, withdraw consent where it is relied on, or complain to a data-protection authority.</p>
+            <p>Do not send passwords, device credentials or payment-card details in a privacy request. Contact details have not yet been provided below; this page does not currently offer a direct privacy-request channel.</p>
           </section>
 
           <section id="age-and-updates" className="article-section">
             <h2>Age eligibility and updates</h2>
-            <p>The app’s final age eligibility and related controls must be confirmed before release. Google’s current Gemini API terms restrict use in services directed toward, or likely to be accessed by, people under 18. This draft does not assert that Meluvya has already implemented age verification.</p>
-            <p>We will revise this page as the app’s release configuration and privacy details are finalized. The date above records the latest draft update; it is not an effective date for a completed policy.</p>
+            <p>Google’s current Gemini API terms restrict use in services directed toward, or likely to be accessed by, people under 18. This policy does not confirm that age verification is implemented in the app.</p>
+            <p>We may update this policy when Meluvya’s features or information-handling practices change. The date above shows the latest revision.</p>
           </section>
 
           <section id="contact" className={`article-section ${styles.contact}`}>
             <h2>Operator and privacy contact</h2>
-            <p>These fields have been left blank for now and must be completed before the final policy is used.</p>
+            <p>Contact details have not yet been provided.</p>
             <dl className={styles.fields}>{["Operator / company", "Country", "Privacy and deletion email"].map(label => <div key={label}><dt>{label}</dt><dd><span className={styles.blank} aria-hidden="true" /><span className="sr-only">Not yet provided</span></dd></div>)}</dl>
           </section>
         </div>

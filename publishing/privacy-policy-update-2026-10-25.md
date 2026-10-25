@@ -1,0 +1,3 @@
+# Privacy policy presentation update — 2026-10-25
+
+Owner requested removal of draft language and a Meluvya app privacy policy. Removed the draft badge/banner, named the iOS app explicitly, and replaced editorial release notes with direct disclosures. Preserved documented processing, providers, deletion limitations, and intentionally blank operator/contact fields. No new data-handling promises or App Store compliance claims were added. Provider account configuration, remaining-record retention and contact details remain unconfirmed and disclosed. Historical privacy-draft record remains unchanged.
