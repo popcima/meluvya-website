@@ -31,6 +31,7 @@ const topics = [
   "title": "Sharing, printing and preserving photos",
   "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
   "slugs": [
+      "photos-upload-sideways-or-upside-down",
     "visual-look-up-iphone-photos",
     "control-featured-photos-iphone",
     "iphone-photo-albums-vs-folders",
@@ -77,6 +78,7 @@ const topics = [
     "title": "Light and exposure",
     "description": "Start here if a face is too dark, highlights are washed out, or indoor colors look wrong.",
     "slugs": [
+      "stripes-in-photos-under-led-lights",
       "fix-mixed-lighting-in-portraits",
       "direct-flash-portrait-tips",
       "portrait-photos-in-harsh-sunlight",

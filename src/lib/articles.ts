@@ -30,6 +30,273 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "stripes-in-photos-under-led-lights",
+  "title": "Why photos have stripes under LED lights",
+  "description": "Diagnose horizontal bands under artificial lighting, compare saved frames, and choose a lighting or camera adjustment before trying to edit the stripes away.",
+  "summary": "Separate lighting flicker from gradient banding, then test the light and camera settings without assuming one shutter speed fixes every LED.",
+  "published": "2026-10-25",
+  "modified": "2026-10-25",
+  "quickAnswer": "Horizontal dark or colored bands under artificial light can come from flicker interacting with the camera’s exposure timing. Check the saved photograph, then compare a frame under a different light. If your camera offers suitable flicker controls or manual shutter adjustment, test them and inspect the recorded result. No single setting is guaranteed for every LED or phone.",
+  "sections": [
+    {
+      "id": "recognize-stripes",
+      "title": "Check that the bands belong to the photograph",
+      "paragraphs": [
+        "Open a saved frame rather than judging only the camera preview. If you can, view that same file on another display. Stripes visible only on one screen need a different investigation from stripes recorded across a face, wall and clothing in the image itself.",
+        "Sony’s explanation of flicker describes brightness or color bands in photographs taken under fluorescent or LED lighting. The light changes during the exposure process, so different parts of the image can record different illumination. This is a possible diagnosis, not proof that every line in a photo has that cause.",
+        "Notice the shape of the problem. Steps following the gradual tones of an edited sky are gradient banding. False waves confined to a finely woven shirt may be moiré. A shadow cast by a railing belongs to the scene. Avoid applying a lighting-flicker fix just because all four can look like stripes."
+      ]
+    },
+    {
+      "id": "light-comparison",
+      "title": "Make a controlled comparison before changing settings",
+      "paragraphs": [
+        "For a repeatable test, use a plain object with a visible edge, such as a book standing on a table. Keep the camera, framing and object steady. Make a few separate photographs under the troublesome light and compare the saved files. Note whether the bands move or change strength between frames.",
+        "Next, photograph the object by a window in daylight with the suspect room light switched off, if you control it. This changes the lighting condition; it is not a laboratory measurement of the bulb. If the bands disappear, prioritize the light-and-camera combination before spending time on a repair edit.",
+        "For a portrait you can retake, try moving the person into the more usable light and make a fresh test frame. At an event where you cannot change the lighting, check your camera’s supported options instead. Do not spend the whole session trusting a preview that you have not compared with a saved photograph."
+      ]
+    },
+    {
+      "id": "supported-controls",
+      "title": "Use controls your camera actually provides",
+      "paragraphs": [
+        "Sony distinguishes ordinary anti-flicker shooting from finer shutter adjustment for supported cameras. Its standard anti-flicker function targets particular fluorescent-light frequencies; rapidly pulsing LEDs may need a different approach. The available control depends on the camera, shooting mode and shutter type.",
+        "If your phone or camera exposes manual shutter speed, compare nearby settings while keeping the scene still. Judge both the stripes and the subject’s detail. A setting that reduces bands but introduces unacceptable motion blur is not a finished solution. If your app does not provide that control, changing the light or choosing another capture is a more useful next step than searching for a menu it does not have.",
+        "Treat published shutter-speed examples as examples for their stated equipment and lighting. Do not assume a country’s mains frequency, or a camera’s anti-flicker label, identifies the behavior of every LED sign or dimmed lamp. These are camera troubleshooting options, not a claim that Meluvya provides manual capture controls."
+      ]
+    },
+    {
+      "id": "choose-response",
+      "title": "Choose the next step from the comparison",
+      "table": {
+        "headers": [
+          "What the comparison shows",
+          "Useful next step"
+        ],
+        "rows": [
+          [
+            "Bands disappear under a different light",
+            "Use that light for the important capture, or investigate the original fixture and supported camera controls."
+          ],
+          [
+            "The preview improves but saved frames still show bands",
+            "Judge the recorded file and try another supported setting; do not stop at a clean preview."
+          ],
+          [
+            "One saved frame is much cleaner than the others",
+            "Inspect that frame’s expression, focus and color before selecting it."
+          ],
+          [
+            "The same lines remain across unrelated lighting conditions",
+            "Reconsider the diagnosis and consult support for the device with representative original files."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "editing-limits",
+      "title": "Decide whether the saved image is worth repairing",
+      "paragraphs": [
+        "For an existing photograph, keep the original and judge what the stripe has obscured. A faint band on a simple wall is a different task from alternating dark and colored bands through a face. Try a modest local correction only if the remaining detail supports it, and compare the corrected area with its surroundings.",
+        "Stop if the repair creates alternating skin tones, painted texture or visible seams. A cleaner neighboring frame or a retake may communicate the subject more accurately. Adding grain or a strong color effect can disguise a stripe, but that does not establish that the original detail was recovered."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does banding mean my camera is broken?",
+      "answer": "Not necessarily. Sony documents lighting flicker as a cause of bands without a camera malfunction. Compare different lighting conditions first; persistent lines across unrelated scenes deserve a separate device check."
+    },
+    {
+      "question": "Will enabling anti-flicker remove every LED stripe?",
+      "answer": "No. Flicker controls have equipment and lighting limits. Check your camera’s documentation and the actual saved photograph, rather than assuming a menu name guarantees a clean result."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sony: why lighting flicker causes bands and color changes",
+      "url": "https://www.sony.com/electronics/support/articles/00008839",
+      "note": "Supports the artificial-light flicker mechanism and distinction between preview and recorded-image symptoms. Retrieved October 25, 2026."
+    },
+    {
+      "title": "Sony: reducing camera flicker",
+      "url": "https://www.sony.com/electronics/support/articles/00122281",
+      "note": "Equipment-specific limits of anti-flicker shooting and variable shutter adjustment. Not evidence that every phone offers these controls. Retrieved October 25, 2026."
+    }
+  ],
+  "related": [
+    "fix-banding-in-sky-gradients",
+    "reduce-moire-in-clothing-photos",
+    "why-night-phone-photos-are-blurry"
+  ],
+  "image": "blog/pexels-29894331-4k.webp",
+  "imageAlt": "Portrait beside glowing turquoise lights at night",
+  "imagePosition": "50% 45%",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-29894331-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-29894331-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-29894331-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-29894331-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Everton Silva",
+    "url": "https://www.pexels.com/photo/portrait-of-woman-with-neon-lights-at-night-29894331/"
+  }
+},
+{
+  "slug": "photos-upload-sideways-or-upside-down",
+  "title": "Why photos upload sideways or upside down",
+  "description": "Trace a sideways photo through its source, export and upload. Learn when to rotate it, when to test a fresh export, and how orientation metadata differs from mirroring.",
+  "summary": "Find the first file or preview that turns sideways, then correct that stage without rotating a good original to compensate for one website.",
+  "published": "2026-10-25",
+  "modified": "2026-10-25",
+  "quickAnswer": "If a photo is upright on your device but sideways after upload, compare the exact exported file with the destination’s thumbnail and full-size image. Orientation metadata and the way an app processes it can affect display. Rotate only a copy that is actually wrong, or test a fresh export of the correctly displayed edit. Verify the new upload before changing a whole set.",
+  "sections": [
+    {
+      "id": "pixels-and-orientation",
+      "title": "A photo’s stored pixels and display direction can differ",
+      "paragraphs": [
+        "A photo can carry EXIF orientation information telling software how to present its pixels. MDN’s image-orientation documentation shows that a browser can use that information to rotate the displayed image. A difference in how a viewer or upload pipeline handles orientation is therefore one possible explanation for a picture that looks upright in one place and sideways in another.",
+        "That explanation is a hypothesis until you compare the files. A photo might also have been rotated during editing, or the upload may simply be a different version from the one you checked. Start with one picture whose top is obvious, such as a portrait beside a doorway or a book with readable lettering."
+      ]
+    },
+    {
+      "id": "find-first-change",
+      "title": "Locate the first sideways version",
+      "paragraphs": [
+        "Keep the original, your intended export and a downloaded copy from the destination separate. Use clear filenames so you do not accidentally test the original twice. Open the actual image rather than relying on a small gallery thumbnail.",
+        "A useful comparison has four checkpoints: the image in your photo library, the exported file opened separately, the destination’s thumbnail, and its full-size view. If only the thumbnail is wrong, report that difference instead of applying another rotation to every copy."
+      ],
+      "table": {
+        "headers": [
+          "First wrong view",
+          "What to check next"
+        ],
+        "rows": [
+          [
+            "The source itself, in more than one viewer",
+            "Correct a working copy’s rotation and keep the source preserved."
+          ],
+          [
+            "The export, while the library version is upright",
+            "Check that you exported the intended edited version and inspect a fresh candidate."
+          ],
+          [
+            "The uploaded full-size image, while the same export is upright locally",
+            "Test a fresh export and compare the destination’s processing; avoid altering the master to fit one failed upload."
+          ],
+          [
+            "Only a thumbnail",
+            "Compare the full-size view and downloaded file before deciding the image itself needs rotation."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "rotate-a-copy",
+      "title": "Rotate a copy when its direction is actually wrong",
+      "paragraphs": [
+        "In Apple’s iOS 26 Photos guide, the route is to open the photo, tap Edit, choose Crop and use Rotate for a quarter-turn. Tap Done when the direction is correct. Work on a preserved copy if you need to keep an independent version; iCloud Photos can synchronize edits across devices.",
+        "Use the writing or another asymmetric feature as your check. Rotate changes which edge is at the top. Flip reverses left and right. If a word is backward but the scene is upright, repeated rotation is solving the wrong problem.",
+        "If the photo already looks right in your library, leave that version alone while investigating the upload. Turning a correct master sideways to make one website display it upright creates a second problem for the next viewer or destination."
+      ]
+    },
+    {
+      "id": "fresh-export",
+      "title": "Test a fresh export before repeating the upload",
+      "paragraphs": [
+        "Export a new delivery copy from the editor showing the correct orientation. Keep its dimensions suitable for the destination and avoid replacing the only original. A new filename helps you select the intended candidate; renaming by itself does not change its orientation.",
+        "For example, Apple documents File → Export → Export [number] Photos in Photos on Mac, with JPEG available under Photo Kind. That is a concrete format-export route to test. It does not prove that every destination will interpret the result correctly, so open the exported JPEG separately and inspect the uploaded full-size version too.",
+        "Apple’s developer guidance distinguishes an orientation change stored in metadata from an edited image whose intended direction is incorporated into its pixel data. This explains why a properly rendered export can help. It is not a promise that every app’s Save or Convert button performs the same operation. Do not strip metadata from the only original as a trial-and-error fix."
+      ]
+    },
+    {
+      "id": "verify-destination",
+      "title": "Finish with a destination check",
+      "paragraphs": [
+        "Upload one test image before the rest of the set. Check the top edge, readable text, crop and any thumbnail used in the final layout. When the site allows it, download the uploaded image and reopen that file. Record which export and destination you actually checked.",
+        "If a fresh candidate remains upright in local viewers but turns sideways only at one destination, give that service a representative sample and describe which stage changes. Avoid repeatedly rotating, compressing and uploading the whole library while the cause is still unclear. Keep the version that remains correct across the places you need to use it."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will changing the filename fix the rotation?",
+      "answer": "No. A name helps distinguish versions, but does not rotate pixels or correct orientation information. Verify the file itself and the destination’s full-size view."
+    },
+    {
+      "question": "Should I take a screenshot of the upright photo?",
+      "answer": "A screenshot can be a temporary visual reference, but it is a different image with the screen’s framing and dimensions. Prefer a checked export from the source for the version you intend to deliver."
+    }
+  ],
+  "sources": [
+    {
+      "title": "MDN: image-orientation",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/image-orientation",
+      "note": "Explains display orientation based on EXIF information. It does not diagnose a particular upload service. Retrieved October 25, 2026."
+    },
+    {
+      "title": "Apple: rotate and flip photos on iPhone — iOS 26",
+      "url": "https://support.apple.com/guide/iphone/crop-rotate-flip-straighten-photos-videos-iph0f3ebb1dd/26/ios/26",
+      "note": "Supports the Photos controls, quarter-turn versus horizontal flip, and iCloud edit synchronization. Retrieved October 25, 2026."
+    },
+    {
+      "title": "Apple: export photos from Photos on Mac",
+      "url": "https://support.apple.com/guide/photos/pht6e157c5f/mac",
+      "note": "Supports the format-export command and JPEG choice; no universal orientation-fix guarantee. Retrieved October 25, 2026."
+    },
+    {
+      "title": "Apple Developer: rendered edited photo content",
+      "url": "https://developer.apple.com/documentation/photos/phcontenteditingoutput/renderedcontenturl",
+      "note": "Explains incorporating intended orientation into edited pixel data while declaring upright orientation metadata. Retrieved October 25, 2026."
+    }
+  ],
+  "related": [
+    "why-iphone-selfies-flip",
+    "jpeg-heic-png-photo-formats",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-34225009-4k.webp",
+  "imageAlt": "Photographer holding a memory card beside a card reader and laptop",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "60% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-34225009-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-34225009-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-34225009-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-34225009-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Julio Lopez",
+    "url": "https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/"
+  }
+},
+{
   "slug": "visual-look-up-iphone-photos",
   "title": "Use Visual Look Up on iPhone to identify a photo’s subject",
   "description": "Find Visual Look Up in iPhone Photos, inspect suggested objects or landmarks, and verify a result before attaching a confident name to your picture.",

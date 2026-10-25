@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-25",
   "purpose": "Distinct illustrative editorial photographs for the Meluvya guide library.",
   "licenseReview": {
     "url": "https://www.pexels.com/license/",
@@ -2925,6 +2925,100 @@
       ],
       "position": "50% 50%",
       "retrievalMethod": "Pexels public photo page, visible Free download link in the browser; no login or challenge bypass."
+    },
+    {
+      "slug": "stripes-in-photos-under-led-lights",
+      "provider": "Pexels",
+      "photoId": "29894331",
+      "source": "https://www.pexels.com/photo/portrait-of-woman-with-neon-lights-at-night-29894331/",
+      "photographer": "Everton Silva",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/29894331/pexels-photo-29894331.jpeg?cs=srgb&dl=pexels-veveto-29894331.jpg&fm=jpg",
+      "original": {
+        "width": 3072,
+        "height": 4608,
+        "bytes": 1058194,
+        "sha256": "fc34958fde1052531f57e097f4a815878aef80348febbdb12f7154c81ad0dc9b"
+      },
+      "master": "blog/pexels-29894331-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-29894331-480.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 21682
+        },
+        {
+          "src": "blog/pexels-29894331-960.webp",
+          "width": 960,
+          "height": 1440,
+          "bytes": 58552
+        },
+        {
+          "src": "blog/pexels-29894331-1600.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 135870
+        },
+        {
+          "src": "blog/pexels-29894331-4k.webp",
+          "width": 2560,
+          "height": 3840,
+          "bytes": 500266
+        }
+      ],
+      "alt": "Portrait beside glowing turquoise lights at night",
+      "position": "50% 45%",
+      "reusedFrom": "why-night-phone-photos-are-blurry",
+      "reuseDate": "2026-10-25"
+    },
+    {
+      "slug": "photos-upload-sideways-or-upside-down",
+      "provider": "Pexels",
+      "photoId": "34225009",
+      "source": "https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/",
+      "photographer": "Julio Lopez",
+      "license": "https://www.pexels.com/license/",
+      "retrieved": "2026-10-20",
+      "download": "https://images.pexels.com/photos/34225009/pexels-photo-34225009.jpeg?cs=srgb&dl=pexels-julio-lopez-75309646-34225009.jpg&fm=jpg",
+      "original": {
+        "width": 6196,
+        "height": 4131,
+        "bytes": 2852035,
+        "sha256": "0ca46d1aac488154b80bc2bb8f4348e52b83a6150877deb41f2fb18e3eac434a"
+      },
+      "master": "blog/pexels-34225009-4k.webp",
+      "variants": [
+        {
+          "src": "blog/pexels-34225009-480.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 12544
+        },
+        {
+          "src": "blog/pexels-34225009-960.webp",
+          "width": 960,
+          "height": 640,
+          "bytes": 29792
+        },
+        {
+          "src": "blog/pexels-34225009-1600.webp",
+          "width": 1600,
+          "height": 1066,
+          "bytes": 56830
+        },
+        {
+          "src": "blog/pexels-34225009-4k.webp",
+          "width": 3840,
+          "height": 2560,
+          "bytes": 714334
+        }
+      ],
+      "alt": "Photographer holding a memory card beside a card reader and laptop",
+      "position": "60% 50%",
+      "reusedFrom": "why-saved-photos-lose-quality",
+      "reuseDate": "2026-10-25"
     }
   ]
 }

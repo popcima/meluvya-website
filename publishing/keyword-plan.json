@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -1357,9 +1357,9 @@
         "visual look up no star"
       ],
       "intent": "Find a possible identity for a photographed object and check it against independent details.",
-      "status": "included_in_publication_commit",
+      "status": "published",
       "articleSlug": "visual-look-up-iphone-photos",
-      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
+      "validation": "Verified in e19b95a and successful GitHub Pages run 40115286873 before the October 25 batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1376,9 +1376,9 @@
         "phone ring photography"
       ],
       "intent": "Use a controlled jewelry setup to separate distracting glare from useful shine, then record color, construction and scale clearly.",
-      "status": "included_in_publication_commit",
+      "status": "published",
       "articleSlug": "jewelry-photos-with-phone",
-      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
+      "validation": "Verified in e19b95a and successful GitHub Pages run 40115286873 before the October 25 batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1395,9 +1395,9 @@
         "iphone markup photo labels"
       ],
       "intent": "Annotate a picture so a recipient can understand one clear instruction.",
-      "status": "included_in_publication_commit",
+      "status": "published",
       "articleSlug": "add-text-arrows-iphone-photo",
-      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
+      "validation": "Verified in e19b95a and successful GitHub Pages run 40115286873 before the October 25 batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1414,9 +1414,9 @@
         "phone art reproduction"
       ],
       "intent": "Record two-dimensional artwork with even light, straight geometry and a separate detail view, without turning the reproduction into a creative edit.",
-      "status": "included_in_publication_commit",
+      "status": "published",
       "articleSlug": "photograph-artwork-with-phone",
-      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
+      "validation": "Verified in e19b95a and successful GitHub Pages run 40115286873 before the October 25 batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1433,9 +1433,9 @@
         "posterization after editing sky"
       ],
       "intent": "Find where stepped sky gradients first appear, protect smooth tones during editing, and distinguish file damage from a preview or delivery issue.",
-      "status": "included_in_publication_commit",
+      "status": "published",
       "articleSlug": "fix-banding-in-sky-gradients",
-      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
+      "validation": "Verified in e19b95a and successful GitHub Pages run 40115286873 before the October 25 batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1452,9 +1452,9 @@
         "remove photos widget iphone"
       ],
       "intent": "Choose what Photos surfaces automatically while keeping display preferences separate from access control.",
-      "status": "included_in_publication_commit",
+      "status": "published",
       "articleSlug": "control-featured-photos-iphone",
-      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
+      "validation": "Verified in e19b95a and successful GitHub Pages run 40115286873 before the October 25 batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1471,9 +1471,9 @@
         "false colors fabric photography"
       ],
       "intent": "Identify false waves or colors in fabric, compare the source and export, and try a local correction without erasing the garment’s texture.",
-      "status": "included_in_publication_commit",
+      "status": "published",
       "articleSlug": "reduce-moire-in-clothing-photos",
-      "validation": "Independent October 23 editorial review and October 24 primary-source recheck complete. Actual publication date October 24; see publication research record for checks. Deployment must still be verified.",
+      "validation": "Verified in e19b95a and successful GitHub Pages run 40115286873 before the October 25 batch.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
@@ -1481,6 +1481,42 @@
       "metricsPeriod": null,
       "researchRecord": "2026-10-23-thirty-guides/editing-research.json",
       "publicationResearchRecord": "2026-10-24-queued-guides.json"
+    },
+    {
+      "id": "stripes-in-photos-under-led-lights",
+      "primaryKeyword": "stripes in photos under LED lights",
+      "relatedKeywords": [
+        "horizontal bands in photos",
+        "LED light photo banding"
+      ],
+      "intent": "Diagnose artificial-light flicker in recorded photos and choose a supported capture response.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "stripes-in-photos-under-led-lights",
+      "validation": "See October 25 research and independent review; deployment must be verified after this commit.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-25-troubleshooting/batch.json"
+    },
+    {
+      "id": "photos-upload-sideways-or-upside-down",
+      "primaryKeyword": "photos upload sideways",
+      "relatedKeywords": [
+        "photos upload upside down",
+        "photo orientation wrong after upload"
+      ],
+      "intent": "Identify whether rotation first changes in the source, export, upload or thumbnail and verify a correction.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "photos-upload-sideways-or-upside-down",
+      "validation": "See October 25 research and independent review; deployment must be verified after this commit.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-25-troubleshooting/batch.json"
     }
   ]
 }

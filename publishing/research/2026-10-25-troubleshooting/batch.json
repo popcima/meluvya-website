@@ -1,0 +1,278 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "e19b95a82ac89d61cd18969bcf06fe257a918959",
+  "baseline": {
+    "articles": 95,
+    "publishedToday": 0,
+    "remoteMatchesHead": true,
+    "deploymentRun": 40115286873,
+    "deploymentConclusion": "success"
+  },
+  "plannedResult": {
+    "newArticles": 2,
+    "articles": 97,
+    "dailyMaximum": 30,
+    "sitemapUrls": 108,
+    "archivePages": 9
+  },
+  "selection": "Two distinct troubleshooting gaps. No additional synonym pages; the 30-per-day limit is a ceiling, not a quota. All seven previously queued drafts are verified in the successful baseline deployment.",
+  "skills": {
+    "writing": "claude-blog blog-write; adapted how-to structure without length or statistics quotas",
+    "review": "Independent blog-reviewer step; project TypeScript/export gates replace generic Markdown/PDF helpers as instructed by the installed Codex adapter",
+    "technical": "Project claude-seo export and on-page checks"
+  },
+  "searchConsole": {
+    "provider": "Google Search Console UI",
+    "property": "sc-domain:meluvya.com",
+    "retrieved": "2026-10-25",
+    "searchType": "Web",
+    "geography": "All countries; no country filter",
+    "device": "All devices",
+    "selectedPeriod": "24 hours",
+    "displayedPeriod": "October 24–25, 2026",
+    "metrics": {
+      "clicks": {
+        "value": 0,
+        "unit": "clicks"
+      },
+      "impressions": {
+        "value": 299,
+        "unit": "impressions"
+      },
+      "ctr": {
+        "value": 0,
+        "unit": "percent"
+      },
+      "averagePosition": {
+        "value": 17.6,
+        "unit": "average search-result position"
+      }
+    },
+    "freshness": "UI reported last update 3.5 hours ago; recent data may be provisional. The report returned to 24 hours after a 3-month selection attempt, so no 3-month totals are claimed.",
+    "visibleQueryExamples": [
+      {
+        "query": "how to scan photos",
+        "impressions": 3,
+        "existingArticle": "scan-printed-photos-with-phone"
+      },
+      {
+        "query": "how to scan a photo",
+        "impressions": 3,
+        "existingArticle": "scan-printed-photos-with-phone"
+      },
+      {
+        "query": "how to choose frame of live photo",
+        "impressions": 2,
+        "existingArticle": "change-live-photo-key-photo"
+      },
+      {
+        "query": "key photo iphone",
+        "impressions": 2,
+        "existingArticle": "change-live-photo-key-photo"
+      },
+      {
+        "query": "photo flip iphone",
+        "impressions": 2,
+        "existingArticle": "why-iphone-selfies-flip"
+      }
+    ],
+    "interpretation": "Visible queries already have matching guides. Keep variants together and allow more reporting time; this small sample does not establish demand for the two new topics, a traffic trend or keyword rankings.",
+    "indexingReport": "Processing data; no new indexing conclusion. No repeated indexing requests or sitemap submissions."
+  },
+  "records": [
+    {
+      "slug": "stripes-in-photos-under-led-lights",
+      "primaryKeyword": "stripes in photos under LED lights",
+      "variants": [
+        "horizontal bands in photos",
+        "LED light photo banding"
+      ],
+      "intent": "Diagnose artificial-light flicker in recorded photos and choose a supported capture response.",
+      "topic": "lighting",
+      "overlap": "Existing sky-banding guide explicitly excludes artificial-light stripes. Existing mixed-lighting guide treats spatial color casts, not changing illumination during exposure.",
+      "originalContribution": "Book-on-table light comparison; preview versus saved-file distinction; camera-control limits; retake versus conservative repair decision.",
+      "sources": [
+        {
+          "title": "Sony: why lighting flicker causes bands and color changes",
+          "url": "https://www.sony.com/electronics/support/articles/00008839",
+          "note": "Supports the artificial-light flicker mechanism and distinction between preview and recorded-image symptoms. Retrieved October 25, 2026."
+        },
+        {
+          "title": "Sony: reducing camera flicker",
+          "url": "https://www.sony.com/electronics/support/articles/00122281",
+          "note": "Equipment-specific limits of anti-flicker shooting and variable shutter adjustment. Not evidence that every phone offers these controls. Retrieved October 25, 2026."
+        }
+      ],
+      "language": "English",
+      "audience": "Worldwide",
+      "retrieved": "2026-10-25",
+      "monthlySearchVolume": null,
+      "organicKeywordDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "metricsReason": "No verified exact-query volume or difficulty dataset is available. Technical primary sources are evidence of mechanism, not demand.",
+      "editorialDecision": "Publish: independent AI reviewer found no blocking factual or intent-overlap issue. See editorial-review.md; technical and deployment gates remain separate."
+    },
+    {
+      "slug": "photos-upload-sideways-or-upside-down",
+      "primaryKeyword": "photos upload sideways",
+      "variants": [
+        "photos upload upside down",
+        "photo orientation wrong after upload"
+      ],
+      "intent": "Identify whether rotation first changes in the source, export, upload or thumbnail and verify a correction.",
+      "topic": "photo-workflows",
+      "overlap": "Existing selfie-flip guide distinguishes rotation but focuses on mirroring; quality-loss guide concerns compression and dimensions. Neither explains EXIF orientation and delivery-stage diagnosis.",
+      "originalContribution": "Four-checkpoint orientation audit and filename discipline; separates source correction, format export and destination processing.",
+      "sources": [
+        {
+          "title": "MDN: image-orientation",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/image-orientation",
+          "note": "Explains display orientation based on EXIF information. It does not diagnose a particular upload service. Retrieved October 25, 2026."
+        },
+        {
+          "title": "Apple: rotate and flip photos on iPhone — iOS 26",
+          "url": "https://support.apple.com/guide/iphone/crop-rotate-flip-straighten-photos-videos-iph0f3ebb1dd/26/ios/26",
+          "note": "Supports the Photos controls, quarter-turn versus horizontal flip, and iCloud edit synchronization. Retrieved October 25, 2026."
+        },
+        {
+          "title": "Apple: export photos from Photos on Mac",
+          "url": "https://support.apple.com/guide/photos/pht6e157c5f/mac",
+          "note": "Supports the format-export command and JPEG choice; no universal orientation-fix guarantee. Retrieved October 25, 2026."
+        },
+        {
+          "title": "Apple Developer: rendered edited photo content",
+          "url": "https://developer.apple.com/documentation/photos/phcontenteditingoutput/renderedcontenturl",
+          "note": "Explains incorporating intended orientation into edited pixel data while declaring upright orientation metadata. Retrieved October 25, 2026."
+        }
+      ],
+      "language": "English",
+      "audience": "Worldwide",
+      "retrieved": "2026-10-25",
+      "monthlySearchVolume": null,
+      "organicKeywordDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "metricsReason": "No verified exact-query volume or difficulty dataset is available. Technical primary sources are evidence of mechanism, not demand.",
+      "editorialDecision": "Publish: independent AI reviewer found no blocking factual or intent-overlap issue. See editorial-review.md; technical and deployment gates remain separate."
+    }
+  ],
+  "media": {
+    "policy": "Reuse existing licensed local Pexels images and responsive variants, with original credit and illustrative disclosure. No generated example or product-test image.",
+    "provenance": "publishing/image-sources.json",
+    "images": [
+      {
+        "slug": "stripes-in-photos-under-led-lights",
+        "image": "blog/pexels-29894331-4k.webp",
+        "credit": {
+          "name": "Everton Silva",
+          "url": "https://www.pexels.com/photo/portrait-of-woman-with-neon-lights-at-night-29894331/"
+        }
+      },
+      {
+        "slug": "photos-upload-sideways-or-upside-down",
+        "image": "blog/pexels-34225009-4k.webp",
+        "credit": {
+          "name": "Julio Lopez",
+          "url": "https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/"
+        }
+      }
+    ]
+  },
+  "sourceVerification": "Six cited primary documents checked October 25. Apple renderedContentURL was read through its official Markdown endpoint because the web reader could not render that content type. No direct quotations copied into articles.",
+  "promotion": "Shared Meluvya ArticleDownloadCTA and existing store buttons retained; honest coming-soon behavior.",
+  "validation": {
+    "status": "PASS — prepublication",
+    "contentCheck": {
+      "command": "node scripts/check-content.mjs --base e19b95a82ac89d61cd18969bcf06fe257a918959",
+      "articles": 97,
+      "publishedToday": 2,
+      "remainingCapacity": 28,
+      "passed": true
+    },
+    "runtime": "Node 24.19.0; clean dependency installation from the committed package lock in a temporary baseline snapshot with the final article/topic files overlaid",
+    "lint": "PASS",
+    "productionBuild": {
+      "command": "SITE_URL=https://meluvya.com NEXT_PUBLIC_BASE_PATH= npm run build -- --webpack",
+      "passed": true,
+      "generatedRoutes": 112
+    },
+    "typecheck": "PASS",
+    "export": {
+      "command": "python3 scripts/check-export.py",
+      "passed": true,
+      "sitemapUrls": 108,
+      "articlePages": 97,
+      "localLinksAndAssets": 5433,
+      "canonicalsTitlesDescriptionsUnique": true,
+      "schema": "Article and Breadcrumb parse and match visible headings",
+      "robots": "Allows public crawling; correct canonical sitemap"
+    },
+    "seoFoundations": {
+      "command": "python3 scripts/check-seo-foundations.py",
+      "passed": true,
+      "topicDirectoryLinks": 97,
+      "editorialAttribution": 97,
+      "visibleUpdateDates": 3
+    },
+    "pagination": {
+      "pages": 9,
+      "cardsPerPage": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        1
+      ],
+      "uniqueArticleCards": 97,
+      "desktopLastPage": "One article with Previous pointing to page 8; Next inactive"
+    },
+    "preservation": {
+      "existingArticleObjectsUnchanged": 95,
+      "newArticleDates": "2026-10-25",
+      "canonicalRoot": "https://meluvya.com",
+      "basePath": ""
+    },
+    "images": {
+      "masters": [
+        [
+          2560,
+          3840
+        ],
+        [
+          3840,
+          2560
+        ]
+      ],
+      "allDeclaredResponsiveWidthsMatch": true,
+      "creditAndIllustrativeCaptionsPreserved": true
+    },
+    "browser": {
+      "mobileViewport": "390 x 844 verified through rendered viewport measurement",
+      "newPagesChecked": 2,
+      "pageWidth": 390,
+      "tables": "480px tables inside 356px horizontally scrollable containers; no page overflow",
+      "cta": "Both store buttons on both new guides open the coming-soon dialog; Escape closes it and returns focus to the activating button. First App Store check performed on desktop; remaining checks mobile.",
+      "visual": "Read both new pages with correct headings, images, dates and credits; desktop archive page 9 inspected."
+    },
+    "limits": "Checks do not establish search demand, indexing or ranking. Independent factual and intent review is recorded separately."
+  },
+  "deployment": {
+    "status": "Ready for authorized normal push; verify Actions and live pages after publication",
+    "verificationRecord": "Post-deployment results will be saved outside the repository and summarized in the heartbeat; do not mark this prepublication record as a completed deployment."
+  },
+  "editorialReview": {
+    "result": "PASS",
+    "independent": true,
+    "record": "editorial-review.md",
+    "humanApproval": false,
+    "limitation": "Illustrative stock images, not demonstrated before/after tests; disclosed in captions."
+  }
+}
