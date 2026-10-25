@@ -1,0 +1,30 @@
+.layout { max-width: 900px; }
+.header { padding-bottom: 36px; }
+.header h1 { margin-top: 24px; color: #f7fbff; font-size: clamp(42px, 6vw, 72px); line-height: 1.08; letter-spacing: -.045em; }
+.header :global(.article-summary) { max-width: 620px; }
+.status { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; margin-top: 36px; color: #91a8bb; font-size: 13px; }
+.status > span { padding: 5px 12px; border: 1px solid #385361; border-radius: 100px; color: #b9e7f4; background: #10212b; }
+.notice { margin-top: 32px; padding: 24px; border: 1px solid #29414c; border-radius: 16px; background: linear-gradient(110deg, #10212b, #0b141c); }
+.notice strong { font-size: 16px; color: #e1f4fb; }
+.notice p { margin-top: 9px; color: #afc1cf; font-size: 14px; line-height: 24px; }
+.contents { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; padding-bottom: 40px; margin-bottom: 40px; border-bottom: 1px solid var(--line); }
+.contents a { display: flex; justify-content: space-between; gap: 16px; align-items: center; min-height: 48px; color: #a9d9ec; font-size: 14px; text-decoration: none; }
+.contents a:hover { color: white; }
+.subheading { margin: 28px 0 14px; color: #e1edf4; font-size: 19px; font-weight: 500; }
+.page :global(.article-content) a { color: #a9d9ec; text-underline-offset: 4px; overflow-wrap: anywhere; }
+.page :global(.article-content) .providers { list-style: none; padding-left: 0; }
+.page :global(.article-content) .providers li { padding: 22px 0; margin: 0; border-bottom: 1px solid var(--line); }
+.providers p { margin: 7px 0; }
+.providers a { font-size: 14px; }
+.page :global(.article-content) .contact { padding: 28px; border: 1px solid var(--line); border-radius: 18px; background: #0b131c; }
+.fields { margin-top: 28px; }
+.fields > div { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: center; padding-block: 18px; }
+.fields dt { font-size: 14px; line-height: 22px; color: #b9cbd9; }
+.fields dd { margin: 0; }
+.blank { display: block; min-height: 23px; border-bottom: 1px solid #385361; }
+@media (max-width: 640px) {
+  .contents { grid-template-columns: 1fr; margin-bottom: 32px; padding-bottom: 28px; }
+  .notice { padding: 20px; }
+  .page :global(.article-content) .contact { padding: 22px; }
+  .fields > div { grid-template-columns: 1fr; gap: 5px; }
+}
