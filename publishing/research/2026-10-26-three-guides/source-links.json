@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://support.apple.com/en-us/101984",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/101984"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/add-delete-rotate-move-or-crop-pdf-pages-iphbf4977cff/26/ios/26",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/guide/iphone/add-delete-rotate-move-or-crop-pdf-pages-iphbf4977cff/26/ios/26"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/export-or-compress-pdfs-and-images-iph61c20afe1/26/ios/26",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/guide/iphone/export-or-compress-pdfs-and-images-iph61c20afe1/26/ios/26"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/open-and-view-pdfs-and-images-iph7a0cdad0c/26/ios/26",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/guide/iphone/open-and-view-pdfs-and-images-iph7a0cdad0c/26/ios/26"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/save-camera-settings-iph62000de98/26/ios/26",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/guide/iphone/save-camera-settings-iph62000de98/26/ios/26"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26"
+  },
+  {
+    "url": "https://support.google.com/accounts/answer/3024190?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/accounts/answer/3024190?hl=en"
+  },
+  {
+    "url": "https://support.google.com/photos/thread/313688283/how-to-download-all-of-your-google-photos-videos-with-takeout",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/thread/313688283/how-to-download-all-of-your-google-photos-videos-with-takeout"
+  }
+]

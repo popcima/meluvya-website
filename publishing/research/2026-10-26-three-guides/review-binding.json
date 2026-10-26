@@ -1,0 +1,10 @@
+{
+  "nonce": "cbba42dc97b69845b38c558744363089",
+  "pipeline": "Project TypeScript/Next.js adapter; hash binding recorded locally, not standalone blog_preflight helper",
+  "digests": {
+    "src/lib/articles.ts": "4d1185870a3f137b6b0eb999ecf29e237aca953b3871649b2f37d5d2862047ac",
+    "out/blog/download-google-photos-with-takeout/index.html": "e39236718d2a32ee15fb0555bec0fb2663219c79290bb66cac6f3299dce33bf9",
+    "out/blog/combine-photos-into-pdf-iphone/index.html": "a938db4feb727bd525d866b30a408b9559c0c2101e76baac740afb0439945eb8",
+    "out/blog/iphone-camera-preserve-settings/index.html": "2cca670dce30e76fa6ab7941e2cdcda787fb0d9a7b7883b4bfe77aa087316bf8"
+  }
+}

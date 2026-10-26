@@ -6,6 +6,7 @@ const topics = [
   "title": "Camera controls and capture",
   "description": "Choose the right capture mode, focus point and moment before you edit.",
   "slugs": [
+    "iphone-camera-preserve-settings",
     "apple-watch-camera-remote-photos",
     "photograph-fireworks-with-phone",
 
@@ -34,6 +35,8 @@ const topics = [
   "title": "Sharing, printing and preserving photos",
   "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
   "slugs": [
+    "download-google-photos-with-takeout",
+    "combine-photos-into-pdf-iphone",
     "google-photos-free-up-space-vs-delete",
     "icloud-photos-not-syncing",
 

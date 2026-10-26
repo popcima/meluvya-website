@@ -1,0 +1,14 @@
+# Source evidence — October 26, 2026
+
+Free web research, English worldwide audience. No keyword volume/difficulty dataset obtained. Primary pages were read using the web tool; no device hands-on tests claimed.
+
+- Google Account Help, https://support.google.com/accounts/answer/3024190?hl=en : export leaves server copies intact; select products; one-time archive available; ZIP/TGZ, split archives at chosen limit; Google recommends desktop viewing; changes during preparation may be missing. Source also discusses preserved embedded timestamps and extra JSON data. Article's audit, second-copy and trial-import routines are original practical guidance, not a guarantee of complete export.
+- Official Google Photos Team announcement by Google employee Rebecca V., https://support.google.com/photos/thread/313688283/how-to-download-all-of-your-google-photos-videos-with-takeout : new filesystem timestamps can coexist with original embedded capture timestamps; additional Google Photos metadata such as comments is in secondary JSON files.
+- Apple iOS 26 Preview export guide, https://support.apple.com/guide/iphone/export-or-compress-pdfs-and-images-iph61c20afe1/26/ios/26 : open image/PDF; filename actions > Export; PDF among formats; optional size slider.
+- Apple iOS 26 page management, https://support.apple.com/guide/iphone/add-delete-rotate-move-or-crop-pdf-pages-iphbf4977cff/26/ios/26 : page count opens thumbnails; pinch can reveal controls; hold thumbnail > Insert from File inserts PDF/image; drag thumbnail above/below another to reorder; More > Rotate Left/Right.
+- Apple iOS 26 opening guide, https://support.apple.com/guide/iphone/open-and-view-pdfs-and-images-iph7a0cdad0c/26/ios/26 : Browse/Recents and locations; open files and zoom pages. Article's order/recipient/readability checks are editorial guidance. It does not promise OCR or universal image retention.
+- Apple https://support.apple.com/en-us/101984 : Photos selection > Share > Save to Files. Only this export action supports the preparation step. Its separate upload-repair deletion workflow is NOT recommended in the new article.
+- Apple iOS 26 Preserve Settings guide, https://support.apple.com/guide/iphone/save-camera-settings-iph62000de98/26/ios/26 : Camera Mode retains last mode; Live Photo retains state; Exposure Adjustment supported iPhone 11+; Night Mode supported-model limitation; Settings > Camera > Preserve Settings. Other options intentionally omitted to avoid a copied catalog.
+- Apple iOS 26 camera tools, https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26 : focus and exposure controls; Exposure Adjustment can persist via Preserve Settings. The before/after routine and changed-scene example are editorial, not a reported experiment.
+
+Scope: no new Meluvya feature, device, price, privacy or performance promises. Existing licensed Pexels images are illustrative; existing credits and responsive files retained. No indexing requests made.

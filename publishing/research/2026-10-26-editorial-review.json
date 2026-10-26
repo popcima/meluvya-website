@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "a372701420ea4ac73cd7da5f2e0fec8eb807e86b",
+  "decision": "No publication in this run. Reviewed candidate variants are already covered; no substantive correction identified in the checked source guidance.",
+  "newArticles": 0,
+  "queue": "All seven queued entries were already published October 24; do not repeat.",
+  "deployment": {
+    "status": "completed",
+    "conclusion": "success",
+    "liveSitemapUrls": 114,
+    "checkedArticleHttpStatus": 200
+  },
+  "research": {
+    "provider": "Free web search; Apple Support and Google Photos Help",
+    "retrieved": "2026-10-26",
+    "audience": "Worldwide English",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsPeriod": null,
+    "metricsGeography": null,
+    "reason": "No verified exact-query metrics available; Search Console not queried in this run."
+  },
+  "keywordDecisions": [
+    {
+      "query": "iCloud Photos sync paused low power mode",
+      "existingSlug": "icloud-photos-not-syncing",
+      "source": "https://support.apple.com/en-gb/101559",
+      "decision": "Keep existing URL; pause-reason table already addresses this variant."
+    },
+    {
+      "query": "Google Photos free up space delete device photos",
+      "existingSlug": "google-photos-free-up-space-vs-delete",
+      "source": "https://support.google.com/photos/answer/6128843?co=GENIE.Platform%3DiOS&hl=en-en",
+      "decision": "Keep existing URL; device removal, backup verification and iCloud effects already covered."
+    }
+  ],
+  "validation": "No site source changes, build or deployment initiated. Local editorial record only; no indexing requests made."
+}

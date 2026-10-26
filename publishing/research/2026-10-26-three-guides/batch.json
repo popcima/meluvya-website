@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "a372701420ea4ac73cd7da5f2e0fec8eb807e86b",
+  "baseline": {
+    "articles": 102,
+    "publishedToday": 0,
+    "remoteMatchesHead": true,
+    "lastDeployment": "success"
+  },
+  "newArticles": 3,
+  "research": {
+    "provider": "Free web search and official Apple/Google documentation",
+    "retrieved": "2026-10-26",
+    "audienceGeography": "Worldwide English",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsProvider": null,
+    "metricsGeography": null,
+    "metricsPeriod": null,
+    "reason": "No exact-query metrics available. No volume, competition, indexing or ranking claims."
+  },
+  "articles": [
+    {
+      "slug": "download-google-photos-with-takeout",
+      "query": "download google photos with takeout",
+      "intent": "Inspect a complete library export and preserve accompanying metadata.",
+      "overlapDecision": "Existing storage cleanup and quality guides do not teach archive extraction and verification.",
+      "topic": "photo-workflows",
+      "sources": [
+        {
+          "title": "Google Account Help: download your data",
+          "url": "https://support.google.com/accounts/answer/3024190?hl=en",
+          "note": "Export controls, split archives, desktop inspection and timing limitations; checked October 26, 2026."
+        },
+        {
+          "title": "Google Photos Team: Takeout and photo metadata",
+          "url": "https://support.google.com/photos/thread/313688283/how-to-download-all-of-your-google-photos-videos-with-takeout",
+          "note": "Official employee explanation of embedded timestamps and additional JSON metadata. The verification checklist here is editorial guidance, not a library test."
+        }
+      ],
+      "originalContribution": "Verification routines, decision examples and failure checks; not a claimed hands-on test."
+    },
+    {
+      "slug": "combine-photos-into-pdf-iphone",
+      "query": "combine photos into pdf iphone",
+      "intent": "Build an ordered multipage document from image files in Preview.",
+      "overlapDecision": "Existing format and compression guides do not assemble or reorder PDF pages.",
+      "topic": "photo-workflows",
+      "sources": [
+        {
+          "title": "Apple: export PDFs and images in Preview",
+          "url": "https://support.apple.com/guide/iphone/export-or-compress-pdfs-and-images-iph61c20afe1/26/ios/26",
+          "note": "PDF export and file-size control in the iOS 26 guide."
+        },
+        {
+          "title": "Apple: add and arrange PDF pages",
+          "url": "https://support.apple.com/guide/iphone/add-delete-rotate-move-or-crop-pdf-pages-iphbf4977cff/26/ios/26",
+          "note": "Insert from File, thumbnail order and rotation."
+        },
+        {
+          "title": "Apple: open images and PDFs in Preview",
+          "url": "https://support.apple.com/guide/iphone/open-and-view-pdfs-and-images-iph7a0cdad0c/26/ios/26",
+          "note": "Browse locations, open files and view pages; checked October 26, 2026."
+        },
+        {
+          "title": "Apple: export items from Photos to Files",
+          "url": "https://support.apple.com/en-us/101984",
+          "note": "Documents the Photos Share > Save to Files action; its separate sync-repair deletion procedure is not part of this PDF workflow."
+        }
+      ],
+      "originalContribution": "Verification routines, decision examples and failure checks; not a claimed hands-on test."
+    },
+    {
+      "slug": "iphone-camera-preserve-settings",
+      "query": "iphone camera preserve settings",
+      "intent": "Choose and verify which camera decisions persist between launches.",
+      "overlapDecision": "Existing capture guides explain taking a shot, not retention between sessions.",
+      "topic": "camera-techniques",
+      "sources": [
+        {
+          "title": "Apple: save camera settings on iPhone",
+          "url": "https://support.apple.com/guide/iphone/save-camera-settings-iph62000de98/26/ios/26",
+          "note": "Preservation controls and supported-model limits; checked October 26, 2026."
+        },
+        {
+          "title": "Apple: use camera tools to set up a shot",
+          "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+          "note": "Focus, exposure adjustment and its separate preservation setting. The scenario and verification routine are editorial guidance."
+        }
+      ],
+      "originalContribution": "Verification routines, decision examples and failure checks; not a claimed hands-on test."
+    }
+  ],
+  "media": "Reuse three existing licensed Pexels responsive images with original credit, accurate alt text and illustrative-stock disclosure.",
+  "review": "PASS: independent AI editorial review; no required revisions. See editorial-review.md and review-binding.json. Scores are editorial heuristics, not search-engine measurements.",
+  "validation": {
+    "contentCheck": "PASS: 105 articles, 3 today; 102 existing article objects unchanged",
+    "lint": "PASS",
+    "build": "PASS: SITE_URL=https://meluvya.com; empty NEXT_PUBLIC_BASE_PATH; webpack",
+    "typecheck": "PASS",
+    "export": {
+      "result": "PASS",
+      "routes": 117,
+      "local_links_and_assets_checked": 6001,
+      "article_pages": 105,
+      "unique_canonicals_titles_descriptions": true,
+      "schema": "Article and Breadcrumb JSON-LD parses and matches visible titles",
+      "titles": [
+        "Meluvya — AI Photo Effects & Portraits",
+        "How we create our photo guides | Meluvya",
+        "Privacy policy | Meluvya",
+        "Photo editing guides | Meluvya",
+        "Photo editing guides — Page 2 | Meluvya",
+        "Photo editing guides — Page 3 | Meluvya",
+        "Photo editing guides — Page 4 | Meluvya",
+        "Photo editing guides — Page 5 | Meluvya",
+        "Photo editing guides — Page 6 | Meluvya",
+        "Photo editing guides — Page 7 | Meluvya",
+        "Photo editing guides — Page 8 | Meluvya",
+        "Photo editing guides — Page 9 | Meluvya",
+        "How to download Google Photos with Takeout and check the archive | Meluvya",
+        "How to combine photos into a PDF on iPhone with Preview | Meluvya",
+        "iPhone Camera Preserve Settings: keep the choices you actually want | Meluvya",
+        "Google Photos: Free up space vs Delete, explained | Meluvya",
+        "iCloud Photos not syncing? Check the status before changing settings | Meluvya",
+        "How to take iPhone photos with Apple Watch Camera Remote | Meluvya",
+        "How to photograph fireworks with your phone | Meluvya",
+        "Why snow looks gray or blue in photos, and how to fix it | Meluvya",
+        "Why photos have stripes under LED lights | Meluvya",
+        "Why photos upload sideways or upside down | Meluvya",
+        "Use Visual Look Up on iPhone to identify a photo’s subject | Meluvya",
+        "How to photograph jewelry with a phone without losing the detail | Meluvya",
+        "How to add readable text and arrows to an iPhone photo | Meluvya",
+        "How to photograph paintings and drawings faithfully with a phone | Meluvya",
+        "How to troubleshoot banding in sky gradients | Meluvya",
+        "Control featured photos and photo memories on iPhone | Meluvya",
+        "How to reduce moiré in clothing photos | Meluvya",
+        "How to photograph food with your phone before it goes cold | Meluvya",
+        "iPhone photo albums vs folders: organize without losing pictures | Meluvya",
+        "Tone curves vs Contrast: which should you use? | Meluvya",
+        "How to take better pet photos with your phone | Meluvya",
+        "How to copy text from a photo on iPhone with Live Text | Meluvya",
+        "Texture, Clarity and Dehaze: how to choose | Meluvya",
+        "How to take flat-lay photos with your phone | Meluvya",
+        "Does iCloud Shared Albums reduce photo quality? Check the version | Meluvya",
+        "Color grading vs white balance: correction and mood | Meluvya",
+        "How to take group photos with everyone visible and sharp | Meluvya",
+        "How to hide and lock photos on iPhone | Meluvya",
+        "How to reduce colored fringes along photo edges | Meluvya",
+        "How to photograph small products on a white background | Meluvya",
+        "Share an iPhone Live Photo as a still image or moving video | Meluvya",
+        "Lens distortion vs perspective: fix the right problem | Meluvya",
+        "How to photograph through a window with fewer reflections | Meluvya",
+        "Use the iPhone Camera grid and level for cleaner composition | Meluvya",
+        "How to add a subtle vignette to a photo | Meluvya",
+        "How to take silhouette photos with your phone | Meluvya",
+        "How to limit an app’s photo access on iPhone | Meluvya",
+        "Local masks vs global photo edits: which to use? | Meluvya",
+        "How to photograph water reflections with your phone | Meluvya",
+        "How to remove small distractions from a photo | Meluvya",
+        "How to copy and paste photo edits on iPhone | Meluvya",
+        "How to change Portrait focus and background blur on iPhone | Meluvya",
+        "How to merge duplicate iPhone photos without losing a version you want | Meluvya",
+        "How to change a photo’s date and time on iPhone | Meluvya",
+        "Google Photos Archive vs Locked Folder: which should you use? | Meluvya",
+        "How to recover deleted or missing photos on iPhone | Meluvya",
+        "How to make an iPhone photo cutout and check its edges | Meluvya",
+        "How to use AE/AF Lock on iPhone for steadier photo settings | Meluvya",
+        "How to choose a better key photo from an iPhone Live Photo | Meluvya",
+        "How to take iPhone Burst photos and choose the best frame | Meluvya",
+        "Why iPhone close-up photos lose focus and how to improve them | Meluvya",
+        "iPhone Photographic Styles vs filters: what can you change later? | Meluvya",
+        "How to make a Live Photo long exposure on iPhone | Meluvya",
+        "Phone panorama tips: avoid broken lines and duplicated people | Meluvya",
+        "RAW vs JPEG on a phone: when is RAW worth keeping? | Meluvya",
+        "How large can you print a photo? Pixels, inches and PPI | Meluvya",
+        "Resize or compress a photo? How to meet an upload limit | Meluvya",
+        "sRGB or Display P3: which should you export for photos? | Meluvya",
+        "Google Photos Original quality vs Storage saver: what changes? | Meluvya",
+        "Is iCloud Photos a backup? Understand sync before deleting | Meluvya",
+        "How to AirDrop photos with the original file and edit history | Meluvya",
+        "How to scan printed photos with your phone | Meluvya",
+        "How to clean a phone camera lens when photos look hazy | Meluvya",
+        "How to remove red-eye from photos without flattening the eyes | Meluvya",
+        "How to fix leaning buildings and perspective in phone photos | Meluvya",
+        "How to make intentional motion blur look deliberate | Meluvya",
+        "How to make a selective color photo with one colored subject | Meluvya",
+        "How to remove location data from iPhone photos before sharing | Meluvya",
+        "Why iPhone selfies flip and how to keep the mirrored view | Meluvya",
+        "How to read a histogram when editing portraits | Meluvya",
+        "How to fix mixed lighting in portrait photos | Meluvya",
+        "Direct flash portrait tips for a deliberate night look | Meluvya",
+        "How to take portrait photos in harsh sunlight | Meluvya",
+        "Why close selfies look different: camera distance explained | Meluvya",
+        "How to choose a background for portrait photos | Meluvya",
+        "Mirror selfie tips: framing, reflections, and cleaner photos | Meluvya",
+        "How to take couple photos with a phone | Meluvya",
+        "Cloudy-day portrait tips for soft, lively photos | Meluvya",
+        "How to take backlit portraits with a phone | Meluvya",
+        "Black-and-white portrait editing: keep shape and separation | Meluvya",
+        "Why edited portraits look unnatural—and what to undo first | Meluvya",
+        "How to crop portrait photos without awkward framing | Meluvya",
+        "How to brighten a dark face in a photo | Meluvya",
+        "Can you fix an overexposed portrait? | Meluvya",
+        "How to remove a color cast from portrait photos | Meluvya",
+        "Photo noise vs film grain: what is the difference? | Meluvya",
+        "Photo sharpening vs resolution: what can each fix? | Meluvya",
+        "Vibrance vs saturation: which should you use for portraits? | Meluvya",
+        "How to edit a photo set consistently without making every shot identical | Meluvya",
+        "Why edited photos lose quality when you save or share them | Meluvya",
+        "JPEG vs HEIC vs PNG: which format should you use for photos? | Meluvya",
+        "How to edit photos without losing the original | Meluvya",
+        "What to check in an AI portrait before sharing it | Meluvya",
+        "What does HDR do in phone photos? | Meluvya",
+        "Why photos look different on different screens | Meluvya",
+        "How to take better self-timer portraits with your phone | Meluvya",
+        "How to spot and reduce Portrait mode blur mistakes | Meluvya",
+        "How to take window-light portraits at home | Meluvya",
+        "Why your night phone photos are blurry—and what to try | Meluvya",
+        "How to reduce glasses glare in portrait photos | Meluvya",
+        "How to give a photo a golden-hour look | Meluvya",
+        "How to get a digicam-style photo on your phone | Meluvya",
+        "Vintage photo effects: choose the right retro look | Meluvya",
+        "How to choose a photo for AI portrait edits | Meluvya",
+        "AI photo effects vs filters: which should you use? | Meluvya"
+      ]
+    },
+    "seo": {
+      "result": "PASS",
+      "guides_linked_from_blog_page_one": 105,
+      "editorial_attribution": 105,
+      "visible_updated_dates": 3,
+      "indexing_and_rankings": "Not measured by this check"
+    },
+    "browser": {
+      "result": "PASS",
+      "checks": [
+        {
+          "slug": "download-google-photos-with-takeout",
+          "width": 390,
+          "http": 200,
+          "ctaButtons": 2,
+          "focusRestored": true,
+          "noOverflow": true,
+          "imagesLoaded": true,
+          "schemasValid": true
+        },
+        {
+          "slug": "combine-photos-into-pdf-iphone",
+          "width": 390,
+          "http": 200,
+          "ctaButtons": 2,
+          "focusRestored": true,
+          "noOverflow": true,
+          "imagesLoaded": true,
+          "schemasValid": true
+        },
+        {
+          "slug": "iphone-camera-preserve-settings",
+          "width": 390,
+          "http": 200,
+          "ctaButtons": 2,
+          "focusRestored": true,
+          "noOverflow": true,
+          "imagesLoaded": true,
+          "schemasValid": true
+        },
+        {
+          "slug": "download-google-photos-with-takeout",
+          "width": 1280,
+          "http": 200,
+          "ctaButtons": 2,
+          "focusRestored": true,
+          "noOverflow": true,
+          "imagesLoaded": true,
+          "schemasValid": true
+        },
+        {
+          "slug": "combine-photos-into-pdf-iphone",
+          "width": 1280,
+          "http": 200,
+          "ctaButtons": 2,
+          "focusRestored": true,
+          "noOverflow": true,
+          "imagesLoaded": true,
+          "schemasValid": true
+        },
+        {
+          "slug": "iphone-camera-preserve-settings",
+          "width": 1280,
+          "http": 200,
+          "ctaButtons": 2,
+          "focusRestored": true,
+          "noOverflow": true,
+          "imagesLoaded": true,
+          "schemasValid": true
+        }
+      ],
+      "errors": []
+    },
+    "sitemapUrls": 117,
+    "robotsSitemap": "https://meluvya.com/sitemap.xml",
+    "sourceLinks": "All 8 primary links returned HTTP 200; see source-links.json",
+    "manualVisualReview": "Mobile PDF guide and desktop camera guide screenshots inspected; no clipping or layout defect observed.",
+    "pagination": {
+      "pages": 9,
+      "cardsPerPage": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        9
+      ],
+      "uniqueArticles": 105
+    }
+  },
+  "deployment": "Prepublication checks passed; verify normal GitHub Pages deployment after commit."
+}

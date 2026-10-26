@@ -30,6 +30,421 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "download-google-photos-with-takeout",
+  "title": "How to download Google Photos with Takeout and check the archive",
+  "description": "Export your Google Photos library, keep its metadata, and check downloaded files before relying on the archive or removing cloud copies.",
+  "summary": "A download is only useful if you can find and open the photographs you meant to preserve.",
+  "quickAnswer": "Use Google Takeout to export Google Photos, download every archive part, and inspect extracted files before changing your cloud library. Keep the accompanying JSON files. Exporting does not delete the photos stored by Google.",
+  "published": "2026-10-26",
+  "modified": "2026-10-26",
+  "sections": [
+    {
+      "id": "define-the-copy",
+      "title": "Decide what your archive must preserve",
+      "paragraphs": [
+        "This guide is for making a separate, inspectable library copy. If you only need more room on your phone, the related Free up space guide covers a different action. An export should have its own destination and a clear purpose before you begin.",
+        "Write a short checklist: the account being exported, the earliest and latest dates you care about, several named albums, and any videos or edited pictures that matter. Choose a destination with room for both the downloaded archives and their extracted contents. Avoid sorting or deleting the cloud library while you establish this baseline."
+      ]
+    },
+    {
+      "id": "request-export",
+      "title": "Create the Google Photos export",
+      "paragraphs": [
+        "Google’s Takeout help describes selecting products, delivery method, export frequency, file type and archive size. For this workflow, select Google Photos only, request a one-time export, and choose a download destination you control. Larger exports can arrive as several archive files.",
+        "Use a computer for the inspection stage. When the export is ready, download all its parts into a dated folder. Keep the archives intact and extract working copies into a separate folder. If a download fails, compare what arrived with the parts listed by Takeout rather than assuming the first successful file contains everything."
+      ]
+    },
+    {
+      "id": "metadata",
+      "title": "Keep the photographs and their metadata together",
+      "paragraphs": [
+        "Google explains that a downloaded file can receive a new filesystem timestamp while original capture information remains embedded in the media. Additional Google Photos information, such as comments, can be supplied in separate JSON files. Keep those files with the export.",
+        "Do not bulk-change dates just because a file browser sorts everything under today. Compare a known picture in your photo viewer with the same picture in Google Photos. Record which field differs: the filename, filesystem date, or capture date displayed by the viewer. Those observations will help you decide whether a later import actually needs correction."
+      ]
+    },
+    {
+      "id": "check-archive",
+      "title": "Audit a sample before trusting the copy",
+      "paragraphs": [
+        "The following is an inspection plan, not a claim that we tested your library. A sample can reveal a problem but cannot prove that every item survived."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Choose known examples from the beginning, middle and end of your library. Locate and open each extracted image; do not rely only on a thumbnail."
+          },
+          {
+            "text": "Play several videos through their beginning, middle and end. Note files that refuse to open and the application used to open them."
+          },
+          {
+            "text": "Check an edited favorite and a picture from a named album. Record which version you intended to keep and whether you can find it."
+          },
+          {
+            "text": "Keep a small log of missing or unreadable items. Resolve those gaps before any deletion, then copy the verified archive to a second independent location if the photographs are irreplaceable."
+          }
+        ]
+      }
+    },
+    {
+      "id": "import-carefully",
+      "title": "Treat importing as a separate decision",
+      "paragraphs": [
+        "A destination app may interpret files and extra metadata differently. Try a small, disposable import first. Check capture dates, edits, album organization and duplicate handling there before importing the whole collection. Preserve the untouched export so you can repeat the process with different choices.",
+        "For example, use a test set containing one old scan, a recent phone photo and a short video. Give each an expected result in your log. “The old scan is present but sorted under its download date” is a useful finding; “the migration worked” is too broad.",
+        "Google notes that changes made while an archive is being prepared may not all be included. Keep your cloud copy until you have checked the export and dealt with any newer items. A Takeout archive is not a continuous synchronization service."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does Takeout remove my Google Photos library?",
+      "answer": "No. Downloading an export is separate from deleting data. Leave deletion for a separate decision after you have verified the copies you need."
+    },
+    {
+      "question": "Can I throw away the JSON files?",
+      "answer": "Keep them in the untouched archive. They may contain information outside the media file, even if your current photo viewer does not use it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Account Help: download your data",
+      "url": "https://support.google.com/accounts/answer/3024190?hl=en",
+      "note": "Export controls, split archives, desktop inspection and timing limitations; checked October 26, 2026."
+    },
+    {
+      "title": "Google Photos Team: Takeout and photo metadata",
+      "url": "https://support.google.com/photos/thread/313688283/how-to-download-all-of-your-google-photos-videos-with-takeout",
+      "note": "Official employee explanation of embedded timestamps and additional JSON metadata. The verification checklist here is editorial guidance, not a library test."
+    }
+  ],
+  "related": [
+    "google-photos-free-up-space-vs-delete",
+    "google-photos-original-vs-storage-saver",
+    "change-photo-date-time-iphone"
+  ],
+  "image": "blog/pexels-34225009-4k.webp",
+  "imageAlt": "Photographer holding a memory card beside a card reader and laptop",
+  "imagePosition": "60% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-34225009-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-34225009-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-34225009-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-34225009-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Julio Lopez",
+    "url": "https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "combine-photos-into-pdf-iphone",
+  "title": "How to combine photos into a PDF on iPhone with Preview",
+  "description": "Turn image files into an ordered PDF with iPhone Preview, then check page order, readability and file size before sending it.",
+  "summary": "Build one readable document from several pictures without replacing your original photographs.",
+  "quickAnswer": "In Preview on iPhone, export the first image as a PDF. Open that PDF, show page thumbnails, and use Insert from File to add the remaining images. Reorder the pages and reopen the finished document before sharing. These steps follow Apple’s iOS 26 Preview guide.",
+  "published": "2026-10-26",
+  "modified": "2026-10-26",
+  "sections": [
+    {
+      "id": "prepare-images",
+      "title": "Prepare the images as a small document",
+      "paragraphs": [
+        "This workflow starts with image files that you can browse in Preview. If your pictures are only in Photos, use its share sheet to save copies to Files first, then find that location in Preview. Keep your originals in place.",
+        "Choose the intended sequence before building the PDF. For a small portfolio, you might use an overview, a close detail and a second view. For photographed paperwork, use the original page order. Rename working copies clearly enough that you can distinguish them in the file picker.",
+        "This is a document workflow, not an archival image format recommendation. Keep the separate source images if someone will need to edit, print or inspect them independently."
+      ]
+    },
+    {
+      "id": "first-page",
+      "title": "Make the first PDF page",
+      "paragraphs": [
+        "Apple’s Preview documentation describes opening images through Browse or Recents. Open the image intended for page one. Use the actions menu beside the filename, choose Export, and select PDF. Then open the resulting PDF before adding pages.",
+        "The instructions here are scoped to Preview on iOS 26. If your software lacks that app or the controls differ, use Apple’s version selector in the linked guide instead of hunting for an identical menu in Photos."
+      ]
+    },
+    {
+      "id": "assemble",
+      "title": "Add and arrange the remaining pictures",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "In the PDF, tap the page count to reveal thumbnails. Apple notes that a pinch gesture can reveal the controls if needed."
+          },
+          {
+            "text": "Touch and hold a page thumbnail, choose Insert from File, and select the next image. Repeat for the pictures you want to include."
+          },
+          {
+            "text": "Inspect the thumbnails after each insertion. To change the sequence, hold a thumbnail until its menu appears, then drag it above or below another page."
+          },
+          {
+            "text": "If a page faces the wrong way, use the rotation controls in Preview. Keep all intended content visible and check the result at readable size."
+          }
+        ]
+      }
+    },
+    {
+      "id": "recipient-check",
+      "title": "Check what the recipient will actually receive",
+      "paragraphs": [
+        "Close the document and reopen the saved PDF, rather than judging only the working view. Count the pages. Read the smallest useful detail on each one. Check that a landscape page has not made another page’s text too small for the intended reader.",
+        "Try this review on a three-photo example: page one should establish the subject, page two should show the detail you want discussed, and page three should add a different view. If pages two and three are indistinguishable at phone size, choose a tighter source crop or omit one. More pages do not automatically explain more."
+      ],
+      "table": {
+        "headers": [
+          "Check",
+          "What to fix before sending"
+        ],
+        "rows": [
+          [
+            "Missing or repeated page",
+            "Compare against your planned list and insert or remove the affected page."
+          ],
+          [
+            "Unreadable fine detail",
+            "Start with a clearer source or a closer photograph; a PDF wrapper cannot restore missing detail."
+          ],
+          [
+            "Unexpected order",
+            "Move the thumbnails, then reopen and check the saved sequence."
+          ],
+          [
+            "File exceeds the destination limit",
+            "Create a smaller export and compare its legibility with the original PDF."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "size-and-sharing",
+      "title": "Reduce size only after checking readability",
+      "paragraphs": [
+        "Preview’s export dialog also offers a file-size adjustment. Use a separate export when trying a smaller file so you can compare the two versions. Stop reducing size once useful details begin to disappear.",
+        "Confirm that the receiving form accepts PDF and note its size limit. If it asks for separate JPEG images, a combined PDF will not satisfy that request. Before sharing, review every page for material you did not mean to include. Do not assume conversion makes sensitive information disappear."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will PDF conversion improve a blurry photograph?",
+      "answer": "No. Retake or replace the source if essential detail is missing. Check clarity before assembling the document."
+    },
+    {
+      "question": "Does this make a searchable text document?",
+      "answer": "Do not assume it does. This guide assembles images into pages; test text search separately if the recipient needs searchable text."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: export PDFs and images in Preview",
+      "url": "https://support.apple.com/guide/iphone/export-or-compress-pdfs-and-images-iph61c20afe1/26/ios/26",
+      "note": "PDF export and file-size control in the iOS 26 guide."
+    },
+    {
+      "title": "Apple: add and arrange PDF pages",
+      "url": "https://support.apple.com/guide/iphone/add-delete-rotate-move-or-crop-pdf-pages-iphbf4977cff/26/ios/26",
+      "note": "Insert from File, thumbnail order and rotation."
+    },
+    {
+      "title": "Apple: open images and PDFs in Preview",
+      "url": "https://support.apple.com/guide/iphone/open-and-view-pdfs-and-images-iph7a0cdad0c/26/ios/26",
+      "note": "Browse locations, open files and view pages; checked October 26, 2026."
+    },
+    {
+      "title": "Apple: export items from Photos to Files",
+      "url": "https://support.apple.com/en-us/101984",
+      "note": "Documents the Photos Share > Save to Files action; its separate sync-repair deletion procedure is not part of this PDF workflow."
+    }
+  ],
+  "related": [
+    "resize-vs-compress-photos-for-upload",
+    "scan-printed-photos-with-phone",
+    "add-text-arrows-iphone-photo"
+  ],
+  "image": "blog/pexels-7129664-4k.webp",
+  "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7129664-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7129664-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7129664-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7129664-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Michael Burrows",
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
+  "slug": "iphone-camera-preserve-settings",
+  "title": "iPhone Camera Preserve Settings: keep the choices you actually want",
+  "description": "Stop selected iPhone camera settings from resetting, understand what Preserve Settings remembers, and check your setup before the next photo.",
+  "summary": "Remember useful capture choices without carrying an accidental setting into every new scene.",
+  "quickAnswer": "Open Settings, Camera, Preserve Settings and enable only the controls you want Camera to remember. Then make the desired choice in Camera itself and check it after reopening. The preserve switch retains a choice; it does not choose that mode or effect for you. Options depend on the iPhone model and software.",
+  "published": "2026-10-26",
+  "modified": "2026-10-26",
+  "sections": [
+    {
+      "id": "remembering",
+      "title": "Separate a remembered setting from a preferred setting",
+      "paragraphs": [
+        "Apple lists preservation controls for items including Camera Mode, Live Photo, Exposure Adjustment and, on supported models, Night Mode. Think of preservation as remembering the previous choice, not defining one permanent preset for every situation.",
+        "For example, retaining the last camera mode can be helpful during a portrait session. It can also leave you opening a mode you used briefly for a different task. Decide whether continuity or a fresh starting point is more useful for each control."
+      ]
+    },
+    {
+      "id": "set-one-control",
+      "title": "Change one setting and verify it",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Go to Settings, Camera, Preserve Settings. Pick one available control rather than switching everything on."
+          },
+          {
+            "text": "Open Camera and make the choice you want remembered. For a Live Photo preference, set Live Photo itself on or off in Camera after enabling preservation."
+          },
+          {
+            "text": "Leave Camera and reopen it. Check the indicator or mode before taking another picture. Record what was retained on your own phone."
+          },
+          {
+            "text": "If the result is useful, configure the next control. If it causes surprises, turn off preservation for that control and check Camera’s behavior again."
+          }
+        ]
+      }
+    },
+    {
+      "id": "choose-purpose",
+      "title": "Choose according to the photographs you take",
+      "paragraphs": [
+        "This table is an editorial decision aid, not a universal recommended configuration. It intentionally avoids prescribing every switch."
+      ],
+      "table": {
+        "headers": [
+          "Situation",
+          "Decision to make"
+        ],
+        "rows": [
+          [
+            "You repeatedly return to the same capture mode",
+            "Consider preserving Camera Mode; check it before an unrelated shot."
+          ],
+          [
+            "You have a deliberate Live Photo preference",
+            "Preserve that preference, then choose its state in Camera."
+          ],
+          [
+            "You often brighten or darken a specific scene",
+            "Decide whether retaining exposure adjustment will help the next scene or confuse it."
+          ],
+          [
+            "You occasionally disable Night mode",
+            "Choose whether that last decision should carry forward on a supported phone."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "exposure-surprise",
+      "title": "Do not confuse exposure memory with focus lock",
+      "paragraphs": [
+        "Apple’s camera-tools guide separates exposure adjustment from tapping a subject to focus. Its exposure control can be preserved through the Exposure Adjustment setting. That is not a promise that the same person or object remains in focus after you reopen Camera.",
+        "Imagine darkening a bright window scene, then opening Camera later in a dim room. Before blaming the new room or an editing app, inspect the exposure control you chose to preserve. Compare a frame with that adjustment and one with it reset. Keep the version that preserves the details you need; do not reuse the same correction merely for consistency.",
+        "Our related AE/AF Lock guide explains focus and exposure during a shot. Use that capture control for the current scene, and use Preserve Settings to decide what should persist between sessions."
+      ]
+    },
+    {
+      "id": "missing-controls",
+      "title": "When an option is missing or behavior differs",
+      "paragraphs": [
+        "Apple marks several preservation features as model-dependent. Check the guide for your iOS version and the controls actually present on the phone. A missing option does not by itself establish a fault.",
+        "Keep troubleshooting narrow: note the model, iOS version, control name, desired state and state after reopening. Test in Apple’s Camera app. A camera inside another app may have its own controls, so do not use that result as proof that the system Camera ignored your preference.",
+        "Before an important session, take a quick ordinary photograph and inspect it. Verify mode, framing and the controls you intentionally kept. This small preflight is more useful than a long list of “best settings” that does not match your work."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I turn every Preserve Settings option on?",
+      "answer": "There is no single best setup. Keep the choices you regularly want, and leave yourself a predictable starting point for everything else."
+    },
+    {
+      "question": "Will these switches change old photos?",
+      "answer": "These are camera capture preferences. To change an existing photograph, use an editing workflow and keep its original available."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: save camera settings on iPhone",
+      "url": "https://support.apple.com/guide/iphone/save-camera-settings-iph62000de98/26/ios/26",
+      "note": "Preservation controls and supported-model limits; checked October 26, 2026."
+    },
+    {
+      "title": "Apple: use camera tools to set up a shot",
+      "url": "https://support.apple.com/guide/iphone/set-up-your-shot-iph3dc593597/26/ios/26",
+      "note": "Focus, exposure adjustment and its separate preservation setting. The scenario and verification routine are editorial guidance."
+    }
+  ],
+  "related": [
+    "iphone-ae-af-lock",
+    "iphone-photographic-styles-vs-filters",
+    "why-night-phone-photos-are-blurry"
+  ],
+  "image": "blog/pexels-13929353-4k.webp",
+  "imageAlt": "Woman adjusting a phone mounted on a ring-light tripod",
+  "imagePosition": "55% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-13929353-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-13929353-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-13929353-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-13929353-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Mizuno K",
+    "url": "https://www.pexels.com/photo/woman-fixing-a-smart-phone-on-a-tripod-13929353/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
   "slug": "google-photos-free-up-space-vs-delete",
   "title": "Google Photos: Free up space vs Delete, explained",
   "description": "Clear phone storage without confusing local removal with deleting your Google Photos library. Check backup status and the extra iCloud risk on iPhone.",
