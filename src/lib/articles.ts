@@ -30,6 +30,613 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "find-photos-on-iphone-search",
+  "title": "How to find photos on iPhone with search and captions",
+  "description": "Find an iPhone photo by date, place, visible text or caption. Use a simple search sequence and check the library view before assuming a photo is missing.",
+  "summary": "Use one clue at a time to find an old photo, then give important images a caption you will remember.",
+  "quickAnswer": "Open Search in Photos and start with a date, place, subject or caption. Try the clue you remember most clearly, then narrow the results. If nothing appears, search the full library and check the stored date before concluding the picture is gone. Apple Intelligence descriptions are optional and require supported settings and hardware.",
+  "sections": [
+    {
+      "id": "choose-one-clue",
+      "title": "Start with the clue you actually remember",
+      "paragraphs": [
+        "Apple documents several search inputs in Photos, including months or years, locations, categories, people, text and captions. Open Photos, tap Search, and enter one useful clue. The position of controls can differ between iOS versions.",
+        "A common mistake is combining several uncertain memories into one very specific query. You may remember the beach correctly but the year incorrectly. Start with the reliable part, examine the results, and only then add detail."
+      ],
+      "table": {
+        "headers": [
+          "What you remember",
+          "First search to try",
+          "If it misses"
+        ],
+        "rows": [
+          [
+            "A trip in summer 2024",
+            "2024",
+            "Try the location without the year."
+          ],
+          [
+            "A picture of a café menu",
+            "A distinctive word on the menu",
+            "Try the café name or browse the trip dates."
+          ],
+          [
+            "A portrait you labelled for printing",
+            "The caption you entered",
+            "Try a shorter, distinctive part of that caption."
+          ],
+          [
+            "A beach video among many photos",
+            "Beach, then include Video",
+            "Remove the subject term and browse videos."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "search-method",
+      "title": "Use a short search sequence",
+      "paragraphs": [
+        "Apple’s guide also describes adding a media type such as Video or Portrait. The examples below are a search strategy, not a guarantee that Photos recognizes every scene or word."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Start broadly.",
+            "text": "Open Photos’ main Search control. If you use a Shared Library, confirm that the library view includes the collection you expect."
+          },
+          {
+            "title": "Review the first matches.",
+            "text": "Open likely pictures instead of judging only tiny thumbnails. Nearby frames can look almost identical."
+          },
+          {
+            "title": "Change one clue.",
+            "text": "If a year produces nothing useful, try a place or subject separately. This tells you which remembered detail may be wrong."
+          },
+          {
+            "title": "Check the candidate.",
+            "text": "Compare the person, background and framing with what you need. Finding a similar scene is not the same as finding the original image. For example, check whether your chosen frame is the smiling portrait or the adjacent blink."
+          }
+        ]
+      }
+    },
+    {
+      "id": "use-captions",
+      "title": "Add captions that make sense to your future self",
+      "paragraphs": [
+        "Apple’s photo-information guide explains that a caption helps you find an item in Search. Open the image, swipe up or tap Info, and use the caption field. This describes the library item; it is different from drawing text over the image.",
+        "For example, “Kitchen wall portrait — final color edit” is a more useful retrieval clue than “nice.” Choose wording that explains the purpose without filling every photo with the same generic keywords. This is an organization example, not a ranking technique.",
+        "For a small project, use a consistent project phrase plus a specific detail: “Autumn album — cover candidate” and “Autumn album — family group.” An album is useful for browsing the whole set; a caption helps you locate a particular item later."
+      ]
+    },
+    {
+      "id": "empty-results",
+      "title": "When search does not find the picture",
+      "paragraphs": [
+        "If the first search fails, return to Photos’ main Search control and try one simpler clue. An empty search result is not enough to establish that the file is missing.",
+        "Open a nearby known photo and inspect its recorded date in Info. A scanned print may be dated when it was scanned rather than when the scene happened. Try that date or browse the relevant import instead of repeatedly entering the historical year.",
+        "If you can see the photo while browsing but cannot retrieve it with a subject phrase, use another clue or add a caption. Recognition is not a complete inventory of everything in an image. If you cannot find it by browsing either, use the separate missing-photo guide below."
+      ]
+    },
+    {
+      "id": "intelligence",
+      "title": "Keep standard search separate from Apple Intelligence",
+      "paragraphs": [
+        "Apple also offers descriptive photo searches through Apple Intelligence when it is enabled and available. Support depends on the device, language, region and software. A missing advanced search feature does not mean every basic search option is unavailable.",
+        "For an important picture, keep a simple retrieval route you can repeat: an understandable caption, a sensible album and a known date range. Do not rely on one elaborate sentence being interpreted identically every time."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does a caption put words on top of my photo?",
+      "answer": "No. The caption field describes the library item. To create visible text within the image, use a separate markup or editing workflow."
+    },
+    {
+      "question": "Does an empty search mean the photo was deleted?",
+      "answer": "No. Your query, search scope or stored date may not match. Browse the library and check the item’s information before investigating deletion or sync problems."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: search for photos and videos",
+      "url": "https://support.apple.com/guide/iphone/search-for-photos-and-videos-iph392d77d5f/ios",
+      "note": "Supported search inputs, media-type narrowing and optional Apple Intelligence search. Checked October 26, 2026."
+    },
+    {
+      "title": "Apple: see photo and video information",
+      "url": "https://support.apple.com/en-ie/guide/iphone/iph0edb9c18f/ios",
+      "note": "Caption field and stored date information. Checked October 26, 2026."
+    }
+  ],
+  "related": [
+    "iphone-photo-albums-vs-folders",
+    "change-photo-date-time-iphone",
+    "recover-deleted-iphone-photos"
+  ],
+  "published": "2026-10-26",
+  "modified": "2026-10-26",
+  "image": "blog/pexels-7129664-4k.webp",
+  "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7129664-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7129664-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7129664-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7129664-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Michael Burrows",
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+  }
+},
+{
+  "slug": "print-photos-iphone-airprint",
+  "title": "How to print photos from iPhone with AirPrint",
+  "description": "Print an iPhone photo with AirPrint, check the crop and paper settings, and troubleshoot a missing printer without sending duplicate print jobs.",
+  "summary": "A successful photo print needs a reachable printer, the right image and a checked preview before you send the job.",
+  "quickAnswer": "In Photos, open the picture, tap Share, then Print. Select an AirPrint-compatible printer on the same Wi-Fi network, check the available options and preview, and print one copy first. If the printer is missing, check its network connection and AirPrint support; Bluetooth pairing alone is not the AirPrint workflow.",
+  "sections": [
+    {
+      "id": "prepare",
+      "title": "Check the printer and the image first",
+      "paragraphs": [
+        "Apple’s AirPrint instructions require a supported printer and the iPhone on the same Wi-Fi network. Confirm compatibility for the exact printer model with its manufacturer. A printer being wireless does not by itself establish AirPrint support.",
+        "Choose the finished image you want on paper. If several similar versions are in Photos, compare them before starting: the uncropped original, your finished edit and a saved preview may look alike at thumbnail size. Printing the wrong version successfully still wastes paper.",
+        "Load paper using the printer’s own guidance, including the printable side and supported tray. Do not guess how a glossy sheet should face from another printer’s layout."
+      ]
+    },
+    {
+      "id": "send-first-print",
+      "title": "Send one proof print",
+      "paragraphs": [
+        "Apple’s Photos guide supports printing one photo or selecting several. Start with one while you establish that the output looks right."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Open the chosen photo.",
+            "text": "In Photos, tap Share and find Print in the action list. Scroll down if needed."
+          },
+          {
+            "title": "Choose the destination.",
+            "text": "Tap the printer selector and choose your intended AirPrint printer. Check the name carefully if several devices appear."
+          },
+          {
+            "title": "Inspect available options.",
+            "text": "Confirm copies, orientation and any paper or layout options exposed by your printer. Available controls vary; do not assume every model offers borderless or exact-size settings here."
+          },
+          {
+            "title": "Inspect the preview.",
+            "text": "Look for cropped heads, hands or text near the edge. Resolve a bad crop before sending the job."
+          },
+          {
+            "title": "Print and evaluate.",
+            "text": "Send one copy. Compare the physical output with your intended framing before printing the rest of the set."
+          }
+        ]
+      }
+    },
+    {
+      "id": "crop-paper",
+      "title": "Separate paper size from photo shape",
+      "paragraphs": [
+        "A photo and a sheet can have different proportions. Filling a sheet may crop the image; fitting the whole image may leave borders. Neither is automatically an error. Decide whether keeping the complete composition or filling the paper matters more.",
+        "For example, a square portrait cannot fill a rectangular sheet edge to edge without a crop, a border or a distortion. If the preview cuts off hair, change the layout where supported or prepare a suitable crop in advance. Avoid stretching the subject simply to fill a rectangle.",
+        "For an exact physical print size, verify the output rather than assuming the displayed preview is a ruler. If the available AirPrint options cannot express the required layout, use the manufacturer’s documented photo-printing workflow or a lab that accepts that size. Pixel requirements are covered in the print-size guide below."
+      ]
+    },
+    {
+      "id": "printer-missing",
+      "title": "If the printer does not appear",
+      "paragraphs": [
+        "First confirm that the printer is powered on and connected to the same network as the phone. Check its own display or network-status information instead of relying on an old setup label. Follow the manufacturer’s connection instructions for that model.",
+        "Apple states that AirPrint uses Wi-Fi or wired network connections. A USB attachment to a computer or a Bluetooth connection is not a substitute for the documented network setup. Repeatedly selecting Print will not make an unsupported connection become compatible.",
+        "If ordinary network checks do not resolve discovery, consult the printer’s AirPrint troubleshooting documentation or the network administrator. Avoid changing unfamiliar router security settings just to experiment."
+      ]
+    },
+    {
+      "id": "queue",
+      "title": "Check the queue before retrying",
+      "paragraphs": [
+        "Apple’s iPhone guide describes Print Center in the App Switcher for monitoring a job. Select the relevant job there if you need to cancel printing. Look at both the queue and the printer before submitting another copy.",
+        "A useful check after a failed attempt is: did the phone submit the job, is the printer asking for paper or ink, and did any page actually emerge? Resolve that stage first. Sending the same photograph several times can leave multiple jobs waiting after the underlying problem is fixed."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I print several photos at once?",
+      "answer": "Yes. Apple documents selecting multiple images in Photos and using Share > Print. Check one proof first if the printer or paper is unfamiliar."
+    },
+    {
+      "question": "Why is the edge of my photo missing?",
+      "answer": "The print layout may fill paper with a different shape from the image. Inspect the crop and border options your printer exposes, or prepare the framing before printing."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: print with AirPrint",
+      "url": "https://support.apple.com/en-us/109349",
+      "note": "Network requirements, printer selection and the print action. Checked October 26, 2026."
+    },
+    {
+      "title": "Apple: print photos on iPhone",
+      "url": "https://support.apple.com/en-euro/guide/iphone/iph1ac0b04b/ios",
+      "note": "Single and multiple photo selection. Checked October 26, 2026."
+    },
+    {
+      "title": "Apple: print from iPhone",
+      "url": "https://support.apple.com/guide/iphone/printers-iph92628b8f/ios",
+      "note": "Print Center and cancellation. Checked October 26, 2026."
+    }
+  ],
+  "related": [
+    "photo-print-size-pixels-ppi",
+    "how-to-crop-portrait-photos",
+    "why-photos-look-different-on-screens"
+  ],
+  "published": "2026-10-26",
+  "modified": "2026-10-26",
+  "image": "blog/pexels-4992637-4k.webp",
+  "imageAlt": "Film cameras, lenses, and film rolls on a wooden table",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-4992637-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-4992637-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-4992637-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-4992637-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Rachel Claire",
+    "url": "https://www.pexels.com/photo/vintage-camera-near-lens-and-camera-roll-on-table-4992637/"
+  }
+},
+{
+  "slug": "export-iphone-photos-usb-drive",
+  "title": "How to export iPhone photos to a USB drive",
+  "description": "Export original iPhone photos to external storage, check adapters and power, and verify the saved files before treating the drive as a usable copy.",
+  "summary": "Check that the drive appears in Files, export a small sample, and verify the destination before copying a large collection.",
+  "quickAnswer": "Connect compatible external storage and confirm it appears in Files under Browse > Locations. In Photos, select the pictures, tap Share and Export Unmodified Originals, then choose the external drive and Save. This preserves the unedited source version. Keep the library intact until you have opened and checked the exported files.",
+  "sections": [
+    {
+      "id": "drive-visible",
+      "title": "Make the drive visible before exporting",
+      "paragraphs": [
+        "Apple supports accessing USB drives and SD cards through Files with a compatible connection or adapter. Open Files, tap Browse, and look under Locations for the device. Tap Browse again if you are not yet at that level.",
+        "Check the port on your phone and the connector on the storage device before choosing an adapter. Physical fit is only one requirement. Apple notes that external hard drives often need their own power; a supported powered hub or powered camera adapter may be needed for the connection.",
+        "Do not start a large photo selection until the destination is readable. Opening a harmless existing file on the drive is a useful first check, although reading one file does not prove there is room to write the entire export."
+      ]
+    },
+    {
+      "id": "choose-version",
+      "title": "Choose the source or the finished edit deliberately",
+      "paragraphs": [
+        "Apple’s export guide states that Export Unmodified Original sends the original version of an edited photo. That means a deliberate crop or color edit may be absent from this export. This is expected when preserving the source.",
+        "If you need both versions, keep the original export and a separately verified finished-image export in clearly named folders. Do not infer which is which from a thumbnail alone: open the file and check a visible editing difference such as the crop.",
+        "A folder of original files should not be assumed to reproduce every album, favorite, or editing decision in the Photos interface. Decide whether your goal is preserving source images, delivering finished pictures, or migrating a whole library; those tasks need different verification."
+      ]
+    },
+    {
+      "id": "export-sample",
+      "title": "Export a small sample first",
+      "paragraphs": [
+        "For an iCloud library, Apple’s download instructions use the same unmodified-original action and warn that Files can initially open to iCloud Drive. Select the physical drive intentionally rather than accepting the first location shown."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Pick a manageable selection.",
+            "text": "Include an ordinary photo and an edited one so you can check that the resulting versions match your plan."
+          },
+          {
+            "title": "Start the export.",
+            "text": "In Photos, use Select, choose the items, then Share > Export Unmodified Originals. The label may be singular for one item."
+          },
+          {
+            "title": "Choose the drive and folder.",
+            "text": "Navigate back to Locations if needed. Confirm the external device name and save into a clearly named folder."
+          },
+          {
+            "title": "Wait for completion.",
+            "text": "Keep the connection stable. If originals need downloading, allow that work to finish before disconnecting storage."
+          },
+          {
+            "title": "Verify through Files.",
+            "text": "Open the destination folder and several files. Check the image content, orientation and dimensions where available. Then continue with larger, clearly separated batches."
+          }
+        ]
+      }
+    },
+    {
+      "id": "troubleshoot-drive",
+      "title": "Diagnose the failure at the right stage",
+      "paragraphs": [
+        "Apple lists supported disk formats including APFS, HFS+, exFAT and FAT variants, and requires a single data partition. Compare the drive’s actual configuration with the current Apple guide. Do not erase or reformat a populated drive as a first troubleshooting step."
+      ],
+      "table": {
+        "headers": [
+          "What happens",
+          "Check next"
+        ],
+        "rows": [
+          [
+            "The drive never appears in Locations",
+            "Connector compatibility, external power and supported drive configuration."
+          ],
+          [
+            "The drive opens but saving fails",
+            "Available destination space, write access and whether a small sample can be saved."
+          ],
+          [
+            "Files appear but the edit is missing",
+            "Whether you selected the unmodified-original export."
+          ],
+          [
+            "A sample opens but the full batch is incomplete",
+            "Which batches finished, whether originals were available and whether the connection was interrupted."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "verify-copy",
+      "title": "Verify the copy without deleting your library",
+      "paragraphs": [
+        "Create a simple transfer note with the date, selected batch and destination folder. If an interruption occurs, this gives you a starting point for checking what completed rather than guessing from the folder name.",
+        "For files that matter, open samples on the device where you expect to use the drive later. A visible filename alone is not a successful recovery test. If a format does not open there, preserve the source and investigate compatible viewing or a separate converted copy.",
+        "A drive export does not automatically free phone space or create a continuing backup schedule. Keep the separate iCloud sync-versus-backup guide in mind before any cleanup. There is no need to delete the source to prove that the exported copy works."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does Export Unmodified Originals include my crop and filters?",
+      "answer": "It exports the original version. Preserve a separately checked finished-image export if you also need the appearance of your edit."
+    },
+    {
+      "question": "Can I unplug the drive as soon as its folder appears?",
+      "answer": "Wait for the export to finish and check the saved files first. The presence of a folder does not establish that every selected item was written."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: connect external storage to iPhone",
+      "url": "https://support.apple.com/guide/iphone/external-storage-devices-iph95baac91f/ios",
+      "note": "Adapters, Files access, disk configuration and power. Checked October 26, 2026."
+    },
+    {
+      "title": "Apple: import and export photos",
+      "url": "https://support.apple.com/guide/iphone/import-and-export-photos-and-videos-iph480caa1f3/27/ios/27",
+      "note": "External export action and original-versus-edited distinction. Checked October 26, 2026."
+    },
+    {
+      "title": "Apple: download iCloud photos",
+      "url": "https://support.apple.com/en-us/111762",
+      "note": "Original downloads and explicit Files destination selection. Checked October 26, 2026."
+    }
+  ],
+  "related": [
+    "icloud-photos-sync-vs-backup",
+    "edit-photos-without-losing-original",
+    "jpeg-heic-png-photo-formats"
+  ],
+  "published": "2026-10-26",
+  "modified": "2026-10-26",
+  "image": "blog/pexels-34225009-4k.webp",
+  "imageAlt": "Photographer holding a memory card beside a card reader and laptop",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "60% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-34225009-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-34225009-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-34225009-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-34225009-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Julio Lopez",
+    "url": "https://www.pexels.com/photo/photographer-inserting-sd-card-into-laptop-for-editing-34225009/"
+  }
+},
+{
+  "slug": "icloud-shared-library-vs-shared-albums",
+  "title": "iCloud Shared Photo Library vs Shared Albums: which fits your photos?",
+  "description": "Compare iCloud Shared Photo Library and Shared Albums by collaboration, storage and control. Choose a sharing method before moving personal photos.",
+  "summary": "Choose based on who should manage the collection, not just who should be able to see a picture.",
+  "quickAnswer": "Use iCloud Shared Photo Library when a small group should jointly manage photos, including edits and deletions. Use Shared Albums for a selected collection with album-specific contribution settings. Shared Library content uses the organizer’s iCloud storage; Shared Albums do not count toward that quota. Review what you share before enabling automatic camera contributions.",
+  "sections": [
+    {
+      "id": "different-jobs",
+      "title": "The main difference is shared control",
+      "paragraphs": [
+        "Apple describes Shared Photo Library as a collaborative library for you and up to five other people. Shared Albums are a separate way to show chosen collections and control whether subscribers can contribute. Similar names do not mean identical permissions.",
+        "For example, two people jointly organizing family photographs may want a common working collection. Someone showing a short holiday selection to relatives may only need a shared album. Decide who should change the collection before deciding which invitation to send."
+      ],
+      "table": {
+        "headers": [
+          "Decision",
+          "Shared Photo Library",
+          "Shared Albums"
+        ],
+        "rows": [
+          [
+            "Working together",
+            "Participants can add, edit and delete library content.",
+            "The owner chooses whether subscribers can add items; comments and likes are available."
+          ],
+          [
+            "Storage responsibility",
+            "Content counts toward the organizer’s iCloud storage.",
+            "Does not count toward iCloud storage quota."
+          ],
+          [
+            "Suitable starting question",
+            "Do we want joint management?",
+            "Do I want to show this selected collection?"
+          ],
+          [
+            "What to check before sharing",
+            "Participants, contributed items and automatic sharing.",
+            "Audience, contribution settings and any public-link setting."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "moving-photos",
+      "title": "Understand what happens to contributed photos",
+      "paragraphs": [
+        "Apple states that items contributed to a Shared Library move out of the Personal Library into the shared collection. They can therefore seem absent if you are looking only at the personal view. Check the library view before treating that change as data loss.",
+        "Apple also documents that everyone in the Shared Library can edit or delete content. Do not use it as if each participant had view-only access. Agree how the group will handle rejected shots, alternative edits and important originals before adding a large collection.",
+        "An independent copy remains useful when a picture matters. Shared access and a separate recovery copy solve different problems; a collaborative collection should not be your only plan for protecting a one-off image."
+      ]
+    },
+    {
+      "id": "choose-deliberately",
+      "title": "Choose with a small collection first",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Name the job.",
+            "text": "Write a simple sentence: “We both organize the family collection,” or “I want relatives to view these selected photos.” This makes the permission choice easier."
+          },
+          {
+            "title": "Review the audience.",
+            "text": "Confirm exactly who will receive access. If using a public shared-album link, consider where that link could be forwarded."
+          },
+          {
+            "title": "Preview the contents.",
+            "text": "Begin with a small, harmless selection. Check backgrounds and nearby frames for material you did not mean to include."
+          },
+          {
+            "title": "Check the other person’s view.",
+            "text": "Ask a participant to confirm which items appear and what actions are available. Use disposable sample images to learn the workflow."
+          },
+          {
+            "title": "Add more only when understood.",
+            "text": "Keep a note of your chosen sharing settings and agree on how changes will be handled."
+          }
+        ]
+      }
+    },
+    {
+      "id": "automatic-sharing",
+      "title": "Check camera sharing before your next shoot",
+      "paragraphs": [
+        "Apple offers manual and automatic contributions from Camera for Shared Library. Review Sharing from Camera rather than assuming every new shot will stay personal. The Camera sharing control determines whether a shot goes directly to the shared collection.",
+        "For a mixed day of family photos, work images and private reference pictures, deliberate manual choices may be easier to understand. That is a workflow suggestion, not a claim that one setting is right for every household.",
+        "After setup, take a harmless test image and check its destination. A short rehearsal is more useful than discovering an unexpected sharing choice after taking sensitive photos."
+      ]
+    },
+    {
+      "id": "quality-and-limits",
+      "title": "Keep quality and recovery checks separate",
+      "paragraphs": [
+        "Choosing a sharing system does not answer whether a recipient has the right file for a large print or further editing. Check the saved file and the current Shared Albums version rules in the separate quality guide below. Do not use a small on-screen preview as proof of original-file delivery.",
+        "If Shared Library additions stop, check the organizer’s storage status: Apple identifies a full organizer quota as a cause of stopped additions and synchronization changes. Avoid deleting content at random to diagnose the problem.",
+        "Leaving or deleting a Shared Library has its own copy-retention rules. Read the current Apple instructions and verify the copies you need before taking either action. Removing someone’s access should not be treated as a substitute for preserving your own files."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is a Shared Library just another shared album?",
+      "answer": "No. It gives participants joint management of a separate photo library. A shared album has its own audience and contribution settings."
+    },
+    {
+      "question": "Who pays the iCloud storage cost for Shared Library content?",
+      "answer": "Apple counts the content against the library organizer’s storage. Shared Albums use a different quota model and do not count toward that iCloud storage quota."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: iCloud photo-sharing options",
+      "url": "https://support.apple.com/guide/icloud/what-you-can-do-with-icloud-and-photos-mm8b32f3ae27/1.0/icloud/1.0",
+      "note": "Compares collaboration, public albums and storage responsibility. Checked October 26, 2026."
+    },
+    {
+      "title": "Apple: use iCloud Shared Photo Library",
+      "url": "https://support.apple.com/en-us/118229",
+      "note": "Movement from Personal Library, participant permissions, camera sharing and storage limits. Checked October 26, 2026."
+    }
+  ],
+  "related": [
+    "icloud-shared-albums-photo-quality",
+    "icloud-photos-sync-vs-backup",
+    "airdrop-photos-original-data"
+  ],
+  "published": "2026-10-26",
+  "modified": "2026-10-26",
+  "image": "blog/pexels-30861211-4k.webp",
+  "imageAlt": "Camera beside a laptop displaying photographs for review",
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-30861211-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-30861211-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-30861211-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-30861211-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Ebahir",
+    "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/"
+  }
+},
+{
   "slug": "download-google-photos-with-takeout",
   "title": "How to download Google Photos with Takeout and check the archive",
   "description": "Export your Google Photos library, keep its metadata, and check downloaded files before relying on the archive or removing cloud copies.",

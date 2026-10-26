@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://support.apple.com/en-euro/guide/iphone/iph1ac0b04b/ios",
+    "status": 200,
+    "final": "https://support.apple.com/en-euro/guide/iphone/iph1ac0b04b/ios"
+  },
+  {
+    "url": "https://support.apple.com/en-ie/guide/iphone/iph0edb9c18f/ios",
+    "status": 200,
+    "final": "https://support.apple.com/en-ie/guide/iphone/iph0edb9c18f/ios"
+  },
+  {
+    "url": "https://support.apple.com/en-us/109349",
+    "status": 200,
+    "final": "https://support.apple.com/en-us/109349"
+  },
+  {
+    "url": "https://support.apple.com/en-us/111762",
+    "status": 200,
+    "final": "https://support.apple.com/en-us/111762"
+  },
+  {
+    "url": "https://support.apple.com/en-us/118229",
+    "status": 200,
+    "final": "https://support.apple.com/en-us/118229"
+  },
+  {
+    "url": "https://support.apple.com/guide/icloud/what-you-can-do-with-icloud-and-photos-mm8b32f3ae27/1.0/icloud/1.0",
+    "status": 200,
+    "final": "https://support.apple.com/guide/icloud/what-you-can-do-with-icloud-and-photos-mm8b32f3ae27/1.0/icloud/1.0"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/external-storage-devices-iph95baac91f/ios",
+    "status": 200,
+    "final": "https://support.apple.com/guide/iphone/external-storage-devices-iph95baac91f/ios"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/import-and-export-photos-and-videos-iph480caa1f3/27/ios/27",
+    "status": 200,
+    "final": "https://support.apple.com/guide/iphone/import-and-export-photos-and-videos-iph480caa1f3/27/ios/27"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/printers-iph92628b8f/ios",
+    "status": 200,
+    "final": "https://support.apple.com/guide/iphone/printers-iph92628b8f/ios"
+  },
+  {
+    "url": "https://support.apple.com/guide/iphone/search-for-photos-and-videos-iph392d77d5f/ios",
+    "status": 200,
+    "final": "https://support.apple.com/guide/iphone/search-for-photos-and-videos-iph392d77d5f/ios"
+  }
+]

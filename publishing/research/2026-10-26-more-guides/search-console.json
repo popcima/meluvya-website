@@ -1,0 +1,70 @@
+{
+  "provider": "Google Search Console authenticated browser UI",
+  "property": "sc-domain:meluvya.com",
+  "report": "Performance / Web",
+  "retrieved": "2026-10-26",
+  "geography": "All countries; no country filter",
+  "selectedPeriod": "28 days",
+  "displayedChartCoverage": "2026-10-19 through 2026-10-24",
+  "lastUpdateLabel": "4.5 hours ago",
+  "metrics": {
+    "clicks": 3,
+    "impressions": 609,
+    "ctrPercent": 0.5,
+    "averagePosition": 16.7
+  },
+  "visibleQueryTableRows": 91,
+  "querySample": [
+    {
+      "query": "retro effect",
+      "clicks": 0,
+      "impressions": 6
+    },
+    {
+      "query": "how to edit photo without losing original",
+      "clicks": 0,
+      "impressions": 4
+    },
+    {
+      "query": "iphone selfie flip settings",
+      "clicks": 0,
+      "impressions": 4
+    },
+    {
+      "query": "photo backup quality",
+      "clicks": 0,
+      "impressions": 4
+    },
+    {
+      "query": "key photo iphone",
+      "clicks": 0,
+      "impressions": 3
+    },
+    {
+      "query": "iphone selfie flip",
+      "clicks": 0,
+      "impressions": 3
+    },
+    {
+      "query": "how to scan photos",
+      "clicks": 0,
+      "impressions": 3
+    },
+    {
+      "query": "how to scan a photo",
+      "clicks": 0,
+      "impressions": 3
+    },
+    {
+      "query": "why do i look better close up than far away",
+      "clicks": 0,
+      "impressions": 2
+    },
+    {
+      "query": "why iphone selfie flip",
+      "clicks": 0,
+      "impressions": 2
+    }
+  ],
+  "interpretation": "Early property data. Every sampled query already has relevant coverage; no new URL created for those variants. Totals need not equal query rows. These metrics are not monthly search volumes and do not establish competition. New batch topics are editorially selected adjacent workflows."
+}

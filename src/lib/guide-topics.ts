@@ -35,6 +35,11 @@ const topics = [
   "title": "Sharing, printing and preserving photos",
   "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
   "slugs": [
+    "find-photos-on-iphone-search",
+    "print-photos-iphone-airprint",
+    "export-iphone-photos-usb-drive",
+    "icloud-shared-library-vs-shared-albums",
+
     "download-google-photos-with-takeout",
     "combine-photos-into-pdf-iphone",
     "google-photos-free-up-space-vs-delete",

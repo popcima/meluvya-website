@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "781ea38b63081cea08910f513fa8c2d245e786bc",
+  "baseline": {
+    "articles": 105,
+    "publishedToday": 3,
+    "lastDeployment": "success"
+  },
+  "newArticles": 4,
+  "dailyTotalAfterBatch": 7,
+  "research": {
+    "provider": "Free web research, official Apple documentation and authenticated Search Console UI",
+    "retrieved": "2026-10-26",
+    "audienceGeography": "Worldwide English",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "reason": "GSC identifies existing-page impressions, not global keyword volume. New topics are distinct adjacent intent hypotheses, not measured high-volume or low-competition keywords."
+  },
+  "articles": [
+    {
+      "slug": "find-photos-on-iphone-search",
+      "query": "find photos on iphone",
+      "intent": "Retrieve a known photo through search and maintain useful captions.",
+      "overlapDecision": "Albums/folders concerns organization, Live Text concerns copying text, recovery concerns missing items. This guide teaches retrieval through search.",
+      "topic": "photo-workflows",
+      "sources": [
+        {
+          "title": "Apple: search for photos and videos",
+          "url": "https://support.apple.com/guide/iphone/search-for-photos-and-videos-iph392d77d5f/ios",
+          "note": "Supported search inputs, media-type narrowing and optional Apple Intelligence search. Checked October 26, 2026."
+        },
+        {
+          "title": "Apple: see photo and video information",
+          "url": "https://support.apple.com/en-ie/guide/iphone/iph0edb9c18f/ios",
+          "note": "Caption field and stored date information. Checked October 26, 2026."
+        }
+      ],
+      "originalContribution": "Decision examples and verification/troubleshooting routines; no claimed hands-on device testing."
+    },
+    {
+      "slug": "print-photos-iphone-airprint",
+      "query": "print photos from iphone",
+      "intent": "Send and troubleshoot a physical photo print through AirPrint.",
+      "overlapDecision": "Print-size guide calculates dimensions; this guide handles printer discovery, print submission and queue problems.",
+      "topic": "photo-workflows",
+      "sources": [
+        {
+          "title": "Apple: print with AirPrint",
+          "url": "https://support.apple.com/en-us/109349",
+          "note": "Network requirements, printer selection and the print action. Checked October 26, 2026."
+        },
+        {
+          "title": "Apple: print photos on iPhone",
+          "url": "https://support.apple.com/en-euro/guide/iphone/iph1ac0b04b/ios",
+          "note": "Single and multiple photo selection. Checked October 26, 2026."
+        },
+        {
+          "title": "Apple: print from iPhone",
+          "url": "https://support.apple.com/guide/iphone/printers-iph92628b8f/ios",
+          "note": "Print Center and cancellation. Checked October 26, 2026."
+        }
+      ],
+      "originalContribution": "Decision examples and verification/troubleshooting routines; no claimed hands-on device testing."
+    },
+    {
+      "slug": "export-iphone-photos-usb-drive",
+      "query": "export iphone photos to usb drive",
+      "intent": "Connect external storage and verify original-photo exports.",
+      "overlapDecision": "Sync-versus-backup introduces exports; this guide covers drive readiness, adapters, power, file-version verification and failed transfers.",
+      "topic": "photo-workflows",
+      "sources": [
+        {
+          "title": "Apple: connect external storage to iPhone",
+          "url": "https://support.apple.com/guide/iphone/external-storage-devices-iph95baac91f/ios",
+          "note": "Adapters, Files access, disk configuration and power. Checked October 26, 2026."
+        },
+        {
+          "title": "Apple: import and export photos",
+          "url": "https://support.apple.com/guide/iphone/import-and-export-photos-and-videos-iph480caa1f3/27/ios/27",
+          "note": "External export action and original-versus-edited distinction. Checked October 26, 2026."
+        },
+        {
+          "title": "Apple: download iCloud photos",
+          "url": "https://support.apple.com/en-us/111762",
+          "note": "Original downloads and explicit Files destination selection. Checked October 26, 2026."
+        }
+      ],
+      "originalContribution": "Decision examples and verification/troubleshooting routines; no claimed hands-on device testing."
+    },
+    {
+      "slug": "icloud-shared-library-vs-shared-albums",
+      "query": "icloud shared library vs shared albums",
+      "intent": "Choose sharing permissions and storage responsibility for a group.",
+      "overlapDecision": "Shared Albums quality concerns saved file fidelity; this guide compares collaboration, control and storage.",
+      "topic": "photo-workflows",
+      "sources": [
+        {
+          "title": "Apple: iCloud photo-sharing options",
+          "url": "https://support.apple.com/guide/icloud/what-you-can-do-with-icloud-and-photos-mm8b32f3ae27/1.0/icloud/1.0",
+          "note": "Compares collaboration, public albums and storage responsibility. Checked October 26, 2026."
+        },
+        {
+          "title": "Apple: use iCloud Shared Photo Library",
+          "url": "https://support.apple.com/en-us/118229",
+          "note": "Movement from Personal Library, participant permissions, camera sharing and storage limits. Checked October 26, 2026."
+        }
+      ],
+      "originalContribution": "Decision examples and verification/troubleshooting routines; no claimed hands-on device testing."
+    }
+  ],
+  "validation": {
+    "status": "prepublication_checks_passed",
+    "contentCheck": {
+      "articles": 109,
+      "today": 7,
+      "remaining": 23,
+      "baseline": "781ea38b63081cea08910f513fa8c2d245e786bc"
+    },
+    "lint": "pass",
+    "productionBuild": "pass; SITE_URL=https://meluvya.com NEXT_PUBLIC_BASE_PATH= next build --webpack",
+    "typecheck": "pass",
+    "export": {
+      "routes": 122,
+      "linksAndAssets": 6249,
+      "articlePages": 109
+    },
+    "seoFoundations": "pass",
+    "sourceLinks": "10/10 HTTP 200",
+    "browser": {
+      "widths": [
+        390,
+        1280
+      ],
+      "articleViewportChecks": 8,
+      "storeButtonChecks": 16,
+      "consoleErrors": 0,
+      "focusRestoration": "pass",
+      "overflow": "none",
+      "images": "loaded"
+    },
+    "pagination": {
+      "pages": 10,
+      "uniqueArticles": 109,
+      "lastPageArticles": 1
+    },
+    "sitemapURLs": 122,
+    "visualReview": "Mobile search article and desktop library-comparison screenshot inspected; readable layout, no clipping.",
+    "evidenceDirectory": "/Users/hassanamehry/Documents/Codex/2026-10-18/u/work/blog-more-20261026",
+    "deployment": "pending commit and GitHub Actions",
+    "editorialPrecisionRevision": "Clarified search-control wording and corrected the related-guide reference. Rebuilt and reran checks against final content.",
+    "customDomain": {
+      "cname": "meluvya.com",
+      "httpsEnforced": true
+    },
+    "editorialReview": {
+      "status": "pass",
+      "minimumScore": 93,
+      "P0": 0,
+      "nonce": "9eea230e120d1b71d2cda9da798947d9",
+      "report": "editorial-review.md",
+      "meaning": "AI editorial rubric, not a search ranking metric"
+    }
+  }
+}

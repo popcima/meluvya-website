@@ -1652,6 +1652,66 @@
       "metricsGeography": null,
       "metricsPeriod": null,
       "researchRecord": "2026-10-26-three-guides/batch.json"
+    },
+    {
+      "id": "find-photos-on-iphone-search",
+      "primaryKeyword": "find photos on iphone",
+      "relatedKeywords": [],
+      "intent": "Retrieve a known photo through search and maintain useful captions.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "find-photos-on-iphone-search",
+      "validation": "Distinct-intent review and official-source check; see October 26 additional batch record.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-26-more-guides/batch.json"
+    },
+    {
+      "id": "print-photos-iphone-airprint",
+      "primaryKeyword": "print photos from iphone",
+      "relatedKeywords": [],
+      "intent": "Send and troubleshoot a physical photo print through AirPrint.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "print-photos-iphone-airprint",
+      "validation": "Distinct-intent review and official-source check; see October 26 additional batch record.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-26-more-guides/batch.json"
+    },
+    {
+      "id": "export-iphone-photos-usb-drive",
+      "primaryKeyword": "export iphone photos to usb drive",
+      "relatedKeywords": [],
+      "intent": "Connect external storage and verify original-photo exports.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "export-iphone-photos-usb-drive",
+      "validation": "Distinct-intent review and official-source check; see October 26 additional batch record.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-26-more-guides/batch.json"
+    },
+    {
+      "id": "icloud-shared-library-vs-shared-albums",
+      "primaryKeyword": "icloud shared library vs shared albums",
+      "relatedKeywords": [],
+      "intent": "Choose sharing permissions and storage responsibility for a group.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "icloud-shared-library-vs-shared-albums",
+      "validation": "Distinct-intent review and official-source check; see October 26 additional batch record.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-26-more-guides/batch.json"
     }
   ]
 }
