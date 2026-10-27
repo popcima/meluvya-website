@@ -30,6 +30,192 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "convert-heic-to-jpg-iphone",
+  "title": "How to convert HEIC to JPG on iPhone with Preview",
+  "description": "Convert an existing HEIC image to JPEG on iPhone using Preview. Keep the source, check the exported file, and distinguish conversion from future Camera settings.",
+  "summary": "Make a compatible copy of an existing photo, then check the actual file you attach or upload.",
+  "published": "2026-10-27",
+  "modified": "2026-10-27",
+  "quickAnswer": "On an iPhone with Preview, open the HEIC file, tap the menu beside its filename, choose Export and select JPEG. Save a separate copy and check that copy before sharing. These controls are documented in Apple’s iOS 26 guide. Changing Camera to Most Compatible affects new captures; it does not convert photos already in your library.",
+  "sections": [
+    {
+      "id": "choose-the-job",
+      "title": "Convert the existing file, or change future captures?",
+      "paragraphs": [
+        "If an upload form rejects a photo you already have, start by converting that file. Changing a Camera preference will not rewrite the image waiting in your folder. Keep the HEIC source until the converted copy has passed the recipient’s requirements.",
+        "JPG and JPEG are names commonly used for the same image format. In Preview, choose the JPEG export option. Do not rename an HEIC file with a .jpg ending and expect its internal format to change."
+      ],
+      "table": {
+        "headers": [
+          "What you need",
+          "What to do"
+        ],
+        "rows": [
+          [
+            "One existing photo accepted by an upload form",
+            "Export a JPEG copy and choose that new file in the uploader."
+          ],
+          [
+            "New Camera photos captured in JPEG",
+            "Review Camera > Formats > Most Compatible."
+          ],
+          [
+            "A smaller file that already is JPEG",
+            "Check the size limit and export compression; converting the format may not be the issue."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "open-source",
+      "title": "Get the intended photo into Preview",
+      "paragraphs": [
+        "For a HEIC file already in Files, open Preview and use Browse to find its folder. Apple’s Preview guide explains that you can browse files directly without first opening the Files app. If a location is not visible, return to Locations and select the folder where you saved the image.",
+        "If your picture is in Photos, open it, use Share > Save to Files and choose a folder you can find again. Apple documents that sharing action in its photo-export instructions. Keep the Photos original; no library deletion is needed for this conversion.",
+        "Open the saved image and inspect it before exporting. Confirm the person, crop and visible edit match the version you intend to send. If you instead exported an unmodified original, do not assume that it includes the appearance of your finished edit. This small check avoids making a perfectly compatible copy of the wrong version."
+      ]
+    },
+    {
+      "id": "export-jpeg",
+      "title": "Export a separate JPEG copy",
+      "paragraphs": [
+        "The following route uses the Preview controls documented for iOS 26. Menu layout may differ on newer software. If your phone does not have Preview, this particular route does not apply; use a supported conversion app or a computer workflow instead."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Open the image in Preview.",
+            "text": "Start with the file you just inspected, rather than a screenshot of the picture or a different thumbnail."
+          },
+          {
+            "title": "Choose Export.",
+            "text": "Tap the actions menu next to the filename and select Export."
+          },
+          {
+            "title": "Select JPEG.",
+            "text": "Use the file-size slider if needed. Treat a smaller setting as a choice to inspect, not a guarantee that every detail will look the same."
+          },
+          {
+            "title": "Save and identify the copy.",
+            "text": "Complete the export prompts and note the destination. Give the copy a recognizable name if a naming option is available, and preserve the source separately."
+          }
+        ]
+      }
+    },
+    {
+      "id": "verify-copy",
+      "title": "Check the exported file, not just its name",
+      "paragraphs": [
+        "Open the JPEG from its saved location. Compare the orientation, crop and important detail with the chosen source. Check file information where available, then select this exported file in the destination app. A familiar thumbnail does not prove you attached the new copy.",
+        "For example, suppose a form asks for a JPEG smaller than 5 MB. Those are two separate conditions: the file must use an accepted format and remain below the size limit. A successful conversion can still produce a file that is too large. This is an illustrative requirement, not a universal upload rule.",
+        "If the first JPEG is too large, keep it while making a second export from the source with a different size setting. Compare the results at the intended display size. Repeatedly compressing the latest compressed copy makes it harder to keep track of which version you are evaluating."
+      ]
+    },
+    {
+      "id": "future-captures",
+      "title": "Use Most Compatible for future Camera photos",
+      "paragraphs": [
+        "Apple documents Settings > Camera > Formats > Most Compatible on devices that support high-efficiency capture. This changes new captures to the older compatible formats, including JPEG for photos. High Efficiency is the alternative setting.",
+        "After changing it, take a new ordinary photo and inspect that new file’s information. Checking an older image will not tell you whether the preference changed future capture behavior.",
+        "You do not have to convert an entire library just because one recipient needs JPEG. Keeping your originals and making delivery copies when needed can be easier to manage. Apple also notes that some sharing methods may convert automatically depending on the recipient, so verify what was actually delivered instead of assuming a specific format."
+      ]
+    },
+    {
+      "id": "still-rejected",
+      "title": "If the upload still fails",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Read the exact error.",
+            "text": "Separate a format rejection from a byte-size, pixel-dimension or account-related restriction. Each points to a different fix."
+          },
+          {
+            "title": "Check which file you selected.",
+            "text": "An uploader may reopen the previous folder or photo picker. Choose the exported JPEG deliberately instead of selecting the original HEIC again."
+          },
+          {
+            "title": "Reopen the exported image.",
+            "text": "If it cannot be opened, return to the source and repeat the export. Renaming the failing file is not a repair."
+          },
+          {
+            "title": "Keep the source available.",
+            "text": "Do not delete your HEIC original to troubleshoot an upload. Use the format and upload-size guides below if a second requirement remains."
+          }
+        ]
+      }
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does Most Compatible convert my existing HEIC photos?",
+      "answer": "No. Apple describes it as a setting for new captures. Export a compatible copy when an existing photo needs conversion."
+    },
+    {
+      "question": "Do I need to upload the photo to an online converter?",
+      "answer": "This Preview workflow uses an export control on the phone, so a browser-based converter is not required. Choose the saved destination intentionally; an iCloud Drive folder can sync through iCloud."
+    },
+    {
+      "question": "Does converting to JPEG improve the photo?",
+      "answer": "The purpose is compatibility. Conversion does not recover detail that was missing from the source, and the chosen size or compression setting can affect the result. Inspect the output before relying on it."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: export images from Preview on iPhone",
+      "url": "https://support.apple.com/guide/iphone/export-or-compress-pdfs-and-images-iph61c20afe1/26/ios/26",
+      "note": "iOS 26 export menu, JPEG option and file-size adjustment; checked October 27, 2026."
+    },
+    {
+      "title": "Apple: open images in Preview on iPhone",
+      "url": "https://support.apple.com/guide/iphone/open-and-view-pdfs-and-images-iph7a0cdad0c/26/ios/26",
+      "note": "Browse, Locations and opening a file; checked October 27, 2026."
+    },
+    {
+      "title": "Apple: using HEIF and HEVC media",
+      "url": "https://support.apple.com/en-us/116944",
+      "note": "Future Camera capture settings and compatibility-dependent sharing; checked October 27, 2026."
+    },
+    {
+      "title": "Apple: export a Photos item to Files",
+      "url": "https://support.apple.com/en-us/101984",
+      "note": "Supports Share > Save to Files. Its separate sync-repair deletion procedure is not part of this conversion guide."
+    }
+  ],
+  "related": [
+    "jpeg-heic-png-photo-formats",
+    "resize-vs-compress-photos-for-upload",
+    "edit-photos-without-losing-original"
+  ],
+  "image": "blog/pexels-1203803-4k.webp",
+  "imageAlt": "Silver and black camera on a pale background",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-1203803-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-1203803-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-1203803-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-1203803-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Alex Andrews",
+    "url": "https://www.pexels.com/photo/black-and-grey-camera-1203803/"
+  },
+  "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique."
+},
+{
   "slug": "find-photos-on-iphone-search",
   "title": "How to find photos on iPhone with search and captions",
   "description": "Find an iPhone photo by date, place, visible text or caption. Use a simple search sequence and check the library view before assuming a photo is missing.",
@@ -12504,6 +12690,7 @@ export const articles: Article[] = [
       }
     ],
     "related": [
+    "convert-heic-to-jpg-iphone",
       "why-saved-photos-lose-quality",
       "edit-photos-without-losing-original"
     ]

@@ -35,6 +35,7 @@ const topics = [
   "title": "Sharing, printing and preserving photos",
   "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
   "slugs": [
+    "convert-heic-to-jpg-iphone",
     "find-photos-on-iphone-search",
     "print-photos-iphone-airprint",
     "export-iphone-photos-usb-drive",

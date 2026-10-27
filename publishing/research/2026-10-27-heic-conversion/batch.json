@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-27",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "67a6fa0a5b59fa6d37fbb1a63987b203c0cea414",
+  "baseline": {
+    "articles": 109,
+    "publishedToday": 0,
+    "remoteHeadMatches": true,
+    "deployment": 40404614853,
+    "deploymentStatus": "success",
+    "eligibleQueuedArticles": 0
+  },
+  "newArticles": 1,
+  "query": "convert heic to jpg iphone",
+  "queryVariants": [
+    "convert heic to jpeg iphone",
+    "iphone heic to jpg preview",
+    "most compatible existing photos"
+  ],
+  "intent": "Produce a JPEG delivery copy of an existing image and verify the upload.",
+  "editorialDecision": "New practical conversion URL; keep generic format comparison on its existing URL. The PDF assembly article has a different output and workflow. Add a reciprocal related link from the format comparison. Do not create separate JPG/JPEG or future-setting variant URLs.",
+  "rejectedCandidates": [
+    {
+      "query": "how to stop iphone selfie flipping",
+      "decision": "Existing guide already answers it; no new page or artificial freshness change."
+    },
+    {
+      "query": "profile photo crop",
+      "decision": "Existing portrait-crop guide covers the final display and circular avatars; no new duplicate."
+    }
+  ],
+  "metrics": {
+    "provider": null,
+    "geography": "Worldwide English target, not a measured database",
+    "period": null,
+    "retrieved": "2026-10-27",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "reason": "Free primary-source research supports the task, not search volume or competition. Prior GSC snapshot is dated October 26 and is not presented as fresh data or demand for this new keyword."
+  },
+  "sources": [
+    {
+      "title": "Apple: export images from Preview on iPhone",
+      "url": "https://support.apple.com/guide/iphone/export-or-compress-pdfs-and-images-iph61c20afe1/26/ios/26",
+      "note": "iOS 26 export menu, JPEG option and file-size adjustment; checked October 27, 2026."
+    },
+    {
+      "title": "Apple: open images in Preview on iPhone",
+      "url": "https://support.apple.com/guide/iphone/open-and-view-pdfs-and-images-iph7a0cdad0c/26/ios/26",
+      "note": "Browse, Locations and opening a file; checked October 27, 2026."
+    },
+    {
+      "title": "Apple: using HEIF and HEVC media",
+      "url": "https://support.apple.com/en-us/116944",
+      "note": "Future Camera capture settings and compatibility-dependent sharing; checked October 27, 2026."
+    },
+    {
+      "title": "Apple: export a Photos item to Files",
+      "url": "https://support.apple.com/en-us/101984",
+      "note": "Supports Share > Save to Files. Its separate sync-repair deletion procedure is not part of this conversion guide."
+    }
+  ],
+  "originalContribution": "Version-selection checks, two-condition upload example and a failure diagnostic sequence. No hands-on test claimed.",
+  "existingChange": "Related link added to jpeg-heic-png-photo-formats; its publication and modification dates remain unchanged because body content did not change.",
+  "validation": {
+    "status": "PASS before publication",
+    "contentBaselineCheck": "PASS: 110 articles, 1 published October 27, 29 remaining",
+    "lint": "PASS",
+    "productionBuild": "PASS with SITE_URL=https://meluvya.com and empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "PASS: 123 sitemap routes, 110 article pages, 6305 local links/assets checked",
+    "seoFoundations": "PASS: 110 guides linked from page one, attribution and canonical checks",
+    "pagination": {
+      "pages": 10,
+      "articleCounts": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        2
+      ],
+      "distinctArticles": 110
+    },
+    "browser": "PASS: new guide and reciprocal-link guide at 390px and 1280px; 8 store-button checks, coming-soon dialogs, focus restoration, no page errors or horizontal page overflow",
+    "visualReview": "Hero, mobile body/table and app promotion inspected; table uses its existing horizontal scroll container",
+    "sourceLinks": "All four official Apple sources returned HTTP 200",
+    "existingContent": "Only reciprocal related link changed; old body and dates unchanged",
+    "editorialReview": {
+      "score": 94,
+      "blocking": false,
+      "nonce": "c271e62370076dad36fb6ae820ed4013",
+      "report": "editorial-review.md"
+    },
+    "evidenceDirectory": "work/blog-heic-20261027",
+    "indexing": "Not claimed; sitemap inclusion is discovery only"
+  },
+  "publication": {
+    "state": "Ready for authorized normal push to main; verify deployment and live URL after push",
+    "url": "https://meluvya.com/blog/convert-heic-to-jpg-iphone/"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -1712,6 +1712,25 @@
       "metricsGeography": null,
       "metricsPeriod": null,
       "researchRecord": "2026-10-26-more-guides/batch.json"
+    },
+    {
+      "id": "convert-heic-to-jpg-iphone",
+      "primaryKeyword": "convert heic to jpg iphone",
+      "relatedKeywords": [
+        "convert heic to jpeg iphone",
+        "iphone heic to jpg preview",
+        "most compatible existing photos"
+      ],
+      "intent": "Convert an existing HEIC file into a verified JPEG delivery copy; distinguish future Camera settings.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "convert-heic-to-jpg-iphone",
+      "validation": "Official-source procedure and distinct-intent review; see October 27 research record.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-27-heic-conversion/batch.json"
     }
   ]
 }
