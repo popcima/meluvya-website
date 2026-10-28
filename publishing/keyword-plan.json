@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -1731,6 +1731,25 @@
       "metricsGeography": null,
       "metricsPeriod": null,
       "researchRecord": "2026-10-27-heic-conversion/batch.json"
+    },
+    {
+      "id": "make-photo-collage-google-photos",
+      "primaryKeyword": "how to make a collage in google photos",
+      "relatedKeywords": [
+        "google photos collage iphone",
+        "google photos collage android",
+        "two photos side by side google photos"
+      ],
+      "intent": "Arrange multiple photos into one saved composition and check the crops.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "make-photo-collage-google-photos",
+      "validation": "Official mobile-editor sources, practical composition guidance and distinct-intent review.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-28-collage-guide/batch.json"
     }
   ]
 }

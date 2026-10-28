@@ -144,6 +144,7 @@ const topics = [
       "photo-noise-vs-film-grain",
       "vibrance-vs-saturation-portraits",
       "copy-paste-photo-edits-iphone",
+    "make-photo-collage-google-photos",
     "consistent-editing-for-photo-set",
       "check-ai-portrait-details",
       "golden-hour-photo-editing",

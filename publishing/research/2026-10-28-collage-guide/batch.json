@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "e0e0da709b473508ac464e8026550980fad05dd3",
+  "baseline": {
+    "articles": 110,
+    "publishedToday": 0,
+    "eligibleQueuedArticles": 0,
+    "deployment": 40533807744,
+    "deploymentStatus": "success",
+    "remoteMatches": true
+  },
+  "newArticles": [
+    "make-photo-collage-google-photos"
+  ],
+  "editorialDecision": "New URL for arranging separate photos into one composition. Existing set-editing guide handles consistency, crop guide handles one image, and PDF guide creates a document. None teaches a collage. Group iPhone, Android and side-by-side variants on this page.",
+  "rejectedCandidates": [
+    {
+      "intent": "scan photos with a phone",
+      "reason": "Existing guide already contains PhotoScan procedure, glare advice, handling care and output review; no new page or cosmetic freshness update."
+    },
+    {
+      "intent": "iphone selfie flipping and Live Photo key frames",
+      "reason": "Existing guides cover these observed queries; keep stable URLs."
+    }
+  ],
+  "metrics": {
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "provider": null,
+    "geography": "Worldwide English target, not a measured keyword database",
+    "period": null,
+    "retrieved": "2026-10-28",
+    "reason": "Free primary-source research establishes the workflow. Search Console sample is actual property performance, not demand for this new query."
+  },
+  "sources": [
+    {
+      "title": "Google Photos Help: make creations",
+      "url": "https://support.google.com/photos/answer/6128862?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Selection-first and template-first collage routes, editing, saving and sharing; checked October 28, 2026."
+    },
+    {
+      "title": "Google Photos Help: collages on iPhone and iPad",
+      "url": "https://support.google.com/photos/answer/12637115?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Editor requirements, image adjustments, template limits and offline designs; checked October 28, 2026."
+    },
+    {
+      "title": "Google Photos Help: collages on Android",
+      "url": "https://support.google.com/photos/answer/12637115?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Android requirements, border controls and grid-layout limitations; checked October 28, 2026."
+    }
+  ],
+  "originalContribution": "Three-picture birthday selection example, frame-fit diagnostics and final-size review. These are editorial suggestions, not claimed device tests.",
+  "existingChange": "One reciprocal related link in consistent-editing-for-photo-set; body and dates unchanged.",
+  "asset": "Reused licensed Michael Burrows photo, visually inspected; illustrative caption, no fabricated UI or result.",
+  "validation": {
+    "status": "PASS before publication",
+    "contentBaseline": "PASS: 111 articles, 1 today, 29 remaining",
+    "lint": "PASS",
+    "build": "PASS: SITE_URL=https://meluvya.com, empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "PASS: 124 routes, 111 article pages, 6360 local links/assets",
+    "seo": "PASS: all 111 guides linked from the directory; metadata, schema and editorial attribution",
+    "pagination": {
+      "pages": 10,
+      "counts": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        3
+      ],
+      "distinctArticles": 111
+    },
+    "browser": "PASS: 390px and 1280px for new and reciprocal-link articles; 8 store-button checks, coming-soon dialogs, Escape/focus restoration, image decoding and no page errors or page overflow",
+    "visual": "New article desktop/mobile hero and mobile app CTA inspected; image matches alt text and illustrative caption",
+    "sourceLinks": "Three Google help URLs return HTTP 200",
+    "existingChanges": "Related link only; all existing bodies and dates unchanged",
+    "evidenceDirectory": "work/blog-collage-20261028",
+    "indexing": "Not claimed; sitemap inclusion supports discovery",
+    "editorialReview": {
+      "score": 94,
+      "blocking": false,
+      "nonce": "90c8e25dd87dfb74cd3411887205c580",
+      "report": "editorial-review.md"
+    }
+  },
+  "publication": {
+    "state": "Ready for authorized normal push to main; deployment and live-page verification follow the commit.",
+    "url": "https://meluvya.com/blog/make-photo-collage-google-photos/"
+  }
+}

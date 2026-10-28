@@ -1,0 +1,91 @@
+{
+  "provider": "Google Search Console visible UI",
+  "property": "sc-domain:meluvya.com",
+  "retrieved": "2026-10-28",
+  "searchType": "Web",
+  "geography": "All countries; no country filter",
+  "selectedPeriod": "3 months",
+  "displayedChartPeriod": {
+    "start": "2026-10-19",
+    "end": "2026-10-26"
+  },
+  "lastUpdateDisplayed": "3.5 hours ago at initial read; 4 hours ago at later read",
+  "metrics": [
+    {
+      "name": "clicks",
+      "value": 5,
+      "unit": "clicks"
+    },
+    {
+      "name": "impressions",
+      "displayedValue": "1.23K",
+      "value": null,
+      "unit": "impressions",
+      "note": "Rounded UI display; exact count not extracted."
+    },
+    {
+      "name": "averageCTR",
+      "value": 0.4,
+      "unit": "percent"
+    },
+    {
+      "name": "averagePosition",
+      "value": 14.7,
+      "unit": "position"
+    }
+  ],
+  "visibleQuerySample": [
+    {
+      "query": "photo backup quality",
+      "clicks": 0,
+      "impressions": 7
+    },
+    {
+      "query": "retro effect",
+      "clicks": 0,
+      "impressions": 7
+    },
+    {
+      "query": "iphone selfie flip",
+      "clicks": 0,
+      "impressions": 6
+    },
+    {
+      "query": "how to scan photos",
+      "clicks": 0,
+      "impressions": 6
+    },
+    {
+      "query": "how to edit photo without losing original",
+      "clicks": 0,
+      "impressions": 5
+    },
+    {
+      "query": "iphone selfie flip settings",
+      "clicks": 0,
+      "impressions": 5
+    },
+    {
+      "query": "key photo iphone",
+      "clicks": 0,
+      "impressions": 4
+    },
+    {
+      "query": "iphone front camera flips image",
+      "clicks": 0,
+      "impressions": 4
+    },
+    {
+      "query": "how to choose live photo",
+      "clicks": 0,
+      "impressions": 3
+    },
+    {
+      "query": "how to change the key photo of a live photo",
+      "clicks": 0,
+      "impressions": 3
+    }
+  ],
+  "queryRowsDisplayed": 153,
+  "interpretation": "Visible queries already have relevant guides. Counts describe this property, not total search volume or keyword difficulty. This small early sample does not justify ranking or traffic guarantees. No observed collage-query demand is claimed."
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://support.google.com/photos/answer/6128862?co=GENIE.Platform%3DiOS&hl=en",
+    "status": 200,
+    "final": "https://support.google.com/photos/answer/6128862?co=GENIE.Platform%3DiOS&hl=en"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/12637115?co=GENIE.Platform%3DiOS&hl=en",
+    "status": 200,
+    "final": "https://support.google.com/photos/answer/12637115?co=GENIE.Platform%3DiOS&hl=en"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/12637115?co=GENIE.Platform%3DAndroid&hl=en",
+    "status": 200,
+    "final": "https://support.google.com/photos/answer/12637115?co=GENIE.Platform%3DAndroid&hl=en"
+  }
+]

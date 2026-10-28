@@ -30,6 +30,163 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "make-photo-collage-google-photos",
+  "title": "How to make a photo collage in Google Photos",
+  "description": "Build a photo collage in Google Photos on iPhone or Android. Choose a layout, protect faces from awkward crops, and check the saved result before sharing.",
+  "summary": "Bring a few photographs together without losing the expressions and details that made you choose them.",
+  "published": "2026-10-28",
+  "modified": "2026-10-28",
+  "quickAnswer": "In the Google Photos mobile app, select up to six pictures and choose Create > Collage. Pick a layout, adjust each photo inside its frame, then save. Before sharing, inspect the smallest face and every cropped edge. The mobile editors differ, so use the controls actually available on your device.",
+  "sections": [
+    {
+      "id": "choose-pictures",
+      "title": "Give each photograph a different job",
+      "paragraphs": [
+        "A collage is useful when several pictures explain one moment better together. Start with a small selection instead of filling every possible space. Three nearly identical selfies may add less than one expression, one wider scene and one meaningful detail.",
+        "For example, a birthday collage could pair the person blowing out candles with a wider table photograph and a close view of a handwritten card. Use this as a starting point and adjust it to the pictures you have. Each image contributes something the others do not.",
+        "Look at the selection as small thumbnails before opening the editor. If two frames compete to tell the same part of the story, remove one. Keep the original files available so you can change the selection after seeing how the layout crops them."
+      ]
+    },
+    {
+      "id": "create-collage",
+      "title": "Start with your selected photos",
+      "paragraphs": [
+        "Google documents this selection-first route for its iPhone and Android apps. Its Create area also offers a template-first route if you would rather choose the arrangement before adding pictures."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Select the pictures.",
+            "text": "Open Google Photos and select up to six images from your library."
+          },
+          {
+            "title": "Open the collage editor.",
+            "text": "Choose Create, then Collage. Select a design that suits the shapes of your pictures."
+          },
+          {
+            "title": "Adjust the contents.",
+            "text": "Use pinch gestures to change a photo’s size within its frame. Touch and hold, then drag to change the order."
+          },
+          {
+            "title": "Save the result.",
+            "text": "After reviewing the layout, tap Save. Use Share when the saved composition is ready for its audience."
+          }
+        ]
+      }
+    },
+    {
+      "id": "protect-crops",
+      "title": "Fit the layout to the people in the pictures",
+      "paragraphs": [
+        "A slot in a collage can be a different shape from the original photograph. Judge the visible result, especially when a tall portrait has been placed in a wide opening. Do not assume that choosing the right source photo automatically gives it the right crop.",
+        "Check eyes, the top of the head, hands and any detail that explains the occasion. A handwritten message can become meaningless if its last line disappears. If a frame requires a severe crop, try another layout or another picture instead of accepting a cut that defeats the image’s purpose.",
+        "When one photograph feels disconnected, compare brightness and color before applying a stronger effect to the entire set. A dark room shot and a bright outdoor portrait can belong together, but neither should become unreadable merely to make their tones identical. The related editing guide below explains how to compare a set."
+      ],
+      "table": {
+        "headers": [
+          "What you notice",
+          "Try this first"
+        ],
+        "rows": [
+          [
+            "A face is too small to read",
+            "Use fewer pictures or a layout with a larger opening for that portrait."
+          ],
+          [
+            "A hand or inscription disappears",
+            "Try a less restrictive frame shape and inspect the complete edge."
+          ],
+          [
+            "Every image demands attention",
+            "Keep one main moment and choose supporting pictures with simpler content."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "device-differences",
+      "title": "Check which editor your phone offers",
+      "paragraphs": [
+        "Google’s iPhone help lists iOS 18 and Google Photos 7.64 or later for its newer collage editor updates. Its Android guide lists Android 8.0 or later and at least 3 GB of RAM. Controls and availability can still differ across devices.",
+        "The Android guide describes border width, corner radius and color controls, but says its grid editor does not support freely moving slots or layering pictures. The iPhone guide notes that some templates cannot add or remove slots, and that offline use limits the available designs.",
+        "If a control is missing, compare your app and device with the relevant Google help page below. Do not follow an Android-only border instruction as though it were an iPhone control. If you need overlapping pictures or a custom arrangement that the available templates cannot express, choose a tool that supports that particular layout."
+      ]
+    },
+    {
+      "id": "review-output",
+      "title": "Review the saved collage at its final size",
+      "paragraphs": [
+        "Open the saved composition and examine it at the size your recipient will see. A tiny face that seems acceptable while zoomed in may disappear in a message preview. For a print, check the saved file’s dimensions against the intended print size rather than assuming the source photos determine the finished collage’s detail.",
+        "Use a short final pass: read the smallest important text, inspect the outer edges, and check that the order makes sense. Then compare the result with the purpose you chose at the start. If it still feels crowded, remove a picture before adding more decoration.",
+        "Keep the individual images alongside the collage. The combined version is useful for sharing a story; the separate photographs remain useful when you want a different crop, a larger print or a new arrangement."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I put two photos side by side?",
+      "answer": "Choose two pictures and a layout with two suitable openings. Check the crop of each image after placing it; a two-picture arrangement does not guarantee that both originals fit without trimming."
+    },
+    {
+      "question": "Can I change the photos before saving?",
+      "answer": "Google documents Replace and Edit controls within its mobile collage editors. Review the whole composition again after replacing an image because the new picture may need different framing."
+    },
+    {
+      "question": "Why not just take a screenshot of several photos?",
+      "answer": "A screenshot can include interface elements or unintended spacing. A collage editor lets you choose the arrangement deliberately. In either case, check the actual saved result rather than assuming it is suitable for a large print."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos Help: make creations",
+      "url": "https://support.google.com/photos/answer/6128862?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Selection-first and template-first collage routes, editing, saving and sharing; checked October 28, 2026."
+    },
+    {
+      "title": "Google Photos Help: collages on iPhone and iPad",
+      "url": "https://support.google.com/photos/answer/12637115?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Editor requirements, image adjustments, template limits and offline designs; checked October 28, 2026."
+    },
+    {
+      "title": "Google Photos Help: collages on Android",
+      "url": "https://support.google.com/photos/answer/12637115?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Android requirements, border controls and grid-layout limitations; checked October 28, 2026."
+    }
+  ],
+  "related": [
+    "consistent-editing-for-photo-set",
+    "how-to-crop-portrait-photos",
+    "photo-print-size-pixels-ppi"
+  ],
+  "image": "blog/pexels-7129664-4k.webp",
+  "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7129664-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7129664-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7129664-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7129664-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Michael Burrows",
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+  },
+  "caption": "Illustrative stock photograph of a photo collection; not the Google Photos collage editor or a Meluvya result."
+},
+{
   "slug": "convert-heic-to-jpg-iphone",
   "title": "How to convert HEIC to JPG on iPhone with Preview",
   "description": "Convert an existing HEIC image to JPEG on iPhone using Preview. Keep the source, check the exported file, and distinguish conversion from future Camera settings.",
@@ -12450,6 +12607,7 @@ export const articles: Article[] = [
       }
     ],
     "related": [
+    "make-photo-collage-google-photos",
       "remove-color-cast-from-photos",
       "vibrance-vs-saturation-portraits",
       "edit-photos-without-losing-original"
