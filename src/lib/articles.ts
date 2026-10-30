@@ -30,6 +30,167 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "stop-sharing-google-photos-album",
+  "title": "How to stop sharing a Google Photos album",
+  "description": "Remove album members and disable link sharing in Google Photos. Understand saved copies, collaboration controls, and how to check an old sharing link.",
+  "summary": "Close access to a shared album deliberately, without confusing viewing permissions with photo cleanup.",
+  "published": "2026-10-30",
+  "modified": "2026-10-30",
+  "quickAnswer": "To stop sharing a Google Photos album you own, remove its members and turn Link sharing off. Both controls matter. Previously downloaded or copied pictures remain with their recipients; changing album access cannot recall those files.",
+  "sections": [
+    {
+      "id": "before-changing-access",
+      "title": "Check what you want to keep first",
+      "paragraphs": [
+        "Google warns that ending album sharing removes other people’s contributions and comments from the album. Preserve anything you are entitled to keep before changing access.",
+        "Treat this as an album-access task. If your goal is recovering storage or reorganizing your own photo grid, use the related cleanup and Archive guides below instead. Deleting a collection just to change its audience makes the task harder to review."
+      ]
+    },
+    {
+      "id": "stop-sharing",
+      "title": "Remove members and close the link",
+      "paragraphs": [
+        "Google’s current iPhone and iPad instructions use the following route. Start from the account that owns the album."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Open the album.",
+            "text": "In Google Photos, find it under Collections > Albums."
+          },
+          {
+            "title": "Open access settings.",
+            "text": "Choose More > Sharing settings > Manage access."
+          },
+          {
+            "title": "Remove members.",
+            "text": "Beside each person, open More and choose Remove person. Repeat for everyone whose access should end."
+          },
+          {
+            "title": "Disable the shared URL.",
+            "text": "Turn Link sharing off. Check the member list again before leaving the settings."
+          }
+        ]
+      }
+    },
+    {
+      "id": "different-menus",
+      "title": "If your menus look different",
+      "paragraphs": [
+        "Google’s general mobile guide labels the route More > Sharing. On the web, its member-removal instructions use More > Options. Use the linked help for your device rather than assuming every app version has identical labels.",
+        "If the controls are absent, first check the signed-in account and whether you created this particular album. Do not make repeated changes to similarly named collections while trying to locate the right one."
+      ]
+    },
+    {
+      "id": "controls",
+      "title": "Choose the control that matches your goal",
+      "table": {
+        "headers": [
+          "Goal",
+          "Control and limitation"
+        ],
+        "rows": [
+          [
+            "Stop all access to this album",
+            "Remove all members and disable Link sharing."
+          ],
+          [
+            "Keep viewers, but stop new photo contributions",
+            "Turn Collaborate off. This is not a viewing restriction."
+          ],
+          [
+            "Replace a link that spread too widely",
+            "Switch Link sharing off, then on to generate a replacement. The previous URL stops working. Review members separately."
+          ],
+          [
+            "Share again with a smaller group",
+            "Invite specific Google Accounts with Link sharing off. Members can still invite others, so review membership."
+          ]
+        ]
+      },
+      "paragraphs": [
+        "A replacement URL is useful only when you still intend to share. Leave Link sharing disabled when the album should remain private."
+      ]
+    },
+    {
+      "id": "blocking",
+      "title": "Blocking a person does not close an active link",
+      "paragraphs": [
+        "Google’s blocking documentation says a blocked person may still reach an album through its link while signed out. Blocking also affects some other Google services. If the problem is an exposed album URL, address the album’s link setting directly rather than relying on an account block.",
+        "This guide covers shared albums. Separate conversations, Partner sharing and files sent through other apps need their own review."
+      ]
+    },
+    {
+      "id": "check-result",
+      "title": "Check the result with the original link",
+      "paragraphs": [
+        "Keep the old URL long enough to check it in a signed-out private browser window. Do not upload the album to a third-party privacy checker. If the original link still opens the collection, return to the exact album and inspect its access settings. A successful signed-out check tests that link; it does not audit every account or copy.",
+        "For example, suppose a weekend-trip album was linked in a large group chat, but you now want to keep sharing with two friends. Write down the intended audience first. Close the old access, review the settings, and then make a deliberate new sharing choice. Do not repost a link automatically just because the old one has stopped working.",
+        "Finish with a simple note for yourself: album name, owning account, intended audience and the link you checked. This makes a later review more useful than a vague memory that sharing was turned off. Repeat the review if you decide to share the album again."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can this erase a picture someone already saved?",
+      "answer": "No. Google’s sharing controls do not remove independent downloads or copies. Treat those as separate files outside this album’s access settings."
+    },
+    {
+      "question": "Why can someone return after I remove them?",
+      "answer": "An active sharing link can still provide access. Check the link setting as well as membership; removing a name alone does not close that route."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos Help: stop sharing an album on iPhone and iPad",
+      "url": "https://support.google.com/photos/answer/6280921?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Owner controls, current iOS menu route, contribution removal and downloaded-copy limitation; checked October 30, 2026."
+    },
+    {
+      "title": "Google Photos Help: shared album access controls",
+      "url": "https://support.google.com/photos/answer/9789702?hl=en",
+      "note": "Membership, link reset, invitations, collaboration and alternate menu labels; checked October 30, 2026."
+    },
+    {
+      "title": "Google Photos Help: what blocking changes",
+      "url": "https://support.google.com/photos/answer/7066109?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Signed-out link access and cross-service consequences of blocking; checked October 30, 2026."
+    }
+  ],
+  "related": [
+    "google-photos-archive-vs-locked-folder",
+    "google-photos-free-up-space-vs-delete",
+    "remove-location-from-iphone-photos"
+  ],
+  "image": "blog/pexels-4429463-4k.webp",
+  "imageAlt": "Passenger holding a smartphone beside a car window",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-4429463-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-4429463-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-4429463-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-4429463-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Ketut Subiyanto",
+    "url": "https://www.pexels.com/photo/anonymous-female-tourist-taking-photo-on-smartphone-sitting-in-car-4429463/"
+  },
+  "imagePosition": "50% 50%",
+  "caption": "Illustrative travel photograph by Ketut Subiyanto; not a Google Photos screen or a Meluvya result."
+},
+{
   "slug": "make-photo-collage-google-photos",
   "title": "How to make a photo collage in Google Photos",
   "description": "Build a photo collage in Google Photos on iPhone or Android. Choose a layout, protect faces from awkward crops, and check the saved result before sharing.",
@@ -6737,6 +6898,7 @@ export const articles: Article[] = [
     }
   ],
   "related": [
+    "stop-sharing-google-photos-album",
     "google-photos-original-vs-storage-saver",
     "edit-photos-without-losing-original",
     "remove-location-from-iphone-photos"

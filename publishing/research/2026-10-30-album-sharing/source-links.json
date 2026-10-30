@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://support.google.com/photos/answer/6280921?co=GENIE.Platform%3DiOS&hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6280921?co=GENIE.Platform%3DiOS&hl=en",
+    "retrieved": "2026-10-30T15:22:17.310059+00:00"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/9789702?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/9789702?hl=en",
+    "retrieved": "2026-10-30T15:22:17.864284+00:00"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/7066109?co=GENIE.Platform%3DAndroid&hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/7066109?co=GENIE.Platform%3DAndroid&hl=en",
+    "retrieved": "2026-10-30T15:22:19.685609+00:00"
+  }
+]

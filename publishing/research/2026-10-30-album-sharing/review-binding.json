@@ -1,0 +1,9 @@
+{
+  "nonce": "1080e6e7a8b66f8b10ab5ac3bc6a2875",
+  "files": {
+    "src/lib/articles.ts": "2cef3c1875c77aee75a1d0ab3e2f234bdee68b3c7c0b41ec339e14a60da4c770",
+    "out/blog/stop-sharing-google-photos-album/index.html": "b8e0b703a34c8772df3ecb833e18e66b1f31a36264262180288a5f84a1693e81",
+    "out/blog/google-photos-archive-vs-locked-folder/index.html": "a0680ca74e5cba60c4dcc34ffe646c68c3f5d16885c6f472e380660bb004a17c",
+    "public/img/blog/pexels-4429463-4k.webp": "6797b84abb5cf74f782a8147c464be2763294e7825832e6cccf6a9997c997158"
+  }
+}

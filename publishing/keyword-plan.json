@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-28",
+  "updated": "2026-10-30",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -1750,6 +1750,25 @@
       "metricsGeography": null,
       "metricsPeriod": null,
       "researchRecord": "2026-10-28-collage-guide/batch.json"
+    },
+    {
+      "id": "stop-sharing-google-photos-album",
+      "primaryKeyword": "stop sharing google photos album",
+      "relatedKeywords": [
+        "turn off google photos link sharing",
+        "make google photos album private",
+        "remove someone google photos album"
+      ],
+      "intent": "End or restrict access to an existing shared Google Photos album and verify the old link.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "stop-sharing-google-photos-album",
+      "validation": "Distinct intent and official-source review; no measured demand or competition claim.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "2026-10-30-album-sharing/batch.json"
     }
   ]
 }

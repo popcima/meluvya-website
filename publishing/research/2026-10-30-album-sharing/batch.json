@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "2d5af59c6bc0d01f7ba6fe682f0f006dd70c6629",
+  "baseline": {
+    "articles": 111,
+    "publishedToday": 0,
+    "eligibleQueuedArticles": 0,
+    "remoteMatches": true,
+    "deployment": 40688776771,
+    "deploymentStatus": "success"
+  },
+  "newArticles": [
+    "stop-sharing-google-photos-album"
+  ],
+  "editorialDecision": "New URL for withdrawing shared-album access. Archive/Locked Folder concerns access to an item in the owner library; Free up space concerns storage; location removal concerns metadata. None teaches closing a shared album. Group make-private, remove-member and disable-link variants here.",
+  "query": "stop sharing google photos album",
+  "queryVariants": [
+    "turn off google photos link sharing",
+    "make google photos album private",
+    "remove someone google photos album"
+  ],
+  "originalContribution": "Audience-first trip-album example and an old-link verification checklist. These are editorial suggestions, not claimed device or account tests.",
+  "sources": [
+    {
+      "title": "Google Photos Help: stop sharing an album on iPhone and iPad",
+      "url": "https://support.google.com/photos/answer/6280921?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Owner controls, current iOS menu route, contribution removal and downloaded-copy limitation; checked October 30, 2026."
+    },
+    {
+      "title": "Google Photos Help: shared album access controls",
+      "url": "https://support.google.com/photos/answer/9789702?hl=en",
+      "note": "Membership, link reset, invitations, collaboration and alternate menu labels; checked October 30, 2026."
+    },
+    {
+      "title": "Google Photos Help: what blocking changes",
+      "url": "https://support.google.com/photos/answer/7066109?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Signed-out link access and cross-service consequences of blocking; checked October 30, 2026."
+    }
+  ],
+  "metrics": {
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "provider": null,
+    "geography": "Worldwide English target; not a measured database",
+    "period": null,
+    "retrieved": "2026-10-30",
+    "reason": "Free web research verifies a concrete task but supplies no demand estimate. Prior October 28 Search Console snapshot was consulted and is not fresh query or indexing data. No authenticated browser tool was available this turn; blocked marketing providers were not retried."
+  },
+  "deferredCandidates": [
+    {
+      "intent": "Transfer iCloud Photos to Google Photos",
+      "reason": "Apple primary pages returned HTTP 429 in web fetches; no access-control bypass or publication based on an unverified transfer workflow."
+    }
+  ],
+  "recovery": {
+    "reason": "Configured local checkout and previous temporary mirror were absent. Bounded workspace search found no replacement.",
+    "action": "Restored original path from current public main with a shallow clone after one interrupted HTTP/2 transfer; HTTP/1.1 retry succeeded. Existing public deployment remained healthy.",
+    "unrelatedFilesChanged": false,
+    "publicationCheckout": "The restored Documents checkout later stalled during Git index refresh on iCloud placeholders. The interrupted commit exited without a commit. A local Git clone in /private/tmp/meluvya-oct30-publish receives byte-identical reviewed files for normal publication; no iCloud settings changed."
+  },
+  "existingChange": "One reciprocal related link in google-photos-archive-vs-locked-folder; no body or date changes.",
+  "asset": "Reused licensed Ketut Subiyanto photograph and its responsive variants; visually inspected; illustrative caption.",
+  "validation": {
+    "status": "PASS before publication",
+    "contentBaseline": "PASS: 112 total, 1 published October 30, 29 remaining capacity",
+    "lint": "PASS",
+    "build": "PASS: SITE_URL=https://meluvya.com, empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "PASS: 125 sitemap routes, 112 article pages, 6416 local links/assets",
+    "seo": "PASS: all 112 guides linked in directory, metadata/schema/attribution checked",
+    "browser": "PASS: new and reciprocal-link articles at 390, 768 and 1280 pixels; 12 store-button checks; coming-soon dialog, Escape and focus restoration; decoded images; no page errors or horizontal page overflow",
+    "pagination": {
+      "pages": 10,
+      "counts": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        4
+      ],
+      "distinctArticles": 112
+    },
+    "visual": "Hero and CTA reviewed on desktop/mobile. Mobile table intentionally scrolls horizontally in its keyboard-focusable container.",
+    "robots": "Allow / with canonical https://meluvya.com/sitemap.xml",
+    "sourceLinks": "Three Google sources HTTP 200; existing Pexels attribution URL returned a 403 Cloudflare challenge, documented without bypass. Local licensed image files decode.",
+    "existingContent": "All 111 prior bodies and dates unchanged; one intended related link added.",
+    "editorialReview": {
+      "score": 94,
+      "blocking": false,
+      "nonce": "1080e6e7a8b66f8b10ab5ac3bc6a2875",
+      "report": "editorial-review.md"
+    },
+    "evidenceDirectory": "work/blog-sharing-20261030",
+    "indexing": "Not measured or claimed; new URL in sitemap supports discovery."
+  },
+  "publication": {
+    "state": "Ready for authorized normal push to main; verify GitHub Actions and live pages after commit.",
+    "url": "https://meluvya.com/blog/stop-sharing-google-photos-album/"
+  }
+}
