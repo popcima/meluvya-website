@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-14",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "d6ce19d73f9f9fbff2a5de24553aa0212c7cdbaf",
+  "baseline": {
+    "articles": 112,
+    "publishedToday": 0,
+    "eligibleQueuedArticles": 0,
+    "remoteMatches": true,
+    "deployment": 41095111001,
+    "deploymentStatus": "success"
+  },
+  "newArticles": [
+    "transfer-icloud-photos-to-google-photos"
+  ],
+  "editorialDecision": "Distinct cloud-to-cloud migration task. Existing iCloud sync guide explains backup semantics; Takeout guide exports Google to an archive; quality guide concerns compression. None supplies this transfer workflow. Related spelling and missing-item variants grouped in this URL.",
+  "originalContribution": "Item-specific transfer check sheet and gap classification, clearly described as editorial suggestions rather than an executed migration.",
+  "sources": [
+    {
+      "title": "Apple: transfer a copy of your iCloud Photos collection",
+      "url": "https://support.apple.com/en-us/118257",
+      "note": "Eligibility, security prerequisite, timing, copy request and incomplete-transfer limits; checked November 14, 2026."
+    },
+    {
+      "title": "Google Photos: transfer iCloud photos and videos",
+      "url": "https://support.google.com/photos/answer/10502587?hl=en",
+      "note": "One-time scope, edits, album handling, exclusions, duplicates and cancellation; checked November 14, 2026."
+    },
+    {
+      "title": "Apple: iCloud data security overview",
+      "url": "https://support.apple.com/en-us/102651",
+      "note": "Explains the protection change when Advanced Data Protection is disabled; checked November 14, 2026."
+    },
+    {
+      "title": "Google One: manage storage in Drive, Gmail and Photos",
+      "url": "https://support.google.com/googleone/answer/6374270?hl=en",
+      "note": "Google Account storage is shared across services; checked November 14, 2026."
+    }
+  ],
+  "metrics": {
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "provider": null,
+    "geography": "Worldwide English target; not a measured database",
+    "period": null,
+    "retrieved": "2026-11-14",
+    "reason": "Free primary sources validate workflow, not query demand. Search Console results are property performance, not keyword volume. Blocked paid providers not retried."
+  },
+  "sourceResolution": "Apple transfer source, deferred October 30 after HTTP 429, accessible on this new November 14 run. No bypass.",
+  "existingChange": "Reciprocal related link in icloud-photos-sync-vs-backup; body and dates unchanged.",
+  "asset": "Reused licensed Pexels laptop photo and existing responsive derivatives.",
+  "validation": {
+    "status": "PASS before publication",
+    "contentBaseline": "PASS: 113 articles, 1 today, 29 capacity remaining; correct November 14 dates",
+    "lint": "PASS (locked eslint executable)",
+    "build": "PASS (Next webpack production build); SITE_URL=https://meluvya.com; empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS (tsc --noEmit)",
+    "export": "PASS: 126 sitemap routes, 113 articles, 6472 local links and assets",
+    "seo": "PASS: 113 guides linked and attributed, canonicals/schema checked",
+    "browser": "PASS at 390/768/1280; six CTA checks including coming-soon dialog, Escape and focus restoration; decoded images, no page errors or page overflow",
+    "pagination": {
+      "pages": 10,
+      "counts": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        5
+      ],
+      "uniqueArticles": 113
+    },
+    "visual": "Hero and CTA inspected desktop/mobile; comparison table keyboard-focusable and horizontally scrollable without page overflow",
+    "sourceLinks": "Four primary citations HTTP 200. Existing Pexels attribution returned 403, documented exact exception without bypass; licensed local derivatives decode.",
+    "existingContent": "All 112 prior bodies, dates and metadata unchanged; one intended related link added.",
+    "robots": "Allow / and canonical sitemap URL",
+    "editorialReview": {
+      "score": 93,
+      "blocking": false,
+      "nonce": "ec77d135423f8064b70625c50f44910b",
+      "report": "editorial-review.md"
+    },
+    "indexing": "Historical property report saved separately; new guide not claimed indexed.",
+    "buildRecovery": "iCloud-offloaded dependencies stalled local checks. Validated a temporary copy of the verified starting commit plus byte-identical changed source files, with exact lockfile installation. No iCloud setting changes or user-file replacement.",
+    "evidenceDirectory": "work/blog-transfer-20261114",
+    "publicationRecovery": "Git diff/commit was blocked by an iCloud-offloaded existing tree object. No commit was made in the original checkout. A clean temporary clone of verified current main receives byte-identical reviewed source and research for normal commit/push. Original staged files preserved for later fast-forward."
+  },
+  "publication": {
+    "state": "Checked and ready for authorized normal push; verify deployment and live URL after commit",
+    "url": "https://meluvya.com/blog/transfer-icloud-photos-to-google-photos/"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "provider": "Google Search Console visible UI",
+  "property": "sc-domain:meluvya.com",
+  "retrieved": "2026-11-14",
+  "searchType": "Web",
+  "geography": "All countries",
+  "periodSelection": "3 months",
+  "displayedPeriod": {
+    "from": "2026-10-19",
+    "to": "2026-11-11"
+  },
+  "lastUpdated": "3.5 hours ago",
+  "clicks": 33,
+  "impressionsDisplayed": "9.04K",
+  "exactImpressions": null,
+  "ctrPercent": 0.4,
+  "averagePosition": 10.9,
+  "queryRows": 545,
+  "visibleQueries": [
+    {
+      "query": "styles vs filters iphone",
+      "clicks": 1,
+      "impressions": 15
+    },
+    {
+      "query": "original quality",
+      "clicks": 1,
+      "impressions": 3
+    },
+    {
+      "query": "how to pick frame from live photo",
+      "clicks": 1,
+      "impressions": 1
+    },
+    {
+      "query": "google photos original vs storage saver",
+      "clicks": 1,
+      "impressions": 1
+    },
+    {
+      "query": "shared library",
+      "clicks": 0,
+      "impressions": 37
+    },
+    {
+      "query": "photo backup quality",
+      "clicks": 0,
+      "impressions": 26
+    },
+    {
+      "query": "make my photo look like golden hour lighting",
+      "clicks": 0,
+      "impressions": 17
+    },
+    {
+      "query": "preserve settings",
+      "clicks": 0,
+      "impressions": 16
+    },
+    {
+      "query": "preserve settings iphone camera",
+      "clicks": 0,
+      "impressions": 15
+    },
+    {
+      "query": "why iphone selfie flip",
+      "clicks": 0,
+      "impressions": 12
+    }
+  ],
+  "editorialUse": "Visible queries already map to existing guides; do not create duplicate URLs. This snapshot does not establish demand for the new transfer question.",
+  "indexing": {
+    "updated": "2026-11-09",
+    "scope": "All known pages",
+    "indexed": 119,
+    "notIndexed": 10,
+    "reasons": {
+      "pageWithRedirect": 3,
+      "notFound": 1,
+      "discoveredCurrentlyNotIndexed": 6,
+      "crawledCurrentlyNotIndexed": 0
+    },
+    "notFoundExample": "http://meluvya.com/love-at-first-sight/2011/11/13/16/56/30/620/love-at-first-sight-turquoise-print/",
+    "notFoundDecision": "Historical unrelated URL outside the current library; no speculative redirect or validation request.",
+    "newArticleIndexing": "Not yet published; no indexing request made."
+  }
+}

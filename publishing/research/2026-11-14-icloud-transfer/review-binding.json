@@ -1,0 +1,10 @@
+{
+  "nonce": "ec77d135423f8064b70625c50f44910b",
+  "files": {
+    "src/lib/articles.ts": "c2edcdc6398000006c6164c54c1424ab10233f1e97bfed844555a953127e231b",
+    "out/blog/transfer-icloud-photos-to-google-photos/index.html": "c7f80521cc276a48769e7179753e280b21000b01eb8787d80e4824a21b330af8",
+    "out/blog/icloud-photos-sync-vs-backup/index.html": "c8cd31dfcc414c83c0629395850892f0f75e92558ac4f2fffbd4f00988c4d00a",
+    "public/img/blog/pexels-7129664-4k.webp": "0b6c33332f65f9e94f6adfd679b190f5acbd2c1ed39c17c5555bb987c41ab864"
+  },
+  "buildDirectory": "/private/tmp/meluvya-nov14-build"
+}

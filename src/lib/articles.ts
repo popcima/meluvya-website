@@ -30,6 +30,170 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "transfer-icloud-photos-to-google-photos",
+  "title": "Transfer iCloud Photos to Google Photos: what to check first",
+  "description": "Copy iCloud Photos to Google Photos, understand transfer limits, and check edits, albums and missing items before changing your original library.",
+  "summary": "Move a usable collection with a clear record of what arrived and what still needs preserving.",
+  "published": "2026-11-14",
+  "modified": "2026-11-14",
+  "quickAnswer": "Request a copy through Apple’s Data & Privacy website and select Google Photos as the destination. This leaves the iCloud collection in place. It is a one-time transfer, so future additions do not automatically follow. Check your destination account and the formats you need before starting.",
+  "sections": [
+    {
+      "id": "before-starting",
+      "title": "Check the account, storage and security tradeoff",
+      "paragraphs": [
+        "Apple requires iCloud Photos, two-factor authentication and enough Google storage. Child accounts and Managed Apple Accounts are not eligible. Advanced Data Protection must be off for this transfer route.",
+        "That last requirement changes your protection settings. Apple explains that switching it off returns the account to standard data protection, with the required encryption keys held by Apple. Decide whether that tradeoff fits your needs; do not treat it as a routine troubleshooting toggle.",
+        "Google storage is shared with services including Gmail and Drive. Free space on your phone does not establish available space in your Google Account. Review the destination account’s actual storage before authorizing the copy."
+      ]
+    },
+    {
+      "id": "request-copy",
+      "title": "Request the copy from Apple",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Open privacy.apple.com and sign in to the Apple Account that owns the collection."
+          },
+          {
+            "text": "Choose “Request to transfer a copy of your data,” then follow the prompts for Google Photos."
+          },
+          {
+            "text": "Sign in to the intended Google Account. Read the selection and storage information before completing the request."
+          },
+          {
+            "text": "Keep the confirmation and check progress on Apple’s Data & Privacy page. Apple sends another email when the transfer completes."
+          }
+        ]
+      },
+      "paragraphs": [
+        "Apple’s current guidance says most transfers take three to seven days, while some take up to 30. Avoid repeated requests simply because the first few days pass without completion."
+      ]
+    },
+    {
+      "id": "what-arrives",
+      "title": "Expect a collection copy, with limits",
+      "table": {
+        "headers": [
+          "Item",
+          "What to expect"
+        ],
+        "rows": [
+          [
+            "Edited pictures",
+            "Google describes transferring the latest edited version. Do not rely on this for an untouched original."
+          ],
+          [
+            "Albums and videos",
+            "Photos may retain album grouping; videos arrive outside their albums. Look for names beginning with “Copy of.”"
+          ],
+          [
+            "Live Photos and shared collections",
+            "Google excludes Live Photo motion, Shared Albums and Smart Albums. Plan separately for these."
+          ],
+          [
+            "Items already in Google Photos",
+            "Google may keep one copy of an item already present. An exact count match is not a reliable completion test."
+          ]
+        ]
+      },
+      "paragraphs": [
+        "Apple also warns that some metadata and formats may be missing. Save anything essential separately before using this as your main collection. Do not assume an album name proves that all of its contents arrived."
+      ]
+    },
+    {
+      "id": "check-arrival",
+      "title": "Build a small transfer check sheet",
+      "paragraphs": [
+        "Before starting, write down a few recognizable items you will look for afterward. Use a mix that exposes different problems: a cropped portrait, an old scan, a short video and a favorite from a named album. Record the date and the version you want to retain.",
+        "After completion, open those items in the destination account. Compare the portrait’s crop, play the video and find the album’s photographs. Record a specific result such as “portrait present, edited crop matches” or “video found outside the album.” A thumbnail-only check is too shallow to settle these questions.",
+        "This is a suggested inspection method, not a report of a tested migration. A sample can reveal gaps; it cannot certify the entire library. If your collection is irreplaceable, keep a separate archive and resolve discrepancies before removing anything."
+      ]
+    },
+    {
+      "id": "missing-items",
+      "title": "If something is missing, classify the gap",
+      "paragraphs": [
+        "First confirm you are viewing the destination account used in the request. Then compare the missing item against the exclusions above, its location in your original library, and the time you added it. Apple notes that changes during transfer may be omitted, and insufficient destination storage can leave the copy incomplete.",
+        "Use a short log with three columns: item, expected version and observed problem. “Motion missing from a Live Photo” calls for a different preservation choice than “ordinary photograph absent from the correct account.” Keep that distinction when consulting the linked support pages.",
+        "Do not start bulk deletion or repeated imports while the gap is unexplained. Keep the source available so you can compare a known item again."
+      ]
+    },
+    {
+      "id": "after-transfer",
+      "title": "Choose a plan for new photographs",
+      "paragraphs": [
+        "Google says later iCloud additions will not sync through this one-time request. Decide where new captures will go after the move; completion of this copy does not make that decision for you.",
+        "Write a dated handover note: which account received the copy, which items remain unresolved, and where your independent archive lives. If you continue using both photo services, revisit that note before deleting or reorganizing either collection. The related guides below explain iCloud synchronization and Google Takeout archives."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I cancel the transfer and remove the copied items automatically?",
+      "answer": "Cancellation does not undo everything already copied. Google says items that arrived before cancellation remain in Google Photos. Review those separately if you no longer want them there."
+    },
+    {
+      "question": "Does this preserve every version of my edited photo?",
+      "answer": "No. Plan around the latest edited version arriving. If the untouched source matters for future editing, preserve it separately before relying on the transferred collection."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple: transfer a copy of your iCloud Photos collection",
+      "url": "https://support.apple.com/en-us/118257",
+      "note": "Eligibility, security prerequisite, timing, copy request and incomplete-transfer limits; checked November 14, 2026."
+    },
+    {
+      "title": "Google Photos: transfer iCloud photos and videos",
+      "url": "https://support.google.com/photos/answer/10502587?hl=en",
+      "note": "One-time scope, edits, album handling, exclusions, duplicates and cancellation; checked November 14, 2026."
+    },
+    {
+      "title": "Apple: iCloud data security overview",
+      "url": "https://support.apple.com/en-us/102651",
+      "note": "Explains the protection change when Advanced Data Protection is disabled; checked November 14, 2026."
+    },
+    {
+      "title": "Google One: manage storage in Drive, Gmail and Photos",
+      "url": "https://support.google.com/googleone/answer/6374270?hl=en",
+      "note": "Google Account storage is shared across services; checked November 14, 2026."
+    }
+  ],
+  "related": [
+    "icloud-photos-sync-vs-backup",
+    "download-google-photos-with-takeout",
+    "google-photos-original-vs-storage-saver"
+  ],
+  "image": "blog/pexels-7129664-4k.webp",
+  "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7129664-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7129664-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7129664-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7129664-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Michael Burrows",
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+  },
+  "caption": "Illustrative stock photograph of a photo library on a laptop; not a transfer screenshot or a Meluvya result."
+},
+{
   "slug": "stop-sharing-google-photos-album",
   "title": "How to stop sharing a Google Photos album",
   "description": "Remove album members and disable link sharing in Google Photos. Understand saved copies, collaboration controls, and how to check an old sharing link.",
@@ -9069,6 +9233,7 @@ export const articles: Article[] = [
     }
   ],
   "related": [
+      "transfer-icloud-photos-to-google-photos",
     "edit-photos-without-losing-original",
     "jpeg-heic-png-photo-formats",
     "airdrop-photos-original-data"

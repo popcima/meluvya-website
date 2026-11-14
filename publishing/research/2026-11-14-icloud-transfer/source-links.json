@@ -1,0 +1,36 @@
+[
+  {
+    "url": "https://support.apple.com/en-us/118257",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/118257",
+    "bytesRead": 166190
+  },
+  {
+    "url": "https://support.google.com/photos/answer/10502587?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/10502587?hl=en",
+    "bytesRead": 1638537
+  },
+  {
+    "url": "https://support.apple.com/en-us/102651",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/102651",
+    "bytesRead": 197835
+  },
+  {
+    "url": "https://support.google.com/googleone/answer/6374270?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/googleone/answer/6374270?hl=en",
+    "bytesRead": 1727269
+  },
+  {
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://meluvya.com/blog/stop-sharing-google-photos-album/",
+    "status": 200,
+    "finalUrl": "https://meluvya.com/blog/stop-sharing-google-photos-album/",
+    "bytesRead": 52243
+  }
+]

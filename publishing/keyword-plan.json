@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-11-14",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -1769,6 +1769,25 @@
       "metricsGeography": null,
       "metricsPeriod": null,
       "researchRecord": "2026-10-30-album-sharing/batch.json"
+    },
+    {
+      "id": "transfer-icloud-photos-to-google-photos",
+      "primaryKeyword": "transfer icloud photos to google photos",
+      "relatedKeywords": [
+        "move icloud photos to google photos",
+        "icloud to google photos missing photos",
+        "icloud google photos transfer live photos"
+      ],
+      "intent": "Copy an existing iCloud collection to Google Photos and verify what survives.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "transfer-icloud-photos-to-google-photos",
+      "validation": "Primary-source workflow and distinct-intent review; no measured keyword demand.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": "Worldwide English target, not measured demand",
+      "metricsPeriod": null,
+      "researchRecord": "research/2026-11-14-icloud-transfer/batch.json"
     }
   ]
 }
