@@ -1150,9 +1150,9 @@ export const articles: Article[] = [
 {
   "slug": "icloud-shared-library-vs-shared-albums",
   "title": "iCloud Shared Photo Library vs Shared Albums: which fits your photos?",
-  "description": "Compare iCloud Shared Photo Library and Shared Albums by collaboration, storage and control. Choose a sharing method before moving personal photos.",
+  "description": "Compare iCloud Shared Photo Library and Shared Albums by control and storage. Find moved photos and troubleshoot read-only album access.",
   "summary": "Choose based on who should manage the collection, not just who should be able to see a picture.",
-  "quickAnswer": "Use iCloud Shared Photo Library when a small group should jointly manage photos, including edits and deletions. Use Shared Albums for a selected collection with album-specific contribution settings. Shared Library content uses the organizer’s iCloud storage; Shared Albums do not count toward that quota. Review what you share before enabling automatic camera contributions.",
+  "quickAnswer": "Choose iCloud Shared Photo Library for joint management: participants can add, edit and delete photos, and the creator supplies the storage. Shared Albums organize selected collections with their own access settings. Check the album’s storage rules and software compatibility; do not assume every Shared Album is exempt from the owner’s iCloud quota.",
   "sections": [
     {
       "id": "different-jobs",
@@ -1176,7 +1176,7 @@ export const articles: Article[] = [
           [
             "Storage responsibility",
             "Content counts toward the organizer’s iCloud storage.",
-            "Does not count toward iCloud storage quota."
+            "Check the album’s applicable rules and the owner’s available storage; a blanket no-quota assumption is unsafe."
           ],
           [
             "Suitable starting question",
@@ -1195,10 +1195,27 @@ export const articles: Article[] = [
       "id": "moving-photos",
       "title": "Understand what happens to contributed photos",
       "paragraphs": [
-        "Apple states that items contributed to a Shared Library move out of the Personal Library into the shared collection. They can therefore seem absent if you are looking only at the personal view. Check the library view before treating that change as data loss.",
-        "Apple also documents that everyone in the Shared Library can edit or delete content. Do not use it as if each participant had view-only access. Agree how the group will handle rejected shots, alternative edits and important originals before adding a large collection.",
+        "Contributed items move from Personal Library to Shared Library. If photographs seem to disappear after you join, check which library you are viewing before attempting recovery or importing another copy.",
+        "Everyone in a Shared Library can edit or delete its content. Agree how the group will handle rejected shots, alternative edits and important originals before adding a large collection.",
         "An independent copy remains useful when a picture matters. Shared access and a separate recovery copy solve different problems; a collaborative collection should not be your only plan for protecting a one-off image."
-      ]
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Open the library view controls.",
+            "text": "In iOS 27 or later, open Photos > Library > Sort and Filter > Library View. On iOS 26, start from Library > Sort and Filter, or Collections > More."
+          },
+          {
+            "title": "Choose Both Libraries.",
+            "text": "Look for one recognizable photograph using its date or subject. This lets you check the view without moving or deleting the item."
+          },
+          {
+            "title": "Identify its collection.",
+            "text": "Apple uses a Shared Library indicator on shared items when that indicator is enabled. Note where the photograph belongs before changing your sharing setup."
+          }
+        ]
+      }
     },
     {
       "id": "choose-deliberately",
@@ -1239,6 +1256,15 @@ export const articles: Article[] = [
       ]
     },
     {
+      "id": "read-only-album",
+      "title": "If a shared album is read-only, check versions and access",
+      "paragraphs": [
+        "Apple says albums created in version 27 or upgraded by their owner can appear read-only on older software. Its troubleshooting guidance recommends compatible updated software or viewing the album on iCloud.com to regain contribution features.",
+        "Check whether another participant or the web view can see the same album, then review the owner’s storage if syncing has stopped. A read-only album is a different problem from looking at the wrong Personal or Shared Library view.",
+        "For example, record whether the missing ability is adding a picture, viewing existing pictures or finding a particular frame. That short description helps you choose the relevant check without repeatedly changing unrelated settings. This is a suggested diagnostic process, not a device test."
+      ]
+    },
+    {
       "id": "quality-and-limits",
       "title": "Keep quality and recovery checks separate",
       "paragraphs": [
@@ -1254,20 +1280,24 @@ export const articles: Article[] = [
       "answer": "No. It gives participants joint management of a separate photo library. A shared album has its own audience and contribution settings."
     },
     {
-      "question": "Who pays the iCloud storage cost for Shared Library content?",
-      "answer": "Apple counts the content against the library organizer’s storage. Shared Albums use a different quota model and do not count toward that iCloud storage quota."
+      "question": "Whose iCloud storage should I check?",
+      "answer": "For Shared Photo Library, check the creator’s quota. For Shared Albums, consult the rules for that album and check the owner’s available storage; Apple’s current troubleshooting guidance explicitly includes that check."
+    },
+    {
+      "question": "Did joining a Shared Library delete my personal photos?",
+      "answer": "Items you contribute move into the shared collection. Check Both Libraries and the Shared Library indicator before assuming a missing item was deleted."
     }
   ],
   "sources": [
     {
-      "title": "Apple: iCloud photo-sharing options",
-      "url": "https://support.apple.com/guide/icloud/what-you-can-do-with-icloud-and-photos-mm8b32f3ae27/1.0/icloud/1.0",
-      "note": "Compares collaboration, public albums and storage responsibility. Checked October 26, 2026."
-    },
-    {
       "title": "Apple: use iCloud Shared Photo Library",
       "url": "https://support.apple.com/en-us/118229",
-      "note": "Movement from Personal Library, participant permissions, camera sharing and storage limits. Checked October 26, 2026."
+      "note": "Participant control, creator storage, movement between libraries, version-specific view controls and camera sharing. Rechecked November 15, 2026."
+    },
+    {
+      "title": "Apple: if you cannot see or interact with a shared album",
+      "url": "https://support.apple.com/en-us/127876",
+      "note": "Owner storage checks and read-only access on older software for albums created or upgraded to version 27. Checked November 15, 2026."
     }
   ],
   "related": [
@@ -1276,7 +1306,7 @@ export const articles: Article[] = [
     "airdrop-photos-original-data"
   ],
   "published": "2026-10-26",
-  "modified": "2026-10-26",
+  "modified": "2026-11-15",
   "image": "blog/pexels-30861211-4k.webp",
   "imageAlt": "Camera beside a laptop displaying photographs for review",
   "caption": "Illustrative stock photograph; not a Meluvya result or a test of the technique.",

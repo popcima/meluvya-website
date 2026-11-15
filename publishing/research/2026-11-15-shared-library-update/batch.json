@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-15",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "72e18e808481c079339e12628e7bd1cc2c2cc2e9",
+  "baseline": {
+    "articles": 113,
+    "publishedToday": 0,
+    "eligibleQueuedArticles": 0,
+    "remoteMatches": true,
+    "deployment": 43610305066,
+    "deploymentStatus": "success"
+  },
+  "newArticles": [],
+  "updatedArticles": [
+    "icloud-shared-library-vs-shared-albums"
+  ],
+  "editorialDecision": "Improve the existing comparison: it contradicted the separate quality guide by claiming every Shared Album was quota-free. Replace that blanket statement with a supported owner-storage check, add actionable library-view controls and distinguish read-only album compatibility. Avoid duplicate URLs for already-covered sharing choices.",
+  "originalContribution": "Symptom-based distinction among missing frames, wrong library view and inability to contribute; clearly an editorial diagnostic suggestion, not a device test.",
+  "sources": [
+    {
+      "title": "Apple: use iCloud Shared Photo Library",
+      "url": "https://support.apple.com/en-us/118229",
+      "note": "Participant control, creator storage, movement between libraries, version-specific view controls and camera sharing. Rechecked November 15, 2026."
+    },
+    {
+      "title": "Apple: if you cannot see or interact with a shared album",
+      "url": "https://support.apple.com/en-us/127876",
+      "note": "Owner storage checks and read-only access on older software for albums created or upgraded to version 27. Checked November 15, 2026."
+    }
+  ],
+  "searchConsoleEvidence": {
+    "record": "../2026-11-14-icloud-transfer/search-console.json",
+    "retrieved": "2026-11-14",
+    "property": "sc-domain:meluvya.com",
+    "provider": "Google Search Console visible UI",
+    "geography": "All countries",
+    "searchType": "Web",
+    "displayedPeriod": {
+      "from": "2026-10-19",
+      "to": "2026-11-11"
+    },
+    "query": "shared library",
+    "clicks": 0,
+    "impressions": 37,
+    "reason": "This observed query already maps to the comparison. It motivates clearer coverage but is not monthly search volume. No fresh authenticated browser access available this run."
+  },
+  "metrics": {
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "provider": null,
+    "geography": "Worldwide English target, not a measured keyword database",
+    "period": null,
+    "retrieved": "2026-11-15"
+  },
+  "accessLimits": [
+    {
+      "url": "https://support.apple.com/en-us/148868",
+      "status": 429
+    },
+    {
+      "url": "https://support.apple.com/guide/icloud/what-you-can-do-with-icloud-and-photos-mm8b32f3ae27/1.0/icloud/1.0",
+      "status": 429
+    },
+    {
+      "url": "https://support.apple.com/en-us/108314?os=ios-27",
+      "status": 429
+    }
+  ],
+  "accessDecision": "No retry of rate-limited pages or access-control bypass. Two accessible primary documents support the final changes. Avoid adding exact album-size or resolution claims. Existing separate quality guide left unchanged; its detailed limits require a future source recheck.",
+  "asset": "Existing licensed Ebahir photograph and responsive variants retained.",
+  "dates": "First publication October 26 retained; substantive modification dated November 15.",
+  "validation": {
+    "status": "PASS: technical and independent editorial checks complete",
+    "content": "PASS with baseline 72e18e8; 113 articles; 0 new today; 30 remaining",
+    "lint": "PASS",
+    "build": "PASS: production webpack; SITE_URL=https://meluvya.com; empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "PASS: 126 routes; 113 article pages; 6473 local links/assets",
+    "seo": "PASS: 113 guides linked and attributed; canonicals and schema match",
+    "browser": "PASS: 390/768/1280px; 6 store-dialog checks; Escape and focus restoration; images decode; no page errors or page overflow",
+    "pagination": {
+      "counts": [
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        12,
+        5
+      ],
+      "uniqueArticles": 113
+    },
+    "visual": "Hero, CTA and new troubleshooting sections inspected on mobile; desktop hero inspected. Existing table scroll retained.",
+    "dates": "113 first-publication dates preserved; modified 2026-11-15 only for revised guide",
+    "existingContent": "All 112 other articles unchanged",
+    "sitemap": "126 stable URLs; revised guide lastmod 2026-11-15",
+    "robots": "Allow / and canonical sitemap URL preserved",
+    "sourceLinks": "Two current Apple sources HTTP 200; existing Pexels credit 403 documented with licensed local image exception; 429 sources not retried",
+    "indexing": "No repeat request for unchanged URL; no fresh indexing claim",
+    "checkout": "Reused verified clean temporary publication checkout and existing locked dependencies because primary Documents dependencies were previously offloaded by iCloud. Original checkout clean at start; sync after normal push.",
+    "evidenceDirectory": "work/blog-shared-library-20261115",
+    "editorialReview": {
+      "report": "editorial-review.md",
+      "score": 93,
+      "maximum": 100,
+      "blocking": false,
+      "p0Issues": 0,
+      "nonce": "263cd62596fb1522c1d78850dac718fa",
+      "hashesVerified": true
+    }
+  },
+  "publication": {
+    "state": "Approved for normal push; deployment and live verification pending",
+    "url": "https://meluvya.com/blog/icloud-shared-library-vs-shared-albums/"
+  }
+}

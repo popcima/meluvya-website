@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://support.apple.com/en-us/118229",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/118229",
+    "bytesRead": 170285
+  },
+  {
+    "url": "https://support.apple.com/en-us/127876",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/127876",
+    "bytesRead": 157071
+  },
+  {
+    "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

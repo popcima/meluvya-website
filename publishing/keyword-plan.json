@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -1701,17 +1701,21 @@
     {
       "id": "icloud-shared-library-vs-shared-albums",
       "primaryKeyword": "icloud shared library vs shared albums",
-      "relatedKeywords": [],
+      "relatedKeywords": [
+        "shared library",
+        "shared library photos missing",
+        "shared album read only"
+      ],
       "intent": "Choose sharing permissions and storage responsibility for a group.",
       "status": "included_in_publication_commit",
       "articleSlug": "icloud-shared-library-vs-shared-albums",
-      "validation": "Distinct-intent review and official-source check; see October 26 additional batch record.",
+      "validation": "Existing comparison improved using November 14 Search Console evidence and November 15 primary-source checks; no new URL for adjacent view or compatibility questions.",
       "monthlySearchVolume": null,
       "organicDifficulty": null,
       "metricsProvider": null,
       "metricsGeography": null,
       "metricsPeriod": null,
-      "researchRecord": "2026-10-26-more-guides/batch.json"
+      "researchRecord": "research/2026-11-15-shared-library-update/batch.json"
     },
     {
       "id": "convert-heic-to-jpg-iphone",
