@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://support.apple.com/en-us/148868",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/148868",
+    "bytesRead": 158324,
+    "publicDNS": true
+  },
+  {
+    "url": "https://support.apple.com/en-us/108916",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/108916",
+    "bytesRead": 160967,
+    "publicDNS": true
+  },
+  {
+    "url": "https://support.apple.com/en-us/148676",
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/148676",
+    "bytesRead": 157615,
+    "publicDNS": true
+  },
+  {
+    "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/",
+    "status": 403,
+    "finalUrl": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/",
+    "publicDNS": true
+  }
+]

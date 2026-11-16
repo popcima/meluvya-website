@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "e20d4c8ebdd5eb2c78cc536623150f58a3adb72f",
+  "baseline": {
+    "articles": 113,
+    "publishedToday": 0,
+    "eligibleQueuedArticles": 0,
+    "remoteMatches": true,
+    "deployment": 43748234706,
+    "deploymentStatus": "success"
+  },
+  "newArticles": [],
+  "updatedArticles": [
+    "icloud-shared-albums-photo-quality"
+  ],
+  "editorialDecision": "Expand the existing Shared Albums quality guide with owner-upgrade behavior and a file-comparison checklist. The prior guide recognized creation-version differences but omitted upgrade steps and the storage exception for items already present. This is the same quality-and-delivery intent; do not create a second URL.",
+  "alternativesConsidered": [
+    {
+      "question": "Google Photos Partner sharing, saved copies and storage",
+      "decision": "Deferred. Distinct from album access controls, but no measured query evidence or completed brief today. Prioritize the identified gap in an existing article."
+    }
+  ],
+  "originalContribution": "A four-step received-file comparison workflow and an editorial choice between one-original delivery and an album upgrade. These are recommendations, not a hands-on experiment.",
+  "keywordMapping": {
+    "primary": "icloud shared albums photo quality",
+    "variants": [
+      "upgrade shared album photo quality",
+      "shared album full resolution",
+      "upgraded shared album storage"
+    ],
+    "intent": "Decide whether a received Shared Album file is fit for printing or editing, including upgraded albums."
+  },
+  "research": {
+    "provider": "Free web search and direct Apple Support documents",
+    "geography": "English worldwide target; search geolocation not controlled",
+    "retrieved": "2026-11-16",
+    "queries": [
+      "site:support.google.com/photos partner sharing save photos stop sharing storage",
+      "site:support.apple.com shared albums photo resolution iOS 27 storage"
+    ],
+    "searchVolume": null,
+    "organicDifficulty": null,
+    "metricsPeriod": null,
+    "reason": "Search results identify documentation and questions, not demand measurements. No paid tools retried."
+  },
+  "searchConsole": {
+    "freshDataAvailable": false,
+    "historicalRecord": "../2026-11-14-icloud-transfer/search-console.json",
+    "retrieved": "2026-11-14",
+    "period": "2026-10-19 through 2026-11-11 displayed; all countries; Web",
+    "editorialUse": "Observed shared-library and photo-backup-quality queries already map to existing guides. No exact-query demand or ranking claim for this update."
+  },
+  "sources": [
+    {
+      "title": "Apple: Shared Albums limits",
+      "url": "https://support.apple.com/en-us/148868",
+      "note": "Album creation versions, resolution limits, owner storage and the temporary-album exception; rechecked November 16, 2026.",
+      "provider": "Apple Support",
+      "retrieved": "2026-11-16",
+      "documentPublished": "2026-09-14",
+      "webFetchStatus": 200
+    },
+    {
+      "title": "Apple: upgrade your shared albums",
+      "url": "https://support.apple.com/en-us/108916",
+      "note": "Owner upgrade steps, participant compatibility, new-upload resolution and storage treatment of existing versus new items; checked November 16, 2026.",
+      "provider": "Apple Support",
+      "retrieved": "2026-11-16",
+      "documentPublished": "2026-09-14",
+      "webFetchStatus": 200
+    },
+    {
+      "title": "Apple: file types in Shared Albums",
+      "url": "https://support.apple.com/en-us/148676",
+      "note": "Original-format storage on supported software and the information limitation for older downloads; rechecked November 16, 2026.",
+      "provider": "Apple Support",
+      "retrieved": "2026-11-16",
+      "documentPublished": "2026-09-14",
+      "webFetchStatus": 200
+    }
+  ],
+  "accessLimits": [
+    {
+      "url": "https://support.apple.com/en-us/148570",
+      "status": 429
+    },
+    {
+      "url": "https://support.apple.com/en-us/108314",
+      "status": 429
+    }
+  ],
+  "accessDecision": "Did not retry rate-limited documents through another client. Removed the saving-page citation and specific save-menu claims; kept a generic inspection workflow. Freshly accessible limits, upgrade and format documents support the revised facts.",
+  "asset": "Existing licensed Ebahir photograph and all responsive variants retained; license/acquisition record in publishing/image-sources.json. No new image claims.",
+  "dates": {
+    "published": "2026-10-23",
+    "modified": "2026-11-16",
+    "reason": "Substantive expansion; first-publication date retained."
+  },
+  "validation": {
+    "status": "PASS: technical and independent editorial checks complete",
+    "checkout": "Primary checkout was clean and matched deployed main. Its iCloud-offloaded dependency reads stalled; stopped those reads and used a clean temporary clone with locked npm ci dependencies. Primary checkout will only be fast-forwarded after publication.",
+    "content": "PASS with starting commit; 113 articles; zero new today",
+    "lint": "PASS",
+    "build": "PASS: production webpack, SITE_URL=https://meluvya.com and empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "PASS:126 routes, 113 article pages, 6474 local links/assets",
+    "seo": "PASS:113 guides linked and attributed;5 visible update dates",
+    "browser": "PASS:390/768/1280px, all images decode, no page errors or global overflow, 6 download-dialog checks with Escape and focus restoration",
+    "pagination": "10 pages;12 each for pages1\u20139,5 on page10;113 unique articles",
+    "visual": "Mobile hero, comparison table, upgrade/storage/checklist sections and download CTA inspected; desktop hero inspected",
+    "sourceLinks": "Three Apple sources returned HTTP200; existing Pexels credit403 with exact licensed-asset exception; rate-limited sources not retried",
+    "dates": "All first-publication dates retained; other112 article objects unchanged",
+    "sitemap": "126 stableURLs, revised guide lastmod2026-11-16",
+    "robots": "Allow / and canonical sitemap retained",
+    "indexing": "No indexing request for unchanged URL; no fresh indexing assertion",
+    "evidenceDirectory": "work/blog-album-quality-20261116",
+    "editorialReview": {
+      "report": "editorial-review.md",
+      "score": 92,
+      "maximum": 100,
+      "blocking": false,
+      "p0Issues": 0,
+      "nonce": "08b82620ac9e5b1c5325845a03b84cd8",
+      "hashesVerified": true
+    }
+  },
+  "publication": {
+    "state": "Approved for normal push; deployment and live verification pending",
+    "url": "https://meluvya.com/blog/icloud-shared-albums-photo-quality/"
+  }
+}

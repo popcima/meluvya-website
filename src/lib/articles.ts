@@ -4482,25 +4482,25 @@ export const articles: Article[] = [
 {
   "slug": "icloud-shared-albums-photo-quality",
   "title": "Does iCloud Shared Albums reduce photo quality? Check the version",
-  "description": "Understand Shared Albums quality differences by creation version, save a received picture, and verify its dimensions before printing or editing.",
+  "description": "Check iCloud Shared Albums photo quality, what an album upgrade changes, who pays for storage, and how to compare a received file before printing or editing.",
   "summary": "Decide whether a Shared Album copy is suitable for your intended use.",
   "published": "2026-10-23",
-  "modified": "2026-10-23",
-  "quickAnswer": "The answer depends on the album’s creation version. Apple documents reduced-resolution behavior for albums created in version 26 or earlier, and full-resolution storage for albums created in version 27 or later on supported software. Verify the received file before relying on it.",
+  "modified": "2026-11-16",
+  "quickAnswer": "Older Shared Albums can deliver reduced-resolution copies. Albums created with Apple\u2019s version 27 software support full-resolution sharing; an owner can also upgrade an older album for new uploads. Check the album\u2019s history and the actual received file before using it for a print or detailed edit.",
   "sections": [
     {
       "id": "version",
-      "title": "Check the album, not just today’s phone version",
+      "title": "Check the album\u2019s history, not just your phone version",
       "paragraphs": [
-        "Apple’s current Shared Albums limits page distinguishes albums by the software version in which they were created. Do not assume that updating one device converts every older album. The documentation reviewed here does not establish that automatic conversion.",
-        "Ask the owner how the album was created when a particular file matters. If that information is unavailable, examine an actual saved copy and compare it with the source instead of guessing from a crisp thumbnail."
+        "Apple distinguishes older albums from those created in iOS 27, iPadOS 27, visionOS 27 or macOS 27 and later. Its upgrade guide confirms that an older album stays in its previous form until its owner upgrades it. Updating a participant\u2019s phone is a separate action.",
+        "Ask the owner whether the album was created recently or upgraded. If that information is unavailable, examine an actual saved copy and compare it with the source instead of guessing from a crisp thumbnail."
       ]
     },
     {
       "id": "comparison",
       "title": "Compare the documented quality behavior",
       "paragraphs": [
-        "These are Apple’s documented version conditions, not a claim that every device or region has identical feature availability."
+        "These are Apple\u2019s documented version conditions, not a claim that every device or region has identical feature availability."
       ],
       "table": {
         "headers": [
@@ -4509,35 +4509,69 @@ export const articles: Article[] = [
         ],
         "rows": [
           [
-            "Created in version 26 or earlier",
-            "Photos reduced to 2048 pixels on the long edge; panoramas can be up to 5400 pixels wide; video delivered at up to 720p"
+            "Older album, not upgraded",
+            "Photos can be reduced to 2048 pixels on the long edge; panoramas can reach 5400 pixels wide; video is delivered at up to 720p."
           ],
           [
-            "Created in version 27 or later, with supported software",
-            "Photos and videos stored in their original formats at full resolution"
+            "New album created with version 27 or later",
+            "Photos and videos are stored in their original formats at full resolution on supported software."
+          ],
+          [
+            "Older album upgraded by its owner",
+            "New uploads use original resolution; check previously saved files separately."
           ]
         ]
       }
     },
     {
+      "id": "upgrade",
+      "title": "Before upgrading an older album",
+      "paragraphs": [
+        "Apple\u2019s iPhone and iPad route is Photos > Collections > Shared Albums. Open an album you own, choose More > Upgrade Shared Album, and follow the prompts. Use software that supports the upgrade.",
+        "An upgraded album requires iOS 27, iPadOS 27 or macOS 27 and later, or access through iCloud.com. Before changing a family collection, check how its participants will open it.",
+        "Decide whether your task needs an album-wide change. If one person needs a single portrait for a print, transferring that original separately may be simpler. If the group wants to share future photos at full resolution, first agree on access and the owner\u2019s storage budget."
+      ]
+    },
+    {
       "id": "storage",
       "title": "Check storage and information separately",
       "paragraphs": [
-        "Apple says ordinary version 27-or-later albums count toward the owner’s iCloud storage, including participant contributions; temporary shared albums are an exception. Version 26-or-earlier albums do not count toward that storage allowance.",
-        "Apple’s file-type documentation also warns that older-version downloaded content may not contain the same information as the original. Pixel dimensions, editing flexibility and retained information are different things to check. A large-looking image should not be treated as proof that every property you need survived."
+        "New version-27-or-later albums use the owner\u2019s iCloud allowance, including items contributed by others. Temporary shared albums are an exception. Older albums that have not been upgraded do not use that allowance.",
+        "Upgraded albums have a further distinction: Apple says the items already in the album remain exempt, while new additions use the owner\u2019s storage. Estimate future additions separately from the collection already there.",
+        "Apple\u2019s file-type guidance warns that downloads from older Shared Albums may omit information from the original. Dimensions, editable content and retained metadata are separate checks. Full resolution describes pixel detail; it is not a reason to skip checking the properties your project needs."
       ]
     },
     {
       "id": "save",
-      "title": "Save a copy and inspect it",
+      "title": "Compare a saved copy with the source",
       "paragraphs": [
-        "Apple’s saving instructions use Photos → Collections → Shared Albums. Open the album and item, then Share → Save Image. Shared content is not automatically saved to your device, and comments or likes do not accompany the saved image.",
-        "Choose one identifiable picture for the check. Compare the saved file’s dimensions with the source and inspect the part you intend to crop or print. If someone sent several similar frames, confirm that you are comparing the same frame. Do not delete the source while evaluating a substitute."
-      ]
+        "Work with a saved or downloaded file, not just an album preview. Keep the source while checking the received version. The following checklist is a suggested inspection workflow, not a device test or a guarantee that two files will match."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Match the frame.",
+            "text": "Choose one recognizable photo and confirm that the pose, crop and moment match. Similar pictures from the same burst can make a comparison misleading."
+          },
+          {
+            "title": "Write down both dimensions.",
+            "text": "Use the information view in your photo app or file viewer to record width and height for the source and received copy. File size alone cannot explain which detail survived."
+          },
+          {
+            "title": "Inspect the intended crop.",
+            "text": "Compare a face, clothing texture or small lettering in the area you plan to use. Judge it at the intended output size as well as zoomed in."
+          },
+          {
+            "title": "Record the next action.",
+            "text": "Note \u201cusable for this print,\u201d \u201crequest the original,\u201d or the specific property still unconfirmed. If dimensions match but a caption or edit matters, check that separately."
+          }
+        ]
+      }
     },
     {
       "id": "choose-delivery",
-      "title": "Choose delivery for the recipient’s task",
+      "title": "Choose delivery for the recipient\u2019s task",
       "paragraphs": [
         "For a family conversation, a convenient viewing copy may be sufficient. For a large print, detailed crop or further editing, ask the recipient what they need before transferring the whole collection.",
         "For example, if a friend chooses one holiday portrait for a print, send that selected source through an appropriate original-file workflow and verify the received result. This avoids treating a shared browsing collection as a production handoff. Use the separate AirDrop guide for its transfer options.",
@@ -4547,8 +4581,8 @@ export const articles: Article[] = [
   ],
   "faq": [
     {
-      "question": "Will updating my iPhone restore detail in an old downloaded copy?",
-      "answer": "Do not assume that it will. Obtain the source again and compare the files; a software update is not evidence that an existing reduced copy gained missing detail."
+      "question": "Does upgrading an album restore detail in old downloaded copies?",
+      "answer": "Apple\u2019s upgrade guidance promises original resolution for new additions, not restored detail in files already downloaded. Request the source again when an older copy is too small for your planned use."
     },
     {
       "question": "Can I judge quality from the album preview?",
@@ -4559,17 +4593,17 @@ export const articles: Article[] = [
     {
       "title": "Apple: Shared Albums limits",
       "url": "https://support.apple.com/en-us/148868",
-      "note": "Creation-version conditions, resolution and storage accounting."
+      "note": "Album creation versions, resolution limits, owner storage and the temporary-album exception; rechecked November 16, 2026."
     },
     {
-      "title": "Apple: File types in Shared Albums",
+      "title": "Apple: upgrade your shared albums",
+      "url": "https://support.apple.com/en-us/108916",
+      "note": "Owner upgrade steps, participant compatibility, new-upload resolution and storage treatment of existing versus new items; checked November 16, 2026."
+    },
+    {
+      "title": "Apple: file types in Shared Albums",
       "url": "https://support.apple.com/en-us/148676",
-      "note": "Older-version downloaded information and supported formats."
-    },
-    {
-      "title": "Apple: Save photos from a shared album",
-      "url": "https://support.apple.com/en-us/148570",
-      "note": "Saving route and what is retained with the saved copy."
+      "note": "Original-format storage on supported software and the information limitation for older downloads; rechecked November 16, 2026."
     }
   ],
   "related": [
