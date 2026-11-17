@@ -1,0 +1,10 @@
+{
+  "nonce": "0bfabcccfc3435f1a55b84ed9eaea3e0",
+  "created": "2026-11-17",
+  "method": "Project TypeScript/static-HTML adaptation of the installed blog review contract; no PDF pipeline substitution",
+  "sha256": {
+    "src/lib/articles.ts": "6c0d1cbefbd7c333545f2a8d2de54780f15f5b7c52bc7d228059023e301d6235",
+    "out/blog/google-photos-partner-sharing/index.html": "5b6d52bb3aace01913bdfc5016910fd01f241a875bb380fcdab613b386c60662",
+    "public/img/blog/pexels-4429463-4k.webp": "6797b84abb5cf74f782a8147c464be2763294e7825832e6cccf6a9997c997158"
+  }
+}

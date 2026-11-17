@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -1795,6 +1795,21 @@
       "metricsGeography": "Worldwide English target, not measured demand",
       "metricsPeriod": null,
       "researchRecord": "research/2026-11-14-icloud-transfer/batch.json"
+    },
+    {
+      "id": "google-photos-partner-sharing",
+      "primaryKeyword": "google photos partner sharing",
+      "relatedKeywords": [
+        "google photos partner sharing save photos",
+        "google photos partner sharing storage",
+        "stop google photos partner sharing"
+      ],
+      "intent": "Choose ongoing sharing, understand saved copies and storage conditions, and end partner access deliberately.",
+      "status": "published",
+      "articleSlug": "google-photos-partner-sharing",
+      "validation": "Distinct from existing album-access and backup-quality guides; verified against current Google Help. Exact-query demand not measured.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null
     }
   ]
 }

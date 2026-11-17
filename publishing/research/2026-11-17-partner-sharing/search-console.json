@@ -1,0 +1,112 @@
+{
+  "provider": "Google Search Console authenticated visible UI",
+  "property": "sc-domain:meluvya.com",
+  "retrieved": "2026-11-17",
+  "geography": "All countries; no country filter",
+  "searchType": "Web",
+  "performance": {
+    "selector": "3 months",
+    "displayedPeriod": {
+      "start": "2026-10-19",
+      "end": "2026-11-15"
+    },
+    "lastUpdate": "4 hours ago at retrieval",
+    "clicks": 37,
+    "impressions": 11866,
+    "ctrPercent": 0.3,
+    "averagePosition": 10.9,
+    "queryRows": 626,
+    "visibleQueries": [
+      {
+        "query": "styles vs filters iphone",
+        "clicks": 1,
+        "impressions": 19
+      },
+      {
+        "query": "iphone styles vs filters",
+        "clicks": 1,
+        "impressions": 8
+      },
+      {
+        "query": "original quality",
+        "clicks": 1,
+        "impressions": 3
+      },
+      {
+        "query": "how to pick frame from live photo",
+        "clicks": 1,
+        "impressions": 1
+      },
+      {
+        "query": "google photos original vs storage saver",
+        "clicks": 1,
+        "impressions": 1
+      },
+      {
+        "query": "how does icloud shared photo albums work",
+        "clicks": 0,
+        "impressions": 41
+      },
+      {
+        "query": "shared library",
+        "clicks": 0,
+        "impressions": 37
+      },
+      {
+        "query": "photo backup quality",
+        "clicks": 0,
+        "impressions": 37
+      },
+      {
+        "query": "make my photo look like golden hour lighting",
+        "clicks": 0,
+        "impressions": 17
+      },
+      {
+        "query": "preserve settings",
+        "clicks": 0,
+        "impressions": 16
+      }
+    ]
+  },
+  "pageComparison": {
+    "page": "https://meluvya.com/blog/change-photo-date-time-iphone/",
+    "current": {
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "clicks": 2,
+      "impressions": 548,
+      "ctrPercent": 0.4,
+      "averagePosition": 8.8
+    },
+    "previous": {
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "clicks": 1,
+      "impressions": 182,
+      "ctrPercent": 0.5,
+      "averagePosition": 10
+    },
+    "visibleQuery": "howbti change timestamp iphone",
+    "currentQueryImpressions": 13,
+    "previousQueryImpressions": 0,
+    "dateEvidence": "Explicit metric-card periods and report URL parameters; ignored malformed accessible chart date label.",
+    "interpretation": "Visibility increased; no causal claim. Existing guide answers query, so no revision for activity alone."
+  },
+  "indexing": {
+    "reportUpdated": "2026-11-13",
+    "scope": "All known pages",
+    "indexed": 119,
+    "notIndexed": 10,
+    "reasons": {
+      "redirect": 3,
+      "notFound404": 1,
+      "discoveredNotIndexed": 6,
+      "crawledNotIndexed": 0
+    },
+    "interpretation": "Property-level counts, not evidence that this new article is indexed. Counts unchanged from previous snapshot."
+  },
+  "monthlySearchVolume": null,
+  "organicDifficulty": null,
+  "actions": "Read only. No verification change, sitemap resubmission or URL indexing request. No private account identifiers included."
+}

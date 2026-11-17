@@ -30,6 +30,139 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "google-photos-partner-sharing",
+  "title": "Google Photos Partner Sharing: what you share and save",
+  "description": "Set up Google Photos Partner Sharing deliberately. Check outgoing photos, saved copies, storage conditions and what remains when you remove a partner.",
+  "summary": "Make a clear choice about ongoing photo access before connecting two libraries.",
+  "published": "2026-11-17",
+  "modified": "2026-11-17",
+  "quickAnswer": "Partner Sharing automatically shares matching backed-up photos with one partner. Saving their pictures adds copies to your own Google Photos account. Removing the partner ends access, but keeps already-saved copies.",
+  "sections": [
+    {
+      "id": "choose-the-arrangement",
+      "title": "Choose an ongoing arrangement or a selected album",
+      "paragraphs": [
+        "For a wedding weekend or one finished trip, a shared album may be easier to review. Google’s album controls support invited members, links and contributions. Our album-access guide below covers those controls separately.",
+        "Before connecting libraries, write down what you actually want: “Send my partner future family pictures” is a different task from “Give six friends these twelve holiday photos.” Choose the scope from that sentence. Avoid starting with the broadest setting simply because it is convenient."
+      ]
+    },
+    {
+      "id": "set-up-sharing",
+      "title": "Set up sharing, then review saving separately",
+      "paragraphs": [
+        "Google’s iPhone route is profile > Photos settings > Sharing > Partner sharing. Select a Google Account, choose all photos or available people/date filters, then send the invitation. Sharing back is optional. “Save to your photos” controls incoming saves.",
+        "Confirm the full account address with the intended recipient before sending anything. A familiar display name is a poor substitute when someone uses both personal and work accounts. Read the final selection together, then check the receiving account."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Define the outgoing selection.",
+            "text": "Note which collection you intend the other person to see. Include a clear example of a picture you would exclude."
+          },
+          {
+            "title": "Decide what you want to retain.",
+            "text": "Discuss which incoming pictures belong in your own collection. Do this separately from deciding what you send."
+          },
+          {
+            "title": "Review real examples.",
+            "text": "Compare a few harmless, recognizable pictures on both sides. Check an older item, a recent item and an intended exclusion before treating the arrangement as settled."
+          }
+        ]
+      }
+    },
+    {
+      "id": "filters-and-exclusions",
+      "title": "Do not treat a filter as a privacy guarantee",
+      "paragraphs": [
+        "Google warns that face matches and photo dates can be wrong. People-based filtering is unavailable in some regions.",
+        "For example, a couple might want new family pictures while keeping older work-event photos separate. Make a short review list containing one example from each group. If you cannot confidently predict the selection, prefer a deliberately chosen album until you understand the settings. Do not experiment with sensitive photographs."
+      ]
+    },
+    {
+      "id": "storage",
+      "title": "Check the condition behind the storage exemption",
+      "paragraphs": [
+        "Google says saved Partner Sharing items avoid your storage quota while the partner continues sharing them through that feature. Treat that as conditional, not permanent free storage.",
+        "Google Account storage is shared across Photos, Drive and Gmail. Its storage management tool shows available space; free space on your phone answers a different question.",
+        "Before changing an arrangement that holds many important pictures, record your current cloud usage and identify which copies you need to keep. Review the account’s storage afterward. Do not delete your own originals merely because another account currently displays the pictures."
+      ]
+    },
+    {
+      "id": "stop-sharing",
+      "title": "End access and review retained copies as separate tasks",
+      "paragraphs": [
+        "Use Remove partner in Partner sharing to end the connection. Changes to your original—including deletion or moving it to Locked Folder—do not alter copies the partner already saved.",
+        "If you are separating collections after a project or relationship, make a retention list first. Check the exact photographs you are entitled to keep in your own library before changing access. Our Takeout guide below explains a separate export workflow when you need a local archive.",
+        "Afterward, review any albums or messaging apps you also used. A note such as “Partner connection ended; trip album still shared” is more useful than assuming every sharing route changed together. This review concerns access and copies; it is not a promise to recall photographs already delivered."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why is a recent picture missing?",
+      "answer": "Check backup in the sending account before changing sharing rules. Google Photos documents upload progress and backup status; on Android, its grid can also show device files that have not reached the cloud. Then compare the intended selection with the missing picture. Avoid changing several settings at once."
+    },
+    {
+      "question": "Can I check this without uploading private photos to another service?",
+      "answer": "Yes. Use your own account settings and a few harmless pictures you are comfortable sharing with the intended person. Keep any review notes private; there is no need to send your library to a third-party checker."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos Help: Partner Sharing on iPhone and iPad",
+      "url": "https://support.google.com/photos/answer/7378858?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Sharing, saving, filters, conditional storage exemption and retained copies; checked November 17, 2026."
+    },
+    {
+      "title": "Google Photos Help: shared album controls",
+      "url": "https://support.google.com/photos/answer/9789702?hl=en",
+      "note": "Album membership, links and contributions are a separate sharing workflow; checked November 17, 2026."
+    },
+    {
+      "title": "Google Photos Help: activity and storage",
+      "url": "https://support.google.com/photos/answer/10100180?hl=en",
+      "note": "Google Account storage and the storage management tool; checked November 17, 2026."
+    },
+    {
+      "title": "Google Photos Help: backup and upload status",
+      "url": "https://support.google.com/photos/answer/6193313?hl=en",
+      "note": "Backup status and Android device thumbnails that are not cloud copies; checked November 17, 2026."
+    }
+  ],
+  "related": [
+    "stop-sharing-google-photos-album",
+    "download-google-photos-with-takeout",
+    "google-photos-original-vs-storage-saver"
+  ],
+  "image": "blog/pexels-4429463-4k.webp",
+  "imageAlt": "Passenger holding a smartphone beside a car window",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-4429463-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-4429463-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-4429463-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-4429463-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "Ketut Subiyanto",
+    "url": "https://www.pexels.com/photo/anonymous-female-tourist-taking-photo-on-smartphone-sitting-in-car-4429463/"
+  },
+  "imagePosition": "50% 50%",
+  "caption": "Illustrative travel photograph by Ketut Subiyanto; not a Google Photos screen or a Meluvya result."
+},
+{
   "slug": "transfer-icloud-photos-to-google-photos",
   "title": "Transfer iCloud Photos to Google Photos: what to check first",
   "description": "Copy iCloud Photos to Google Photos, understand transfer limits, and check edits, albums and missing items before changing your original library.",
@@ -323,6 +456,7 @@ export const articles: Article[] = [
     }
   ],
   "related": [
+    "google-photos-partner-sharing",
     "google-photos-archive-vs-locked-folder",
     "google-photos-free-up-space-vs-delete",
     "remove-location-from-iphone-photos"

@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-17",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "9e9f49253279fc830401bcc8d233c77aa790236e",
+  "baseline": {
+    "articles": 113,
+    "publishedToday": 0,
+    "eligibleQueuedArticles": 0,
+    "remoteMatches": true,
+    "deployment": 43886879047,
+    "deploymentStatus": "success"
+  },
+  "newArticles": [
+    "google-photos-partner-sharing"
+  ],
+  "updatedArticles": [],
+  "relatedLinkOnly": [
+    "stop-sharing-google-photos-album"
+  ],
+  "editorialDecision": "Publish one guide for ongoing Partner Sharing. The existing album-access guide explicitly excludes it; backup quality, storage cleanup and Takeout serve different tasks. Keep keyword variations on this one URL.",
+  "alternativesConsidered": [
+    {
+      "slug": "change-photo-date-time-iphone",
+      "decision": "Fresh Search Console shows more impressions, but the current article already directly answers the observed date-change query and covers sort order, batch edits and verification. Leave unchanged."
+    }
+  ],
+  "originalContribution": "An editorial selection-and-saving checklist, a hypothetical family/work-photo example and a retained-copy review. Recommendations, not a claimed hands-on test.",
+  "research": {
+    "provider": "Google Help, free web retrieval and Google Search Console",
+    "geography": "English worldwide target; Search Console all countries, Web search",
+    "retrieved": "2026-11-17",
+    "queries": [
+      "google photos partner sharing save photos storage stop sharing"
+    ],
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsPeriod": null,
+    "reason": "Primary documents establish behavior, not demand. No paid provider or blocked generator retried."
+  },
+  "keywordMapping": {
+    "id": "google-photos-partner-sharing",
+    "primaryKeyword": "google photos partner sharing",
+    "relatedKeywords": [
+      "google photos partner sharing save photos",
+      "google photos partner sharing storage",
+      "stop google photos partner sharing"
+    ],
+    "intent": "Choose ongoing sharing, understand saved copies and storage conditions, and end partner access deliberately.",
+    "status": "published",
+    "articleSlug": "google-photos-partner-sharing",
+    "validation": "Distinct from existing album-access and backup-quality guides; verified against current Google Help. Exact-query demand not measured.",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null
+  },
+  "sources": [
+    {
+      "title": "Google Photos Help: Partner Sharing on iPhone and iPad",
+      "url": "https://support.google.com/photos/answer/7378858?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Sharing, saving, filters, conditional storage exemption and retained copies; checked November 17, 2026."
+    },
+    {
+      "title": "Google Photos Help: shared album controls",
+      "url": "https://support.google.com/photos/answer/9789702?hl=en",
+      "note": "Album membership, links and contributions are a separate sharing workflow; checked November 17, 2026."
+    },
+    {
+      "title": "Google Photos Help: activity and storage",
+      "url": "https://support.google.com/photos/answer/10100180?hl=en",
+      "note": "Google Account storage and the storage management tool; checked November 17, 2026."
+    },
+    {
+      "title": "Google Photos Help: backup and upload status",
+      "url": "https://support.google.com/photos/answer/6193313?hl=en",
+      "note": "Backup status and Android device thumbnails that are not cloud copies; checked November 17, 2026."
+    }
+  ],
+  "asset": "Existing licensed Ketut Subiyanto travel photograph, visually checked; responsive local WebP variants and credit retained. Acquisition/license record: publishing/image-sources.json. Illustrative, not a product result.",
+  "dates": {
+    "published": "2026-11-17",
+    "modified": "2026-11-17"
+  },
+  "validation": {
+    "status": "PASS: required technical checks and independent editorial review complete",
+    "content": "PASS with baseline9e9f492;114 articles;1 new today",
+    "lint": "PASS after dependency patch",
+    "build": "PASS: Next16.4.6 webpack production export, canonical https://meluvya.com and empty base path",
+    "typecheck": "PASS",
+    "export": "PASS:127 routes;114 articles;6643 local links/assets",
+    "seo": "PASS:114 guides discovered via archive;5 visible update dates",
+    "browser": "PASS:390px and1200px no global overflow;all images loaded;both CTA dialogs open, Escape closes and restores focus;no website console errors",
+    "screenshots": "Inspected in CUA tool outputs; filesystem save denied, so no disk screenshots claimed",
+    "pagination": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      6
+    ],
+    "sources": "All4 Google sources HTTP200;licensed Pexels credit403 exact exception recorded",
+    "existingContent": "Prior113 article bodies and dates unchanged;one reciprocal related link added",
+    "sitemap": "127URLs;new article present with2026-11-17 lastmod;robots canonical sitemap retained",
+    "editorialReview": {
+      "score": 92,
+      "blocking": false,
+      "p0Issues": 0,
+      "nonce": "0bfabcccfc3435f1a55b84ed9eaea3e0",
+      "hashesVerified": true
+    },
+    "evidenceDirectory": "work/blog-partner-sharing-20261117"
+  },
+  "publication": {
+    "state": "Approved for normal push; deployment and live verification pending",
+    "url": "https://meluvya.com/blog/google-photos-partner-sharing/"
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://support.google.com/photos/answer/7378858?co=GENIE.Platform%3DiOS&hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/7378858?co=GENIE.Platform%3DiOS&hl=en",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/9789702?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/9789702?hl=en",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/10100180?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/10100180?hl=en",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6193313?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6193313?hl=en",
+    "retrieved": "2026-11-17"
+  },
+  {
+    "url": "https://www.pexels.com/photo/anonymous-female-tourist-taking-photo-on-smartphone-sitting-in-car-4429463/",
+    "status": 403,
+    "retrieved": "2026-11-17"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "trigger": "Production build exited1 with SecurityFatalError on installed Next.js16.4.2",
+  "verifiedProvider": "Official npm registry advisory API and GitHub Advisory Database",
+  "retrieved": "2026-11-17",
+  "advisories": [
+    "https://github.com/advisories/GHSA-mfr8-8qww-v76h",
+    "https://github.com/advisories/GHSA-vc7v-qv4w-wrv8"
+  ],
+  "fix": "Pin next and eslint-config-next to16.4.6;12 corresponding packages changed; normal production build now exits0",
+  "deploymentContext": "Static GitHub Pages export, no deployed Next.js request server. No claim of site exploitation or full security audit.",
+  "scope": "Only the necessary patch update; no audit fix or unrelated major upgrades. Other audit findings are not resolved by this record."
+}
