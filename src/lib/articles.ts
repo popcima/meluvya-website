@@ -30,6 +30,161 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "download-google-photos-to-phone",
+  "title": "How to download Google Photos to your phone",
+  "description": "Save Google Photos pictures to an iPhone or Android phone, check a missing Download option, and verify the local copy before editing or removing anything.",
+  "summary": "Get the picture you need onto your phone and confirm that the saved version is usable.",
+  "published": "2026-11-18",
+  "modified": "2026-11-18",
+  "quickAnswer": "In Google Photos, open the picture and choose More > Download. Google says this download is unavailable when the item already exists in the iPhone camera roll; on Android, the option is hidden when the photo is already on the device. Check the existing copy before assuming the download failed.",
+  "sections": [
+    {
+      "id": "download-one-picture",
+      "title": "Start with one recognizable picture",
+      "paragraphs": [
+        "This guide covers saving individual pictures for use on your phone. For an entire library or a migration archive, use the Takeout guide linked below. Choosing the smaller workflow first avoids turning one missing holiday photo into a full-library transfer."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Identify the exact version.",
+            "text": "Choose a picture with an obvious detail, such as a red umbrella or a distinctive crop. Note its displayed date so you can distinguish it from nearby shots."
+          },
+          {
+            "title": "Use the download command.",
+            "text": "Open Google Photos, select that picture, then use More > Download. Google documents this route for both iPhone and Android."
+          },
+          {
+            "title": "Check outside the cloud view.",
+            "text": "Look for the picture in Apple Photos or the gallery/file destination your Android device uses. Open it at full size, then locate it in the editor or sharing app where you actually need it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "missing-download",
+      "title": "When Download is missing, look for an existing copy",
+      "paragraphs": [
+        "An absent download control is not, by itself, evidence that the photograph has disappeared. Compare the recognizable scene and crop in your phone’s local library before trying to save it repeatedly.",
+        "For example, you may have an original holiday picture and a tighter edited crop that look similar as thumbnails. Open each candidate and compare the edges. Finding the original does not settle whether you have the edited version you intended to use.",
+        "Do not delete a local picture merely to make a download command appear. If you cannot locate the intended file, write down the exact symptom: absent control, visible error, or a completed download that you cannot find. Those are different problems."
+      ]
+    },
+    {
+      "id": "check-the-file",
+      "title": "Check the saved file, not just its thumbnail",
+      "paragraphs": [
+        "Google notes that a download can receive a new file timestamp from the operating system while photo metadata remains available in file details. Compare the field being displayed before correcting dates. A download date and a capture date describe different events."
+      ],
+      "table": {
+        "headers": [
+          "What you notice",
+          "A useful next check"
+        ],
+        "rows": [
+          [
+            "The date looks different",
+            "Inspect photo information and the file date separately. Do not rewrite the capture date just to change a file-browser sort order."
+          ],
+          [
+            "You find several similar pictures",
+            "Compare the crop, orientation and a small distinctive detail. Keep the intended version identifiable."
+          ],
+          [
+            "The picture opens in one app but not the app you need",
+            "Try selecting that same file inside the destination app. Record any format or access message it shows."
+          ],
+          [
+            "You need it without a connection",
+            "After downloading, reopen it in the intended app with connectivity temporarily off. This checks that particular file and app, not your whole library."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "quality",
+      "title": "A download cannot recover detail missing from the backup",
+      "paragraphs": [
+        "Google’s quality documentation says Original quality retains capture resolution and quality. Storage saver can compress files, resize photos above 16 MP, and change the image format. The backup-quality guide below explains how to inspect the stored item.",
+        "If your downloaded photograph looks softer than a separate original, compare the same area at the same display size. Check dimensions as well as appearance. Downloading again is not a way to reconstruct information already removed by earlier compression.",
+        "Keep the separate original when you need a large print or a substantial crop. For a small message attachment, a different version may be sufficient; judge the file against its intended use rather than assuming the largest filename or newest date identifies the best copy."
+      ]
+    },
+    {
+      "id": "keep-cleanup-separate",
+      "title": "Finish the download before making a cleanup decision",
+      "paragraphs": [
+        "Google warns that deletion from Google Photos can also remove files from devices with backup enabled, including downloaded local copies on iPhone and some Android devices. Do not treat downloading as permission to delete the cloud item immediately.",
+        "The Free up space versus Delete guide below covers storage cleanup. Here, finish with a simple result you can verify: the intended picture opens in the app you plan to use, its crop is correct, and you know where the copy is stored. Keep irreplaceable originals in a separately verified location before any later removal."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Should I use a screenshot instead?",
+      "answer": "Use the downloaded photo when you need the image file for editing or printing. A screenshot records the displayed view and can include interface elements or a different crop. Keep it for documenting an on-screen problem, rather than treating it as a verified copy of the photograph."
+    },
+    {
+      "question": "Does checking one downloaded photo verify my whole collection?",
+      "answer": "No. It answers whether that chosen file works for your intended task. If you are preparing to leave a service or remove a large collection, switch to an archive workflow and inspect a broader set before making that separate decision."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos Help: download on iPhone and iPad",
+      "url": "https://support.google.com/photos/answer/7652919?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Download steps, existing camera-roll items and file timestamps; checked November 18, 2026."
+    },
+    {
+      "title": "Google Photos Help: download on Android",
+      "url": "https://support.google.com/photos/answer/7652919?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Android menu route and the hidden option when a photo is already on the device; checked November 18, 2026."
+    },
+    {
+      "title": "Google Photos Help: backup quality",
+      "url": "https://support.google.com/photos/answer/6220791?hl=en",
+      "note": "Original quality, Storage saver compression, resizing and possible format changes; checked November 18, 2026."
+    },
+    {
+      "title": "Google Photos Help: deletion effects",
+      "url": "https://support.google.com/photos/answer/6128858?hl=en",
+      "note": "Connected-device and downloaded-copy consequences of library deletion; checked November 18, 2026."
+    }
+  ],
+  "related": [
+    "download-google-photos-with-takeout",
+    "google-photos-free-up-space-vs-delete",
+    "google-photos-original-vs-storage-saver"
+  ],
+  "image": "blog/pexels-30861211-4k.webp",
+  "imageAlt": "Camera beside a laptop displaying photographs for review",
+  "imagePosition": "50% 40%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-30861211-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-30861211-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-30861211-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-30861211-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Ebahir",
+    "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/"
+  },
+  "caption": "Illustrative photograph of a photo-review workspace; not a Google Photos screen or a Meluvya result."
+},
+{
   "slug": "google-photos-partner-sharing",
   "title": "Google Photos Partner Sharing: what you share and save",
   "description": "Set up Google Photos Partner Sharing deliberately. Check outgoing photos, saved copies, storage conditions and what remains when you remove a partner.",
@@ -1558,6 +1713,7 @@ export const articles: Article[] = [
     }
   ],
   "related": [
+    "download-google-photos-to-phone",
     "google-photos-free-up-space-vs-delete",
     "google-photos-original-vs-storage-saver",
     "change-photo-date-time-iphone"

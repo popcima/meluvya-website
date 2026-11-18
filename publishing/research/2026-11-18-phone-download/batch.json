@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-18",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "9feae421560484cdd158948b704684058c9abc8f",
+  "baseline": {
+    "articles": 114,
+    "publishedToday": 0,
+    "queuedUnpublished": 0,
+    "primaryClean": true,
+    "deployment": 44143915747,
+    "deploymentStatus": "success"
+  },
+  "newArticles": [
+    "download-google-photos-to-phone"
+  ],
+  "updatedArticles": [],
+  "relatedLinkOnly": [
+    "download-google-photos-with-takeout"
+  ],
+  "editorialDecision": "Publish one distinct retrieval guide. Existing Takeout guide concerns complete archives and imports; quality and cleanup guides do not teach the missing Download control/local retrieval task. Group iPhone/Android and missing-button variants here.",
+  "originalContribution": "A version-identification example, symptom triage, and a saved-file check table including a limited offline rehearsal. These are proposed reader checks, not a claimed device test.",
+  "keywordMapping": {
+    "id": "download-google-photos-to-phone",
+    "primaryKeyword": "download google photos to phone",
+    "relatedKeywords": [
+      "save google photos to iphone",
+      "google photos download option missing",
+      "download google photos to android gallery"
+    ],
+    "intent": "Retrieve a selected picture onto a phone, diagnose a missing Download command, and verify the usable local copy.",
+    "status": "published",
+    "articleSlug": "download-google-photos-to-phone",
+    "validation": "Primary Google Help confirms behavior. Distinct from Takeout archive export, backup-quality selection and device cleanup. Search volume and difficulty unmeasured.",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null
+  },
+  "research": {
+    "provider": "Free web search and Google Help primary documentation",
+    "retrieved": "2026-11-18",
+    "geography": "English worldwide target; search geolocation not controlled",
+    "queries": [
+      "site:support.google.com/photos download photos videos device iPhone download not already device"
+    ],
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsPeriod": null,
+    "limitations": "Search result presence does not establish demand. No blocked paid tools or generators retried."
+  },
+  "searchConsole": {
+    "freshDataAvailable": false,
+    "reason": "Authenticated browser connector unavailable this turn; no Search Console API credential or export supplied. Did not bypass authentication or retry the blocked marketing connector.",
+    "latestEvidence": "../2026-11-17-partner-sharing/search-console.json",
+    "latestEvidenceRetrieved": "2026-11-17",
+    "interpretation": "Historical site metrics only; no demand or indexing claim for this new URL. No indexing request or sitemap resubmission."
+  },
+  "deferred": [
+    {
+      "topic": "iCloud Links: expiry and ending access",
+      "reason": "Core iCloud Link and archive support pages returned HTTP429; no retry through alternate locales or clients. Deferred pending accessible evidence.",
+      "urls": [
+        "https://support.apple.com/guide/icloud/share-photos-and-videos-with-an-icloud-link-mm93a9b98683/icloud",
+        "https://support.apple.com/en-us/108306"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos Help: download on iPhone and iPad",
+      "url": "https://support.google.com/photos/answer/7652919?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Download steps, existing camera-roll items and file timestamps; checked November 18, 2026."
+    },
+    {
+      "title": "Google Photos Help: download on Android",
+      "url": "https://support.google.com/photos/answer/7652919?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Android menu route and the hidden option when a photo is already on the device; checked November 18, 2026."
+    },
+    {
+      "title": "Google Photos Help: backup quality",
+      "url": "https://support.google.com/photos/answer/6220791?hl=en",
+      "note": "Original quality, Storage saver compression, resizing and possible format changes; checked November 18, 2026."
+    },
+    {
+      "title": "Google Photos Help: deletion effects",
+      "url": "https://support.google.com/photos/answer/6128858?hl=en",
+      "note": "Connected-device and downloaded-copy consequences of library deletion; checked November 18, 2026."
+    }
+  ],
+  "asset": {
+    "existing": true,
+    "record": "publishing/image-sources.json",
+    "photoId": "30861211",
+    "master": "blog/pexels-30861211-4k.webp",
+    "credit": {
+      "name": "Ebahir",
+      "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/"
+    },
+    "visualReview": "Viewed local960px variant; alt/caption accurately describe illustrative workspace, not the phone workflow or app result."
+  },
+  "validation": {
+    "status": "PASS: technical checks and independent editorial review",
+    "content": "PASS against9feae421560484cdd158948b704684058c9abc8f;115 articles;1 new today",
+    "lint": "PASS",
+    "build": "PASS: Next16.4.6 production webpack;SITE_URL=https://meluvya.com;empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "PASS:128 routes;115 article pages;6699 local links/assets",
+    "seo": "PASS:115 guides linked from topic directory and attributed;5 visible substantive update dates",
+    "browser": "PASS at390/768/1280px;images decode;6 dialog checks with Escape/focus restoration;no page or console errors",
+    "table": "PASS:labelled focusable region;keyboard reaches right edge;no global overflow. Synthetic wheel assertion timed out; touch/wheel gestures not claimed tested.",
+    "visual": "Inspected mobile and desktop hero,mobile file-check table and app CTA screenshots",
+    "links": "4 Google source URLs HTTP200;existing licensed Pexels credit403 with exact exception",
+    "dates": "All previous114 article bodies/dates unchanged;one reciprocal related link added",
+    "pagination": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      7
+    ],
+    "sitemap": "128URLs;new guide lastmod2026-11-18;canonical robots sitemap retained",
+    "evidenceDirectory": "work/blog-phone-download-20261118",
+    "editorial": {
+      "score": 93,
+      "blocking": false,
+      "p0": 0,
+      "report": "editorial-review.md",
+      "nonce": "f0d38dfd600238018ca5cfb3ee289774",
+      "bindingsVerified": true
+    }
+  },
+  "publication": {
+    "state": "Approved for publication; deployment evidence will be recorded in work/blog-phone-download-20261118",
+    "url": "https://meluvya.com/blog/download-google-photos-to-phone/"
+  }
+}

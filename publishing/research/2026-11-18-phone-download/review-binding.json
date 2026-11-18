@@ -1,0 +1,10 @@
+{
+  "nonce": "f0d38dfd600238018ca5cfb3ee289774",
+  "date": "2026-11-18",
+  "method": "Project TypeScript/static-HTML adaptation of installed blog delivery contract",
+  "sha256": {
+    "src/lib/articles.ts": "57584189082890e641e3cbbdb43d3edbdd34e609544a2b4e24b3c1c1c086f876",
+    "out/blog/download-google-photos-to-phone/index.html": "35e7e11501d57df6d99045101347ecfeff56d2d59194c7f05ae184b42646006b",
+    "public/img/blog/pexels-30861211-4k.webp": "02720f1aa04cf8e9ec1bbc769a61f57573f5b7da6c4b4081620701e9874ebbdb"
+  }
+}

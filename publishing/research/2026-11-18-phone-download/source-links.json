@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://support.google.com/photos/answer/7652919?co=GENIE.Platform%3DiOS&hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/7652919?co=GENIE.Platform%3DiOS&hl=en",
+    "retrieved": "2026-11-18"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/7652919?co=GENIE.Platform%3DAndroid&hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/7652919?co=GENIE.Platform%3DAndroid&hl=en",
+    "retrieved": "2026-11-18"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6220791?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6220791?hl=en",
+    "retrieved": "2026-11-18"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6128858?hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6128858?hl=en",
+    "retrieved": "2026-11-18"
+  },
+  {
+    "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-30861211/",
+    "status": 403,
+    "retrieved": "2026-11-18"
+  }
+]
