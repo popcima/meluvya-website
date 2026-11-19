@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-19",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "fd959ba812d662626ffc8e1eb684a6a3681c8d0b",
+  "baseline": {
+    "articles": 115,
+    "publishedToday": 0,
+    "queuedUnpublished": 0,
+    "primaryClean": true,
+    "deployment": 44327041430,
+    "deploymentStatus": "success"
+  },
+  "newArticles": [
+    "google-photos-not-backing-up"
+  ],
+  "updatedArticles": [],
+  "relatedLinkOnly": [
+    "google-photos-free-up-space-vs-delete"
+  ],
+  "editorialDecision": "One distinct upload-failure guide. Existing cleanup, quality selection, archive and download guides mention backup checks but do not diagnose a stalled or excluded upload. Combine device and status variants here.",
+  "originalContribution": "One-picture account audit; compare changing queue counts, camera versus received pictures, and source versus exported file; explicit follow-up when unresolved. Proposed reader checks, no claimed device tests.",
+  "keywordMapping": {
+    "id": "google-photos-not-backing-up",
+    "primaryKeyword": "google photos not backing up",
+    "relatedKeywords": [
+      "google photos stuck preparing backup",
+      "google photos backup complete missing photos",
+      "google photos not uploading iphone",
+      "google photos not uploading android"
+    ],
+    "intent": "Diagnose a photo upload failure using account, item status, device selection and capacity, then verify the intended cloud copy.",
+    "status": "included_in_publication_commit",
+    "articleSlug": "google-photos-not-backing-up",
+    "validation": "Distinct from cleanup, backup-quality choice and download workflows; official Google sources checked November 19. Keyword metrics unavailable.",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsProvider": null,
+    "metricsGeography": null,
+    "metricsPeriod": null,
+    "researchRecord": "research/2026-11-19-backup-troubleshooting/batch.json"
+  },
+  "research": {
+    "provider": "Free web search and primary Google Help",
+    "retrieved": "2026-11-19",
+    "geography": "English worldwide target; search geolocation uncontrolled",
+    "queries": [
+      "site:support.google.com/photos photos not backing up backup status iPhone Android",
+      "site:support.google.com/photos check backup status photo backed up not uploading"
+    ],
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "period": null,
+    "limitations": "Search presence is not measured demand; no paid or blocked service retried."
+  },
+  "searchConsole": {
+    "freshDataAvailable": false,
+    "reason": "Authenticated browser connector unavailable; no API credential or export supplied.",
+    "latestEvidence": "../2026-11-17-partner-sharing/search-console.json",
+    "latestEvidenceRetrieved": "2026-11-17",
+    "interpretation": "Historical evidence only. No new indexing request or ranking/demand assertion."
+  },
+  "sources": [
+    {
+      "title": "Google Photos: check your backup",
+      "url": "https://support.google.com/photos/answer/9343402?hl=en",
+      "note": "Account, enabled-backup and timing checks, plus the iPhone/iPad foreground-app recommendation; checked November 19, 2026."
+    },
+    {
+      "title": "Google Photos: troubleshoot photos not backing up",
+      "url": "https://support.google.com/photos/answer/6174018?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Status messages, Android folder selection, upload limits and web verification. Use the platform selector for iPhone/iPad; checked November 19, 2026."
+    },
+    {
+      "title": "Google Photos: backup settings and per-photo details",
+      "url": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Local visibility, photo access, individual status, thumbnail indicators and variable upload duration; checked November 19, 2026."
+    },
+    {
+      "title": "Google One: how your Google storage works",
+      "url": "https://support.google.com/googleone/answer/9312312?hl=en",
+      "note": "Shared account storage and the effect of exceeding the quota on new photo backups; checked November 19, 2026."
+    }
+  ],
+  "asset": {
+    "existing": true,
+    "record": "publishing/image-sources.json",
+    "photoId": "29065464",
+    "master": "blog/pexels-29065464-4k.webp",
+    "credit": {
+      "name": "Leticia Curvelo",
+      "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-29065464/"
+    },
+    "visualReview": "Viewed local960px variant: hands at laptop beside camera; accurate illustrative caption."
+  },
+  "validation": {
+    "status": "PASS: technical checks and independent editorial review",
+    "content": "116 articles;1new today;29 remaining;baselinefd959ba",
+    "lint": "PASS",
+    "build": "PASS Next16.4.6 webpack;SITE_URL=https://meluvya.com;empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "129 routes;116 articles;6639 local links/assets",
+    "seo": "116guides linked and attributed;5visible substantive update dates",
+    "browser": "PASS390/768/1280;images decode;both store dialogs;Escape and focus restoration;no console/page errors or global overflow",
+    "visual": "Mobile hero/status list/CTA and desktop hero inspected",
+    "sources": "4Google GET200;HEAD404 on9343402 disproved by ordinaryGET200;existing Pexelscredit403exactexception",
+    "preservation": "All115prior articles identical except one reciprocalrelatedlink",
+    "pagination": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      8
+    ],
+    "sitemap": 129,
+    "evidenceDirectory": "work/blog-backup-troubleshooting-20261119",
+    "editorial": {
+      "score": 93,
+      "blocking": false,
+      "p0": 0,
+      "nonce": "9eb29e354674ae1633d22a30551245ec",
+      "report": "editorial-review.md",
+      "bindingsVerified": true
+    }
+  },
+  "publication": {
+    "state": "Approved for publication; deployment evidence will be recorded in work/blog-backup-troubleshooting-20261119",
+    "url": "https://meluvya.com/blog/google-photos-not-backing-up/"
+  }
+}

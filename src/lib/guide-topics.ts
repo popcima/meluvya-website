@@ -35,6 +35,7 @@ const topics = [
   "title": "Sharing, printing and preserving photos",
   "description": "Prepare files for their destination and understand what each transfer or backup keeps.",
   "slugs": [
+    "google-photos-not-backing-up",
     "download-google-photos-to-phone",
     "google-photos-partner-sharing",
     "transfer-icloud-photos-to-google-photos",

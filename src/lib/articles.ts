@@ -30,6 +30,159 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "google-photos-not-backing-up",
+  "title": "Google Photos not backing up? Start with these checks",
+  "description": "Find why a Google Photos picture has not backed up. Check the account, upload status, device folders, storage and one recognizable file before changing settings.",
+  "summary": "Separate an upload problem from a local-only picture or a different Google Account.",
+  "published": "2026-11-19",
+  "modified": "2026-11-19",
+  "quickAnswer": "Start by confirming the Google Account and reading the backup status, then check one missing photo individually. A picture appearing in the Google Photos phone app is not proof of a cloud backup: the app can also show local files. Keep the original while you investigate.",
+  "sections": [
+    {
+      "id": "identify-one-photo",
+      "title": "Choose one photo you can identify precisely",
+      "paragraphs": [
+        "Use a recent picture with an obvious detail, such as a green doorway, rather than a whole holiday album. Note its capture date and whether it came from the camera or another app. Compare the full picture, not just a similar thumbnail. This creates a specific question you can actually resolve.",
+        "Open your profile in Google Photos and note the email address. In Photos settings > Backup, check the backup account and whether backup is enabled. Google’s backup checklist also covers when uploads are allowed. Confirm the intended account before enabling anything; do not send a personal collection to an account merely because it is already signed in.",
+        "On a computer, open photos.google.com in that same account and look for the chosen picture. Google’s troubleshooting documentation recommends the web library for viewing backed-up items. Finding the exact image there answers a different question from seeing it in the phone app."
+      ]
+    },
+    {
+      "id": "read-status",
+      "title": "Let the status message choose your next step",
+      "paragraphs": [
+        "Google documents several backup states. Read the current wording before changing settings, and note any remaining-item count. A single observation cannot tell you how quickly the queue is moving."
+      ],
+      "list": {
+        "items": [
+          {
+            "title": "Backup is off.",
+            "text": "Decide whether you want automatic uploads to this account, then enable backup if that matches your intent."
+          },
+          {
+            "title": "Waiting for Wi-Fi or a connection.",
+            "text": "Connect to a working Wi-Fi network, or deliberately allow mobile-data backup. Google warns that carrier charges can apply."
+          },
+          {
+            "title": "Preparing or backing up.",
+            "text": "Compare the displayed count at two recorded times. A falling count suggests progress; an unchanged count is useful troubleshooting evidence, not a diagnosis by itself."
+          },
+          {
+            "title": "Backup complete, but your picture is missing.",
+            "text": "Check the individual item and its account or folder. Avoid treating the overall label as a record of every file you expected to include."
+          }
+        ]
+      }
+    },
+    {
+      "id": "device-checks",
+      "title": "Check the relevant device setting",
+      "paragraphs": [
+        "On Android, open Photos settings > Backup > Back up device folders. Google lets you choose which folders upload, including pictures saved by other apps. Review the particular folder containing your example rather than enabling every folder.",
+        "On iPhone or iPad, Google advises keeping Google Photos open while items back up. If the app asks for photo access, review its Photos permission in iOS Settings. Do not broaden access simply as an experiment; first decide which pictures you want the service to use.",
+        "For example, your camera portrait may upload while a picture received in another app remains absent. Compare the two pictures’ origins before concluding that the whole service is broken. This is a proposed diagnostic comparison, not a report of a device test."
+      ]
+    },
+    {
+      "id": "storage-or-file",
+      "title": "Separate account capacity from a single-file problem",
+      "paragraphs": [
+        "Google One explains that Photos shares account storage with Gmail and Drive, and that exceeding the quota stops new photo and video backups. Check the storage for the same account you identified earlier. Space available on the phone does not establish space available in that account.",
+        "If account storage is the obstacle, review the storage breakdown before deciding what to retain or remove. The Free up space versus Delete guide below explains why phone cleanup and cloud cleanup are separate decisions. Do not erase the unverified original to test whether an upload resumes.",
+        "If other pictures upload but one does not, inspect that file. Google lists photo limits of 200 MB and 200 megapixels, plus supported-format requirements. Compare its size, dimensions and format with the linked requirements. Preserve the source if you make a compatible delivery copy; successfully uploading a derivative does not preserve the original file.",
+        "A useful note is specific: “This camera photo uploads; this exported image does not; these are their formats and dimensions.” It gives you a narrower problem to investigate than “nothing works.”"
+      ]
+    },
+    {
+      "id": "verify-result",
+      "title": "Verify the result before calling it fixed",
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Inspect the item.",
+            "text": "Google’s backup help describes opening the photo, then More > About and Details, to see its backup status. Menu labels may vary with the app version."
+          },
+          {
+            "title": "Check the account on the web again.",
+            "text": "Match the picture’s date, crop and distinctive detail. Record which account now contains it. One successful picture verifies that example, not every item in your collection."
+          },
+          {
+            "title": "Keep unresolved items separate.",
+            "text": "If the problem remains, use Google’s linked troubleshooting page for your platform. Include the exact status, app version, file properties and what changed. Avoid posting private photographs or account details in a public help thread."
+          }
+        ]
+      },
+      "paragraphs": [
+        "Once the upload is confirmed, use the backup-quality guide to decide whether the stored version suits later editing or printing. Use the download guide when you need that cloud picture back on the phone. Those are follow-up tasks; changing quality or repeatedly downloading is not a substitute for identifying the upload failure."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does a thumbnail without a cloud icon prove the photo is not backed up?",
+      "answer": "No. Google documents different thumbnail indicators depending on whether backup is enabled. Inspect the item’s details and the intended account instead of interpreting an empty corner alone."
+    },
+    {
+      "question": "How long should I wait before assuming backup is stuck?",
+      "answer": "There is no fixed wait that proves a failure for every collection. Google says completion depends on the connection, upload size and other conditions. Record whether the count changes, then investigate the status message and a specific item."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos: check your backup",
+      "url": "https://support.google.com/photos/answer/9343402?hl=en",
+      "note": "Account, enabled-backup and timing checks, plus the iPhone/iPad foreground-app recommendation; checked November 19, 2026."
+    },
+    {
+      "title": "Google Photos: troubleshoot photos not backing up",
+      "url": "https://support.google.com/photos/answer/6174018?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Status messages, Android folder selection, upload limits and web verification. Use the platform selector for iPhone/iPad; checked November 19, 2026."
+    },
+    {
+      "title": "Google Photos: backup settings and per-photo details",
+      "url": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Local visibility, photo access, individual status, thumbnail indicators and variable upload duration; checked November 19, 2026."
+    },
+    {
+      "title": "Google One: how your Google storage works",
+      "url": "https://support.google.com/googleone/answer/9312312?hl=en",
+      "note": "Shared account storage and the effect of exceeding the quota on new photo backups; checked November 19, 2026."
+    }
+  ],
+  "related": [
+    "google-photos-free-up-space-vs-delete",
+    "google-photos-original-vs-storage-saver",
+    "download-google-photos-to-phone"
+  ],
+  "image": "blog/pexels-29065464-4k.webp",
+  "imageAlt": "Photographer using a laptop with a camera resting nearby",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-29065464-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-29065464-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-29065464-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-29065464-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Leticia Curvelo",
+    "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-29065464/"
+  },
+  "caption": "Illustrative photograph of a photographer using a laptop; not a Google Photos interface or a Meluvya result."
+},
+{
   "slug": "download-google-photos-to-phone",
   "title": "How to download Google Photos to your phone",
   "description": "Save Google Photos pictures to an iPhone or Android phone, check a missing Download option, and verify the local copy before editing or removing anything.",
@@ -2149,6 +2302,7 @@ export const articles: Article[] = [
     }
   ],
   "related": [
+    "google-photos-not-backing-up",
     "google-photos-original-vs-storage-saver",
     "icloud-photos-sync-vs-backup",
     "edit-photos-without-losing-original"

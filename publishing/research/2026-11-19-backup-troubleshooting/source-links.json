@@ -1,0 +1,40 @@
+{
+  "note": "Initial HEAD for9343402 returned404; ordinary bounded GET returned200. All source GETs below passed.",
+  "results": [
+    {
+      "url": "https://support.google.com/photos/answer/9343402?hl=en",
+      "status": 200,
+      "finalUrl": "https://support.google.com/photos/answer/9343402?hl=en",
+      "method": "GET",
+      "retrieved": "2026-11-19"
+    },
+    {
+      "url": "https://support.google.com/photos/answer/6174018?co=GENIE.Platform%3DAndroid&hl=en",
+      "status": 200,
+      "finalUrl": "https://support.google.com/photos/answer/6174018?co=GENIE.Platform%3DAndroid&hl=en",
+      "method": "GET",
+      "retrieved": "2026-11-19"
+    },
+    {
+      "url": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DiOS&hl=en",
+      "status": 200,
+      "finalUrl": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DiOS&hl=en",
+      "method": "GET",
+      "retrieved": "2026-11-19"
+    },
+    {
+      "url": "https://support.google.com/googleone/answer/9312312?hl=en",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleone/answer/9312312?hl=en",
+      "method": "GET",
+      "retrieved": "2026-11-19"
+    },
+    {
+      "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-29065464/",
+      "status": 403,
+      "finalUrl": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-29065464/",
+      "method": "GET",
+      "retrieved": "2026-11-19"
+    }
+  ]
+}
