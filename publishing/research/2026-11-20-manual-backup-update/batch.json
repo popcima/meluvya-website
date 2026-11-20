@@ -1,0 +1,138 @@
+{
+  "date": "2026-11-20",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "40492e55af67a7ed7d10749c3b635cd5f9b61e44",
+  "baseline": {
+    "articles": 116,
+    "publishedToday": 0,
+    "queuedUnpublished": 0,
+    "primaryClean": true,
+    "deployment": 44547675239,
+    "deploymentStatus": "success"
+  },
+  "newArticles": [],
+  "updatedArticles": [
+    "google-photos-not-backing-up"
+  ],
+  "editorialDecision": "Improve existing upload-troubleshooting guide; manual upload and interpreting success belong to its existing intent. No duplicate URL.",
+  "changes": [
+    "Add manual single-photo upload steps and bounded interpretation of success or failure.",
+    "Clarify Backup is off action without reflexively enabling broader automatic uploads.",
+    "Move post-verification advice to a section after the verification steps, resolving the prior review observation."
+  ],
+  "dates": {
+    "publishedUnchanged": "2026-11-19",
+    "modified": "2026-11-20",
+    "reason": "Substantive new troubleshooting procedure, not cosmetic date refresh."
+  },
+  "keywordMapping": {
+    "id": "google-photos-not-backing-up",
+    "primaryKeyword": "google photos not backing up",
+    "relatedKeywords": [
+      "google photos stuck preparing backup",
+      "google photos backup complete missing photos",
+      "google photos not uploading iphone",
+      "google photos not uploading android",
+      "google photos manual backup",
+      "google photos back up now not working"
+    ],
+    "intent": "Diagnose a photo upload failure using account, item status, device selection and capacity, then verify the intended cloud copy.",
+    "status": "published",
+    "articleSlug": "google-photos-not-backing-up",
+    "validation": "Existing guide expanded with a bounded manual-upload check after fresh Google Help verification on November20. Same upload-troubleshooting intent; no newURL or measured demand claim.",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsProvider": null,
+    "metricsGeography": null,
+    "metricsPeriod": null,
+    "researchRecord": "research/2026-11-20-manual-backup-update/batch.json"
+  },
+  "research": {
+    "provider": "Free web search and primary Google Help",
+    "query": "site:support.google.com/photos manually back up photos videos Back up now",
+    "geography": "English worldwide target; actual query location uncontrolled",
+    "retrieved": "2026-11-20",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "period": null,
+    "limitations": "Search results show documentation, not measured demand; blocked marketing tools not retried."
+  },
+  "searchConsole": {
+    "freshDataAvailable": false,
+    "reason": "Authenticated browser connector unavailable; no API credential or fresh export supplied.",
+    "latestEvidence": "../2026-11-17-partner-sharing/search-console.json",
+    "indexingRequest": "None; unchangedURL not resubmitted"
+  },
+  "sources": [
+    {
+      "title": "Google Photos: check your backup",
+      "url": "https://support.google.com/photos/answer/9343402?hl=en",
+      "note": "Account, enabled-backup and timing checks, plus the iPhone/iPad foreground-app recommendation; checked November 20, 2026."
+    },
+    {
+      "title": "Google Photos: troubleshoot photos not backing up",
+      "url": "https://support.google.com/photos/answer/6174018?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Status messages, Android folder selection, upload limits and web verification. Use the platform selector for iPhone/iPad; checked November 20, 2026."
+    },
+    {
+      "title": "Google Photos: backup settings and per-photo details",
+      "url": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Manual upload, local visibility, photo access, per-item status and variable duration. Both iPhone and Android versions checked November 20, 2026; use the platform selector."
+    },
+    {
+      "title": "Google One: how your Google storage works",
+      "url": "https://support.google.com/googleone/answer/9312312?hl=en",
+      "note": "Shared account storage and the effect of exceeding the quota on new photo backups; checked November 20, 2026."
+    }
+  ],
+  "additionalPlatformSource": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DAndroid&hl=en",
+  "asset": {
+    "unchanged": true,
+    "record": "publishing/image-sources.json",
+    "master": "blog/pexels-29065464-4k.webp",
+    "credit": {
+      "name": "Leticia Curvelo",
+      "url": "https://www.pexels.com/photo/photographer-editing-photos-on-laptop-29065464/"
+    }
+  },
+  "validation": {
+    "status": "PASS: technical checks and independent editorial review",
+    "content": "116articles;0newtoday;baseline40492e5",
+    "lint": "PASS",
+    "build": "PASS Next16.4.6webpack;SITE_URL=https://meluvya.com;emptyNEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "129routes;116articles;6641local links/assets",
+    "seo": "116guideslinked/attributed;6visible modifieddates",
+    "browser": "PASS390/768/1280;imagesdecode;bothcomingsoon dialogs;Escape/focusrestore;noerrors/orglobaloverflow;publishedNov19/modifiedNov20;verificationsteps precedefollowup",
+    "visual": "Mobile manual-upload list,hero,CTA reviewed",
+    "sources": "5GoogleGET200;existinglicensedPexelscredit403exactexception",
+    "preservation": "115unrelatedarticles unchanged;allfirstpublicationdatesunchanged",
+    "pagination": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      8
+    ],
+    "sitemap": "129existingURLs;updatedlastmodNov20",
+    "evidenceDirectory": "work/blog-manual-backup-update-20261120",
+    "anchor": "PASS actual390pxTOCclick:headingy117.55belowfixednav; initialprogrammaticcaptureoverlapwasnotanchorbehavior",
+    "editorial": {
+      "score": 94,
+      "blocking": false,
+      "p0": 0,
+      "nonce": "c8d5d4d203b6459082022f43c0e3adf5",
+      "report": "editorial-review.md",
+      "bindingsVerified": true
+    }
+  },
+  "publication": {
+    "state": "Approved for publication; deployment evidence will be recorded in work/blog-manual-backup-update-20261120",
+    "url": "https://meluvya.com/blog/google-photos-not-backing-up/"
+  }
+}

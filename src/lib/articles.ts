@@ -35,7 +35,7 @@ export const articles: Article[] = [
   "description": "Find why a Google Photos picture has not backed up. Check the account, upload status, device folders, storage and one recognizable file before changing settings.",
   "summary": "Separate an upload problem from a local-only picture or a different Google Account.",
   "published": "2026-11-19",
-  "modified": "2026-11-19",
+  "modified": "2026-11-20",
   "quickAnswer": "Start by confirming the Google Account and reading the backup status, then check one missing photo individually. A picture appearing in the Google Photos phone app is not proof of a cloud backup: the app can also show local files. Keep the original while you investigate.",
   "sections": [
     {
@@ -57,7 +57,7 @@ export const articles: Article[] = [
         "items": [
           {
             "title": "Backup is off.",
-            "text": "Decide whether you want automatic uploads to this account, then enable backup if that matches your intent."
+            "text": "Decide whether you want automatic uploads to this account. If your immediate goal is the chosen picture, use the manual check below. Enable automatic backup only when that broader scope matches your intent."
           },
           {
             "title": "Waiting for Wi-Fi or a connection.",
@@ -94,6 +94,34 @@ export const articles: Article[] = [
       ]
     },
     {
+      "id": "manual-upload-check",
+      "title": "Try one manual upload to narrow the problem",
+      "paragraphs": [
+        "If you want the selected picture in this Google Account, a manual upload gives you a specific action to observe. Google documents this option on both iPhone and Android. Keep the original and leave unrelated settings alone while checking the result."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Open the intended picture.",
+            "text": "Confirm the account first, then select the recognizable photo you identified earlier. Avoid selecting the whole collection for this check."
+          },
+          {
+            "title": "Request the upload.",
+            "text": "Tap Back up now. Google also documents a Back up button, or a Back up now option farther down the photo view."
+          },
+          {
+            "title": "Record what happens.",
+            "text": "Note whether the request succeeds or shows an error. If a storage warning appears, return to the account-capacity check. If the control is absent, inspect the item’s backup details before assuming it needs another upload."
+          },
+          {
+            "title": "Interpret the result narrowly.",
+            "text": "A successful manual upload confirms this item can reach the account under the current conditions. It does not establish that automatic backup, another folder or every remaining file will work. If automatic uploads remain missing, revisit their account, folder and connection settings."
+          }
+        ]
+      }
+    },
+    {
       "id": "verify-result",
       "title": "Verify the result before calling it fixed",
       "list": {
@@ -112,7 +140,11 @@ export const articles: Article[] = [
             "text": "If the problem remains, use Google’s linked troubleshooting page for your platform. Include the exact status, app version, file properties and what changed. Avoid posting private photographs or account details in a public help thread."
           }
         ]
-      },
+      }
+    },
+    {
+      "id": "after-backup",
+      "title": "Choose the next task after verifying the upload",
       "paragraphs": [
         "Once the upload is confirmed, use the backup-quality guide to decide whether the stored version suits later editing or printing. Use the download guide when you need that cloud picture back on the phone. Those are follow-up tasks; changing quality or repeatedly downloading is not a substitute for identifying the upload failure."
       ]
@@ -132,22 +164,22 @@ export const articles: Article[] = [
     {
       "title": "Google Photos: check your backup",
       "url": "https://support.google.com/photos/answer/9343402?hl=en",
-      "note": "Account, enabled-backup and timing checks, plus the iPhone/iPad foreground-app recommendation; checked November 19, 2026."
+      "note": "Account, enabled-backup and timing checks, plus the iPhone/iPad foreground-app recommendation; checked November 20, 2026."
     },
     {
       "title": "Google Photos: troubleshoot photos not backing up",
       "url": "https://support.google.com/photos/answer/6174018?co=GENIE.Platform%3DAndroid&hl=en",
-      "note": "Status messages, Android folder selection, upload limits and web verification. Use the platform selector for iPhone/iPad; checked November 19, 2026."
+      "note": "Status messages, Android folder selection, upload limits and web verification. Use the platform selector for iPhone/iPad; checked November 20, 2026."
     },
     {
       "title": "Google Photos: backup settings and per-photo details",
       "url": "https://support.google.com/photos/answer/6193313?co=GENIE.Platform%3DiOS&hl=en",
-      "note": "Local visibility, photo access, individual status, thumbnail indicators and variable upload duration; checked November 19, 2026."
+      "note": "Manual upload, local visibility, photo access, per-item status and variable duration. Both iPhone and Android versions checked November 20, 2026; use the platform selector."
     },
     {
       "title": "Google One: how your Google storage works",
       "url": "https://support.google.com/googleone/answer/9312312?hl=en",
-      "note": "Shared account storage and the effect of exceeding the quota on new photo backups; checked November 19, 2026."
+      "note": "Shared account storage and the effect of exceeding the quota on new photo backups; checked November 20, 2026."
     }
   ],
   "related": [
