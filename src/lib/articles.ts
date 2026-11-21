@@ -30,6 +30,179 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "recover-deleted-google-photos",
+  "title": "How to recover deleted photos in Google Photos",
+  "description": "Restore Google Photos from Trash, check missing pictures in the right account, and understand when recovery ends. Includes iPhone and Android checks.",
+  "summary": "Find the right recovery route without confusing a cloud library, phone gallery and separate saved copy.",
+  "published": "2026-11-21",
+  "modified": "2026-11-21",
+  "quickAnswer": "Open Google Photos in the intended account, then go to Collections > Trash, select the picture and choose Restore. This works only while the item remains in Trash. If it is absent, check other locations before concluding it was permanently deleted.",
+  "sections": [
+    {
+      "id": "restore-from-trash",
+      "title": "Restore the picture before doing more cleanup",
+      "paragraphs": [
+        "Pause any cleanup while you look for the missing image. Do not empty Trash, reset the phone or remove a photo app as an attempt to bring a picture back. Start with the recovery control rather than a larger change to your library."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Confirm the account.",
+            "text": "Read the email address under your profile picture. Google identifies using a different account as one reason photos can appear missing."
+          },
+          {
+            "title": "Open Trash.",
+            "text": "On iPhone or Android, open Collections > Trash in Google Photos. Touch and hold the picture you want."
+          },
+          {
+            "title": "Restore the selection.",
+            "text": "Tap Restore. Google says the item returns to its library and the albums it belonged to."
+          },
+          {
+            "title": "Verify the result.",
+            "text": "Find the restored picture and open it fully. Compare the scene, crop and date with the version you meant to recover. For several images, keep a checklist so one successful restoration does not stand in for the whole set."
+          }
+        ]
+      }
+    },
+    {
+      "id": "recovery-window",
+      "title": "Check the current recovery window",
+      "paragraphs": [
+        "Google’s restoration and deletion pages, checked November 21, 2026, state that Trash items are permanently deleted after 30 days. Emptying Trash or permanently deleting an item ends that recovery route sooner. Restore an available item promptly rather than waiting for the deadline.",
+        "Use the current official instructions linked below when checking a time limit. A remembered rule or an older search snippet is a poor basis for deciding how long an important photograph can wait."
+      ]
+    },
+    {
+      "id": "missing-is-not-deleted",
+      "title": "If Trash is empty, identify where the picture last existed",
+      "paragraphs": [
+        "An empty Trash view does not establish that every possible copy has disappeared. Google’s missing-photo guide points to the account, backup state, dates and device folders. Match the next check to what you actually remember doing."
+      ],
+      "table": {
+        "headers": [
+          "What happened",
+          "Where to look next"
+        ],
+        "rows": [
+          [
+            "You switched accounts or phones",
+            "Check the account that held the photo and whether it ever finished backing up."
+          ],
+          [
+            "You organized the library",
+            "Look in Archive or Locked Folder. The comparison guide below explains their different visibility rules."
+          ],
+          [
+            "You saved a picture from another app",
+            "On Android, check Collections > On this device and the relevant folder."
+          ],
+          [
+            "You remember the image but not its date",
+            "Search around the likely capture date; imported or scanned files can have an unexpected timestamp."
+          ],
+          [
+            "You deleted it in the phone’s gallery",
+            "Check that gallery’s recovery area too. Google Photos Trash and a device gallery are not interchangeable locations."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "after-device-cleanup",
+      "title": "After Free up space, check for the surviving cloud copy",
+      "paragraphs": [
+        "Google documents that Free up space removes eligible device copies while keeping the backed-up pictures accessible in Google Photos and on its website. A photo missing from the phone’s built-in gallery after that action may therefore need downloading, rather than restoration from Google Photos Trash.",
+        "Compare one recognizable image in the correct account at photos.google.com with the local gallery. If it remains in the cloud library, use the download-to-phone guide below. If you pressed Delete instead, follow the Trash check first. Our Free up space versus Delete guide explains the difference in more detail.",
+        "For example, suppose a portrait disappears from your Android gallery immediately after device cleanup but still opens in the web library. Write down those two observations. They support looking for a usable local copy; they do not show that every photograph from the cleanup is safe. This is a suggested diagnostic example, not a device test."
+      ]
+    },
+    {
+      "id": "iphone-restoration",
+      "title": "On iPhone, check Apple Photos separately",
+      "paragraphs": [
+        "Restoring an item in Google Photos does not by itself establish that it is back in Apple Photos. Google’s iPhone instructions provide a separate download step for adding a restored picture to the gallery. The selected-download guide below covers finding and checking that local copy.",
+        "If you removed the picture in Apple Photos, follow the iPhone recovery guide below for its Recently Deleted workflow. Keep a note of which app you used for deletion; that detail helps you choose the appropriate recovery area without repeatedly changing unrelated settings."
+      ]
+    },
+    {
+      "id": "permanent-deletion",
+      "title": "When restoration is unavailable, look for an independent copy",
+      "paragraphs": [
+        "Google says permanently deleted content cannot be recovered through Google Photos or Google Takeout. Takeout exports existing data; starting an export does not reverse deletion.",
+        "Look for an original you previously exported, an earlier archive you already downloaded, or a copy sent in a message. These are possible surviving files, not guaranteed recovery methods. Finding a thumbnail, a shared link or the name of an old archive is not enough: locate and open the actual image.",
+        "Compare any surviving version with what you need. A small messaging copy may preserve the memory while lacking the detail required for a large print. An edited crop may omit part of the original frame. Keep useful candidates without claiming that one is the camera original unless you can establish that.",
+        "Once you have the best available version, retain a separate copy and verify that it opens before restarting cleanup. If no retained file exists and the Google Photos item is permanently gone, this guide cannot promise to reconstruct it."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Google Takeout recover photos after I empty Trash?",
+      "answer": "No. Google explicitly excludes permanently deleted content from Takeout recovery. A previously downloaded archive is worth checking only because it may already contain a separate copy."
+    },
+    {
+      "question": "What should I record before asking for help?",
+      "answer": "Note the account, approximate capture date, app used for deletion, action taken and locations already checked. Keep screenshots of relevant status messages, but remove private details before sharing them publicly."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos: restore recently deleted photos and videos",
+      "url": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Mobile restoration, retention limits and the separate iPhone gallery-download step. iPhone and Android variants checked November 21, 2026."
+    },
+    {
+      "title": "Google Photos: find lost photos and videos",
+      "url": "https://support.google.com/photos/answer/6306652?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Account, backup, dates, device folders and the limit of Takeout. Checked November 21, 2026."
+    },
+    {
+      "title": "Google Photos: delete photos and videos",
+      "url": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Current Trash retention and permanent-deletion limits. Checked November 21, 2026."
+    },
+    {
+      "title": "Google Photos: free up space on your device",
+      "url": "https://support.google.com/photos/answer/6128843?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Surviving cloud copies, local-gallery access and the separate gallery recovery area. Checked November 21, 2026."
+    }
+  ],
+  "related": [
+    "download-google-photos-to-phone",
+    "google-photos-free-up-space-vs-delete",
+    "google-photos-archive-vs-locked-folder",
+    "recover-deleted-iphone-photos"
+  ],
+  "image": "blog/pexels-7129664-4k.webp",
+  "imageAlt": "Hands at a laptop displaying a set of portrait photographs",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-7129664-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-7129664-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-7129664-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-7129664-4k.webp",
+      "width": 2560
+    }
+  ],
+  "imageCredit": {
+    "name": "Michael Burrows",
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+  },
+  "caption": "Illustrative photograph of a photo-editing workspace; not a Google Photos interface or a recovery test."
+},
+{
   "slug": "google-photos-not-backing-up",
   "title": "Google Photos not backing up? Start with these checks",
   "description": "Find why a Google Photos picture has not backed up. Check the account, upload status, device folders, storage and one recognizable file before changing settings.",
@@ -2334,6 +2507,7 @@ export const articles: Article[] = [
     }
   ],
   "related": [
+    "recover-deleted-google-photos",
     "google-photos-not-backing-up",
     "google-photos-original-vs-storage-saver",
     "icloud-photos-sync-vs-backup",

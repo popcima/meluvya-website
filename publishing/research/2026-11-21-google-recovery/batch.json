@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-21",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "261a5f0e24a5605f2c033467efd70b7d63e4742b",
+  "baseline": {
+    "articles": 116,
+    "publishedToday": 0,
+    "queuedUnpublished": 0,
+    "deployment": 44746164233,
+    "deploymentStatus": "success",
+    "primaryClean": true
+  },
+  "newArticles": [
+    "recover-deleted-google-photos"
+  ],
+  "updatedArticles": [],
+  "relatedLinkOnly": [
+    "google-photos-free-up-space-vs-delete"
+  ],
+  "editorialDecision": "One new recovery intent: Google Photos restoration and missing-photo triage. Existing Apple Photos recovery uses a different library; Google cleanup and download guides are linked rather than duplicated.",
+  "keywordMapping": {
+    "id": "recover-deleted-google-photos",
+    "primaryKeyword": "recover deleted google photos",
+    "relatedKeywords": [
+      "restore google photos from trash",
+      "google photos deleted photos missing",
+      "recover permanently deleted google photos"
+    ],
+    "intent": "Restore an available trashed item, distinguish missing from deleted pictures, and identify honest recovery limits.",
+    "status": "included_in_publication_commit",
+    "articleSlug": "recover-deleted-google-photos",
+    "validation": "Distinct from Apple Photos recovery, Google upload/download and cleanup decisions. Primary Google Help checked November 21; query demand remains unknown.",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsProvider": null,
+    "metricsGeography": null,
+    "metricsPeriod": null,
+    "researchRecord": "research/2026-11-21-google-recovery/batch.json"
+  },
+  "research": {
+    "provider": "Free web search and primary Google Help",
+    "query": "site:support.google.com/photos restore recently deleted photos videos trash 60 days 30 days Android iPhone",
+    "geography": "English worldwide target; actual search location uncontrolled",
+    "retrieved": "2026-11-21",
+    "period": null,
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "limitations": "Search results do not establish demand. Older forum results show different retention wording; current primary help explicitly says 30 days."
+  },
+  "searchConsole": {
+    "freshDataAvailable": false,
+    "latestEvidence": "../2026-11-17-partner-sharing/search-console.json",
+    "reason": "No authenticated browser connector or fresh export available. Blocked paid tools not retried.",
+    "indexingRequest": "None; new URL will enter existing sitemap; indexing not asserted."
+  },
+  "sources": [
+    {
+      "title": "Google Photos: restore recently deleted photos and videos",
+      "url": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Mobile restoration, retention limits and the separate iPhone gallery-download step. iPhone and Android variants checked November 21, 2026."
+    },
+    {
+      "title": "Google Photos: find lost photos and videos",
+      "url": "https://support.google.com/photos/answer/6306652?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Account, backup, dates, device folders and the limit of Takeout. Checked November 21, 2026."
+    },
+    {
+      "title": "Google Photos: delete photos and videos",
+      "url": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Current Trash retention and permanent-deletion limits. Checked November 21, 2026."
+    },
+    {
+      "title": "Google Photos: free up space on your device",
+      "url": "https://support.google.com/photos/answer/6128843?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Surviving cloud copies, local-gallery access and the separate gallery recovery area. Checked November 21, 2026."
+    }
+  ],
+  "additionalPlatformSource": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DAndroid&hl=en",
+  "asset": {
+    "record": "publishing/image-sources.json",
+    "master": "blog/pexels-7129664-4k.webp",
+    "credit": {
+      "name": "Michael Burrows",
+      "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+    },
+    "reusedLicensedAsset": true
+  },
+  "validation": {
+    "status": "PASS: technical checks and independent editorial review",
+    "content": "117 articles; 1 new November 21; 29 remaining; baseline checked",
+    "lint": "PASS (direct Node invocation of existing eslint script; npm unavailable on PATH)",
+    "build": "PASS Next 16.4.6 webpack; SITE_URL=https://meluvya.com; empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "130 routes; 117 article pages; 6698 local links/assets",
+    "seo": "117 guides discoverable and attributed; unique canonicals/titles/descriptions; dates match schema",
+    "browser": "PASS 390/768/1280; images decoded; no console/page errors or global overflow; both store dialogs, Escape and focus restoration",
+    "mobileTable": "Focusable horizontal scroll confirmed: client356/scroll480/scrollLeft124",
+    "visual": "Desktop hero, mobile restoration section, both table sides and CTA inspected",
+    "pagination": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      9
+    ],
+    "sitemap": "130 URLs; new article lastmod November21; robots sitemap retained",
+    "domain": "GitHub Pages cname meluvya.com; HTTPS enforced",
+    "preservation": "115 unrelated article objects unchanged; one existing related-link addition; all 116 existing dates unchanged",
+    "sources": "5 Google GET200; existing licensed Pexels credit403 documented exact exception",
+    "evidenceDirectory": "work/blog-google-recovery-20261121",
+    "editorial": {
+      "score": 93,
+      "blocking": false,
+      "p0": 0,
+      "nonce": "05744dad3cd7d6a12da2a2d12331f77c",
+      "report": "editorial-review.md",
+      "bindingsVerified": true
+    }
+  },
+  "publication": {
+    "state": "Approved for publication; deployment evidence recorded in work/blog-google-recovery-20261121",
+    "url": "https://meluvya.com/blog/recover-deleted-google-photos/"
+  }
+}

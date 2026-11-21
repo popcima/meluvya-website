@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "language": "en",
   "audience": "Worldwide",
   "metricsStatus": "SEMScoop returned broad seed estimates on 2026-10-20; see research/2026-10-20-keyword-evidence/metrics.json. Exact article queries remain unmeasured. Null means unknown. No article is labeled high-volume or low-competition.",
@@ -1847,6 +1847,25 @@
       "metricsGeography": null,
       "metricsPeriod": null,
       "researchRecord": "research/2026-11-20-manual-backup-update/batch.json"
+    },
+    {
+      "id": "recover-deleted-google-photos",
+      "primaryKeyword": "recover deleted google photos",
+      "relatedKeywords": [
+        "restore google photos from trash",
+        "google photos deleted photos missing",
+        "recover permanently deleted google photos"
+      ],
+      "intent": "Restore an available trashed item, distinguish missing from deleted pictures, and identify honest recovery limits.",
+      "status": "included_in_publication_commit",
+      "articleSlug": "recover-deleted-google-photos",
+      "validation": "Distinct from Apple Photos recovery, Google upload/download and cleanup decisions. Primary Google Help checked November 21; query demand remains unknown.",
+      "monthlySearchVolume": null,
+      "organicDifficulty": null,
+      "metricsProvider": null,
+      "metricsGeography": null,
+      "metricsPeriod": null,
+      "researchRecord": "research/2026-11-21-google-recovery/batch.json"
     }
   ]
 }

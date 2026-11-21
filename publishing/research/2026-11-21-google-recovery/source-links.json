@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DiOS&hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DiOS&hl=en",
+    "retrieved": "2026-11-21",
+    "method": "GET"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6306652?co=GENIE.Platform%3DAndroid&hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6306652?co=GENIE.Platform%3DAndroid&hl=en",
+    "retrieved": "2026-11-21",
+    "method": "GET"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DAndroid&hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DAndroid&hl=en",
+    "retrieved": "2026-11-21",
+    "method": "GET"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6128843?co=GENIE.Platform%3DAndroid&hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6128843?co=GENIE.Platform%3DAndroid&hl=en",
+    "retrieved": "2026-11-21",
+    "method": "GET"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DAndroid&hl=en",
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DAndroid&hl=en",
+    "retrieved": "2026-11-21",
+    "method": "GET"
+  },
+  {
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/",
+    "status": 403,
+    "finalUrl": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/",
+    "retrieved": "2026-11-21",
+    "method": "GET"
+  }
+]
