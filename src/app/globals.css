@@ -390,7 +390,15 @@ footer nav a:hover { color: var(--cyan); }
 .article-answer { grid-area: answer; margin-bottom: 48px; padding: 27px 30px; border-left: 2px solid #74bccf; background: linear-gradient(110deg, rgb(32 75 99 / 20%), rgb(32 75 99 / 3%)); }
 .article-answer h2 { margin-bottom: 10px; font-size: 17px; line-height: 26px; }
 .article-answer p { font-size: 16px; line-height: 28px; }
-.article-table-wrap { max-width: 100%; overflow-x: auto; margin-top: 24px; border: 1px solid var(--line); border-radius: 10px; }
+.article-table { container: article-table / inline-size; margin-top: 24px; }
+.article-content .article-table-hint { display: none; margin: 0 0 10px; color: #a9d9ec; font-size: 13px; line-height: 22px; }
+@container article-table (max-width: 481px) {
+  .article-content .article-table-hint { display: block; }
+}
+.article-section-links ul { list-style: none; padding: 0; }
+.article-section-links li { padding: 0; margin-bottom: 10px; }
+.article-section-links a { color: #a9d9ec; text-underline-offset: 4px; }
+.article-table-wrap { max-width: 100%; overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
 .article-table-wrap:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
 .article-table-wrap table { width: 100%; min-width: 480px; border-collapse: collapse; text-align: left; }
 .article-table-wrap th, .article-table-wrap td { padding: 16px; vertical-align: top; border-bottom: 1px solid var(--line); font-size: 13px; line-height: 22px; }

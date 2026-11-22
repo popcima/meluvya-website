@@ -2,6 +2,7 @@ export type ArticleSection = {
   id: string;
   title: string;
   paragraphs?: string[];
+  guideLinks?: { slug: string; label: string }[];
   list?: { ordered?: boolean; items: { title?: string; text: string }[] };
   table?: { headers: string[]; rows: string[][] };
 };
@@ -35,7 +36,7 @@ export const articles: Article[] = [
   "description": "Restore Google Photos from Trash, check missing pictures in the right account, and understand when recovery ends. Includes iPhone and Android checks.",
   "summary": "Find the right recovery route without confusing a cloud library, phone gallery and separate saved copy.",
   "published": "2026-11-21",
-  "modified": "2026-11-21",
+  "modified": "2026-11-22",
   "quickAnswer": "Open Google Photos in the intended account, then go to Collections > Trash, select the picture and choose Restore. This works only while the item remains in Trash. If it is absent, check other locations before concluding it was permanently deleted.",
   "sections": [
     {
@@ -70,7 +71,7 @@ export const articles: Article[] = [
       "id": "recovery-window",
       "title": "Check the current recovery window",
       "paragraphs": [
-        "Google’s restoration and deletion pages, checked November 21, 2026, state that Trash items are permanently deleted after 30 days. Emptying Trash or permanently deleting an item ends that recovery route sooner. Restore an available item promptly rather than waiting for the deadline.",
+        "Google’s restoration and deletion pages, checked November 22, 2026, state that Trash items are permanently deleted after 30 days. Emptying Trash or permanently deleting an item ends that recovery route sooner. Restore an available item promptly rather than waiting for the deadline.",
         "Use the current official instructions linked below when checking a time limit. A remembered rule or an older search snippet is a poor basis for deciding how long an important photograph can wait."
       ]
     },
@@ -107,7 +108,17 @@ export const articles: Article[] = [
             "Check that gallery’s recovery area too. Google Photos Trash and a device gallery are not interchangeable locations."
           ]
         ]
-      }
+      },
+      "guideLinks": [
+        {
+          "slug": "google-photos-archive-vs-locked-folder",
+          "label": "Find photos in Archive or Locked Folder"
+        },
+        {
+          "slug": "google-photos-not-backing-up",
+          "label": "Check whether a missing photo backed up"
+        }
+      ]
     },
     {
       "id": "after-device-cleanup",
@@ -116,6 +127,16 @@ export const articles: Article[] = [
         "Google documents that Free up space removes eligible device copies while keeping the backed-up pictures accessible in Google Photos and on its website. A photo missing from the phone’s built-in gallery after that action may therefore need downloading, rather than restoration from Google Photos Trash.",
         "Compare one recognizable image in the correct account at photos.google.com with the local gallery. If it remains in the cloud library, use the download-to-phone guide below. If you pressed Delete instead, follow the Trash check first. Our Free up space versus Delete guide explains the difference in more detail.",
         "For example, suppose a portrait disappears from your Android gallery immediately after device cleanup but still opens in the web library. Write down those two observations. They support looking for a usable local copy; they do not show that every photograph from the cleanup is safe. This is a suggested diagnostic example, not a device test."
+      ],
+      "guideLinks": [
+        {
+          "slug": "download-google-photos-to-phone",
+          "label": "Download the surviving photo to your phone"
+        },
+        {
+          "slug": "google-photos-free-up-space-vs-delete",
+          "label": "Compare Free up space with Delete"
+        }
       ]
     },
     {
@@ -124,6 +145,12 @@ export const articles: Article[] = [
       "paragraphs": [
         "Restoring an item in Google Photos does not by itself establish that it is back in Apple Photos. Google’s iPhone instructions provide a separate download step for adding a restored picture to the gallery. The selected-download guide below covers finding and checking that local copy.",
         "If you removed the picture in Apple Photos, follow the iPhone recovery guide below for its Recently Deleted workflow. Keep a note of which app you used for deletion; that detail helps you choose the appropriate recovery area without repeatedly changing unrelated settings."
+      ],
+      "guideLinks": [
+        {
+          "slug": "recover-deleted-iphone-photos",
+          "label": "Recover a photo deleted in Apple Photos"
+        }
       ]
     },
     {
@@ -139,8 +166,8 @@ export const articles: Article[] = [
   ],
   "faq": [
     {
-      "question": "Can Google Takeout recover photos after I empty Trash?",
-      "answer": "No. Google explicitly excludes permanently deleted content from Takeout recovery. A previously downloaded archive is worth checking only because it may already contain a separate copy."
+      "question": "Could the missing picture be inside a photo stack?",
+      "answer": "Yes. Google’s Android missing-photo guide recommends opening a Photo stack, then using the thumbnail menu > Multi-select to see its pictures. Check the individual images before treating the stack’s cover as the only photo present. This is a visibility check, not deleted-file recovery."
     },
     {
       "question": "What should I record before asking for help?",
@@ -151,22 +178,22 @@ export const articles: Article[] = [
     {
       "title": "Google Photos: restore recently deleted photos and videos",
       "url": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DiOS&hl=en",
-      "note": "Mobile restoration, retention limits and the separate iPhone gallery-download step. iPhone and Android variants checked November 21, 2026."
+      "note": "Mobile restoration, retention limits and the separate iPhone gallery-download step. iPhone and Android variants checked November 22, 2026."
     },
     {
       "title": "Google Photos: find lost photos and videos",
       "url": "https://support.google.com/photos/answer/6306652?co=GENIE.Platform%3DAndroid&hl=en",
-      "note": "Account, backup, dates, device folders and the limit of Takeout. Checked November 21, 2026."
+      "note": "Account, backup, dates, device folders, photo stacks and the limit of Takeout. Checked November 22, 2026."
     },
     {
       "title": "Google Photos: delete photos and videos",
       "url": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DAndroid&hl=en",
-      "note": "Current Trash retention and permanent-deletion limits. Checked November 21, 2026."
+      "note": "Current Trash retention and permanent-deletion limits. Checked November 22, 2026."
     },
     {
       "title": "Google Photos: free up space on your device",
       "url": "https://support.google.com/photos/answer/6128843?co=GENIE.Platform%3DAndroid&hl=en",
-      "note": "Surviving cloud copies, local-gallery access and the separate gallery recovery area. Checked November 21, 2026."
+      "note": "Surviving cloud copies, local-gallery access and the separate gallery recovery area. Checked November 22, 2026."
     }
   ],
   "related": [
@@ -15175,7 +15202,7 @@ export function getArticle(slug: string) {
 }
 
 export function articleWordCount(article: Article) {
-  const text = [article.summary, article.quickAnswer, ...article.sections.flatMap((section) => [section.title, ...(section.paragraphs ?? []), ...(section.list?.items.map((item) => `${item.title ?? ""} ${item.text}`) ?? []), ...(section.table?.rows.flat() ?? [])]), ...article.faq.flatMap((item) => [item.question, item.answer])].join(" ");
+  const text = [article.summary, article.quickAnswer, ...article.sections.flatMap((section) => [section.title, ...(section.paragraphs ?? []), ...(section.list?.items.map((item) => `${item.title ?? ""} ${item.text}`) ?? []), ...(section.table?.rows.flat() ?? []), ...(section.guideLinks?.map((link) => link.label) ?? [])]), ...article.faq.flatMap((item) => [item.question, item.answer])].join(" ");
   return text.split(/\s+/).filter(Boolean).length;
 }
 

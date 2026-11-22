@@ -70,6 +70,11 @@ export function validateArticles(articles, today, baseline = null) {
     }
   }
   for (const article of articles) {
+    for (const section of article.sections || []) {
+      for (const link of section.guideLinks || []) {
+        if (!filled(link.label) || link.slug === article.slug || !slugs.has(link.slug)) errors.push(`${article.slug}/${section.id}: invalid guide link ${link.slug}`);
+      }
+    }
     for (const related of article.related || []) {
       if (related === article.slug || !slugs.has(related)) errors.push(`${article.slug}: invalid related link ${related}`);
     }

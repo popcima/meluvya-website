@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "d66a7105f83fb19a278cb9ea52939804e08031c5",
+  "baseline": {
+    "articles": 117,
+    "publishedToday": 0,
+    "queuedUnpublished": 0,
+    "deployment": 44940450283,
+    "deploymentStatus": "success",
+    "clean": true
+  },
+  "newArticles": [],
+  "updatedArticles": [
+    "recover-deleted-google-photos"
+  ],
+  "editorialDecision": "Address concrete November21 review findings on the existing recovery URL. Add section-local help links, replace a repeated Takeout FAQ with documented Android stack visibility guidance, and give narrow comparison tables a scroll cue. These needs do not justify a new article.",
+  "dates": {
+    "publishedUnchanged": "2026-11-21",
+    "modified": "2026-11-22",
+    "reason": "New missing-photo troubleshooting guidance and actionable contextual navigation; other article dates unchanged."
+  },
+  "keywordMapping": {
+    "id": "recover-deleted-google-photos",
+    "primaryKeyword": "recover deleted google photos",
+    "relatedKeywords": [
+      "restore google photos from trash",
+      "google photos deleted photos missing",
+      "recover permanently deleted google photos"
+    ],
+    "intent": "Restore an available trashed item, distinguish missing from deleted pictures, and identify honest recovery limits.",
+    "status": "included_in_publication_commit",
+    "articleSlug": "recover-deleted-google-photos",
+    "validation": "Existing recovery guide improved with contextual next-step links, a documented Android photo-stack visibility check and clearer mobile table navigation. No new URL or measured-demand claim.",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsProvider": null,
+    "metricsGeography": null,
+    "metricsPeriod": null,
+    "researchRecord": "research/2026-11-22-recovery-navigation/batch.json"
+  },
+  "research": {
+    "provider": "Free primary Google Help pages",
+    "query": "Existing recovery/missing-photo intent; primary documentation rechecked",
+    "geography": "English worldwide target; no measured query geography",
+    "retrieved": "2026-11-22",
+    "period": null,
+    "monthlySearchVolume": null,
+    "organicDifficulty": null
+  },
+  "searchConsole": {
+    "freshDataAvailable": false,
+    "reason": "No authenticated browser connector or fresh export available; blocked services not retried.",
+    "latestEvidence": "../2026-11-17-partner-sharing/search-console.json",
+    "indexingRequest": "None; unchanged URL not resubmitted; no indexing claim."
+  },
+  "sources": [
+    {
+      "title": "Google Photos: restore recently deleted photos and videos",
+      "url": "https://support.google.com/photos/answer/9343482?co=GENIE.Platform%3DiOS&hl=en",
+      "note": "Mobile restoration, retention limits and the separate iPhone gallery-download step. iPhone and Android variants checked November 22, 2026."
+    },
+    {
+      "title": "Google Photos: find lost photos and videos",
+      "url": "https://support.google.com/photos/answer/6306652?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Account, backup, dates, device folders, photo stacks and the limit of Takeout. Checked November 22, 2026."
+    },
+    {
+      "title": "Google Photos: delete photos and videos",
+      "url": "https://support.google.com/photos/answer/6128858?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Current Trash retention and permanent-deletion limits. Checked November 22, 2026."
+    },
+    {
+      "title": "Google Photos: free up space on your device",
+      "url": "https://support.google.com/photos/answer/6128843?co=GENIE.Platform%3DAndroid&hl=en",
+      "note": "Surviving cloud copies, local-gallery access and the separate gallery recovery area. Checked November 22, 2026."
+    }
+  ],
+  "asset": {
+    "record": "publishing/image-sources.json",
+    "master": "blog/pexels-7129664-4k.webp",
+    "credit": {
+      "name": "Michael Burrows",
+      "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+    },
+    "unchanged": true
+  },
+  "validation": {
+    "status": "PASS; independent editorial review 95/100 with zero P0 issues",
+    "content": "117articles;0newtoday;all first publication dates preserved",
+    "lint": "PASS direct existing eslint command",
+    "build": "PASS Next16.4.6webpack;SITE_URL=https://meluvya.com;emptyNEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "130routes;117articles;6820local links/assets",
+    "seo": "117guides discoverable and attributed;7visible modified dates; schema/canonicals valid",
+    "browser": "PASS320/390/768/1280;5contextual links; actual navigation; both CTA dialogs,Escape,focus restoration;decoded images;no errors/global overflow",
+    "table": "Hint matches actual overflow on all tested widths; keyboard focus and horizontal scrolling retained",
+    "regression": "Goldenhour and iCloudcomparison guides PASS390px",
+    "pagination": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      9
+    ],
+    "sitemap": "130URLs;existing recoveryURL lastmodNov22;robots sitemap retained",
+    "preservation": "116otherarticleobjects unchanged;all117published dates retained",
+    "validator": "Missing contextual slug and empty link label rejected",
+    "sources": "4GoogleGET200;licensedPexelscredit403exactexception",
+    "evidenceDirectory": "work/blog-recovery-navigation-20261122",
+    "environment": "Original dependency reads stalled. Managed worktree tool could not verify sourceRoot. Used temporary clean Git clone at same baseline with npm ci --ignore-scripts from unchanged lockfile; no dependencies changed.",
+    "editorialReview": {
+      "path": "editorial-review.md",
+      "score": 95,
+      "blocking": false,
+      "nonce": "a60ac5e59da10940fe6dcc63aa3afbd3"
+    }
+  },
+  "publication": {
+    "state": "Reviewed and approved for publication; deployment verified separately after push",
+    "url": "https://meluvya.com/blog/recover-deleted-google-photos/"
+  }
+}
