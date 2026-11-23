@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-23",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "da31dce491e5b89b2907325400fa54f65b952a4c",
+  "baseline": {
+    "articles": 117,
+    "publishedToday": 0,
+    "queuedUnpublished": 0,
+    "deployment": 45046305499,
+    "deploymentStatus": "success",
+    "clean": true
+  },
+  "newArticles": [],
+  "updatedArticles": [
+    "google-photos-free-up-space-vs-delete"
+  ],
+  "editorialDecision": "Extend the current cleanup comparison instead of creating a competing page for Undo backup or keeping phone copies. The existing table names the operation but lacks scope, album effects, automatic-backup behavior and next steps. No new URL is justified.",
+  "keywordMapping": {
+    "id": "google-photos-free-up-space-vs-delete",
+    "primaryKeyword": "google photos free up space vs delete",
+    "relatedKeywords": [
+      "free up space Google Photos iPhone",
+      "Google Photos local copies",
+      "google photos undo backup",
+      "remove google photos backup keep on phone"
+    ],
+    "intent": "Recover device storage without accidentally deleting cloud library items.",
+    "status": "included_in_publication_commit",
+    "articleSlug": "google-photos-free-up-space-vs-delete",
+    "validation": "Expanded the existing storage-choice guide with documented Undo backup scope, album effects and re-upload caveats. Intent grouped on the same URL; no measured-demand claim.",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsProvider": null,
+    "metricsGeography": null,
+    "metricsPeriod": null,
+    "researchRecord": "research/2026-11-23-storage-choice/batch.json"
+  },
+  "research": {
+    "provider": "Free web search and primary Google Photos and Apple support documentation",
+    "queries": [
+      "Google Photos undo device backup keep photos device",
+      "site:support.apple.com 108782 iCloud photos delete one device all devices optimize storage"
+    ],
+    "geography": "English worldwide audience; no measured query geography",
+    "retrieved": "2026-11-23",
+    "period": null,
+    "monthlySearchVolume": null,
+    "organicDifficulty": null
+  },
+  "searchConsole": {
+    "freshDataAvailable": false,
+    "reason": "No authenticated Search Console tool or fresh export available; blocked paid providers not retried.",
+    "latestEvidence": "../2026-11-17-partner-sharing/search-console.json",
+    "indexingRequest": "None; existing URL not resubmitted and indexing not asserted."
+  },
+  "sources": [
+    {
+      "title": "Google Photos: Free up space on your device",
+      "url": "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DiOS",
+      "note": "Device cleanup, the same-item Recently Deleted step on iPhone and offline/gallery access. Rechecked November 23, 2026."
+    },
+    {
+      "title": "Google Photos: Delete photos and videos",
+      "url": "https://support.google.com/photos/answer/6128858?hl=en&co=GENIE.Platform%3DiOS",
+      "note": "Deletion scope, Undo backup and re-upload caveats. iPhone and Android instructions rechecked November 23, 2026; select your platform."
+    },
+    {
+      "title": "Google Photos: Back up photos and videos",
+      "url": "https://support.google.com/photos/answer/6193313?hl=en",
+      "note": "Account storage, the Backup switch and per-item status. Rechecked November 23, 2026."
+    },
+    {
+      "title": "Apple: Set up and use iCloud Photos",
+      "url": "https://support.apple.com/en-us/108782",
+      "note": "Synchronized deletion and Optimize Storage. Rechecked November 23, 2026. The cross-service warning is an inference from Apple and Google’s documented behavior."
+    }
+  ],
+  "supplementalSources": [
+    {
+      "url": "https://support.google.com/photos/answer/6128858?hl=en&co=GENIE.Platform%3DAndroid",
+      "note": "Cross-check Android Undo backup scope and menu path."
+    }
+  ],
+  "asset": {
+    "record": "publishing/image-sources.json",
+    "master": "blog/pexels-7129664-4k.webp",
+    "credit": {
+      "name": "Michael Burrows",
+      "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/"
+    },
+    "unchanged": true
+  },
+  "validation": {
+    "status": "PASS: technical checks and independent editorial review",
+    "content": "117 articles; zero new November23; baseline checked",
+    "lint": "PASS existing eslint command",
+    "build": "PASS Next16.4.6 webpack; SITE_URL=https://meluvya.com; empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "130 routes;117 article pages;6705 local links/assets",
+    "seo": "117 linked and attributed;8 visible updated dates; canonical/schema checks passed",
+    "browser": "PASS 320/390/768/1280; 3 contextual links; actual guide navigation; both store coming-soon dialogs, Escape, focus restoration; images decoded; no overflow or page/console errors",
+    "visual": "390px new section inspected; readable with clear link and no clipping",
+    "preservation": "116 other article objects unchanged; all117 first-publication dates unchanged",
+    "sources": "5 primary GET200; exact existing Pexels403 credit exception documented",
+    "sitemap": "130 existingURLs; target lastmodNovember23; robots sitemap retained",
+    "environment": "Original dependency reads stalled; task-owned checks stopped. Managed worktree request yielded no result and no Git worktree was created. Clean temporary clone at same baseline with unchanged locked dependencies used for validation.",
+    "evidenceDirectory": "work/blog-storage-choice-20261123",
+    "pagination": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      9
+    ],
+    "editorialReview": {
+      "score": 95,
+      "blocking": false,
+      "p0": 0,
+      "nonce": "d9f42d260fac69ce5779d00afa851f69",
+      "report": "editorial-review.md",
+      "bindingsVerified": true
+    }
+  },
+  "publication": {
+    "state": "Approved for publication; deployment checked separately after push",
+    "url": "https://meluvya.com/blog/google-photos-free-up-space-vs-delete/"
+  }
+}

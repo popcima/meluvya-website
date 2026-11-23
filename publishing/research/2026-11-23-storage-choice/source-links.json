@@ -1,0 +1,55 @@
+[
+  {
+    "url": "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DiOS",
+    "retrieved": "2026-11-23",
+    "headStatus": 404,
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DiOS",
+    "method": "GET",
+    "capture": "source-0.html"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6128858?hl=en&co=GENIE.Platform%3DiOS",
+    "retrieved": "2026-11-23",
+    "headStatus": 404,
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6128858?hl=en&co=GENIE.Platform%3DiOS",
+    "method": "GET",
+    "capture": "source-1.html"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6193313?hl=en",
+    "retrieved": "2026-11-23",
+    "headStatus": 404,
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6193313?hl=en",
+    "method": "GET",
+    "capture": "source-2.html"
+  },
+  {
+    "url": "https://support.apple.com/en-us/108782",
+    "retrieved": "2026-11-23",
+    "headStatus": 200,
+    "status": 200,
+    "finalUrl": "https://support.apple.com/en-us/108782",
+    "method": "GET",
+    "capture": "source-3.html"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6128858?hl=en&co=GENIE.Platform%3DAndroid",
+    "retrieved": "2026-11-23",
+    "headStatus": 404,
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6128858?hl=en&co=GENIE.Platform%3DAndroid",
+    "method": "GET",
+    "capture": "source-4.html"
+  },
+  {
+    "url": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/",
+    "retrieved": "2026-11-23",
+    "headStatus": 403,
+    "status": 403,
+    "finalUrl": "https://www.pexels.com/photo/photographer-working-on-laptop-at-workplace-7129664/",
+    "method": "GET"
+  }
+]

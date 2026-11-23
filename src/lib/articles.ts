@@ -2430,7 +2430,7 @@ export const articles: Article[] = [
   "description": "Clear phone storage without confusing local removal with deleting your Google Photos library. Check backup status and the extra iCloud risk on iPhone.",
   "summary": "Choose the cleanup action that matches the storage you want to recover, and verify a separate copy before removing originals.",
   "published": "2026-10-25",
-  "modified": "2026-10-25",
+  "modified": "2026-11-23",
   "quickAnswer": "Free up space removes eligible device copies that Google Photos has backed up. Delete removes items from your Google Photos library and can also remove them from connected devices. Before either action, confirm the account and backup. On an iPhone using iCloud Photos, removing items from Apple Photos can also remove them from iCloud.",
   "sections": [
     {
@@ -2456,7 +2456,7 @@ export const articles: Article[] = [
           ],
           [
             "Undo device backup",
-            "Remove the device-backed-up set from Google Photos while keeping device copies; not a phone-space cleanup tool."
+            "Remove cloud copies of items currently on this device while keeping local copies."
           ]
         ]
       }
@@ -2468,6 +2468,12 @@ export const articles: Article[] = [
         "An image appearing in the mobile app is not enough for this decision. Confirm the intended Google Account, inspect backup status, and find the same important images at photos.google.com. Google’s backup documentation explains the account and per-item checks.",
         "For irreplaceable pictures, keep an additional copy outside the library you are cleaning. Open several files at that destination. Include a recent photo, an older favorite and any image imported from another app; a successful sample is useful evidence, but it does not verify every file.",
         "Also decide whether you need the original capture quality. Our related backup-quality guide explains Original quality and Storage saver. A smaller cloud copy cannot replace an original you later discover you needed."
+      ],
+      "guideLinks": [
+        {
+          "slug": "google-photos-not-backing-up",
+          "label": "Check the account and backup status of a missing upload"
+        }
       ]
     },
     {
@@ -2492,12 +2498,33 @@ export const articles: Article[] = [
       }
     },
     {
+      "id": "keep-phone-copies",
+      "title": "When you want phone copies to stay",
+      "paragraphs": [
+        "Undo backup removes Google Photos copies of items currently on this device, including Locked Folder items, but keeps device copies. Those items also leave albums, shared albums, search and memories.",
+        "Open profile > Photos settings > Backup > Undo backup. Read Google’s deletion guide before confirming. Backup switches off on that device; other devices or re-enabling backup may upload files again.",
+        "Before proceeding, open the intended files in the phone’s own gallery and keep an independent copy you have checked. Write down what must remain available offline. Do not use a device-wide action when you meant to change one picture."
+      ],
+      "guideLinks": [
+        {
+          "slug": "download-google-photos-to-phone",
+          "label": "Download a Google Photos picture to your phone"
+        }
+      ]
+    },
+    {
       "id": "iphone-icloud",
       "title": "On iPhone, account for iCloud Photos too",
       "paragraphs": [
         "Apple documents that deleting an item from a library using iCloud Photos propagates that deletion to its other devices. Combining that behavior with Google’s device-cleanup instructions means you should not assume the Apple/iCloud copy will survive this cleanup. This is a cross-service consequence, not a promise made by Google’s backup badge.",
         "If keeping the iCloud library is your priority, review Apple’s Optimize Storage option instead of deleting library items. If you deliberately retain Google copies and remove Apple copies, verify the Google files first and understand that the services will no longer hold identical collections.",
         "For example, a family may want its shared Apple library intact even though one phone is nearly full. In that situation, stop before cleanup and choose a device-storage solution that preserves the family’s intended library. The quickest deletion is not always the right storage decision."
+      ],
+      "guideLinks": [
+        {
+          "slug": "icloud-photos-sync-vs-backup",
+          "label": "Understand iCloud sync before deleting library items"
+        }
       ]
     }
   ],
@@ -2509,35 +2536,37 @@ export const articles: Article[] = [
     {
       "question": "Should I empty every item in Recently Deleted?",
       "answer": "Do not empty unrelated items as part of this process. Verify the surviving copies and follow the instructions for the same items you deliberately removed; permanent deletion removes that recovery option."
+    },
+    {
+      "question": "Does turning Backup off remove existing uploads?",
+      "answer": "Turning automatic backup off is not a deletion action. Google documents separate selected-item and device-wide removal procedures in the deletion guide below."
     }
   ],
   "sources": [
     {
       "title": "Google Photos: Free up space on your device",
       "url": "https://support.google.com/photos/answer/6128843?hl=en&co=GENIE.Platform%3DiOS",
-      "note": "Device removal, the iPhone Recently Deleted step, and access after cleanup; use the platform selector for Android."
+      "note": "Device cleanup, the same-item Recently Deleted step on iPhone and offline/gallery access. Rechecked November 23, 2026."
     },
     {
       "title": "Google Photos: Delete photos and videos",
-      "url": "https://support.google.com/photos/answer/6128858?hl=en",
-      "note": "Library deletion effects and the distinct Undo backup operation."
+      "url": "https://support.google.com/photos/answer/6128858?hl=en&co=GENIE.Platform%3DiOS",
+      "note": "Deletion scope, Undo backup and re-upload caveats. iPhone and Android instructions rechecked November 23, 2026; select your platform."
     },
     {
       "title": "Google Photos: Back up photos and videos",
       "url": "https://support.google.com/photos/answer/6193313?hl=en",
-      "note": "Backup/account checks and shared Google Account storage."
+      "note": "Account storage, the Backup switch and per-item status. Rechecked November 23, 2026."
     },
     {
       "title": "Apple: Set up and use iCloud Photos",
       "url": "https://support.apple.com/en-us/108782",
-      "note": "Synchronized deletion and Optimize Storage. The cross-service warning is an inference from Apple and Google’s documented behavior."
+      "note": "Synchronized deletion and Optimize Storage. Rechecked November 23, 2026. The cross-service warning is an inference from Apple and Google’s documented behavior."
     }
   ],
   "related": [
     "recover-deleted-google-photos",
-    "google-photos-not-backing-up",
     "google-photos-original-vs-storage-saver",
-    "icloud-photos-sync-vs-backup",
     "edit-photos-without-losing-original"
   ],
   "image": "blog/pexels-7129664-4k.webp",
