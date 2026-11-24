@@ -31,6 +31,185 @@ const date = "2026-10-19";
 
 export const articles: Article[] = [
 {
+  "slug": "fix-google-photos-face-labels",
+  "title": "How to fix wrong face labels in Google Photos",
+  "description": "Correct a mistaken face match or the Me label in Google Photos, then check the result before reorganizing more of your library.",
+  "summary": "A practical way to correct a mistaken match and check the surrounding photos before making more changes.",
+  "published": "2026-11-24",
+  "modified": "2026-11-24",
+  "image": "blog/pexels-6210595-4k.webp",
+  "imageAlt": "Four friends posing for a photograph outdoors",
+  "imagePosition": "50% 50%",
+  "imageVariants": [
+    {
+      "src": "blog/pexels-6210595-480.webp",
+      "width": 480
+    },
+    {
+      "src": "blog/pexels-6210595-960.webp",
+      "width": 960
+    },
+    {
+      "src": "blog/pexels-6210595-1600.webp",
+      "width": 1600
+    },
+    {
+      "src": "blog/pexels-6210595-4k.webp",
+      "width": 3840
+    }
+  ],
+  "imageCredit": {
+    "name": "PICHA",
+    "url": "https://www.pexels.com/photo/friends-getting-their-group-photo-taken-6210595/"
+  },
+  "caption": "Illustrative stock photograph; not a Google Photos screenshot or a Meluvya result.",
+  "quickAnswer": "Open the incorrectly labeled photo in Google Photos and correct its face assignment from the information panel. Keep the photograph; deleting it is not a labeling fix. Start with one clear example, then inspect the result before repeating the change.",
+  "sections": [
+    {
+      "id": "identify-the-mismatch",
+      "title": "Identify which label is wrong",
+      "paragraphs": [
+        "Before changing anything, open a picture where you can confidently recognize the people. Note its date and a distinguishing detail, such as the setting or clothing. This gives you a reference you can find again without relying on the disputed name.",
+        "Use the smallest example that demonstrates the problem. A group portrait with several similar-looking relatives is a harder starting point than a clear solo picture. Leave uncertain faces for later."
+      ],
+      "table": {
+        "headers": [
+          "What you noticed",
+          "First check"
+        ],
+        "rows": [
+          [
+            "One picture under the wrong person",
+            "Compare the face assignment with the person actually visible."
+          ],
+          [
+            "A whole group appears mislabeled",
+            "Inspect several pictures before deciding whether the name or membership is wrong."
+          ],
+          [
+            "Searching for yourself finds someone else",
+            "Check the account’s Me selection as well as the individual picture."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "correct-one-photo",
+      "title": "Correct one photo on Android or iPhone",
+      "paragraphs": [
+        "Google documents the following route in its mobile apps. Open Google Photos rather than your phone’s other gallery app."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "text": "Open the picture and swipe upward to reveal its information."
+          },
+          {
+            "text": "In People & pets, open the incorrect face label’s More menu."
+          },
+          {
+            "text": "Choose Select other face group, pick the correct person and finish with Done. To remove the assignment instead, choose Remove from this photo."
+          }
+        ]
+      }
+    },
+    {
+      "id": "check-me",
+      "title": "If the wrong person is marked as Me",
+      "paragraphs": [
+        "The Me selection identifies your own face group for personalized search and creations. Google’s separate instructions for Android and iPhone put it under your profile picture, Google Photos settings, then Privacy. Open Face labeled as \"Me\" and choose yourself; the same screen also offers removal of that label.",
+        "Treat this as a separate check. For example, if a family member appears when you search for yourself, first inspect the account’s self-label. Do not rename that family member’s entire collection just to make one search look right."
+      ]
+    },
+    {
+      "id": "verify-the-correction",
+      "title": "Check the picture and nearby frames",
+      "paragraphs": [
+        "Google warns that changing a face assignment can update other photos of that person. Removing an item from a face group does not delete the library photo. Those are good reasons to verify the picture and the grouping separately."
+      ],
+      "list": {
+        "ordered": true,
+        "items": [
+          {
+            "title": "Reopen the reference picture.",
+            "text": "Compare its people and information with the example you chose. Check the relevant face, especially in a photograph containing several people."
+          },
+          {
+            "title": "Find the retained photograph.",
+            "text": "Return to the library and locate the reference by its date and visual details. Confirm that you are opening the intended original or edit, not a similar frame."
+          },
+          {
+            "title": "Inspect the destination group.",
+            "text": "Look at the corrected item alongside a few older and newer pictures. Check both people’s groups when the initial mistake involved two relatives."
+          },
+          {
+            "title": "Expand gradually.",
+            "text": "If the result makes sense, handle another clear mismatch. If it remains confusing, record the affected photo and stop bulk changes until you understand the difference."
+          }
+        ]
+      },
+      "guideLinks": [
+        {
+          "slug": "google-photos-archive-vs-locked-folder",
+          "label": "If the picture itself is hard to find, compare Archive and Locked Folder."
+        }
+      ]
+    },
+    {
+      "id": "missing-controls",
+      "title": "If the correction controls are missing",
+      "paragraphs": [
+        "Face grouping and its editing options are not available for every region or account. Missing controls alone do not establish that a picture was deleted.",
+        "Avoid using the grouping switch as a casual reset. Google’s retention policy says turning it off deletes the account’s groups, face models and labels. Decide whether you actually want that removal before changing the setting.",
+        "For a concrete example, imagine two siblings photographed at the same picnic. One mistaken match is a reason to inspect that picture, not evidence that every photo from the day is wrong. Check a solo frame of each sibling next. This is a suggested review exercise, not a report of a device test."
+      ],
+      "guideLinks": [
+        {
+          "slug": "recover-deleted-google-photos",
+          "label": "If you deleted a photo while troubleshooting, check the Google Photos recovery guide."
+        },
+        {
+          "slug": "google-photos-not-backing-up",
+          "label": "If the photo is missing on another device, check its backup status separately."
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why not correct every similar-looking face at once?",
+      "answer": "Work from examples you recognize confidently. If you are unsure who appears in a frame, leave that assignment for later instead of extending a guess across the collection."
+    },
+    {
+      "question": "What should I include when asking for help?",
+      "answer": "Describe the expected person, what appears instead, your device and whether the problem affects one photo or a whole group. If you include an example image, use one you have permission to share and remove unrelated personal details."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Photos: manage face groups",
+      "url": "https://support.google.com/photos/answer/6128838?hl=en&co=GENIE.Platform%3DAndroid",
+      "note": "Photo corrections, broader updates and availability. Android and iPhone instructions checked November 24, 2026; use the platform selector."
+    },
+    {
+      "title": "Google Photos: label your own face group",
+      "url": "https://support.google.com/photos/answer/7378566?hl=en&co=GENIE.Platform%3DiOS",
+      "note": "The separate Me setting and its mobile route. Android and iPhone instructions checked November 24, 2026."
+    },
+    {
+      "title": "Google Photos: Face Groups retention policy",
+      "url": "https://support.google.com/photos/answer/11965565",
+      "note": "What turning off face grouping removes. Checked November 24, 2026."
+    }
+  ],
+  "related": [
+    "google-photos-archive-vs-locked-folder",
+    "recover-deleted-google-photos",
+    "google-photos-not-backing-up"
+  ]
+},
+{
   "slug": "recover-deleted-google-photos",
   "title": "How to recover deleted photos in Google Photos",
   "description": "Restore Google Photos from Trash, check missing pictures in the right account, and understand when recovery ends. Includes iPhone and Android checks.",
@@ -7832,6 +8011,7 @@ export const articles: Article[] = [
     }
   ],
   "related": [
+    "fix-google-photos-face-labels",
     "stop-sharing-google-photos-album",
     "google-photos-original-vs-storage-saver",
     "edit-photos-without-losing-original",

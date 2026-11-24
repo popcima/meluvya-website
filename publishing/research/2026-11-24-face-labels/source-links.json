@@ -1,0 +1,55 @@
+[
+  {
+    "url": "https://support.google.com/photos/answer/6128838?hl=en&co=GENIE.Platform%3DAndroid",
+    "retrieved": "2026-11-24",
+    "headStatus": 404,
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6128838?hl=en&co=GENIE.Platform%3DAndroid",
+    "method": "GET",
+    "capture": "source-0.html"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/7378566?hl=en&co=GENIE.Platform%3DiOS",
+    "retrieved": "2026-11-24",
+    "headStatus": 404,
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/7378566?hl=en&co=GENIE.Platform%3DiOS",
+    "method": "GET",
+    "capture": "source-1.html"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/11965565",
+    "retrieved": "2026-11-24",
+    "headStatus": 404,
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/11965565",
+    "method": "GET",
+    "capture": "source-2.html"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/6128838?hl=en&co=GENIE.Platform%3DiOS",
+    "retrieved": "2026-11-24",
+    "headStatus": 404,
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/6128838?hl=en&co=GENIE.Platform%3DiOS",
+    "method": "GET",
+    "capture": "source-3.html"
+  },
+  {
+    "url": "https://support.google.com/photos/answer/7378566?hl=en&co=GENIE.Platform%3DAndroid",
+    "retrieved": "2026-11-24",
+    "headStatus": 404,
+    "status": 200,
+    "finalUrl": "https://support.google.com/photos/answer/7378566?hl=en&co=GENIE.Platform%3DAndroid",
+    "method": "GET",
+    "capture": "source-4.html"
+  },
+  {
+    "url": "https://www.pexels.com/photo/friends-getting-their-group-photo-taken-6210595/",
+    "retrieved": "2026-11-24",
+    "headStatus": 403,
+    "status": 403,
+    "finalUrl": "https://www.pexels.com/photo/friends-getting-their-group-photo-taken-6210595/",
+    "method": "GET"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "retrieved": "2026-11-24",
+  "provider": "Google Photos Help; English mobile documentation",
+  "claimMapping": [
+    {
+      "section": "correct-one-photo; verify-the-correction; missing-controls",
+      "source": "6128838 Android and iOS",
+      "evidence": "Photo info panel supports reassignment/removal; reassignment may update other photos; group removal does not delete library items; availability varies.",
+      "captures": [
+        "source-0.txt",
+        "source-3.txt"
+      ]
+    },
+    {
+      "section": "check-me",
+      "source": "7378566 Android and iOS",
+      "evidence": "Profile > Google Photos settings > Privacy > Face labeled as Me. Selection supports personalized search/creations.",
+      "captures": [
+        "source-1.txt",
+        "source-4.txt"
+      ]
+    },
+    {
+      "section": "missing-controls",
+      "source": "11965565",
+      "evidence": "Turning off Face Groups removes groups, face models and labels.",
+      "captures": [
+        "source-2.txt"
+      ]
+    }
+  ],
+  "originalContribution": "Decision table, recognition-first example selection, retained-file and adjacent-frame verification, and a clearly hypothetical siblings example. These are editorial suggestions, not device-test results.",
+  "limits": "No app feature beyond existing shared Meluvya promotion asserted. No software hands-on test, search volume, ranking, or indexing claim. Primary guidance paraphrased briefly; platform variants treated as one source, not separate attribution allowances."
+}

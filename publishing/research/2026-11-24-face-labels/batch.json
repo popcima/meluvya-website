@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-24",
+  "timezone": "Africa/Casablanca",
+  "startingCommit": "dc253030bcf718f68a4102bac32478989a28244b",
+  "baseline": {
+    "articles": 117,
+    "publishedToday": 0,
+    "queuedUnpublished": 0,
+    "deployment": 45228876127,
+    "deploymentStatus": "success",
+    "clean": true
+  },
+  "newArticles": [
+    "fix-google-photos-face-labels"
+  ],
+  "updatedArticles": [],
+  "linkOnlyChanges": [
+    "google-photos-archive-vs-locked-folder"
+  ],
+  "editorialDecision": "One distinct guide for correcting mistaken face groups and the self-label. Keyword variants share one URL. Existing Google Photos guides cover backup, recovery, archiving and sharing; the Apple search guide concerns a different app. No new page for individual devices or synonyms.",
+  "keywordMapping": {
+    "id": "fix-google-photos-face-labels",
+    "primaryKeyword": "fix wrong face labels Google Photos",
+    "relatedKeywords": [
+      "Google Photos wrong person",
+      "Google Photos change face group",
+      "Google Photos wrong Me label"
+    ],
+    "intent": "Correct mistaken face assignments and the self-label while retaining the photo and checking the result.",
+    "status": "included_in_publication_commit",
+    "articleSlug": "fix-google-photos-face-labels",
+    "validation": "Distinct from backup, deletion, archive and Apple Photos search guides. Primary mobile instructions verified; exact query demand unmeasured.",
+    "monthlySearchVolume": null,
+    "organicDifficulty": null,
+    "metricsProvider": null,
+    "metricsGeography": null,
+    "metricsPeriod": null,
+    "researchRecord": "research/2026-11-24-face-labels/batch.json"
+  },
+  "research": {
+    "provider": "Free web search and primary Google Photos documentation",
+    "queries": [
+      "site:support.google.com/photos face groups wrong person remove results group photos name label"
+    ],
+    "geography": "English worldwide audience; no measured query geography",
+    "retrieved": "2026-11-24",
+    "period": null,
+    "monthlySearchVolume": null,
+    "organicDifficulty": null
+  },
+  "searchConsole": {
+    "freshDataAvailable": false,
+    "reason": "No authenticated Search Console tool or fresh export available; blocked paid providers not retried.",
+    "latestEvidence": "../2026-11-17-partner-sharing/search-console.json",
+    "indexingRequest": "None; new article will enter the existing sitemap. Indexing is not asserted."
+  },
+  "sources": [
+    {
+      "title": "Google Photos: manage face groups",
+      "url": "https://support.google.com/photos/answer/6128838?hl=en&co=GENIE.Platform%3DAndroid",
+      "note": "Photo corrections, broader updates and availability. Android and iPhone instructions checked November 24, 2026; use the platform selector."
+    },
+    {
+      "title": "Google Photos: label your own face group",
+      "url": "https://support.google.com/photos/answer/7378566?hl=en&co=GENIE.Platform%3DiOS",
+      "note": "The separate Me setting and its mobile route. Android and iPhone instructions checked November 24, 2026."
+    },
+    {
+      "title": "Google Photos: Face Groups retention policy",
+      "url": "https://support.google.com/photos/answer/11965565",
+      "note": "What turning off face grouping removes. Checked November 24, 2026."
+    }
+  ],
+  "supplementalSources": [
+    {
+      "url": "https://support.google.com/photos/answer/6128838?hl=en&co=GENIE.Platform%3DiOS",
+      "note": "Confirm the photo correction route on iPhone."
+    },
+    {
+      "url": "https://support.google.com/photos/answer/7378566?hl=en&co=GENIE.Platform%3DAndroid",
+      "note": "Confirm the Me setting on Android."
+    }
+  ],
+  "asset": {
+    "record": "publishing/image-sources.json",
+    "master": "blog/pexels-6210595-4k.webp",
+    "credit": {
+      "name": "PICHA",
+      "url": "https://www.pexels.com/photo/friends-getting-their-group-photo-taken-6210595/"
+    },
+    "existingLicensedAsset": true,
+    "visuallyInspected": true
+  },
+  "validation": {
+    "status": "PASS: technical checks and independent editorial review",
+    "content": "118 articles; 1 new on November 24; 29 remaining daily capacity; baseline checked",
+    "lint": "PASS",
+    "build": "PASS Next16.4.6 webpack; SITE_URL=https://meluvya.com; empty NEXT_PUBLIC_BASE_PATH",
+    "typecheck": "PASS",
+    "export": "131 routes; 118 articles; 6763 local links/assets",
+    "seo": "118 linked and attributed; canonicals, titles, descriptions and schema checked",
+    "browser": "PASS at 320/390/768/1280; 3 contextual links; actual navigation; both coming-soon dialogs; Escape and focus restoration; all images decoded; no global overflow or console/page errors",
+    "sources": "5 primary GET200 (HEAD404); exact existing Pexels403 credit exception",
+    "preservation": "All117 original article dates and prose retained; one incoming related-link addition only",
+    "pagination": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      10
+    ],
+    "sitemap": "131 URLs; new guide lastmod November24; robots sitemap preserved",
+    "environment": "Clean temporary clone at baseline with unchanged locked dependencies avoids previously observed cloud-backed dependency stalls. Original files not replaced or reset.",
+    "evidenceDirectory": "work/blog-face-labels-20261124",
+    "editorialReview": {
+      "score": 92,
+      "p0": 0,
+      "blocking": false,
+      "nonce": "8cfdbc1f01f9aa4d8ef2b57f17b400a9",
+      "record": "review.md",
+      "type": "Independent AI editorial review; not a human endorsement or ranking metric"
+    },
+    "visual": "Mobile hero and verification section, plus desktop hero, inspected; readable text and links without clipping."
+  }
+}
